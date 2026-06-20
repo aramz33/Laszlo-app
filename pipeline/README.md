@@ -21,6 +21,7 @@ Prérequis Supabase :
 python -m pipeline.main harvest   --set 260214 --limit 30   # OAI → data/raw/*.xml
 python -m pipeline.main enrich                  --limit 30   # Wikidata + Wikipedia → data/enriched/
 python -m pipeline.main refine                  --limit 30   # → data/refined/*.json
+python -m pipeline.main artist-qids             --limit 30   # backfill Q-id artistes → data/refined/
 python -m pipeline.main transform               --limit 30   # graphe + notices + hotspots (dry-run)
 python -m pipeline.main load                    --limit 30   # → Supabase + Storage
 python -m pipeline.main all        --set 260214               # tout, Top 1000

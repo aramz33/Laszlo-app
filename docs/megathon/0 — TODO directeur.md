@@ -16,18 +16,18 @@ date: 2026-06-20
 
 ### Adam / Codex — app, data, demo
 
-- [ ] **Sprint app 1** : ouvrir une œuvre depuis vraie DB ou mock compatible, afficher image + hotspots.
+- [x] **Sprint app 1** : ouvrir une œuvre depuis vraie DB ou mock compatible, afficher image + hotspots.
 - [ ] Implémenter les mocks locaux conformes au contrat :
-  - [ ] `/generate mode=hotspot` → JSON batch ;
-  - [ ] `/generate mode=ask` → simulation `delta/done` ;
-  - [ ] `/speak` → `audio_url` fixe ;
+  - [x] `/generate mode=hotspot` → JSON batch ;
+  - [x] `/generate mode=ask` → simulation `delta/done` ;
+  - [x] `/speak` → `audio_url` fixe ;
   - [ ] `/transcribe` → transcript fixe.
-- [ ] Brancher les états hotspot : `idle` → `loading` → `ready` / `fallback` / `error`.
-- [ ] Appliquer le fallback hotspot **3 s** : lire `narration_text`, puis remplacer si le texte perso arrive.
-- [ ] Préparer le client `/generate mode=ask` : chat libre, question depuis hotspot, point libre.
-- [ ] Préparer le lecteur audio depuis `audio_url` (`/speak`) avec voix/vitesse/ton côté UI.
+- [x] Brancher les états hotspot : `idle` → `loading` → `ready` / `fallback` / `error`.
+- [x] Appliquer le fallback hotspot **3 s** : lire `narration_text`, puis remplacer si le texte perso arrive.
+- [x] Préparer le client `/generate mode=ask` : chat libre texte + question depuis hotspot ; point libre remis après le checkpoint.
+- [x] Préparer le lecteur audio depuis `audio_url` (`/speak`) avec voix/vitesse/ton côté UI.
 - [ ] Préparer l'upload audio `/transcribe` en `multipart/form-data` (même si transcript mocké au début).
-- [ ] Garder QR/manual fallback prioritaire : même vue détail, même contrat runtime.
+- [x] Garder fallback manuel prioritaire : même vue détail, même contrat runtime.
 - [x] **Playbook crédits IA épuisés** : procédure ajoutée dans [[3 — Playbook & questions ouvertes]] et référencée dans `AGENTS.md` + `CLAUDE.md`.
 - [ ] **Convergence 1** : l'app appelle au moins un endpoint serveur/stub réel après 90 min.
 - [ ] **Convergence dure** : après 3 h, app branchée sur stub HTTP ou vrai serveur pour `/generate`.
@@ -76,17 +76,17 @@ date: 2026-06-20
 - [ ] Vérifier la **porte toolchain mobile** : Mac + Xcode + Android Studio/EAS + iPhone physique + Android physique
 - [x] Scaffold app mobile Expo React Native + ViroReact — `/app-mobile`
 - [x] **Panel flow (wireframe fonctionnel)** — leviers UI inventoriés → **contrat `f()` figé dans ADR 0014**.
-- [ ] **Recâbler l'app sur Supabase** (l'impl actuelle est jetable : importe un `demoArtworks` fantôme + client Supabase inutilisé) : fetch `artwork?select=*,hotspot(*)&ref_image_url=not.is.null`, mapping → domaine, charger **par salle** (phares pour la démo)
-- [ ] **Hotspots personnalisés** : à l'entrée dans la vue œuvre, lancer **un `POST /generate mode=hotspot` batch** avec les N hotspots, profil + langue ; le tap hotspot lit le texte généré prêt (fallback : `narration_text` brut après 3 s)
+- [x] **Recâbler l'app sur Supabase** : charge d'abord les phares `SK-A-2344` + `SK-C-5`, mapping domaine, fallback local si config/réseau casse.
+- [x] **Hotspots personnalisés** : à l'entrée dans la vue œuvre, lancer **un `/generate mode=hotspot` batch mock conforme** avec les N hotspots, profil + langue ; le tap hotspot lit le texte généré prêt (fallback : `narration_text` brut après 3 s)
   - [x] 🟡 Trancher : texte hotspot **personnalisé à chaque ouverture d'œuvre** (pas fixe, pas batch profil golden)
 - [ ] **Génération `f()` live** (`/generate mode=ask` streamé) sur : **chat libre**, **point placé par l'utilisateur** (tap libre sur l'œuvre + question), **conversation depuis un hotspot ancré** (grounding = hotspot généré + notices)
 - [ ] **Follow-ups** (`/generate mode=followups`) : 3 questions suggérées à chaque ouverture de hotspot + après un tour de chat ; tap → `mode=ask`
 - [ ] **Call persona** (`/generate mode=persona`) à la fin de l'onboarding → `persona_summary` stocké (AsyncStorage), réinjecté dans chaque appel `f()`
 - [ ] **Vue AR** : détection œuvre ViroReact (tracking targets) → **point bleu ancré**
 - [ ] Tap point → **vue détail 2D** de l'œuvre
-- [ ] **Hotspots** sur la vue détail (points pré-définis depuis la DB)
-- [ ] **Lecteur audio** des hotspots + contrôles **vitesse / ton / voix** (changeables à la volée) — *audio TTS généré **live** depuis le texte hotspot personnalisé, pas de pré-rendu*
-- [ ] **Champ question** (texte + voix) sous l'œuvre → déclenche `/generate mode=ask` ; marche avec ou sans hotspot/point sélectionné
+- [x] **Hotspots** sur la vue détail (points pré-définis depuis la DB ou mock)
+- [x] **Lecteur audio** des hotspots + contrôles **vitesse / ton / voix** (changeables à la volée) — branché sur mock `/speak` avec `audio_url`, pas de pré-rendu
+- [x] **Champ question texte** sous l'œuvre → déclenche `/generate mode=ask` mock ; marche avec ou sans hotspot sélectionné
 - [ ] **Fallback identification par modèle de vision** : capture du flux → vision (Claude) identifie l'œuvre → positionnement en **overlay 2D** (M31)
 - [ ] **Fallback sélection manuelle / QR / overlay 2D** prêt (même backend + même vue détail)
 - [ ] **Onboarding profil** : 3 questions skippables **ludiques**, **flux conditionnel** (la suite dépend des réponses), multi-sélection possible → axes neutres (allure/niveau/intérêt) (C1) — *wording = design*
@@ -113,6 +113,7 @@ date: 2026-06-20
 - [x] ~~Notices 4 facettes (LLM) + gate~~ → **changé** : `notice` = substrat neutre **1 ligne/source** (rijks `ok`, wikipedia `review`), **sans LLM** ; facettes = **lentilles runtime** (non stockées). cf. `data-model.md`
 - [x] **Auteur les hotspots** des phares (8 : 4×SK-C-5 + 4×SK-A-2344, coords + aspect + texte)
 - [x] **Charger** dans Supabase (upsert idempotent) — vérifié
+- [x] **Backfill `artist.wikidata_qid`** — 236 / 373 artistes résolus et vérifiés dans Supabase (2026-06-20)
 - [x] ~~Mock DB 2-3 œuvres~~ → superseded : vraies données en prod
 - [ ] ⛔ Ignorer le dataset « Challenge 2014 » — obsolète (set curé)
 
