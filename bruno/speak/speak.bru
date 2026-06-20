@@ -1,0 +1,35 @@
+meta {
+  name: speak
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{base_url}}/speak
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+  Authorization: Bearer {{anon_key}}
+}
+
+body:json {
+  {
+    "text": "Bonjour, je suis Laszlo. Observez la lumière sur le visage du capitaine.",
+    "lang": "fr",
+    "voice": "default"
+  }
+}
+
+assert {
+  res.status: eq 200
+  res.body.format: eq mp3
+}
+
+docs {
+  Text -> playable audio_url. STOPGAP provider = keyless Google TTS (robotic, ignores
+  voice/speed/tone) until the ElevenLabs key lands. The returned audio_url points to an
+  MP3 in Supabase Storage; open it to hear the result.
+}
