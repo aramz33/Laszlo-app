@@ -29,7 +29,7 @@ header `Authorization: Bearer <publishable key>`).
 ```bash
 deno test supabase/functions/                 # unit tests (offline, no flags)
 deno check supabase/functions/*/index.ts      # typecheck
-cd bruno && npx @usebruno/cli run --env Deployed   # full HTTP pipeline (14 reqs)
+cd bruno && npx @usebruno/cli run --env Deployed   # full HTTP pipeline (16 reqs)
 
 ./supabase/deploy.sh                # deploy all 4 functions
 ./supabase/deploy.sh generate       # deploy one
@@ -43,6 +43,21 @@ export SUPABASE_SERVICE_ROLE_KEY=$(grep -E '^SUPABASE_KEY=' .env | cut -d= -f2-)
 export MISTRAL_API_KEY=$(grep -E '^MISTRAL_API_KEY=' .env | cut -d= -f2-)          # speak provider=mistral
 deno run --allow-net --allow-env supabase/functions/generate/index.ts
 ```
+
+### Test layout (45 tests, all offline)
+
+- `<fn>/stub_test.ts` — pure helpers in `lib.ts` (prompts, parsing, chunking,
+  mapping).
+- `<fn>/handler_test.ts` — behavior of the HTTP handler via `handle(req, deps)`:
+  a `Request` in, a `Response` out, with the external boundaries (DB / LLM / STT
+  / vision / TTS engines / upload) **injected as fakes**. Covers routing,
+  validation, every mode, fallbacks, error paths.
+- `bruno/` — real HTTP against the deployed functions (live providers).
+
+To test a new function the same way: extract
+`export function handle(req, deps)`, guard the server with
+`if (import.meta.main) Deno.serve(...)`, read env lazily (inside calls), then
+write `handler_test.ts` passing fake `deps`. No flags, no network.
 
 ---
 
@@ -144,6 +159,8 @@ a quality bump, not a blocker.
 | --------------------------------------- | ------------------------------------------------------------------- |
 | Request/response of every endpoint      | `docs/adr/0014-…md` (canonical)                                     |
 | How the runtime fits together           | `supabase/functions/README.md`                                      |
+| Calling the API from the app            | `supabase/functions/API.md`                                         |
+| Resuming this lane from scratch         | `docs/HANDOFF-Siffrein.md`                                          |
 | One endpoint's details + test recipe    | `supabase/functions/<name>/README.md`                               |
 | Pure logic (prompts, parsing, chunking) | `supabase/functions/<name>/lib.ts`                                  |
 | HTTP plumbing / orchestration           | `supabase/functions/<name>/index.ts`                                |

@@ -1,7 +1,9 @@
 # Laszlo runtime — Supabase edge functions
 
 > 🧭 Operational first-read (run / test / deploy / what's next / FAQ):
-> **[../PLAYBOOK.md](../PLAYBOOK.md)**.
+> **[../PLAYBOOK.md](../PLAYBOOK.md)**. 📱 Calling these from the app?
+> **[API.md](API.md)**. Resuming the lane?
+> **[../../docs/HANDOFF-Siffrein.md](../../docs/HANDOFF-Siffrein.md)**.
 
 The server side of Laszlo: four Deno/TypeScript edge functions. The app talks to
 them over HTTPS; all provider keys (LLM / STT / TTS / vision) stay here, never
