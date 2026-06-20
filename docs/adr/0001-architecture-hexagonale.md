@@ -10,7 +10,8 @@ Cible produit progressive : web PWA (POC) → Rabbit R1 → lunettes type Meta. 
 
 Architecture **hexagonale (ports & adapters)**. Split :
 
-- **Front mince** (Next.js / PWA sur Vercel) : UI + transport audio uniquement.
+- **Front mince** (mobile React Native en premier, PWA ensuite si utile) : UI,
+  transport audio et adaptateur d'identification uniquement.
 - **Orchestrateur** (Python / FastAPI) : tout le chemin chaud — assemblage du contexte de session, streaming LLM, dispatch STT/TTS, Retriever. Déployé proche utilisateur (Fly.io/Railway) pour la latence.
 - **Supabase** : Postgres + auth.
 
@@ -26,9 +27,10 @@ Les ports sortants `LLM` et `TTS` exposent obligatoirement `cancel()` (requis pa
 La décision hexagonale reste la boussole, mais le build de 45h privilégie le
 chemin le plus court vers une démo live :
 
-- **Monorepo** : `/pipeline`, `/app-ios`, `/shared`, `/ui`.
-- **Client démo** : app native iOS Swift + ARKit/RealityKit, car ARKit impose
-  Xcode et donne reconnaissance + pose.
+- **Monorepo** : `/pipeline`, `/app-mobile`, `/shared`, `/ui`.
+- **Client démo** : app mobile Expo React Native. ViroReact est le premier
+  adaptateur `ArtworkIdentifier` pour la reconnaissance image + point ancré
+  (ARKit sur iOS, ARCore sur Android).
 - **PWA** : repli paywall/secondaire, sur Vercel ou Base44 selon décision track.
 - **Backend/pipeline** : lane Adam dans IntelliJ ; le schéma Supabase est le
   contrat entre lanes.
@@ -42,5 +44,6 @@ est remplacé après Megathon, le coeur produit ne doit pas changer.
 
 - (+) Passage web→R1→lunettes = ajout d'un adaptateur entrant, sans toucher la logique.
 - (+) Swap de fournisseur IA sans réécriture.
-- (−) Deux déploiements / deux langages pour une équipe de 2 → friction opérationnelle acceptée en échange du contrôle.
+- (−) ViroReact impose des builds natifs et des tests sur appareils physiques ;
+  Expo Go ne suffit pas pour l'AR.
 - L'artefact le plus soigné est **le protocole**, pas l'UI (couche jetable).

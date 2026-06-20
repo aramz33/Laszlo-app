@@ -26,3 +26,10 @@ data/
 
 # OS
 .DS_Store
+
+# Expo / React Native mobile app
+app-mobile/node_modules/
+app-mobile/.expo/
+app-mobile/dist/
+app-mobile/ios/
+app-mobile/android/

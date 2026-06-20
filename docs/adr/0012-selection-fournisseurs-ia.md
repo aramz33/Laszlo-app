@@ -37,7 +37,7 @@ validation du week-end. Les fournisseurs Megathon sont choisis pour shipper :
   compte disponible.
 - **LLM** : provider managé rapide ; grounding par notices chargées, pas par
   confiance aveugle dans le modèle.
-- **Vision** : ARKit image tracking, pas fournisseur IA externe.
+- **Vision** : ViroReact image tracking (ARKit iOS / ARCore Android), pas fournisseur IA externe.
 - **Paiement** : Mollie n'est pas un port IA, mais c'est un port business du
   happy path ; hosted checkout + webhook "premium unlocked".
 

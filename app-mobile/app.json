@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Laszlo",
+    "slug": "laszlo-mobile",
+    "scheme": "laszlo",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "app.laszlo.mobile",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Laszlo uses the camera to recognize artworks and place an AR entry point.",
+        "NSMicrophoneUsageDescription": "Laszlo uses the microphone for voice questions."
+      }
+    },
+    "android": {
+      "package": "app.laszlo.mobile",
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      [
+        "@reactvision/react-viro",
+        {
+          "ios": {
+            "cameraUsagePermission": "Laszlo uses the camera to recognize artworks and place an AR entry point.",
+            "microphoneUsagePermission": "Laszlo uses the microphone for voice questions."
+          }
+        }
+      ]
+    ]
+  }
+}

@@ -15,7 +15,7 @@ Lire d'abord :
 Il sert a synchroniser :
 
 - Aramsis : pipeline, backend, donnees, Supabase, paiement.
-- Siffrein : app iOS, ARKit, UX, integration mobile.
+- Siffrein : app mobile Expo React Native, ViroReact/AR, UX, integration mobile.
 
 A chaque decision ou avancee actee :
 

@@ -90,4 +90,4 @@ begin
   end loop;
 end $$;
 
--- Storage : créer un bucket public "artworks" (dashboard) pour les reference images ARKit.
+-- Storage : créer un bucket public "artworks" (dashboard) pour les reference images AR.

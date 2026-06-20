@@ -37,7 +37,7 @@ et au **sync ultérieur** (angles de médiation + gate groundedness LLM) — dé
    imageId IIIF direct (`edm:isShownBy`), filtre image + CC0 → `data/refined/*.json`.
 4. **Transform** : graphe `artist/movement/museum` + **notices par source** (rijks `ok`,
    wikipedia `review`) — **pas d'angles stockés** + hotspots des phares (main).
-5. **Load** : upsert idempotent Supabase + reference images ARKit (rendition IIIF) en
+5. **Load** : upsert idempotent Supabase + reference images AR (rendition IIIF) en
    Storage **pour les œuvres trackées** seulement.
 6. **Manual review** : Adam enrichit/révise les notices des phares (`review` → `ok`).
 

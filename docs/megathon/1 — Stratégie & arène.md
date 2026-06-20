@@ -20,7 +20,7 @@ On n'utilise pas le week-end pour brainstormer laszlo — on l'utilise comme **m
 3. Le tout doit **rentrer dans notre storyline** — on ne code rien qui ne serve pas le pitch.
 
 ## L'idée produit pour le week-end (coup d'œil)
-**Build broad, demo deep.** Un pipeline ingère une **tranche réelle du Rijksmuseum** (open data CC0) → prouve qu'on cure du contenu **à l'échelle** (la réponse à « comment tu remplis 1000 musées ? »). La **démo live va en profondeur sur 1–2 œuvres phares** (La Ronde de nuit, La Laitière) → c'est le wow voix. Reconnaissance **ancrée en AR (ARKit pur)** ; filets = overlay 2D / QR, cf. [[2 — Tech & build]].
+**Build broad, demo deep.** Un pipeline ingère une **tranche réelle du Rijksmuseum** (open data CC0) → prouve qu'on cure du contenu **à l'échelle** (la réponse à « comment tu remplis 1000 musées ? »). La **démo live va en profondeur sur 1–2 œuvres phares** (La Ronde de nuit, La Laitière) → c'est le wow voix. Reconnaissance **ancrée en AR via ViroReact** (ARKit iOS / ARCore Android) ; filets = sélection manuelle / QR / overlay 2D, cf. [[2 — Tech & build]].
 
 ## La vision (en clair)
 
@@ -181,8 +181,8 @@ Panel headline (11) — surtout **VCs + opérateurs** :
 - **Pourquoi :** CC0 = zéro risque de droits en livestream ; Linked Art mappe sur notre graphe ; œuvres iconiques pour la profondeur ; musée du jury = résonance locale.
 
 ### 4. Reconnaissance — comment on identifie l'œuvre ?
-- **Décision (20/06) :** **ARKit pur** pour la démo — ARKit image tracking fait *reconnaissance + pose* en un seul step (cf. [[2 — Tech & build]]). **Pas de similarity search embeddings au runtime.** Filets = overlay 2D + QR.
-- **Pourquoi :** pour un set curé, ARKit *est* la reconnaissance ; « pointe ton téléphone, un point se colle à l'œuvre » > scanner un QR. Les embeddings restent la **story d'échelle du pitch** (reco open-world, 60M œuvres) + un chantier post-hackathon. La CV/AR live = **risque n°1** → bascule overlay 2D horodatée (cf. [[3 — Playbook & questions ouvertes]]).
+- **Décision révisée (20/06) :** **Expo React Native + ViroReact** pour la démo produit. ViroReact fournit le tracking image et le point ancré, en utilisant ARKit sur iOS et ARCore sur Android. **Pas de similarity search embeddings au runtime.** Filets = sélection manuelle + QR + overlay 2D.
+- **Pourquoi :** l'horizon produit est cross-platform mobile et agent-friendly. Pour notre besoin AR étroit (identifier une œuvre plate, afficher un point, ouvrir la vue détail), ViroReact garde l'app en TypeScript sans sacrifier l'ancrage. Les embeddings restent la **story d'échelle du pitch** (reco open-world, 60M œuvres) + un chantier post-hackathon.
 
 ### 5. Angle business — comment on prouve la valeur ?
 - **Décision :** **paywall Mollie** « débloquer le guide premium » + viser **headline + Vapi**, stacker Devin / Build-in-Public / (Cala à investiguer).
@@ -230,9 +230,9 @@ Panel headline (11) — surtout **VCs + opérateurs** :
 | M9 | Priorité build : **voix-phare → pipeline breadth → reconnaissance bonus** | ✅ acté |
 | M10 | **Stacking tracks** : core Vapi + headline ; quasi-gratuit Devin / Build-in-Public / Wispr ; **Cala à investiguer** ; Base44 conditionnel | ✅ acté |
 | M11 | **Parallélisation** : découpe hexagonale, **contrat = schéma Supabase** figé au SYNC 1, monorepo | ✅ acté |
-| M12 | **Reconnaissance spatiale = point ancré 3D via ARKit natif iOS** ; client démo **natif iOS**, PWA Vercel repli paywall. Détail : [[2 — Tech & build]] | 🔄 à valider Siffrein |
-| M13 | **Reconnaissance démo = ARKit pur** : ARKit image tracking fait reco + pose, **pas de similarity search embeddings au runtime**. Embeddings = story d'échelle (pitch) + post-hackathon. Filets = overlay 2D / QR | ✅ acté (Adam), à confirmer Siffrein |
-| M14 | **Codebase = monorepo** ; pipeline + backend en **IntelliJ** (Adam, Python reco) ; app AR native iOS en **Xcode/Swift** (Siffrein) | ✅ acté |
+| M12 | **Reconnaissance spatiale = point ancré 3D via ARKit natif iOS** ; client démo **natif iOS**, PWA Vercel repli paywall. Détail : [[2 — Tech & build]] | ☑️ remplacé par M25 |
+| M13 | **Reconnaissance démo = ARKit pur** : ARKit image tracking fait reco + pose, **pas de similarity search embeddings au runtime**. Embeddings = story d'échelle (pitch) + post-hackathon. Filets = overlay 2D / QR | ☑️ remplacé par M25 |
+| M14 | **Codebase = monorepo** ; pipeline + backend en **IntelliJ** (Adam, Python reco) ; app AR native iOS en **Xcode/Swift** (Siffrein) | ☑️ remplacé par M25/M26 |
 | M15 | **Voix / TTS = OUVERT** : compte **ElevenLabs** dispo ; arbitrage ElevenLabs vs Vapi (track) à trancher **après recherche** ; pipeline gardé agnostique à la voix | 🔄 recherche (cf. [[3 — Playbook & questions ouvertes]]) |
 | **M16** | **Barge-in = hors happy path** : archi voix full-duplex **capable**, mais couper l'IA en cours de parole n'est pas dans le chemin de démo (« pas un vrai waouh », notes 20/06) → montré si stable, sinon **pitch-only**. Simplifie M15 (sans barge-in, ElevenLabs seul peut suffire) | ✅ acté |
 | **M17** | **Sélection des œuvres démo** (critères : classique / souvent mal comprise / pour enfants ; *abstrait hors Rijks*) + source → **à figer à la session dataset** | 🔄 session dataset |
@@ -251,10 +251,13 @@ Panel headline (11) — surtout **VCs + opérateurs** :
 | M19 | **Enrichissement multi-sources SANS LLM** : Rijks (métadonnées fiables) + **Wikidata** (Q-id, mouvement P135, tags P180/P136, sitelinks — pour les 747) + **Wikipedia** (narration, gate = article existant, repli Rijks). Notices par source (rijks `ok`, wikipedia `review`) | ✅ acté |
 | M20 | **Set Rijks = `26121`** (≠ `26021` = coquille), **747 œuvres**. IIIF imageId **direct** dans `edm:isShownBy` (pas de détour Linked Art pour l'image) | ✅ vérifié live |
 | M21 | **Architecture en 3 couches** : Connaissance (construite ce soir) → Personnalisation (profil 3 axes / persona / cadrage musée) → Mémoire (apprend dans le temps). Les **3 cadrans (Allure/Niveau/Centre d'intérêt) s'appliquent tous au runtime** ; perso+mémoire = designées + pitchées (sessions suivantes) | ✅ acté |
-| M22 | **ETL médaillon** (raw → enriched → refined → load), **Supabase direct** (pas de mock), client démo **natif iOS confirmé** (Adam = expert iOS), **pas de recrue n2**. LLM (faceting/génération) + TTS = déférés | ✅ acté |
+| M22 | **ETL médaillon** (raw → enriched → refined → load), **Supabase direct** (pas de mock), client démo alors **natif iOS confirmé** (Adam = expert iOS), **pas de recrue n2**. LLM (faceting/génération) + TTS = déférés | ☑️ front remplacé par M25/M26 |
 
 
 | M23 | **Corpus corrigé : `26121` → `260214` (Top 1000)**. Le set `26121` (catalogue Dutch 17e) **excluait les phares** (Night Watch/Laitière sont dans `260213`/`260214`) + ~6 % de couverture Wikipedia → mauvais pour un guide conversationnel. Top 1000 = **1040 masterpieces**, phares garantis, forte couverture Wikipedia. (M20 révisé) | ✅ acté (corpus réel vérifié) |
 
 
 | M24 | **Audio des hotspots = généré LIVE au runtime** (pas de pré-rendu). Cohérent avec notice-substrat : un fichier pré-rendu ne s'adapte pas (niveau/langue/voix). `audio_url` = cache optionnel seulement si la latence live casse le wow. Supprime l'étape TTS du pipeline. | ✅ acté |
+| M25 | **Frontend produit = Expo React Native + ViroReact**. ViroReact est le premier adaptateur `ArtworkIdentifier` (ARKit iOS / ARCore Android). Swift ARKit direct devient repli iOS si ViroReact bloque. | ✅ acté |
+| M26 | **Codebase mobile = `/app-mobile`**. Le produit UI/voix/chat reste en TypeScript pour maximiser la vélocité coding agents ; Expo dev builds sont acceptés pour l'AR. | ✅ acté |
+| M27 | **Surface AR réduite** : reconnaître l'œuvre, afficher un point ancré tappable, puis ouvrir une vue détail 2D. Pas de scène AR riche dans le chemin critique. | ✅ acté |

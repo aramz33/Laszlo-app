@@ -56,7 +56,7 @@ Pour chaque sujet ouvert :
 
 | SYNC | Doit sortir avec |
 |---|---|
-| **0 — Scoping** (ven 18:00, tél) | Scope confirmé · lanes · **front : natif iOS vs PWA (décision n°1)** · pitch recrutement prêt · **tranche Rijks + 1–2 œuvres phares** · logistique stand |
+| **0 — Scoping** (ven 18:00, tél) | Scope confirmé · lanes · **front : Expo React Native + ViroReact** · pitch recrutement prêt · **tranche Rijks + 1–2 œuvres phares** · logistique stand |
 | **1 — Kickoff build** (ven 20:45) | **Happy path de démo écrit** · **schéma Supabase figé** (le contrat) · tâches bloc A + « done » de la nuit · comptes/API créés |
 | **2 — Standup** (sam 08:30) | État happy path · bloqueurs · plan du matin · go/no-go pipeline |
 | **3 — Intégration midi** (sam 14:30) | 1er bout-en-bout validé · triage bugs · **go/no-go ARKit → bascule 2D** · gel du périmètre ? |
@@ -127,25 +127,25 @@ Pour chaque sujet ouvert :
 ## Questions ouvertes & risques
 
 ### À trancher avec Siffrein (SYNC 0/1)
-1. **Front / client** — acté côté Adam : client démo **natif iOS (ARKit)**, PWA Vercel en repli paywall/secondaire (révise M5/M8). **À confirmer Siffrein** au SYNC 0.
+1. **Front / client** — acté : client démo **Expo React Native + ViroReact** dans `/app-mobile`, PWA Vercel/Base44 en repli paywall/secondaire.
 2. **Voix / TTS — DÉCISION OUVERTE, recherche requise.** Compte **ElevenLabs** dispo. Arbitrage : (a) ElevenLabs TTS live + Vapi pour le live → garde la track Vapi ; (b) tout-ElevenLabs (Conversational AI) → perd la track Vapi ; (c) Vapi partout si le workflow est plus rapide. **Le downgrade barge-in (M16) simplifie : sans interruption, ElevenLabs seul peut suffire.** À trancher après recherche.
-3. **Reconnaissance** — acté : **ARKit pur** (embeddings = story d'échelle + post-hackathon, hors runtime). Filets = overlay 2D / QR. **À confirmer Siffrein.**
+3. **Reconnaissance** — acté : **ViroReact image tracking** (ARKit iOS / ARCore Android ; embeddings = story d'échelle + post-hackathon, hors runtime). Filets = sélection manuelle / QR / overlay 2D.
 4. **AR = priorité ou bonus ?** Dans M9 (voix-phare → breadth → reconnaissance), l'ancrage AR se place où ? *(reco : bonus coupable, voix-phare reste P1)*
 5. **Langage du pipeline** — Python *(reco : libs harvest/parse/LLM/Supabase ; tourne IntelliJ IDEA Ultimate ou PyCharm)* vs Kotlin/JVM (IntelliJ natif). À trancher (Adam).
 6. **Sélection des œuvres démo + tranche Rijks → SESSION DATASET.** Critères (notes 20/06) : 1 classique · 1 souvent mal comprise · 1 pour enfants · (1 abstraite *— hors collection Rijks* → soit on lâche, soit on élargit la source). + set (reco `26021` Dutch 17th c.) + nb d'œuvres + phares (Night Watch `SK-C-5`…).
 7. **Hotspots des phares** — qui les auteur, combien par œuvre, textes **ancrés** (Adam révise). Coords normalisées sur l'image.
 8. **Base44** — la PWA (repli) sur **Base44** (track « Prompt to Paid ») vs **Vercel** libre ?
 9. **Repo** — repartir vierge (penché) vs réutiliser `Laszlo-app/docs/` comme cache de décisions ?
-10. **Charge Siffrein / recrue n°2** — il porte app iOS + voix. Adam = curation/pipeline. Reconnaissance sacrifiable. **Recrue n°2 ML/full-stack** vendredi (en plus du designer) ?
+10. **Charge Siffrein / recrue n°2** — il porte app mobile + voix. Adam = curation/pipeline. Reconnaissance sacrifiable. **Recrue n°2 ML/full-stack** vendredi (en plus du designer) ?
 11. **Barge-in** — acté **hors happy path** (M16, archi capable, montré si stable). Reste seulement à décider la profondeur **si** on le tente (couper la voix vs full-duplex).
-12. **Qui tient l'iPhone** pour la boucle de test on-device pendant que Claude Code écrit le Swift ?
+12. **Qui tient les devices** pour la boucle de test on-device (iPhone + Android physique) pendant que Codex écrit le TypeScript ?
 
 ### Risques & mitigations
 | Risque | Impact | Mitigation |
 |---|---|---|
-| **Surcharge Siffrein** (app iOS + voix) | retard happy path | Adam = curation/pipeline + release valve · reconnaissance coupable en 1er · recrue n°2 si besoin |
-| **AR/CV en live** (lumière salle, reflets, anchors instables) | casse sur scène | **Go/no-go horodaté sam. midi → bascule overlay 2D** · **QR fallback** + **vidéo backup** · reco = bonus, pas dépendance |
-| **Porte toolchain iOS** (Mac/Xcode/iPhone/signature manquants) | pas d'app native | Vérifier vendredi soir · Apple ID gratuit suffit (provisioning 7j) · sinon repli PWA + overlay 2D |
+| **Surcharge Siffrein** (app mobile + voix) | retard happy path | Adam = curation/pipeline + release valve · reconnaissance coupable en 1er · recrue n°2 si besoin |
+| **AR/CV en live** (lumière salle, reflets, anchors instables) | casse sur scène | **Go/no-go ViroReact → sélection/QR/overlay 2D** · **QR fallback** + **vidéo backup** · reco = bonus, pas dépendance |
+| **Porte toolchain mobile** (build natif / device manquant) | pas d'AR live | Vérifier Expo dev build/EAS, Xcode et Android tôt · sinon repli sélection/QR + overlay 2D |
 | **Voix non tranchée** (ElevenLabs vs Vapi) | latence à câbler + qualif track Vapi | recherche dès vendredi · garder le pipeline agnostique (texte des hotspots) · décision au plus tard SYNC 1 |
 | **Breaking change OAI-PMH** (nouvelle version EDM, 11/06/2026) | parser qui casse | parser **défensif** / consommer en graphe · tester le harvest **tôt** (dans le train) |
 | **Scope blowup** | rien de fini dimanche | priorité build = loi (voix→pipeline→reco) · feature freeze dim. matin |
@@ -167,7 +167,7 @@ Pour chaque sujet ouvert :
 - [ ] **Impression** possible au venue ? sinon imprimer avant / venir avec.
 - [ ] Comptes & clés : **Mollie**, **Vapi**, **Vercel/Base44**, **API Rijks** (OAI-PMH sans clé, IIIF).
 - [ ] **Qui détient le compte Mollie** (qualif headline track).
-- [ ] **Toolchain AR** : Mac + Xcode + iPhone physique + Apple ID.
+- [ ] **Toolchain AR** : Expo dev build/EAS, Mac + Xcode, Android Studio si build local, iPhone + Android physiques.
 - [ ] **Vidéo backup** de la démo (avant nuit de samedi).
 - [ ] Claim du **builder kit** à l'onboarding (Codex, Devin, Nebius, Vapi, Base44…).
 

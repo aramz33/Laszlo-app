@@ -12,25 +12,25 @@ date: 2026-06-20
 
 - [x] 🟡 Figer le **schéma Supabase** (le contrat) au SYNC 1
   - [x] Créer le projet Supabase + exécuter le SQL (artist / movement / museum / artwork / notice / hotspot)
-  - [ ] Générer les types partagés (`/shared`) pour l'app iOS
+  - [ ] Générer les types partagés (`/shared`) pour l'app mobile
 - [ ] Exposer une **API de lecture** fine (œuvre + notices + hotspots) pour l'app
 - [ ] **Mollie serveur** : hosted checkout + webhook « débloquer premium »
 - [ ] Brancher clé Mollie **test** (dev) puis **live** (stand)
-- [x] Storage Supabase pour images HD + reference images ARKit
+- [x] Storage Supabase pour images HD + reference images AR
 - [ ] Déploiement backend (proche utilisateur)
 
 ## Frontend
 
-- [x] 🟡 Confirmer avec Siffrein : client = **natif iOS (ARKit)**, PWA en repli paywall (SYNC 0)
+- [x] 🟡 Décision frontend révisée : client = **Expo React Native + ViroReact** dans `/app-mobile`; Swift ARKit devient un repli iOS
 - [ ] 🟡 Décider : PWA sur **Base44** (track Prompt to Paid) vs **Vercel** libre
-- [ ] Vérifier la **porte toolchain** : Mac + Xcode + iPhone physique + Apple ID (vendredi soir)
-- [ ] Scaffold app iOS (Xcode/Swift, ARKit/RealityKit) — `/app-ios`
-- [ ] **Vue AR** : détection œuvre (reference images) → **point bleu ancré** (world-locked)
+- [ ] Vérifier la **porte toolchain mobile** : Mac + Xcode + Android Studio/EAS + iPhone physique + Android physique
+- [x] Scaffold app mobile Expo React Native + ViroReact — `/app-mobile`
+- [ ] **Vue AR** : détection œuvre ViroReact (tracking targets) → **point bleu ancré**
 - [ ] Tap point → **vue détail 2D** de l'œuvre
 - [ ] **Hotspots** sur la vue détail (points pré-définis depuis la DB)
 - [ ] **Lecteur audio** des hotspots + contrôles **vitesse / ton / voix** (changeables à la volée) — *audio généré **live** au runtime (M24), pas de pré-rendu*
 - [ ] **Chat libre** : poser des questions + taper hors hotspots → réponse vocale/texte
-- [ ] **Fallback overlay 2D** prêt (même backend + UI, rendu marqueur différent)
+- [ ] **Fallback sélection manuelle / QR / overlay 2D** prêt (même backend + même vue détail)
 - [ ] UI **paywall Mollie** dans l'app
 - [ ] (designer) Identité « doux sur le regard » + transitions + **écran « scale »** (N œuvres)
 
@@ -43,7 +43,7 @@ date: 2026-06-20
 - [x] **Parser EDM** → titres/desc EN-NL, créateur, `extent`, sujets, rights
 - [x] **Résoudre l'image IIIF** (Linked Art `?_profile=la` → `iiif.micr.io/{id}`)
 - [x] **Refine** : `extent` → height_cm/width_cm ; labels créateur/mouvement ; filtre HD + CC0
-- [x] **Download HD** + générer **reference images ARKit** → Storage
+- [x] **Download HD** + générer **reference images AR** → Storage
 - [x] **Multilingue pivot-EN** : garder la source, pivot EN, générer la langue visiteur (EN+NL déjà fournis par Rijks)
 - [x] **Enrich multi-source sans LLM** : Wikidata (Q-ids, mouvement P135, tags P180/P136) + Wikipedia (narratif, gate = article existe) — M19
 - [ ] **Notices = substrat neutre** (sans LLM cette semaine, M19) ; **angles de médiation = runtime** (M18) ; **LLM + gate groundedness différés** post-megathon
@@ -51,7 +51,7 @@ date: 2026-06-20
 - [x] **Auteur les hotspots** des phares (coords + aspect + texte) — `hotspots/flagships.py`
 - [x] **Charger** dans Supabase (upsert)
 - [x] **Mock DB** 2–3 œuvres → *superseded : vraies données chargées, Siffrein débloqué*
-- [ ] ⛔ Ignorer le dataset « Challenge 2014 » (XML + descripteurs Matlab) — obsolète, inutile (ARKit pur)
+- [ ] ⛔ Ignorer le dataset « Challenge 2014 » (XML + descripteurs Matlab) — obsolète, inutile pour le set curé ViroReact
 
 ## Produit
 
@@ -71,7 +71,7 @@ date: 2026-06-20
 
 - [ ] **Logistique stand** : poster A3 vs écran/tablette pour œuvres + QR
 - [ ] Vérifier **impression** au venue (sinon imprimer avant)
-- [ ] **Go/no-go ARKit → bascule overlay 2D** si anchors instables (SYNC 3, sam. midi)
+- [ ] **Go/no-go ViroReact → fallback sélection/QR/overlay 2D** si anchors instables
 - [ ] **Paiement réel au stand** (clé live) → compter les **conversions €** + mini-CSV
 - [ ] **Dry-run** chronométré + **liste de coupes** (reco en 1er) — SYNC 4
 - [ ] **Vidéo backup** de la démo (avant la nuit de samedi)

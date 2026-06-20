@@ -20,8 +20,9 @@ Jeu minimal :
 4. **Hotspots** : coordonnées normalisées + texte narratif + audio optionnel.
 5. **Voix** : 5-10 questions FR/EN sur les phares, avec interruption manuelle
    pour tester le barge-in.
-6. **ARKit** : reference images générées depuis IIIF, testées sur iPhone
-   physique. Si les anchors sont instables samedi midi, bascule overlay 2D.
+6. **ViroReact AR** : reference images générées depuis IIIF, testées sur iPhone
+   physique et Android physique. Si les anchors sont instables, bascule
+   sélection manuelle / QR / overlay 2D.
 7. **Paiement** : Mollie test en démo ; Mollie live au stand pour conversions
    réelles.
 
@@ -104,12 +105,12 @@ Passe si : voix stable, latence basse, coupure fiable, licence claire.
 
 Durable : comparer embeddings image, modèles on-device et repli multimodal.
 
-Megathon : ARKit n'est pas scoré comme un modèle IA. On vérifie seulement :
+Megathon : ViroReact n'est pas scoré comme un modèle IA. On vérifie seulement :
 
 - référence image détectée ;
 - identité correcte ;
 - point stable assez longtemps ;
-- fallback 2D/QR prêt.
+- fallback sélection manuelle / QR / overlay 2D prêt.
 
 Après Megathon, les métriques embeddings redeviennent : top-1/top-3,
 robustesse angle/reflets/partiel, rejet hors catalogue, latence et résidence.

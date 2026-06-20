@@ -19,7 +19,7 @@ Megathon. Voir ADR [0002](adr/0002-modele-connaissance-recuperation.md),
 
 ## Contrat Supabase Megathon
 
-Ce contrat est figé au SYNC 1. `/pipeline` écrit ces tables ; `/app-ios` les lit ;
+Ce contrat est figé au SYNC 1. `/pipeline` écrit ces tables ; `/app-mobile` les lit ;
 `/shared` expose les types générés.
 
 ```sql
@@ -58,12 +58,14 @@ Contraintes de sens :
 - `wikidata_qid` (sur `artwork`/`artist`/`movement`) = pont vers les faits structurés ;
   `tags` (jsonb) = sujets/genre Wikidata (P180/P136).
 - `x` et `y` sont normalisés sur l'image de l'oeuvre, entre `0` et `1`.
-- `height_cm` et `width_cm` sont requis pour les reference images ARKit.
+- `height_cm` et `width_cm` sont requis pour les reference images AR et le
+  `physicalWidth` ViroReact.
 - `audio_url` = `null` par défaut : la narration hotspot est **générée live au runtime**
   depuis `narration_text` (+ profil/voix). `audio_url` n'est qu'un **cache optionnel** si
   la latence live l'exige (non rempli par le pipeline).
 - `image_iiif_id` vient de Micrio/Rijks ; `image_url` = hotlink IIIF (affichage) ;
-  `ref_image_url` = rendition légère ARKit (Storage), générée pour les œuvres trackées.
+  `ref_image_url` = rendition légère de tracking AR (Storage), générée pour les
+  œuvres trackées.
 
 ## Données Rijksmuseum
 
@@ -79,7 +81,7 @@ Source Megathon (métadonnées) :
 - Pagination : `resumptionToken` (50/page).
 - **IIIF imageId** : directement dans `edm:isShownBy`/`edm:object`
   (`https://iiif.micr.io/{imageId}/...`) — **pas** de détour Linked Art `?_profile=la`.
-  Affichage = `/{imageId}/full/max/0/default.jpg` ; reference image ARKit = rendition
+  Affichage = `/{imageId}/full/max/0/default.jpg` ; reference image AR = rendition
   redimensionnée par IIIF `/{imageId}/full/{w},/0/default.jpg`.
 - Créateur : URI résolue en **Linked Art JSON** (`Accept: application/ld+json`).
 - Phares : Night Watch `SK-C-5` (Q219831) et La Laitière `SK-A-2344` (Q167605).
@@ -98,7 +100,7 @@ Le pipeline extrait / produit :
 - identifiants Rijks (`object_number`, URI), titres EN/NL, créateur, date,
   `dcterms:extent`, rights, imageId IIIF ;
 - dimensions physiques en cm depuis `extent` (height/width, le poids est ignoré) ;
-- image d'affichage (hotlink IIIF) + reference image ARKit (œuvres trackées) ;
+- image d'affichage (hotlink IIIF) + reference image AR (œuvres trackées) ;
 - **notices par source** (`rijks` → `ok`, `wikipedia` → `review`) avec provenance ;
 - hotspots des phares, révisés manuellement.
 
@@ -205,10 +207,10 @@ s'adapter ni apprendre — d'où la notice-substrat.
 
 ## Navigation et AR
 
-Pour le Megathon, la couche spatiale n'est pas un graphe indoor complet. ARKit
-identifie l'oeuvre et fournit la pose 3D ; l'app affiche un point ancré qui
-ouvre une vue détail 2D. Les hotspots sont ensuite de simples coordonnées sur
-l'image connue.
+Pour le Megathon, la couche spatiale n'est pas un graphe indoor complet.
+ViroReact identifie l'oeuvre et affiche un point ancré via ARKit côté iOS et
+ARCore côté Android ; l'app ouvre ensuite une vue détail 2D. Les hotspots sont
+de simples coordonnées sur l'image connue.
 
 La navigation indoor L0-L2 de l'ADR 0009 reste une cible produit ultérieure.
 

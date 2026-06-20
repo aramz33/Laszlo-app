@@ -13,7 +13,7 @@ cp pipeline/.env.example pipeline/.env   # puis renseigner SUPABASE_URL / SUPABA
 Prérequis Supabase :
 1. Créer un projet Supabase → copier `Project URL` + clé **`service_role`** dans `.env`.
 2. SQL editor → exécuter `supabase/schema.sql`.
-3. Créer un bucket Storage **public** nommé `artworks` (pour les reference images ARKit).
+3. Créer un bucket Storage **public** nommé `artworks` (pour les reference images AR).
 
 ## Commandes
 

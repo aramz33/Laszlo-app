@@ -1,4 +1,4 @@
-# Onboarding — catch-up Siffrein
+# Onboarding — catch-up frontend mobile
 
 > But : te remettre dans le repo en 10 minutes. On travaille à deux dessus à partir
 > de maintenant. Ce doc est un **overview high-level** ; les détails font foi dans
@@ -49,7 +49,7 @@ ETL médaillon `raw → enriched → refined → load` :
 - **refine** — dimensions cm, créateur via Linked Art, imageId IIIF, filtre image + CC0.
 - **transform** — graphe `artist/movement/museum` + **notices par source** (rijks `ok`,
   wikipedia `review`) + hotspots des phares (authored main).
-- **load** — upsert idempotent Supabase + reference images ARKit en Storage.
+- **load** — upsert idempotent Supabase + reference images AR en Storage.
 
 Pourquoi multi-sources : la description Rijks est **courte** (phare = 544 car.) et
 **~vide pour beaucoup d'œuvres** → Rijks = métadonnées fiables, **Wikipedia = la
@@ -62,6 +62,7 @@ narration**, **Wikidata = les faits structurés du graphe**.
 | `docs/data-model.md` | **Le contrat** : schéma Supabase + principes. À lire en premier. |
 | `docs/adr/` | Décisions d'archi (0001 hexagonal, 0002 connaissance, 0011 pipeline…). |
 | `pipeline/` | Le pipeline Python (lane data). `README.md` = setup + commandes. |
+| `app-mobile/` | App Expo React Native + ViroReact (lane expérience mobile). |
 | `supabase/schema.sql` | DDL de la couche Connaissance (à exécuter dans Supabase). |
 | `data/` | Cache local du pipeline (raw / enriched / refined) — non versionné. |
 
@@ -84,8 +85,9 @@ hotspot  (artwork_id, x, y, title, aspect, narration_text, audio_url, duration_s
 ```
 
 À savoir pour l'app :
-- **ARKit** : `height_cm`/`width_cm` (taille physique) + `ref_image_url` (image de
-  tracking) sont là pour générer les `ARReferenceImage`.
+- **AR mobile** : `height_cm`/`width_cm` (taille physique) + `ref_image_url` (image de
+  tracking) sont là pour créer les targets ViroReact (`physicalWidth`). ViroReact
+  s'appuie sur ARKit côté iOS et ARCore côté Android.
 - **Hotspots** : `x`,`y` normalisés [0,1] sur l'image de l'œuvre ; la narration est
   **générée live au runtime** depuis `narration_text` (`audio_url` = cache optionnel, pas
   un prérequis).
@@ -118,9 +120,10 @@ python -m pipeline.main all --set 260214    # tout le corpus
       provider ouvert — ElevenLabs/Vapi). Pas de pré-remplissage d'`audio_url`.
 - [ ] Révision main des notices des 2 phares (`review` → `ok`).
 
-**App iOS (ARKit) — lane temps réel :**
-- [ ] Scaffold app Xcode/Swift, lecture Supabase (supabase-swift, clé anon).
-- [ ] Vue AR : détection œuvre (reference images) → point ancré → vue détail 2D.
+**App mobile Expo React Native — lane temps réel :**
+- [ ] Scaffold `/app-mobile`, lecture Supabase (clé anon/publishable).
+- [ ] Vue AR ViroReact : détection œuvre (tracking targets) → point ancré → vue détail 2D.
+- [ ] Fallback sélection manuelle / QR qui ouvre la même vue détail.
 - [ ] Hotspots + lecteur audio + chat libre (voix).
 - [ ] Paywall Mollie + déploiement.
 

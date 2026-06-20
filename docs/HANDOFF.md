@@ -1,4 +1,4 @@
-# Handoff — reprise dev (Siffrein)
+# Handoff — reprise dev frontend mobile
 
 > Point de reprise après la session du 2026-06-20 (build solo Adam de la couche
 > Connaissance). Lis d'abord **`docs/ONBOARDING.md`** (vue d'ensemble + carte du repo +
@@ -13,7 +13,7 @@ La **couche Connaissance est en prod sur Supabase** et lisible par l'app :
 - Contenu : **1025 œuvres · 373 artistes · 7 mouvements · 1769 notices · 8 hotspots**
   (corpus = set Rijks **`260214` Top 1000**, inclut les phares).
 - **Phares** riches + hotspots : Night Watch `SK-C-5`, Laitière `SK-A-2344` (notices
-  Wikipedia EN+NL + 4 hotspots chacun + ref image ARKit en Storage).
+  Wikipedia EN+NL + 4 hotspots chacun + ref image AR en Storage).
 - **Read path app validé** (PostgREST + clé publishable) :
   `GET /rest/v1/artwork?object_number=eq.SK-C-5&select=*,notice(*),hotspot(*)` → OK.
 - Storage public OK : `…/storage/v1/object/public/artworks/ref/SK-C-5.jpg` (HTTP 200).
@@ -39,12 +39,13 @@ La **couche Connaissance est en prod sur Supabase** et lisible par l'app :
 
 ## Prochaines étapes (à se répartir à 2)
 
-**App iOS — lane temps réel (Siffrein, priorité) :**
-1. Scaffold Xcode/Swift + lecture Supabase (`supabase-swift`, clé publishable).
-2. Vue AR : détection œuvre (reference images depuis `ref_image_url` + `height_cm`/
-   `width_cm`) → point ancré → vue détail 2D.
-3. Hotspots (depuis la DB) + lecteur audio + chat libre (voix).
-4. Paywall Mollie + déploiement.
+**App mobile — lane temps réel (Siffrein, priorité) :**
+1. Continuer le scaffold `/app-mobile` Expo React Native + lecture Supabase (clé publishable).
+2. Vue AR ViroReact : tracking targets depuis `ref_image_url` + `height_cm`/`width_cm`
+   → point ancré tappable → vue détail 2D.
+3. Fallback sélection manuelle / QR qui ouvre la même vue détail.
+4. Hotspots (depuis la DB) + lecteur audio + chat libre (voix).
+5. Paywall Mollie + déploiement.
 
 **Reste couche Connaissance (Adam, court terme) :**
 - Angles de médiation runtime ; voix runtime (TTS live, pas de pré-remplissage
@@ -66,7 +67,7 @@ est idempotent.
 - **`superpowers:brainstorming`** — avant de construire les features de l'app (explorer
   l'intention/design avant le code).
 - **`grill-me`** ou **`grill-with-docs`** — pour la session de design Perso/Mémoire.
-- **`context7`** (MCP) — docs à jour `supabase-swift`, ARKit/RealityKit, Vapi, Mollie.
+- **`context7`** (MCP) — docs à jour Expo, React Native, ViroReact, Supabase, Vapi, Mollie.
 - **`tdd` / `superpowers:test-driven-development`** — pour le code app.
 - **`frontend-design`** — si volet PWA/UI.
 - **`obsidian-cli`** — contexte projet (notes Megathon, cf. ci-dessous).

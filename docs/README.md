@@ -21,23 +21,23 @@ Périmètre du build :
   chargement Supabase.
 - **Démo profonde** : 1-2 oeuvres phares, candidates principales : Night Watch
   `SK-C-5` et La Laitière.
-- **Client démo** : app native iOS en Swift + ARKit/RealityKit. ARKit image
-  tracking reconnaît l'oeuvre et fournit la pose ; l'utilisateur voit un point
-  bleu ancré, tape dessus, puis ouvre une vue détail 2D avec hotspots, audio et
-  chat.
+- **Client démo** : app mobile Expo React Native dans `/app-mobile`, avec
+  ViroReact comme premier adaptateur AR. ViroReact utilise ARKit sur iOS et
+  ARCore sur Android ; l'utilisateur voit un point ancré sur l'oeuvre reconnue,
+  tape dessus, puis ouvre une vue détail 2D avec hotspots, audio et chat.
 - **Voix** : conversation vocale avec barge-in. Le fournisseur reste ouvert entre
   Vapi et ElevenLabs jusqu'au choix de SYNC 1 ; le domaine reste agnostique.
 - **Paiement** : Mollie hosted checkout pour débloquer le guide premium.
   `test_...` pour la démo et `live_...` au stand pour compter les conversions
   réelles.
-- **Fallbacks** : overlay 2D, QR par oeuvre et vidéo backup si l'ARKit live est
-  instable.
+- **Fallbacks** : sélection manuelle, QR par oeuvre, overlay 2D et vidéo backup
+  si l'AR live est instable.
 
 Structure cible du monorepo :
 
 ```text
 /pipeline   # Adam : harvest/refine/transform/load, écrit Supabase
-/app-ios    # Siffrein : app iOS ARKit + voix + lecture Supabase
+/app-mobile # Siffrein : Expo React Native + ViroReact + voix + lecture Supabase
 /shared     # contrat DB/types générés
 /ui         # designer : composants, direction visuelle, écrans démo
 ```
@@ -52,18 +52,19 @@ posture Megathon lorsque le build de 45h diffère de la cible long terme.
 
 | # | Décision durable | Posture Megathon |
 |---|---|---|
-| [0001](adr/0001-architecture-hexagonale.md) | Architecture hexagonale, ports & adapters, surface client jetable | Monorepo, app iOS native + backend/pipeline court ; Supabase = contrat |
+| [0001](adr/0001-architecture-hexagonale.md) | Architecture hexagonale, ports & adapters, surface client jetable | Monorepo, app mobile Expo React Native + backend/pipeline court ; Supabase = contrat |
 | [0002](adr/0002-modele-connaissance-recuperation.md) | Graphe d'entités, récupération progressive, Postgres + pgvector | Graphe light Rijks -> Supabase ; injection directe sur 1-2 oeuvres phares |
 | [0003](adr/0003-pipeline-voix-cascade.md) | Cascade STT -> LLM -> TTS, streaming, barge-in | Sponsor/provider rapide à brancher ; Vapi vs ElevenLabs à trancher |
 | [0004](adr/0004-strategie-sourcing-donnees.md) | Sourcing stratifié et extensible | Rijksmuseum d'abord ; Europeana = story d'échelle UE |
 | [0005](adr/0005-repartition-ondevice-cloud.md) | Hybride on-device/cloud + cache local | Providers managés, cache local des notices phares |
-| [0006](adr/0006-identification-positionnement.md) | Identification derrière `ArtworkIdentifier` | ARKit image tracking pur ; overlay 2D/QR en fallback |
+| [0006](adr/0006-identification-positionnement.md) | Identification derrière `ArtworkIdentifier` | ViroReact image tracking ; sélection manuelle/QR/overlay 2D en fallback |
 | [0007](adr/0007-multilingue.md) | Pivot EN + sortie multilingue au runtime | Démo FR/EN prioritaire, NL bonus |
 | [0008](adr/0008-adaptation-contenu.md) | Préférences utilisateur, angles de médiation, glossaire, couche musée | Profil léger neutre, angles runtime visibles, style doux sur le regard |
 | [0009](adr/0009-navigation-spatiale.md) | Navigation progressive et directions ancrées | Pas de navigation indoor ; seulement point AR ancré sur oeuvre |
 | [0010](adr/0010-donnee-utilisateur.md) | Events pseudonymes, profil, analytics agrégées | Compter conversions Mollie + interactions minimales |
 | [0011](adr/0011-pipeline-notices.md) | Notices semi-auto, gate groundedness, revue humaine | Gate simple + revue manuelle des phares |
 | [0012](adr/0012-selection-fournisseurs-ia.md) | Fournisseurs swappables, choix gated par éval | Démo d'abord ; UE/coût redevient filtre après Megathon |
+| [0013](adr/0013-frontend-mobile-stack.md) | Frontend mobile produit | Expo React Native + ViroReact d'abord ; Swift/Unity/Vuforia restent des adaptateurs de repli ou de scale |
 
 ## Specs
 

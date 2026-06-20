@@ -1,7 +1,7 @@
 """Étape load : collections de modèles → Supabase (upsert idempotent) + Storage.
 
 Résout les clés naturelles en FK, puis charge graphe → œuvres → notices/hotspots.
-Les reference images ARKit ne sont générées/uploadées que pour les œuvres trackées.
+Les reference images AR ne sont générées/uploadées que pour les œuvres trackées.
 """
 
 from __future__ import annotations

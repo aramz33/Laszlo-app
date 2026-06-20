@@ -16,19 +16,22 @@ Distinguer **identifier l'œuvre devant soi** (besoin POC) du **tracking continu
 ## Posture Megathon — 2026-06-20
 
 Pour la démo, l'adaptateur primaire de `ArtworkIdentifier` devient
-**ARKit image tracking** :
+**ViroReact image tracking** dans l'app Expo React Native :
 
-- `ARReferenceImage` + `ARWorldTrackingConfiguration.detectionImages` reconnaît
-  l'oeuvre dans un set curé et retourne sa pose 3D.
-- Le point bleu est ancré en monde réel sur l'oeuvre détectée.
+- ViroReact s'appuie sur ARKit côté iOS et ARCore côté Android.
+- Les tracking targets viennent des `ref_image_url` préparées par le pipeline et
+  des dimensions physiques `width_cm`/`height_cm`.
+- Le point bleu est ancré sur l'oeuvre détectée.
 - Le tap ouvre la vue détail 2D ; les hotspots sont ensuite des coordonnées sur
   l'image connue.
 - **Pas de similarity search embeddings au runtime**. Les embeddings servent la
   story d'échelle/open-world post-hackathon.
-- Fallbacks pré-décidés : overlay 2D, puis QR par oeuvre.
+- Fallbacks pré-décidés : sélection manuelle, QR par oeuvre, puis overlay 2D si
+  l'ancrage AR est instable.
 
-Go/no-go : si les anchors ne sont pas stables sur iPhone physique samedi midi
-(SYNC 3), bascule overlay 2D.
+Go/no-go : le premier jalon frontend doit prouver un marqueur ViroReact sur un
+iPhone physique et un Android physique. Si ViroReact bloque, on garde l'app
+React Native et on remplace seulement l'adaptateur d'identification.
 
 ## Options considérées (positionnement)
 

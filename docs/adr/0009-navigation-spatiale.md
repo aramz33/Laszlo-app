@@ -21,7 +21,7 @@ Modéliser dès maintenant : `Œuvre.position{salle_id, étage, x?, y?, orientat
 La navigation indoor est hors scope du week-end. La seule spatialité construite
 est l'ancrage AR de l'oeuvre détectée :
 
-- ARKit fournit identité + pose de l'oeuvre.
+- ViroReact fournit identité + ancrage de l'oeuvre (via ARKit iOS / ARCore Android).
 - L'app affiche un point bleu ancré sur le tableau.
 - Le point ouvre une vue détail 2D.
 - Les hotspots sont des coordonnées sur l'image, pas une position indoor.
