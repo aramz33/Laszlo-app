@@ -79,7 +79,9 @@ curl -s -o /dev/null -w "%{http_code}\n" localhost:8000 -d '{"mode":"ask","quest
 supabase functions deploy generate     # secrets via: supabase secrets set SCW_API_KEY=...
 ```
 
-Then the curls above, but against
-`https://<project-ref>.supabase.co/functions/v1/generate` and with
+Live endpoint (what the app calls):
+`https://spbrkgoseabpsxzkkyzj.supabase.co/functions/v1/generate`
+
+Then the curls above, but against that URL and with
 `-H "Authorization: Bearer $SUPABASE_ANON_KEY"` (deployed functions require the
-anon key).
+anon key; calls without it return 401).
