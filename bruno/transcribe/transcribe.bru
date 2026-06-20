@@ -1,0 +1,31 @@
+meta {
+  name: transcribe
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{base_url}}/transcribe
+  body: multipartForm
+  auth: none
+}
+
+headers {
+  Authorization: Bearer {{anon_key}}
+}
+
+body:multipart-form {
+  audio: @file(transcribe/sample.wav)
+  lang_hint: en
+}
+
+assert {
+  res.status: eq 200
+  res.body.lang: eq en
+}
+
+docs {
+  Speech -> text. `sample.wav` is a WIRING fixture (a 440 Hz tone, not speech), so
+  the transcription text is garbage/hallucinated — that only proves the 200 + shape
+  path. Replace it with a real short speech clip to check transcription quality.
+}
