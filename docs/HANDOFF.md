@@ -1,82 +1,126 @@
-# Handoff — reprise dev frontend mobile
+# Handoff — reprise dev (archi système posée)
 
-> Point de reprise après la session du 2026-06-20 (build solo Adam de la couche
-> Connaissance). Lis d'abord **`docs/ONBOARDING.md`** (vue d'ensemble + carte du repo +
-> le contrat). Ce doc ne répète pas l'ONBOARDING : il dit **où on en est exactement** et
-> **quoi attaquer**.
+> Point de reprise après la **session archi du 2026-06-20 soir** (Siffrein + agent) :
+> on a arrêté de coder dans tous les sens et **posé l'architecture du système** —
+> où vit la génération, la voix, l'identification. Lis d'abord **`docs/ONBOARDING.md`**
+> (vue d'ensemble + carte repo + contrat) puis **`docs/adr/0014`** (le runtime). Ce doc
+> dit **où on en est** et **quoi attaquer demain**.
 
-## État actuel (vérifié end-to-end)
+## TL;DR de la session
 
-La **couche Connaissance est en prod sur Supabase** et lisible par l'app :
+On a fixé le **trou central** : la sortie visiteur `output = f(notice, glossaire,
+profil, langue, voix)` n'existait nulle part. Décidé : **`f()` = Edge Function Supabase,
+mono-appel, texte→texte** (ADR 0014). La **voix** et l'**identification** sont des briques
+séparées qui encadrent ce runtime. **Pas de microservices.** Journal **M28–M33**.
 
-- Projet Supabase : `spbrkgoseabpsxzkkyzj` (région UE). Données chargées via le pipeline.
-- Contenu : **1025 œuvres · 373 artistes · 7 mouvements · 1769 notices · 8 hotspots**
-  (corpus = set Rijks **`260214` Top 1000**, inclut les phares).
-- **Phares** riches + hotspots : Night Watch `SK-C-5`, Laitière `SK-A-2344` (notices
-  Wikipedia EN+NL + 4 hotspots chacun + ref image AR en Storage).
-- **Read path app validé** (PostgREST + clé publishable) :
-  `GET /rest/v1/artwork?object_number=eq.SK-C-5&select=*,notice(*),hotspot(*)` → OK.
-- Storage public OK : `…/storage/v1/object/public/artworks/ref/SK-C-5.jpg` (HTTP 200).
+## État actuel (vérifié)
 
-## Ce qu'il faut savoir pour ne pas se tromper
+**Couche Connaissance = en prod Supabase, lisible par l'app :**
 
-- **`notice` = substrat neutre** (faits ancrés), pas le texte final. Le glossaire, les
-  préférences utilisateur, la langue et la voix se font **au runtime** (LLM + TTS).
-  Détail : `docs/data-model.md`.
-- **Angles de médiation = runtime + boutons UI**, pas stockés (taxonomie non figée).
-- **Langues stockées actuelles = EN + NL pour Rijks** ; principe durable = langue source
-  / musée + pivot EN si nécessaire. FR & autres outputs = générés au runtime.
-- **Hotspots = seulement les 2 phares** (8 au total), **écrits à la main** dans
-  `pipeline/hotspots/flagships.py` (mes textes = provisoires, à réviser). Les 1023 autres
-  œuvres ont des notices mais pas de hotspots (c'est voulu : « demo deep »).
-- **Narration hotspot générée live** au runtime depuis `narration_text` (comme le chat) ;
-  `audio_url` reste `null` = cache optionnel seulement si la latence l'exige.
-- **Couverture Q-id ~45 %** : normal, le Top 1000 est multi-médias (sculptures/estampes
-  peu présentes sur Wikidata) ; les peintures (dont les phares) sont bien couvertes.
-- **Clés** : l'app lit avec la clé **publishable** (anon, RLS lecture). La clé **secrète**
-  (écriture pipeline) **n'est PAS dans le repo** — elle est dans `pipeline/.env` local
-  (gitignored) ; la récupérer au dashboard si besoin (cf. `pipeline/README.md`).
+- Projet `spbrkgoseabpsxzkkyzj` (UE). Corpus = set Rijks **`260214` Top 1000**.
+- **1025 œuvres · 373 artistes · 7 mouvements · 1769 notices · 8 hotspots**.
+- **Phares** : Night Watch `SK-C-5`, Laitière `SK-A-2344` (notices Wikipedia EN+NL +
+  4 hotspots chacun, écrits main + ref image AR en Storage).
+- Read path validé : `GET /rest/v1/artwork?object_number=eq.SK-C-5&select=*,notice(*),hotspot(*)` → OK.
+- Storage public OK : `…/public/artworks/ref/SK-C-5.jpg` (200).
 
-## Prochaines étapes (à se répartir à 2)
+**App mobile = scaffold JETABLE et cassé** (à recâbler, pas à prolonger) :
 
-**App mobile — lane temps réel (Siffrein, priorité) :**
-1. Continuer le scaffold `/app-mobile` Expo React Native + lecture Supabase (clé publishable).
-2. Vue AR ViroReact : tracking targets depuis `ref_image_url` + `height_cm`/`width_cm`
-   → point ancré tappable → vue détail 2D.
-3. Fallback sélection manuelle / QR qui ouvre la même vue détail.
-4. Hotspots (depuis la DB) + lecteur audio + chat libre (voix).
-5. Paywall Mollie + déploiement.
+- `App.tsx:7` importe `./src/data/demoArtworks` → **le fichier n'existe pas, l'app ne build pas**.
+- `src/services/supabase.ts` crée un client Supabase **utilisé nulle part**.
+- Tout l'app consomme déjà le type domaine `Artwork[]` (`src/domain/artwork.ts`) — il ne
+  manque que **la source de données** (fetch Supabase → mapping domaine).
 
-**Reste couche Connaissance (Adam, court terme) :**
-- Angles de médiation runtime ; voix runtime (TTS live, pas de pré-remplissage
-  `audio_url`) ; révision main des notices phares (`review` → `ok`) ; plus de hotspots
-  si besoin démo.
+## L'architecture système (verrouillée ce soir)
 
-**Sessions de design suivantes (à griller à froid, ensemble) :**
-- Couche **Glossaire / vocabulaire gradué**, puis **Profil utilisateur** (préférences
-  neutres), puis **Mémoire**.
+```text
+                IDENTIFICATION                 RUNTIME (texte→texte)
+  caméra ─▶ ViroReact image tracking ─┐
+            (reco + ancre couplés)     │   ┌── App lit artwork+hotspot (PostgREST, clé anon)
+                  │ échec/hors-set      │   │
+                  ▼                     ├──▶ App ─▶ POST /generate (Edge Function)
+            capture flux ─▶ vision      │            │  lit notice server-side
+            (Claude) = identité,        │            │  1 appel LLM (Nebius→Claude)
+            position = overlay 2D ──────┘            ▼  stream SSE: texte + sources
+                  │ échec                       texte adapté (niveau/langue/profil)
+                  ▼
+            manuel / QR
 
-## Comment relancer / modifier le pipeline
+  VOIX (brique séparée, encadre le runtime) :
+    parole ─▶ [STT Voxtral via POST /transcribe] ─▶ texte ─▶ /generate ─▶ texte ─▶ [TTS différé]
+              └────── l'utilisateur "flemme de parler" entre/sort en texte ───────┘
 
-`pipeline/README.md` (setup + commandes). Le cache local `data/` est **gitignored**
-(régénérable ; la vérité vit dans Supabase). `python -m pipeline.main load --set 260214`
-est idempotent.
+  Hors chemin de requête : PIPELINE = batch offline (écrit Supabase puis meurt, pas un service)
+```
 
-## Suggested skills (pour l'agent qui reprend)
+**Contrat `/generate`** (surface app ↔ runtime, détail = ADR 0014) :
+`POST /functions/v1/generate { artwork_id, mode: "hotspot"|"ask", hotspot_id|question,
+lang, profile{allure,niveau,interet} } → text/event-stream (delta… + {done, sources})`.
+Le runtime **relit les notices server-side** (jamais de grounding venu du client).
 
-- **`superpowers:brainstorming`** — avant de construire les features de l'app (explorer
-  l'intention/design avant le code).
-- **`grill-me`** ou **`grill-with-docs`** — pour la session de design Perso/Mémoire.
-- **`context7`** (MCP) — docs à jour Expo, React Native, ViroReact, Supabase, Vapi, Mollie.
-- **`tdd` / `superpowers:test-driven-development`** — pour le code app.
-- **`frontend-design`** — si volet PWA/UI.
-- **`obsidian-cli`** — contexte projet (notes Megathon, cf. ci-dessous).
+## Décisions verrouillées (journal M28–M33 + couche app)
 
-## Références (ne pas dupliquer — lire à la source)
+| # | Décision |
+|---|---|
+| M28 | Runtime `f()` = **Edge Function Supabase** (≠ FastAPI, ≠ dans l'app). « Back app » et « service IA » = **le même composant**. Bascule FastAPI possible plus tard, même contrat. |
+| M29 | `f()` = **mono-appel LLM**, pas d'agent multi-étapes (le modèle de données l'impose). Multi-étapes = open-world post-hackathon. |
+| M30 | **Voix = brique séparée**, runtime texte→texte. Chemin **texte ship en premier**, décision voix ne bloque rien. |
+| M31 | **Identification 2 étages** : ViroReact (reco+ancre couplés) → repli **vision Claude** (identité) + **overlay 2D** (position) → manuel/QR. |
+| M32 | Modèle runtime = **open Nebius** (crédits kit) → **Claude API payant** en repli. ⚠ abonnement Claude.ai ≠ clé API. |
+| M33 | **STT = Voxtral** via 2e edge function `/transcribe`. On-device écarté. STT transcrit, ne raisonne pas. |
+| A1 | L'app **ne lit jamais `notice`** (seulement `artwork` + `hotspot`). Le grounding reste serveur. |
+| A2 | App charge **par salle** ; démo = **phares only**. ViroReact = template-matching de features → distingue des œuvres différentes sans souci ; **vrai risque = reflet/vitre**, pas la confusion. |
+| A3 | `location` (musée+galerie) → **hardcode phares** pour la démo, champ schéma à ajouter. |
+| B2 | Hotspots = **pré-générés** à l'ouverture de l'œuvre ; **chat = génération temps réel**. |
+| C1/C2 | Profil = **3 questions ludiques skippables** (`AsyncStorage`) ; langue = **picker visible**, init locale. |
+| D2 | `niveau` = **instruction de prompt** seulement (table glossaire `term` inexistante) — assumé pour la démo. |
+| D4 | **RLS lecture publique** pour la démo (clé anon lit tout), on sécurise après. |
 
-- `docs/ONBOARDING.md` — vue d'ensemble, carte du repo, contrat, comment l'app lit.
-- `docs/data-model.md` — **le contrat** (schéma + contraintes + 3 couches).
-- `docs/adr/` — décisions d'archi (chaque ADR a une « Posture Megathon » à jour).
-- `docs/megathon/` — notes stratégiques (0 TODO · 1 Stratégie+journal M0–M23 · 2 Tech ·
-  3 Playbook). Miroir des notes Obsidian.
-- `pipeline/README.md` — lancer/modifier le pipeline. `supabase/schema.sql` — le DDL.
+## À résoudre demain (ne peut pas se défaulter)
+
+1. **🟡 D1/M32 — modèle runtime** : tester un modèle sur **Nebius** (crédits kit). Si nul →
+   mettre une **clé Claude API** (petit budget). *Bloque le choix du cerveau.*
+2. **🟡 A3 — champ `location`** : ajout colonne schéma (**touche le contrat → Adam**) +
+   hardcode des 2 phares (Galerie d'Honneur).
+3. **D3 — trimmer les notices Wikipedia phares** : aujourd'hui dump brut, trop gros pour un
+   petit modèle → **bloque le grounding du chat (`ask`)**. (Hotspots OK sans ça.)
+4. **Design (avec le designer)** : wording des 3 questions onboarding (C1) + UI du chat (F2).
+
+## Prochaines étapes concrètes (ordre)
+
+1. **Recâbler l'app sur Supabase** (jeter `demoArtworks`) : `services/artworks.ts` =
+   fetch `artwork?select=*,hotspot(*)&ref_image_url=not.is.null` → mapping domaine
+   (subtitle = artiste+année via join, location = musée+galerie). Charger les phares.
+2. **Brancher `/generate` sur tap hotspot** (stream). **Stopgap tant que `f()` pas prête** :
+   afficher `narration_text` brut (= substrat, pas le texte final) — assumé temporaire.
+3. **Écrire l'Edge Function `/generate`** (mono-appel, lit notice + hotspot, stream SSE).
+4. **Onboarding 3 questions + picker langue** → alimentent `profile`/`lang`.
+5. **Fallback vision** (capture → Claude vision → identité → overlay 2D).
+6. **Brique voix** : `/transcribe` Voxtral, puis TTS (M15, en dernier).
+
+## Garde-fous (ne pas se tromper)
+
+- **`notice` = substrat neutre**, jamais le texte final. L'app **ne l'affiche pas** (sauf
+  stopgap explicite). Le texte dit à l'utilisateur est **généré par `/generate`**.
+- **L'app ne lit pas `notice`** ; elle envoie `artwork_id`, le runtime relit le grounding.
+- **Pas de Claude gratuit via abonnement** : le runtime a besoin d'une clé API (Nebius ou Anthropic).
+- **Voix ≠ cerveau** : STT transcrit seulement ; pas d'audio-natif tant que le LLM = Claude
+  (Claude ne prend pas l'audio en entrée).
+- **Clés** : app = clé **publishable** (anon, RLS lecture) ; clé **secrète** (écriture
+  pipeline) **pas dans le repo** (`pipeline/.env` local, gitignored).
+
+## Repo / git
+
+- Commit `7212c91` (docs archi de cette session) est **fait localement sur `main`** mais
+  **pas pushé** : `origin` = `aramz33/Laszlo-app`, `siffreinsg` n'a pas les droits d'écriture
+  → Adam doit l'ajouter en collaborateur, puis `git push origin main`.
+- Un **stash `autostash`** reste dans `git stash list` (backup du conflit de merge résolu) —
+  à `git stash drop` une fois le push vérifié.
+
+## Références (lire à la source)
+
+- `docs/ONBOARDING.md` — vue d'ensemble, carte repo, contrat, comment l'app lit.
+- `docs/adr/0014-runtime-generation-edge-function.md` — **le runtime** (décision + contrat).
+- `docs/data-model.md` — le contrat data (schéma + 3 couches).
+- `docs/megathon/0 — TODO directeur.md` — suivi des tâches. `1 — Stratégie & arène.md` —
+  journal des décisions **M0–M33**. `pipeline/README.md` + `supabase/schema.sql`.
