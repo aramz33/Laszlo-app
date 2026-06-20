@@ -18,6 +18,9 @@ env/
 *.iml
 .vscode/
 
+# Pipeline cache local (régénérable ; les données vivent dans Supabase)
+data/
+
 # Claude Code
 .claude/
 
