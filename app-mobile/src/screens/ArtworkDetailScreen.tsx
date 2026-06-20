@@ -1,13 +1,31 @@
-import { Image, Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
+import {
+  ActivityIndicator,
+  Image,
+  Pressable,
+  ScrollView,
+  StyleSheet,
+  Text,
+  View
+} from "react-native";
 
 import type { Artwork } from "../domain/artwork";
+import { useHotspotTexts } from "../hooks/useHotspotTexts";
+import {
+  defaultLang,
+  resolveHotspotText,
+  type Profile
+} from "../services/runtime";
 
 type Props = {
   artwork: Artwork;
   onBack: () => void;
+  profile?: Profile;
 };
 
-export function ArtworkDetailScreen({ artwork, onBack }: Props) {
+export function ArtworkDetailScreen({ artwork, onBack, profile }: Props) {
+  const lang = defaultLang();
+  const hotspotTexts = useHotspotTexts({ artwork, lang, profile });
+
   return (
     <ScrollView style={styles.root} contentContainerStyle={styles.content}>
       <Pressable style={styles.backButton} onPress={onBack}>
@@ -23,14 +41,30 @@ export function ArtworkDetailScreen({ artwork, onBack }: Props) {
       </View>
 
       <View style={styles.section}>
-        <Text style={styles.sectionTitle}>Hotspots</Text>
-        {artwork.hotspots.map((hotspot) => (
-          <View key={hotspot.id} style={styles.hotspotRow}>
-            <Text style={styles.hotspotTitle}>{hotspot.title}</Text>
-            <Text style={styles.hotspotAspect}>{hotspot.aspect}</Text>
-            <Text style={styles.hotspotText}>{hotspot.narrationText}</Text>
-          </View>
-        ))}
+        <View style={styles.sectionHeader}>
+          <Text style={styles.sectionTitle}>Hotspots</Text>
+          {hotspotTexts.status === "loading" ? (
+            <View style={styles.personalizing}>
+              <ActivityIndicator size="small" color="#8fc7ff" />
+              <Text style={styles.personalizingText}>Personalizing…</Text>
+            </View>
+          ) : null}
+        </View>
+        {artwork.hotspots.map((hotspot) => {
+          const item = hotspotTexts.items[hotspot.id];
+          const text = resolveHotspotText(hotspot, item);
+          const usingSeed = !(item && item.status === "ready" && item.text);
+          return (
+            <View key={hotspot.id} style={styles.hotspotRow}>
+              <Text style={styles.hotspotTitle}>{hotspot.title}</Text>
+              <Text style={styles.hotspotAspect}>{hotspot.aspect}</Text>
+              <Text style={styles.hotspotText}>{text}</Text>
+              {usingSeed && hotspotTexts.status !== "loading" ? (
+                <Text style={styles.seedBadge}>seed text</Text>
+              ) : null}
+            </View>
+          );
+        })}
       </View>
     </ScrollView>
   );
@@ -86,10 +120,25 @@ const styles = StyleSheet.create({
   section: {
     gap: 10
   },
+  sectionHeader: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between"
+  },
   sectionTitle: {
     color: "#f7f1e7",
     fontSize: 18,
     fontWeight: "800"
+  },
+  personalizing: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 6
+  },
+  personalizingText: {
+    color: "#8fc7ff",
+    fontSize: 12,
+    fontWeight: "600"
   },
   hotspotRow: {
     borderColor: "rgba(255, 255, 255, 0.12)",
@@ -115,5 +164,12 @@ const styles = StyleSheet.create({
     fontSize: 14,
     lineHeight: 20,
     marginTop: 8
+  },
+  seedBadge: {
+    color: "#7d756a",
+    fontSize: 10,
+    fontWeight: "700",
+    marginTop: 8,
+    textTransform: "uppercase"
   }
 });
