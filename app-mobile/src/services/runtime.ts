@@ -352,6 +352,52 @@ export function resolveHotspotText(
   return hotspot.narrationText;
 }
 
+export type SpeakArgs = {
+  text: string;
+  lang: Lang;
+  provider?: "auto" | "edge" | "mistral" | "google" | "elevenlabs";
+  speed?: number;
+};
+
+export type SpeakResponse = {
+  audio_url: string;
+  format: string;
+  duration_s: number | null;
+  engine: string;
+};
+
+export async function speak(args: SpeakArgs): Promise<SpeakResponse> {
+  if (!hasSupabaseConfig) {
+    return mockSpeakResponse();
+  }
+
+  const res = await fetch(`${BASE}/speak`, {
+    method: "POST",
+    headers: jsonHeaders(),
+    body: JSON.stringify({
+      text: args.text,
+      lang: args.lang,
+      provider: args.provider ?? "auto",
+      speed: args.speed ?? 1
+    })
+  });
+
+  if (!res.ok) {
+    throw new Error(`speak failed: ${res.status}`);
+  }
+
+  return (await res.json()) as SpeakResponse;
+}
+
+function mockSpeakResponse(): SpeakResponse {
+  return {
+    audio_url: "",
+    format: "mp3",
+    duration_s: null,
+    engine: "mock"
+  };
+}
+
 export const HOTSPOT_FALLBACK_MS = 3000;
 
 export function defaultLang(): Lang {
