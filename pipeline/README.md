@@ -33,25 +33,28 @@ Localise chaque hotspot dans l'image de l'œuvre et upserte les coords `x, y` en
 (effet immédiat dans le playground et l'app). Affiche un diff pour reporter dans
 `hotspots/flagships.py` si tu veux que les coords survivent à un futur `load`.
 
-Trois backends sélectionnables via `--backend` :
+Deux backends sélectionnables via `--backend` :
 
-| Backend | Modèle | Fiabilité | Coût |
-|---|---|---|---|
-| `moondream` *(défaut)* | Moondream-2b local (MIT) | ★★★ — conçu pour `point to X` | 0 (local, télécharge ~1.7 GB au 1er lancement) |
-| `pixtral-grid` | Pixtral via Scaleway | ★★ — grille 5×5, résolution ±0.1 | crédits Scaleway existants |
-| `pixtral` | Pixtral floats directs | ★ — LLM mauvais pour les floats précis | crédits Scaleway existants |
+| Backend | Modèle | Note |
+|---|---|---|
+| `moondream` *(défaut)* | Moondream-2b local (MIT, gratuit) | Conçu pour `point to X` — retourne des coordonnées nativement |
+| `pixtral` | Pixtral via Scaleway | Fallback — LLMs sont moyens pour les floats précis |
 
 ```bash
-python -m pipeline.main place-hotspots                        # moondream (défaut)
-python -m pipeline.main place-hotspots --backend pixtral-grid # grille Pixtral
-python -m pipeline.main place-hotspots --backend pixtral      # floats directs (legacy)
+python3.11 -m pipeline.main place-hotspots                   # moondream (défaut)
+python3.11 -m pipeline.main place-hotspots --backend pixtral # floats Pixtral
 ```
 
-- Image réduite à ≤ 1024 px via IIIF avant envoi au modèle.
+**Prérequis moondream** (à faire une fois) :
+```bash
+python3.11 -m pip install moondream --break-system-packages
+```
+Premier lancement : télécharge ~1.7 GB (modèle mis en cache ensuite).
+
+- Image réduite à ≤ 1024 px via IIIF avant envoi.
 - `narration_text` inclus dans le prompt pour donner du contexte visuel.
 - Fallback sur les coords existantes si un appel échoue.
-- `moondream` nécessite `pip install moondream` (inclus dans `requirements.txt`).
-- `pixtral*` nécessitent `SCW_BASE_URL` + `SCW_API_KEY` dans `.env`.
+- `pixtral` nécessite `SCW_BASE_URL` + `SCW_API_KEY` dans `.env`.
 
 `--limit` débugge sur un sous-ensemble. Sans `--limit`, le set complet (260214 = Top 1000,
 1040 œuvres, inclut les phares).

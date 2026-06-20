@@ -100,7 +100,7 @@ def main() -> None:
     parser.add_argument(
         "--backend",
         default="moondream",
-        choices=["moondream", "pixtral-grid", "pixtral"],
+        choices=["moondream", "pixtral"],
         help="Vision backend for place-hotspots (default: moondream)",
     )
     args = parser.parse_args()

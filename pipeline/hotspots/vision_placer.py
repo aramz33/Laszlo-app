@@ -1,20 +1,18 @@
 """Placement automatique des hotspots par modèle de vision.
 
-Trois backends sélectionnables via --backend :
+Deux backends sélectionnables via --backend :
 
-  moondream    — Moondream-2b en local (recommandé). Modèle open-source conçu
-                 pour la tâche « point to X » : retourne directement des
-                 coordonnées (x, y). Télécharge ~1.7 GB au premier lancement.
+  moondream  — Moondream-2b en local (recommandé, MIT, gratuit).
+               Modèle open-source conçu pour la tâche « point to X » :
+               retourne directement des coordonnées (x, y).
+               Télécharge ~1.7 GB au premier lancement.
 
-  pixtral-grid — Pixtral via Scaleway (crédits existants). Approche grille 5×5 :
-                 on demande une case nommée (ex. "C3") plutôt que des floats —
-                 beaucoup plus fiable pour un LLM. Résolution ±0.1.
+  pixtral    — Pixtral via Scaleway (crédits existants, fallback).
+               Floats directs — moins fiable qu'un modèle dédié.
 
-  pixtral      — Pixtral floats directs (legacy, peu fiable, gardé pour comparaison).
-
-Usage depuis main.py :
-    python -m pipeline.main place-hotspots --backend moondream
-    python -m pipeline.main place-hotspots --backend pixtral-grid
+Usage :
+    python3.11 -m pipeline.main place-hotspots --backend moondream
+    python3.11 -m pipeline.main place-hotspots --backend pixtral
 """
 
 from __future__ import annotations
@@ -31,7 +29,7 @@ from PIL import Image
 
 from .. import config
 
-BACKENDS = ("moondream", "pixtral-grid", "pixtral")
+BACKENDS = ("moondream", "pixtral")
 
 # IIIF resize cap — avoid sending the Night Watch at 14k px to the model.
 _IIIF_MAX_PX = 1024
@@ -42,7 +40,6 @@ _IIIF_MAX_PX = 1024
 # ---------------------------------------------------------------------------
 
 def _iiif_resized(image_url: str) -> str:
-    """Replace the IIIF size segment to cap the longest dimension."""
     return re.sub(r"/full/[^/]+/", f"/full/!{_IIIF_MAX_PX},{_IIIF_MAX_PX}/", image_url)
 
 
@@ -64,7 +61,7 @@ def _clamp(v: float) -> float:
 # Backend: Moondream (local, open-source, designed for point tasks)
 # ---------------------------------------------------------------------------
 
-# Moondream is loaded lazily and cached — the 1.7 GB model takes ~10 s to load.
+# Moondream is loaded lazily and cached across hotspots — loading takes ~10 s.
 _moondream_model = None
 
 
@@ -74,8 +71,10 @@ def _get_moondream():
         try:
             import moondream as md
         except ImportError:
+            import sys
             raise RuntimeError(
-                "moondream not installed — run: pip install moondream"
+                "moondream not installed for this interpreter.\n"
+                f"Run:  {sys.executable} -m pip install moondream --break-system-packages"
             )
         print("[moondream] loading model (first run downloads ~1.7 GB)…")
         _moondream_model = md.vl(model="moondream-2b")
@@ -84,13 +83,11 @@ def _get_moondream():
 
 
 def _moondream_query(h: dict) -> str:
-    """Build a descriptive query from the hotspot title + narration seed."""
+    """Build a concise query from the hotspot title + first sentence of narration."""
     narration = (h.get("narration_text") or "").strip()
-    # Keep it short — Moondream works best with concise queries.
     if narration:
-        # First sentence of the narration is usually the most visual.
-        first_sentence = re.split(r"[.!?]", narration)[0].strip()
-        return f"{h['title']} — {first_sentence}"
+        first = re.split(r"[.!?]", narration)[0].strip()
+        return f"{h['title']} — {first}"
     return h["title"]
 
 
@@ -112,103 +109,10 @@ def _place_moondream(model, encoded_image, h: dict) -> dict[str, float] | None:
 
 
 # ---------------------------------------------------------------------------
-# Backend: Pixtral-grid (5×5 named grid — much more reliable than raw floats)
+# Backend: Pixtral direct floats (fallback — LLMs are mediocre at this)
 # ---------------------------------------------------------------------------
 
-# Grid: columns A–E (x) × rows 1–5 (y), each cell center at (col+0.5)/5.
-_GRID_COLS = list("ABCDE")   # index 0–4 → x centers 0.1, 0.3, 0.5, 0.7, 0.9
-_GRID_ROWS = [1, 2, 3, 4, 5] # index 0–4 → y centers 0.1, 0.3, 0.5, 0.7, 0.9
-
-_VALID_CELLS = {
-    f"{c}{r}" for c in _GRID_COLS for r in _GRID_ROWS
-}
-
-
-def _grid_to_xy(cell: str) -> dict[str, float] | None:
-    """Convert a grid cell label (e.g. "C3") to normalised (x, y)."""
-    cell = cell.strip().upper()
-    if len(cell) != 2 or cell not in _VALID_CELLS:
-        return None
-    col_idx = _GRID_COLS.index(cell[0])
-    row_idx = int(cell[1]) - 1
-    return {
-        "x": _clamp((col_idx + 0.5) / 5),
-        "y": _clamp((row_idx + 0.5) / 5),
-    }
-
-
-def _pixtral_grid_prompt(artwork_title: str, artist_name: str, h: dict) -> str:
-    narration = (h.get("narration_text") or "").strip()
-    desc_line = f"\nDescription: {narration}" if narration else ""
-    grid_visual = (
-        "     A      B      C      D      E\n"
-        "  +------+------+------+------+------+\n"
-        "1 | 0.1  | 0.3  | 0.5  | 0.7  | 0.9  |  ← y=0.1  (top)\n"
-        "  +------+------+------+------+------+\n"
-        "2 | 0.1  | 0.3  | 0.5  | 0.7  | 0.9  |  ← y=0.3\n"
-        "  +------+------+------+------+------+\n"
-        "3 | 0.1  | 0.3  | 0.5  | 0.7  | 0.9  |  ← y=0.5  (center)\n"
-        "  +------+------+------+------+------+\n"
-        "4 | 0.1  | 0.3  | 0.5  | 0.7  | 0.9  |  ← y=0.7\n"
-        "  +------+------+------+------+------+\n"
-        "5 | 0.1  | 0.3  | 0.5  | 0.7  | 0.9  |  ← y=0.9  (bottom)\n"
-        "  +------+------+------+------+------+\n"
-        "    x=0.1  x=0.3  x=0.5  x=0.7  x=0.9\n"
-        "    left                          right"
-    )
-    return (
-        f'You are analyzing the painting "{artwork_title}" by {artist_name}.\n\n'
-        f"The image is divided into a 5×5 grid:\n{grid_visual}\n\n"
-        f'Locate the CENTER of this detail: "{h["title"]}" ({h["aspect"]})'
-        f"{desc_line}\n\n"
-        "Reply with ONLY the grid cell label, e.g. C3. No other text."
-    )
-
-
-def _place_pixtral_grid(
-    data_url: str, artwork_title: str, artist_name: str, h: dict
-) -> dict[str, float] | None:
-    if not config.SCW_BASE_URL or not config.SCW_API_KEY:
-        raise RuntimeError("SCW_BASE_URL / SCW_API_KEY not set")
-
-    prompt = _pixtral_grid_prompt(artwork_title, artist_name, h)
-    resp = requests.post(
-        f"{config.SCW_BASE_URL}/chat/completions",
-        json={
-            "model": config.SCW_VISION_MODEL,
-            "temperature": 0,
-            "messages": [{"role": "user", "content": [
-                {"type": "text", "text": prompt},
-                {"type": "image_url", "image_url": {"url": data_url}},
-            ]}],
-        },
-        headers={
-            "Authorization": f"Bearer {config.SCW_API_KEY}",
-            "Content-Type": "application/json",
-        },
-        timeout=60,
-    )
-    resp.raise_for_status()
-    raw = resp.json()["choices"][0]["message"]["content"].strip()
-    print(f"  model answered: {raw!r}")
-
-    # Accept the cell anywhere in the reply (model sometimes adds a sentence).
-    match = re.search(r'\b([A-Ea-e][1-5])\b', raw)
-    if not match:
-        print(f"  [pixtral-grid] no valid cell in reply: {raw!r}")
-        return None
-    cell = match.group(1).upper()
-    coords = _grid_to_xy(cell)
-    if coords is None:
-        print(f"  [pixtral-grid] invalid cell: {cell!r}")
-    return coords
-
-
-# ---------------------------------------------------------------------------
-# Backend: Pixtral direct floats (legacy — kept for comparison baseline)
-# ---------------------------------------------------------------------------
-
-def _pixtral_direct_prompt(artwork_title: str, artist_name: str, h: dict) -> str:
+def _pixtral_prompt(artwork_title: str, artist_name: str, h: dict) -> str:
     narration = (h.get("narration_text") or "").strip()
     desc_line = f"\nContext: {narration}" if narration else ""
     return (
@@ -221,20 +125,19 @@ def _pixtral_direct_prompt(artwork_title: str, artist_name: str, h: dict) -> str
     )
 
 
-def _place_pixtral_direct(
+def _place_pixtral(
     data_url: str, artwork_title: str, artist_name: str, h: dict
 ) -> dict[str, float] | None:
     if not config.SCW_BASE_URL or not config.SCW_API_KEY:
-        raise RuntimeError("SCW_BASE_URL / SCW_API_KEY not set")
+        raise RuntimeError("SCW_BASE_URL / SCW_API_KEY not set in .env")
 
-    prompt = _pixtral_direct_prompt(artwork_title, artist_name, h)
     resp = requests.post(
         f"{config.SCW_BASE_URL}/chat/completions",
         json={
             "model": config.SCW_VISION_MODEL,
             "temperature": 0,
             "messages": [{"role": "user", "content": [
-                {"type": "text", "text": prompt},
+                {"type": "text", "text": _pixtral_prompt(artwork_title, artist_name, h)},
                 {"type": "image_url", "image_url": {"url": data_url}},
             ]}],
         },
@@ -250,7 +153,7 @@ def _place_pixtral_direct(
 
     match = re.search(r'\{[^{}]+\}', raw)
     if not match:
-        print(f"  [pixtral] no JSON in reply")
+        print("  [pixtral] no JSON in reply")
         return None
     try:
         coords = json.loads(match.group())
@@ -276,37 +179,34 @@ def place(
     For each hotspot dict (keys: title, aspect, narration_text, x, y, …),
     call the selected backend to replace x/y with the model's estimate.
     Falls back to the existing coords on failure.
-
-    backend: "moondream" | "pixtral-grid" | "pixtral"
     """
     if backend not in BACKENDS:
         raise ValueError(f"backend must be one of {BACKENDS}")
 
     resized_url = _iiif_resized(image_url)
+    print(f"[vision/{backend}] downloading image: {resized_url}")
 
-    # Moondream works with PIL images; Pixtral backends need a data URL.
+    try:
+        raw_bytes = _download_bytes(resized_url)
+    except Exception as exc:
+        print(f"[vision/{backend}] image download failed ({exc}) — keeping original coords")
+        return hotspots
+
+    # Prepare backend-specific resources once, reuse across all hotspots.
     moondream_model = None
     moondream_encoded = None
     data_url = None
 
     if backend == "moondream":
-        print(f"[vision/{backend}] downloading image: {resized_url}")
         try:
-            raw = _download_bytes(resized_url)
-            pil_image = Image.open(io.BytesIO(raw))
+            pil_image = Image.open(io.BytesIO(raw_bytes))
             moondream_model = _get_moondream()
             moondream_encoded = moondream_model.encode_image(pil_image)
         except Exception as exc:
             print(f"[vision/{backend}] setup failed ({exc}) — keeping original coords")
             return hotspots
     else:
-        print(f"[vision/{backend}] downloading image: {resized_url}")
-        try:
-            raw = _download_bytes(resized_url)
-            data_url = _to_data_url(raw)
-        except Exception as exc:
-            print(f"[vision/{backend}] image download failed ({exc}) — keeping original coords")
-            return hotspots
+        data_url = _to_data_url(raw_bytes)
 
     results: list[dict[str, Any]] = []
     for h in hotspots:
@@ -314,10 +214,8 @@ def place(
         try:
             if backend == "moondream":
                 coords = _place_moondream(moondream_model, moondream_encoded, h)
-            elif backend == "pixtral-grid":
-                coords = _place_pixtral_grid(data_url, artwork_title, artist_name, h)
             else:
-                coords = _place_pixtral_direct(data_url, artwork_title, artist_name, h)
+                coords = _place_pixtral(data_url, artwork_title, artist_name, h)
         except Exception as exc:
             print(f"  error: {exc}")
             coords = None
