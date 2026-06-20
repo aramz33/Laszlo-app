@@ -49,6 +49,7 @@ output = f(notice, glossaire@niveau, profil, langue, voix/TTS)
   "mode": "hotspot" | "ask",
   "hotspot_id": "uuid | null", // requis si mode = hotspot
   "question": "string | null", // requis si mode = ask (déjà STT si venu de la voix)
+  "history": [ { "role": "user|assistant", "content": "..." } ], // tenu par l'app
   "lang": "fr",
   "profile": { "allure": "court|moyen|long", "niveau": "decouverte|amateur|passionne", "interet": "string|null" }
 }
@@ -56,6 +57,16 @@ output = f(notice, glossaire@niveau, profil, langue, voix/TTS)
 ```
 
 Le client envoie `artwork_id`, **jamais les notices** (grounding pas confié au client).
+
+**Conversation** : l'`history` est **tenu par l'app** et renvoyé à chaque appel → runtime
+**stateless** (modèle des API chat, pas de table `session`). La capture des intérêts dans le
+temps = couche **Profil/Mémoire**, hors scope démo.
+
+**Sécurité (prompt injection)** : mono-appel **sans outils** = frontière volontaire. La fonction
+lit des notices publiques et appelle le LLM, rien d'autre → impact injection borné à la session
+de l'utilisateur (pas de fuite/escalade). `history` n'ajoute pas de surface vs `question`. Vrai
+vecteur = **notices scrapées** (Wikipedia) → injection indirecte (cf. TODO D3). Défense : grounding
+en `system` + notices délimitées + `sources` en sortie. Détail : ADR 0014.
 
 **La voix est une brique séparée** : le runtime reste texte→texte, STT/TTS l'encadrent.
 → **le chemin texte ship en premier, sans décision voix.**

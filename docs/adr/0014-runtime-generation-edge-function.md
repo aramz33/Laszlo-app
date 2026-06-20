@@ -86,6 +86,9 @@ parole → [STT] → texte → RUNTIME f() → texte → [TTS] → parole
   "mode": "hotspot" | "ask",
   "hotspot_id": "uuid | null",   // requis si mode = "hotspot"
   "question": "string | null",   // requis si mode = "ask" (déjà STT si venu de la voix)
+  "history": [                   // continuité conversation, tenue par l'app (runtime stateless)
+    { "role": "user" | "assistant", "content": "string" }
+  ],
   "lang": "fr",                  // langue de sortie visiteur
   "profile": {                   // les 3 cadrans neutres, tous skippables
     "allure": "court | moyen | long",
@@ -98,6 +101,11 @@ parole → [STT] → texte → RUNTIME f() → texte → [TTS] → parole
 - Le client envoie `artwork_id`, **pas** les notices : le grounding n'est jamais
   fait confiance depuis le client, le runtime relit la `notice` server-side (1 read
   indexé). Payload minuscule.
+- `history` est **tenu par l'app** et renvoyé à chaque appel → le runtime reste
+  **stateless** (modèle des API chat : le serveur ne mémorise rien). On évite une table
+  `session` : l'historique = la conversation de l'utilisateur, pas des faits (les faits
+  restent relus server-side). Token-cap aux N derniers tours si besoin. La **capture des
+  intérêts dans le temps** (couche Profil/Mémoire) est hors scope ici.
 - `mode=hotspot` → réécrit `hotspot.narration_text` ancré sur les notices, adapté
   au profil/langue. `mode=ask` → répond à `question` ancré sur les notices.
 
@@ -146,3 +154,20 @@ pas un service, pas déployé en continu.
   partagent quasi pas de code (l'un est chemin chaud, l'autre batch).
 - (−) Streaming long / WebSocket peu adaptés aux Edge Functions — non bloquant
   puisque la voix (qui tiendrait les sockets) est une brique séparée.
+
+## Sécurité — prompt injection
+
+Le **mono-appel sans outils est une frontière de sécurité volontaire** : le runtime ne
+fait que lire des notices (publiques, CC0) et appeler le LLM. Pas d'outils, pas d'écriture
+DB, pas de données d'autrui, clé LLM hors prompt. → impact d'une injection = le modèle dit
+une bêtise **dans la session de l'utilisateur**, pas de fuite ni d'escalade.
+
+- `question` / `history` venant du client = même niveau de confiance (input utilisateur) ;
+  `history` n'ajoute **pas** de surface vs `question`.
+- **Vrai vecteur = les notices scrapées** (Wikipedia surtout) : contenu non maîtrisé injecté
+  dans le prompt = injection **indirecte**. Recoupe le besoin de trimmer les notices (TODO D3).
+- **Défense proportionnée (démo)** : instructions de grounding en `system`, notices délimitées
+  (« réponds uniquement à partir de ces faits »), input utilisateur en `user`, `sources` dans
+  la sortie. Pas de classifieur/sandbox = sur-engineering tant que le modèle n'a aucun pouvoir.
+- **Redevient sérieux** si `/generate` gagne des outils ou devient un agent open-world avec
+  retrieval → garder le mono-appel sans outils repousse ce risque.
