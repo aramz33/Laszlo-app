@@ -138,6 +138,150 @@ export async function generatePersona(args: PersonaArgs): Promise<string> {
   return data.persona_summary;
 }
 
+export type Point = { x: number; y: number };
+
+export type ChatRole = "user" | "assistant";
+
+export type HistoryMessage = {
+  role: ChatRole;
+  content: string;
+  artwork_id: string | null;
+};
+
+export type AskArgs = {
+  artworkId: string;
+  question: string;
+  lang: Lang;
+  hotspotId?: string | null;
+  point?: Point | null;
+  profile?: Profile;
+  steering?: Steering;
+  history?: HistoryMessage[];
+  historySummary?: string | null;
+};
+
+export type AskHandlers = {
+  onDelta: (delta: string) => void;
+  onDone: (text: string, sources: Source[]) => void;
+  onError: (message: string) => void;
+};
+
+/** Caps client-held history to 8 messages (4 turns) per ADR 0014. */
+export const HISTORY_CAP = 8;
+
+export function capHistory(history: HistoryMessage[]): HistoryMessage[] {
+  return history.slice(-HISTORY_CAP);
+}
+
+/**
+ * Streams a `mode=ask` answer. React Native's fetch cannot read a streaming
+ * response body, so this uses XMLHttpRequest and parses the SSE `data:` lines
+ * incrementally from responseText. Returns an abort function.
+ */
+export function askStream(args: AskArgs, handlers: AskHandlers): () => void {
+  if (!hasSupabaseConfig) {
+    return mockAskStream(args, handlers);
+  }
+
+  const request_id = newRequestId();
+  const xhr = new XMLHttpRequest();
+  let processed = 0;
+  let done = false;
+
+  const processChunk = () => {
+    const chunk = xhr.responseText.slice(processed);
+    const lines = chunk.split("\n");
+    // keep the last (possibly partial) line buffered
+    const remainder = lines.pop() ?? "";
+    processed += chunk.length - remainder.length;
+    for (const line of lines) {
+      const trimmed = line.trim();
+      if (!trimmed.startsWith("data:")) continue;
+      const payload = trimmed.slice(5).trim();
+      if (!payload) continue;
+      try {
+        const ev = JSON.parse(payload) as {
+          type: string;
+          delta?: string;
+          text?: string;
+          sources?: Source[];
+          message?: string;
+        };
+        if (ev.type === "delta" && ev.delta) {
+          handlers.onDelta(ev.delta);
+        } else if (ev.type === "done") {
+          done = true;
+          handlers.onDone(ev.text ?? "", ev.sources ?? []);
+        } else if (ev.type === "error") {
+          done = true;
+          handlers.onError(ev.message ?? "stream error");
+        }
+      } catch {
+        // ignore partial / non-JSON keepalive lines
+      }
+    }
+  };
+
+  xhr.open("POST", `${BASE}/generate`);
+  xhr.setRequestHeader("Authorization", `Bearer ${ANON_KEY ?? ""}`);
+  xhr.setRequestHeader("Content-Type", "application/json");
+  xhr.onreadystatechange = () => {
+    if (xhr.readyState >= 3) {
+      processChunk();
+    }
+    if (xhr.readyState === 4 && !done) {
+      if (xhr.status >= 200 && xhr.status < 300) {
+        handlers.onDone("", []);
+      } else {
+        handlers.onError(`ask failed: ${xhr.status}`);
+      }
+    }
+  };
+  xhr.onerror = () => {
+    if (!done) handlers.onError("network error");
+  };
+  xhr.send(
+    JSON.stringify({
+      request_id,
+      mode: "ask",
+      artwork_id: args.artworkId,
+      question: args.question,
+      lang: args.lang,
+      hotspot_id: args.hotspotId ?? null,
+      point: args.point ?? null,
+      profile: args.profile,
+      steering: args.steering,
+      history: args.history ? capHistory(args.history) : undefined,
+      history_summary: args.historySummary ?? null
+    })
+  );
+
+  return () => {
+    if (!done) xhr.abort();
+  };
+}
+
+function mockAskStream(args: AskArgs, handlers: AskHandlers): () => void {
+  const answer = `(mock) Here's a thought about "${args.question}". Connect Supabase to stream a real grounded answer.`;
+  const words = answer.split(" ");
+  let i = 0;
+  let cancelled = false;
+  const tick = () => {
+    if (cancelled) return;
+    if (i < words.length) {
+      handlers.onDelta((i === 0 ? "" : " ") + words[i]);
+      i += 1;
+      setTimeout(tick, 40);
+    } else {
+      handlers.onDone(answer, []);
+    }
+  };
+  setTimeout(tick, 120);
+  return () => {
+    cancelled = true;
+  };
+}
+
 export type FollowupsArgs = {
   artworkId: string;
   hotspotId?: string | null;

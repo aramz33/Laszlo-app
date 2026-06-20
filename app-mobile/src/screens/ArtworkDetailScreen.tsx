@@ -8,6 +8,7 @@ import {
   View
 } from "react-native";
 
+import { ChatPanel } from "../components/ChatPanel";
 import type { Artwork } from "../domain/artwork";
 import { useHotspotTexts } from "../hooks/useHotspotTexts";
 import {
@@ -65,6 +66,10 @@ export function ArtworkDetailScreen({ artwork, onBack, profile }: Props) {
             </View>
           );
         })}
+      </View>
+
+      <View style={styles.section}>
+        <ChatPanel artworkId={artwork.id} lang={lang} profile={profile} />
       </View>
     </ScrollView>
   );
