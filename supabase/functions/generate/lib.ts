@@ -174,6 +174,17 @@ export function hotspotPrompt(
   return `${earlier}${grounding}\n\nWrite the guide narration for this detail. Rephrase and enrich this seed (do not copy it verbatim): "${h.narration_text}". Detail: ${h.title} (${h.aspect}).`;
 }
 
+/** User message for the artwork overview (the "whole artwork" intro shown on open). */
+export function overviewPrompt(
+  grounding: string,
+  historySummary?: string | null,
+): string {
+  const earlier = historySummary
+    ? `Earlier in the visit: ${historySummary}\n\n`
+    : "";
+  return `${earlier}${grounding}\n\nIntroduce this artwork to the visitor as an engaging opening: what it is, who made it and when, and why it matters. Keep it to the whole work — do not describe specific zoomed-in details (those are separate hotspots).`;
+}
+
 /** User message for a free-form question, with optional placed-point / hotspot context. */
 export function askPrompt(
   question: string,
