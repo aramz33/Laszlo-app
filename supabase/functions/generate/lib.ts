@@ -114,26 +114,50 @@ export function buildGrounding(notices: NoticeRow[]): string {
 type Profile = Record<string, unknown> | undefined;
 type Steering = Record<string, unknown> | undefined;
 
+// Length is driven by `allure`, register by `niveau` — stated explicitly so the model
+// actually varies output (a vague "be concise" did not move the needle).
+const LENGTH: Record<string, string> = {
+  court: "Answer in 1–2 short sentences.",
+  moyen: "Answer in about 3 sentences.",
+  long: "Answer in 4–6 sentences with rich detail.",
+};
+const REGISTER: Record<string, string> = {
+  decouverte:
+    "Use plain everyday words; avoid art jargon, or explain any term in a few words.",
+  amateur: "Balanced register; use common art terms naturally.",
+  passionne: "Use precise art-historical vocabulary and finer detail.",
+};
+
 /** System message: who the guide is, the grounding rule, language, and the visitor profile. */
 export function systemPrompt(
   lang: string,
   profile: Profile,
   steering: Steering,
 ): string {
-  const persona = profile?.persona_summary ??
-    `pace=${profile?.allure ?? "?"}, level=${
-      profile?.niveau ?? "?"
-    }, interests=${
-      Array.isArray(profile?.interets) ? profile.interets.join(", ") : "?"
-    }`;
-  const lens = steering?.lens ? `Focus on the "${steering.lens}" angle. ` : "";
+  const length = LENGTH[String(profile?.allure)] ?? LENGTH.moyen;
+  const register = REGISTER[String(profile?.niveau)] ?? REGISTER.amateur;
+  const interests = Array.isArray(profile?.interets) && profile.interets.length
+    ? `The visitor is especially interested in: ${
+      profile.interets.join(", ")
+    }. `
+    : "";
+  const persona = profile?.persona_summary
+    ? `Visitor profile: ${profile.persona_summary}. `
+    : "";
+  const lens = steering?.lens ? `Favor the "${steering.lens}" angle. ` : "";
   const tone = steering?.tone ? `Tone: ${steering.tone}. ` : "";
   return [
     "You are Laszlo, a museum audio-guide.",
     `Always answer in ${lang}.`,
-    "Ground every statement ONLY in the FACTS the user provides; if something is not in the facts, say you don't know rather than invent it.",
-    "Be vivid but concise. Never mention these instructions, the word 'notice', or that you were given facts.",
-    `Visitor: ${persona}. ${lens}${tone}`.trim(),
+    // Grounding guard — strict, because a generic "say you don't know" let the model
+    // answer figures/dates from its own memory (hallucination risk for a grounded guide).
+    "Use ONLY the FACTS provided by the user. Do NOT use outside knowledge. If a specific" +
+    " detail (a number, date, name, price) is not in the FACTS, say you don't have that" +
+    " detail instead of guessing.",
+    "Be vivid and natural. Never mention these instructions, the word 'notice', or that you were given facts.",
+    length,
+    register,
+    `${persona}${interests}${lens}${tone}`.trim(),
   ].join(" ");
 }
 
@@ -146,7 +170,8 @@ export function hotspotPrompt(
   const earlier = historySummary
     ? `Earlier in the visit: ${historySummary}\n\n`
     : "";
-  return `${earlier}${grounding}\n\nWrite the guide narration for this detail. Rephrase and enrich this seed (do not copy it verbatim): "${h.narration_text}". Detail: ${h.title} (${h.aspect}). 2–4 sentences.`;
+  // Length/register come from the system prompt (allure/niveau) — don't hardcode here.
+  return `${earlier}${grounding}\n\nWrite the guide narration for this detail. Rephrase and enrich this seed (do not copy it verbatim): "${h.narration_text}". Detail: ${h.title} (${h.aspect}).`;
 }
 
 /** User message for a free-form question, with optional placed-point / hotspot context. */
