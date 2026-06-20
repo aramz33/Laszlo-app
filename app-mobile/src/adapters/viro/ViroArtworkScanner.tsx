@@ -12,6 +12,7 @@ import {
 
 import type { Artwork } from "../../domain/artwork";
 import type { IdentifyArtwork } from "../../domain/artworkIdentifier";
+import { colors } from "../../theme";
 
 type Props = {
   artworks: Artwork[];
@@ -27,8 +28,8 @@ type SceneProps = {
 const targetNameFor = (artwork: Artwork) => `artwork-${artwork.objectNumber}`;
 
 ViroMaterials.createMaterials({
-  laszloMarkerBlue: {
-    diffuseColor: "#2f8cff"
+  laszloMarker: {
+    diffuseColor: colors.accent
   }
 });
 
@@ -82,7 +83,7 @@ function ArtworkARScene({ sceneNavigator }: SceneProps) {
           <ViroBox
             position={[0, 0, 0.025]}
             scale={[0.035, 0.035, 0.035]}
-            materials={["laszloMarkerBlue"]}
+            materials={["laszloMarker"]}
             animation={{ name: "markerPulse", run: true, loop: true }}
             onClick={() =>
               onIdentify({ artwork, source: "viro", confidence: 1 })

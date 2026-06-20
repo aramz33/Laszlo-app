@@ -1,36 +1,134 @@
-import { Image, Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
+import {
+  ActivityIndicator,
+  Image,
+  Pressable,
+  ScrollView,
+  StyleSheet,
+  Text,
+  View
+} from "react-native";
 
-import type { Artwork } from "../domain/artwork";
+import { ChatPanel } from "../components/ChatPanel";
+import { useLanguage } from "../context/LanguageContext";
+import type { Artwork, Hotspot } from "../domain/artwork";
+import { useAudioPlayer } from "../hooks/useAudioPlayer";
+import { useHotspotTexts } from "../hooks/useHotspotTexts";
+import { resolveHotspotText, type Lang, type Profile } from "../services/runtime";
+import { hasSupabaseConfig } from "../services/supabase";
+import { colors, fonts, radii } from "../theme";
 
 type Props = {
   artwork: Artwork;
   onBack: () => void;
+  profile?: Profile;
 };
 
-export function ArtworkDetailScreen({ artwork, onBack }: Props) {
+function HotspotRow({
+  hotspot,
+  text,
+  usingSeed,
+  isLoading,
+  lang
+}: {
+  hotspot: Hotspot;
+  text: string;
+  usingSeed: boolean;
+  isLoading: boolean;
+  lang: Lang;
+}) {
+  const { status, play, toggle } = useAudioPlayer();
+
+  const handlePlay = () => {
+    if (status === "playing" || status === "paused") {
+      toggle();
+    } else {
+      play({ text, lang });
+    }
+  };
+
+  const playLabel = status === "loading" ? "…" : status === "playing" ? "⏸" : "▶";
+
+  return (
+    <View style={styles.hotspotRow}>
+      <View style={styles.hotspotHeader}>
+        <View style={styles.hotspotTitleGroup}>
+          <Text style={styles.hotspotTitle}>{hotspot.title}</Text>
+          <Text style={styles.hotspotAspect}>{hotspot.aspect}</Text>
+        </View>
+        {hasSupabaseConfig ? (
+          <Pressable
+            style={[
+              styles.playButton,
+              status === "playing" && styles.playButtonActive
+            ]}
+            onPress={handlePlay}
+            disabled={status === "loading"}
+          >
+            {status === "loading" ? (
+              <ActivityIndicator size="small" color={colors.accent} />
+            ) : (
+              <Text style={styles.playButtonText}>{playLabel}</Text>
+            )}
+          </Pressable>
+        ) : null}
+      </View>
+      <Text style={styles.hotspotText}>{text}</Text>
+      {status === "error" ? (
+        <Text style={styles.errorBadge}>audio unavailable</Text>
+      ) : null}
+      {usingSeed && !isLoading ? (
+        <Text style={styles.seedBadge}>seed text</Text>
+      ) : null}
+    </View>
+  );
+}
+
+export function ArtworkDetailScreen({ artwork, onBack, profile }: Props) {
+  const { lang } = useLanguage();
+  const hotspotTexts = useHotspotTexts({ artwork, lang, profile });
+
   return (
     <ScrollView style={styles.root} contentContainerStyle={styles.content}>
       <Pressable style={styles.backButton} onPress={onBack}>
-        <Text style={styles.backText}>Back</Text>
+        <Text style={styles.backText}>← BACK</Text>
       </Pressable>
 
       <Image source={{ uri: artwork.imageUrl }} style={styles.image} />
 
       <View style={styles.header}>
-        <Text style={styles.location}>{artwork.location}</Text>
         <Text style={styles.title}>{artwork.title}</Text>
         <Text style={styles.subtitle}>{artwork.subtitle}</Text>
       </View>
 
       <View style={styles.section}>
-        <Text style={styles.sectionTitle}>Hotspots</Text>
-        {artwork.hotspots.map((hotspot) => (
-          <View key={hotspot.id} style={styles.hotspotRow}>
-            <Text style={styles.hotspotTitle}>{hotspot.title}</Text>
-            <Text style={styles.hotspotAspect}>{hotspot.aspect}</Text>
-            <Text style={styles.hotspotText}>{hotspot.narrationText}</Text>
-          </View>
-        ))}
+        <View style={styles.sectionHeader}>
+          <Text style={styles.sectionTitle}>Hotspots</Text>
+          {hotspotTexts.status === "loading" ? (
+            <View style={styles.personalizing}>
+              <ActivityIndicator size="small" color={colors.accent} />
+              <Text style={styles.personalizingText}>PERSONALIZING…</Text>
+            </View>
+          ) : null}
+        </View>
+        {artwork.hotspots.map((hotspot) => {
+          const item = hotspotTexts.items[hotspot.id];
+          const text = resolveHotspotText(hotspot, item);
+          const usingSeed = !(item && item.status === "ready" && item.text);
+          return (
+            <HotspotRow
+              key={hotspot.id}
+              hotspot={hotspot}
+              text={text}
+              usingSeed={usingSeed}
+              isLoading={hotspotTexts.status === "loading"}
+              lang={lang}
+            />
+          );
+        })}
+      </View>
+
+      <View style={styles.section}>
+        <ChatPanel artworkId={artwork.id} lang={lang} profile={profile} />
       </View>
     </ScrollView>
   );
@@ -39,7 +137,7 @@ export function ArtworkDetailScreen({ artwork, onBack }: Props) {
 const styles = StyleSheet.create({
   root: {
     flex: 1,
-    backgroundColor: "#111111"
+    backgroundColor: colors.bgBottom
   },
   content: {
     padding: 18,
@@ -47,73 +145,128 @@ const styles = StyleSheet.create({
   },
   backButton: {
     alignSelf: "flex-start",
-    borderColor: "rgba(255, 255, 255, 0.16)",
-    borderRadius: 8,
+    borderColor: colors.hairline,
+    borderRadius: radii.pill,
     borderWidth: 1,
     paddingHorizontal: 14,
-    paddingVertical: 10
+    paddingVertical: 9
   },
   backText: {
-    color: "#f7f1e7",
-    fontSize: 14,
-    fontWeight: "700"
+    color: colors.text,
+    fontFamily: fonts.mono,
+    fontSize: 11,
+    letterSpacing: 1
   },
   image: {
     width: "100%",
     aspectRatio: 1,
-    borderRadius: 8,
-    backgroundColor: "#26231f"
+    borderRadius: radii.md,
+    backgroundColor: colors.surface
   },
   header: {
     gap: 6
   },
-  location: {
-    color: "#8fc7ff",
-    fontSize: 12,
-    fontWeight: "800",
-    letterSpacing: 0,
-    textTransform: "uppercase"
-  },
   title: {
-    color: "#f7f1e7",
-    fontSize: 28,
-    fontWeight: "900"
+    color: colors.text,
+    fontFamily: fonts.serifSemibold,
+    fontSize: 30
   },
   subtitle: {
-    color: "#c5beb4",
-    fontSize: 15
+    color: colors.textMuted,
+    fontFamily: fonts.serifRegular,
+    fontSize: 16
   },
   section: {
     gap: 10
   },
+  sectionHeader: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between"
+  },
   sectionTitle: {
-    color: "#f7f1e7",
-    fontSize: 18,
-    fontWeight: "800"
+    color: colors.text,
+    fontFamily: fonts.serifSemibold,
+    fontSize: 19
+  },
+  personalizing: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 6
+  },
+  personalizingText: {
+    color: colors.accent,
+    fontFamily: fonts.mono,
+    fontSize: 10,
+    letterSpacing: 1
   },
   hotspotRow: {
-    borderColor: "rgba(255, 255, 255, 0.12)",
-    borderRadius: 8,
+    borderColor: colors.hairline,
+    borderRadius: radii.md,
     borderWidth: 1,
     padding: 14,
-    backgroundColor: "rgba(255, 255, 255, 0.05)"
+    backgroundColor: colors.glass
+  },
+  hotspotHeader: {
+    flexDirection: "row",
+    alignItems: "flex-start",
+    justifyContent: "space-between"
+  },
+  hotspotTitleGroup: {
+    flex: 1,
+    marginRight: 12
   },
   hotspotTitle: {
-    color: "#f7f1e7",
-    fontSize: 16,
-    fontWeight: "800"
+    color: colors.text,
+    fontFamily: fonts.serifSemibold,
+    fontSize: 17
   },
   hotspotAspect: {
-    color: "#8fc7ff",
-    fontSize: 12,
-    fontWeight: "700",
+    color: colors.accent,
+    fontFamily: fonts.mono,
+    fontSize: 10,
+    letterSpacing: 1,
     marginTop: 4,
     textTransform: "uppercase"
   },
+  playButton: {
+    width: 42,
+    height: 42,
+    borderRadius: 21,
+    borderColor: colors.accent,
+    borderWidth: 1.5,
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: colors.glass
+  },
+  playButtonActive: {
+    backgroundColor: colors.accentSoft
+  },
+  playButtonText: {
+    color: colors.accent,
+    fontSize: 16
+  },
   hotspotText: {
-    color: "#d6cec3",
-    fontSize: 14,
-    lineHeight: 20,
+    color: colors.textMuted,
+    fontFamily: fonts.serifRegular,
+    fontSize: 15,
+    lineHeight: 22,
     marginTop: 8
+  },
+  errorBadge: {
+    color: "#e06050",
+    fontFamily: fonts.mono,
+    fontSize: 9,
+    letterSpacing: 1,
+    marginTop: 8,
+    textTransform: "uppercase"
+  },
+  seedBadge: {
+    color: colors.textFaint,
+    fontFamily: fonts.mono,
+    fontSize: 9,
+    letterSpacing: 1,
+    marginTop: 8,
+    textTransform: "uppercase"
   }
 });

@@ -5,6 +5,7 @@ import { ManualArtworkList } from "../adapters/manual/ManualArtworkList";
 import { ViroArtworkScanner } from "../adapters/viro/ViroArtworkScanner";
 import type { Artwork } from "../domain/artwork";
 import type { IdentifyArtwork } from "../domain/artworkIdentifier";
+import { colors, fonts, radii } from "../theme";
 
 type Props = {
   artworks: Artwork[];
@@ -29,10 +30,10 @@ export function ScannerScreen({ artworks, onIdentify }: Props) {
 
       <View style={styles.controlBar}>
         <View style={styles.copy}>
-          <Text style={styles.kicker}>Laszlo</Text>
+          <Text style={styles.kicker}>LASZLO</Text>
           <Text style={styles.title}>Point at the artwork</Text>
           <Text style={styles.body}>
-            Hold steady until the blue point appears. Tap it to open the guide.
+            Hold steady until the point appears. Tap it to open the guide.
           </Text>
         </View>
         <Pressable
@@ -51,7 +52,7 @@ export function ScannerScreen({ artworks, onIdentify }: Props) {
 const styles = StyleSheet.create({
   root: {
     flex: 1,
-    backgroundColor: "#111111"
+    backgroundColor: colors.bgBottom
   },
   cameraSurface: {
     flex: 1,
@@ -63,54 +64,55 @@ const styles = StyleSheet.create({
     padding: 20
   },
   manualTitle: {
-    color: "#f7f1e7",
+    color: colors.text,
+    fontFamily: fonts.serifSemibold,
     fontSize: 24,
-    fontWeight: "800",
     marginBottom: 16
   },
   controlBar: {
-    borderTopColor: "rgba(255, 255, 255, 0.12)",
+    borderTopColor: colors.hairline,
     borderTopWidth: 1,
     padding: 18,
     flexDirection: "row",
     alignItems: "center",
     gap: 14,
-    backgroundColor: "#181715"
+    backgroundColor: colors.surface
   },
   copy: {
     flex: 1
   },
   kicker: {
-    color: "#8fc7ff",
-    fontSize: 12,
-    fontWeight: "800",
-    letterSpacing: 0,
-    textTransform: "uppercase"
+    color: colors.accent,
+    fontFamily: fonts.mono,
+    fontSize: 11,
+    letterSpacing: 2
   },
   title: {
-    color: "#f7f1e7",
-    fontSize: 20,
-    fontWeight: "800",
+    color: colors.text,
+    fontFamily: fonts.serifSemibold,
+    fontSize: 22,
     marginTop: 4
   },
   body: {
-    color: "#c5beb4",
-    fontSize: 13,
-    lineHeight: 18,
+    color: colors.textMuted,
+    fontFamily: fonts.serifRegular,
+    fontSize: 14,
+    lineHeight: 19,
     marginTop: 4
   },
   secondaryButton: {
     minWidth: 92,
-    borderRadius: 8,
-    borderColor: "rgba(255, 255, 255, 0.18)",
+    borderRadius: radii.pill,
+    borderColor: colors.hairlineStrong,
     borderWidth: 1,
     paddingHorizontal: 14,
     paddingVertical: 12,
     alignItems: "center"
   },
   secondaryButtonText: {
-    color: "#f7f1e7",
-    fontSize: 14,
-    fontWeight: "700"
+    color: colors.text,
+    fontFamily: fonts.mono,
+    fontSize: 11,
+    letterSpacing: 1
   }
 });

@@ -33,7 +33,8 @@
             "microphoneUsagePermission": "Laszlo uses the microphone for voice questions."
           }
         }
-      ]
+      ],
+      "expo-font"
     ]
   }
 }
