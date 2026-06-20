@@ -49,6 +49,7 @@ export function useChat({ artworkId, lang, profile, steering }: Args) {
   useEffect(() => {
     setMessages([]);
     setFollowups([]);
+    setBusy(false);
     return () => {
       abortRef.current?.();
     };

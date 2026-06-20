@@ -10,9 +10,11 @@ import {
 
 import { ChatPanel } from "../components/ChatPanel";
 import { useLanguage } from "../context/LanguageContext";
-import type { Artwork } from "../domain/artwork";
+import type { Artwork, Hotspot } from "../domain/artwork";
+import { useAudioPlayer } from "../hooks/useAudioPlayer";
 import { useHotspotTexts } from "../hooks/useHotspotTexts";
-import { resolveHotspotText, type Profile } from "../services/runtime";
+import { resolveHotspotText, type Lang, type Profile } from "../services/runtime";
+import { hasSupabaseConfig } from "../services/supabase";
 import { colors, fonts, radii } from "../theme";
 
 type Props = {
@@ -20,6 +22,66 @@ type Props = {
   onBack: () => void;
   profile?: Profile;
 };
+
+function HotspotRow({
+  hotspot,
+  text,
+  usingSeed,
+  isLoading,
+  lang
+}: {
+  hotspot: Hotspot;
+  text: string;
+  usingSeed: boolean;
+  isLoading: boolean;
+  lang: Lang;
+}) {
+  const { status, play, toggle } = useAudioPlayer();
+
+  const handlePlay = () => {
+    if (status === "playing" || status === "paused") {
+      toggle();
+    } else {
+      play({ text, lang });
+    }
+  };
+
+  const playLabel = status === "loading" ? "…" : status === "playing" ? "⏸" : "▶";
+
+  return (
+    <View style={styles.hotspotRow}>
+      <View style={styles.hotspotHeader}>
+        <View style={styles.hotspotTitleGroup}>
+          <Text style={styles.hotspotTitle}>{hotspot.title}</Text>
+          <Text style={styles.hotspotAspect}>{hotspot.aspect}</Text>
+        </View>
+        {hasSupabaseConfig ? (
+          <Pressable
+            style={[
+              styles.playButton,
+              status === "playing" && styles.playButtonActive
+            ]}
+            onPress={handlePlay}
+            disabled={status === "loading"}
+          >
+            {status === "loading" ? (
+              <ActivityIndicator size="small" color={colors.accent} />
+            ) : (
+              <Text style={styles.playButtonText}>{playLabel}</Text>
+            )}
+          </Pressable>
+        ) : null}
+      </View>
+      <Text style={styles.hotspotText}>{text}</Text>
+      {status === "error" ? (
+        <Text style={styles.errorBadge}>audio unavailable</Text>
+      ) : null}
+      {usingSeed && !isLoading ? (
+        <Text style={styles.seedBadge}>seed text</Text>
+      ) : null}
+    </View>
+  );
+}
 
 export function ArtworkDetailScreen({ artwork, onBack, profile }: Props) {
   const { lang } = useLanguage();
@@ -53,14 +115,14 @@ export function ArtworkDetailScreen({ artwork, onBack, profile }: Props) {
           const text = resolveHotspotText(hotspot, item);
           const usingSeed = !(item && item.status === "ready" && item.text);
           return (
-            <View key={hotspot.id} style={styles.hotspotRow}>
-              <Text style={styles.hotspotTitle}>{hotspot.title}</Text>
-              <Text style={styles.hotspotAspect}>{hotspot.aspect}</Text>
-              <Text style={styles.hotspotText}>{text}</Text>
-              {usingSeed && hotspotTexts.status !== "loading" ? (
-                <Text style={styles.seedBadge}>seed text</Text>
-              ) : null}
-            </View>
+            <HotspotRow
+              key={hotspot.id}
+              hotspot={hotspot}
+              text={text}
+              usingSeed={usingSeed}
+              isLoading={hotspotTexts.status === "loading"}
+              lang={lang}
+            />
           );
         })}
       </View>
@@ -145,6 +207,15 @@ const styles = StyleSheet.create({
     padding: 14,
     backgroundColor: colors.glass
   },
+  hotspotHeader: {
+    flexDirection: "row",
+    alignItems: "flex-start",
+    justifyContent: "space-between"
+  },
+  hotspotTitleGroup: {
+    flex: 1,
+    marginRight: 12
+  },
   hotspotTitle: {
     color: colors.text,
     fontFamily: fonts.serifSemibold,
@@ -158,12 +229,37 @@ const styles = StyleSheet.create({
     marginTop: 4,
     textTransform: "uppercase"
   },
+  playButton: {
+    width: 42,
+    height: 42,
+    borderRadius: 21,
+    borderColor: colors.accent,
+    borderWidth: 1.5,
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: colors.glass
+  },
+  playButtonActive: {
+    backgroundColor: colors.accentSoft
+  },
+  playButtonText: {
+    color: colors.accent,
+    fontSize: 16
+  },
   hotspotText: {
     color: colors.textMuted,
     fontFamily: fonts.serifRegular,
     fontSize: 15,
     lineHeight: 22,
     marginTop: 8
+  },
+  errorBadge: {
+    color: "#e06050",
+    fontFamily: fonts.mono,
+    fontSize: 9,
+    letterSpacing: 1,
+    marginTop: 8,
+    textTransform: "uppercase"
   },
   seedBadge: {
     color: colors.textFaint,
