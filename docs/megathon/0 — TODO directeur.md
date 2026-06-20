@@ -32,24 +32,21 @@ date: 2026-06-20
 - [ ] **Convergence 1** : l'app appelle au moins un endpoint serveur/stub réel après 90 min.
 - [ ] **Convergence dure** : après 3 h, app branchée sur stub HTTP ou vrai serveur pour `/generate`.
 
-### Siffrein — serveur, secrets, deploy
+### Siffrein — serveur, secrets, deploy ✅ (lane livrée)
 
-- [x] Valider le contrat → **figé dans ADR 0014** (validé Siffrein × Adam, + 2 amendements : `mode=persona`, `mode=followups`).
-- [ ] Créer les Edge Functions :
-  - [ ] `POST /functions/v1/generate` ;
-  - [ ] `POST /functions/v1/speak` ;
-  - [ ] `POST /functions/v1/transcribe` ;
-  - [ ] `POST /functions/v1/identify` (fallback vision).
-- [ ] `/generate mode=hotspot` : JSON batch, `request_id`, `items[]`, `sources` structurées.
-- [ ] `/generate mode=ask` : SSE `delta/done/error`, `done.text` complet, `sources` structurées.
-- [ ] `/generate mode=persona` : onboarding → `persona_summary` (call caché S5), JSON.
-- [ ] `/generate mode=followups` : contexte + session → 3 questions, JSON.
-- [ ] `/speak` : ElevenLabs côté serveur, request texte + voix abstraite, response `audio_url`.
-- [ ] `/transcribe` : Voxtral côté serveur, `multipart/form-data`, max 20 s / 10 MB.
-- [ ] `/identify` : vision Claude côté serveur, `multipart` image + `candidate_ids` → `artwork_id` (fallback AR, M31).
-- [ ] Configurer env vars serveur : Supabase, LLM TBD, ElevenLabs, Voxtral.
-- [ ] Livrer soit vrais endpoints, soit stub HTTP conforme, soit fixtures `curl` pour la première convergence.
-- [ ] Garder LLM **TBD** jusqu'au premier test qualité/latence ; ne pas bloquer l'app dessus.
+- [x] Valider le contrat → **figé dans ADR 0014** (+ amendements : `mode=persona`, `mode=followups`, `mode=overview`).
+- [x] Créer les Edge Functions (toutes déployées, 86 tests offline, e2e Bruno) :
+  - [x] `POST /functions/v1/generate` — 5 modes : `overview` · `hotspot` · `ask` · `persona` · `followups`
+  - [x] `POST /functions/v1/speak` — ElevenLabs (opt-in) · Edge · Mistral · Google ; voix par langue
+  - [x] `POST /functions/v1/transcribe` — Voxtral, multipart, max 10 MB
+  - [x] `POST /functions/v1/identify` — Pixtral, fallback AR
+- [x] Configurer env vars serveur (Supabase, SCW, ElevenLabs, Mistral).
+
+**Reste lane Siffrein (par priorité) :**
+- [ ] **Coords hotspots phares** — placer à la main dans le playground → `python3.11 -m pipeline.main update-hotspots`
+- [ ] **Notices Wikipedia phares (D3)** — trimmer les dumps bruts → améliore grounding `mode=ask`
+- [ ] **Choix modèle LLM (M32)** — tester alternatives `SCW_MODEL` si qualité insuffisante
+- [ ] **Mollie** — edge function `mollie`, dernier
 
 ## Backend
 
@@ -58,11 +55,11 @@ date: 2026-06-20
   - [ ] Générer les types partagés (`/shared`) pour l'app mobile
 - [x] Exposer une **API de lecture** fine → **PostgREST auto** (`?select=*,notice(*),hotspot(*)`), lecture validée
 - [x] 🟡 ~~Valider le contrat `f()` avec Siffrein~~ → **figé dans ADR 0014** (validé Siffrein × Adam, 2026-06-20). `docs/megathon/4` = log des décisions.
-- [ ] **Runtime `f()` = Edge Function Supabase**, tient la clé LLM (ADR 0014). **Scope live = génération texte** : hotspots batch à l'entrée de la vue œuvre, chat libre streamé, point placé, conversation depuis hotspot, persona (call caché), follow-ups.
-  - [ ] **Endpoints** : `POST /generate` (4 modes : `hotspot`/`ask`/`persona`/`followups`) ; `POST /speak` (texte→audio) ; `POST /transcribe` (voix→texte) ; `POST /identify` (image→artwork_id, fallback vision).
-  - [ ] 🟡 **Choisir le modèle LLM** — critères : **coût / time-to-first-token / qualité FR & multilingue / fidélité au grounding / résidence UE**. Pas fixé. **Mini-éval** : 3 notices phares × 3 candidats (modèle open via **Nebius** = cloud d'inférence open-weights EU, crédits kit · Mistral · Claude API en référence). **Fallback** = Claude API payante (M32).
-- [ ] **Edge function `POST /transcribe`** : audio → texte (Voxtral), clé STT serveur (M33)
-- [ ] **Surface TTS serveur `POST /speak`** : texte généré → `audio_url` jouable via ElevenLabs côté serveur ; l'app garde seulement les contrôles lecture/voix/vitesse/ton.
+- [x] **Runtime `f()` = Edge Function Supabase** ✅ — 5 modes : `overview`/`hotspot`/`ask`/`persona`/`followups` · 86 tests · déployé
+  - [x] **Endpoints** : `POST /generate` · `/speak` (ElevenLabs opt-in + Edge/Google) · `/transcribe` (Voxtral) · `/identify` (Pixtral)
+  - [ ] 🟡 **Choisir le modèle LLM** — défaut : `mistral-small-3.2-24b` (Scaleway). Tester alternatives via `SCW_MODEL` si qualité insuffisante.
+- [x] **Edge function `POST /transcribe`** ✅ — Voxtral, multipart, max 10 MB
+- [x] **Surface TTS serveur `POST /speak`** ✅ — ElevenLabs (opt-in, voix par langue) · Edge · Google fallback
 - [ ] 🟡 **Ajouter `location` au schéma** (musée + galerie, pour charger l'AR par salle) — **hardcode les phares** pour la démo (A3)
 - [ ] **Mollie serveur** *(dernier — après tout le reste)* : hosted checkout + webhook « activer offre musée / premium venue »
 - [ ] Brancher clé Mollie **test** (dev) puis **live** (démo activation package/pilot)
@@ -119,7 +116,7 @@ date: 2026-06-20
 ### Phares — reste (focus démo profonde)
 
 - [ ] **Notices Wikipedia phares `review → ok`** : aujourd'hui = **dump brut de l'article entier**, à trimmer en substrat propre (4 notices : SK-C-5 + SK-A-2344 × en/nl) — *jugement à froid*. **Bloque le grounding du chat (`generate mode=ask`)** : trop gros pour un petit modèle → **point à résoudre demain (D3)**
-- [ ] **Polir les hotspots phares** : narration provisoire correcte, mais **coords `x,y` à vérifier sur l'image réelle** (besoin de voir l'œuvre) ; ajouter des hotspots si la démo l'exige
+- [ ] **Polir les hotspots phares** : coords `x,y` à placer à la main dans le playground (clic → `point: x,y`) → reporter dans `flagships.py` → `python3.11 -m pipeline.main update-hotspots`
 - [ ] *(option scale, hors démo)* enrichissement déterministe à **batcher en 1 seul run prod, avec Adam** : mouvement via créateur (P170→P135, **+184 œuvres** mesurées), parser dims NL, assouplir match Q-id
 
 ## Produit
@@ -162,4 +159,4 @@ date: 2026-06-20
 - [ ] **Répéter** dimanche matin (temps protégé, code-free)
 - [ ] **SYNC 6** : ordre de passage finale + qui dit quoi
 
-<!-- maj : 2026-06-20 -->
+<!-- maj : 2026-06-20 — checkpoint Siffrein après session Devin -->

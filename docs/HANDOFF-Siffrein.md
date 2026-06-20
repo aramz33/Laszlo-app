@@ -5,83 +5,117 @@ date: 2026-06-20
 
 # Handoff — lane backend (Siffrein)
 
-> For whoever (human or model) picks up the **server/runtime** lane. Written to
-> be resumable cold. Read this, then `supabase/PLAYBOOK.md` (operations) and
-> `docs/adr/0014-…md` (the contract). The frontend lane is `docs/HANDOFF.md`
-> (Adam).
+> Pour reprendre la lane **serveur/runtime** à froid. Lire ce doc, puis
+> `supabase/PLAYBOOK.md` (opérations) et `docs/adr/0014-…md` (le contrat).
+> La lane app est `docs/HANDOFF.md` (Adam).
 
-## Who does what
+## Qui fait quoi
 
-- **Siffrein = backend / Supabase edge functions** (this lane). Repo `.env` is
-  at the root.
-- **Adam = mobile app** (Expo RN + ViroReact, `/app-mobile`) + pipeline. He
-  consumes the runtime via **`supabase/functions/API.md`**.
-- ⚠ Some older docs say the opposite (Aramsis=backend) — they're stale; trust
-  this.
+- **Siffrein = backend / Supabase edge functions** (cette lane). `.env` à la racine du repo.
+- **Adam = app mobile** (Expo RN + ViroReact, `/app-mobile`) + pipeline data.
+  Il consomme le runtime via **`supabase/functions/API.md`**.
 
-## What this lane delivers
+## Ce que la lane livre — état actuel ✅
 
-The visitor output `output = f(notice, glossaire, profil, langue, voix)` lives
-in **4 Supabase edge functions**, all live, deployed, and tested:
+`output = f(notice, glossaire, profil, langue, voix)` vit dans **4 edge functions**,
+toutes déployées, testées (86 tests offline), e2e vérifiées via Bruno.
 
-| Function     | Role                                                                   | Provider                            |
-| ------------ | ---------------------------------------------------------------------- | ----------------------------------- |
-| `generate`   | text — modes `hotspot` (batch) · `ask` (SSE) · `persona` · `followups` | Scaleway LLM                        |
-| `transcribe` | speech → text                                                          | Scaleway Voxtral                    |
-| `identify`   | photo → artwork_id (AR fallback)                                       | Scaleway Pixtral                    |
-| `speak`      | text → audio_url                                                       | selectable: edge / mistral / google |
+| Function     | Modes / rôle                                                                       | Provider                                      |
+| ------------ | ----------------------------------------------------------------------------------- | --------------------------------------------- |
+| `generate`   | `overview` · `hotspot` (batch) · `ask` (SSE) · `persona` · `followups`             | Scaleway LLM (mistral-small-3.2-24b)          |
+| `transcribe` | audio → texte                                                                       | Scaleway Voxtral                              |
+| `identify`   | photo → artwork_id (fallback AR)                                                   | Scaleway Pixtral                              |
+| `speak`      | texte → audio_url · engines : **elevenlabs** · edge · mistral · google             | ElevenLabs (opt-in) / Edge (auto) / Google   |
 
-Project ref `spbrkgoseabpsxzkkyzj`. Live base
-`…supabase.co/functions/v1/<name>`, needs
-`Authorization: Bearer <publishable key>`.
+Projet Supabase : `spbrkgoseabpsxzkkyzj` (EU).
+URL live : `…supabase.co/functions/v1/<name>`, header `Authorization: Bearer <publishable key>`.
 
-## How it's built (conventions a fresh model must keep)
+### `mode=overview` (ajouté en session)
 
-- **Code is English-only, thoroughly commented.** Docs/Obsidian stay French.
-- **Deno/TypeScript.** Each function dir: `index.ts` (HTTP + orchestration,
-  exports `handle(req, deps)`), `lib.ts` (pure helpers), `*_test.ts`,
-  `README.md`. Shared bits in `_shared/` (CORS/JSON, Supabase clients).
-- **Boundaries are injected** via `deps` (DB/LLM/STT/vision/TTS) so handlers
-  test offline. `Deno.serve` is guarded by `if (import.meta.main)`. Env is read
-  lazily inside calls.
-- **Grounding is server-side**: client sends `artwork_id`, never notices.
-  Mono-call LLM, no tools — deliberate security boundary (ADR 0014 §security).
-- **Every mode has a fallback** (stub text / engine chain) so a demo never
-  blanks.
-- Providers are config (`SCW_*`, `MISTRAL_API_KEY`, `TTS_PROVIDER`) → swappable,
-  ADR 0012.
+Hotspot virtuel « ✦ L'œuvre » : présentation générale de l'œuvre entière, généré
+en parallèle du batch hotspot à l'ouverture de la vue détail. JSON (pas SSE).
+Affiché actif par défaut dans le playground + app. Re-tap ✦ = retour sans re-générer
+(cache côté app). Contrat dans ADR 0014.
 
-## State: done ✅
+### TTS ElevenLabs
 
-- 4 functions implemented, deployed, e2e-verified.
-- 45 offline unit/behavior tests (`deno test supabase/functions/`).
-- Bruno HTTP pipeline, 16 requests / 27 assertions vs deployed (`bruno/`).
-- Docs: `PLAYBOOK.md` (ops), `functions/README.md` (overview), per-function
-  READMEs, `functions/API.md` (client guide for Adam), `deploy.sh`.
+Intégré en tant qu'engine `elevenlabs` dans `/speak`. **Désactivé du chain `auto`**
+pour économiser les crédits — opt-in explicite avec `provider:"elevenlabs"`.
+Voix par langue (env Supabase Secrets) :
+- `ELEVENLABS_VOICE_ID_FR` → défaut : Célian (`DGTOOUoGpoP6UZ9uSWfA`)
+- `ELEVENLABS_VOICE_ID_NL` → défaut : Daniel van der Meer (`MqvxHuZP0MWXPlNUh65f`)
+- `ELEVENLABS_VOICE_ID_EN` → défaut : Sarah (`EXAVITQu4vr4xnSDxMaL`)
 
-## What's next (priority order — details in PLAYBOOK §5)
+Pour réactiver ElevenLabs en auto (avant enregistrement démo) : dans
+`supabase/functions/speak/index.ts`, changer :
+```ts
+const AUTO_CHAIN: Engine[] = ["edge", "google"];
+// → ["elevenlabs", "edge", "google"]
+```
+Puis `./supabase/deploy.sh speak`.
 
-1. **ElevenLabs TTS** when the key lands — optional quality upgrade; add an
-   engine to `speak`'s `ENGINES`/`realDeps`. (Edge is keyless but Microsoft
-   throttles it.)
-2. **Pick the LLM (M32)** — eval `SCW_MODEL` candidates on the flagships; trim
-   the raw Wikipedia notices (D3) if `ask` grounding is weak (pipeline = Adam).
-3. **Mollie** payment edge function — last, not part of the runtime.
-4. Nice-to-haves: `speak.duration_s`, use `identify` `lang_hint`.
+## Conventions (à respecter)
 
-## Resume checklist (cold start)
+- Code **anglais uniquement**, commenté. Docs/Obsidian restent en français.
+- **Deno/TypeScript.** Structure par fonction : `index.ts` (HTTP + `handle(req,deps)`),
+  `lib.ts` (pure helpers), `*_test.ts`, `README.md`. Shared : `_shared/`.
+- **Deps injectées** via `deps` → tests offline sans réseau. `Deno.serve` gardé
+  derrière `if (import.meta.main)`. Env lu lazily.
+- **Grounding server-side** : client envoie `artwork_id`, jamais les notices.
+  Mono-appel LLM, sans tools (frontière sécurité ADR 0014 §security).
+- **Chaque mode a un fallback** (stub / chain engine) → la démo ne blanche jamais.
+- Providers swappables via config (`SCW_*`, `MISTRAL_API_KEY`, `ELEVENLABS_API_KEY`,
+  `TTS_PROVIDER`). ADR 0012.
 
-1. `export PATH="$HOME/.local/share/supabase:$HOME/.deno/bin:$PATH"` (PLAYBOOK
-   §3 to reinstall).
-2. `deno test supabase/functions/` → expect 45 passed.
-3. `cd bruno && npx @usebruno/cli run --env Deployed` → expect all pass.
-4. Change code → `deno test` + `deno check` → `./supabase/deploy.sh <name>` →
-   re-run Bruno.
-5. Commit/push (repo on `main`, remote = Adam's `aramz33/Laszlo-app` via the
-   `github` SSH alias).
+## Ce qui reste à faire (priorité ordre)
+
+### 1. Coords des hotspots phares — À FAIRE EN PREMIER
+
+Les coords sont actuellement estimées à l'œil et fausses. Workflow :
+
+1. Ouvrir le playground (`supabase/playground.html`)
+2. Sélectionner SK-C-5 (Night Watch), cliquer sur l'image à l'endroit exact
+   de chaque élément → noter le `point: x, y` affiché
+3. Reporter dans `pipeline/hotspots/flagships.py`
+4. Répéter pour SK-A-2344 (Milkmaid)
+5. Pousser en DB :
+   ```bash
+   cd /path/to/repo
+   python3.11 -m pipeline.main update-hotspots
+   ```
+   (Pas besoin du cache local — upsert direct Supabase depuis flagships.py)
+
+### 2. Notices Wikipedia phares (D3)
+
+Les notices wikipedia des 2 phares sont des dumps bruts de l'article entier →
+trop gros pour un petit modèle, grounding du chat (`mode=ask`) dégradé.
+À trimmer en substrat propre (4 notices : SK-C-5 + SK-A-2344 × en/nl).
+Bloque la qualité du Q&A libre sur les phares.
+
+### 3. Choix du modèle LLM (M32)
+
+Défaut actuel : `mistral-small-3.2-24b-instruct-2506` (Scaleway).
+Si qualité insuffisante sur les phares → tester d'autres modèles via `SCW_MODEL` env.
+Voir PLAYBOOK §5.B pour la procédure.
+
+### 4. Mollie (dernier)
+
+Nouvelle edge function `mollie` : checkout hébergé + webhook → débloquer
+`premium_venue`. Clé séparée. À faire après que le chemin démo est solide.
+
+## Checklist reprise à froid
+
+```bash
+export PATH="$HOME/.local/share/supabase:$HOME/.deno/bin:$PATH"
+deno test supabase/functions/                          # → 86 passed
+cd bruno && npx @usebruno/cli run --env Deployed       # → tout passe
+```
+
+Modifier → `deno test` + `deno check` → `./supabase/deploy.sh <name>` → re-run Bruno.
+Push : remote = `aramz33/Laszlo-app` via l'alias SSH `github`.
 
 ## Gotchas
 
-See PLAYBOOK §6 (deno PATH, 401, `[stub]` text = LLM fell back, `/speak` 502 =
-service-role env, deploy needs `--use-api`, Mistral content-filters profanity →
-engine falls back).
+Voir PLAYBOOK §6 : deno PATH · 401 · `[stub]` = LLM a échoué · `/speak` 502 =
+`SUPABASE_SERVICE_ROLE_KEY` non exporté · deploy nécessite `--use-api` ·
+Mistral filtre le contenu → engine fallback.
