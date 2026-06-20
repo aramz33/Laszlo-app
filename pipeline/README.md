@@ -29,17 +29,29 @@ python -m pipeline.main place-hotspots                           # auto-place ho
 
 ### `place-hotspots` — placement automatique par vision
 
-Utilise **Pixtral** (Scaleway, mêmes crédits que les edge functions) pour localiser
-chaque hotspot dans l'image de l'œuvre et mettre à jour ses coordonnées `x, y` en DB.
+Localise chaque hotspot dans l'image de l'œuvre et upserte les coords `x, y` en DB
+(effet immédiat dans le playground et l'app). Affiche un diff pour reporter dans
+`hotspots/flagships.py` si tu veux que les coords survivent à un futur `load`.
 
-- Télécharge une version réduite (≤ 1024 px) de l'image via IIIF.
-- Pour chaque hotspot : envoie l'image + le titre/aspect au modèle, parse `{"x":…,"y":…}`.
-- Upsert direct dans Supabase (effet immédiat dans l'app).
-- Affiche un diff pour mettre à jour `hotspots/flagships.py` manuellement si tu veux
-  que les coords survivent à un futur `load`.
+Trois backends sélectionnables via `--backend` :
+
+| Backend | Modèle | Fiabilité | Coût |
+|---|---|---|---|
+| `moondream` *(défaut)* | Moondream-2b local (MIT) | ★★★ — conçu pour `point to X` | 0 (local, télécharge ~1.7 GB au 1er lancement) |
+| `pixtral-grid` | Pixtral via Scaleway | ★★ — grille 5×5, résolution ±0.1 | crédits Scaleway existants |
+| `pixtral` | Pixtral floats directs | ★ — LLM mauvais pour les floats précis | crédits Scaleway existants |
+
+```bash
+python -m pipeline.main place-hotspots                        # moondream (défaut)
+python -m pipeline.main place-hotspots --backend pixtral-grid # grille Pixtral
+python -m pipeline.main place-hotspots --backend pixtral      # floats directs (legacy)
+```
+
+- Image réduite à ≤ 1024 px via IIIF avant envoi au modèle.
+- `narration_text` inclus dans le prompt pour donner du contexte visuel.
 - Fallback sur les coords existantes si un appel échoue.
-
-Nécessite `SCW_BASE_URL` + `SCW_API_KEY` dans `.env` (déjà présents via le `.env` racine).
+- `moondream` nécessite `pip install moondream` (inclus dans `requirements.txt`).
+- `pixtral*` nécessitent `SCW_BASE_URL` + `SCW_API_KEY` dans `.env`.
 
 `--limit` débugge sur un sous-ensemble. Sans `--limit`, le set complet (260214 = Top 1000,
 1040 œuvres, inclut les phares).

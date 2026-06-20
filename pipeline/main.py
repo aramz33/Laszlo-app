@@ -24,15 +24,20 @@ def _build_and_load(limit):
     load.load(transform.build(limit=limit))
 
 
-def _place_hotspots() -> None:
+def _place_hotspots(backend: str) -> None:
     """Use a vision model to auto-place hotspot coordinates for all flagships.
 
-    Reads artwork + hotspot data from Supabase, calls Pixtral for each hotspot,
-    upserts updated x/y to Supabase, and prints a diff so you can update
-    flagships.py for persistence across future `load` runs.
+    Reads artwork + hotspot data from Supabase, calls the selected backend for
+    each hotspot, upserts updated x/y to Supabase, and prints a diff so you
+    can update flagships.py for persistence across future `load` runs.
+
+    backend: "moondream" | "pixtral-grid" | "pixtral"
     """
     from . import load as load_mod
     from .hotspots import flagships, vision_placer
+
+    if backend not in vision_placer.BACKENDS:
+        raise SystemExit(f"Unknown backend '{backend}'. Choose from: {vision_placer.BACKENDS}")
 
     client = load_mod._client()
 
@@ -55,10 +60,10 @@ def _place_hotspots() -> None:
         image_url = art["image_url"]
         artwork_id = art["id"]
 
-        # Fetch current hotspots from Supabase.
+        # Fetch current hotspots — include narration_text for richer prompts.
         hs_res = (
             client.table("hotspot")
-            .select("id, title, aspect, x, y, ord")
+            .select("id, title, aspect, narration_text, x, y, ord")
             .eq("artwork_id", artwork_id)
             .order("ord")
             .execute()
@@ -68,10 +73,10 @@ def _place_hotspots() -> None:
             print(f"[place-hotspots] no hotspots for {object_number} — skipping")
             continue
 
-        print(f"\n[place-hotspots] {object_number} — {title} ({len(hotspots)} hotspots)")
+        print(f"\n[place-hotspots] {object_number} — {title} ({len(hotspots)} hotspots) [{backend}]")
 
         # Call vision model for each hotspot.
-        updated = vision_placer.place(title, artist, image_url, hotspots)
+        updated = vision_placer.place(title, artist, image_url, hotspots, backend=backend)
 
         # Upsert updated coordinates to Supabase.
         for h in updated:
@@ -92,6 +97,12 @@ def main() -> None:
                                  "load", "all", "place-hotspots"])
     parser.add_argument("--set", dest="set_spec", default=None)
     parser.add_argument("--limit", type=int, default=None)
+    parser.add_argument(
+        "--backend",
+        default="moondream",
+        choices=["moondream", "pixtral-grid", "pixtral"],
+        help="Vision backend for place-hotspots (default: moondream)",
+    )
     args = parser.parse_args()
 
     if args.command == "harvest":
@@ -110,7 +121,7 @@ def main() -> None:
         refine.run(limit=args.limit)
         _build_and_load(args.limit)
     elif args.command == "place-hotspots":
-        _place_hotspots()
+        _place_hotspots(args.backend)
 
 
 if __name__ == "__main__":
