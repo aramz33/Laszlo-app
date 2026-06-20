@@ -106,9 +106,9 @@
   <label>Tone</label>
   <input id="tone" placeholder="ex: warm, calm, playful" />
 
-  <h2>🔊 Voix <span class="info" title="Moteur TTS. edge=meilleure qualité mais flaky · mistral=voix EN · google=robotique stable.">?</span></h2>
+  <h2>🔊 Voix <span class="info" title="Moteur TTS. elevenlabs=meilleure qualité FR/NL/EN (défaut auto) · edge=neural keyless mais flaky · mistral=voix EN · google=robotique stable.">?</span></h2>
   <label>Provider</label>
-  <select id="provider"><option>auto</option><option>edge</option><option>mistral</option><option>google</option></select>
+  <select id="provider"><option>auto</option><option>elevenlabs</option><option>edge</option><option>mistral</option><option>google</option></select>
   <label>Vitesse (edge) <span id="speedval">1</span></label>
   <input type="range" id="speed" min="0.5" max="1.5" step="0.1" value="1" oninput="speedval.textContent=this.value" />
 
