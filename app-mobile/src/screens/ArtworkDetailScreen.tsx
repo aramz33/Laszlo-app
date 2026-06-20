@@ -16,6 +16,7 @@ import {
   resolveHotspotText,
   type Profile
 } from "../services/runtime";
+import { colors, fonts, radii } from "../theme";
 
 type Props = {
   artwork: Artwork;
@@ -30,13 +31,12 @@ export function ArtworkDetailScreen({ artwork, onBack, profile }: Props) {
   return (
     <ScrollView style={styles.root} contentContainerStyle={styles.content}>
       <Pressable style={styles.backButton} onPress={onBack}>
-        <Text style={styles.backText}>Back</Text>
+        <Text style={styles.backText}>← BACK</Text>
       </Pressable>
 
       <Image source={{ uri: artwork.imageUrl }} style={styles.image} />
 
       <View style={styles.header}>
-        <Text style={styles.location}>{artwork.location}</Text>
         <Text style={styles.title}>{artwork.title}</Text>
         <Text style={styles.subtitle}>{artwork.subtitle}</Text>
       </View>
@@ -46,8 +46,8 @@ export function ArtworkDetailScreen({ artwork, onBack, profile }: Props) {
           <Text style={styles.sectionTitle}>Hotspots</Text>
           {hotspotTexts.status === "loading" ? (
             <View style={styles.personalizing}>
-              <ActivityIndicator size="small" color="#8fc7ff" />
-              <Text style={styles.personalizingText}>Personalizing…</Text>
+              <ActivityIndicator size="small" color={colors.accent} />
+              <Text style={styles.personalizingText}>PERSONALIZING…</Text>
             </View>
           ) : null}
         </View>
@@ -78,7 +78,7 @@ export function ArtworkDetailScreen({ artwork, onBack, profile }: Props) {
 const styles = StyleSheet.create({
   root: {
     flex: 1,
-    backgroundColor: "#111111"
+    backgroundColor: colors.bgBottom
   },
   content: {
     padding: 18,
@@ -86,41 +86,36 @@ const styles = StyleSheet.create({
   },
   backButton: {
     alignSelf: "flex-start",
-    borderColor: "rgba(255, 255, 255, 0.16)",
-    borderRadius: 8,
+    borderColor: colors.hairline,
+    borderRadius: radii.pill,
     borderWidth: 1,
     paddingHorizontal: 14,
-    paddingVertical: 10
+    paddingVertical: 9
   },
   backText: {
-    color: "#f7f1e7",
-    fontSize: 14,
-    fontWeight: "700"
+    color: colors.text,
+    fontFamily: fonts.mono,
+    fontSize: 11,
+    letterSpacing: 1
   },
   image: {
     width: "100%",
     aspectRatio: 1,
-    borderRadius: 8,
-    backgroundColor: "#26231f"
+    borderRadius: radii.md,
+    backgroundColor: colors.surface
   },
   header: {
     gap: 6
   },
-  location: {
-    color: "#8fc7ff",
-    fontSize: 12,
-    fontWeight: "800",
-    letterSpacing: 0,
-    textTransform: "uppercase"
-  },
   title: {
-    color: "#f7f1e7",
-    fontSize: 28,
-    fontWeight: "900"
+    color: colors.text,
+    fontFamily: fonts.serifSemibold,
+    fontSize: 30
   },
   subtitle: {
-    color: "#c5beb4",
-    fontSize: 15
+    color: colors.textMuted,
+    fontFamily: fonts.serifRegular,
+    fontSize: 16
   },
   section: {
     gap: 10
@@ -131,9 +126,9 @@ const styles = StyleSheet.create({
     justifyContent: "space-between"
   },
   sectionTitle: {
-    color: "#f7f1e7",
-    fontSize: 18,
-    fontWeight: "800"
+    color: colors.text,
+    fontFamily: fonts.serifSemibold,
+    fontSize: 19
   },
   personalizing: {
     flexDirection: "row",
@@ -141,39 +136,43 @@ const styles = StyleSheet.create({
     gap: 6
   },
   personalizingText: {
-    color: "#8fc7ff",
-    fontSize: 12,
-    fontWeight: "600"
+    color: colors.accent,
+    fontFamily: fonts.mono,
+    fontSize: 10,
+    letterSpacing: 1
   },
   hotspotRow: {
-    borderColor: "rgba(255, 255, 255, 0.12)",
-    borderRadius: 8,
+    borderColor: colors.hairline,
+    borderRadius: radii.md,
     borderWidth: 1,
     padding: 14,
-    backgroundColor: "rgba(255, 255, 255, 0.05)"
+    backgroundColor: colors.glass
   },
   hotspotTitle: {
-    color: "#f7f1e7",
-    fontSize: 16,
-    fontWeight: "800"
+    color: colors.text,
+    fontFamily: fonts.serifSemibold,
+    fontSize: 17
   },
   hotspotAspect: {
-    color: "#8fc7ff",
-    fontSize: 12,
-    fontWeight: "700",
+    color: colors.accent,
+    fontFamily: fonts.mono,
+    fontSize: 10,
+    letterSpacing: 1,
     marginTop: 4,
     textTransform: "uppercase"
   },
   hotspotText: {
-    color: "#d6cec3",
-    fontSize: 14,
-    lineHeight: 20,
+    color: colors.textMuted,
+    fontFamily: fonts.serifRegular,
+    fontSize: 15,
+    lineHeight: 22,
     marginTop: 8
   },
   seedBadge: {
-    color: "#7d756a",
-    fontSize: 10,
-    fontWeight: "700",
+    color: colors.textFaint,
+    fontFamily: fonts.mono,
+    fontSize: 9,
+    letterSpacing: 1,
     marginTop: 8,
     textTransform: "uppercase"
   }

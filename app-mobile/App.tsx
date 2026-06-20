@@ -1,5 +1,12 @@
 import "react-native-url-polyfill/auto";
 
+import {
+  Newsreader_400Regular,
+  Newsreader_500Medium,
+  Newsreader_600SemiBold,
+  useFonts
+} from "@expo-google-fonts/newsreader";
+import { JetBrainsMono_500Medium } from "@expo-google-fonts/jetbrains-mono";
 import { StatusBar } from "expo-status-bar";
 import { useCallback, useEffect, useState } from "react";
 import {
@@ -17,6 +24,7 @@ import { ArtworkDetailScreen } from "./src/screens/ArtworkDetailScreen";
 import { ScannerScreen } from "./src/screens/ScannerScreen";
 import { fetchArtworks } from "./src/services/artworks";
 import { hasSupabaseConfig } from "./src/services/supabase";
+import { colors, fonts, radii } from "./src/theme";
 
 type LoadState =
   | { status: "loading" }
@@ -24,6 +32,12 @@ type LoadState =
   | { status: "error"; message: string };
 
 export default function App() {
+  const [fontsLoaded, fontError] = useFonts({
+    Newsreader_400Regular,
+    Newsreader_500Medium,
+    Newsreader_600SemiBold,
+    JetBrainsMono_500Medium
+  });
   const [load, setLoad] = useState<LoadState>({ status: "loading" });
   const [selectedArtwork, setSelectedArtwork] = useState<Artwork | null>(null);
 
@@ -46,12 +60,25 @@ export default function App() {
     setSelectedArtwork(identification.artwork);
   };
 
+  // If fonts fail to load (e.g. offline first launch), fall through to system
+  // fonts rather than blocking on the spinner forever.
+  if (!fontsLoaded && !fontError) {
+    return (
+      <SafeAreaView style={styles.root}>
+        <StatusBar style="light" />
+        <View style={styles.center}>
+          <ActivityIndicator color={colors.accent} />
+        </View>
+      </SafeAreaView>
+    );
+  }
+
   return (
     <SafeAreaView style={styles.root}>
       <StatusBar style="light" />
       {load.status === "loading" ? (
         <View style={styles.center}>
-          <ActivityIndicator color="#8fc7ff" />
+          <ActivityIndicator color={colors.accent} />
           <Text style={styles.centerText}>Loading artworks…</Text>
         </View>
       ) : load.status === "error" ? (
@@ -72,7 +99,7 @@ export default function App() {
           {!hasSupabaseConfig ? (
             <View style={styles.sampleBanner}>
               <Text style={styles.sampleBannerText}>
-                Sample mode — set EXPO_PUBLIC_SUPABASE_ANON_KEY to load live data
+                SAMPLE MODE — SET EXPO_PUBLIC_SUPABASE_ANON_KEY FOR LIVE DATA
               </Text>
             </View>
           ) : null}
@@ -86,7 +113,7 @@ export default function App() {
 const styles = StyleSheet.create({
   root: {
     flex: 1,
-    backgroundColor: "#111111"
+    backgroundColor: colors.bgBottom
   },
   center: {
     flex: 1,
@@ -96,38 +123,41 @@ const styles = StyleSheet.create({
     padding: 24
   },
   centerText: {
-    color: "#c5beb4",
-    fontSize: 14,
+    color: colors.textMuted,
+    fontFamily: fonts.serifRegular,
+    fontSize: 15,
     textAlign: "center"
   },
   errorTitle: {
-    color: "#f7f1e7",
-    fontSize: 18,
-    fontWeight: "800",
+    color: colors.text,
+    fontFamily: fonts.serifSemibold,
+    fontSize: 20,
     textAlign: "center"
   },
   retryButton: {
     marginTop: 8,
-    borderColor: "rgba(255, 255, 255, 0.18)",
-    borderRadius: 8,
+    borderColor: colors.hairlineStrong,
+    borderRadius: radii.pill,
     borderWidth: 1,
-    paddingHorizontal: 18,
-    paddingVertical: 10
+    paddingHorizontal: 20,
+    paddingVertical: 11
   },
   retryText: {
-    color: "#f7f1e7",
-    fontSize: 14,
-    fontWeight: "700"
+    color: colors.text,
+    fontFamily: fonts.mono,
+    fontSize: 12,
+    letterSpacing: 1
   },
   sampleBanner: {
-    backgroundColor: "#2a2620",
+    backgroundColor: colors.accentSoft,
     paddingHorizontal: 16,
     paddingVertical: 8
   },
   sampleBannerText: {
-    color: "#d9b35b",
-    fontSize: 12,
-    fontWeight: "600",
+    color: colors.accent,
+    fontFamily: fonts.mono,
+    fontSize: 10,
+    letterSpacing: 1,
     textAlign: "center"
   }
 });
