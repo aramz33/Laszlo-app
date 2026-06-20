@@ -10,7 +10,7 @@ const boom = () => Promise.reject(new Error("engine down"));
 
 /** All engines succeed unless overridden. */
 function engines(over: Partial<EngineMap> = {}): EngineMap {
-  return { edge: audio, mistral: audio, google: audio, ...over };
+  return { elevenlabs: audio, edge: audio, mistral: audio, google: audio, ...over };
 }
 
 function deps(eng: EngineMap = engines()): SpeakDeps {
@@ -55,9 +55,9 @@ Deno.test("explicit provider is used and reported", async () => {
   assertEquals(body.audio_url, "http://audio/x.mp3");
 });
 
-Deno.test("unknown provider falls through to edge (auto chain)", async () => {
+Deno.test("unknown provider uses the auto chain (elevenlabs first)", async () => {
   const res = await handle(post({ text: "hi", provider: "wat" }), deps());
-  assertEquals((await res.json()).engine, "edge");
+  assertEquals((await res.json()).engine, "elevenlabs");
 });
 
 Deno.test("chosen engine failure falls back down the chain", async () => {
@@ -84,8 +84,33 @@ Deno.test("all engines down -> 502", async () => {
   assertEquals(res.status, 502);
 });
 
-Deno.test("default (auto) prefers edge", async () => {
+Deno.test("default (auto) prefers elevenlabs", async () => {
   const res = await handle(post({ text: "hi" }), deps());
+  assertEquals((await res.json()).engine, "elevenlabs");
+});
+
+Deno.test("auto falls back to edge when elevenlabs fails", async () => {
+  const res = await handle(
+    post({ text: "hi" }),
+    deps(engines({ elevenlabs: boom })),
+  );
+  assertEquals((await res.json()).engine, "edge");
+});
+
+Deno.test("elevenlabs engine is used when explicitly requested", async () => {
+  const res = await handle(
+    post({ text: "hi", provider: "elevenlabs" }),
+    deps(),
+  );
+  assertEquals((await res.json()).engine, "elevenlabs");
+});
+
+Deno.test("explicit elevenlabs failure falls back to edge (not google)", async () => {
+  // When elevenlabs is requested explicitly and fails, edge is the next reliable fallback.
+  const res = await handle(
+    post({ text: "hi", provider: "elevenlabs" }),
+    deps(engines({ elevenlabs: boom })),
+  );
   assertEquals((await res.json()).engine, "edge");
 });
 

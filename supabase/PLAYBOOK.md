@@ -14,10 +14,10 @@ README. For _the contract_ see
 
 | Function     | Does                                                            | Provider                            | State                          |
 | ------------ | --------------------------------------------------------------- | ----------------------------------- | ------------------------------ |
-| `generate`   | text: `hotspot` (batch) · `ask` (SSE) · `persona` · `followups` | Scaleway LLM                        | ✅ real                        |
-| `transcribe` | speech → text                                                   | Scaleway Voxtral                    | ✅ real                        |
-| `identify`   | photo → artwork_id (AR fallback)                                | Scaleway Pixtral                    | ✅ real                        |
-| `speak`      | text → audio_url                                                | selectable: edge / mistral / google | ✅ works (pick via `provider`) |
+| `generate`   | text: `overview` · `hotspot` (batch) · `ask` (SSE) · `persona` · `followups` | Scaleway LLM                                    | ✅ real                        |
+| `transcribe` | speech → text                                                                 | Scaleway Voxtral                                | ✅ real                        |
+| `identify`   | photo → artwork_id (AR fallback)                                              | Scaleway Pixtral                                | ✅ real                        |
+| `speak`      | text → audio_url                                                              | **ElevenLabs** (default) · edge · mistral · google | ✅ works (pick via `provider`) |
 
 Live base: `https://spbrkgoseabpsxzkkyzj.supabase.co/functions/v1/<name>` (needs
 header `Authorization: Bearer <publishable key>`).
@@ -100,18 +100,17 @@ as secrets (see `deploy.sh` footer).
 
 ## 5. Open work — prioritized, with exact steps
 
-### A. Swap the TTS to ElevenLabs (when the key arrives) — optional upgrade
+### A. ~~Swap the TTS to ElevenLabs~~ — ✅ done
 
-`speak` already works keyless (Edge neural voices, Google fallback), so this is
-a quality bump, not a blocker.
+ElevenLabs is now the default engine when `ELEVENLABS_API_KEY` is set. Auto
+chain: elevenlabs → edge → google. `ELEVENLABS_VOICE_ID` (default
+`EXAVITQu4vr4xnSDxMaL`) and `ELEVENLABS_MODEL` (default
+`eleven_multilingual_v2`) are configurable via Supabase secrets. The key must be
+set as a secret for deployed functions:
 
-1. Add `ELEVENLABS_API_KEY=...` to `.env`, then set it as a secret:
-   `supabase secrets set --project-ref spbrkgoseabpsxzkkyzj ELEVENLABS_API_KEY=...`
-2. In **`functions/speak/index.ts`**, add an ElevenLabs branch at the top of
-   `synthesize()` (return MP3 bytes; keep Edge/Google as fallback). Nothing else
-   changes — the upload/return path and the contract stay identical. (Optionally
-   map `voice`/`tone`, currently ignored.)
-3. `./supabase/deploy.sh speak` and re-run the Bruno `speak` request.
+```bash
+supabase secrets set --project-ref spbrkgoseabpsxzkkyzj ELEVENLABS_API_KEY=...
+```
 
 ### B. Pick the LLM (M32) — quality/latency
 

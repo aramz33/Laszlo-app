@@ -4,27 +4,28 @@
 // short playable URL (not base64) and keeps only its playback controls. The TTS key
 // stays server-side.
 //
-// Engines (no ElevenLabs key yet — all selectable):
-//   edge    — Microsoft Edge neural voices (keyless, native FR/NL/EN, default)
-//   mistral — Mistral voxtral-mini-tts (needs MISTRAL_API_KEY; English voices only)
-//   google  — Google Translate TTS (keyless, robotic; the safety net)
+// Engines (selectable via `provider`):
+//   elevenlabs — ElevenLabs eleven_multilingual_v2 (needs ELEVENLABS_API_KEY; best quality)
+//   edge       — Microsoft Edge neural voices (keyless, native FR/NL/EN)
+//   mistral    — Mistral voxtral-mini-tts (needs MISTRAL_API_KEY; English voices only)
+//   google     — Google Translate TTS (keyless, robotic; the safety net)
 //
-// Pick one per request with `provider`, or set a default with the TTS_PROVIDER env.
-// "auto" (default) = edge then google. An explicit choice still falls back to edge→google
-// so a demo never blanks. When ELEVENLABS_API_KEY lands, add an `elevenlabs` engine here.
+// "auto" (default) = elevenlabs → edge → google: best quality first, keyless fallback.
+// An explicit choice still falls back edge→google so a demo never blanks.
 //
 // Request : { text, lang, provider?, voice?, speed?, tone? }
 // Response: { audio_url, format, duration_s, engine }
 
 import { jsonResponse, preflight } from "../_shared/http.ts";
 import { serviceClient } from "../_shared/supabase.ts";
+import { elevenLabsTts } from "./elevenlabstts.ts";
 import { edgeTts } from "./edgetts.ts";
 import { mistralTts } from "./mistraltts.ts";
 import { chunkText, googleTtsUrl, MAX_CHUNKS } from "./lib.ts";
 
 const STORAGE_BUCKET = "artworks"; // public bucket; TTS files live under tts/
 
-export type Engine = "edge" | "mistral" | "google";
+export type Engine = "elevenlabs" | "edge" | "mistral" | "google";
 export type EngineMap = Record<
   Engine,
   (text: string, lang: string, speed: number) => Promise<Uint8Array>
@@ -38,6 +39,7 @@ export type SpeakDeps = {
 
 export const realDeps: SpeakDeps = {
   engines: {
+    elevenlabs: (t) => elevenLabsTts(t),
     edge: (t, l, s) => edgeTts(t, l, s),
     mistral: (t) => mistralTts(t),
     google: (t, l) => googleTts(t, l),
@@ -45,9 +47,15 @@ export const realDeps: SpeakDeps = {
   uploadAudio,
 };
 
+// "auto" tries the best-quality engine first; each falls through on error.
+// Reliable keyless fallbacks (edge → google) always trail explicit choices too.
+const AUTO_CHAIN: Engine[] = ["elevenlabs", "edge", "google"];
+const FALLBACK_CHAIN: Engine[] = ["edge", "google"];
+
 /**
- * Synthesize to MP3, choosing the engine. `provider` is the requested engine (or "auto");
- * we always keep edge→google as a fallback chain so an engine outage never breaks the demo.
+ * Synthesize to MP3, choosing the engine. `provider` is the requested engine (or "auto").
+ * - "auto": elevenlabs → edge → google (quality-first; elevenlabs fast-fails if key missing).
+ * - explicit engine: <chosen> → edge → google (reliable fallbacks regardless of choice).
  * Returns the bytes plus which engine actually produced them.
  */
 async function synthesize(
@@ -57,8 +65,10 @@ async function synthesize(
   speed: number,
   provider: string,
 ): Promise<{ bytes: Uint8Array; engine: Engine }> {
-  const chosen: Engine[] = provider in engines ? [provider as Engine] : [];
-  const order = [...new Set<Engine>([...chosen, "edge", "google"])];
+  const chosen = provider in engines ? provider as Engine : null;
+  const order = chosen
+    ? [...new Set<Engine>([chosen, ...FALLBACK_CHAIN])]
+    : AUTO_CHAIN;
   let lastError: unknown;
   for (const engine of order) {
     try {
