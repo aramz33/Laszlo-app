@@ -32,7 +32,7 @@ type LoadState =
   | { status: "error"; message: string };
 
 export default function App() {
-  const [fontsLoaded] = useFonts({
+  const [fontsLoaded, fontError] = useFonts({
     Newsreader_400Regular,
     Newsreader_500Medium,
     Newsreader_600SemiBold,
@@ -60,7 +60,9 @@ export default function App() {
     setSelectedArtwork(identification.artwork);
   };
 
-  if (!fontsLoaded) {
+  // If fonts fail to load (e.g. offline first launch), fall through to system
+  // fonts rather than blocking on the spinner forever.
+  if (!fontsLoaded && !fontError) {
     return (
       <SafeAreaView style={styles.root}>
         <StatusBar style="light" />
