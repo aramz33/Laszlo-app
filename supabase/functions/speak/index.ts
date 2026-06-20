@@ -49,7 +49,11 @@ export const realDeps: SpeakDeps = {
 
 // "auto" tries the best-quality engine first; each falls through on error.
 // Reliable keyless fallbacks (edge → google) always trail explicit choices too.
-const AUTO_CHAIN: Engine[] = ["elevenlabs", "edge", "google"];
+//
+// ⚡ ElevenLabs credits: to activate ElevenLabs as the default, add "elevenlabs"
+// at the front of AUTO_CHAIN below. To keep it opt-in only (save credits), leave
+// it out — it stays available via `provider: "elevenlabs"` in any request.
+const AUTO_CHAIN: Engine[] = ["edge", "google"]; // swap to ["elevenlabs","edge","google"] to default to ElevenLabs
 const FALLBACK_CHAIN: Engine[] = ["edge", "google"];
 
 /**

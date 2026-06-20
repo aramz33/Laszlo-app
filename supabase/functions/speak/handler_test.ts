@@ -55,9 +55,9 @@ Deno.test("explicit provider is used and reported", async () => {
   assertEquals(body.audio_url, "http://audio/x.mp3");
 });
 
-Deno.test("unknown provider uses the auto chain (elevenlabs first)", async () => {
+Deno.test("unknown provider uses the auto chain (edge first, elevenlabs opt-in)", async () => {
   const res = await handle(post({ text: "hi", provider: "wat" }), deps());
-  assertEquals((await res.json()).engine, "elevenlabs");
+  assertEquals((await res.json()).engine, "edge");
 });
 
 Deno.test("chosen engine failure falls back down the chain", async () => {
@@ -84,16 +84,8 @@ Deno.test("all engines down -> 502", async () => {
   assertEquals(res.status, 502);
 });
 
-Deno.test("default (auto) prefers elevenlabs", async () => {
+Deno.test("default (auto) uses edge (elevenlabs is opt-in to save credits)", async () => {
   const res = await handle(post({ text: "hi" }), deps());
-  assertEquals((await res.json()).engine, "elevenlabs");
-});
-
-Deno.test("auto falls back to edge when elevenlabs fails", async () => {
-  const res = await handle(
-    post({ text: "hi" }),
-    deps(engines({ elevenlabs: boom })),
-  );
   assertEquals((await res.json()).engine, "edge");
 });
 
