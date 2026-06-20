@@ -24,7 +24,7 @@ Le SYNC n'est pas une réunion de mise à jour — c'est une **machine à tranch
    CONTENU/DONNÉES     PRODUIT/DÉMO         TECH
    (tranche Rijks,     (happy path,         (stack, Vapi voix,
     notices, ground.)  œuvres phares,        pipeline, AR/reco)
-        │               paywall UX)              │
+        │               activation Mollie)       │
         └──────► alimente ◄──┘  définit ►────────┘
                           │
                           ▼
@@ -117,8 +117,8 @@ Pour chaque sujet ouvert :
 1. **Hook (problème)** — Le fossé : 40 questions devant l'œuvre, 3 phrases sur le cartel. L'audioguide est monotone, on décroche. *(chiffre marquant à insérer)*
 2. **Démo live (le wow)** — Parler à l'œuvre, à voix haute, barge-in, réponse en registre. **Le faire en vrai**, pas des slides. → bascule FR/EN si possible.
 3. **Pourquoi nous / pourquoi maintenant** — Voix AI mûre ; **moat = KB curée par facettes + voix bidirectionnelle** (angle mort d'ArtScan ; terrain B2B de Smartify). **Et curé À L'ÉCHELLE** : pipeline d'ingestion ancré (Rijksmuseum CC0 → 60M d'œuvres Europeana) = la réponse à « comment tu remplis 1000 musées ». Archi portable.
-4. **Momentum** — « Vendredi : archi + modèle de connaissance sur papier. Dimanche : ça **parle aux visiteurs, encaisse**, et un **pipeline a ingéré N œuvres du Rijksmuseum tout seul**. »
-5. **Business / ask** — Double modèle B2C freemium + B2B musées ; vision « ready to be a unicorn ». Ce qu'on cherche ensuite.
+4. **Momentum** — « Vendredi : archi + modèle de connaissance sur papier. Dimanche : ça **parle aux visiteurs**, peut être **activé par un venue via Mollie**, et un **pipeline a ingéré N œuvres du Rijksmuseum tout seul**. »
+5. **Business / ask** — **B2B2C d'abord** : musées / expositions paient, visiteurs adoptent via le lieu. **B2C plus tard** (~5 ans) : les signaux d'usage agrégés et privacy-safe guideront le bon public, les langues, les intérêts et les comportements premium à cibler.
 
 **À préparer en parallèle (Adam) :** 1 chiffre-choc, slide unique de secours, vidéo backup de la démo, réponses Q/R jury (coût IA/visiteur, moat vs ArtScan/Smartify, go-to-market musées, comment le pipeline scale).
 
@@ -127,7 +127,7 @@ Pour chaque sujet ouvert :
 ## Questions ouvertes & risques
 
 ### À trancher avec Siffrein (SYNC 0/1)
-1. **Front / client** — acté : client démo **Expo React Native + ViroReact** dans `/app-mobile`, PWA Vercel/Base44 en repli paywall/secondaire.
+1. **Front / client** — acté : client démo **Expo React Native + ViroReact** dans `/app-mobile`, PWA Vercel/Base44 en repli activation Mollie/secondaire.
 2. **Voix / TTS — DÉCISION OUVERTE, recherche requise.** Compte **ElevenLabs** dispo. Arbitrage : (a) ElevenLabs TTS live + Vapi pour le live → garde la track Vapi ; (b) tout-ElevenLabs (Conversational AI) → perd la track Vapi ; (c) Vapi partout si le workflow est plus rapide. **Le downgrade barge-in (M16) simplifie : sans interruption, ElevenLabs seul peut suffire.** À trancher après recherche.
 3. **Reconnaissance** — acté : **ViroReact image tracking** (ARKit iOS / ARCore Android ; embeddings = story d'échelle + post-hackathon, hors runtime). Filets = sélection manuelle / QR / overlay 2D.
 4. **AR = priorité ou bonus ?** Dans M9 (voix-phare → breadth → reconnaissance), l'ancrage AR se place où ? *(reco : bonus coupable, voix-phare reste P1)*
@@ -149,7 +149,7 @@ Pour chaque sujet ouvert :
 | **Voix non tranchée** (ElevenLabs vs Vapi) | latence à câbler + qualif track Vapi | recherche dès vendredi · garder le pipeline agnostique (texte des hotspots) · décision au plus tard SYNC 1 |
 | **Breaking change OAI-PMH** (nouvelle version EDM, 11/06/2026) | parser qui casse | parser **défensif** / consommer en graphe · tester le harvest **tôt** (dans le train) |
 | **Scope blowup** | rien de fini dimanche | priorité build = loi (voix→pipeline→reco) · feature freeze dim. matin |
-| **Intégration Mollie** plus longue que prévu | pas de signal paiement | paywall minimal (1 bouton, 1 montant) · acceptable de simuler si l'API bloque, mais viser le vrai |
+| **Intégration Mollie** plus longue que prévu | pas de signal commercial | activation package/pilot minimal (1 bouton, 1 offre) · acceptable de simuler si l'API bloque, mais viser le vrai |
 | **Latence voix** (chaîne STT→LLM→TTS) | wow émoussé | streaming · tester tôt · cache audio seulement si la génération live casse le wow |
 | **Connectivité venue** | démo qui rame | tester le wifi tôt · plan hotspot · cache local des notices phares |
 | **Énergie / sommeil** | pitch raté dimanche | 2 blocs sommeil planifiés, **dim. matin protégé** |

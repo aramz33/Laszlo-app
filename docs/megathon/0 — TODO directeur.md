@@ -18,8 +18,8 @@ date: 2026-06-20
   - [ ] 🟡 **Valider le modèle sur Nebius** (crédits kit) → sinon clé Claude API payante (M32)
 - [ ] **Edge function `POST /transcribe`** : audio → texte (Voxtral), clé STT serveur (M33)
 - [ ] 🟡 **Ajouter `location` au schéma** (musée + galerie, pour charger l'AR par salle) — **hardcode les phares** pour la démo (A3)
-- [ ] **Mollie serveur** : hosted checkout + webhook « débloquer premium »
-- [ ] Brancher clé Mollie **test** (dev) puis **live** (stand)
+- [ ] **Mollie serveur** : hosted checkout + webhook « activer offre musée / premium venue »
+- [ ] Brancher clé Mollie **test** (dev) puis **live** (démo activation package/pilot)
 - [x] Storage Supabase pour images HD + reference images AR (phares ; bucket public `artworks`)
 - [ ] Déploiement backend (proche utilisateur)
 
@@ -40,7 +40,7 @@ date: 2026-06-20
 - [ ] **Fallback sélection manuelle / QR / overlay 2D** prêt (même backend + même vue détail)
 - [ ] **Onboarding profil** : 3 questions skippables **ludiques** → axes neutres (allure/niveau/intérêt), `AsyncStorage` (C1) — *wording = design*
 - [ ] **Picker langue** visible, init sur la locale (C2)
-- [ ] UI **paywall Mollie** dans l'app
+- [ ] UI **activation Mollie** (package musée / pilot), plutôt qu'un paywall visiteur dans l'app
 - [ ] (designer) Identité « doux sur le regard » + transitions + **écran « scale »** (N œuvres)
 
 ## Dataset (pipeline — IntelliJ)
@@ -79,7 +79,8 @@ date: 2026-06-20
 - [ ] Écrire le **happy path** de démo (le chemin exact de dimanche) — SYNC 1
 - [ ] Définir les **4 chemins de connaissance** en démo (Défaut/Technique/Histoire/Symbolisme)
 - [ ] **Profil 3 questions** skippables (réutiliser, léger) — *persona auto = vision, hors démo*
-- [ ] Définir le **montant paywall** premium (1–3 €)
+- [ ] Définir l'**offre Mollie de démo** : paid pilot / package exposition / abonnement musée
+- [ ] 🟡 Écrire la **feature list complète** freemium / premium / musée, puis en tirer une spec produit post-démo
 - [ ] 🟡 Décider : **recrue n°2** (ML/full-stack) vendredi soir selon vivier
 - [ ] Cadrer la **coda « phone-less / lunettes »** pour le pitch (non développée)
 
@@ -88,7 +89,7 @@ date: 2026-06-20
 - [ ] **Logistique stand** : poster A3 vs écran/tablette pour œuvres + QR
 - [ ] Vérifier **impression** au venue (sinon imprimer avant)
 - [ ] **Go/no-go ViroReact → fallback sélection/QR/overlay 2D** si anchors instables
-- [ ] **Paiement réel au stand** (clé live) → compter les **conversions €** + mini-CSV
+- [ ] **Démo Mollie** : activation d'un package musée/pilot → webhook débloque premium venue + mini-CSV
 - [ ] **Dry-run** chronométré + **liste de coupes** (reco en 1er) — SYNC 4
 - [ ] **Vidéo backup** de la démo (avant la nuit de samedi)
 - [ ] Tester **wifi/hotspot** + **cache local** des notices phares
@@ -100,7 +101,8 @@ date: 2026-06-20
 - [ ] **Répéter ×2-3** le pitch recrutement 1 min (dans le train)
 - [ ] **Pitcher** vendredi 19:00 → **recruter le designer**
 - [ ] **Draft pitch finale** (hook / démo live / why-now / momentum / ask)
-- [ ] **1 chiffre-choc** (inclure le nb de paiements réels)
+- [x] 🟡 Modèle business du pitch tranché : **B2B2C d'abord** (musées paient, visiteurs adoptent), **B2C plus tard** (~5 ans) via signaux agrégés privacy-safe
+- [ ] **1 chiffre-choc** (ex. N œuvres ingérées, coût/visiteur estimé, ou package venue activable via Mollie)
 - [ ] **1 slide** unique de secours
 - [ ] **Q/R jury** : coût IA/visiteur · moat vs ArtScan/Smartify · GTM musées · scaling pipeline
 - [ ] **Mentionner (sans implémenter)** : barge-in · couche éditoriale musée (ex. Guernica) · reco open-world par embeddings (scale)

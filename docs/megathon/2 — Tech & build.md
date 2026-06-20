@@ -103,12 +103,12 @@ Si les anchors ViroReact ne sont pas stables **sur device**, on bascule en **sé
 ## Stack week-end (à valider Siffrein)
 
 - **Pipeline + backend** : **IntelliJ** (lane Adam). Recommandé **Python** (harvest/parse XML/images/LLM/Supabase) — tourne dans IntelliJ IDEA Ultimate (plugin Python) ou PyCharm ; alternative JVM/Kotlin si préféré.
-- **Client démo** : **app mobile Expo React Native + ViroReact** dans `/app-mobile` (lane Siffrein). **PWA Next.js/Vercel** conservée pour paywall/secondaire (ou Base44 si on vise sa track).
+- **Client démo** : **app mobile Expo React Native + ViroReact** dans `/app-mobile` (lane Siffrein). **PWA Next.js/Vercel** conservée pour activation Mollie / page package musée / secondaire (ou Base44 si on vise sa track).
 - **Données** : **Rijksmuseum** — **OAI-PMH** (`https://data.rijksmuseum.nl/oai`, sans clé, format `edm`) + **IIIF** (`https://iiif.micr.io/{id}/...`). Set actuel : **`260214` Top 1000**.
 - **Base** : **Supabase** (Postgres). Schéma = le contrat (voir ci-dessous).
 - **Reconnaissance** : **ViroReact image tracking** (reference images générées depuis IIIF + dimensions EDM).
 - **Voix** : **OUVERT** (ElevenLabs / Vapi — à trancher après recherche).
-- **Paiement** : **Mollie** — paywall « débloquer le guide premium » (qualif headline + willingness-to-pay).
+- **Paiement** : **Mollie** — activation B2B/B2B2C d'un paid pilot / package exposition / abonnement venue (qualif headline + preuve de sérieux commercial).
 - **Builder kit** : Codex MAX, Devin MAX, Nebius 100$, Vapi 50$, Base44, HubSpot, Miro, Wispr Flow.
 
 ## Priorité de build (loi anti-débordement)
@@ -174,7 +174,7 @@ hotspot  (id, artwork_id, x, y,          -- coords normalisées sur l'image
 
 | Qui | Lane |
 |---|---|
-| **Adam** (CEO **+ dev**) | **Moteur de données** (IntelliJ) : ingestion Rijks → notices neutres par source → graphe Supabase + hotspots. **+** lead SYNC, business + paywall Mollie + traction, **pitch**, networking jury/sponsors |
+| **Adam** (CEO **+ dev**) | **Moteur de données** (IntelliJ) : ingestion Rijks → notices neutres par source → graphe Supabase + hotspots. **+** lead SYNC, business + activation Mollie + traction, **pitch**, networking jury/sponsors |
 | **Siffrein** (CTO) | **Expérience temps réel** (`/app-mobile`) : Expo React Native + ViroReact + voix + session/chat + **déploiement** (+ PWA repli) |
 | **Designer** (recrue) | **Composants UI** + UI/UX « doux sur le regard » + écrans démo + branding + visuel scène |
 
@@ -227,14 +227,14 @@ hotspot  (id, artwork_id, x, y,          -- coords normalisées sur l'image
 
 ### Phase 3 — Bloc B (matin) · Sam 09:00–14:30 — **PRIORITÉ 2 : pipeline breadth**
 - Adam : **pipeline ingestion** Rijks (OAI-PMH + IIIF → graphe → notices auto ancrées). Workshop **Cala 12:30**.
-- Siffrein : **workshop Vapi 11:30**, puis brancher l'app sur la **vraie DB** + **reference images AR** + paywall Mollie.
+- Siffrein : **workshop Vapi 11:30**, puis brancher l'app sur la **vraie DB** + **reference images AR** + état premium venue.
 - Designer : polir écran œuvre, transitions, écran « scale » (N œuvres ingérées).
 
 ### ⟐ SYNC 3 — Intégration midi (Sam ~14:30, 20 min)
-- **Premier bout-en-bout** : AR → œuvre → hotspot/voix → paywall. **Go/no-go ViroReact → fallback sélection/QR/overlay 2D si anchors instables.** Geler le périmètre ?
+- **Premier bout-en-bout** : AR → œuvre → hotspot/voix → premium venue actif. **Go/no-go ViroReact → fallback sélection/QR/overlay 2D si anchors instables.** Geler le périmètre ?
 
 ### Phase 4 — Bloc C (aprem/soir) · Sam 15:00–~00:30 — **PRIORITÉ 3 : reco (bonus) + polish**
-- Adam : reconnaissance (ViroReact / sinon sélection-QR) + traction + **paiement réel (live) au stand**.
+- Adam : reconnaissance (ViroReact / sinon sélection-QR) + traction + **démo activation Mollie** (package/pilot venue).
 - Siffrein/designer : multilingue live (FR→EN), hotspots des phares, polish du wow.
 - Adam : draft pitch finale + slides.
 
@@ -289,15 +289,15 @@ hotspot  (id, artwork_id, x, y,          -- coords normalisées sur l'image
 - [ ] **Spike voix** (parler / répondre / barge-in) sur mock DB.
 - [ ] **App mobile ViroReact** : détection œuvre (tracking targets) → point ancré → vue détail → hotspots. Fallback sélection/QR/overlay 2D prêt.
 - [ ] **Audio hotspots** (lecteur + contrôles vitesse/ton/voix) + **chat** libre.
-- [ ] Intégrer **paywall Mollie** (clé test → live au stand). **Déploiement**.
+- [ ] Intégrer l'**état premium venue** déclenché par Mollie (clé test → live si besoin). **Déploiement**.
 
 ### 🎨 Build — Designer
 - [ ] Vue détail (œuvre + hotspots + chat) + composants.
 - [ ] Identité « doux sur le regard », transitions. Écran « scale » (N œuvres).
 
 ### 💼 Business / pitch (Adam)
-- [ ] Paywall « premium » + **montant symbolique (1–3 €)**.
-- [ ] **Paiement réel au stand** (clé live) → compter les **conversions €**.
+- [ ] Packager l'offre **paid pilot / package exposition / abonnement venue**.
+- [ ] **Démo Mollie** : hosted checkout + webhook → premium venue actif + mini-CSV.
 - [ ] Plan **traction** (QR / signups). Draft **pitch finale** + slide de secours + **1 chiffre-choc**.
 - [ ] **Build-in-Public** (poster la journey). **Vidéo backup** (avant nuit sam.). **Répéter le pitch** (dim. matin).
 
@@ -308,13 +308,13 @@ hotspot  (id, artwork_id, x, y,          -- coords normalisées sur l'image
 
 ## 💳 Mollie — live actif : comment l'utiliser
 
-**État :** compte créé, identité validée, banque liée, CB + Apple/Google Pay → **on peut encaisser pour de vrai.** ✅
+**État :** compte créé, identité validée, banque liée, CB + Apple/Google Pay → **on peut activer un package payé pour de vrai.** ✅
 
 - **`test_…` = dev + démo sur scène.** Paiements simulés, gratuit/répétable → on ne charge personne en répétition/pitch.
-- **`live_…` = l'expérience au stand.** Vrais 1–3 € → compter les **conversions réelles** (signal willingness-to-pay + punchline). Bascule = changer la clé. **Jamais démoer en live sur scène.**
+- **`live_…` = activation réelle si utile.** Package/pilot venue payable → compter les activations, pas des micro-conversions visiteur. Bascule = changer la clé. **Jamais démoer en live sur scène.**
 
-**Tips :** **hosted checkout** (Apple/Google Pay sans config domaine) · **webhook** pour débloquer le premium · montant 1–3 € · mini-CSV des conversions.
-**Caveats :** payeurs = builders ≠ visiteurs (signal directionnel) ; euros sur l'entité perso (SIRET) ≠ laszlo → à réconcilier avec Siffrein.
+**Tips :** **hosted checkout** (Apple/Google Pay sans config domaine) · **webhook** pour activer `premium_venue` · offre demo = paid pilot / package exposition / abonnement venue · mini-CSV des activations.
+**Caveats :** une activation hackathon n'est pas un cycle d'achat musée complet ; euros sur l'entité perso (SIRET) ≠ laszlo → à réconcilier avec Siffrein.
 
 <!-- maj : 2026-06-20 -->
 

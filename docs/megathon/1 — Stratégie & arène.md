@@ -11,7 +11,7 @@ date: 2026-06-19
 
 ## La thèse en une phrase
 
-On n'utilise pas le week-end pour brainstormer laszlo — on l'utilise comme **moteur de validation** : transformer la fondation papier solide en **démo voice-first jouable en live, avec un signal de paiement réel**. Le R&D se prouve en shippant, pas en discutant.
+On n'utilise pas le week-end pour brainstormer laszlo — on l'utilise comme **moteur de validation** : transformer la fondation papier solide en **démo voice-first jouable en live, avec un signal commercial réel**. Le R&D se prouve en shippant, pas en discutant.
 
 ## Win condition (priorisé)
 
@@ -27,7 +27,7 @@ On n'utilise pas le week-end pour brainstormer laszlo — on l'utilise comme **m
 - **Quoi :** un **guide de musée conversationnel** — tu te tiens devant une œuvre, tu lui parles à voix haute, elle te répond dans son registre, et tu peux la couper. L'alternative moderne à l'audioguide monotone.
 - **Comment c'est différent :** pas un scanner d'objets générique (ArtScan), pas juste un partenariat musée (Smartify). Notre cœur = **une base de connaissance curée, ancrée par facettes** (Défaut / Technique / Histoire / Symbolisme) **+ voix bidirectionnelle (barge-in)**.
 - **L'idée qui rend ça grand :** le contenu curé est produit **à l'échelle, automatiquement, et ancré** (provenance, anti-hallucination). C'est la réponse à *« comment tu remplis 1000 musées »* — et ce qui nous rend investissable.
-- **Le modèle :** **B2C** freemium (expos permanentes) + **B2B** parcours co-construits avec les musées.
+- **Le modèle :** **B2B2C d'abord** : les musées / lieux culturels paient, les visiteurs adoptent sans friction. **B2C plus tard** (~5 ans), quand les déploiements auront produit assez de signaux d'usage agrégés et privacy-safe pour savoir quels publics, langues, intérêts et comportements premium cibler.
 - **La trajectoire :** surface **jetable et portable** (web → device → lunettes) ; l'intelligence vit côté serveur. On ne parie pas sur un objet, on parie sur l'expérience + la donnée.
 - **L'ambition :** Rijksmuseum aujourd'hui → 60M d'œuvres européennes (Europeana) demain. *« Unite Europe »* par la culture.
 
@@ -185,8 +185,8 @@ Panel headline (11) — surtout **VCs + opérateurs** :
 - **Pourquoi :** l'horizon produit est cross-platform mobile et agent-friendly. Pour notre besoin AR étroit (identifier une œuvre plate, afficher un point, ouvrir la vue détail), ViroReact garde l'app en TypeScript sans sacrifier l'ancrage. Les embeddings restent la **story d'échelle du pitch** (reco open-world, 60M œuvres) + un chantier post-hackathon.
 
 ### 5. Angle business — comment on prouve la valeur ?
-- **Décision :** **paywall Mollie** « débloquer le guide premium » + viser **headline + Vapi**, stacker Devin / Build-in-Public / (Cala à investiguer).
-- **Pourquoi :** le paywall est à la fois **qualif headline**, **entrée bounty Mollie**, et surtout **test de willingness-to-pay** (signal de marché réel). 40% du score est founder/business → on traite le pitch et la traction comme du produit.
+- **Décision :** **B2B2C d'abord**. Laszlo vend une plateforme d'audioguide IA aux musées / expositions / lieux culturels ; le visiteur l'utilise gratuitement, via son billet, QR ou parcours du lieu. **Mollie** sert à activer un paid pilot, un package exposition ou un abonnement venue, pas à imposer un micro-paywall visiteur.
+- **Pourquoi :** le cash sérieux est côté institution : budget audioguide, médiation, accessibilité, analytics, multilingue, expositions. Le B2C reste une option long terme, mais seulement après avoir appris des usages réels via des signaux agrégés privacy-safe. 40% du score est founder/business → on montre un chemin revenu crédible, pas seulement une conversion symbolique.
 - **Anti-wrapper :** notre défense « AI-native » = le **pipeline curé + ancré**, pas la voix elle-même.
 
 ### 6. Style / design — quelle sensation ?
@@ -204,10 +204,10 @@ Panel headline (11) — surtout **VCs + opérateurs** :
 ## Ce que la validation doit nous apprendre (au-delà du prix)
 
 - Le moment « parler à l'œuvre » crée-t-il un **wow** réel chez des inconnus ?
-- **Quelqu'un paierait *vraiment* ?** → deux rails (détail Mollie dans [[2 — Tech & build]]) :
-  - **Test mode** = sert la **démo** + la qualif track. Mais un « paiement » en test **ne prouve rien**.
-  - **Live mode** (SIRET, lancé dès vendredi + aide du stand Mollie) = **vrai argent au stand** → on compte les **conversions réelles**. *C'est ça* le signal willingness-to-pay.
-  - **Caveat :** payeurs = builders ≠ visiteurs de musée → signal **directionnel**, pas définitif.
+- **Un musée / organisateur paierait-il pour l'activer ?** → deux rails (détail Mollie dans [[2 — Tech & build]]) :
+  - **Test mode** = sert la **démo** + la qualif track, sans charger personne.
+  - **Live mode** = peut montrer une vraie activation de package/pilot si utile, mais le message pitch n'est plus « visiteurs ont payé 2 € » ; c'est « un venue peut acheter et débloquer Laszlo ».
+  - **Caveat :** une activation hackathon reste un signal de sérieux commercial, pas une preuve de cycle d'achat musée complet.
 - Le pipeline d'ingestion **tient-il** sur des données réelles (Rijks) → preuve que le **contenu scale** ?
 - Retours **jury / VCs / mentors** → croire plus (ou pivoter) en connaissance de cause.
 
@@ -223,14 +223,14 @@ Panel headline (11) — surtout **VCs + opérateurs** :
 | M3 | Démo au stand : poster/écran + reconnaissance, le jury teste lui-même | ✅ acté |
 | M4 | Tracks visées : **Vapi Voice** + headline **Mollie·Visa** — *track Vapi conditionnée à M15 (voix) et relativisée par M16 (barge-in)* | ✅ acté |
 | M5 | Stack week-end (Supabase, données Rijks) — **front révisé par M12/M14** | 🔄 à confirmer Siffrein |
-| M5b | **Mollie LIVE actif** (compte, banque, identité, CB/Apple/Google Pay) → dev sur test, live pour le signal stand | ✅ fait |
+| M5b | **Mollie LIVE actif** (compte, banque, identité, CB/Apple/Google Pay) → dev sur test, live possible pour activer un package/pilot | ✅ fait |
 | M6 | **Données = Rijksmuseum** (CC0, OAI-PMH `edm`, IIIF), Amsterdam-local ; set démo pressenti **`26021` Dutch 17th c.** ; **Europeana** = story scale UE | ✅ acté (set/œuvres → M17) |
 | M7 | Reconnaissance — **clôturé par M13** : embeddings **hors runtime** (gardés = story d'échelle pitch) | ☑️ remplacé par M13 |
 | M8 | Rôles : **Adam** = moteur de données (dev) + CEO/pitch ; **Siffrein** = expérience temps réel ; **designer** = UI. **Lanes outils précisées par M14** | ✅ acté (révisé par M14) |
 | M9 | Priorité build : **voix-phare → pipeline breadth → reconnaissance bonus** | ✅ acté |
 | M10 | **Stacking tracks** : core Vapi + headline ; quasi-gratuit Devin / Build-in-Public / Wispr ; **Cala à investiguer** ; Base44 conditionnel | ✅ acté |
 | M11 | **Parallélisation** : découpe hexagonale, **contrat = schéma Supabase** figé au SYNC 1, monorepo | ✅ acté |
-| M12 | **Reconnaissance spatiale = point ancré 3D via ARKit natif iOS** ; client démo **natif iOS**, PWA Vercel repli paywall. Détail : [[2 — Tech & build]] | ☑️ remplacé par M25 |
+| M12 | **Reconnaissance spatiale = point ancré 3D via ARKit natif iOS** ; client démo **natif iOS**, PWA Vercel repli activation Mollie. Détail : [[2 — Tech & build]] | ☑️ remplacé par M25 |
 | M13 | **Reconnaissance démo = ARKit pur** : ARKit image tracking fait reco + pose, **pas de similarity search embeddings au runtime**. Embeddings = story d'échelle (pitch) + post-hackathon. Filets = overlay 2D / QR | ☑️ remplacé par M25 |
 | M14 | **Codebase = monorepo** ; pipeline + backend en **IntelliJ** (Adam, Python reco) ; app AR native iOS en **Xcode/Swift** (Siffrein) | ☑️ remplacé par M25/M26 |
 | M15 | **Voix / TTS = OUVERT** : compte **ElevenLabs** dispo ; arbitrage ElevenLabs vs Vapi (track) à trancher **après recherche** ; pipeline gardé agnostique à la voix | 🔄 recherche (cf. [[3 — Playbook & questions ouvertes]]) |
@@ -261,6 +261,7 @@ Panel headline (11) — surtout **VCs + opérateurs** :
 | M25 | **Frontend produit = Expo React Native + ViroReact**. ViroReact est le premier adaptateur `ArtworkIdentifier` (ARKit iOS / ARCore Android). Swift ARKit direct devient repli iOS si ViroReact bloque. | ✅ acté |
 | M26 | **Codebase mobile = `/app-mobile`**. Le produit UI/voix/chat reste en TypeScript pour maximiser la vélocité coding agents ; Expo dev builds sont acceptés pour l'AR. | ✅ acté |
 | M27 | **Surface AR réduite** : reconnaître l'œuvre, afficher un point ancré tappable, puis ouvrir une vue détail 2D. Pas de scène AR riche dans le chemin critique. | ✅ acté |
+| M28 | **Business model = B2B2C d'abord, B2C plus tard**. Les musées / lieux culturels paient pour une plateforme d'audioguide IA ; les visiteurs l'utilisent sans friction. Mollie sert à activer paid pilots, packages exposition et abonnements venue. Le B2C devient une option ~5 ans après, guidée par des signaux d'usage agrégés et privacy-safe. | ✅ acté |
 | M28 | **Runtime `f()` = Edge Function Supabase** (≠ FastAPI, ≠ dans l'app). « Back-end applicatif » et « service IA » = **le même composant**. Critère = robustesse (URL publique comme les autres deps, vs FastAPI-local = seule pièce dépendante du wifi venue) + zéro déploiement, **pas le coût** (hébergement gratuit des 2 côtés ; le coût réel = tokens LLM/TTS). Bascule FastAPI possible plus tard, même contrat HTTP. Détail : ADR 0014 | ✅ acté |
 | M29 | **`f()` = mono-appel LLM, pas d'agent multi-étapes**. Le modèle de données l'impose (œuvre connue + toutes ses notices injectées d'un coup, ADR 0002) → zéro retrieval. Le multi-étapes ne sert qu'à l'open-world (post-hackathon, story de pitch) et empilerait de la latence sur le chemin voix. | ✅ acté |
 | M30 | **Voix = brique séparée** ; le runtime reste **texte→texte**. STT et TTS encadrent `f()` ; l'utilisateur texte-only saute les brackets. Conséquence : **chemin texte ship en premier**, la décision voix (M15) ne bloque plus rien et se prend en dernier. On n'est **pas** dans le modèle Vapi-pilote-tout (révise la posture ADR 0003). | ✅ acté |

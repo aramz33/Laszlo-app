@@ -223,7 +223,7 @@ La navigation indoor L0-L2 de l'ADR 0009 reste une cible produit ultérieure.
 Le flux d'événements complet reste la cible de l'ADR 0010. Le week-end, on
 capture seulement le minimum utile au pitch :
 
-- conversions Mollie live ;
+- activation Mollie d'un package/pilot venue ;
 - oeuvres ouvertes ;
 - hotspots déclenchés ;
 - questions posées si le consentement est clair ;
