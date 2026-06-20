@@ -12,8 +12,8 @@ Megathon. Voir ADR [0002](adr/0002-modele-connaissance-recuperation.md),
 - **Provenance dans le modèle** : tout fait porte ses sources.
 - **Séparation fait / narration** : les notices ancrées sont distinctes de la
   voix, du ton et du rendu audio.
-- **Pipeline agnostique à la voix** : on stocke le texte des hotspots/notices ;
-  la génération audio est une étape séparée.
+- **Pipeline agnostique à la voix** : on stocke le **texte** des hotspots/notices ;
+  l'audio est **généré live au runtime** (pas de pré-rendu dans le pipeline).
 - **Pivot EN** + conservation des langues source disponibles ; sortie
   multilingue générée au runtime.
 
@@ -57,7 +57,9 @@ Contraintes de sens :
   `tags` (jsonb) = sujets/genre Wikidata (P180/P136).
 - `x` et `y` sont normalisés sur l'image de l'oeuvre, entre `0` et `1`.
 - `height_cm` et `width_cm` sont requis pour les reference images ARKit.
-- `audio_url` peut être `null` tant que le TTS n'a pas généré l'audio.
+- `audio_url` = `null` par défaut : la narration hotspot est **générée live au runtime**
+  depuis `narration_text` (+ profil/voix). `audio_url` n'est qu'un **cache optionnel** si
+  la latence live l'exige (non rempli par le pipeline).
 - `image_iiif_id` vient de Micrio/Rijks ; `image_url` = hotlink IIIF (affichage) ;
   `ref_image_url` = rendition légère ARKit (Storage), générée pour les œuvres trackées.
 

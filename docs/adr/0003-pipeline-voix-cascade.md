@@ -41,7 +41,10 @@ Décision ouverte jusqu'au SYNC 1 :
 
 Acceptations week-end :
 
-- Les hotspots peuvent être pré-générés.
+- **Narration des hotspots = générée live au runtime** (révision 20/06) depuis
+  `narration_text` + profil/voix, comme le chat → une seule voie, narration
+  personnalisable (niveau/langue/voix à la volée). Le pré-rendu n'est qu'un **cache
+  de secours** si la latence live casse le wow (8 hotspots phares, trivial à générer).
 - Le chat libre doit répondre en vocal ou texte.
 - Le barge-in peut être démontré par coupure de TTS et reprise d'écoute même si
   le full-duplex complet n'est pas parfait.

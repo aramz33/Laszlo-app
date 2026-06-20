@@ -1,7 +1,8 @@
 """Hotspots des œuvres phares — seed authored à la main (Adam révise).
 
 Coordonnées normalisées [0,1] sur l'image de l'œuvre. `narration_text` = substrat
-ancré (faits connus) ; l'audio (audio_url) est généré plus tard à l'étape TTS.
+ancré (faits connus) ; l'audio est généré live au runtime depuis ce texte
+(audio_url = cache optionnel, non rempli par le pipeline).
 """
 
 from __future__ import annotations

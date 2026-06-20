@@ -255,3 +255,6 @@ Panel headline (11) — surtout **VCs + opérateurs** :
 
 
 | M23 | **Corpus corrigé : `26121` → `260214` (Top 1000)**. Le set `26121` (catalogue Dutch 17e) **excluait les phares** (Night Watch/Laitière sont dans `260213`/`260214`) + ~6 % de couverture Wikipedia → mauvais pour un guide conversationnel. Top 1000 = **1040 masterpieces**, phares garantis, forte couverture Wikipedia. (M20 révisé) | ✅ acté (corpus réel vérifié) |
+
+
+| M24 | **Audio des hotspots = généré LIVE au runtime** (pas de pré-rendu). Cohérent avec notice-substrat : un fichier pré-rendu ne s'adapte pas (niveau/langue/voix). `audio_url` = cache optionnel seulement si la latence live casse le wow. Supprime l'étape TTS du pipeline. | ✅ acté |

@@ -27,7 +27,8 @@ La **couche Connaissance est en prod sur Supabase** et lisible par l'app :
 - **Hotspots = seulement les 2 phares** (8 au total), **écrits à la main** dans
   `pipeline/hotspots/flagships.py` (mes textes = provisoires, à réviser). Les 1023 autres
   œuvres ont des notices mais pas de hotspots (c'est voulu : « demo deep »).
-- **`audio_url` des hotspots = null** (TTS pas encore branché).
+- **Narration hotspot générée live** au runtime depuis `narration_text` (comme le chat) ;
+  `audio_url` reste `null` = cache optionnel seulement si la latence l'exige.
 - **Couverture Q-id ~45 %** : normal, le Top 1000 est multi-médias (sculptures/estampes
   peu présentes sur Wikidata) ; les peintures (dont les phares) sont bien couvertes.
 - **Clés** : l'app lit avec la clé **publishable** (anon, RLS lecture). La clé **secrète**
@@ -44,7 +45,8 @@ La **couche Connaissance est en prod sur Supabase** et lisible par l'app :
 4. Paywall Mollie + déploiement.
 
 **Reste couche Connaissance (Adam, court terme) :**
-- Faceting LLM (angles en lentilles runtime) ; TTS pour remplir `hotspot.audio_url` ;
+- Faceting LLM (angles en lentilles runtime) ; voix runtime (TTS live, pas de
+  pré-remplissage `audio_url`) ;
   révision main des notices phares (`review` → `ok`) ; plus de hotspots si besoin démo.
 
 **Sessions de design suivantes (à griller à froid, ensemble) :**

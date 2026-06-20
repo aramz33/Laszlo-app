@@ -82,8 +82,9 @@ hotspot  (artwork_id, x, y, title, aspect, narration_text, audio_url, duration_s
 À savoir pour l'app :
 - **ARKit** : `height_cm`/`width_cm` (taille physique) + `ref_image_url` (image de
   tracking) sont là pour générer les `ARReferenceImage`.
-- **Hotspots** : `x`,`y` normalisés [0,1] sur l'image de l'œuvre ; `audio_url` est `null`
-  pour l'instant (TTS pas encore branché).
+- **Hotspots** : `x`,`y` normalisés [0,1] sur l'image de l'œuvre ; la narration est
+  **générée live au runtime** depuis `narration_text` (`audio_url` = cache optionnel, pas
+  un prérequis).
 - **Langues** : seules `en`+`nl` sont stockées ; FR (et autres) seront **générés au
   runtime** depuis le grounding.
 - **Phares** : Night Watch `SK-C-5`, La Laitière `SK-A-2344` (notices Wikipedia riches +
@@ -108,7 +109,8 @@ python -m pipeline.main all --set 260214    # tout le corpus
       Supabase.*
 - [ ] **Faceting LLM** : générer les angles (technique/histoire/symbolisme) en lentilles
       runtime à partir du substrat. (Choix clé LLM à régler — Codex MAX / OpenAI API.)
-- [ ] **TTS** : remplir `hotspot.audio_url` (provider voix ouvert — ElevenLabs / Vapi).
+- [ ] **Voix runtime** : narration hotspot + réponses chat générées **live** (TTS,
+      provider ouvert — ElevenLabs/Vapi). Pas de pré-remplissage d'`audio_url`.
 - [ ] Révision main des notices des 2 phares (`review` → `ok`).
 
 **App iOS (ARKit) — lane temps réel :**
