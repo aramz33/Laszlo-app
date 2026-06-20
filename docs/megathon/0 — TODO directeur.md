@@ -28,6 +28,7 @@ date: 2026-06-20
 - [ ] Préparer le lecteur audio depuis `audio_url` (`/speak`) avec voix/vitesse/ton côté UI.
 - [ ] Préparer l'upload audio `/transcribe` en `multipart/form-data` (même si transcript mocké au début).
 - [ ] Garder QR/manual fallback prioritaire : même vue détail, même contrat runtime.
+- [x] **Playbook crédits IA épuisés** : procédure ajoutée dans [[3 — Playbook & questions ouvertes]] et référencée dans `AGENTS.md` + `CLAUDE.md`.
 - [ ] **Convergence 1** : l'app appelle au moins un endpoint serveur/stub réel après 90 min.
 - [ ] **Convergence dure** : après 3 h, app branchée sur stub HTTP ou vrai serveur pour `/generate`.
 

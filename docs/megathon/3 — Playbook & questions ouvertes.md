@@ -1,6 +1,6 @@
 ---
 tags: [projet/laszlo, megathon, type/playbook, statut/actif]
-date: 2026-06-19
+date: 2026-06-20
 ---
 
 # Megathon — 3. Playbook & questions ouvertes
@@ -80,6 +80,55 @@ Pour chaque sujet ouvert :
 3. **Toujours owner + « done ».** Une tâche sans les deux n'existe pas.
 4. **Écrire la décision** (sinon re-débattue à 3h du matin).
 5. **Finir à l'heure.** Le build est roi.
+
+---
+
+## Playbook crédits IA épuisés — mode survie
+
+Objectif : garder la démo vivante si les crédits ou limites IA sautent
+(`Codex`, `Claude`, `Devin`, LLM, STT, TTS, vision, Nebius/Vapi/etc.).
+
+### Règle de base
+
+Couper ce qui consomme de l'IA avant de couper le produit. Le happy path prime :
+œuvre ouverte → hotspot lisible → question/réponse ou fallback → pitch clair.
+
+### Procédure immédiate
+
+1. **Figer l'état.** Noter l'erreur exacte, le provider, l'heure, et le dernier commit/diff utile.
+2. **Arrêter les dépenses inutiles.** Pas de sous-agents, pas de génération longue, pas de reformulation de docs, pas de recherche IA si `rg`, tests, mocks ou code local suffisent.
+3. **Basculer local/offline.** Utiliser mocks, fixtures, `narration_text`, cache local, vidéo backup, QR/sélection manuelle, ou réponses prédéfinies de démo.
+4. **Protéger les secrets et la prod.** Ne pas déplacer les clés dans l'app mobile ; ne pas contourner un quota avec une clé perso non validée.
+5. **Écrire le prochain geste humain.** Laisser une commande, un fichier, ou une tâche précise que quelqu'un peut reprendre sans IA.
+
+### Choix par surface
+
+| Surface bloquée | Fallback |
+|---|---|
+| Agent build IA | Continuer en local avec `rg`, tests ciblés, petites patches manuelles ; pas de sous-agent. |
+| LLM `/generate` | Réponse stub conforme + `narration_text` hotspot ; garder le contrat HTTP. |
+| TTS `/speak` | Afficher le texte et/ou audio fixe ; dire dans le pitch que la voix live est branchée mais limitée par quota. |
+| STT `/transcribe` | Champ texte manuel ; garder l'upload audio hors happy path. |
+| Vision `/identify` / AR | Sélection manuelle, QR, overlay 2D, vidéo backup. |
+| Déploiement cloud | Démo locale ou Bruno/curl enregistré ; ne pas casser une version qui marche. |
+
+### Mise à jour automatique du playbook
+
+À chaque contournement réellement prouvé, ajouter une ligne ici, sans attendre la fin
+du sprint :
+
+```text
+YYYY-MM-DD HH:MM — blocage → action qui marche → preuve/commande → owner
+```
+
+- Ne journaliser que ce qui a marché ou ce qui bloque encore vraiment.
+- Si le contournement change le scope, mettre aussi à jour [[0 — TODO directeur]].
+- Si le "pourquoi" devient une décision produit/tech durable, l'ajouter au journal Mxx
+  dans [[1 — Stratégie & arène]] ou dans l'ADR concerné.
+
+### Journal des contournements
+
+- 2026-06-20 — playbook créé → règle ajoutée dans `AGENTS.md` et `CLAUDE.md` → prochaine panne IA doit être traitée ici → Adam/Codex
 
 ---
 
@@ -177,6 +226,6 @@ Pour chaque sujet ouvert :
 - Recrue n°2 — décidé selon le vivier vendredi soir.
 - Base44 oui/non — dépend de l'appétit pour une 2e track vs simplicité.
 
-<!-- maj : 2026-06-19 -->
+<!-- maj : 2026-06-20 -->
 - **Cache de traductions multilingues** — optimisation, à décider plus tard (« 4h du mat »).
 - **Système de personas complet** (génération auto de personas orthogonaux) = **vision produit**, hors démo (démo = profil 3 questions).

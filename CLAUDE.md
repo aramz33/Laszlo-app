@@ -31,6 +31,24 @@ Le "pourquoi" d'une decision doit rester dans `docs/megathon/1 — Stratégie & 
 
 Convention : `🟡` = tache de decision encore a trancher, sauf si l'item est deja coche avec la decision explicite.
 
+## Playbook credits IA
+
+Si les credits ou limites IA sont epuises (`Codex`, `Claude`, `Devin`, LLM, STT,
+TTS, vision, Nebius/Vapi/etc.), suivre
+`docs/megathon/3 — Playbook & questions ouvertes.md` section
+**"Playbook crédits IA épuisés — mode survie"**.
+
+Regles :
+
+- garder le happy path demo vivant avant tout ;
+- couper les sous-agents et generations longues avant de couper le produit ;
+- basculer vers mocks, fixtures, cache local, texte manuel, QR/selection manuelle ou
+  video backup selon la surface bloquee ;
+- ajouter dans le playbook toute procedure de contournement reellement prouvee, au
+  format date -> blocage -> action qui marche -> preuve/commande -> owner ;
+- mettre a jour `docs/megathon/0 — TODO directeur.md` seulement si le statut ou le
+  scope change vraiment.
+
 ## Modele mental actuel
 
 Le produit se pense en trois couches :
