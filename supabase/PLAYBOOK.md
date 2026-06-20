@@ -161,7 +161,7 @@ a quality bump, not a blocker.
 | How the runtime fits together           | `supabase/functions/README.md`                                      |
 | Calling the API from the app            | `supabase/functions/API.md`                                         |
 | Resuming this lane from scratch         | `docs/HANDOFF-Siffrein.md`                                          |
-| Manual UI to try it like the app        | `supabase/tester.html` (open in a browser)                          |
+| Visual playground (app-like UI)        | `supabase/playground.html` (open in a browser)                          |
 | Quick quality check vs deployed         | `./supabase/quality-probe.sh [fr\|en]`                              |
 | One endpoint's details + test recipe    | `supabase/functions/<name>/README.md`                               |
 | Pure logic (prompts, parsing, chunking) | `supabase/functions/<name>/lib.ts`                                  |

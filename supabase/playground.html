@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<!--
+  Laszlo PLAYGROUND — local dev cockpit for the runtime (throwaway, not prod code).
+  Open in a browser. Talks straight to the deployed edge functions (CORS *).
+  Calibrate everything the API exposes, see it like the app, run preset scenarios.
+-->
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Laszlo Playground</title>
+<style>
+  :root { color-scheme: dark; --bg:#0f1115; --panel:#171a21; --card:#1d212b; --line:#2c3140; --accent:#8fc7ff; --good:#7ad99b; --warn:#ffcf6b; --bad:#ff8a8a; }
+  * { box-sizing: border-box; }
+  body { margin:0; font:14px/1.5 system-ui,sans-serif; background:var(--bg); color:#e8e8ea; }
+  header { display:flex; gap:10px; align-items:center; flex-wrap:wrap; padding:8px 14px; background:var(--panel); border-bottom:1px solid var(--line); position:sticky; top:0; z-index:5; }
+  header .brand { font-weight:800; letter-spacing:.02em; }
+  header input { width:330px; }
+  .grow { flex:1; }
+  main { display:grid; grid-template-columns:340px 1fr 340px; gap:0; height:calc(100vh - 50px); }
+  .col { overflow:auto; padding:14px; }
+  .col.controls { border-right:1px solid var(--line); }
+  .col.side { border-left:1px solid var(--line); }
+  h2 { font-size:11px; text-transform:uppercase; letter-spacing:.08em; color:var(--accent); margin:16px 0 6px; display:flex; align-items:center; gap:6px; }
+  h2:first-child { margin-top:0; }
+  label { display:block; font-size:12px; color:#9aa0ad; margin:7px 0 2px; }
+  input, select, textarea, button { background:#10131a; color:#e8e8ea; border:1px solid var(--line); border-radius:7px; padding:7px 9px; font:inherit; }
+  input, select, textarea { width:100%; }
+  textarea { resize:vertical; }
+  button { cursor:pointer; background:#243244; border-color:#37506b; width:auto; transition:background .12s; }
+  button:hover { background:#31496a; }
+  button.primary { background:#2f6df0; border-color:#2f6df0; color:#fff; font-weight:600; }
+  button.ghost { background:transparent; }
+  .row { display:flex; gap:7px; flex-wrap:wrap; align-items:center; }
+  .chips label { display:inline-flex; gap:4px; align-items:center; margin:0 9px 4px 0; color:#dde; }
+  .chips input { width:auto; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:9px; padding:11px; margin-bottom:10px; }
+  .muted { color:#7c8290; font-size:12px; }
+  .pill { display:inline-block; font-size:10px; padding:1px 7px; border-radius:10px; background:#2a2f3b; margin-left:6px; }
+  .pill.good{background:#1f3d2c;color:var(--good)} .pill.warn{background:#3d3622;color:var(--warn)} .pill.bad{background:#3d2424;color:var(--bad)}
+  .sources { font-size:11px; color:#6fae8a; margin-top:6px; }
+  pre { white-space:pre-wrap; word-break:break-word; margin:0; }
+  .help { font-size:11px; color:#7c8290; margin:2px 0 0; }
+  .info { cursor:help; color:#5a6172; border:1px solid #39404e; border-radius:50%; width:14px; height:14px; display:inline-grid; place-items:center; font-size:10px; }
+  /* artwork stage */
+  .stagewrap { position:relative; display:inline-block; max-width:100%; line-height:0; }
+  .stagewrap img { width:100%; border-radius:10px; display:block; }
+  .dot { position:absolute; width:22px; height:22px; margin:-11px 0 0 -11px; border-radius:50%; background:rgba(47,109,240,.85); border:2px solid #fff; cursor:pointer; box-shadow:0 0 0 4px rgba(47,109,240,.25); transition:transform .1s; }
+  .dot:hover { transform:scale(1.25); }
+  .dot.active { background:var(--warn); box-shadow:0 0 0 5px rgba(255,207,107,.3); }
+  .point { position:absolute; width:14px; height:14px; margin:-7px 0 0 -7px; border-radius:50%; background:var(--warn); border:2px solid #111; pointer-events:none; }
+  .scenario { text-align:left; width:100%; margin-bottom:6px; display:block; }
+  details { margin:6px 0; }
+  summary { cursor:pointer; color:var(--accent); font-size:12px; }
+  .lat { font-size:11px; color:var(--warn); }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<header>
+  <span class="brand">🎛️ Laszlo Playground</span>
+  <input id="base" value="https://spbrkgoseabpsxzkkyzj.supabase.co" title="Supabase project URL" />
+  <input id="key" value="sb_publishable_epoXdGqDD0BLj8b3W73wbw_DDQkR84k" title="Publishable (anon) key — public" />
+  <span class="muted">Langue</span>
+  <select id="lang" style="width:80px" title="Langue de sortie du visiteur"><option>fr</option><option>en</option><option>nl</option></select>
+  <span class="grow"></span>
+  <span id="status" class="muted">…</span>
+</header>
+
+<main>
+<!-- ============ LEFT: controls ============ -->
+<div class="col controls">
+  <h2>⚡ Scénarios <span class="info" title="Configurent le profil + lancent une action en un clic. Regarde l'aide de chaque scénario.">?</span></h2>
+  <div id="scenarios"></div>
+
+  <h2>🎭 Profil <span class="info" title="Envoyé à chaque appel. allure=longueur, niveau=registre, intérêts=angle.">?</span></h2>
+  <label>Allure (longueur) <span class="info" title="court = 1-2 phrases · moyen = ~3 · long = 4-6">?</span></label>
+  <select id="allure"><option>court</option><option selected>moyen</option><option>long</option></select>
+  <label>Niveau (registre) <span class="info" title="decouverte = mots simples · amateur = équilibré · passionne = vocabulaire pointu">?</span></label>
+  <select id="niveau"><option>decouverte</option><option selected>amateur</option><option>passionne</option></select>
+  <label>Intérêts <span class="info" title="Oriente l'angle de médiation">?</span></label>
+  <div class="chips" id="interets">
+    <label><input type="checkbox" class="interest" value="technique" checked>technique</label>
+    <label><input type="checkbox" class="interest" value="people">people</label>
+    <label><input type="checkbox" class="interest" value="stories">stories</label>
+    <label><input type="checkbox" class="interest" value="symbols">symbols</label>
+  </div>
+  <label>Texte libre (onboarding)</label>
+  <input id="freetext" placeholder="ex: j'aime comprendre comment c'est peint" />
+  <div class="row" style="margin-top:7px">
+    <button onclick="buildPersona()">Construire persona</button>
+    <label style="display:inline-flex;gap:5px;align-items:center;margin:0"><input type="checkbox" id="injectPersona" style="width:auto"> injecter</label>
+  </div>
+  <pre id="persona" class="help" style="margin-top:6px"></pre>
+
+  <h2>🎚️ Steering <span class="info" title="Re-steering live : oriente la génération sans changer le profil.">?</span></h2>
+  <label>Lens (angle forcé)</label>
+  <select id="lens"><option value="">(aucun)</option><option>technique</option><option>people</option><option>stories</option><option>symbols</option></select>
+  <label>Tone</label>
+  <input id="tone" placeholder="ex: warm, calm, playful" />
+
+  <h2>🔊 Voix <span class="info" title="Moteur TTS. edge=meilleure qualité mais flaky · mistral=voix EN · google=robotique stable.">?</span></h2>
+  <label>Provider</label>
+  <select id="provider"><option>auto</option><option>edge</option><option>mistral</option><option>google</option></select>
+  <label>Vitesse (edge) <span id="speedval">1</span></label>
+  <input type="range" id="speed" min="0.5" max="1.5" step="0.1" value="1" oninput="speedval.textContent=this.value" />
+
+  <h2>🖼️ Œuvre</h2>
+  <select id="artwork" onchange="renderArtwork()"></select>
+  <button class="primary" style="margin-top:8px;width:100%" onclick="openArtwork()">Ouvrir → générer les hotspots</button>
+
+  <h2>🆘 Fallbacks</h2>
+  <label>Identify (photo → œuvre)</label>
+  <input type="file" id="imgfile" accept="image/*" />
+  <button onclick="identify()">Identifier</button>
+  <label>Transcribe (audio → texte)</label>
+  <input type="file" id="audfile" accept="audio/*" />
+  <button onclick="transcribe()">Transcrire → champ question</button>
+
+  <details>
+    <summary>❓ Aide / comment ça marche</summary>
+    <div class="help">
+      <b>Flux app</b> : onboarding→persona · ouvrir œuvre→hotspots (batch) · tap hotspot→texte+voix+follow-ups · question (texte/voix)→ask streamé · AR échoue→identify.<br><br>
+      <b>Modes /generate</b> : <code>hotspot</code> (batch JSON), <code>ask</code> (SSE), <code>persona</code>, <code>followups</code>.<br>
+      <b>Grounding</b> : le serveur relit les notices ; tu n'envoies que des IDs. Si l'IA invente un chiffre absent des notices = hallucination (cf. scénario appât).<br>
+      <b>Astuce</b> : active “Debug” (à droite) pour voir le JSON brut + copier en curl.
+    </div>
+  </details>
+</div>
+
+<!-- ============ CENTER: stage ============ -->
+<div class="col stage">
+  <div class="row" style="justify-content:space-between">
+    <h2 style="margin:0">🖼️ Scène <span class="info" title="Clique un point bleu = ouvrir le hotspot. Clique ailleurs sur l'image = placer un point pour une question localisée.">?</span></h2>
+    <span id="stagemeta" class="muted"></span>
+  </div>
+  <div id="stage" style="margin:8px 0"></div>
+
+  <h2>💬 Hotspot / réponse</h2>
+  <div class="card"><div id="hsTitle" class="muted">Ouvre une œuvre, puis clique un point.</div><pre id="hsText" style="margin-top:6px"></pre><div id="hsSrc" class="sources"></div>
+    <div class="row" style="margin-top:8px"><button onclick="speak(window._lastText)">🔊 Lire</button><button onclick="loadFollowups(window._lastHotspot)">Follow-ups</button></div>
+  </div>
+
+  <h2>❔ Question</h2>
+  <textarea id="question" rows="2" placeholder="Pose une question (utilise le point placé si défini)…"></textarea>
+  <div class="row" style="margin:7px 0">
+    <button class="primary" onclick="ask()">Ask (streamé)</button>
+    <span id="pointlbl" class="muted">point: aucun</span>
+    <button class="ghost" onclick="clearPoint()">effacer point</button>
+  </div>
+  <div class="card"><pre id="answer"></pre><div id="answerSrc" class="sources"></div></div>
+
+  <h2>🔮 Follow-ups suggérés</h2>
+  <div id="followups"></div>
+
+  <audio id="audio" controls style="width:100%;margin-top:8px"></audio>
+</div>
+
+<!-- ============ RIGHT: session + debug ============ -->
+<div class="col side">
+  <h2>🧠 Conversation <span class="info" title="Historique envoyé au mode ask (continuité). Capé à 8 messages comme l'app.">?</span>
+    <button class="ghost" style="margin-left:auto;padding:2px 8px" onclick="resetHistory()">reset</button></h2>
+  <div id="history" class="muted">Vide.</div>
+
+  <h2>📊 Latences</h2>
+  <div id="latencies" class="help">—</div>
+
+  <h2>🔧 Debug</h2>
+  <label style="display:inline-flex;gap:6px;align-items:center"><input type="checkbox" id="debug" style="width:auto"> afficher le JSON brut</label>
+  <button class="ghost" style="margin-top:6px" onclick="copyCurl()">📋 copier le dernier appel en curl</button>
+  <details open><summary>Dernier appel</summary><pre id="rawReq" class="help"></pre><pre id="rawRes" class="help"></pre></details>
+</div>
+</main>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const base = () => $("base").value.replace(/\/$/, "");
+const fnUrl = (n) => `${base()}/functions/v1/${n}`;
+const H = () => ({ "Authorization": `Bearer ${$("key").value}`, "Content-Type": "application/json" });
+const lang = () => $("lang").value;
+const status = (m, cls="") => $("status").innerHTML = `<span class="${cls}">${m}</span>`;
+
+let personaSummary = null, currentArtwork = null, point = null, history = [], lastCall = null;
+
+function profile() {
+  const interets = [...document.querySelectorAll(".interest:checked")].map(c => c.value);
+  const p = { allure: $("allure").value, niveau: $("niveau").value, interets, free_text: $("freetext").value || null };
+  if ($("injectPersona").checked && personaSummary) p.persona_summary = personaSummary;
+  return p;
+}
+const steering = () => ({ lens: $("lens").value || null, tone: $("tone").value || null });
+
+function showRaw(req, res, ms) {
+  lastCall = { url: req.url, body: req.body };
+  if ($("debug").checked) {
+    $("rawReq").textContent = "→ " + req.url + "\n" + JSON.stringify(req.body, null, 2);
+    $("rawRes").textContent = "← (" + ms + " ms)\n" + (typeof res === "string" ? res : JSON.stringify(res, null, 2));
+  }
+}
+function addLatency(label, ms) {
+  const c = ms < 1500 ? "good" : ms < 4000 ? "warn" : "bad";
+  $("latencies").innerHTML = `<div><span class="pill ${c}">${ms} ms</span> ${label}</div>` + $("latencies").innerHTML.replace("—", "");
+}
+function copyCurl() {
+  if (!lastCall) return;
+  const c = `curl -s '${lastCall.url}' \\\n  -H 'Authorization: Bearer ${$("key").value}' \\\n  -H 'Content-Type: application/json' \\\n  -d '${JSON.stringify(lastCall.body)}'`;
+  navigator.clipboard.writeText(c); status("curl copié", "muted");
+}
+
+async function gen(body, label) {
+  const t = performance.now();
+  const r = await fetch(fnUrl("generate"), { method: "POST", headers: H(), body: JSON.stringify(body) });
+  const ms = Math.round(performance.now() - t);
+  const data = await r.json();
+  addLatency(`generate ${label || body.mode}`, ms); showRaw({ url: fnUrl("generate"), body }, data, ms);
+  if (!r.ok) throw new Error(data.message || r.status);
+  return data;
+}
+
+// ---------- artworks ----------
+async function loadArtworks() {
+  try {
+    const url = `${base()}/rest/v1/artwork?select=id,object_number,title_en,title_nl,image_url,hotspot(id,title,x,y)&ref_image_url=not.is.null&order=object_number`;
+    const r = await fetch(url, { headers: { apikey: $("key").value, Authorization: `Bearer ${$("key").value}` } });
+    window._artworks = await r.json();
+    $("artwork").innerHTML = window._artworks.map((a, i) => `<option value="${i}">${a.title_en || a.title_nl || a.object_number}</option>`).join("");
+    renderArtwork(); status(`${window._artworks.length} œuvres chargées`, "muted");
+  } catch (e) { status("chargement œuvres KO: " + e.message, "bad"); }
+}
+function renderArtwork() {
+  const a = window._artworks?.[$("artwork").value]; if (!a) return;
+  currentArtwork = a; point = null; $("pointlbl").textContent = "point: aucun";
+  $("stagemeta").textContent = `${a.object_number} · ${(a.hotspot||[]).length} hotspots`;
+  $("stage").innerHTML = `<div class="stagewrap" id="sw"><img src="${a.image_url}" onload="placeDots()" />` +
+    (a.hotspot||[]).map(h => `<div class="dot" data-id="${h.id}" style="left:${h.x*100}%;top:${h.y*100}%" title="${h.title}" onclick="event.stopPropagation();openHotspot('${h.id}')"></div>`).join("") + `</div>`;
+  $("sw").onclick = placePoint;
+}
+function placeDots(){ /* dots are %-positioned; nothing to do, kept for onload hook */ }
+function placePoint(e) {
+  if (e.target.classList.contains("dot")) return;
+  const img = e.currentTarget.querySelector("img"); const r = img.getBoundingClientRect();
+  point = { x: +((e.clientX - r.left) / r.width).toFixed(3), y: +((e.clientY - r.top) / r.height).toFixed(3) };
+  $("pointlbl").textContent = `point: ${point.x}, ${point.y}`;
+  $("sw").querySelectorAll(".point").forEach(p => p.remove());
+  const d = document.createElement("div"); d.className = "point"; d.style.left = point.x*100+"%"; d.style.top = point.y*100+"%";
+  $("sw").appendChild(d);
+}
+function clearPoint(){ point=null; $("pointlbl").textContent="point: aucun"; $("sw")?.querySelectorAll(".point").forEach(p=>p.remove()); }
+
+// ---------- actions ----------
+function buildPersona() {
+  const onboarding = { allure: $("allure").value, niveau: $("niveau").value,
+    interets: [...document.querySelectorAll(".interest:checked")].map(c => c.value), free_text: $("freetext").value || null };
+  $("persona").textContent = "…";
+  gen({ mode: "persona", lang: lang(), onboarding }, "persona")
+    .then(d => { personaSummary = d.persona_summary; $("persona").textContent = d.persona_summary; $("injectPersona").checked = true; })
+    .catch(e => status(e.message, "bad"));
+}
+
+let hotspotItems = {};
+async function openArtwork() {
+  const a = currentArtwork; if (!a) return;
+  const ids = (a.hotspot || []).map(h => h.id);
+  $("stagemeta").textContent = `${a.object_number} · génération…`;
+  try {
+    const d = await gen({ mode: "hotspot", artwork_id: a.id, hotspot_ids: ids, lang: lang(), profile: profile(), steering: steering() }, "hotspot batch");
+    hotspotItems = {}; d.items.forEach(it => hotspotItems[it.hotspot_id] = it);
+    $("stagemeta").textContent = `${a.object_number} · ${d.items.length} hotspots prêts — clique un point`;
+    status("hotspots générés", "good");
+  } catch (e) { status(e.message, "bad"); }
+}
+function openHotspot(id) {
+  $("sw").querySelectorAll(".dot").forEach(d => d.classList.toggle("active", d.dataset.id === id));
+  const h = (currentArtwork.hotspot || []).find(x => x.id === id) || {};
+  const it = hotspotItems[id];
+  $("hsTitle").textContent = h.title || id;
+  if (!it) { $("hsText").textContent = "(ouvre l'œuvre d'abord pour générer)"; return; }
+  $("hsText").textContent = it.text ?? it.message ?? "";
+  $("hsSrc").textContent = "sources: " + (it.sources||[]).map(s=>`${s.source}/${s.lang}`).join(", ");
+  window._lastText = it.text; window._lastHotspot = id;
+}
+
+async function ask() {
+  if (!currentArtwork) return status("ouvre une œuvre d'abord", "warn");
+  const q = $("question").value.trim(); if (!q) return;
+  const body = { mode: "ask", artwork_id: currentArtwork.id, question: q, lang: lang(),
+    profile: profile(), steering: steering(), history: history.slice(-8) };
+  if (point) body.point = point;
+  if (window._lastHotspot) body.hotspot_id = window._lastHotspot;
+  $("answer").textContent = ""; $("answerSrc").textContent = "";
+  const t = performance.now();
+  try {
+    const res = await fetch(fnUrl("generate"), { method: "POST", headers: H(), body: JSON.stringify(body) });
+    const reader = res.body.pipeThrough(new TextDecoderStream()).getReader(); let buf = "", full = "";
+    for (;;) { const { value, done } = await reader.read(); if (done) break; buf += value;
+      const lines = buf.split("\n"); buf = lines.pop();
+      for (const line of lines) { if (!line.startsWith("data:")) continue; const ev = JSON.parse(line.slice(5));
+        if (ev.type === "delta") { full += ev.delta; $("answer").textContent = full; }
+        else if (ev.type === "done") $("answerSrc").textContent = "sources: " + (ev.sources||[]).map(s=>`${s.source}/${s.lang}`).join(", ");
+        else if (ev.type === "error") status(ev.message, "bad"); } }
+    const ms = Math.round(performance.now() - t); addLatency("ask (stream)", ms); showRaw({ url: fnUrl("generate"), body }, full, ms);
+    history.push({ role: "user", content: q, artwork_id: currentArtwork.id }, { role: "assistant", content: full, artwork_id: currentArtwork.id });
+    renderHistory(); window._lastText = full;
+  } catch (e) { status(e.message, "bad"); }
+}
+
+async function loadFollowups(hotspotId) {
+  if (!currentArtwork) return;
+  $("followups").innerHTML = "…";
+  try {
+    const d = await gen({ mode: "followups", artwork_id: currentArtwork.id, hotspot_id: hotspotId || null, lang: lang(), profile: profile(), steering: steering() }, "followups");
+    $("followups").innerHTML = "";
+    d.questions.forEach(q => {
+      const card = document.createElement("div"); card.className = "card row"; card.style.cssText = "justify-content:space-between;align-items:center";
+      const span = document.createElement("span"); span.textContent = q;            // textContent = no quoting bugs (apostrophes!)
+      const btn = document.createElement("button"); btn.textContent = "ask →";
+      btn.onclick = () => { $("question").value = q; ask(); };
+      card.append(span, btn); $("followups").appendChild(card);
+    });
+  } catch (e) { status(e.message, "bad"); }
+}
+
+async function speak(text) {
+  if (!text) return status("rien à lire", "warn");
+  status("synthèse…", "muted");
+  const body = { text, lang: lang(), provider: $("provider").value, speed: +$("speed").value };
+  const t = performance.now();
+  try {
+    const r = await fetch(fnUrl("speak"), { method: "POST", headers: H(), body: JSON.stringify(body) });
+    const d = await r.json(); const ms = Math.round(performance.now() - t);
+    addLatency("speak", ms); showRaw({ url: fnUrl("speak"), body }, d, ms);
+    if (!d.audio_url) throw new Error(d.message || "no audio");
+    $("audio").src = d.audio_url; $("audio").play();
+    status(`voix OK · moteur: ${d.engine}`, d.engine === $("provider").value || $("provider").value === "auto" ? "good" : "warn");
+  } catch (e) { status(e.message, "bad"); }
+}
+
+async function identify() {
+  const f = $("imgfile").files[0]; if (!f) return status("choisis une image", "warn");
+  const form = new FormData(); form.append("image", f);
+  if (window._artworks) form.append("candidate_ids", window._artworks.map(a => a.id).join(","));
+  status("identification…", "muted");
+  const t = performance.now();
+  try {
+    const r = await fetch(fnUrl("identify"), { method: "POST", headers: { Authorization: `Bearer ${$("key").value}` }, body: form });
+    const d = await r.json(); addLatency("identify", Math.round(performance.now()-t));
+    const a = (window._artworks||[]).find(x => x.id === d.artwork_id);
+    if (a) { [...$("artwork").options].forEach((o,i)=>{ if (window._artworks[i].id===a.id) $("artwork").value=i; }); renderArtwork(); }
+    status(`identify → ${a ? a.object_number : (d.artwork_id||"aucun match")} (conf ${d.confidence})`, a ? "good" : "warn");
+  } catch (e) { status(e.message, "bad"); }
+}
+
+async function transcribe() {
+  const f = $("audfile").files[0]; if (!f) return status("choisis un audio", "warn");
+  const form = new FormData(); form.append("audio", f); form.append("lang_hint", lang());
+  status("transcription…", "muted");
+  try {
+    const r = await fetch(fnUrl("transcribe"), { method: "POST", headers: { Authorization: `Bearer ${$("key").value}` }, body: form });
+    const d = await r.json(); $("question").value = d.text || ""; status(`transcrit (${d.duration_s ?? "?"}s)`, "good");
+  } catch (e) { status(e.message, "bad"); }
+}
+
+function renderHistory() {
+  $("history").innerHTML = history.length ? history.map(m =>
+    `<div class="card" style="padding:7px"><b style="color:${m.role==='user'?'#8fc7ff':'#7ad99b'}">${m.role}</b> <span class="muted">${(window._artworks||[]).find(a=>a.id===m.artwork_id)?.object_number||""}</span><br>${m.content}</div>`).join("") : "Vide.";
+}
+function resetHistory(){ history=[]; renderHistory(); status("conversation réinitialisée", "muted"); }
+
+// ---------- presets ----------
+function setProfile(allure, niveau, interets){ $("allure").value=allure; $("niveau").value=niveau;
+  document.querySelectorAll(".interest").forEach(c=>c.checked=interets.includes(c.value)); }
+function setLang(l){ $("lang").value=l; }
+function selectObj(obj){ const i=(window._artworks||[]).findIndex(a=>a.object_number===obj); if(i>=0){ $("artwork").value=i; renderArtwork(); } }
+const sleep = (ms)=>new Promise(r=>setTimeout(r,ms));
+
+const SCENARIOS = [
+  { name:"👀 Débutant pressé (FR)", help:"Profil court/découverte. Les hotspots doivent être COURTS et simples.",
+    run: async()=>{ setLang("fr"); setProfile("court","decouverte",["technique"]); selectObj("SK-C-5"); await openArtwork(); } },
+  { name:"🎓 Passionné (EN)", help:"long/passionne en anglais — hotspots riches, vocabulaire pointu. Compare avec le scénario débutant.",
+    run: async()=>{ setLang("en"); setProfile("long","passionne",["technique","stories"]); selectObj("SK-C-5"); await openArtwork(); } },
+  { name:"🧠 Mémoire inter-œuvres", help:"Ouvre la Laitière, pose une question, puis ouvre la Ronde — la réponse suivante doit tenir compte de la 1ère.",
+    run: async()=>{ setLang("fr"); selectObj("SK-A-2344"); await openArtwork(); $("question").value="Qu'est-ce qui rend cette scène intime ?"; await ask(); selectObj("SK-C-5"); await openArtwork(); status("Maintenant pose: 'et par rapport à la scène précédente ?'", "warn"); } },
+  { name:"🕳️ Appât hallucination", help:"Demande le prix payé (absent des notices tronquées). Un bon guide doit dire qu'il n'a pas l'info, pas inventer.",
+    run: async()=>{ setLang("fr"); selectObj("SK-C-5"); await openArtwork(); $("question").value="Combien Rembrandt a-t-il été payé pour ce tableau ?"; await ask(); } },
+  { name:"🔊 Test voix (1er hotspot)", help:"Génère puis lit le 1er hotspot avec le moteur TTS choisi.",
+    run: async()=>{ selectObj("SK-C-5"); await openArtwork(); const id=(currentArtwork.hotspot||[])[0]?.id; openHotspot(id); await speak(window._lastText); } },
+  { name:"⏱️ Bench latence", help:"Mesure hotspot batch + un ask. Regarde le panneau Latences (vert <1.5s, rouge >4s).",
+    run: async()=>{ selectObj("SK-C-5"); await openArtwork(); $("question").value="Décris la lumière."; await ask(); } },
+];
+$("scenarios").innerHTML = SCENARIOS.map((s,i)=>`<button class="scenario" title="${s.help}" onclick="runScenario(${i})">${s.name}</button>`).join("");
+async function runScenario(i){ const s=SCENARIOS[i]; status("▶ "+s.name+" — "+s.help, "warn"); try{ await s.run(); }catch(e){ status(e.message,"bad"); } }
+
+loadArtworks();
+</script>
+</body>
+</html>
