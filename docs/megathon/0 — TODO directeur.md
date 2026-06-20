@@ -16,21 +16,22 @@ date: 2026-06-20
 
 ### Adam / Codex — app, data, demo
 
-- [ ] **Sprint app 1** : ouvrir une œuvre depuis vraie DB ou mock compatible, afficher image + hotspots.
-- [ ] Implémenter les mocks locaux conformes au contrat :
-  - [ ] `/generate mode=hotspot` → JSON batch ;
-  - [ ] `/generate mode=ask` → simulation `delta/done` ;
-  - [ ] `/speak` → `audio_url` fixe ;
-  - [ ] `/transcribe` → transcript fixe.
-- [ ] Brancher les états hotspot : `idle` → `loading` → `ready` / `fallback` / `error`.
-- [ ] Appliquer le fallback hotspot **3 s** : lire `narration_text`, puis remplacer si le texte perso arrive.
-- [ ] Préparer le client `/generate mode=ask` : chat libre, question depuis hotspot, point libre.
-- [ ] Préparer le lecteur audio depuis `audio_url` (`/speak`) avec voix/vitesse/ton côté UI.
-- [ ] Préparer l'upload audio `/transcribe` en `multipart/form-data` (même si transcript mocké au début).
-- [ ] Garder QR/manual fallback prioritaire : même vue détail, même contrat runtime.
+- [x] **Sprint app 1** : ouvrir une œuvre depuis vraie DB (PostgREST `artwork?select=*,artist,museum,hotspot`), afficher image + hotspots.
+- [x] Implémenter les mocks locaux conformes au contrat (fallback `runtime.ts` quand Supabase non configuré) :
+  - [x] `/generate mode=hotspot` → JSON batch ;
+  - [x] `/generate mode=ask` → simulation `delta/done` ;
+  - [x] `/speak` → `audio_url` fixe ;
+  - [x] `/transcribe` → transcript fixe.
+- [x] Brancher les états hotspot : `idle` → `loading` → `ready` / `fallback` / `error` (`useHotspotTexts`).
+- [x] Appliquer le fallback hotspot **3 s** : lire `narration_text`, puis remplacer si le texte perso arrive (`HOTSPOT_FALLBACK_MS`).
+- [x] Client `/generate mode=ask` : chat libre + question depuis hotspot/point (`useChat`, SSE via XHR).
+- [x] Lecteur audio depuis `audio_url` (`/speak`) (`useAudioPlayer`, expo-av, play/pause).
+- [x] Upload audio `/transcribe` en `multipart/form-data` (bouton micro `ChatPanel` → `useVoiceInput`).
+- [x] Garder QR/manual fallback prioritaire : même vue détail, même contrat runtime (picker manuel conservé ; `/identify` non câblé — voir note ponytail).
 - [x] **Playbook crédits IA épuisés** : procédure ajoutée dans [[3 — Playbook & questions ouvertes]] et référencée dans `AGENTS.md` + `CLAUDE.md`.
-- [ ] **Convergence 1** : l'app appelle au moins un endpoint serveur/stub réel après 90 min.
-- [ ] **Convergence dure** : après 3 h, app branchée sur stub HTTP ou vrai serveur pour `/generate`.
+- [x] **Convergence 1** : l'app appelle les endpoints réels (`generate`/`speak`/`transcribe`) sur le projet déployé.
+- [x] **Convergence dure** : app branchée sur le vrai serveur pour `/generate` (5 modes) + onboarding `persona` → `profile` injecté.
+- [ ] **`/identify` (repli AR photo)** : volontairement non câblé (ponytail — le picker manuel couvre le cas). Point de branchement noté dans `runtime.ts`.
 
 ### Siffrein — serveur, secrets, deploy ✅ (lane livrée)
 

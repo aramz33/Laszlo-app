@@ -103,6 +103,49 @@ export async function generateHotspots(
   return (await res.json()) as HotspotResponse;
 }
 
+export type OverviewResponse = {
+  type: "done";
+  request_id: string;
+  text: string;
+  sources: Source[];
+};
+
+/**
+ * `mode=overview` — the "✦ the artwork" virtual hotspot: a single JSON intro for
+ * the whole artwork, fired once on open alongside the hotspot batch.
+ */
+export async function generateOverview(args: {
+  artworkId: string;
+  lang: Lang;
+  profile?: Profile;
+  steering?: Steering;
+}): Promise<OverviewResponse> {
+  const request_id = newRequestId();
+
+  if (!hasSupabaseConfig) {
+    return { type: "done", request_id, text: "", sources: [] };
+  }
+
+  const res = await fetch(`${BASE}/generate`, {
+    method: "POST",
+    headers: jsonHeaders(),
+    body: JSON.stringify({
+      request_id,
+      mode: "overview",
+      artwork_id: args.artworkId,
+      lang: args.lang,
+      profile: args.profile,
+      steering: args.steering
+    })
+  });
+
+  if (!res.ok) {
+    throw new Error(`generate(overview) failed: ${res.status}`);
+  }
+
+  return (await res.json()) as OverviewResponse;
+}
+
 export type PersonaArgs = {
   lang: Lang;
   onboarding: {
@@ -397,6 +440,64 @@ function mockSpeakResponse(): SpeakResponse {
     engine: "mock"
   };
 }
+
+/**
+ * React Native's `FormData.append` accepts a `{ uri, name, type }` file part
+ * that the DOM `FormData` types don't model. This is the canonical RN shape.
+ */
+type FilePart = { uri: string; name: string; type: string };
+
+function appendFile(form: FormData, field: string, part: FilePart): void {
+  form.append(field, part as unknown as Blob);
+}
+
+export type TranscribeArgs = {
+  uri: string;
+  langHint?: Lang;
+  mime?: string;
+  name?: string;
+};
+
+export type TranscribeResponse = {
+  text: string;
+  lang: string | null;
+  duration_s: number | null;
+};
+
+/** `POST /transcribe` — voice → text (multipart). Blocks before a voice `ask`. */
+export async function transcribe(
+  args: TranscribeArgs
+): Promise<TranscribeResponse> {
+  if (!hasSupabaseConfig) {
+    return { text: "", lang: args.langHint ?? null, duration_s: null };
+  }
+
+  const form = new FormData();
+  appendFile(form, "audio", {
+    uri: args.uri,
+    name: args.name ?? "a.m4a",
+    type: args.mime ?? "audio/m4a"
+  });
+  if (args.langHint) {
+    form.append("lang_hint", args.langHint);
+  }
+
+  const res = await fetch(`${BASE}/transcribe`, {
+    method: "POST",
+    headers: { Authorization: `Bearer ${ANON_KEY ?? ""}` },
+    body: form
+  });
+
+  if (!res.ok) {
+    throw new Error(`transcribe failed: ${res.status}`);
+  }
+
+  return (await res.json()) as TranscribeResponse;
+}
+
+// ponytail: /identify (photo → artwork_id) is intentionally not wired. Its only
+// job is recovering when AR tracking misses, and the manual picker already does
+// that. Add a client + camera capture here if real photo-recognition is needed.
 
 export const HOTSPOT_FALLBACK_MS = 3000;
 

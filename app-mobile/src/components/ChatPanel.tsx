@@ -9,7 +9,9 @@ import {
 } from "react-native";
 
 import { useChat } from "../hooks/useChat";
+import { useVoiceInput } from "../hooks/useVoiceInput";
 import type { Lang, Point, Profile, Steering } from "../services/runtime";
+import { hasSupabaseConfig } from "../services/supabase";
 import { colors, fonts, radii } from "../theme";
 
 type Props = {
@@ -35,12 +37,31 @@ export function ChatPanel({
     profile,
     steering
   });
+  const voice = useVoiceInput(lang);
   const [draft, setDraft] = useState("");
 
   const send = (question: string) => {
     ask(question, { hotspotId, point });
     setDraft("");
   };
+
+  const onMicPress = async () => {
+    if (voice.state === "recording") {
+      const text = await voice.stop();
+      if (text) {
+        send(text);
+      }
+    } else if (voice.state === "idle") {
+      await voice.start();
+    }
+  };
+
+  const micLabel =
+    voice.state === "recording"
+      ? "■"
+      : voice.state === "transcribing"
+        ? "…"
+        : "●";
 
   return (
     <View style={styles.root}>
@@ -88,10 +109,26 @@ export function ChatPanel({
           onChangeText={setDraft}
           placeholder="Ask about this artwork…"
           placeholderTextColor={colors.textFaint}
-          editable={!busy}
+          editable={!busy && voice.state === "idle"}
           onSubmitEditing={() => send(draft)}
           returnKeyType="send"
         />
+        {hasSupabaseConfig ? (
+          <Pressable
+            style={[
+              styles.micButton,
+              voice.state === "recording" && styles.micButtonActive
+            ]}
+            onPress={onMicPress}
+            disabled={busy || voice.state === "transcribing"}
+          >
+            {voice.state === "transcribing" ? (
+              <ActivityIndicator size="small" color={colors.accent} />
+            ) : (
+              <Text style={styles.micText}>{micLabel}</Text>
+            )}
+          </Pressable>
+        ) : null}
         <Pressable
           style={[styles.sendButton, busy && styles.sendButtonDisabled]}
           onPress={() => send(draft)}
@@ -179,6 +216,24 @@ const styles = StyleSheet.create({
     color: colors.text,
     fontFamily: fonts.serifRegular,
     fontSize: 15
+  },
+  micButton: {
+    width: 44,
+    height: 44,
+    borderRadius: 22,
+    borderColor: colors.hairlineStrong,
+    borderWidth: 1,
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: colors.glass
+  },
+  micButtonActive: {
+    backgroundColor: colors.accentSoft,
+    borderColor: colors.accent
+  },
+  micText: {
+    color: colors.accent,
+    fontSize: 14
   },
   sendButton: {
     borderRadius: radii.pill,

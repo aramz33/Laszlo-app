@@ -23,8 +23,14 @@ import { LanguageProvider } from "./src/context/LanguageContext";
 import type { Artwork } from "./src/domain/artwork";
 import type { ArtworkIdentification } from "./src/domain/artworkIdentifier";
 import { ArtworkDetailScreen } from "./src/screens/ArtworkDetailScreen";
+import { OnboardingScreen } from "./src/screens/OnboardingScreen";
 import { ScannerScreen } from "./src/screens/ScannerScreen";
 import { fetchArtworks } from "./src/services/artworks";
+import {
+  loadStoredProfile,
+  saveStoredProfile,
+  type StoredProfile
+} from "./src/services/profile";
 import { hasSupabaseConfig } from "./src/services/supabase";
 import { colors, fonts, radii } from "./src/theme";
 
@@ -32,6 +38,11 @@ type LoadState =
   | { status: "loading" }
   | { status: "ready"; artworks: Artwork[] }
   | { status: "error"; message: string };
+
+type ProfileState =
+  | { status: "loading" }
+  | { status: "onboarding" }
+  | { status: "ready"; stored: StoredProfile };
 
 export default function App() {
   const [fontsLoaded, fontError] = useFonts({
@@ -41,6 +52,9 @@ export default function App() {
     JetBrainsMono_500Medium
   });
   const [load, setLoad] = useState<LoadState>({ status: "loading" });
+  const [profileState, setProfileState] = useState<ProfileState>({
+    status: "loading"
+  });
   const [selectedArtwork, setSelectedArtwork] = useState<Artwork | null>(null);
 
   const loadArtworks = useCallback(async () => {
@@ -58,13 +72,29 @@ export default function App() {
     loadArtworks();
   }, [loadArtworks]);
 
+  useEffect(() => {
+    let active = true;
+    loadStoredProfile().then((stored) => {
+      if (!active) return;
+      setProfileState(stored ? { status: "ready", stored } : { status: "onboarding" });
+    });
+    return () => {
+      active = false;
+    };
+  }, []);
+
+  const handleOnboardingComplete = useCallback((stored: StoredProfile) => {
+    saveStoredProfile(stored);
+    setProfileState({ status: "ready", stored });
+  }, []);
+
   const handleIdentify = (identification: ArtworkIdentification) => {
     setSelectedArtwork(identification.artwork);
   };
 
   // If fonts fail to load (e.g. offline first launch), fall through to system
   // fonts rather than blocking on the spinner forever.
-  if (!fontsLoaded && !fontError) {
+  if ((!fontsLoaded && !fontError) || profileState.status === "loading") {
     return (
       <SafeAreaView style={styles.root}>
         <StatusBar style="light" />
@@ -75,10 +105,19 @@ export default function App() {
     );
   }
 
+  const profile =
+    profileState.status === "ready" ? profileState.stored.profile : undefined;
+  const initialLang =
+    profileState.status === "ready" ? profileState.stored.lang : "fr";
+
   return (
-    <LanguageProvider>
+    <LanguageProvider initialLang={initialLang}>
       <SafeAreaView style={styles.root}>
         <StatusBar style="light" />
+        {profileState.status === "onboarding" ? (
+          <OnboardingScreen onComplete={handleOnboardingComplete} />
+        ) : (
+          <>
         {load.status === "ready" ? (
           <View style={styles.hud} pointerEvents="box-none">
             <LanguagePill />
@@ -101,6 +140,7 @@ export default function App() {
           <ArtworkDetailScreen
             artwork={selectedArtwork}
             onBack={() => setSelectedArtwork(null)}
+            profile={profile}
           />
         ) : (
           <>
@@ -112,6 +152,8 @@ export default function App() {
               </View>
             ) : null}
             <ScannerScreen artworks={load.artworks} onIdentify={handleIdentify} />
+          </>
+        )}
           </>
         )}
       </SafeAreaView>

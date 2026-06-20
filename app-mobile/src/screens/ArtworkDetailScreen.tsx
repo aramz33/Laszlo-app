@@ -13,6 +13,7 @@ import { useLanguage } from "../context/LanguageContext";
 import type { Artwork, Hotspot } from "../domain/artwork";
 import { useAudioPlayer } from "../hooks/useAudioPlayer";
 import { useHotspotTexts } from "../hooks/useHotspotTexts";
+import { useOverview } from "../hooks/useOverview";
 import { resolveHotspotText, type Lang, type Profile } from "../services/runtime";
 import { hasSupabaseConfig } from "../services/supabase";
 import { colors, fonts, radii } from "../theme";
@@ -83,6 +84,70 @@ function HotspotRow({
   );
 }
 
+function OverviewCard({
+  artworkId,
+  lang,
+  profile
+}: {
+  artworkId: string;
+  lang: Lang;
+  profile?: Profile;
+}) {
+  const overview = useOverview({ artworkId, lang, profile });
+  const { status: audioStatus, play, toggle } = useAudioPlayer();
+
+  if (overview.status === "empty") {
+    return null;
+  }
+
+  const handlePlay = () => {
+    if (overview.status !== "ready") return;
+    if (audioStatus === "playing" || audioStatus === "paused") {
+      toggle();
+    } else {
+      play({ text: overview.text, lang });
+    }
+  };
+
+  const playLabel =
+    audioStatus === "loading" ? "…" : audioStatus === "playing" ? "⏸" : "▶";
+
+  return (
+    <View style={styles.overviewCard}>
+      <View style={styles.hotspotHeader}>
+        <View style={styles.hotspotTitleGroup}>
+          <Text style={styles.hotspotTitle}>✦ The artwork</Text>
+          <Text style={styles.hotspotAspect}>overview</Text>
+        </View>
+        {hasSupabaseConfig && overview.status === "ready" ? (
+          <Pressable
+            style={[
+              styles.playButton,
+              audioStatus === "playing" && styles.playButtonActive
+            ]}
+            onPress={handlePlay}
+            disabled={audioStatus === "loading"}
+          >
+            {audioStatus === "loading" ? (
+              <ActivityIndicator size="small" color={colors.accent} />
+            ) : (
+              <Text style={styles.playButtonText}>{playLabel}</Text>
+            )}
+          </Pressable>
+        ) : null}
+      </View>
+      {overview.status === "loading" ? (
+        <View style={styles.personalizing}>
+          <ActivityIndicator size="small" color={colors.accent} />
+          <Text style={styles.personalizingText}>PERSONALIZING…</Text>
+        </View>
+      ) : (
+        <Text style={styles.hotspotText}>{overview.text}</Text>
+      )}
+    </View>
+  );
+}
+
 export function ArtworkDetailScreen({ artwork, onBack, profile }: Props) {
   const { lang } = useLanguage();
   const hotspotTexts = useHotspotTexts({ artwork, lang, profile });
@@ -99,6 +164,8 @@ export function ArtworkDetailScreen({ artwork, onBack, profile }: Props) {
         <Text style={styles.title}>{artwork.title}</Text>
         <Text style={styles.subtitle}>{artwork.subtitle}</Text>
       </View>
+
+      <OverviewCard artworkId={artwork.id} lang={lang} profile={profile} />
 
       <View style={styles.section}>
         <View style={styles.sectionHeader}>
@@ -199,6 +266,13 @@ const styles = StyleSheet.create({
     fontFamily: fonts.mono,
     fontSize: 10,
     letterSpacing: 1
+  },
+  overviewCard: {
+    borderColor: colors.accent,
+    borderRadius: radii.md,
+    borderWidth: 1,
+    padding: 14,
+    backgroundColor: colors.accentSoft
   },
   hotspotRow: {
     borderColor: colors.hairline,
