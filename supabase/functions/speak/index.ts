@@ -39,7 +39,7 @@ export type SpeakDeps = {
 
 export const realDeps: SpeakDeps = {
   engines: {
-    elevenlabs: (t) => elevenLabsTts(t),
+    elevenlabs: (t, l) => elevenLabsTts(t, l),
     edge: (t, l, s) => edgeTts(t, l, s),
     mistral: (t) => mistralTts(t),
     google: (t, l) => googleTts(t, l),
