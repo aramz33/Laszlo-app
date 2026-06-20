@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body { background: #ece6da; -webkit-font-smoothing: antialiased; }
+  @keyframes ringpulse { 0% { transform: scale(0.6); opacity: 0.55; } 100% { transform: scale(2.3); opacity: 0; } }
+  @keyframes breathe { 0%,100% { opacity: 0.9; } 50% { opacity: 0.4; } }
+</style>
+</helmet>
+
+<div style="width:max-content; min-width:100%; min-height:100vh; box-sizing:border-box; padding:56px 64px 72px; background:#ece6da;">
+<div style="--ar:{{ accent }};">
+
+  <!-- ===== HEADER ===== -->
+  <div style="margin-bottom:30px;">
+    <div style="display:flex; align-items:center; gap:12px;">
+      <div style="font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:0.28em; color:#8a8073;">LASZLO · MUSEUM GUIDE — DEMO FLOW</div>
+      <span style="font-family:'JetBrains Mono',monospace; font-size:9px; letter-spacing:0.14em; color:#fff; background:var(--ar,#c98a3c); border-radius:999px; padding:4px 9px;">SCOPED 2026-06-20</span>
+    </div>
+    <div style="font-family:'Caveat',cursive; font-weight:700; font-size:52px; line-height:1; color:#211d18; margin-top:8px;">The happy path we're building</div>
+    <div style="font-family:'JetBrains Mono',monospace; font-size:12px; line-height:1.6; color:#6f6657; margin-top:12px; max-width:880px;">The ~3-minute stage run, end to end. A visitor is built in 15 seconds, points the phone at <span style="color:#211d18;">La Laitière</span>, listens to a hotspot already in their register, asks and re-steers the conversation, switches language, then walks an anchored AR arrow to <span style="color:#211d18;">La Ronde de nuit</span> — where the guide connects the two from memory. Read it as <span style="color:#211d18;">build me → look → listen → ask → steer → switch → walk → connect</span>.</div>
+
+    <div style="display:flex; gap:24px; align-items:center; margin-top:22px; flex-wrap:wrap;">
+      <div style="display:flex; align-items:center; gap:8px;"><span style="width:26px; height:2px; background:#211d18;"></span><span style="font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:0.1em; color:#6f6657;">PRIMARY PATH</span></div>
+      <div style="display:flex; align-items:center; gap:8px;"><span style="width:26px; height:0; border-top:2px dashed #211d18;"></span><span style="font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:0.1em; color:#6f6657;">OPTIONAL / FALLBACK</span></div>
+      <div style="display:flex; align-items:center; gap:8px;"><span style="width:11px; height:11px; border-radius:50%; background:var(--ar,#c98a3c); box-shadow:0 0 8px var(--ar,#c98a3c);"></span><span style="font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:0.1em; color:#6f6657;">AR ANCHOR POINT</span></div>
+      <div style="display:flex; align-items:center; gap:8px;"><span style="width:14px; height:14px; border-radius:4px; border:1.5px solid var(--ar,#c98a3c); display:flex; align-items:center; justify-content:center; font-size:9px; color:var(--ar,#c98a3c);">↺</span><span style="font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:0.1em; color:#6f6657;">SESSION MEMORY</span></div>
+      <div style="display:flex; align-items:center; gap:8px;"><span style="font-family:'JetBrains Mono',monospace; font-size:9px; font-weight:500; color:#fff; background:#211d18; border-radius:5px; padding:3px 6px;">S#</span><span style="font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:0.1em; color:#6f6657;">SCOPING DECISION (RESOLVED)</span></div>
+    </div>
+  </div>
+
+  <!-- ===== SESSION MEMORY RAIL ===== -->
+  <div style="border-radius:16px; border:1.5px solid var(--ar,#c98a3c); background:color-mix(in srgb, var(--ar,#c98a3c) 9%, #fbf9f4); padding:16px 22px; margin-bottom:18px; display:flex; align-items:center; gap:20px; flex-wrap:wrap;">
+    <div style="display:flex; align-items:center; gap:10px; flex:none;">
+      <span style="width:30px; height:30px; border-radius:8px; border:1.5px solid var(--ar,#c98a3c); display:flex; align-items:center; justify-content:center; color:var(--ar,#c98a3c); font-size:15px;">↺</span>
+      <div>
+        <div style="font-family:'Caveat',cursive; font-weight:700; font-size:24px; color:#211d18; line-height:1;">Session memory</div>
+        <div style="font-family:'JetBrains Mono',monospace; font-size:8.5px; letter-spacing:0.1em; color:#8a8073; margin-top:3px;">KEPT ACROSS THE WHOLE VISIT — NOT PER-ARTWORK</div>
+      </div>
+    </div>
+    <div style="display:flex; align-items:center; gap:7px; flex-wrap:wrap; flex:1;">
+      <span style="font-family:'JetBrains Mono',monospace; font-size:8px; letter-spacing:0.1em; color:var(--ar,#c98a3c); border:1px solid color-mix(in srgb, var(--ar,#c98a3c) 45%, transparent); border-radius:5px; padding:3px 6px;">LAITIÈRE</span>
+      <span style="font-family:'Caveat',cursive; font-weight:600; font-size:15px; color:#3f392f; padding:3px 9px; border-radius:999px; background:#fff; border:1px solid #e3dac8;">the thread of milk</span>
+      <span style="font-family:'Caveat',cursive; font-weight:600; font-size:15px; color:#3f392f; padding:3px 9px; border-radius:999px; background:#fff; border:1px solid #e3dac8;">why this light?</span>
+      <span style="font-family:'Caveat',cursive; font-weight:600; font-size:15px; color:#3f392f; padding:3px 9px; border-radius:999px; background:#fff; border:1px solid #e3dac8;">→ technique, not symbolism</span>
+      <span style="color:#cfc6b5;">·</span>
+      <span style="font-family:'JetBrains Mono',monospace; font-size:8px; letter-spacing:0.1em; color:var(--ar,#c98a3c); border:1px solid color-mix(in srgb, var(--ar,#c98a3c) 45%, transparent); border-radius:5px; padding:3px 6px;">RONDE DE NUIT</span>
+      <span style="font-family:'Caveat',cursive; font-weight:600; font-size:15px; color:#3f392f; padding:3px 9px; border-radius:999px; background:#fff; border:1px solid #e3dac8;">compare to the Laitière…</span>
+    </div>
+    <div style="flex:none; max-width:230px;">
+      <span style="font-family:'JetBrains Mono',monospace; font-size:9px; line-height:1.6; color:#6f6657;">Every later answer is generated <span style="color:#211d18;">in light of the earlier ones</span> — follow-ups overwrite the pre-written hotspot text. <span style="font-family:'JetBrains Mono'; color:#8a8073;">(S5)</span></span>
+    </div>
+  </div>
+
+  <!-- ===================================================== -->
+  <!-- ===== LANE 0 — ONBOARDING → PERSONA ===== -->
+  <!-- ===================================================== -->
+  <div style="background:rgba(255,255,255,0.42); border:1.5px solid rgba(33,29,24,0.22); border-radius:16px; padding:26px 30px 30px; margin-bottom:8px;">
+    <div style="display:flex; align-items:baseline; gap:14px; margin-bottom:6px;">
+      <div style="display:flex; align-items:center; gap:10px;">
+        <span style="width:30px; height:30px; border-radius:50%; border:2px solid #211d18; display:flex; align-items:center; justify-content:center; font-family:'Caveat'; font-weight:700; font-size:18px; background:var(--ar,#c98a3c); color:#fff;">0</span>
+        <span style="font-family:'Caveat',cursive; font-weight:700; font-size:30px; color:#211d18;">Onboarding · builds the demo visitor</span>
+      </div>
+      <span style="font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:0.08em; color:#8a8073;">~15 s, fully skippable · anonymous, device-based identity (no account)</span>
+    </div>
+    <div style="font-family:'JetBrains Mono',monospace; font-size:10px; line-height:1.6; color:#6f6657; max-width:760px; margin-bottom:22px;">“In fifteen seconds, Laszlo has built a profile of me.” One hidden LLM call turns the answers into a persona, stored on device — no sign-up, no login.</div>
+
+    <div style="display:flex; align-items:flex-start; gap:0;">
+
+      <!-- O1 language / first open -->
+      <div style="flex:none; width:188px; display:flex; flex-direction:column; gap:10px;">
+        <div style="display:flex; align-items:center; gap:8px; height:26px;"><span style="width:24px; height:24px; border:2px solid #211d18; border-radius:6px; display:flex; align-items:center; justify-content:center; font-family:'Caveat'; font-weight:700; font-size:14px; background:#fff;">O1</span><span style="font-family:'Caveat',cursive; font-weight:600; font-size:21px; color:#211d18;">Language</span></div>
+        <div style="position:relative; width:168px; height:300px; border-radius:20px; border:2px solid #211d18; background:#fbf9f4; box-shadow:4px 4px 0 rgba(33,29,24,0.1); padding:18px 14px; overflow:hidden; display:flex; flex-direction:column; gap:12px;">
+          <div style="font-family:'Caveat',cursive; font-weight:700; font-size:30px; color:#211d18; line-height:1;">Bonjour.</div>
+          <div style="font-family:'Caveat',cursive; font-weight:600; font-size:18px; color:#8a8073; line-height:1.1;">Goedendag.<br>Hello.</div>
+          <div style="display:flex; flex-direction:column; gap:8px; margin-top:6px;">
+            <div style="display:flex; align-items:center; justify-content:space-between; padding:9px 11px; border-radius:10px; border:1.5px solid #cfc6b5; background:#fff;"><span style="font-family:'Caveat',cursive; font-weight:600; font-size:15px; color:#211d18;">Français</span><span style="font-family:'JetBrains Mono',monospace; font-size:8px; color:var(--ar,#c98a3c);">FR →</span></div>
+            <div style="display:flex; align-items:center; justify-content:space-between; padding:9px 11px; border-radius:10px; border:1.5px solid #cfc6b5; background:#fff;"><span style="font-family:'Caveat',cursive; font-weight:600; font-size:15px; color:#211d18;">Nederlands</span><span style="font-family:'JetBrains Mono',monospace; font-size:8px; color:var(--ar,#c98a3c);">NL →</span></div>
+            <div style="display:flex; align-items:center; justify-content:space-between; padding:9px 11px; border-radius:10px; border:1.5px solid #211d18; background:color-mix(in srgb, var(--ar,#c98a3c) 14%, #fff);"><span style="font-family:'Caveat',cursive; font-weight:600; font-size:15px; color:#211d18;">English</span><span style="font-family:'JetBrains Mono',monospace; font-size:8px; color:var(--ar,#c98a3c);">EN →</span></div>
+          </div>
+        </div>
+        <div style="font-family:'JetBrains Mono',monospace; font-size:9.5px; line-height:1.5; color:#6f6657; width:168px;">Init locale. Switchable anytime later — UI generates in the target language.</div>
+      </div>
+
+      <div style="flex:none; width:54px; display:flex; flex-direction:column; align-items:center; gap:5px; margin-top:160px;"><span style="font-family:'JetBrains Mono',monospace; font-size:8px; letter-spacing:0.1em; color:#8a8073;">THEN</span><div style="position:relative; width:42px; height:2px; background:#211d18;"><span style="position:absolute; right:-1px; top:-5px; width:0; height:0; border-top:6px solid transparent; border-bottom:6px solid transparent; border-left:9px solid #211d18;"></span></div></div>
+
+      <!-- O2 QCM multi-select + free text -->
+      <div style="flex:none; width:206px; display:flex; flex-direction:column; gap:10px;">
+        <div style="display:flex; align-items:center; gap:8px; height:26px;"><span style="width:24px; height:24px; border:2px solid #211d18; border-radius:6px; display:flex; align-items:center; justify-content:center; font-family:'Caveat'; font-weight:700; font-size:14px; background:#fff;">O2</span><span style="font-family:'Caveat',cursive; font-weight:600; font-size:21px; color:#211d18;">3 QCM + free text</span></div>
+        <div style="position:relative; width:186px; height:300px; border-radius:20px; border:2px solid #211d18; background:#fbf9f4; box-shadow:4px 4px 0 rgba(33,29,24,0.1); padding:14px 13px; overflow:hidden; display:flex; flex-direction:column; gap:8px;">
+          <div style="font-family:'JetBrains Mono',monospace; font-size:7.5px; letter-spacing:0.12em; color:#8a8073;">PACE · multi-select</div>
+          <div style="display:flex; flex-wrap:wrap; gap:5px;">
+            <span style="padding:4px 9px; border-radius:999px; border:1.5px solid #cfc6b5; color:#211d18; font-family:'Caveat',cursive; font-weight:600; font-size:13px;">Stroll</span>
+            <span style="padding:4px 9px; border-radius:999px; background:var(--ar,#c98a3c); color:#fff; font-family:'Caveat',cursive; font-weight:600; font-size:13px;">Easy</span>
+            <span style="padding:4px 9px; border-radius:999px; border:1.5px solid #cfc6b5; color:#211d18; font-family:'Caveat',cursive; font-weight:600; font-size:13px;">Hurry</span>
+          </div>
+          <div style="font-family:'JetBrains Mono',monospace; font-size:7.5px; letter-spacing:0.12em; color:#8a8073; margin-top:2px;">LEVEL · multi-select</div>
+          <div style="display:flex; flex-wrap:wrap; gap:5px;">
+            <span style="padding:4px 9px; border-radius:999px; border:1.5px solid #cfc6b5; color:#211d18; font-family:'Caveat',cursive; font-weight:600; font-size:13px;">New</span>
+            <span style="padding:4px 9px; border-radius:999px; background:var(--ar,#c98a3c); color:#fff; font-family:'Caveat',cursive; font-weight:600; font-size:13px;">Curious</span>
+            <span style="padding:4px 9px; border-radius:999px; border:1.5px solid #cfc6b5; color:#211d18; font-family:'Caveat',cursive; font-weight:600; font-size:13px;">Connoisseur</span>
+          </div>
+          <div style="font-family:'JetBrains Mono',monospace; font-size:7.5px; letter-spacing:0.12em; color:#8a8073; margin-top:2px;">INTEREST · multi-select</div>
+          <div style="display:flex; flex-wrap:wrap; gap:5px;">
+            <span style="padding:4px 9px; border-radius:999px; border:1.5px solid #cfc6b5; color:#211d18; font-family:'Caveat',cursive; font-weight:600; font-size:13px;">Stories</span>
+            <span style="padding:4px 9px; border-radius:999px; background:var(--ar,#c98a3c); color:#fff; font-family:'Caveat',cursive; font-weight:600; font-size:13px;">The people</span>
+            <span style="padding:4px 9px; border-radius:999px; background:var(--ar,#c98a3c); color:#fff; font-family:'Caveat',cursive; font-weight:600; font-size:13px;">Technique</span>
+            <span style="padding:4px 9px; border-radius:999px; border:1.5px solid #cfc6b5; color:#211d18; font-family:'Caveat',cursive; font-weight:600; font-size:13px;">Symbols</span>
+          </div>
+          <div style="margin-top:auto; padding:8px 10px; border-radius:10px; border:1.5px dashed #cfc6b5; background:#fff;"><span style="font-family:'JetBrains Mono',monospace; font-size:8px; color:#b0a895;">“…and the people behind the work”</span></div>
+        </div>
+        <div style="font-family:'JetBrains Mono',monospace; font-size:9.5px; line-height:1.5; color:#6f6657; width:186px;">Profiles that cross — plus one free line of natural language. <span style="color:#8a8073;">(S6)</span></div>
+      </div>
+
+      <div style="flex:none; width:54px; display:flex; flex-direction:column; align-items:center; gap:5px; margin-top:160px;"><span style="font-family:'JetBrains Mono',monospace; font-size:8px; letter-spacing:0.1em; color:#8a8073;">BUILD</span><div style="position:relative; width:42px; height:2px; background:#211d18;"><span style="position:absolute; right:-1px; top:-5px; width:0; height:0; border-top:6px solid transparent; border-bottom:6px solid transparent; border-left:9px solid #211d18;"></span></div></div>
+
+      <!-- O3 persona reveal -->
+      <div style="flex:none; width:188px; display:flex; flex-direction:column; gap:10px;">
+        <div style="display:flex; align-items:center; gap:8px; height:26px;"><span style="width:24px; height:24px; border:2px solid #211d18; border-radius:6px; display:flex; align-items:center; justify-content:center; font-family:'Caveat'; font-weight:700; font-size:14px; background:#fff;">O3</span><span style="font-family:'Caveat',cursive; font-weight:600; font-size:21px; color:#211d18;">Persona · lanes</span></div>
+        <div style="position:relative; width:168px; height:300px; border-radius:20px; border:2px solid #211d18; background:#fbf9f4; box-shadow:4px 4px 0 rgba(33,29,24,0.1); padding:16px 14px; overflow:hidden; display:flex; flex-direction:column; gap:10px;">
+          <div style="display:flex; align-items:center; gap:6px;"><span style="width:6px; height:6px; border-radius:50%; background:var(--ar,#c98a3c); box-shadow:0 0 8px var(--ar,#c98a3c); animation:breathe 2.6s ease-in-out infinite;"></span><span style="font-family:'JetBrains Mono',monospace; font-size:7.5px; letter-spacing:0.12em; color:var(--ar,#c98a3c);">1 HIDDEN CALL</span></div>
+          <div style="font-family:'Caveat',cursive; font-weight:700; font-size:21px; color:#211d18; line-height:1;">Your guide is ready.</div>
+          <div style="font-family:'Caveat',cursive; font-weight:600; font-size:15px; color:#3f392f; line-height:1.25;">Tuned to how things are made, and the people behind them.</div>
+          <div style="display:flex; flex-wrap:wrap; gap:6px; margin-top:2px;">
+            <span style="padding:5px 9px; border-radius:999px; border:1.5px solid color-mix(in srgb, var(--ar,#c98a3c) 40%, transparent); background:color-mix(in srgb, var(--ar,#c98a3c) 9%, transparent); font-family:'JetBrains Mono',monospace; font-size:8px; color:#211d18;">Technique</span>
+            <span style="padding:5px 9px; border-radius:999px; border:1.5px solid color-mix(in srgb, var(--ar,#c98a3c) 40%, transparent); background:color-mix(in srgb, var(--ar,#c98a3c) 9%, transparent); font-family:'JetBrains Mono',monospace; font-size:8px; color:#211d18;">The people</span>
+            <span style="padding:5px 9px; border-radius:999px; border:1.5px solid color-mix(in srgb, var(--ar,#c98a3c) 40%, transparent); background:color-mix(in srgb, var(--ar,#c98a3c) 9%, transparent); font-family:'JetBrains Mono',monospace; font-size:8px; color:#211d18;">Easy pace</span>
+          </div>
+          <div style="margin-top:auto; font-family:'JetBrains Mono',monospace; font-size:8px; line-height:1.6; color:#8a8073;">Lanes = a preferences layer, injected into every /ask. Never shown as UI. <span style="color:var(--ar,#c98a3c);">(S4)</span></div>
+        </div>
+        <div style="font-family:'JetBrains Mono',monospace; font-size:9.5px; line-height:1.5; color:#6f6657; width:168px;">Shaped once, invisible after. Evolves intra-conversation, not as a saved rewrite. <span style="color:#8a8073;">(S5)</span></div>
+      </div>
+
+      <!-- skip note -->
+      <div style="flex:none; width:200px; margin-top:120px; margin-left:30px; display:flex; flex-direction:column; gap:8px;">
+        <span style="font-family:'Caveat',cursive; font-weight:700; font-size:24px; color:var(--ar,#c98a3c); line-height:1;">↓ Skip anytime</span>
+        <span style="font-family:'JetBrains Mono',monospace; font-size:9.5px; line-height:1.6; color:#6f6657;">If the persona call lags on stage, skip → a sensible default profile, silently. Every path lands in the same live AR view.</span>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ===== TRANSITION 0 → 1 ===== -->
+  <div style="display:flex; flex-direction:column; align-items:center; gap:7px; margin:8px 0 8px;">
+    <span style="font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:0.18em; color:#8a8073;">POINT THE PHONE AT THE ARTWORK</span>
+    <div style="width:2px; height:34px; background:#211d18;"></div>
+    <span style="width:0; height:0; border-left:7px solid transparent; border-right:7px solid transparent; border-top:10px solid #211d18;"></span>
+  </div>
+
+  <!-- ===================================================== -->
+  <!-- ===== LANE 1 — AR ENTRY ===== -->
+  <!-- ===================================================== -->
+  <div style="background:rgba(255,255,255,0.42); border:1.5px dashed rgba(33,29,24,0.2); border-radius:16px; padding:26px 30px 30px; margin-bottom:8px;">
+    <div style="display:flex; align-items:baseline; gap:14px; margin-bottom:22px;">
+      <div style="display:flex; align-items:center; gap:10px;">
+        <span style="width:30px; height:30px; border-radius:50%; border:2px solid #211d18; display:flex; align-items:center; justify-content:center; font-family:'Caveat'; font-weight:700; font-size:18px; background:var(--ar,#c98a3c); color:#fff;">1</span>
+        <span style="font-family:'Caveat',cursive; font-weight:700; font-size:30px; color:#211d18;">Enter the artwork · AR recognition</span>
+      </div>
+      <span style="font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:0.08em; color:#8a8073;">restrained — recognition runs silently, behind a ViroReact go/no-go gate</span>
+    </div>
+
+    <div style="display:flex; align-items:flex-start; gap:0;">
+
+      <!-- A1 point -->
+      <div style="flex:none; width:188px; display:flex; flex-direction:column; gap:10px;">
+        <div style="display:flex; align-items:center; gap:8px; height:26px;"><span style="width:24px; height:24px; border:2px solid #211d18; border-radius:6px; display:flex; align-items:center; justify-content:center; font-family:'Caveat'; font-weight:700; font-size:14px; background:#fff;">A1</span><span style="font-family:'Caveat',cursive; font-weight:600; font-size:21px; color:#211d18;">Point at La Laitière</span></div>
+        <div style="position:relative; width:168px; height:280px; border-radius:20px; border:2px solid #211d18; background:#fbf9f4; box-shadow:4px 4px 0 rgba(33,29,24,0.1); padding:14px 12px; overflow:hidden;">
+          <div style="position:absolute; top:12px; left:12px; display:flex; align-items:center; gap:5px;"><span style="width:6px; height:6px; border-radius:50%; background:#c0473b;"></span><span style="font-family:'JetBrains Mono',monospace; font-size:7px; letter-spacing:0.16em; color:#9a907d;">LIVE</span></div>
+          <span style="position:absolute; top:34px; left:14px; width:14px; height:14px; border-top:2px solid #211d18; border-left:2px solid #211d18;"></span>
+          <span style="position:absolute; top:34px; right:14px; width:14px; height:14px; border-top:2px solid #211d18; border-right:2px solid #211d18;"></span>
+          <span style="position:absolute; bottom:42px; left:14px; width:14px; height:14px; border-bottom:2px solid #211d18; border-left:2px solid #211d18;"></span>
+          <span style="position:absolute; bottom:42px; right:14px; width:14px; height:14px; border-bottom:2px solid #211d18; border-right:2px solid #211d18;"></span>
+          <div style="position:absolute; left:50%; top:48%; transform:translate(-50%,-50%); width:96px; height:112px; border:1.5px solid #c8bfae; background:repeating-linear-gradient(45deg,#e7e0d2 0 6px,#ddd5c4 6px 12px); display:flex; align-items:center; justify-content:center; text-align:center;"><span style="font-family:'JetBrains Mono',monospace; font-size:7px; letter-spacing:0.1em; color:#9a907d;">LA<br>LAITIÈRE</span></div>
+          <div style="position:absolute; bottom:16px; left:0; right:0; text-align:center; font-family:'JetBrains Mono',monospace; font-size:8px; letter-spacing:0.14em; color:#8a8073;">RECOGNIZING · UNSEEN</div>
+        </div>
+        <div style="font-family:'JetBrains Mono',monospace; font-size:9.5px; line-height:1.5; color:#6f6657; width:168px;">Just the live view — no scan screen to wait through.</div>
+      </div>
+
+      <div style="flex:none; width:62px; display:flex; flex-direction:column; align-items:center; gap:5px; margin-top:150px;"><span style="font-family:'JetBrains Mono',monospace; font-size:8px; letter-spacing:0.1em; color:#8a8073;">FOUND</span><div style="position:relative; width:48px; height:2px; background:#211d18;"><span style="position:absolute; right:-1px; top:-5px; width:0; height:0; border-top:6px solid transparent; border-bottom:6px solid transparent; border-left:9px solid #211d18;"></span></div></div>
+
+      <!-- A2 anchored point -->
+      <div style="flex:none; width:188px; display:flex; flex-direction:column; gap:10px;">
+        <div style="display:flex; align-items:center; gap:8px; height:26px;"><span style="width:24px; height:24px; border:2px solid #211d18; border-radius:6px; display:flex; align-items:center; justify-content:center; font-family:'Caveat'; font-weight:700; font-size:14px; background:#fff;">A2</span><span style="font-family:'Caveat',cursive; font-weight:600; font-size:21px; color:#211d18;">Anchored point</span></div>
+        <div style="position:relative; width:168px; height:280px; border-radius:20px; border:2px solid #211d18; background:#fbf9f4; box-shadow:4px 4px 0 rgba(33,29,24,0.1); padding:14px 12px; overflow:hidden;">
+          <div style="position:absolute; left:50%; top:46%; transform:translate(-50%,-50%); width:108px; height:124px; border:2px solid var(--ar,#c98a3c); box-shadow:0 0 0 4px color-mix(in srgb, var(--ar,#c98a3c) 16%, transparent); background:repeating-linear-gradient(45deg,#e7e0d2 0 6px,#ddd5c4 6px 12px);"></div>
+          <span style="position:absolute; left:50%; top:46%; transform:translate(-50%,-50%); width:15px; height:15px; border-radius:50%; background:var(--ar,#c98a3c); box-shadow:0 0 14px 3px color-mix(in srgb, var(--ar,#c98a3c) 60%, transparent); z-index:2;"></span>
+          <span style="position:absolute; left:50%; top:46%; transform:translate(-50%,-50%); width:15px; height:15px; border-radius:50%; border:1.5px solid var(--ar,#c98a3c); animation:ringpulse 2s ease-out infinite;"></span>
+          <div style="position:absolute; left:50%; top:23%; transform:translate(-50%,-50%); white-space:nowrap; font-family:'Caveat',cursive; font-weight:700; font-size:14px; color:#fff; background:var(--ar,#c98a3c); padding:3px 9px; border-radius:6px;">tap to open</div>
+          <div style="position:absolute; bottom:16px; left:0; right:0; text-align:center; font-family:'JetBrains Mono',monospace; font-size:8px; letter-spacing:0.14em; color:#8a8073;">ANCHORED · TAPPABLE</div>
+        </div>
+        <div style="font-family:'JetBrains Mono',monospace; font-size:9.5px; line-height:1.5; color:#6f6657; width:168px;">One tappable point on the work. Persists — recognition never re-runs.</div>
+      </div>
+
+      <div style="flex:none; width:62px; display:flex; flex-direction:column; align-items:center; gap:5px; margin-top:150px;"><span style="font-family:'JetBrains Mono',monospace; font-size:8px; letter-spacing:0.1em; color:#8a8073;">OPEN</span><div style="position:relative; width:48px; height:2px; background:#211d18;"><span style="position:absolute; right:-1px; top:-5px; width:0; height:0; border-top:6px solid transparent; border-bottom:6px solid transparent; border-left:9px solid #211d18;"></span></div></div>
+
+      <!-- A3 into detail -->
+      <div style="flex:none; width:188px; display:flex; flex-direction:column; gap:10px;">
+        <div style="display:flex; align-items:center; gap:8px; height:26px;"><span style="width:24px; height:24px; border:2px solid #211d18; border-radius:6px; display:flex; align-items:center; justify-content:center; font-family:'Caveat'; font-weight:700; font-size:14px; background:#fff;">A3</span><span style="font-family:'Caveat',cursive; font-weight:600; font-size:21px; color:#211d18;">Open → detail</span></div>
+        <div style="position:relative; width:168px; height:280px; border-radius:20px; border:2px solid #211d18; background:#fbf9f4; box-shadow:4px 4px 0 rgba(33,29,24,0.1); padding:14px 12px; overflow:hidden; display:flex; flex-direction:column; gap:10px;">
+          <div style="width:100%; height:150px; border:1.5px solid #c8bfae; background:repeating-linear-gradient(45deg,#e7e0d2 0 6px,#ddd5c4 6px 12px); display:flex; align-items:center; justify-content:center;"><span style="font-family:'JetBrains Mono',monospace; font-size:7px; letter-spacing:0.1em; color:#9a907d;">IMAGE-FIRST</span></div>
+          <div style="height:11px; width:70%; border-radius:3px; background:#211d18; opacity:0.82;"></div>
+          <div style="height:6px; width:50%; border-radius:3px; background:#cfc6b5;"></div>
+          <div style="margin-top:auto; display:inline-flex; align-self:flex-start; gap:6px; padding:5px 9px; border-radius:999px; border:1px solid #cfc6b5;"><span style="font-family:'JetBrains Mono',monospace; font-size:7px; letter-spacing:0.1em; color:#8a8073;">◷ GALLERY 2.6</span></div>
+        </div>
+        <div style="font-family:'JetBrains Mono',monospace; font-size:9.5px; line-height:1.5; color:#6f6657; width:168px;">Steps straight into the 2D detail layer below.</div>
+      </div>
+
+      <!-- fallbacks note -->
+      <div style="flex:none; width:200px; margin-top:60px; margin-left:30px; display:flex; flex-direction:column; gap:10px;">
+        <span style="font-family:'Caveat',cursive; font-weight:700; font-size:22px; color:#211d18; line-height:1;">If the camera can't see</span>
+        <sc-if value="{{ showFallbacks }}" hint-placeholder-val="{{ true }}">
+        <div style="display:flex; flex-direction:column; gap:8px;">
+          <div style="display:flex; align-items:center; gap:8px; padding:8px 11px; border-radius:10px; border:1.5px dashed rgba(33,29,24,0.32); background:rgba(255,255,255,0.5);"><span style="font-family:'JetBrains Mono',monospace; font-size:8px; color:var(--ar,#c98a3c);">F1</span><span style="font-family:'Caveat',cursive; font-weight:600; font-size:15px; color:#211d18;">Claude vision overlay (2D)</span></div>
+          <div style="display:flex; align-items:center; gap:8px; padding:8px 11px; border-radius:10px; border:1.5px dashed rgba(33,29,24,0.32); background:rgba(255,255,255,0.5);"><span style="font-family:'JetBrains Mono',monospace; font-size:8px; color:var(--ar,#c98a3c);">F2</span><span style="font-family:'Caveat',cursive; font-weight:600; font-size:15px; color:#211d18;">Pick from the room</span></div>
+          <div style="display:flex; align-items:center; gap:8px; padding:8px 11px; border-radius:10px; border:1.5px dashed rgba(33,29,24,0.32); background:rgba(255,255,255,0.5);"><span style="font-family:'JetBrains Mono',monospace; font-size:8px; color:var(--ar,#c98a3c);">F3</span><span style="font-family:'Caveat',cursive; font-weight:600; font-size:15px; color:#211d18;">Scan the wall QR</span></div>
+        </div>
+        <span style="font-family:'JetBrains Mono',monospace; font-size:9px; line-height:1.6; color:#6f6657;">All three land on the exact same guide.</span>
+        </sc-if>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ===== TRANSITION 1 → 2 ===== -->
+  <div style="display:flex; flex-direction:column; align-items:center; gap:7px; margin:8px 0 8px;">
+    <span style="font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:0.18em; color:#8a8073;">THE CORE — A FOCUSED VIEWING COMPANION</span>
+    <div style="width:2px; height:34px; background:#211d18;"></div>
+    <span style="width:0; height:0; border-left:7px solid transparent; border-right:7px solid transparent; border-top:10px solid #211d18;"></span>
+  </div>
+
+  <!-- ===================================================== -->
+  <!-- ===== LANE 2 — ARTWORK DETAIL (2D) ===== -->
+  <!-- ===================================================== -->
+  <div style="background:rgba(255,255,255,0.42); border:1.5px solid rgba(33,29,24,0.22); border-radius:16px; padding:26px 30px 30px;">
+    <div style="display:flex; align-items:baseline; gap:14px; margin-bottom:6px;">
+      <div style="display:flex; align-items:center; gap:10px;">
+        <span style="width:30px; height:30px; border-radius:50%; border:2px solid #211d18; display:flex; align-items:center; justify-content:center; font-family:'Caveat'; font-weight:700; font-size:18px; background:#211d18; color:#fff;">2</span>
+        <span style="font-family:'Caveat',cursive; font-weight:700; font-size:30px; color:#211d18;">Artwork detail · the conversation is the UI</span>
+      </div>
+      <span style="font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:0.08em; color:#8a8073;">no corner buttons — everything is piloted by talking and pointing</span>
+    </div>
+    <div style="font-family:'JetBrains Mono',monospace; font-size:10px; line-height:1.6; color:#6f6657; max-width:780px; margin-bottom:22px;">Persona &amp; lanes are injected invisibly into every <span style="color:#211d18;">/ask</span>; the level is a prompt parameter, not a glossary; language generates in the target tongue. <span style="color:#8a8073;">(S2 · S4)</span></div>
+
+    <div style="display:flex; align-items:flex-start; gap:0;">
+
+      <!-- B1 hotspot + TTS -->
+      <div style="flex:none; width:188px; display:flex; flex-direction:column; gap:10px;">
+        <div style="display:flex; align-items:center; gap:8px; height:26px;"><span style="width:24px; height:24px; border:2px solid #211d18; border-radius:6px; display:flex; align-items:center; justify-content:center; font-family:'Caveat'; font-weight:700; font-size:14px; background:#fff;">B1</span><span style="font-family:'Caveat',cursive; font-weight:600; font-size:21px; color:#211d18;">Hotspot → audio</span></div>
+        <div style="position:relative; width:168px; height:290px; border-radius:20px; border:2px solid #211d18; background:#fbf9f4; box-shadow:4px 4px 0 rgba(33,29,24,0.1); padding:14px 12px; overflow:hidden; display:flex; flex-direction:column; gap:10px;">
+          <div style="position:relative; width:100%; height:150px; border:1.5px solid #c8bfae; background:repeating-linear-gradient(45deg,#e7e0d2 0 6px,#ddd5c4 6px 12px);">
+            <span style="position:absolute; left:42%; top:42%; width:13px; height:13px; border-radius:50%; background:var(--ar,#c98a3c); box-shadow:0 0 8px var(--ar,#c98a3c); animation:breathe 3s ease-in-out infinite;"></span>
+            <span style="position:absolute; left:26%; top:30%; width:11px; height:11px; border-radius:50%; border:1.5px solid var(--ar,#c98a3c);"></span>
+            <div style="position:absolute; left:42%; top:24%; transform:translate(-40%,-100%); white-space:nowrap; font-family:'Caveat',cursive; font-weight:600; font-size:13px; color:#fff; background:#211d18; padding:2px 8px; border-radius:6px;">the thread of milk</div>
+          </div>
+          <div style="display:flex; align-items:center; gap:7px; padding:8px 9px; border-radius:12px; border:1.5px solid #211d18; background:#fff;">
+            <span style="width:22px; height:22px; flex:none; border-radius:50%; background:var(--ar,#c98a3c); display:flex; align-items:center; justify-content:center; color:#fff; font-size:8px;">▶</span>
+            <span style="display:flex; align-items:flex-end; gap:1.5px; height:13px; flex:1;"><span style="width:2px; height:40%; background:#c8bfae;"></span><span style="width:2px; height:90%; background:var(--ar,#c98a3c);"></span><span style="width:2px; height:60%; background:var(--ar,#c98a3c);"></span><span style="width:2px; height:100%; background:var(--ar,#c98a3c);"></span><span style="width:2px; height:50%; background:#c8bfae;"></span><span style="width:2px; height:72%; background:#c8bfae;"></span></span>
+          </div>
+          <div style="display:flex; gap:5px;"><span style="flex:1; text-align:center; font-family:'JetBrains Mono',monospace; font-size:7.5px; padding:5px 0; border-radius:7px; border:1px solid #cfc6b5; color:#6f6657;">Voice</span><span style="flex:1; text-align:center; font-family:'JetBrains Mono',monospace; font-size:7.5px; padding:5px 0; border-radius:7px; border:1px solid #cfc6b5; color:#6f6657;">Speed</span><span style="flex:1; text-align:center; font-family:'JetBrains Mono',monospace; font-size:7.5px; padding:5px 0; border-radius:7px; border:1px solid #cfc6b5; color:#6f6657;">Tone</span></div>
+        </div>
+        <div style="font-family:'JetBrains Mono',monospace; font-size:9.5px; line-height:1.5; color:#6f6657; width:168px;">Pre-loaded narration, already in your register. Voice / speed / tone change on the fly.</div>
+      </div>
+
+      <div style="flex:none; width:54px; display:flex; flex-direction:column; align-items:center; gap:5px; margin-top:155px;"><span style="font-family:'JetBrains Mono',monospace; font-size:8px; letter-spacing:0.1em; color:#8a8073;">ASK</span><div style="position:relative; width:42px; height:2px; background:#211d18;"><span style="position:absolute; right:-1px; top:-5px; width:0; height:0; border-top:6px solid transparent; border-bottom:6px solid transparent; border-left:9px solid #211d18;"></span></div></div>
+
+      <!-- B2 chat + steer -->
+      <div style="flex:none; width:188px; display:flex; flex-direction:column; gap:10px;">
+        <div style="display:flex; align-items:center; gap:8px; height:26px;"><span style="width:24px; height:24px; border:2px solid #211d18; border-radius:6px; display:flex; align-items:center; justify-content:center; font-family:'Caveat'; font-weight:700; font-size:14px; background:#fff;">B2</span><span style="font-family:'Caveat',cursive; font-weight:600; font-size:21px; color:#211d18;">Ask &amp; re-steer</span></div>
+        <div style="position:relative; width:168px; height:290px; border-radius:20px; border:2px solid #211d18; background:#fbf9f4; box-shadow:4px 4px 0 rgba(33,29,24,0.1); padding:14px 12px; overflow:hidden; display:flex; flex-direction:column; gap:7px;">
+          <div style="align-self:flex-end; max-width:82%; padding:7px 10px; border-radius:12px 12px 4px 12px; background:var(--ar,#c98a3c);"><span style="font-family:'Caveat',cursive; font-weight:600; font-size:14px; color:#fff;">Why this light?</span></div>
+          <div style="align-self:flex-start; max-width:86%; padding:7px 10px; border-radius:12px 12px 12px 4px; background:#fff; border:1px solid #e0d8c8; display:flex; flex-direction:column; gap:4px;"><span style="height:5px; width:94%; border-radius:3px; background:#d6cdbd;"></span><span style="height:5px; width:70%; border-radius:3px; background:#ddd5c4;"></span></div>
+          <div style="align-self:flex-end; max-width:90%; padding:7px 10px; border-radius:12px 12px 4px 12px; background:#211d18;"><span style="font-family:'Caveat',cursive; font-weight:600; font-size:13px; color:#fff;">stop the symbolism — technique</span></div>
+          <div style="display:flex; align-items:center; gap:6px; margin-top:1px;"><span style="font-family:'JetBrains Mono',monospace; font-size:7px; letter-spacing:0.1em; color:#8a8073;">LENS</span><span style="font-family:'JetBrains Mono',monospace; font-size:7.5px; color:#b0a895; text-decoration:line-through;">Symbolism</span><span style="font-size:8px; color:var(--ar,#c98a3c);">→</span><span style="font-family:'JetBrains Mono',monospace; font-size:7.5px; color:var(--ar,#c98a3c);">Technique</span></div>
+          <div style="margin-top:auto; display:flex; align-items:center; gap:7px; padding:7px 10px; border-radius:999px; border:1.5px solid #211d18; background:#fff;"><span style="flex:1; height:5px; border-radius:3px; background:#e0d8c8;"></span><span style="width:20px; height:20px; flex:none; border-radius:50%; background:var(--ar,#c98a3c); display:flex; align-items:center; justify-content:center;"><span style="width:6px; height:11px; border-radius:4px; background:#fff;"></span></span></div>
+        </div>
+        <div style="font-family:'JetBrains Mono',monospace; font-size:9.5px; line-height:1.5; color:#6f6657; width:168px;">Voice or text → /ask. Re-steering mid-talk re-routes the lanes live — not a frozen wrapper.</div>
+      </div>
+
+      <div style="flex:none; width:54px; display:flex; flex-direction:column; align-items:center; gap:5px; margin-top:155px;"><span style="font-family:'JetBrains Mono',monospace; font-size:8px; letter-spacing:0.1em; color:#8a8073;">POINT</span><div style="position:relative; width:42px; height:2px; background:#211d18;"><span style="position:absolute; right:-1px; top:-5px; width:0; height:0; border-top:6px solid transparent; border-bottom:6px solid transparent; border-left:9px solid #211d18;"></span></div></div>
+
+      <!-- B3 placed point -->
+      <div style="flex:none; width:188px; display:flex; flex-direction:column; gap:10px;">
+        <div style="display:flex; align-items:center; gap:8px; height:26px;"><span style="width:24px; height:24px; border:2px solid #211d18; border-radius:6px; display:flex; align-items:center; justify-content:center; font-family:'Caveat'; font-weight:700; font-size:14px; background:#fff;">B3</span><span style="font-family:'Caveat',cursive; font-weight:600; font-size:21px; color:#211d18;">Point at a detail</span></div>
+        <div style="position:relative; width:168px; height:290px; border-radius:20px; border:2px solid #211d18; background:#fbf9f4; box-shadow:4px 4px 0 rgba(33,29,24,0.1); padding:14px 12px; overflow:hidden; display:flex; flex-direction:column; gap:10px;">
+          <div style="position:relative; width:100%; height:160px; border:1.5px solid #c8bfae; background:repeating-linear-gradient(45deg,#e7e0d2 0 6px,#ddd5c4 6px 12px);">
+            <span style="position:absolute; left:62%; top:54%; transform:translate(-50%,-50%); width:14px; height:14px; border-radius:50%; border:1.5px dashed #211d18; animation:ringpulse 2.2s ease-out infinite;"></span>
+            <span style="position:absolute; left:62%; top:54%; transform:translate(-50%,-50%); width:7px; height:7px; border-radius:50%; background:#211d18;"></span>
+            <div style="position:absolute; left:62%; top:40%; transform:translate(-50%,-100%); white-space:nowrap; font-family:'Caveat',cursive; font-weight:600; font-size:12px; color:#fff; background:#211d18; padding:2px 7px; border-radius:5px;">your point</div>
+          </div>
+          <div style="align-self:flex-end; max-width:88%; padding:7px 10px; border-radius:12px 12px 4px 12px; background:var(--ar,#c98a3c);"><span style="font-family:'Caveat',cursive; font-weight:600; font-size:13px; color:#fff;">what's on the wall here?</span></div>
+          <div style="align-self:flex-start; max-width:90%; padding:7px 10px; border-radius:12px 12px 12px 4px; background:#fff; border:1px solid #e0d8c8; display:flex; flex-direction:column; gap:4px;"><span style="height:5px; width:92%; border-radius:3px; background:#d6cdbd;"></span><span style="height:5px; width:64%; border-radius:3px; background:#ddd5c4;"></span></div>
+        </div>
+        <div style="font-family:'JetBrains Mono',monospace; font-size:9.5px; line-height:1.5; color:#6f6657; width:168px;">Tap any spot on the canvas, ask about it → /ask answers that exact place.</div>
+      </div>
+
+      <div style="flex:none; width:54px; display:flex; flex-direction:column; align-items:center; gap:5px; margin-top:155px;"><span style="font-family:'JetBrains Mono',monospace; font-size:8px; letter-spacing:0.1em; color:#8a8073;">TRUST</span><div style="position:relative; width:42px; height:2px; background:#211d18;"><span style="position:absolute; right:-1px; top:-5px; width:0; height:0; border-top:6px solid transparent; border-bottom:6px solid transparent; border-left:9px solid #211d18;"></span></div></div>
+
+      <!-- B4 sources -->
+      <div style="flex:none; width:188px; display:flex; flex-direction:column; gap:10px;">
+        <div style="display:flex; align-items:center; gap:8px; height:26px;"><span style="width:24px; height:24px; border:2px solid #211d18; border-radius:6px; display:flex; align-items:center; justify-content:center; font-family:'Caveat'; font-weight:700; font-size:14px; background:#fff;">B4</span><span style="font-family:'Caveat',cursive; font-weight:600; font-size:21px; color:#211d18;">Sources</span></div>
+        <div style="position:relative; width:168px; height:290px; border-radius:20px; border:2px solid #211d18; background:#fbf9f4; box-shadow:4px 4px 0 rgba(33,29,24,0.1); padding:16px 14px; overflow:hidden; display:flex; flex-direction:column; gap:11px;">
+          <div style="font-family:'JetBrains Mono',monospace; font-size:8px; letter-spacing:0.14em; color:#8a8073;">PROVENANCE</div>
+          <div style="display:flex; gap:9px; align-items:flex-start;"><span style="width:5px; height:5px; border-radius:50%; background:var(--ar,#c98a3c); margin-top:5px; flex:none;"></span><span style="font-family:'JetBrains Mono',monospace; font-size:9px; line-height:1.5; color:#5f574a;">Rijksmuseum collection record</span></div>
+          <div style="display:flex; gap:9px; align-items:flex-start;"><span style="width:5px; height:5px; border-radius:50%; background:var(--ar,#c98a3c); margin-top:5px; flex:none;"></span><span style="font-family:'JetBrains Mono',monospace; font-size:9px; line-height:1.5; color:#5f574a;">Curated KB — 1,025 works ingested</span></div>
+          <div style="display:flex; gap:9px; align-items:flex-start;"><span style="width:5px; height:5px; border-radius:50%; background:var(--ar,#c98a3c); margin-top:5px; flex:none;"></span><span style="font-family:'JetBrains Mono',monospace; font-size:9px; line-height:1.5; color:#5f574a;">Conservation archive, restoration notes</span></div>
+          <div style="margin-top:auto; padding:9px 10px; border-radius:10px; background:color-mix(in srgb, var(--ar,#c98a3c) 10%, transparent); border:1px solid color-mix(in srgb, var(--ar,#c98a3c) 30%, transparent);"><span style="font-family:'JetBrains Mono',monospace; font-size:8px; line-height:1.6; color:#5f574a;">Curated &amp; grounded — the anti-wrapper. Shown on every answer.</span></div>
+        </div>
+        <div style="font-family:'JetBrains Mono',monospace; font-size:9.5px; line-height:1.5; color:#6f6657; width:168px;">Where the answer comes from — visible, not hidden.</div>
+      </div>
+
+    </div>
+
+    <!-- multilingual + memory note -->
+    <div style="margin-top:22px; display:flex; align-items:center; gap:14px; flex-wrap:wrap;">
+      <span style="font-family:'Caveat',cursive; font-weight:700; font-size:22px; color:var(--ar,#c98a3c);">↺ + 🌐</span>
+      <span style="font-family:'JetBrains Mono',monospace; font-size:9.5px; line-height:1.6; color:#6f6657; max-width:760px;">Switch language at any moment — the next answer comes back in the target tongue. Every hotspot, question and placed point is written into <span style="color:#211d18;">session memory</span>, so the guide can fold earlier moments into later ones across hotspots <span style="color:#211d18;">and</span> across artworks.</span>
+    </div>
+  </div>
+
+  <!-- ===== TRANSITION 2 → 3 ===== -->
+  <div style="display:flex; flex-direction:column; align-items:center; gap:7px; margin:18px 0 8px;">
+    <span style="font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:0.18em; color:#8a8073;">WHEN READY TO MOVE ON</span>
+    <div style="width:2px; height:34px; background:#211d18;"></div>
+    <span style="width:0; height:0; border-left:7px solid transparent; border-right:7px solid transparent; border-top:10px solid #211d18;"></span>
+  </div>
+
+  <!-- ===================================================== -->
+  <!-- ===== LANE 3 — SPATIAL NAV + CONNECT ===== -->
+  <!-- ===================================================== -->
+  <div style="background:rgba(255,255,255,0.42); border:1.5px dashed rgba(33,29,24,0.2); border-radius:16px; padding:26px 30px 30px; margin-bottom:8px;">
+    <div style="display:flex; align-items:baseline; gap:14px; margin-bottom:22px;">
+      <div style="display:flex; align-items:center; gap:10px;">
+        <span style="width:30px; height:30px; border-radius:50%; border:2px solid #211d18; display:flex; align-items:center; justify-content:center; font-family:'Caveat'; font-weight:700; font-size:18px; background:var(--ar,#c98a3c); color:#fff;">3</span>
+        <span style="font-family:'Caveat',cursive; font-weight:700; font-size:30px; color:#211d18;">Walk to the next work · then connect them</span>
+      </div>
+      <span style="font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:0.08em; color:#8a8073;">world-tracked AR, “faked” — hardcoded offset from artwork 1's anchor</span>
+    </div>
+
+    <div style="display:flex; align-items:flex-start; gap:0;">
+
+      <!-- C1 AR arrow -->
+      <div style="flex:none; width:188px; display:flex; flex-direction:column; gap:10px;">
+        <div style="display:flex; align-items:center; gap:8px; height:26px;"><span style="width:24px; height:24px; border:2px solid #211d18; border-radius:6px; display:flex; align-items:center; justify-content:center; font-family:'Caveat'; font-weight:700; font-size:14px; background:#fff;">C1</span><span style="font-family:'Caveat',cursive; font-weight:600; font-size:21px; color:#211d18;">Anchored AR arrow</span></div>
+        <div style="position:relative; width:168px; height:280px; border-radius:20px; border:2px solid #211d18; background:#fbf9f4; box-shadow:4px 4px 0 rgba(33,29,24,0.1); padding:16px 14px; overflow:hidden; display:flex; flex-direction:column; align-items:center; gap:8px;">
+          <div style="position:relative; width:70px; height:70px; margin-top:8px;"><span style="position:absolute; inset:0; border-radius:50%; border:1.5px solid color-mix(in srgb, var(--ar,#c98a3c) 45%, transparent); animation:ringpulse 2.4s ease-out infinite;"></span><span style="position:absolute; inset:0; display:flex; align-items:center; justify-content:center; font-size:34px; color:var(--ar,#c98a3c); transform:rotate(38deg);">→</span></div>
+          <div style="font-family:'Caveat',cursive; font-weight:700; font-size:28px; color:#211d18; line-height:1; margin-top:4px;">~5 m</div>
+          <div style="font-family:'JetBrains Mono',monospace; font-size:8px; letter-spacing:0.1em; color:#8a8073;">TO YOUR RIGHT</div>
+          <div style="margin-top:8px; display:flex; gap:6px; align-items:center;"><span style="width:18px; height:22px; border:1px solid #cfc6b5; background:repeating-linear-gradient(45deg,#e7e0d2 0 4px,#ddd5c4 4px 8px);"></span><span style="width:18px; height:22px; border:1.5px solid var(--ar,#c98a3c);"></span><span style="width:18px; height:22px; border:1px solid #cfc6b5; background:repeating-linear-gradient(45deg,#e7e0d2 0 4px,#ddd5c4 4px 8px);"></span></div>
+          <div style="font-family:'JetBrains Mono',monospace; font-size:7px; letter-spacing:0.12em; color:#9a907d;">GALLERY_LAYOUT · 3 POSTERS</div>
+        </div>
+        <div style="font-family:'JetBrains Mono',monospace; font-size:9.5px; line-height:1.5; color:#6f6657; width:168px;">End of La Laitière → arrow to La Ronde de nuit, one of three phares.</div>
+      </div>
+
+      <div style="flex:none; width:54px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:4px; margin-top:130px;"><span style="font-family:'Caveat',cursive; font-weight:700; font-size:17px; color:#8a8073;">or</span></div>
+
+      <!-- C2 2D fallback -->
+      <div style="flex:none; width:188px; display:flex; flex-direction:column; gap:10px;">
+        <div style="display:flex; align-items:center; gap:8px; height:26px;"><span style="width:24px; height:24px; border:2px dashed #211d18; border-radius:6px; display:flex; align-items:center; justify-content:center; font-family:'Caveat'; font-weight:700; font-size:13px; background:#fff;">C2</span><span style="font-family:'Caveat',cursive; font-weight:600; font-size:21px; color:#211d18;">2D fallback</span></div>
+        <div style="position:relative; width:168px; height:280px; border-radius:20px; border:2px dashed #211d18; background:#fbf9f4; box-shadow:4px 4px 0 rgba(33,29,24,0.08); padding:16px 14px; overflow:hidden; display:flex; flex-direction:column; align-items:center; gap:10px;">
+          <span style="font-family:'JetBrains Mono',monospace; font-size:8px; letter-spacing:0.1em; color:#c0473b; border:1px solid color-mix(in srgb,#c0473b 40%,transparent); border-radius:999px; padding:4px 8px; margin-top:4px;">VIO LOST</span>
+          <div style="font-size:40px; color:var(--ar,#c98a3c); transform:rotate(38deg); margin-top:10px;">→</div>
+          <div style="font-family:'Caveat',cursive; font-weight:700; font-size:22px; color:#211d18;">Head right, ~5 m</div>
+          <div style="width:100%; display:flex; flex-direction:column; gap:7px; margin-top:6px;"><span style="height:5px; width:90%; border-radius:3px; background:#ddd5c4;"></span><span style="height:5px; width:74%; border-radius:3px; background:#ddd5c4;"></span></div>
+        </div>
+        <div style="font-family:'JetBrains Mono',monospace; font-size:9.5px; line-height:1.5; color:#6f6657; width:168px;">If world-tracking drops, a flat 2D arrow takes over. <span style="color:#8a8073;">(S3)</span></div>
+      </div>
+
+      <div style="flex:none; width:54px; display:flex; flex-direction:column; align-items:center; gap:5px; margin-top:150px;"><span style="font-family:'JetBrains Mono',monospace; font-size:8px; letter-spacing:0.1em; color:#8a8073;">ARRIVE</span><div style="position:relative; width:42px; height:2px; background:#211d18;"><span style="position:absolute; right:-1px; top:-5px; width:0; height:0; border-top:6px solid transparent; border-bottom:6px solid transparent; border-left:9px solid #211d18;"></span></div></div>
+
+      <!-- C3 connect -->
+      <div style="flex:none; width:188px; display:flex; flex-direction:column; gap:10px;">
+        <div style="display:flex; align-items:center; gap:8px; height:26px;"><span style="width:24px; height:24px; border:2px solid #211d18; border-radius:6px; display:flex; align-items:center; justify-content:center; font-family:'Caveat'; font-weight:700; font-size:14px; background:#fff;">C3</span><span style="font-family:'Caveat',cursive; font-weight:600; font-size:21px; color:#211d18;">Connect from memory</span></div>
+        <div style="position:relative; width:168px; height:280px; border-radius:20px; border:2px solid #211d18; background:#fbf9f4; box-shadow:4px 4px 0 rgba(33,29,24,0.1); padding:14px 12px; overflow:hidden; display:flex; flex-direction:column; gap:9px;">
+          <div style="font-family:'JetBrains Mono',monospace; font-size:7.5px; letter-spacing:0.1em; color:var(--ar,#c98a3c);">ON LA RONDE DE NUIT</div>
+          <div style="align-self:flex-end; max-width:90%; padding:7px 10px; border-radius:12px 12px 4px 12px; background:var(--ar,#c98a3c);"><span style="font-family:'Caveat',cursive; font-weight:600; font-size:13px; color:#fff;">compare to the Laitière I just saw</span></div>
+          <div style="display:inline-flex; align-self:flex-start; align-items:center; gap:5px; padding:3px 8px; border-radius:999px; background:color-mix(in srgb, var(--ar,#c98a3c) 12%, transparent); border:1px solid color-mix(in srgb, var(--ar,#c98a3c) 32%, transparent);"><span style="font-size:9px; color:var(--ar,#c98a3c);">↺</span><span style="font-family:'JetBrains Mono',monospace; font-size:7px; color:var(--ar,#c98a3c);">FROM MEMORY · GRAPH-LINKED</span></div>
+          <div style="align-self:flex-start; max-width:92%; padding:8px 10px; border-radius:12px 12px 12px 4px; background:#fff; border:1px solid #e0d8c8; display:flex; flex-direction:column; gap:4px;"><span style="height:5px; width:96%; border-radius:3px; background:#d6cdbd;"></span><span style="height:5px; width:88%; border-radius:3px; background:#d6cdbd;"></span><span style="height:5px; width:62%; border-radius:3px; background:#ddd5c4;"></span></div>
+          <div style="margin-top:auto; align-self:flex-start; padding:6px 11px; border-radius:999px; background:#211d18; color:#fff; font-family:'Caveat',cursive; font-weight:700; font-size:13px;">Commencer cette œuvre ▸</div>
+        </div>
+        <div style="font-family:'JetBrains Mono',monospace; font-size:9.5px; line-height:1.5; color:#6f6657; width:168px;">Inter-artwork follow-up, linked by the graph between the two phares.</div>
+      </div>
+
+      <!-- loop note -->
+      <div style="flex:none; width:188px; margin-top:110px; margin-left:30px; display:flex; flex-direction:column; gap:8px;">
+        <span style="font-family:'Caveat',cursive; font-weight:700; font-size:24px; color:#211d18; line-height:1;">↺ the loop closes</span>
+        <span style="font-family:'JetBrains Mono',monospace; font-size:9.5px; line-height:1.6; color:#6f6657;">“Commencer” re-enters Lane 1 on the new work — point, recognize, open — carrying the whole session's memory forward.</span>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ===== MUSEUM SURFACE (MOLLIE) ===== -->
+  <div style="border-radius:16px; border:1.5px solid rgba(33,29,24,0.22); background:#211d18; padding:22px 26px; margin-top:18px; display:flex; align-items:center; gap:26px; flex-wrap:wrap;">
+    <div style="flex:none; max-width:360px;">
+      <div style="font-family:'JetBrains Mono',monospace; font-size:9px; letter-spacing:0.16em; color:var(--ar,#c98a3c); margin-bottom:8px;">MUSEUM SURFACE · TOLD, NOT CLICKED</div>
+      <div style="font-family:'Caveat',cursive; font-weight:700; font-size:30px; color:#f4f1ea; line-height:1.02;">One pipeline. The whole museum.</div>
+      <div style="font-family:'JetBrains Mono',monospace; font-size:9.5px; line-height:1.6; color:rgba(244,241,234,0.62); margin-top:10px;">A venue activates the package — premium venue + mini-CSV — via a single Mollie checkout; a webhook unlocks it. <span style="color:rgba(244,241,234,0.85);">(S1 · venue-gated)</span></div>
+    </div>
+    <div style="flex:1; display:flex; gap:14px; flex-wrap:wrap; min-width:280px;">
+      <div style="flex:1; min-width:120px; padding:14px 16px; border-radius:12px; border:1px solid rgba(244,241,234,0.14);"><div style="font-family:'Caveat',cursive; font-weight:700; font-size:30px; color:var(--ar,#c98a3c); line-height:1;">1 025</div><div style="font-family:'JetBrains Mono',monospace; font-size:8px; letter-spacing:0.08em; color:rgba(244,241,234,0.55); margin-top:5px;">WORKS · IN PRODUCTION</div></div>
+      <div style="flex:1; min-width:120px; padding:14px 16px; border-radius:12px; border:1px solid rgba(244,241,234,0.14);"><div style="font-family:'Caveat',cursive; font-weight:700; font-size:30px; color:var(--ar,#c98a3c); line-height:1;">3</div><div style="font-family:'JetBrains Mono',monospace; font-size:8px; letter-spacing:0.08em; color:rgba(244,241,234,0.55); margin-top:5px;">LANGUAGES · RUNTIME</div></div>
+      <div style="flex:1; min-width:120px; padding:14px 16px; border-radius:12px; border:1px solid rgba(244,241,234,0.14);"><div style="font-family:'Caveat',cursive; font-weight:700; font-size:30px; color:var(--ar,#c98a3c); line-height:1;">1</div><div style="font-family:'JetBrains Mono',monospace; font-size:8px; letter-spacing:0.08em; color:rgba(244,241,234,0.55); margin-top:5px;">MOLLIE CHECKOUT</div></div>
+    </div>
+  </div>
+
+  <!-- ===== SCOPING DECISIONS ===== -->
+  <div style="margin-top:24px;">
+    <div style="font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:0.16em; color:#8a8073; margin-bottom:14px;">SCOPING DECISIONS — RESOLVED 2026-06-20</div>
+    <div style="display:flex; gap:12px; flex-wrap:wrap;">
+      <div style="flex:1; min-width:240px; display:flex; gap:10px; align-items:flex-start; padding:13px 15px; border:1.5px solid rgba(33,29,24,0.18); border-radius:12px; background:rgba(255,255,255,0.5);"><span style="font-family:'JetBrains Mono',monospace; font-size:10px; font-weight:500; color:#fff; background:#211d18; border-radius:5px; padding:3px 7px; flex:none;">S1</span><span style="font-family:'JetBrains Mono',monospace; font-size:9.5px; line-height:1.55; color:#5f574a;">Labelling = <span style="color:#211d18;">Model A (venue-gated)</span>. Visitor-paid (B) on the ~5-yr roadmap.</span></div>
+      <div style="flex:1; min-width:240px; display:flex; gap:10px; align-items:flex-start; padding:13px 15px; border:1.5px solid rgba(33,29,24,0.18); border-radius:12px; background:rgba(255,255,255,0.5);"><span style="font-family:'JetBrains Mono',monospace; font-size:10px; font-weight:500; color:#fff; background:#211d18; border-radius:5px; padding:3px 7px; flex:none;">S2</span><span style="font-family:'JetBrains Mono',monospace; font-size:9.5px; line-height:1.55; color:#5f574a;">Graded level = <span style="color:#211d18;">mocked at the prompt</span>. No real glossary table for the demo.</span></div>
+      <div style="flex:1; min-width:240px; display:flex; gap:10px; align-items:flex-start; padding:13px 15px; border:1.5px solid rgba(33,29,24,0.18); border-radius:12px; background:rgba(255,255,255,0.5);"><span style="font-family:'JetBrains Mono',monospace; font-size:10px; font-weight:500; color:#fff; background:#211d18; border-radius:5px; padding:3px 7px; flex:none;">S3</span><span style="font-family:'JetBrains Mono',monospace; font-size:9.5px; line-height:1.55; color:#5f574a;">Spatial nav = <span style="color:#211d18;">world-tracked, “faked”</span> — hardcoded offset, 2D fallback, behind a go/no-go gate.</span></div>
+      <div style="flex:1; min-width:240px; display:flex; gap:10px; align-items:flex-start; padding:13px 15px; border:1.5px solid rgba(33,29,24,0.18); border-radius:12px; background:rgba(255,255,255,0.5);"><span style="font-family:'JetBrains Mono',monospace; font-size:10px; font-weight:500; color:#fff; background:#211d18; border-radius:5px; padding:3px 7px; flex:none;">S4</span><span style="font-family:'JetBrains Mono',monospace; font-size:9.5px; line-height:1.55; color:#5f574a;">No “4 paths” in the UI — they're <span style="color:#211d18;">lanes</span>, a preferences layer injected into prompts.</span></div>
+      <div style="flex:1; min-width:240px; display:flex; gap:10px; align-items:flex-start; padding:13px 15px; border:1.5px solid rgba(33,29,24,0.18); border-radius:12px; background:rgba(255,255,255,0.5);"><span style="font-family:'JetBrains Mono',monospace; font-size:10px; font-weight:500; color:#fff; background:#211d18; border-radius:5px; padding:3px 7px; flex:none;">S5</span><span style="font-family:'JetBrains Mono',monospace; font-size:9.5px; line-height:1.55; color:#5f574a;">Persona = <span style="color:#211d18;">LLM-generated</span> (1 hidden call), evolves intra-conversation; persistent rewrite = later.</span></div>
+      <div style="flex:1; min-width:240px; display:flex; gap:10px; align-items:flex-start; padding:13px 15px; border:1.5px solid rgba(33,29,24,0.18); border-radius:12px; background:rgba(255,255,255,0.5);"><span style="font-family:'JetBrains Mono',monospace; font-size:10px; font-weight:500; color:#fff; background:#211d18; border-radius:5px; padding:3px 7px; flex:none;">S6</span><span style="font-family:'JetBrains Mono',monospace; font-size:9.5px; line-height:1.55; color:#5f574a;">Onboarding = <span style="color:#211d18;">multi-select QCM + free text</span>; crossing profiles.</span></div>
+    </div>
+  </div>
+
+  <!-- footer adapt note -->
+  <div style="margin-top:26px; display:flex; align-items:center; gap:12px; flex-wrap:wrap;">
+    <span style="font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:0.16em; color:#8a8073;">INVISIBLE THROUGHOUT —</span>
+    <span style="font-family:'JetBrains Mono',monospace; font-size:10px; padding:6px 11px; border-radius:999px; border:1px solid #cfc6b5; color:#6f6657;">LANGUAGE</span>
+    <span style="font-family:'JetBrains Mono',monospace; font-size:10px; padding:6px 11px; border-radius:999px; border:1px solid #cfc6b5; color:#6f6657;">LEVEL</span>
+    <span style="font-family:'JetBrains Mono',monospace; font-size:10px; padding:6px 11px; border-radius:999px; border:1px solid #cfc6b5; color:#6f6657;">LANES / PERSONA</span>
+    <span style="font-family:'JetBrains Mono',monospace; font-size:10px; padding:6px 11px; border-radius:999px; border:1px solid #cfc6b5; color:#6f6657;">VOICE</span>
+    <span style="font-family:'JetBrains Mono',monospace; font-size:10px; padding:6px 11px; border-radius:999px; border:1px solid var(--ar,#c98a3c); color:var(--ar,#c98a3c);">SESSION MEMORY</span>
+  </div>
+
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{
+  &quot;accent&quot;: { &quot;editor&quot;: &quot;color&quot;, &quot;default&quot;: &quot;#c98a3c&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;options&quot;: [&quot;#c98a3c&quot;, &quot;#4f7bd1&quot;, &quot;#3c9ea0&quot;, &quot;#7a6cd6&quot;] },
+  &quot;showFallbacks&quot;: { &quot;editor&quot;: &quot;boolean&quot;, &quot;default&quot;: true, &quot;tsType&quot;: &quot;boolean&quot; }
+}">
+class Component extends DCLogic {
+  renderVals() {
+    const accent = this.props.accent || '#c98a3c';
+    const showFallbacks = this.props.showFallbacks !== false;
+    return { accent, showFallbacks };
+  }
+}
+</script>
+</body>
+</html>
