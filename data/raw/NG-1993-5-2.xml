@@ -1,0 +1,222 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200145252</ns0:identifier>
+        <ns0:datestamp>2026-06-08T05:04:21Z</ns0:datestamp>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260210</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>260211</ns0:setSpec>
+        <ns0:setSpec>26192</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200145252#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200145252">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2109355" />
+                <dc:description xml:lang="nl">Map met 16 herinneringsfoto's van het bezoek van gouverneur-generaal van Nederlands-Indië B.C. de Jonge en zijn echtgenote mevr. A.C. de Jonge, baronesse van Wassenaer, aan Semarang tussen 8 en 12 september 1932. 16 foto's in een openvouwbare map of envelop van bruin reliëfkarton. Op de envelop is in goud de inscriptie en de naam van de fotograaf gedrukt. De envelop sluit met 2 drukknopen. 14 foto's zijn afgedrukt op papier met een kader, 2 foto's zijn bijna beeldvullend afgedrukt. Op elke foto zit een halftransparant tussenblad met spinnenwebmotief.</dc:description>
+                <dc:identifier>NG-1993-5-2</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21057366" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21074922" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2301684" />
+                <dc:title xml:lang="nl">Map met herinneringsfoto's van het bezoek van gouverneur-generaal B.C. de Jonge aan Semarang in 1932</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220951" />
+                <ns5:created xml:lang="en">1932-09-08 - 1932-09-12</ns5:created>
+                <ns5:created xml:lang="nl">1932-09-08 - 1932-09-12</ns5:created>
+                <ns5:extent xml:lang="en">height 25 cm x width 24.5 cm x depth 1.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">map: hoogte 25 cm x breedte 24,5 cm x diepte 1,5 cm</ns5:extent>
+                <ns5:hasPart rdf:resource="https://id.rijksmuseum.nl/200503676" />
+                <ns5:hasPart rdf:resource="https://id.rijksmuseum.nl/200518233" />
+                <ns5:hasPart rdf:resource="https://id.rijksmuseum.nl/200518234" />
+                <ns5:hasPart rdf:resource="https://id.rijksmuseum.nl/200518235" />
+                <ns5:hasPart rdf:resource="https://id.rijksmuseum.nl/200518236" />
+                <ns5:hasPart rdf:resource="https://id.rijksmuseum.nl/200518237" />
+                <ns5:hasPart rdf:resource="https://id.rijksmuseum.nl/200518238" />
+                <ns5:hasPart rdf:resource="https://id.rijksmuseum.nl/200518239" />
+                <ns5:hasPart rdf:resource="https://id.rijksmuseum.nl/200518240" />
+                <ns5:hasPart rdf:resource="https://id.rijksmuseum.nl/200518241" />
+                <ns5:hasPart rdf:resource="https://id.rijksmuseum.nl/200518242" />
+                <ns5:hasPart rdf:resource="https://id.rijksmuseum.nl/200518243" />
+                <ns5:hasPart rdf:resource="https://id.rijksmuseum.nl/200518244" />
+                <ns5:hasPart rdf:resource="https://id.rijksmuseum.nl/200518245" />
+                <ns5:hasPart rdf:resource="https://id.rijksmuseum.nl/200518246" />
+                <ns5:hasPart rdf:resource="https://id.rijksmuseum.nl/200518247" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260210" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260211" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26192" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100987" />
+                <ns5:isReferencedBy>Onuitgegeven beschrijving van de foto's door R. Heukelom (in documentatiehangmap)</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220192" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2202619" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/2301684" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/22055" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/lKYJQ/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/lKYJQ" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/lKYJQ/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/NG-1993-5-2--595552f04159cefd99ada5ec6bfe784c">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260210">
+            <ns8:prefLabel xml:lang="en">Against Opacity</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Against Opacity</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260211">
+            <ns8:prefLabel xml:lang="en">Indonesian heritage</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Indisch erfgoed</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26192">
+            <ns8:prefLabel xml:lang="nl">fotoalbums uit Nederlands-Indië</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220192">
+            <ns8:altLabel xml:lang="nl">carton</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">cardboard</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">karton</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202619">
+            <ns8:altLabel xml:lang="en">photographic paper</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">fotopapier</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">photographic support</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">fotodrager</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22055">
+            <ns8:altLabel xml:lang="en">photographic processes</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">fotograferen</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">fotografisch procedé</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">gefotografeerd</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">photography</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">fotografie</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220951">
+            <ns8:prefLabel xml:lang="en">photograph</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">foto</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/lKYJQ">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21057366">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/89149349" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q4942013" />
+            <ns10:dateOfBirth xml:lang="nl">1875-01-22 - 1958-06-24</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1958-06-24</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+                <ns8:prefLabel xml:lang="en">The Hague</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Den Haag</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2305">
+                <ns8:prefLabel xml:lang="en">Zeist</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Zeist</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205337">
+                <ns8:prefLabel xml:lang="en">governor general</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">gouverneur-generaal</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205354">
+                <ns8:prefLabel xml:lang="en">governor (public officer)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">gouverneur</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2206671">
+                <ns8:prefLabel xml:lang="nl">Minister van Oorlog</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="nl">Jonge, jonkheer Bonifacius Cornelis de</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">jonkheer Bonifacius Cornelis de Jonge</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21074922">
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q76262303" />
+            <ns10:dateOfBirth xml:lang="nl">1883-11-04</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1959-07-09</ns10:dateOfDeath>
+            <ns10:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/2301261" />
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2305">
+                <ns8:prefLabel xml:lang="en">Zeist</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Zeist</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns8:altLabel xml:lang="nl">Wassenaer, Anna Cornelia barones van</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">Anna Cornelia barones van Wassenaer</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109355">
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q100710233" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/418478" />
+            <ns10:dateOfBirth xml:lang="nl">1874-02-10</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1944-09-07</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230655">
+                <ns8:prefLabel xml:lang="en">Batavia</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Batavia</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301662">
+                <ns8:prefLabel xml:lang="en">Sumatra</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Sumatra</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2204764">
+                <ns8:prefLabel xml:lang="en">photographer</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">fotograaf</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Hisgen, Otto</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Hisgen, Otto</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Otto Hisgen</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Otto Hisgen</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301684">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/1078528" />
+            <ns8:prefLabel xml:lang="nl">Semarang</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

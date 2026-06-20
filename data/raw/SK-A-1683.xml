@@ -1,0 +1,192 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200108840</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:25:04Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260215</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200108840#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200108840">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101961" />
+                <dc:description xml:lang="en">Cornelis Maartensz Tromp, by Abraham Westervelt, 1673. Cornelis Tromp (1629-1691) began his career at sea as a boy, sailing with his father, the famous Admiral Maarten Harpertsz Tromp. Cornelis soon gained promotion in the navy. However, a conflict with Admiral De Ruyter led to a rift and dismissal in 1666. Later, in1673, during the Third Anglo-Dutch War (1672-1674), he resumed his sea service. In 1677-1678 he fought the Swedes in the Baltic. Tromp succeeded De Ruyter in command of the navy in 1678. Here, Tromp is portrayed in Roman armour. The sabre is a karabela.</dc:description>
+                <dc:description xml:lang="nl">Cornelis Maartensz Tromp, door Abraham Westervelt, 1673. Cornelis Tromp (1629-1691) ging als kind al de zee op met zijn vader, de vermaarde admiraal Maarten Harpertsz Tromp. Cornelis maakte snel carrière op de oorlogsvloot. Verschillen van inzicht leidden in 1666 echter tot een breuk met admiraal De Ruyter en tot zijn ontslag. Maar in 1673, tijdens de derde Engelse oorlog (1672-1674), trad hij opnieuw in dienst. In 1677-1678 streed hij in de Oostzee tegen de Zweden. In 1678 volgde hij De Ruyter op als opperbevelhebber. Tromp is afgebeeld in een Romeinse wapenrusting. De sabel is een karabela.</dc:description>
+                <dc:identifier>SK-A-1683</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200414338" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200415055" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21032586" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221228" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22123" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22167" />
+                <dc:title xml:lang="en">Portrait of Lieutenant-Admiral Cornelis Tromp in Roman Costume</dc:title>
+                <dc:title xml:lang="nl">Cornelis Tromp (1629-91). Luitenant-admiraal, in Romeins kostuum</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">1650 - 1692</ns5:created>
+                <ns5:created xml:lang="nl">1650 - 1692</ns5:created>
+                <ns5:extent xml:lang="en">height 40 cm x width 33 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 40 cm x breedte 33 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260215" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301140466" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301152219" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3011738" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30198970" />
+                <ns5:isReferencedBy>Documentatiemap Schilderijen: aantekeningen R. van Luttervelt (voor 1963).</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Eveline Sint Nicolaas, 'A Diplomatic Gift Full of Surprises : The weapon rack of Cornelis Tromp and other 'exotic' arms belonging to Tromp and Michiel de Ruyter', in: Thom Richardson,  East Meets West : Diplomatic Gifts of Arms and Armour between Europe and Asia, proceedings of the Royal Armouries conference held at H.M. Tower of London, Saturday 14 September 2013, p. 106, fig. 18.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J.B. Kist, 'Wapens van Cornelis Tromp (1629-1691)', Antiek 6 (1971-1972) 10, p. 653-673 (afb. p. 664).</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns6:spn xml:lang="en">Purchased with the support of the Vereniging Rembrandt</ns6:spn>
+                <ns6:spn xml:lang="nl">Aankoop met steun van de Vereniging Rembrandt</ns6:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/nBxHp/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/nBxHp" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/nBxHp/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1683--71a6bd65215aed82d18290dc8415e2e9">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260215">
+            <ns8:prefLabel xml:lang="en">Vereniging Rembrandt</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Vereniging Rembrandt</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns8:prefLabel xml:lang="en">panel</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">paneel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221228">
+            <ns9:sameAs rdf:resource="https://iconclass.org/45H3%28%2B3%29" />
+            <ns8:altLabel>45H3(+3)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">battle (+ naval force)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22123">
+            <ns9:sameAs rdf:resource="https://iconclass.org/61B2" />
+            <ns8:altLabel>61B2</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">historical persons</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22167">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41D2" />
+            <ns8:altLabel>41D2</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">clothes, costume</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/nBxHp">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101961">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/95687775" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500001178" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q10429035" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/83881" />
+            <ns10:dateOfBirth xml:lang="nl">ca. 1620</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1692-04</ns10:dateOfDeath>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23019">
+                <ns8:prefLabel xml:lang="en">Rotterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rotterdam</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Westerveld, Abraham Evertsz. van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Abraham Westervelt</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Westerveld, Abraham Evertsz. van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Westervelt, Abraham</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Abraham Evertsz. van Westerveld</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Abraham Evertsz. van Westerveld</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21032586">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/812236" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500354833" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q982247" />
+            <ns10:dateOfBirth xml:lang="nl">1629-09-09</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1691-05-29</ns10:dateOfDeath>
+            <ns10:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/23019" />
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns8:prefLabel xml:lang="en">Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Amsterdam</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205464">
+                <ns8:prefLabel xml:lang="en">vlootvoogd (admiral)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">vlootvoogd</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Tromp, Cornelis</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Tromp, Cornelis</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Cornelis Tromp</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Cornelis Tromp</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

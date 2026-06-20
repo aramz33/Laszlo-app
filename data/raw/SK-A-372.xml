@@ -1,0 +1,222 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200107985</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:17:21Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260213</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>2616</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200107985#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200107985">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101398" />
+                <dc:description xml:lang="en">Mary Magdalene can be recognized by the jar of ointment in her hands with which she cared for Jesus’ feet following her conversion to Christianity. She is usually depicted as a prostitute, referencing her alleged past. The influence of Italian painting, which Van Scorel encountered during a sojourn in Rome and Venice, is evident in her clothing.</dc:description>
+                <dc:description xml:lang="nl">Maria Magdalena is herkenbaar aan de zalfpot in haar handen, aangezien ze Jezus’ voeten zou hebben verzorgd nadat ze zich tot het christendom had bekeerd. Meestal wordt ze verbeeld als prostituee, een verwijzing naar haar vermeende verleden. Haar kleding toont de invloed van de Italiaanse schilderkunst, die Van Scorel op zijn reis naar Rome en Venetië had leren kennen.</dc:description>
+                <dc:identifier>SK-A-372</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200319089" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200902992" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221381" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221766" />
+                <dc:title xml:lang="en">Maria Magdalena</dc:title>
+                <dc:title xml:lang="en">Mary Magdalene</dc:title>
+                <dc:title xml:lang="nl">Maria Magdalena</dc:title>
+                <dc:title xml:lang="nl">Mary Magdalene</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">c. 1530</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1530</ns5:created>
+                <ns5:extent xml:lang="en">height 86.5 cm x width 96 cm x thickness 5.5 cm</ns5:extent>
+                <ns5:extent xml:lang="en">support: height 66.3 cm x width 76 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 66,3 cm x breedte 76 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">lijst: hoogte 86,5 cm x breedte 96 cm x dikte 5,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260213" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2616" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2621163" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100777" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100933" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301101288" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301102856" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301106517" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301110715" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301110755" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301121221" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301139233" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301143803" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301154610" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244089" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244300" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301254714" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30139514" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30157956" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015991" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015992" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30166432" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30167194" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30173774" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30173777" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30174917" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30180440" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30182300" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30188529" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30199324" />
+                <ns5:isReferencedBy>G.J. Hoogewerff, in: Mededelingen van het Nederlands Instituut te Rome (1924), p. 199, pl. 21, nr., 43.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J. Bruyn, 'Over de betekenis van het werk van Jan van Scorel omstreeks 1530 voor oudere en jongere tijdgenoten', Oud Holland 97 (1983), p. 120-123</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J. van Vloten, Nederlandse Kunstbode 1 (1874), U.12.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>M. Faries, 'Underdrawings in the workshop production of Jan van Scorel. A study with infrared reflectography', Nederlands Kunsthistorisch Jaarboek 26 (1975), p. 89-228</ns5:isReferencedBy>
+                <ns5:isReferencedBy>M.J. Friedländer, Von Eyck bis Bruegel, 1921, p. 165.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Nederlands Kunsthistorisch Jaarboek 37 (1986), p. 187.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Oud Holland 98 (1984), p. 6, afb. 7</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Scholten, Frits, 'Joost van Cranevelt's prayer nut', Simiolus 36 (2012), nr. 3/4, p. 138, afb. 20.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">…; estate inventory, Commandery of St John, Haarlem, 1572, in the great hall (‘1 Tauoreel van Maria magdalena gemaect by meijster ian scorel’);{Van Bueren 1993, pp. 351, 496, 597.} stored at an unknown location, 1572-1606;{Van Bueren 1993, p. 351, 597.} estate inventory, Commandery of St John, Haarlem, 1606, in the commander’s chamber (‘Noch een Magdalena van Schoorl’);{Van Bueren 1993, pp. 351, 523, 597.} estate inventory, Commandery of St John, Haarlem, 1625, in the commander’s bedchamber (‘Een Taeffereeltgen van Maria magdalena’);{Van Bueren 1993, pp. 351, 537, 597.} transferred to the Prinsenhof, Haarlem, 1628;{Van Bueren 1993, p. 155.} estate inventory, Prinsenhof, Haarlem, 28 April 1667, in the reception room (‘van maria magdalena’);{Van Bueren, 1993, pp. 351, 597, 618.} Prince’s room, at the Prinsenhof, Haarlem, c. 1750;{Pieter Langendijk, Beschrijving van kerken, kloosters, het Begijnhof, het stadhuis en het Prinsenhof te Haarlem, c. 1750, fol. 58; see coll. cat. Haarlem 2006, pp. 56-57.} acquired by the Dutch state and transferred to the museum, as Anonymous, 1804;{Moes/Van Biema 1909, pp. 77-78.} on loan to the Frans Hals Museum, Haarlem, 2004-10</ns5:provenance>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/VGOCe/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/VGOCe" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/VGOCe/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-372--9f57e2dc4c3c546e1ddef2246281e0dd">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns7:prefLabel xml:lang="en">RijksXL</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">RijksXL</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260213">
+            <ns7:prefLabel xml:lang="en">Top 100</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 100</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns7:prefLabel xml:lang="en">paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderijen</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2616">
+            <ns7:prefLabel xml:lang="en">Early Netherlandish Paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Early Netherlandish Paintings</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns7:prefLabel xml:lang="en">panel</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">paneel</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns7:prefLabel xml:lang="en">painting</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderij</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns7:prefLabel xml:lang="en">oil paint (paint)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">olieverf</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221381">
+            <ns8:sameAs rdf:resource="https://iconclass.org/11HH%28MARY%20MAGDALENE%299" />
+            <ns7:altLabel>11HH(MARY MAGDALENE)9</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">the penitent harlot Mary Magdalene; possible attributes: book (or scroll), crown, crown of thorns, crucifix, jar of ointment, mirror, musical instrument, palm-branch, rosary, scourge - portrait of female saint</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221766">
+            <ns8:sameAs rdf:resource="https://iconclass.org/25H112" />
+            <ns7:altLabel>25H112</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">rocks</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/VGOCe">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101398">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/59356315" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500029872" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q282708" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/71591" />
+            <ns9:dateOfBirth xml:lang="nl">1495-09-01 - 1495-01-09</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1562-12-06</ns9:dateOfDeath>
+            <ns9:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301592">
+                <ns7:prefLabel xml:lang="nl">Schoorl</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfBirth>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2302">
+                <ns7:prefLabel xml:lang="en">Utrecht</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Utrecht (stad)</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns7:prefLabel xml:lang="en">painter</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">schilder</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns7:prefLabel xml:lang="en">printmaker</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">prentmaker</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns7:prefLabel xml:lang="en">draftsman (artist)</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">tekenaar</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Scorel, Jan van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Jan van Schoorel</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Jan van Schoorl</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Jan van Schoreel</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Jan van Schorel</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Jan van Scoreel</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Jan van Scorelius</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Jan van Scorellius</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Schoorel, Jan van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Schoorl, Jan van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Schoreel, Jan van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Schorel, Jan van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Scoreel, Jan van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Scorel, Jan van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Scorelius, Jan van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Scorellius, Jan van</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Jan van Scorel</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Jan van Scorel</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns7:prefLabel>Rijksmuseum</ns7:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

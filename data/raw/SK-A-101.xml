@@ -1,0 +1,211 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20027043</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:22:10Z</ns0:datestamp>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>26118</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20027043#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20027043">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2106175" />
+                <dc:description xml:lang="en">Anthony van Dyck (1599 - 1641). Portrait of Nicolaes van der Borcht, merchant of Antwerp, c. 1634/1635. The coat of arms on the red curtain tells us that this gentleman was a member of the Antwerp merchant family of Van der Borcht, probably Nicolaes, who died in 1658. Nicolaes is pointing to a sea battle to his left. It is a fight between Spanish and Southern-Netherlandish privateers. The city in the background is Dunkirk, which in the seventeenth century was a notorious pirates' nest. His proud gesture suggests that Van der Borcht was himself involved in the lucrative business of pirateering. Anthony van Dyck had an atelier which relieved him of a great deal of work, a fact to which this portrait testifies. Van Dyck painted Van der Borcht's head and hands himself, but left the rest of the work to his associates. Here the vague outlines of two extra feet are just visible beneath the topmost layer of paint, indicating that in an earlier state the legs of the subject were further apart. Acquired through exchange with the Mauritshuis, The Hague, 1825.</dc:description>
+                <dc:description xml:lang="nl">Antoon van Dyck (1599 - 1641). Portret van Nicolaes van der Borcht, ca. 1634/1635. Het wapen op het rode gordijn laat zien dat deze heer lid was van het Antwerpse koopmansgeslacht Van der Borcht. Waarschijnlijk gaat het om Nicolaes, die in 1658 stierf. Nicolaes wijst naar een zeegevecht links van hem. Het is een treffen tussen een Spaans en een Zuid-Nederlands kapersschip. De stad op de achtergrond is Duinkerken, in de 17de eeuw een bekend kapersnest. Het trotse gebaar doet vermoeden dat Van der Borcht betrokken was bij de lucratieve kaapvaart. Antoon van Dyck had een atelier dat hem veel werk uit handen nam. Dat is ook het geval bij dit portret. Van Dyck schilderde zelf Van der Borchts hoofd en kraag, maar liet de rest aan zijn medewerkers over. In een eerder stadium stonden de benen van de geportret - teerde verder uit elkaar. Twee extra voeten schemeren nu door de verflaag heen. Verworven door ruil met het Mauritshuis, Den Haag, 1825.</dc:description>
+                <dc:identifier>SK-A-101</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200109250" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200266757" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200406746" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200902573" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/210155096" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21073429" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22123" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/230720" />
+                <dc:title xml:lang="en">Portrait of a Nobleman, possibly Adriaan van der Borcht</dc:title>
+                <dc:title xml:lang="nl">Portret van een edelman, mogelijk Adriaan van der Borcht</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:alternative xml:lang="nl">Portret van een edelman, mogelijk Nicolaes van der Borght</ns5:alternative>
+                <ns5:created xml:lang="en">1634 - c. 1635</ns5:created>
+                <ns5:created xml:lang="nl">1634 - ca. 1635</ns5:created>
+                <ns5:extent xml:lang="en">outer size: depth 8 cm (support incl. frame)</ns5:extent>
+                <ns5:extent xml:lang="en">support: height 201 cm x width 138 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">buitenmaat: diepte 8 cm (drager incl. SK-L-4766)</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 201 cm x breedte 138 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26118" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015253" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">…; ? collection Edouard Peeters (1612-78), Antwerp;{The museum portrait is not referred to in the inventory of his house De Sickel; F. Donnet, ‘Un vol de tableaux de Rubens en l’an II de la République: Les collections artistiques de la famille Peeters’, _&lt;em&gt;Annales de L’Académie royale d’Archéologie de Belgique&lt;/em&gt;_ 71 (1923), pp. 29-144, pp. 59-69.} his eldest son, chevalier Michiel Peeters (1651-1729), (no. 40 of his estate inventory: ‘portret d’heer van der borght van dijck fl. 800’) and by division to Maria Theresia Barones van Nevelstein, née Peeters, 17 August 1729;{The inventory by J.P. van Bredael and J. van Halle has not been traced, but the record of the division of the collection supervised by the notary Pieter Jansz Ocker is preserved in Antwerp, the FelixArchief, no. 2755, fol. 266, kindly communicated by Bert Schepers, January 2019. The collection was divided by lot by his widow, daughter and daughter-in-law, 17 August 1729; the account in F. Donnet, ‘Un vol de tableaux de Rubens en l’an II de la République: Les collections artistiques de la famille Peeters’, _&lt;em&gt;Annales de L’Académie royale d’Archéologie de Belgique&lt;/em&gt;_ 71 (1923), pp. 29-144, pp. 82ff is inaccurate. Some information concerning the division was given in an affidavit of 22 October 1825 by Charles-Jean Stier (1770-1840) about Van Dyck’s portraits of Philippe Le Roy and his wife (Wallace Collection; J. Ingamells, _&lt;em&gt;The Wallace Collection Catalogue of Pictures, IV, Dutch and Flemish&lt;/em&gt;_, coll. cat. London 1992, nos. P. 79 and P. 94); it stated that they came from ‘la collection de feu mon père, gendre de feu M. Peeters d’Aertselaer quite tenoit ces tableaux se son grandpère le chevalier Michel Peeters par acte de partage devant le notaire P. Oekers à Anvers en dat du 17 aout 1729', see also E. Hinterding and F. Horsch, ‘“A Small but Choice Collection”: The Art Gallery of King William II of the Netherlands (1792-1849)’, _&lt;em&gt;Simiolus&lt;/em&gt;_ 19 (1989), pp. 5-122, esp. p. 78, under nos. 71 and 72. That the museum portrait was in Antwerp in 1703 is suggested by Cornelis Vermeulen’s engraving of it of that date, see below. It is possible that the picture was not inherited by Peeters from his father, but came to him though his wife Marie Josephe van Eelen (?-1700), as she was from Dunkirk. Henri-Joseph Stier wrote in a letter of 25 September 1817 that the collection had belonged to the Peeters family since 1680; M.L. Callcott (ed.), _&lt;em&gt;The Mistress of Riversdale: The Plantation Letters of Rosalie Stier Calvert 1795-1821&lt;/em&gt;_, Baltimore 1991, pp. 324-25, note 2. Letzter records that the collection was begun by Edouard Peeters (1612-1678), see J. Letzter, ‘The Political Exile of the Stiers: A Belgian Family Weighs the cost of American Democracy 1795-1844’, _&lt;em&gt;Atlantic Studies&lt;/em&gt;_ 5 (2008), pp. 51-73, esp. p. 66, note 2.} collection Baron d’Everstijn, Antwerp, 1763;{G.P. Mensaert, _&lt;em&gt;Le Peintre Amateur et Curieux, ou Description Général des Tableaux des plus habiles Maîtres, qui font l’ornement des Églises, Couvents, Abbayes, Prieurés &amp; Cabinets particuliers dans l’étendre des Pays-Bas Austrichiens&lt;/em&gt;_, 2 vols., Brussels 1763, I, pp. 263-64; this information may have been out of date, as in 1758 the douairière of Baron de Nevelstein married Frans Philibert Baron van Spangen; J.B. Descamps, _&lt;em&gt;Voyages pittoresque de la Flandre et du Brabant, avec des reflexions relativement aux arts &amp; quelques gravures&lt;/em&gt;_, Rouen 1769, p. 215, listed Baron van Spanne, place de Meir, Antwerp, as an owner of paintings by Rubens.} collection Jean-Egide [Emmanuel] Peeters (1725-86), Lord of Cleydael and Aertselaer, the son of Michiel Peeters’s second son, Michiel (1651-1729), who acquired the title Lord of Cleydael and Aertselaer from his father-in-law in 1747, by 1771;{J.F.M. Michel, _&lt;em&gt;Histoire de la vie de PP Rubens,&lt;/em&gt;_ Brussels 1771, p. 360.} in whose collection seen by Sir Joshua Reynolds in 1781 (‘Three whole-lengths by Vandyck […] 2 men one of them with the [?] stairs and shipping’);{Sir Joshua Reynolds, _&lt;em&gt;A Journey to Flanders and Holland&lt;/em&gt;_, 1797, ed. H. Mount, Cambridge 1996, p. 79, note i, p. 164, notes 330, 325. The meaning of his question mark above the horizontal line in parentheses is not clear; but it could indicate Reynolds’s questioning of the alignment of the top step and banister.} his widow Mathilde van den Cruyce Peeters, Antwerp (1727-96);{M.L. Callcott (ed.), _&lt;em&gt;The Mistress of Riversdale: The Plantation Letters of Rosalie Stier Calvert 1795-1821&lt;/em&gt;_, Baltimore 1991, pp. 324-25, note 2.} her son-in-law Henri Joseph Stier, Baron d’Aertselaer (1743-1821), husband of her daughter, Marie Louise Peeters (1748-1804); shipped with his collection to the United States, 1794, where exhibited at Bladensbury, Maryland, in April 1816 before being returned to Antwerp in June 1816;{The painting was shipped with the rest of the collection, to avoid confiscation, to Philadelphia via Amsterdam, June 1794; in store in Philadelphia, in and near Annapolis; Riversdale, Bladensburg, Maryland, from 1800-16 (on public view there for a week, April 1816); despatched with the rest of the collection to Antwerp. M.L. Callcott (ed.), _&lt;em&gt;The Mistress of Riversdale: The Plantation Letters of Rosalie Stier Calvert 1795-1821&lt;/em&gt;_, Baltimore 1991, p. 1, pp. 296-98, note 2; J. Letzter, ‘The Political Exile of the Stiers: A Belgian Family Weighs the cost of American Democracy 1795-1844’, _&lt;em&gt;Atlantic Studies&lt;/em&gt;_ 5 (2008), pp. 51-73, esp. pp. 52-54.} sale, Jean-Egide Peeters d’Aertselaer de Cleydael (1725-86, Antwerp), sold on the premises of the deceased’s son in law, Henri-Jospeh Stier, Antwerp (P. van Regenmortel and Sneyers), 27 August 1817, no. 4 (‘Ant. Vandyck Haut 6[7?], 1, large 4, 10 [174.7 [203.4?] x 140.7 cm] T. Portrait de François Vander Borght, aussi en pied et debout. Il est vêtu de noir avec un manteau espagnol. L’auteur l’a placé dans un riche vestibule donnant sur un port de mer rempli de navires, qu’on voit à gauche, et sur lequel, en l’indiquant, il semble appeller l’attention du spectateur. […] Gravé par Vermeulen.’), bought in at fl. 2,020, [in fact bought by H.-J. Stier];{Copy RKD. M.L. Callcott (ed.), _&lt;em&gt;The Mistress of Riversdale: The Plantation Letters of Rosalie Stier Calvert 1795-1821&lt;/em&gt;_, Baltimore 1991, p. 333, note 4.} his [Stier] sale, sold on the deceased’s premises, Antwerp (C.J. Bincken), 29 July 1822, no. 5 (‘Ant.van Dyck h. 73 p. 4 l. L. 50 p. [pouces et lignes de France, 198 x 135 cm] T. Portrait en pied de François van der Borcht. Il est représenté dans une attitude noble et imposante, vêtu en noir avec un manteau espagnole. Le Peintre l’a placé dans un riche vestibule d’où l’on découvre un port de mer, sur lequel il semble appeller l’attention du spectateur’), fl. 1,000, to Jeronimo de Vries{Copy RKD1.} for Willem I, King of the Netherlands;{Copy RKD2.} Mauritshuis, The Hague, 1822; transferred to the museum, with SK-A-345 and SK-A-316, in an exchange valued at fl. 1,000, 1825{NHA, ARS, IS, inv. 12, no. 96 (20 January 1825); NHA, ARS, Kop, inv. 36, pp. 164-66 (8 February 1825); NHA, ARS, Kop, inv. 36, pp. 171-72 (27 April 1825); NHA, ARS, IS, inv. 12, no. 113 (8 June 1825); NHA, ARS, IS, inv. 12, no. 114 (10 June 1825).}</ns5:provenance>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/oyXrE/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/oyXrE" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/oyXrE/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-101--05226974642c9d34d5732a352def6dbb">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns7:prefLabel xml:lang="en">biografic</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">biografisch</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26118">
+            <ns7:prefLabel xml:lang="en">Flemish Paintings in the Rijksmuseum</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Flemish Paintings in the Rijksmuseum</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns7:prefLabel xml:lang="en">paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderijen</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns7:prefLabel xml:lang="en">canvas</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">doek</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns7:prefLabel xml:lang="en">painting</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderij</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns7:prefLabel xml:lang="en">oil paint (paint)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">olieverf</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22123">
+            <ns8:sameAs rdf:resource="https://iconclass.org/61B2" />
+            <ns7:altLabel>61B2</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">historical persons</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/oyXrE">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210155096">
+            <ns9:dateOfBirth xml:lang="nl">voor 1615</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">in of na 1650</ns9:dateOfDeath>
+            <ns9:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/230148" />
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2205520">
+                <ns7:prefLabel xml:lang="en">dealer</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">handelaar</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22011460">
+                <ns7:prefLabel xml:lang="en">shipmaster</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">schipper</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="nl">Borcht, Adriaan van der</ns7:altLabel>
+            <ns7:prefLabel xml:lang="nl">Adriaan van der Borcht</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2106175">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/17231738" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500115190" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q150679" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/25230" />
+            <ns9:dateOfBirth xml:lang="nl">1599-03-22</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1641-12-09</ns9:dateOfDeath>
+            <ns9:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230148">
+                <ns7:prefLabel xml:lang="en">Antwerp</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Antwerpen (stad)</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfBirth>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230164">
+                <ns7:prefLabel xml:lang="en">London</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Londen</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns7:prefLabel xml:lang="en">painter</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">schilder</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns7:prefLabel xml:lang="en">printmaker</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">prentmaker</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns7:prefLabel xml:lang="en">draftsman (artist)</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">tekenaar</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Antoon Van Dyck</ns7:altLabel>
+            <ns7:altLabel xml:lang="en">Dyck, Anthony van</ns7:altLabel>
+            <ns7:altLabel xml:lang="en">Van Dyck, Antoon</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Anthonie van Dyck</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Anthony van Dijck</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Anton van Dijck</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Anton van Dyck</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Antoni van Dyck</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Antoon Van Dyck</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Dijck, Anthony van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Dijck, Anton van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Dyck, Anthonie van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Dyck, Anthony van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Dyck, Anton van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Dyck, Antoni van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Van Dyck, Antoon</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Anthony van Dyck</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Anthony van Dyck</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21073429">
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2205777">
+                <ns7:prefLabel xml:lang="en">merchant</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">koopman</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="nl">Borcht, Nicolaes van der</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Borght, Nicolaes van der</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Nicolaes van der Borght</ns7:altLabel>
+            <ns7:prefLabel xml:lang="nl">Nicolaes van der Borcht</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/230720">
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/tgn/7010042" />
+            <ns7:prefLabel xml:lang="nl">Duinkerke</ns7:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

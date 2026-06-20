@@ -1,0 +1,220 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200365064</ns0:identifier>
+        <ns0:datestamp>2026-06-08T19:24:36Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26132</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200365064#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200365064">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21077277" />
+                <dc:description xml:lang="en">Michiel Verbiest may well have been the most important cabinetmaker in Antwerp between 1680 and 1690. He made this tabletop together with Pieter de Loose, who was probably responsible for the marquetry or the engraving. Incorporated in the decoration on the top are the coats of arms of Simon de Neuf and Jacoba van Eversdijck, who were married in Antwerp in 1686.</dc:description>
+                <dc:description xml:lang="nl">Michiel Verbiest was waarschijnlijk de belangrijkste meubelmaker in Antwerpen in de jaren 1680-1690. Het tafelblad maakte hij samen met Pieter de Loose, die misschien verantwoordelijk was voor de marqueterie of&lt;BR /&gt;het graveerwerk. In de decoratie van het blad staan de wapens van Simon de Neuf en Jacoba van Eversdijck, die in 1686 in Antwerpen trouwden.</dc:description>
+                <dc:identifier>BK-1962-49</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21074872" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21074873" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211334" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221667" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221705" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22187" />
+                <dc:title xml:lang="en">Table</dc:title>
+                <dc:title xml:lang="en">Tafel</dc:title>
+                <dc:title xml:lang="nl">Table</dc:title>
+                <dc:title xml:lang="nl">Tafel</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220117" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/22015" />
+                <ns5:created xml:lang="en">1689</ns5:created>
+                <ns5:created xml:lang="nl">1689</ns5:created>
+                <ns5:extent xml:lang="en">height 83.5 cm</ns5:extent>
+                <ns5:extent xml:lang="en">width 143 cm x depth 85 cm</ns5:extent>
+                <ns5:extent xml:lang="en">width 145 cm x depth 88 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">blad: breedte 145 cm x diepte 88 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">grondvlak: breedte 143 cm x diepte 85 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 83,5 cm</ns5:extent>
+                <ns5:hasPart rdf:resource="https://id.rijksmuseum.nl/20079153" />
+                <ns5:hasPart rdf:resource="https://id.rijksmuseum.nl/20083200" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26132" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2201070" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220150" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220169" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22021" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2202703" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220334" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220391" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22054" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220907" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230148" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2202689" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206822" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/vQIyB/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/vQIyB" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/vQIyB/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-1962-49--ca1c3a63380ea18dd8be8ba2ee8df638">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/230148">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7007856" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q12892" />
+            <ns8:prefLabel xml:lang="en">Antwerp</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Antwerpen (stad)</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26132">
+            <ns8:prefLabel xml:lang="nl">meubelen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2201070">
+            <ns8:prefLabel xml:lang="en">tortoise shell</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schildpad</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220117">
+            <ns8:prefLabel xml:lang="en">table</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">tafel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22015">
+            <ns8:prefLabel xml:lang="en">furniture</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">meubilair</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220150">
+            <ns8:altLabel xml:lang="en">copper</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">roodkoper</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">copper (metal)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">koper</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220169">
+            <ns8:prefLabel xml:lang="en">gilding (material)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">verguldsel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22021">
+            <ns8:prefLabel xml:lang="en">wood (plant material)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">hout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202689">
+            <ns8:prefLabel xml:lang="nl">marqueterie</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202703">
+            <ns8:prefLabel xml:lang="en">linden</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">lindehout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220334">
+            <ns8:altLabel xml:lang="en">mother of pearl</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">paarlemoer</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">paarlmoer</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">mother of pearl</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">parelmoer</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220391">
+            <ns8:altLabel xml:lang="nl">shirome</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">tin (metal)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">tin</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22054">
+            <ns8:altLabel xml:lang="en">brass (alloy)</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">geelkoper</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">brass (alloy)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">messing</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2206822">
+            <ns8:prefLabel xml:lang="en">gild</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">vergulden</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220907">
+            <ns8:prefLabel xml:lang="en">oak (wood)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">eikenhout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211334">
+            <ns9:sameAs rdf:resource="https://iconclass.org/48A9842" />
+            <ns8:altLabel>48A9842</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">ram's head ~ ornament</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221667">
+            <ns9:sameAs rdf:resource="https://iconclass.org/48A9875" />
+            <ns8:altLabel>48A9875</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">ornament ~ festoon, garland</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221705">
+            <ns9:sameAs rdf:resource="https://iconclass.org/92D1916" />
+            <ns8:altLabel>92D1916</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">cupids: 'amores', 'amoretti', 'putti'</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22187">
+            <ns9:sameAs rdf:resource="https://iconclass.org/48A9833" />
+            <ns8:altLabel>48A9833</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">flowers ~ ornament</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/vQIyB">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21074872">
+            <ns10:dateOfBirth xml:lang="nl">1647</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1714</ns10:dateOfDeath>
+            <ns8:altLabel xml:lang="nl">Neuf, Simon (II) van</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">Simon van Neuf (II)</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21074873">
+            <ns10:dateOfDeath xml:lang="nl">1711</ns10:dateOfDeath>
+            <ns8:altLabel xml:lang="nl">Eversdijk, Jacoba Maria van</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">Jacoba Maria van Eversdijk</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21077277">
+            <ns8:altLabel xml:lang="en">Loose, Pieter de</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Loose, Pieter de</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Pieter de Loose</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Pieter de Loose</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

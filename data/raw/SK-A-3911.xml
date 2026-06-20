@@ -1,0 +1,203 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200110480</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:34:15Z</ns0:datestamp>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200110480#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200110480">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2105690" />
+                <dc:description xml:lang="en">When a city is surrounded by enemies, its people find themselves in a tight corner. Food is scarce and disease easily breaks out. Reasons enough for Leiden to almost surrender in 1574. But the city is liberated by the Rebel army, the relief comes in the nick of time. Swarms of
+famished and exhausted people await their liberators. The soldiers have brought food with them, mostly herring and white bread.</dc:description>
+                <dc:description xml:lang="nl">Als een stad door vijanden is omsingeld, raakt de bevolking in de knel. Er is minder voedsel en ziektes steken gemakkelijk de kop op. Redenen voor Leiden om zich in 1574 bijna over te geven. Maar dan bevrijdt het geuzenleger de stad, het ontzet komt net op tijd. Hongerig en uitgeput staan massa’s mensen hun bevrijders op te wachten. De soldaten hebben eten bij zich, vooral haring en wittebrood.</dc:description>
+                <dc:identifier>SK-A-3911</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200414873" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21030784" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211142" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211143" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211144" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/230105" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/240139" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/240141" />
+                <dc:title xml:lang="en">De hongerende bevolking na de opheffing van het beleg van Leiden</dc:title>
+                <dc:title xml:lang="en">The Famished People after the Relief of the Siege of Leiden</dc:title>
+                <dc:title xml:lang="nl">De hongerende bevolking na de opheffing van het beleg van Leiden</dc:title>
+                <dc:title xml:lang="nl">The Famished People after the Relief of the Siege of Leiden</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">1574 - 1629</ns5:created>
+                <ns5:created xml:lang="nl">1574 - 1629</ns5:created>
+                <ns5:extent xml:lang="en">depth 8.5 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 40 cm x width 59.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">buitenmaat: diepte 8,5 cm (drager incl. SK-L-1486)</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 40 cm x breedte 59,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301201284" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30184947" />
+                <ns5:isReferencedBy>Documentatiemap Schilderijen: aantekeningen R. van Luttervelt (voor 1963).</ns5:isReferencedBy>
+                <ns5:isReferencedBy>E. Kolfin, M. Rikken, A Very Personal Copy: Pieter van Veen’s Illustrations to Montaigne’s Essais, in: P.J. Smith, K.A.E. Enenkel, Montaigne and the Low Countries (1580-1700), Intersections 8, Leiden: Brill, 2007: p. 247-262. (toegeschreven aan Pieter van Veen)</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">Inv.; the dealer James Alexander Butti (1892-1918), Edinburgh;{According to a label on the reverse.}…; sale, Jakob Goldschmidt &lt;em&gt;et al.&lt;/em&gt; [section William Maclean Homan (?-1956, Winchelsea, East Sussex)], London (Sotheby’s), 28 November 1956, no. 8, fl. 2,134.74, to the museum</ns5:provenance>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/kvvfD/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/kvvfD" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/kvvfD/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3911--ac917617b68aa1ca80142beb271b5461">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns7:prefLabel xml:lang="en">biografic</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">biografisch</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns7:prefLabel xml:lang="en">paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderijen</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns7:prefLabel xml:lang="en">panel</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">paneel</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns7:prefLabel xml:lang="en">painting</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderij</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns7:prefLabel xml:lang="en">oil paint (paint)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">olieverf</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2211142">
+            <ns8:sameAs rdf:resource="https://iconclass.org/45K51" />
+            <ns7:altLabel>45K51</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">raising the siege with outside assistance, relief</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2211143">
+            <ns8:sameAs rdf:resource="https://iconclass.org/41C111" />
+            <ns7:altLabel>41C111</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">giving food</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2211144">
+            <ns8:sameAs rdf:resource="https://iconclass.org/41C119" />
+            <ns7:altLabel>41C119</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">hunger</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/kvvfD">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21030784">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/30434994" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q358905" />
+            <ns9:dateOfBirth xml:lang="nl">ca. 1530</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1576-05-27</ns9:dateOfDeath>
+            <ns9:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/230196" />
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230954">
+                <ns7:prefLabel xml:lang="nl">Zierikzee</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2203194">
+                <ns7:prefLabel xml:lang="en">admiral</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">admiraal</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="nl">Boisot, Louis de</ns7:altLabel>
+            <ns7:prefLabel xml:lang="nl">Louis de Boisot</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2105690">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/61657203" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500005170" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q785355" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/79637" />
+            <ns9:dateOfBirth xml:lang="nl">1556</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1629-05-06</ns9:dateOfDeath>
+            <ns9:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230105">
+                <ns8:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006809" />
+                <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q43631" />
+                <ns7:prefLabel xml:lang="en">Leiden</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Leiden</ns7:prefLabel>
+                <ns10:lat>4.5</ns10:lat>
+                <ns10:long>52.15</ns10:long>
+              </ns3:Place>
+            </ns9:placeOfBirth>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230196">
+                <ns7:prefLabel xml:lang="en">Brussels</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Brussel (stad)</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns7:prefLabel xml:lang="en">painter</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">schilder</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns7:prefLabel xml:lang="en">draftsman (artist)</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">tekenaar</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Veen, Otto van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Octavio van Veen</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Otto Cornelisz. van Veen</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Otto Vaenius</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Otto Voenius</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Vaenius, Otto</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Veen, Octavio van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Veen, Otto Cornelisz. van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Veen, Otto van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Voenius, Otto</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Otto van Veen</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Otto van Veen</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:TimeSpan rdf:about="https://id.rijksmuseum.nl/240139">
+            <ns7:prefLabel xml:lang="nl">Ontzet van Leiden</ns7:prefLabel>
+          </ns3:TimeSpan>
+          <ns3:TimeSpan rdf:about="https://id.rijksmuseum.nl/240141">
+            <ns7:prefLabel xml:lang="nl">Beleg van Leiden</ns7:prefLabel>
+          </ns3:TimeSpan>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

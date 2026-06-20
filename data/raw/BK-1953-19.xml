@@ -1,0 +1,111 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20035628</ns0:identifier>
+        <ns0:datestamp>2026-06-08T02:09:11Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26126</ns0:setSpec>
+        <ns0:setSpec>2618</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20035628#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20035628">
+                <dc:description xml:lang="en">The winged Mercury is one of the most beloved themes in late 16th- and 17th-century bronze sculpture. As the swift messenger of the classical gods he is invariably shown in full flight, balancing only on the toes of one foot. This gave rise to an elegant composition that, in keeping with the aesthetics of Mannerism, afforded an enchanting profile from all angles.</dc:description>
+                <dc:description xml:lang="nl">Een van de meest geliefde thema’s in de bronssculptuur van de late 16de en 17de eeuw is dat van de vliegende Mercurius. Als snelle boodschapper van de klassieke goden werd hij steevast in volle vlucht uitgebeeld, slechts steunend op de tenen van één voet. Zo ontstond een&lt;BR /&gt;elegante compositie die, naar de eisen van het maniërisme, van alle zijden een fraai profiel bood.</dc:description>
+                <dc:identifier>BK-1953-19</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211633" />
+                <dc:title xml:lang="en">Mercurius</dc:title>
+                <dc:title xml:lang="en">Mercury</dc:title>
+                <dc:title xml:lang="nl">Mercurius</dc:title>
+                <dc:title xml:lang="nl">Mercury</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201048" />
+                <ns5:created xml:lang="en">c. 1560 - c. 1565</ns5:created>
+                <ns5:created xml:lang="en">c. 1565 - before c. 1650</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1560 - ca. 1565</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1565 - voor ca. 1650</ns5:created>
+                <ns5:extent xml:lang="en">height 44.5 cm x width 25 cm x depth 14 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 44,5 cm x breedte 25 cm x diepte 14 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26126" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2618" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301125880" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30115456" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301211481" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30151696" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22013" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220147" />
+                <ns5:provenance xml:lang="en">…; from the dealer G. Cramer, The Hague, fl. 3,350, to the museum, 1953</ns5:provenance>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/PyyfD/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/PyyfD" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/PyyfD/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-1953-19--7f23b2bf1a880f70ecc692b161d6a6ad">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26126">
+            <ns7:prefLabel xml:lang="en">sculptures</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">beeldhouwwerken</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2618">
+            <ns7:prefLabel xml:lang="en">European Sculpture in the Rijksmuseum</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">European Sculpture in the Rijksmuseum</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2201048">
+            <ns7:altLabel xml:lang="nl">sculptuur</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">sculpture</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">beeldhouwwerk</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22013">
+            <ns7:prefLabel xml:lang="en">bronze (metal)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">brons</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220147">
+            <ns7:prefLabel xml:lang="en">marble (rock)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">marmer</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2211633">
+            <ns8:sameAs rdf:resource="https://iconclass.org/92B5" />
+            <ns7:altLabel>92B5</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">(story of) Mercury (Hermes)</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/PyyfD">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

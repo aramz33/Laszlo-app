@@ -1,0 +1,183 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200107493</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:11:21Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260245</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261132</ns0:setSpec>
+        <ns0:setSpec>261223</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200107493#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200107493">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="en">When a candle is placed inside the porcelain cat, the light shines through its eyes. The small lamp was intended for children who were afraid of the dark, but was also used to scare off rats. It comes from the collection assembled by the 18th-century Hague Sinologist Jean Theodore Royer.</dc:description>
+                <dc:description xml:lang="nl">Wanneer de porseleinen kat over een kaarsje wordt gezet, schijnt er licht door zijn ogen. Het lampje was bedoeld voor kinderen die bang waren in het donker, maar werd ook gebruikt om ratten af te schrikken. Het is afkomstig uit de verzameling van de 18de-eeuwse Haagse China-kenner Jean Theodore Royer.</dc:description>
+                <dc:identifier>AK-NM-6520</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221153" />
+                <dc:title xml:lang="en">Nachtlichtje in de vorm van een kat</dc:title>
+                <dc:title xml:lang="en">Nightlight in the form of a cat</dc:title>
+                <dc:title xml:lang="nl">Nachtlichtje in de vorm van een kat</dc:title>
+                <dc:title xml:lang="nl">Nightlight in the form of a cat</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201241" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220297" />
+                <ns5:created xml:lang="en">c. 1760 - c. 1770</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1760 - ca. 1770</ns5:created>
+                <ns5:extent xml:lang="en">height 11 cm x width 17 cm x depth 12.5 cm x weight 531 g</ns5:extent>
+                <ns5:extent xml:lang="en">width 14.7 cm x depth 20.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">grondvlak: breedte 14,7 cm x diepte 20,5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 11 cm x breedte 17 cm x diepte 12,5 cm x gewicht (eigenschap) 531 g</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260245" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261132" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261223" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144552" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30127601" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220110" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22045" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22051" />
+                <ns5:provenance xml:lang="en">...; collection Jean Theodore Royer (1737-1807), The Hague;{Note RMA.} bequeathed by his widow to King William I, 1814;{Note RMA.}; transferred to the Royal Cabinet of Curiosities, The Hague, 1816;{Note RMA.} from whom transferred to the museum, 1885</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23024" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/2305709" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204040" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206836" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2207006" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2207029" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/uTrAQ/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/uTrAQ" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/uTrAQ/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/AK-NM-6520--2447e1d75a4c2ccd992c960041ad96b0">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/23024">
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q148" />
+            <ns9:sameAs rdf:resource="https://sws.geonames.org/1814991/" />
+            <ns8:prefLabel xml:lang="en">China</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">China</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2305709">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7018040" />
+            <ns8:prefLabel xml:lang="nl">Kanton (stad)</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260245">
+            <ns8:prefLabel xml:lang="en">Asian ceramics</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Aziatische keramiek</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261132">
+            <ns8:prefLabel xml:lang="nl">China (collectie)</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261223">
+            <ns8:prefLabel xml:lang="en">Asian ceramics</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Aziatische keramiek</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220110">
+            <ns8:prefLabel xml:lang="en">glaze</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">glazuur</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2201241">
+            <ns8:prefLabel xml:lang="en">figure</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">figuur</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220297">
+            <ns8:prefLabel xml:lang="en">figure</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">beeld</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2204040">
+            <ns8:altLabel xml:lang="nl">geschilderd</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">paint</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderen</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22045">
+            <ns8:prefLabel xml:lang="nl">email</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22051">
+            <ns8:prefLabel xml:lang="en">porcelain</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">porselein</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2206836">
+            <ns8:altLabel xml:lang="nl">geëmailleerd</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">emailleren</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2207006">
+            <ns8:altLabel xml:lang="nl">gebakken</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">fired</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">bakken</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2207029">
+            <ns8:altLabel xml:lang="nl">gevormd</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">formed</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">vormen</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221153">
+            <ns9:sameAs rdf:resource="https://iconclass.org/34B12" />
+            <ns8:altLabel>34B12</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">cat</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/uTrAQ">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns8:altLabel xml:lang="nl">Anon</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">anonymous</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">anoniem</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

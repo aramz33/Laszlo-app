@@ -1,0 +1,142 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200657620</ns0:identifier>
+        <ns0:datestamp>2026-06-09T08:04:48Z</ns0:datestamp>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261110</ns0:setSpec>
+        <ns0:setSpec>261198</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200657620#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200657620">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="nl">Zilveren staven Slot ter Hooghe, 9 zilveren staven uit het wrak van de Oost-Indiëvaarder Slot ter Hooghe.</dc:description>
+                <dc:identifier>NG-1983-3-A-2</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/210111012" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21042670" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2304030" />
+                <dc:title xml:lang="nl">Zilveren staven uit het wrak van de Oost-Indiëvaarder Slot ter Hooghe</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201037" />
+                <ns5:created xml:lang="en">c. 1650 - before 1724</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1650 - voor 1724</ns5:created>
+                <ns5:extent xml:lang="en">weight 1950 g x length 14 cm x width 3.5 cm x height 3.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">gewicht (eigenschap) 1950 g x lengte 14 cm x breedte 3,5 cm x hoogte 3,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/200536493" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261110" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261198" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100987" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30165550" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22028" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/2301" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2203146" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204537" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/KDSmG/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/KDSmG" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/KDSmG/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/NG-1983-3-A-2--87ff148d761a2616b33e90caea10c71c">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2301">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7016845" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q55" />
+            <ns9:sameAs rdf:resource="https://sws.geonames.org/2750405/" />
+            <ns8:prefLabel xml:lang="en">Netherlands</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Nederland</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261110">
+            <ns8:prefLabel xml:lang="nl">scheepswrakvondsten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261198">
+            <ns8:prefLabel xml:lang="nl">Slot ter Hooghe</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2201037">
+            <ns8:prefLabel xml:lang="en">rod</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">staaf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22028">
+            <ns8:prefLabel xml:lang="en">silver (metal)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">zilver</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2203146">
+            <ns8:altLabel xml:lang="nl">gestempeld</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">blocked</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">stempelen</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2204537">
+            <ns8:altLabel xml:lang="nl">gegoten</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">casting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">gieten</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/KDSmG">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210111012">
+            <ns8:prefLabel xml:lang="nl">Slot ter Hooghe (schip)</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21042670">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/131493728" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q159766" />
+            <ns8:altLabel xml:lang="nl">VOC</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">Verenigde Oostindische Compagnie</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns8:altLabel xml:lang="nl">Anon</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">anonymous</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">anoniem</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2304030">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7003831" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q26253" />
+            <ns8:prefLabel xml:lang="nl">Madeira</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

@@ -1,0 +1,172 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200106512</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:00:26Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260247</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26126</ns0:setSpec>
+        <ns0:setSpec>261135</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200106512#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200106512">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="en">Maitreya, the Buddha of the future, is making the abhaya mudra, or '˜fear not' gesture. His webbed fingers are a sign of his divine nature. This figure shows that Buddhist art in Gandhara, which was in contact via trade routes with regions around the Mediterranean Sea, was influenced by Greco-Roman sculpture. The drapery folds of the Maitreya's lower garment, for instance, recall Roman figures, while his hairstyle is based on representations of the Greek god Apollo.</dc:description>
+                <dc:description xml:lang="nl">Maitreya, de boeddha van de toekomst, maakt het gebaar van geruststelling (abhaya-mudra). Tussen de vingers heeft hij vliezen, een teken van zijn bovenmenselijkheid. Dit beeld toont dat de boeddhistische kunst van Gandhara, dat via handelswegen in contact stond met het Middellandse Zeegebied, werd beïnvloed door de Grieks-Romeinse beeldhouwkunst. De plooival in het heupkleed doet denken aan Romeinse beelden, het kapsel is gebaseerd op dat van de Griekse god Apollo.</dc:description>
+                <dc:identifier>AK-MAK-1188</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22174" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22175" />
+                <dc:title xml:lang="en">De bodhisattva Maitreya</dc:title>
+                <dc:title xml:lang="en">The bodhisattva Maitreya</dc:title>
+                <dc:title xml:lang="nl">De bodhisattva Maitreya</dc:title>
+                <dc:title xml:lang="nl">The bodhisattva Maitreya</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201048" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220297" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220511" />
+                <ns5:created xml:lang="en">c. 200 - c. 300</ns5:created>
+                <ns5:created xml:lang="nl">ca. 200 - ca. 300</ns5:created>
+                <ns5:extent xml:lang="en">height 52 cm x width 30 cm x depth 12 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 52 cm x breedte 30 cm x diepte 12 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260247" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261135" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26126" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30112489" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244084" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244297" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220169" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220220" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220447" />
+                <ns5:provenance xml:lang="en">…; from the dealer A. Vecht, fl. 16,500, to the Vereniging Rembrandt, 1968;{Note RMA.} by whom donated to the Vereniging van Vrienden der Aziatische Kunst;{Note RMA.} from whom on loan to the museum, 1972</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23010249" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204040" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206058" />
+                <ns7:spn xml:lang="en">On loan from the Royal Asian Art Society in The Netherlands (schenking Vereniging Rembrandt, 1968)</ns7:spn>
+                <ns7:spn xml:lang="nl">Bruikleen van de Koninklijke Vereniging van Vrienden der Aziatische Kunst (schenking Vereniging Rembrandt, 1968)</ns7:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/ULICe/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/ULICe" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/ULICe/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/AK-MAK-1188--0b382f9ebb853b4e8df0003b60587a5e">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/23010249">
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/6002201" />
+            <ns9:prefLabel xml:lang="nl">Gandhara</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns9:prefLabel xml:lang="en">RijksXL</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">RijksXL</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260247">
+            <ns9:prefLabel xml:lang="en">friends asian art</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">vrienden aziatische kunst</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261135">
+            <ns9:prefLabel xml:lang="nl">Zuid-Azië (collectie)</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26126">
+            <ns9:prefLabel xml:lang="en">sculptures</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">beeldhouwwerken</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2201048">
+            <ns9:altLabel xml:lang="nl">sculptuur</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">sculpture</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">beeldhouwwerk</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220169">
+            <ns9:prefLabel xml:lang="en">gilding (material)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">verguldsel</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220220">
+            <ns9:prefLabel xml:lang="en">slate (rock)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">leisteen</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220297">
+            <ns9:prefLabel xml:lang="en">figure</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">beeld</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2204040">
+            <ns9:altLabel xml:lang="nl">geschilderd</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">paint</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">schilderen</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220447">
+            <ns9:prefLabel xml:lang="en">dye</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">verfstof</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220511">
+            <ns9:prefLabel xml:lang="nl">Maitreya</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2206058">
+            <ns9:altLabel xml:lang="nl">gehakt</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">picked</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">hakken</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22174">
+            <ns10:sameAs rdf:resource="https://iconclass.org/12H13" />
+            <ns9:altLabel>12H13</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">representations ~ gods, demi-gods, heroes, etc. (Hinduism, Buddhism, Jainism)</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22175">
+            <ns10:sameAs rdf:resource="https://iconclass.org/12H63" />
+            <ns9:altLabel>12H63</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">statues, paintings, etc. ~ objects of worship (Hinduism, Buddhism, Jainism)</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/ULICe">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns9:altLabel xml:lang="nl">Anon</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">anonymous</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">anoniem</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns9:prefLabel>Rijksmuseum</ns9:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

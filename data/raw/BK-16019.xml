@@ -1,0 +1,181 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200143795</ns0:identifier>
+        <ns0:datestamp>2026-06-08T04:58:21Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26132</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200143795#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200143795">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="en">Chairs of this type, with a rectangular upholstered seat and back, were found throughout Europe and virtually everywhere were called ‘Spanish chairs’, after the source of the original model. They were made in all kinds of wood and in various sizes, some soberly decorated, others more lavishly ornamented.</dc:description>
+                <dc:description xml:lang="nl">Stoelen van dit type, met een rechthoekige, beklede zitting en rugleuning, kwamen in heel Europa voor en werden bijna overal ‘Spaanse stoelen’ genoemd, naar de herkomst van het model. Ze werden in allerlei&lt;BR /&gt;houtsoorten gemaakt en in verschillende maten, soms sober, dan weer rijk gedecoreerd.</dc:description>
+                <dc:identifier>BK-16019</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221133" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22165" />
+                <dc:title xml:lang="en">Armchair</dc:title>
+                <dc:title xml:lang="en">Armstoel</dc:title>
+                <dc:title xml:lang="nl">Armchair</dc:title>
+                <dc:title xml:lang="nl">Armstoel</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220139" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/22015" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220272" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2202782" />
+                <ns5:created xml:lang="en">c. 1615 - c. 1625</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1615 - ca. 1625</ns5:created>
+                <ns5:extent xml:lang="en">height 131.5 cm x width 62 cm x depth 45 cm x depth 45 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 50.5 cm x width 54 cm x depth 43 cm</ns5:extent>
+                <ns5:extent xml:lang="en">width 62 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">grondvlak: breedte 62 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 131,5 cm x breedte 62 cm x diepte 45 cm x diepte 45 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">zitting: hoogte 50,5 cm x breedte 54 cm x diepte 43 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26132" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301151248" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125657" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301283482" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301283486" />
+                <ns5:isReferencedBy>Documentatiemap.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2201452" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220150" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220184" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22021" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220311" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220400" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/2301" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/VvhlZ/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/VvhlZ" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/VvhlZ/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-16019--2d514d88add963fa6ca5af6fc6885997">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2301">
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/tgn/7016845" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q55" />
+            <ns8:sameAs rdf:resource="https://sws.geonames.org/2750405/" />
+            <ns7:prefLabel xml:lang="en">Netherlands</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Nederland</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns7:prefLabel xml:lang="en">RijksXL</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">RijksXL</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26132">
+            <ns7:prefLabel xml:lang="nl">meubelen</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220139">
+            <ns7:prefLabel xml:lang="en">chair</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">stoel</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2201452">
+            <ns7:prefLabel xml:lang="en">ebony (wood)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">ebbenhout</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22015">
+            <ns7:prefLabel xml:lang="en">furniture</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">meubilair</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220150">
+            <ns7:altLabel xml:lang="en">copper</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">roodkoper</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">copper (metal)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">koper</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220184">
+            <ns7:altLabel xml:lang="en">leather</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">leder</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">leather</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">leer</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22021">
+            <ns7:prefLabel xml:lang="en">wood (plant material)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">hout</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220272">
+            <ns7:prefLabel xml:lang="nl">armstoel</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202782">
+            <ns7:prefLabel xml:lang="en">seating furniture</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">zitmeubel</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220311">
+            <ns7:altLabel xml:lang="en">velvet (fabric weave)</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">velours d'Utrecht</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">velours-chiffon</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">velours</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">velvet (fabric weave)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">fluweel</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220400">
+            <ns7:prefLabel xml:lang="en">rosewood (wood)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">palissanderhout</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221133">
+            <ns8:sameAs rdf:resource="https://iconclass.org/25FF" />
+            <ns7:altLabel>25FF</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">fabulous animals (sometimes wrongly called 'grotesques'); 'Mostri' (Ripa)</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22165">
+            <ns8:sameAs rdf:resource="https://iconclass.org/25F23%28LION%29" />
+            <ns7:altLabel>25F23(LION)</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">beasts of prey, predatory animals: lion</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/VvhlZ">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns7:altLabel xml:lang="nl">Anon</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">anonymous</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">anoniem</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns7:prefLabel>Rijksmuseum</ns7:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

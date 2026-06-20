@@ -1,0 +1,154 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200106818</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:04:14Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260247</ns0:setSpec>
+        <ns0:setSpec>260210</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26126</ns0:setSpec>
+        <ns0:setSpec>261137</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200106818#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200106818">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="en">The makara is a mythical creature associated with water. In Central Java, they often stood guard at temple entrances. This example has the muzzle of a dragon, the trunk of an elephant and the horns of a ram. Seated on the tongue of its wide-open mouth is a lion.</dc:description>
+                <dc:description xml:lang="nl">De makara is een mythisch wezen dat, op MiddenJava, de wacht hield bij de ingang van tempels. Deze makara heeft de bek van een draak, de slurf van een olifant en de hoorns van een ram. In zijn wijd opengesperde kaak zit, op de tong, een leeuw.</dc:description>
+                <dc:identifier>AK-MAK-247</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221113" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221114" />
+                <dc:title xml:lang="en">Makara</dc:title>
+                <dc:title xml:lang="nl">Makara</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201048" />
+                <ns5:created xml:lang="en">c. 800 - c. 900</ns5:created>
+                <ns5:created xml:lang="nl">ca. 800 - ca. 900</ns5:created>
+                <ns5:extent xml:lang="en">height 97 cm x width 99 cm x depth 37 cm</ns5:extent>
+                <ns5:extent xml:lang="en">weight 322 kg</ns5:extent>
+                <ns5:extent xml:lang="nl">geheel: gewicht (eigenschap) 322 kg</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 97 cm x breedte 99 cm x diepte 37 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260210" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260247" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261137" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26126" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30112489" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301156776" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301209248" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244084" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244297" />
+                <ns5:isReferencedBy>J. Auboyer et al., Oriental art, 1978, p. 282.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Marijke Klokke en William Southworth, 'Tracing the History of Makara AK-MAK-247 in the Rijksmuseum Amsterdam', Aziatische Kunst (2014) nr. 3, p. 17-22.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Pauline Lunsingh Scheurleer, 'Elegante topstukjes', Aziatische Kunst 38 (2008), nr. 3, p. 40, afb. 5.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>W.A. Southworth, ‘Twelve Stone Sculptures from Java’, Rijksmuseum Bulletin 65/3 (2017), pp. 244-275</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220652" />
+                <ns5:provenance xml:lang="en">…; collection Aerchaeological Service of the Dutch East Indies; acquired by the Vereniging van Vrienden der Aziatische Kunst, 1931; {Southworth 2017} from whom on loan to the museum, 1972’.</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23083" />
+                <ns6:spn xml:lang="en">On loan from the Royal Asian Art Society in The Netherlands (transfer Oudheidkundige Dienst Nederlands-Indië, 1931)</ns6:spn>
+                <ns6:spn xml:lang="nl">Bruikleen van de Koninklijke Vereniging van Vrienden der Aziatische Kunst (overdracht Oudheidkundige Dienst Nederlands-Indië, 1931)</ns6:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/jgvYj/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/jgvYj" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/jgvYj/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/AK-MAK-247--00829ab352ef7422763ac9e48e187dbb">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/23083">
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q2936254" />
+            <ns9:sameAs rdf:resource="https://sws.geonames.org/1627356/" />
+            <ns8:prefLabel xml:lang="nl">Candi Sewu</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260210">
+            <ns8:prefLabel xml:lang="en">Against Opacity</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Against Opacity</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260247">
+            <ns8:prefLabel xml:lang="en">friends asian art</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">vrienden aziatische kunst</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261137">
+            <ns8:prefLabel xml:lang="nl">Zuidoost-Azië, maritiem (collectie)</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26126">
+            <ns8:prefLabel xml:lang="en">sculptures</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">beeldhouwwerken</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2201048">
+            <ns8:altLabel xml:lang="nl">sculptuur</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">sculpture</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">beeldhouwwerk</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220652">
+            <ns8:prefLabel xml:lang="en">andesite</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">andesiet</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221113">
+            <ns9:sameAs rdf:resource="https://iconclass.org/25FF9" />
+            <ns8:altLabel>25FF9</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">still other fabulous animals which cannot be classified under 25 FF 2 - 25 FF 7</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221114">
+            <ns9:sameAs rdf:resource="https://iconclass.org/12H61" />
+            <ns8:altLabel>12H61</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">temple, shrine ~ Hinduism, Buddhism, Jainism</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/jgvYj">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns8:altLabel xml:lang="nl">Anon</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">anonymous</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">anoniem</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

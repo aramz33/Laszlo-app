@@ -1,0 +1,194 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200109197</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:27:20Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>2611</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200109197#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200109197">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2102429" />
+                <dc:description xml:lang="en">Fearing the outcome of a battle, Saul, king of the Israelites, consulted the fortune-telling witch of Endor. The prophecy came true: Saul lost the battle, but shortly before he was to be killed, he threw himself on his sword. His suicide – in the middle background – is a warning against witchcraft. In the foreground is a Witches’ Sabbath: the fortune-teller sits within a chalk circle, surrounded by other witches, satyrs, and imaginary figures.</dc:description>
+                <dc:description xml:lang="nl">Bevreesd over de uitkomst van een veldslag raadpleegde Saul, koning van de Israëlieten, de waarzeggende heks van Endor. De voorspelling werd werkelijkheid: Saul verloor de slag maar kort voordat hij zou worden gedood, stortte de koning zich in zijn zwaard. Zijn zelfmoord – middenachter – is een waarschuwing tegen hekserij. Vooraan vindt een heksensabbat plaats: in een krijtcirkel zit de waarzegster, omringd door&lt;BR /&gt;andere heksen, saters en fantasiefiguren.</dc:description>
+                <dc:identifier>SK-A-668</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221854" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221855" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221856" />
+                <dc:title xml:lang="en">Saul and the Witch of Endor</dc:title>
+                <dc:title xml:lang="en">Saul bij de heks van Endor</dc:title>
+                <dc:title xml:lang="nl">Saul and the Witch of Endor</dc:title>
+                <dc:title xml:lang="nl">Saul bij de heks van Endor</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">1526</ns5:created>
+                <ns5:created xml:lang="nl">1526</ns5:created>
+                <ns5:extent xml:lang="en">frame: height 104.2 cm x width 138.9 cm x thickness 5 cm</ns5:extent>
+                <ns5:extent xml:lang="en">painted surface: height 87 cm x width 121.6 cm</ns5:extent>
+                <ns5:extent xml:lang="en">support: height 85.5 cm x width 122.8 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">beschilderd oppervlak: hoogte 87 cm x breedte 121,6 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 85,5 cm x breedte 122,8 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">lijst: hoogte 104,2 cm x breedte 138,9 cm x dikte 5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2611" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100933" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301154610" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301208445" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301236018" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244089" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244300" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301250726" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015253" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015254" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30182300" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">…; sale, Louis-Maximilien Beauvois (?-1796, Valenciennes), Valenciennes (Pillion), 19 May 1879, no. 1, as Jean-Walter van Assen, fl. 500, to the museum{Copy RKD; NHA, ARM, Kop, inv. 39, pp. 268-70, nos. 19, 23, 27 (31 May 1879); NHA, ARS, IS, inv. 161, no. 307 (3 June 1879).}</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23029985" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/hKSwX/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/hKSwX" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/hKSwX/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-668--9b643168e98f68727a117b6ff19d6d9e">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns7:prefLabel xml:lang="en">RijksXL</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">RijksXL</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2611">
+            <ns7:prefLabel xml:lang="en">Cat. 15th and 16th century Dutch Paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Cat. 15e en 16e eeuwse Nederlandse Schilderijen</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns7:prefLabel xml:lang="en">paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderijen</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns7:prefLabel xml:lang="en">panel</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">paneel</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns7:prefLabel xml:lang="en">painting</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderij</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns7:prefLabel xml:lang="en">oil paint (paint)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">olieverf</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221854">
+            <ns8:sameAs rdf:resource="https://iconclass.org/71H322" />
+            <ns7:altLabel>71H322</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Saul's death</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221855">
+            <ns8:sameAs rdf:resource="https://iconclass.org/13B4" />
+            <ns7:altLabel>13B4</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">witch(es), sorcerer(s) at work</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221856">
+            <ns8:sameAs rdf:resource="https://iconclass.org/71H315" />
+            <ns7:altLabel>71H315</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Saul with the witch of Endor</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/hKSwX">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2102429">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/22939175" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500115388" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q1029143" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/18413" />
+            <ns9:dateOfBirth xml:lang="nl">ca. 1475</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">ca. 1528 - ca. 1533</ns9:dateOfDeath>
+            <ns9:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301398">
+                <ns7:prefLabel xml:lang="nl">Oostzaan</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfBirth>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns8:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006952" />
+                <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q727" />
+                <ns8:sameAs rdf:resource="https://sws.geonames.org/2759794/" />
+                <ns7:prefLabel xml:lang="en">Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Amsterdam</ns7:prefLabel>
+                <ns10:lat>4.916667</ns10:lat>
+                <ns10:long>52.35</ns10:long>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns7:prefLabel xml:lang="en">painter</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">schilder</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns7:prefLabel xml:lang="en">printmaker</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">prentmaker</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns7:prefLabel xml:lang="en">draftsman (artist)</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">tekenaar</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Cornelisz van Oostsanen, Jacob</ns7:altLabel>
+            <ns7:altLabel xml:lang="en">Cornelisz., Jacob</ns7:altLabel>
+            <ns7:altLabel xml:lang="en">Jacob Cornelisz.</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Cornelisz. van Oostsanen, Jacob</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Cornelisz., Jacob</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Jacob Cornelisz. van Oostsanen</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Jacob Cornelisz.</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Oostsanen, Jacob Cornelisz. van</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Jacob Cornelisz van Oostsanen</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Jacob Cornelisz. van Oostsanen</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns7:prefLabel>Rijksmuseum</ns7:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

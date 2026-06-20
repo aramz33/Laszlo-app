@@ -1,0 +1,242 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns11="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200116119</ns0:identifier>
+        <ns0:datestamp>2026-06-08T02:11:06Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26126</ns0:setSpec>
+        <ns0:setSpec>2618</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200116119#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200116119">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2103163" />
+                <dc:identifier>BK-NM-9001</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2103429" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22123" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2307318" />
+                <dc:title xml:lang="en">Model for a statue of Rembrandt</dc:title>
+                <dc:title xml:lang="en">Model voor een standbeeld van Rembrandt</dc:title>
+                <dc:title xml:lang="nl">Model for a statue of Rembrandt</dc:title>
+                <dc:title xml:lang="nl">Model voor een standbeeld van Rembrandt</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220909" />
+                <ns5:created xml:lang="en">1840</ns5:created>
+                <ns5:created xml:lang="nl">1840</ns5:created>
+                <ns5:extent xml:lang="en">height 26.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 26,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26126" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2618" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100822" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100936" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301101291" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301142447" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30115456" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30115462" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3011773" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301274270" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30146946" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30153305" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30163276" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30169397" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30183241" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30187052" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30187510" />
+                <ns5:isReferencedBy>Katholiek Documentatie Centrum, Nijmegen, nr. 5480.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220445" />
+                <ns5:provenance xml:lang="en">…; sale, Josephus Albertus Alberdingk Thijm (1820-1889, Amsterdam), Amsterdam (Frederik Muller), 10-12 December 1889, no. 133, fl. 23, to the museum</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23029985" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204686" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206793" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/jNcih/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/jNcih" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/jNcih/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-NM-9001--69763bdf2cacbc85f3677027c311c26e">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26126">
+            <ns8:prefLabel xml:lang="en">sculptures</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">beeldhouwwerken</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2618">
+            <ns8:prefLabel xml:lang="en">European Sculpture in the Rijksmuseum</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">European Sculpture in the Rijksmuseum</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220445">
+            <ns8:prefLabel xml:lang="en">terracotta (clay material)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">terracotta</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2204686">
+            <ns8:altLabel xml:lang="nl">gesaust</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">painted</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">sausen</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2206793">
+            <ns8:altLabel xml:lang="nl">geboetseerd</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">modeling</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">boetseren</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220909">
+            <ns8:prefLabel xml:lang="en">sketch</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schets</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22123">
+            <ns9:sameAs rdf:resource="https://iconclass.org/61B2" />
+            <ns8:altLabel>61B2</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">historical persons</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/jNcih">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2103163">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/27923204" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500041662" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q1861446" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/68689" />
+            <ns10:dateOfBirth xml:lang="nl">1793-08-02</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1868-06-05</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230162">
+                <ns8:prefLabel xml:lang="en">Mechelen</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Mechelen (stad)</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006952" />
+                <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q727" />
+                <ns9:sameAs rdf:resource="https://sws.geonames.org/2759794/" />
+                <ns8:prefLabel xml:lang="en">Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Amsterdam</ns8:prefLabel>
+                <ns11:lat>4.916667</ns11:lat>
+                <ns11:long>52.35</ns11:long>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205167">
+                <ns8:prefLabel xml:lang="en">sculptor</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">beeldhouwer</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Royer, Louis</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Louis Roijer</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Roijer, Louis</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Royer, Louis</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Louis Royer</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Louis Royer</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2103429">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/64013650" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500011051" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q5598" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/66219" />
+            <ns10:dateOfBirth xml:lang="nl">1606-07-15</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1669-10-08</ns10:dateOfDeath>
+            <ns10:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/230105" />
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006952" />
+                <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q727" />
+                <ns9:sameAs rdf:resource="https://sws.geonames.org/2759794/" />
+                <ns8:prefLabel xml:lang="en">Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Amsterdam</ns8:prefLabel>
+                <ns11:lat>4.916667</ns11:lat>
+                <ns11:long>52.35</ns11:long>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Rijn, Rembrandt van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Rembrandt Harmensz. van Rijn</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Rembrandt van Rijn</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Rembrandt</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Rijn, Rembrandt Harmensz. van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Rijn, Rembrandt van</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Rembrandt van Rijn</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Rembrandt van Rijn</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/230105">
+            <ns8:prefLabel xml:lang="en">Leiden</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Leiden</ns8:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2307318">
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q1579642" />
+            <ns8:prefLabel xml:lang="nl">Rembrandtplein</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

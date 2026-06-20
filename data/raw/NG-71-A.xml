@@ -1,0 +1,218 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns11="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20013000</ns0:identifier>
+        <ns0:datestamp>2026-06-08T17:11:10Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261106</ns0:setSpec>
+        <ns0:setSpec>261176</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20013000#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20013000">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="en">When in 1566 several hundred Dutch noblemen petitioned the Spanish authorities for greater tolerance in matters of religion, they were ridiculed as 'gueux': beggars. In response, they took the French name 'gueux' (vulgarised to 'geuzen') as a symbol of honour and wore a beggar's badge on their clothes. These were tokens that town authorities gave to beggars to show that they were legally allowed to beg. The crescent shape of the medals and the text around the edge 'Better Turkish than Papish' had several connotations. Turks had a reputation for cruelty; but they were also known for their tolerance to other religions. Moreover, the Islamic Turkish Empire was at war with Catholic Spain. Apart from badges, the Geuzen also carried small wooden begging bowls and flasks, reminiscent of the pilgrims who lived by begging.</dc:description>
+                <dc:description xml:lang="nl">Toen in 1566 enkele honderden Nederlandse edelen aan het Spaanse gezag een petitie aanboden waarin om meer tolerantie inzake geloofskwesties werd gevraagd, werden zij honend uitgemaakt voor 'gueux': bedelaars. De groep nam het Franse 'gueux' (verbasterd tot 'geuzen') aan als erenaam en tooide zich met bedelaarsinsignes. Dit waren penningen die stadsbesturen aan bedelaars gaven als teken dat zij mochten bedelen. De halve maan vorm van de penningen en de tekst op de rand 'Liever Turx dan Paus' verwijst naar Turkije. 'Turks' had verschillende betekenissen. Turken hadden niet alleen de naam wreed te zijn, ze stonden ook bekend om hun tolerantie tegenover andere godsdiensten. Bovendien waren het islamitische Turkije en katholieke Spanje met elkaar in oorlog. Behalve penningen droegen de Geuzen ook kleine houten bedelnapjes en flesjes: herkenningstekens van bedelende pelgrims.</dc:description>
+                <dc:identifier>NG-71-A</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200311617" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20054730" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20061680" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2109410" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2301" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/240852" />
+                <dc:title xml:lang="nl">Geuzennap, volgens overlevering toebehoord hebbende aan de graaf van Egmond</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220210" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2202753" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2203156" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2203516" />
+                <ns5:created xml:lang="en">c. 1550 - in or before 1688</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1550 - in of voor 1688</ns5:created>
+                <ns5:extent xml:lang="en">height 2.7 cm x diameter 1.8 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 2.8 cm x diameter 1.9 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 2.9 cm x width 2 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 5 cm x diameter 16 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">houten fles: hoogte 2,7 cm x diameter 1,8 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">ivoren fles: hoogte 2,8 cm x diameter 1,9 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">nap: hoogte 5 cm x diameter 16 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">penning: hoogte 2,9 cm x breedte 2 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261106" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261176" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301116962" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144133" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301150406" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3012474" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125115" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30163407" />
+                <ns5:isReferencedBy>Documentatiemap.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>G. van der Meer, 'Geuzenpenningen, napjes en kalebasjes', Beeldenaar (1980) nr. 4, p. 91-95.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Jaarverslag 1941, p. 29 met afb.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Kees van der Pols, 'Vroege geuzenpenningen', De Beeldenaar (2007) nr. 1, p. 17-22.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220102" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22021" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220237" />
+                <ns5:provenance xml:lang="en">Collection Lamoraal I van Gavere “Graaf van Egmond” (1522 - 1568), Zottegem near Brussels, 1566;{Note RMA.} by descent through the Van Egmond, Van Capelle, Delafialle, Bleiswijk and Van Zuylen van Nijevelt families to Joan Adriaan Hugo baron van Zuylen van Nijevelt (1854-1940), Doorn; donated by his heirs to the museum through the mediation of his brother in law Jonkheer Mr L.Ch. van Loon, 1941</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23026018" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/22018" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2202379" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204578" />
+                <ns7:spn xml:lang="en">Gift of J.A.H., Baron van Zuylen van Nijevelt, Doorn</ns7:spn>
+                <ns7:spn xml:lang="nl">Schenking van J.A.H. baron van Zuylen van Nijevelt, Doorn</ns7:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/cdRdt/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/cdRdt" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/cdRdt/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/NG-71-A--d3dab0a690ccbb55a22f9424fa172c5d">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/23026018">
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q15300240" />
+            <ns9:prefLabel xml:lang="en">Low Countries</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Lage Landen</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns9:prefLabel xml:lang="en">RijksXL</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">RijksXL</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns9:prefLabel xml:lang="en">biografic</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">biografisch</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261106">
+            <ns9:prefLabel xml:lang="nl">munten, penningen en draagtekens</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261176">
+            <ns9:prefLabel xml:lang="nl">Varia 16e eeuw en vroeger</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220102">
+            <ns9:prefLabel xml:lang="en">ivory</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">ivoor</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22018">
+            <ns9:altLabel xml:lang="nl">draaien</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">gedraaid</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">turning</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">draaiend bewerken</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22021">
+            <ns9:prefLabel xml:lang="en">wood (plant material)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">hout</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220210">
+            <ns9:prefLabel xml:lang="nl">fles</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220237">
+            <ns9:prefLabel xml:lang="en">gold (metal)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">goud</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202379">
+            <ns9:altLabel xml:lang="nl">geslagen</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">striking (metalworking)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">slaan</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202753">
+            <ns9:prefLabel xml:lang="en">beggar's medal</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">geuzenpenning</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2203156">
+            <ns9:prefLabel xml:lang="nl">nap</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2203516">
+            <ns9:prefLabel xml:lang="nl">bedelnap</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2204578">
+            <ns9:altLabel xml:lang="nl">gesmeed</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">forging</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">smeden</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/cdRdt">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns9:altLabel xml:lang="nl">Anon</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">anonymous</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">anoniem</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109410">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/18013518" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q435844" />
+            <ns11:dateOfBirth xml:lang="nl">1522-11-18</ns11:dateOfBirth>
+            <ns11:dateOfDeath xml:lang="nl">1568-06-05</ns11:dateOfDeath>
+            <ns11:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2307854">
+                <ns9:prefLabel xml:lang="nl">La Hamaide</ns9:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfBirth>
+            <ns11:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230196">
+                <ns9:prefLabel xml:lang="en">Brussels</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Brussel (stad)</ns9:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfDeath>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202803">
+                <ns9:prefLabel xml:lang="en">Earl</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">graaf</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns9:altLabel xml:lang="nl">Egmond, Lamoraal graaf van</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Egmont Lamoraal graaf van</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Lamoraal (graaf van Egmond)</ns9:altLabel>
+            <ns9:prefLabel xml:lang="nl">Lamoraal graaf van Egmond</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301">
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/7016845" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q55" />
+            <ns10:sameAs rdf:resource="https://sws.geonames.org/2750405/" />
+            <ns9:prefLabel xml:lang="en">Netherlands</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Nederland</ns9:prefLabel>
+          </ns3:Place>
+          <ns3:TimeSpan rdf:about="https://id.rijksmuseum.nl/240852">
+            <ns9:prefLabel xml:lang="nl">Verbond der Edelen</ns9:prefLabel>
+          </ns3:TimeSpan>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

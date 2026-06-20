@@ -1,0 +1,304 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200109190</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:27:16Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260210</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>260211</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200109190#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200109190">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2102421" />
+                <dc:description xml:lang="en">Cornelia van Nijenrode was the daughter of a Japanese courtesan and a Dutch East India Company (VOC) merchant. She was married to the wealthy senior VOC merchant Cnoll. In the background is Surapati, one of their servants. He fled slavery several years after he was portrayed here. First, he fought in the service of the VOC, but later against it. Surapati then became a monarch in East Java and centuries later was proclaimed Indonesia’s national hero.</dc:description>
+                <dc:description xml:lang="nl">Cornelia van Nijenrode was de dochter van een Japanse courtisane en een VOC-koopman, en getrouwd met de rijke opperkoopman Cnoll. Op de achtergrond staat Surapati, een van hun bedienden. Hij ontvluchtte de slavernij een aantal jaar nadat hij hier geschilderd werd. Eerst vocht hij in dienst van, maar later tegen de VOC. Daarna werd Surapati vorst op Oost-Java. Eeuwen later werd hij uitgeroepen tot nationale held van Indonesië.</dc:description>
+                <dc:identifier>SK-A-4062</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200414730" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/210143974" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21042670" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21060717" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21060720" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21060721" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21060722" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221202" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22129" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2213182" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221532" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221848" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22192" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/230655" />
+                <dc:title xml:lang="en">Pieter Cnoll, Cornelia van Nijenrode, hun dochters en twee tot slaaf gemaakte bedienden</dc:title>
+                <dc:title xml:lang="en">Pieter Cnoll, Cornelia van Nijenrode, their Daughters and Two Enslaved Servants</dc:title>
+                <dc:title xml:lang="nl">Pieter Cnoll, Cornelia van Nijenrode, hun dochters en twee tot slaaf gemaakte bedienden</dc:title>
+                <dc:title xml:lang="nl">Pieter Cnoll, Cornelia van Nijenrode, their Daughters and Two Enslaved Servants</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:alternative xml:lang="en">Pieter Cnoll, Cornelia van Nijenrode, their Daughters and Two Enslaved Servants</ns5:alternative>
+                <ns5:alternative xml:lang="en">Pieter Cnoll. Senior Merchant of Batavia, his Wife Cornelia van Nijenroode and their Daughters Catharina (b. 1653) en Hester (b. 1659)</ns5:alternative>
+                <ns5:alternative xml:lang="nl">Pieter Cnoll, Cornelia van Nijenrode, hun dochters en twee tot slaaf gemaakte bedienden</ns5:alternative>
+                <ns5:alternative xml:lang="nl">Pieter Cnoll. Eerste opperkoopman te Batavia, zijn echtgenote Cornelia van Nieuwenrode en hun dochters Catharina (geb. 1653) en Hester (geb. 1659)</ns5:alternative>
+                <ns5:alternative xml:lang="nl">Pieter Cnoll. Eerste opperkoopman te Batavia, zijn echtgenote Cornelia van Nijenroode en hun dochters Catharina (geb. 1653) en Hester (geb. 1659)</ns5:alternative>
+                <ns5:created xml:lang="en">1665</ns5:created>
+                <ns5:created xml:lang="nl">1665</ns5:created>
+                <ns5:extent xml:lang="en">height 132 cm x width 190.5 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 141.5 cm x width 201.5 cm x thickness 7.5 cm</ns5:extent>
+                <ns5:extent xml:lang="en">weight 23 kg</ns5:extent>
+                <ns5:extent xml:lang="nl">doek: hoogte 132 cm x breedte 190,5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">lijst +sch.: gewicht (eigenschap) 23 kg</ns5:extent>
+                <ns5:extent xml:lang="nl">lijst: hoogte 141,5 cm x breedte 201,5 cm x dikte 7,5 cm (drager incl. lijst)</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260210" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260211" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100987" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301101023" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301120564" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144095" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144234" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301151249" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301185785" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301185790" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3011873" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301239395" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301248206" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301253770" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301253771" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301309871" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30141704" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015253" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30178660" />
+                <ns5:isReferencedBy>Documentatiemap: aantekeningen R. van Luttervelt (voor 1963).</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">Inv.; collectie Norman Armour (1887-1982), Den Haag, 1921;{Note RKD.}…; private collection, France;{Note RMA.}..; the dealer J. Kugel. Paris;{Note RMA.} from whom, to the dealer N. Israël, Amsterdam, fl. 5,200, to the museum, 1961</ns5:provenance>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/FWAMr/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/FWAMr" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/FWAMr/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4062--1a40b77e3e7565108760dfb20b6a55e0">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260210">
+            <ns7:prefLabel xml:lang="en">Against Opacity</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Against Opacity</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260211">
+            <ns7:prefLabel xml:lang="en">Indonesian heritage</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Indisch erfgoed</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns7:prefLabel xml:lang="en">RijksXL</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">RijksXL</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns7:prefLabel xml:lang="en">biografic</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">biografisch</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns7:prefLabel xml:lang="en">paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderijen</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns7:prefLabel xml:lang="en">canvas</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">doek</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns7:prefLabel xml:lang="en">painting</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderij</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns7:prefLabel xml:lang="en">oil paint (paint)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">olieverf</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221202">
+            <ns8:sameAs rdf:resource="https://iconclass.org/42B74" />
+            <ns7:altLabel>42B74</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">family group, especially parents with their child(ren)</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22129">
+            <ns8:sameAs rdf:resource="https://iconclass.org/41D262" />
+            <ns7:altLabel>41D262</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">fan</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2213182">
+            <ns8:sameAs rdf:resource="https://iconclass.org/46A18" />
+            <ns7:altLabel>46A18</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">slavery; serfs and enslaved persons</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221532">
+            <ns8:sameAs rdf:resource="https://iconclass.org/41A6711" />
+            <ns7:altLabel>41A6711</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">flowers in a vase</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221848">
+            <ns8:sameAs rdf:resource="https://iconclass.org/42F5" />
+            <ns7:altLabel>42F5</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">house personnel, servants</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22192">
+            <ns8:sameAs rdf:resource="https://iconclass.org/34B11" />
+            <ns7:altLabel>34B11</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">dog</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/FWAMr">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210143974">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/285566281" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q2915833" />
+            <ns9:dateOfBirth xml:lang="nl">voor 1660</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1706-12-05</ns9:dateOfDeath>
+            <ns9:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301529">
+                <ns7:prefLabel xml:lang="nl">Bali</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfBirth>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23024942">
+                <ns7:prefLabel xml:lang="nl">Bangil</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2207895">
+                <ns7:prefLabel xml:lang="en">revolutionary</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">revolutionair</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="nl">Untung Surapati</ns7:altLabel>
+            <ns7:prefLabel xml:lang="nl">Surapati</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2102421">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/95978509" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500045196" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q1530111" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/17478" />
+            <ns9:dateOfDeath xml:lang="nl">1676-03</ns9:dateOfDeath>
+            <ns9:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns7:prefLabel xml:lang="en">Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Amsterdam</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfBirth>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230655">
+                <ns8:sameAs rdf:resource="http://vocab.getty.edu/tgn/7002854" />
+                <ns7:prefLabel xml:lang="en">Batavia</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Batavia</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns7:prefLabel xml:lang="en">painter</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">schilder</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Coeman, Jacob</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Coeman, Jacob Jansz</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Coeman, Jacob</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Jacob Jansz Coeman</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Jacob Coeman</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Jacob Coeman</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21042670">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/131493728" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q159766" />
+            <ns7:altLabel xml:lang="nl">VOC</ns7:altLabel>
+            <ns7:prefLabel xml:lang="nl">Verenigde Oostindische Compagnie</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21060717">
+            <ns9:dateOfBirth xml:lang="nl">1659</ns9:dateOfBirth>
+            <ns7:altLabel xml:lang="nl">Cnoll, Hester</ns7:altLabel>
+            <ns7:prefLabel xml:lang="nl">Hester Cnoll</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21060720">
+            <ns9:dateOfBirth xml:lang="nl">1653</ns9:dateOfBirth>
+            <ns7:altLabel xml:lang="nl">Cnoll, Catharina</ns7:altLabel>
+            <ns7:prefLabel xml:lang="nl">Catharina Cnoll</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21060721">
+            <ns9:dateOfBirth xml:lang="nl">1629</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">ca. 1692</ns9:dateOfDeath>
+            <ns9:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/23068" />
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301">
+                <ns7:prefLabel xml:lang="en">Netherlands</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Nederland</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns7:altLabel xml:lang="nl">Nijenroode, Cornelia van</ns7:altLabel>
+            <ns7:prefLabel xml:lang="nl">Cornelia van Nijenroode</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21060722">
+            <ns9:dateOfBirth xml:lang="nl">ca. 1625</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1672-02-18</ns9:dateOfDeath>
+            <ns9:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230132">
+                <ns7:prefLabel xml:lang="en">Delft</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Delft</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfBirth>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230655">
+                <ns8:sameAs rdf:resource="http://vocab.getty.edu/tgn/7002854" />
+                <ns7:prefLabel xml:lang="en">Batavia</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Batavia</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2206354">
+                <ns7:prefLabel xml:lang="nl">opperkoopman</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="nl">Cnoll, Pieter</ns7:altLabel>
+            <ns7:prefLabel xml:lang="nl">Pieter Cnoll</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns7:prefLabel>Rijksmuseum</ns7:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/23068">
+            <ns7:prefLabel xml:lang="nl">Hirado</ns7:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

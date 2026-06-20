@@ -1,0 +1,150 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20024301</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:05:08Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260245</ns0:setSpec>
+        <ns0:setSpec>260247</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261136</ns0:setSpec>
+        <ns0:setSpec>261223</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20024301#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20024301">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="nl">Pot van aardewerk met een brede, uitlopende nek en een ronde onderzijde, beschilderd in rood. Op de buik en de nek een spiraalpatroon. Twee chips in de rand.</dc:description>
+                <dc:identifier>AK-MAK-1237</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221128" />
+                <dc:title xml:lang="en">Jar with a spiraling pattern</dc:title>
+                <dc:title xml:lang="nl">Pot met een spiraalpatroon</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220111" />
+                <ns5:created xml:lang="en">c. -3000 - c. -2000</ns5:created>
+                <ns5:created xml:lang="nl">ca. -3000 - ca. -2000</ns5:created>
+                <ns5:extent xml:lang="en">diameter 24.3 cm</ns5:extent>
+                <ns5:extent xml:lang="en">diameter 31.5 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 44.6 cm x weight 6.9 kg</ns5:extent>
+                <ns5:extent xml:lang="nl">buik: diameter 31,5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 44,6 cm x gewicht (eigenschap) 6,9 kg</ns5:extent>
+                <ns5:extent xml:lang="nl">rand: diameter 24,3 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260245" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260247" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261136" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261223" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30112489" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301303749" />
+                <ns5:isReferencedBy>Cat. tent. Discovery of a lost Bronze Age : Ban Chiang : an exhibition organized by the University Museum, University of Pennsylvania, the Smithsonian Institution Traveling Exhibition Service, the National Museums Division, Department of Fine Arts, Thailand, 1974.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220114" />
+                <ns5:provenance xml:lang="en">…; purchased from the dealer Aalderink, Amsterdam, by the Vereniging van Vrienden der Aziatische Kunst, 1975;{Note RMA.} from whom on loan to the museum, 1975</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23031" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204040" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2207006" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2207029" />
+                <ns7:spn xml:lang="en">On loan from the Royal Asian Art Society in The Netherlands (purchase kunsthandel Aalderink, 1975)</ns7:spn>
+                <ns7:spn xml:lang="nl">Bruikleen van de Koninklijke Vereniging van Vrienden der Aziatische Kunst (aankoop kunsthandel Aalderink, 1975)</ns7:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/dEEIh/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/dEEIh" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/dEEIh/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/AK-MAK-1237--419ff002f591879ccfed9b9a2fc0b3f6">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/23031">
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/7032405" />
+            <ns9:prefLabel xml:lang="nl">Ban Chiang</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260245">
+            <ns9:prefLabel xml:lang="en">Asian ceramics</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Aziatische keramiek</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260247">
+            <ns9:prefLabel xml:lang="en">friends asian art</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">vrienden aziatische kunst</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261136">
+            <ns9:prefLabel xml:lang="nl">Zuidoost-Azië, vasteland (collectie)</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261223">
+            <ns9:prefLabel xml:lang="en">Asian ceramics</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Aziatische keramiek</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220111">
+            <ns9:prefLabel xml:lang="en">pot</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">pot</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220114">
+            <ns9:altLabel xml:lang="nl">gebakken aarde</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">earthenware</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">aardewerk (materiaal)</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2204040">
+            <ns9:altLabel xml:lang="nl">geschilderd</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">paint</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">schilderen</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2207006">
+            <ns9:altLabel xml:lang="nl">gebakken</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">fired</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">bakken</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2207029">
+            <ns9:altLabel xml:lang="nl">gevormd</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">formed</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">vormen</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221128">
+            <ns10:sameAs rdf:resource="https://iconclass.org/48AA9831" />
+            <ns9:altLabel>48AA9831</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">foliage, tendrils, branches ~ ornament - AA - stylized</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/dEEIh">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns9:altLabel xml:lang="nl">Anon</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">anonymous</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">anoniem</ns9:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

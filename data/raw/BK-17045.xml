@@ -1,0 +1,202 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200113729</ns0:identifier>
+        <ns0:datestamp>2026-06-08T01:21:51Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26128</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200113729#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200113729">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="en">This miniature altar is one of the most beautiful examples of French goldsmiths’ work from the period around 1400. It doubtless belonged to someone associated with the Paris court. Seeing Christ’s tormented body, the owner could meditate on his sufferings at any time.</dc:description>
+                <dc:description xml:lang="nl">Dit miniatuuraltaar is een van de fraaiste voorbeelden van Franse edelsmeedkunst van omstreeks 1400. De bezitter was zonder twijfel iemand uit Parijse hofkringen. Bij het zien van het gekwelde lichaam van Christus kon deze op elk moment mediteren over diens lijden.</dc:description>
+                <dc:identifier>BK-17045</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211015" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211422" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211423" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211424" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211425" />
+                <dc:title xml:lang="en">Reliekhouder in de vorm van een vleugelaltaar</dc:title>
+                <dc:title xml:lang="en">Reliquary in the form of a triptych</dc:title>
+                <dc:title xml:lang="nl">Reliekhouder in de vorm van een vleugelaltaar</dc:title>
+                <dc:title xml:lang="nl">Reliquary in the form of a triptych</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201252" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220587" />
+                <ns5:created xml:lang="en">c. 1400 - 1410</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1400 - 1410</ns5:created>
+                <ns5:extent xml:lang="en">height 12.5 cm x width 12.7 cm x width 7 cm x depth 2.6 cm x weight 378 g</ns5:extent>
+                <ns5:extent xml:lang="en">width 7 cm x depth 2.6 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">grondvlak: breedte 7 cm x diepte 2,6 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 12,5 cm x breedte 12,7 cm (maat met deurtjes open) x breedte 7 cm (maat met deurtjes gesloten) x diepte 2,6 cm x gewicht (eigenschap) 378 g</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26128" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2622621" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30110495" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301109483" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30111114" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301129565" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301130754" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30113597" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301210761" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301237412" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244089" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244300" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301272373" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301272374" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30144254" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30145965" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30147824" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30147826" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30153298" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30158035" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30159076" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30175035" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30178391" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30183077" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30192622" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30198970" />
+                <ns5:isReferencedBy>T. Müller, E. Steingräber, 'Die französische Goldschmiedeplastik um 1400', Münchner Jahrbuch der bildenden Kunst 4 (1954), p. 29-79</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220237" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22045" />
+                <ns5:provenance xml:lang="en">…; collection Eugen Gutmann (1840-1925), Munich, 1912, 1913;{Von Falke 1912, pp. 4-5, no. 6, image 4 and 5; Paris 1913, pp. 124-5, no. 230.} …; collection Dr Fritz Mannheimer (1890-1939), Amsterdam and Paris, 1927;{Panofsky 1927, p. 277, image 22 and pp. 278-9.} from whom, fl. 6,350,000, &lt;em&gt;en bloc&lt;/em&gt;, to Artistic &amp; General Securities Ltd. as security for a loan from the Mendelssohn &amp; Co. Bank, but kept in usufruct, 1934;{NHA, 476, RMA Archive, inv. no. 2142, Recapitulatie der geïnventariseerde kunstvoorwerpen van wijlen Dr F. Mannheimer, undated, p. 33, no. Pr 1, Artistic no. 14/19; NHA, 233, Arrondissementsrechtbank Amsterdam, inv. no. 1365, “O.R. 256/1939, Faillissementsdossier: nalatenschap Dr. F. Mannheimer, 28 augustus 1939”, image 3, page 2.} purchased from Mendelssohn &amp; Co. Bank, &lt;em&gt;en bloc&lt;/em&gt;, by the Dienststelle Mühlmann, The Hague, for Adolf Hitler's Führermuseum, Linz, 1940;{Korthals Altes 1974, pp. 21-22.} war recuperation, SNK, 1945;{HNA, SNK Archive, 2.08.42, inv. no. 548.} on loan, with 1,702 other objects, from the DRVK to the museum, 1952;{Note RMA.} transferred to the museum, 1960</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230215" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204537" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206836" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206861" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/opxxI/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/opxxI" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/opxxI/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-17045--dff18e2c711742a46f1889fdb0c6990e">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/230215">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7008038" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q90" />
+            <ns8:prefLabel xml:lang="en">Paris</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Parijs</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26128">
+            <ns8:prefLabel xml:lang="nl">edele metalen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2201252">
+            <ns8:altLabel xml:lang="nl">reliekdrager</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">reliekhouder</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">reliekkist</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">reliekkruis</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">reliekschrijn</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">reliquary</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">reliquiarium</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220237">
+            <ns8:prefLabel xml:lang="en">gold (metal)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">goud</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22045">
+            <ns8:prefLabel xml:lang="nl">email</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2204537">
+            <ns8:altLabel xml:lang="nl">gegoten</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">casting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">gieten</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220587">
+            <ns8:prefLabel xml:lang="en">portable altar</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">reisaltaar</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2206836">
+            <ns8:altLabel xml:lang="nl">geëmailleerd</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">emailleren</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2206861">
+            <ns8:altLabel xml:lang="nl">gegraveerd</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">engraving</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">graveren (inkerven)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211015">
+            <ns9:sameAs rdf:resource="https://iconclass.org/11HH%28CATHERINE%29" />
+            <ns8:altLabel>11HH(CATHERINE)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">the virgin martyr Catherine of Alexandria; possible attributes: book, crown, emperor Maxentius, palm-branch, ring, sword, wheel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211422">
+            <ns9:sameAs rdf:resource="https://iconclass.org/73E791" />
+            <ns8:altLabel>73E791</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">coronation of Mary by God the Father</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211423">
+            <ns9:sameAs rdf:resource="https://iconclass.org/11H%28JOHN%20THE%20BAPTIST%29" />
+            <ns8:altLabel>11H(JOHN THE BAPTIST)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">John the Baptist; possible attributes: book, reed cross, baptismal cup, honeycomb, lamb, staff</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211424">
+            <ns9:sameAs rdf:resource="https://iconclass.org/73D73311" />
+            <ns8:altLabel>73D73311</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Man of Sorrows together with Mary and John</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211425">
+            <ns9:sameAs rdf:resource="https://iconclass.org/73D7332" />
+            <ns8:altLabel>73D7332</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Man of Sorrows supported or accompanied by mourning angels, 'Engelpietà'</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/opxxI">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns8:altLabel xml:lang="nl">Anon</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">anonymous</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">anoniem</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

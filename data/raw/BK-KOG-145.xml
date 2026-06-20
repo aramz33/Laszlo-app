@@ -1,0 +1,141 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200386711</ns0:identifier>
+        <ns0:datestamp>2026-06-08T20:30:51Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261157</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+        <ns0:setSpec>2601</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200386711#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200386711">
+                <dc:description xml:lang="nl">Musicerende dame en heer, 1757. Bruikleen Koninklijk Oudheidkundig Genootschap.</dc:description>
+                <dc:identifier>BK-KOG-145</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211123" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221167" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22140" />
+                <dc:title xml:lang="en">Wijnglas met een vrouw achter een spinet</dc:title>
+                <dc:title xml:lang="en">Wine glass with a woman at a spinet</dc:title>
+                <dc:title xml:lang="nl">Wijnglas met een vrouw achter een spinet</dc:title>
+                <dc:title xml:lang="nl">Wine glass with a woman at a spinet</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220190" />
+                <ns5:created xml:lang="en">1757</ns5:created>
+                <ns5:created xml:lang="en">c. 1750 - before 1757</ns5:created>
+                <ns5:created xml:lang="nl">1757</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1750 - voor 1757</ns5:created>
+                <ns5:extent xml:lang="en">height 23.2 cm x diameter 9.6 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 23,2 cm x diameter 9,6 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2601" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261157" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/262146" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301141954" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301149049" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301214043" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125617" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30140323" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30157334" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30157352" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30157512" />
+                <ns5:isReferencedBy>F. Hudig, 'Het glas van Willem Fortuyn', Oud Holland 47 (1930), p. 28-30.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2207803" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2202640" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204449" />
+                <ns7:spn xml:lang="en">On loan from the Koninklijk Oudheidkundig Genootschap</ns7:spn>
+                <ns7:spn xml:lang="nl">Bruikleen van het Koninklijk Oudheidkundig Genootschap</ns7:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/ZBjtN/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/ZBjtN" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/ZBjtN/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-KOG-145--ee926ae0def19e15345f5f3df802ea51">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2601">
+            <ns9:prefLabel xml:lang="nl">KOG</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns9:prefLabel xml:lang="en">RijksXL</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">RijksXL</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261157">
+            <ns9:prefLabel xml:lang="en">glass</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">glas</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220190">
+            <ns9:prefLabel xml:lang="nl">kelkglas</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202640">
+            <ns9:prefLabel xml:lang="en">stipple engraving</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">stippelgravure</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2204449">
+            <ns9:prefLabel xml:lang="en">glassblowing</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">glasblazen</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2207803">
+            <ns9:prefLabel xml:lang="en">glass</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">glas</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2211123">
+            <ns10:sameAs rdf:resource="https://iconclass.org/48C7523" />
+            <ns9:altLabel>48C7523</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">one person playing keyboard instrument</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221167">
+            <ns10:sameAs rdf:resource="https://iconclass.org/48C7331" />
+            <ns9:altLabel>48C7331</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">spinet, virginal</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22140">
+            <ns10:sameAs rdf:resource="https://iconclass.org/48A9876" />
+            <ns9:altLabel>48A9876</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">ornament ~ cartouche</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/ZBjtN">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns9:prefLabel>Rijksmuseum</ns9:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

@@ -1,0 +1,189 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20015937</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:29:28Z</ns0:datestamp>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>2616</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20015937#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20015937">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210625" />
+                <dc:description xml:lang="en">The Erythraean Sybil was a prophetess of classical antiquity who foretold the coming of Christ. Heemskerck depicted her here, on this left wing of a large altarpiece, as a young woman attired in fantasy clothing. The paint layer has become discoloured and transparent in places, whereby the underdrawing shines through the gown.</dc:description>
+                <dc:description xml:lang="nl">De sibylle Erythrea was een waarzegster uit de Oudheid die de komst van Christus zou hebben voorspeld. Heemskerck verbeeldde haar op dit linker luik van een groot altaarstuk als een jonge vrouw in fantasiekledij. De verflaag is hier en daar verkleurd en doorzichtig geworden, waardoor in het gewaad de ondertekening te zien is.</dc:description>
+                <dc:identifier>SK-A-1910</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21084869" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221938" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221939" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221940" />
+                <dc:title xml:lang="en">Sibylla Erythrea</dc:title>
+                <dc:title xml:lang="nl">Sibylla Erythrea</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220891" />
+                <ns5:created xml:lang="en">1564</ns5:created>
+                <ns5:created xml:lang="nl">1564</ns5:created>
+                <ns5:extent xml:lang="en">height 126 cm x width 76.5 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 141.5 cm x width 94 cm x depth 7.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">buitenmaat: hoogte 141,5 cm (incl. lijst) x breedte 94 cm (incl. lijst) x diepte 7,5 cm (incl. lijst)</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 126 cm x breedte 76,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2616" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301154610" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015253" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">? Commissioned by Matelief Dammasz for one of the churches or cloisters of Delft;{Harrison 1987, pp. 863, 866.} …; recorded in the Burgomasters’ Chamber, beside the chimney, Town Hall, Delft, 1667 (‘een deur van een Altaer-Tafel […] aen de ene zijde is een contrefeitsel met een seer Godtvruchtigh knielende Man met sijn Patroon St. Paulus achter hem staende, ende aen de ander zijde een van de tien Sybillen genaemt Sybilla Erythrea […] sittende in een Woestijne met een Boeck in haer handt’;{Van Bleyswijck 1667, p. 125.} recorded in the Burgomasters’ Chamber, beside the chimney, Town Hall, Delft, 1729;{Boitet 1729 (1972), p. 74.} sale, Property taken from the Town Hall of the City of Delft &lt;em&gt;et al.&lt;/em&gt; [section Town Hall, Delft], Amsterdam (C.F. Roos &lt;em&gt;et al.&lt;/em&gt;), 24 April 1860 &lt;em&gt;sqq.&lt;/em&gt;, no. 53, fl. 64, to Jonkheer Dr Jan Pieter Six (1824-99);{Copy RMA.} by whom lent to the museum, 1885 (SK-C-460); his sons Jonkheer Dr Jan Six (1857-1926) and Jonkheer Willem Six (1859-1919); by whom presented to the museum, 1900</ns5:provenance>
+                <ns6:spn xml:lang="en">Gift of the heirs of Jonkheer J.P. Six</ns6:spn>
+                <ns6:spn xml:lang="nl">Schenking van de erven van jhr. J.P. Six</ns6:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/RmTFS/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/RmTFS" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/RmTFS/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1910--a33d7a6db13076b04d019ea30d2ef458">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2616">
+            <ns8:prefLabel xml:lang="en">Early Netherlandish Paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Early Netherlandish Paintings</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns8:prefLabel xml:lang="en">panel</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">paneel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220891">
+            <ns8:prefLabel xml:lang="nl">zijpaneel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221938">
+            <ns9:sameAs rdf:resource="https://iconclass.org/11I2%28ERYTHRAEAN%29" />
+            <ns8:altLabel>11I2(ERYTHRAEAN)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Erythraean sibyl</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221939">
+            <ns9:sameAs rdf:resource="https://iconclass.org/11H%28PAUL%29" />
+            <ns8:altLabel>11H(PAUL)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">the apostle Paul of Tarsus; possible attributes: book, scroll, sword</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221940">
+            <ns9:sameAs rdf:resource="https://iconclass.org/31A2331" />
+            <ns8:altLabel>31A2331</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">kneeling on both knees</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/RmTFS">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210625">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/88717459" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500124291" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q538350" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/36851" />
+            <ns10:dateOfBirth xml:lang="nl">1498</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1574</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301836">
+                <ns8:prefLabel xml:lang="nl">Heemskerk</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230134">
+                <ns8:prefLabel xml:lang="en">Haarlem</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Haarlem</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Heemskerck, Maarten van</ns8:altLabel>
+            <ns8:altLabel xml:lang="en">Heemskerck, Martinus van</ns8:altLabel>
+            <ns8:altLabel xml:lang="en">Martinus van Heemskerck</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Heemskerck, Maarten van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Heemskerck, Maerten van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Heemskerck, Marten van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Heemskerck, Martinus van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Heemskerk, Maarten van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Maarten van Heemskerk</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Maerten van Heemskerck</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Marten van Heemskerck</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Martinus van Heemskerck</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Maarten van Heemskerck</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Maarten van Heemskerck</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21084869">
+            <ns8:altLabel xml:lang="nl">Dammasz, Matelief (I)</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Dammasz, Matelief</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Matelief Dammasz (I)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">Matelief Dammasz</ns8:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

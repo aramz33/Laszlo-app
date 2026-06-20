@@ -1,0 +1,150 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20080393</ns0:identifier>
+        <ns0:datestamp>2026-06-09T05:54:49Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26131</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20080393#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20080393">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="nl">Het voorwerp bestaat uit een ijzeren stang en een ijzeren splitpen en de volgende gegoten delen van geel koper: de hangring, de Mariafiguur met de op haar hoofd geklonken kroon en haar geklonken linkerhand met het Christuskind, de stam, waarop bovenaan ter afdekking een bolronde plaat is gebraseerd, en onderaan een ijzeren oog met twee nokken is geklonken (waardoor de stang gestoken dient te worden), de leeuwenkop met de trekring, de kraag. De min of meer achtvlakkige ronde hangring gaat onderaan over in een achtvlakkige holle pijp. De op de maansikkel geplaatste Mariafiguur is omgeven door een stralenkrans. Haar kleed en mantel zijn met geponste sterren versierd. Het haar reikt op de rug tot het middel. De kroon is samengesteld uit vijf fleurons. De hol- en bolrond geprofileerde stam heeft tussen de twee standringen een met een rib versierde afgeplatte bolvorm. De twee standringen hebben telkens acht inkepingen, die ongemerkt zijn, dan wel gemerkt zijn aan de bovenzijde met één t/m zeven punten. Boven de onderste standring bevindt zich nog één van de drie uitsteeksels, waarop de kraag geplaatst moet worden. In het onderste ronde, zich versmallende eind van de stam zijn twee openingen geboord. Deze corresponderen met de gaten in de enigszins ovale aanzet van de leeuwenkop. De leeuwenkop dekt de onderkant van de stam af. In de muil van de leeuw hangt de ring, waarvan de einden niet aaneen zijn geklonken. Door de stam, de Mariafiguur en de hangring is de ronde smeedijzeren stang gestoken, die onderaan een rond plat eind heeft en bovenaan is voorzien van de spleet, waardoor de splitpen is gestoken. De ronde zich naar boven toe verbredende kraag is geprofileerd en tevens versierd met fijne gegroefde ringen. De Mariafiguur mist haar rechterhand met de scepter.</dc:description>
+                <dc:identifier>BK-NM-10798-A</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211324" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211325" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2301192" />
+                <dc:title xml:lang="nl">Stam van kaarsenkroon met Maria met Christuskind</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220283" />
+                <ns5:created xml:lang="en">c. 1525 - c. 1550</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1525 - ca. 1550</ns5:created>
+                <ns5:extent xml:lang="en">width 37 cm x height 33 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">breedte 37 cm x hoogte 33 cm (met kaarsenhouder)</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/200112403" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26131" />
+                <ns5:isReferencedBy>Documentatiemap.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220144" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22054" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23012" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2202969" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204537" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204578" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2207956" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/gJvvb/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/gJvvb" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/gJvvb/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-NM-10798-A--6682013a2185cb682a86ea5b39caab26">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/23012">
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q6581823" />
+            <ns8:prefLabel xml:lang="en">Southern Netherlands</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Zuidelijke Nederlanden</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26131">
+            <ns8:prefLabel xml:lang="nl">onedele metalen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220144">
+            <ns8:prefLabel xml:lang="en">iron (metal)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">ijzer</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220283">
+            <ns8:altLabel xml:lang="nl">kaarsenkroon</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">lichtkroon</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">chandelier</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">kroonluchter</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202969">
+            <ns8:altLabel xml:lang="nl">geklonken</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">riveted</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">klinken (bevestigen)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2204537">
+            <ns8:altLabel xml:lang="nl">gegoten</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">casting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">gieten</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2204578">
+            <ns8:altLabel xml:lang="nl">gesmeed</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">forging</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">smeden</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22054">
+            <ns8:altLabel xml:lang="en">brass (alloy)</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">geelkoper</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">brass (alloy)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">messing</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2207956">
+            <ns8:prefLabel xml:lang="en">brazed</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">braseren</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211324">
+            <ns9:sameAs rdf:resource="https://iconclass.org/47I4221" />
+            <ns8:altLabel>47I4221</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">vine-tendril, leaf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211325">
+            <ns9:sameAs rdf:resource="https://iconclass.org/11F4122" />
+            <ns8:altLabel>11F4122</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Mary standing (or half-length), the Christ-child sitting on her arm (Christ-child to Mary's left)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/gJvvb">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns8:altLabel xml:lang="nl">Anon</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">anonymous</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">anoniem</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301192">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/1047635" />
+            <ns8:prefLabel xml:lang="nl">Barneveld</ns8:prefLabel>
+            <ns10:lat>5.583333</ns10:lat>
+            <ns10:long>52.133333</ns10:long>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

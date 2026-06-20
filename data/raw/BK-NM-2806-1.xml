@@ -1,0 +1,125 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20016039</ns0:identifier>
+        <ns0:datestamp>2026-06-08T01:11:58Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26131</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20016039#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20016039">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="en">Two figures, from St Mary's Church, Utrecht. Bronze. Germany, c. 1130 - 1170.</dc:description>
+                <dc:description xml:lang="nl">Twee figuren, afkomstig uit de Mariakerk te Utrecht. Brons. Duitsland, ca. 1130 - 1170.</dc:description>
+                <dc:identifier>BK-NM-2806-1</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20016040" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20080484" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211315" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221270" />
+                <dc:title xml:lang="nl">Figuur, afkomstig uit de Mariakerk te Utrecht</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220297" />
+                <ns5:created xml:lang="en">c. 1125 - c. 1175</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1125 - ca. 1175</ns5:created>
+                <ns5:extent xml:lang="en">height 18.9 cm x height 24 cm x width 12.4 cm x depth 6.2 cm x depth 7 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 18,9 cm x hoogte 24 cm (afmeting inclusief (oude) sokkel) x breedte 12,4 cm x diepte 6,2 cm x diepte 7 cm (afmeting inclusief (oude) sokkel)</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26131" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301142308" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144621" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301145688" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244089" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244300" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125313" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125314" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30180656" />
+                <ns5:isReferencedBy>D. van der Kellen, 'Het Nederlandsch Museum voor Geschiedenis en Kunst te 's Gravenhage', Eigen Haard (1879), p. 70.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Documentatiemap.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>H. Halbertsma, ‘De zogenaamde afgodsbeeldjes van St. Marie te Utrecht’, De Vrije Fries 46 (1964), pp. 70-85</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Lexicon Mythologicum Haviniae 1828, p. 603, 764.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Overijsselse Almanak 1841, p. 26.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22013" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204537" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/zrPsm/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/zrPsm" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/zrPsm/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-NM-2806-1--d13be30d6e51ac318839090d196f7c1c">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26131">
+            <ns8:prefLabel xml:lang="nl">onedele metalen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22013">
+            <ns8:prefLabel xml:lang="en">bronze (metal)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">brons</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220297">
+            <ns8:prefLabel xml:lang="en">figure</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">beeld</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2204537">
+            <ns8:altLabel xml:lang="nl">gegoten</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">casting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">gieten</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211315">
+            <ns9:sameAs rdf:resource="https://iconclass.org/31A222" />
+            <ns8:altLabel>31A222</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">chest, bust</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221270">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41D221%28HAT%29%28%2B81%29" />
+            <ns8:altLabel>41D221(HAT)(+81)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">head-gear: hat (+ men's clothes)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/zrPsm">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns8:altLabel xml:lang="nl">Anon</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">anonymous</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">anoniem</ns8:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

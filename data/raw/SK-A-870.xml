@@ -1,0 +1,165 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20026079</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:15:56Z</ns0:datestamp>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>26118</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20026079#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20026079">
+                <dc:creator>
+                  <ns3:Agent rdf:nodeID="Nd69c5620303c465f8bdba4103b0e488c" />
+                </dc:creator>
+                <dc:description xml:lang="nl">Portret van Maria de' Medici (1573-1642), echtgenote van Hendrik IV, koning van Frankrijk. Staande, ten voeten uit onder een baldakijn, in een gewaad versierd met Franse lelies en afgezet met hermelijn. Herhaling van het origineel in het Louvre.</dc:description>
+                <dc:identifier>SK-A-870</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2107962" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221140" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221223" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221295" />
+                <dc:title xml:lang="en">Portrait of Marie de Médicis (1575-1642), Queen of France, in Robes of State</dc:title>
+                <dc:title xml:lang="nl">Portret van Maria de' Medici (1573-1642), koningin van Frankrijk</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220893" />
+                <ns5:created xml:lang="en">c. 1610</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1610</ns5:created>
+                <ns5:extent xml:lang="en">outer size: depth 9 cm (support incl. frame)</ns5:extent>
+                <ns5:extent xml:lang="en">support: height 282 cm x width 215 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">buitenmaat: diepte 9 cm (drager incl. SK-L-4431)</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 282 cm x breedte 215 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26118" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">…; transferred from the Mauritshuis, The Hague,{Not listed in catalogues (1822-74).} to the Nederlandsch Museum voor Geschiedenis en Kunst, The Hague, 1876 (inv. no. 3039); transferred to the museum, 1885; on loan to the Dutch Embassy, Paris, from 1923; on loan through the DRVK, 1953-71</ns5:provenance>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/XYfaM/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/XYfaM" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/XYfaM/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-870--d01f3ecbc4e517f8fedcafb3166bb0d0">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns7:prefLabel xml:lang="en">biografic</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">biografisch</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26118">
+            <ns7:prefLabel xml:lang="en">Flemish Paintings in the Rijksmuseum</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Flemish Paintings in the Rijksmuseum</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns7:prefLabel xml:lang="en">paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderijen</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns7:prefLabel xml:lang="en">canvas</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">doek</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns7:prefLabel xml:lang="en">painting</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderij</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220893">
+            <ns7:prefLabel xml:lang="en">replica</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">replica</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns7:prefLabel xml:lang="en">oil paint (paint)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">olieverf</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221140">
+            <ns8:sameAs rdf:resource="https://iconclass.org/41A4231" />
+            <ns7:altLabel>41A4231</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">canopy, baldachin</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221223">
+            <ns8:sameAs rdf:resource="https://iconclass.org/44B1511" />
+            <ns7:altLabel>44B1511</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">queen, empress, etc. (wife of a ruler)</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221295">
+            <ns8:sameAs rdf:resource="https://iconclass.org/61BB2%28%2B55%29" />
+            <ns7:altLabel>61BB2(+55)</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">historical persons - BB - woman (+ full length portrait)</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/XYfaM">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2107962">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/220672232" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500122326" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q182021" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/439007" />
+            <ns9:dateOfBirth xml:lang="nl">1573-04-26 - 1575-04-26</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1642-07-03</ns9:dateOfDeath>
+            <ns9:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230351">
+                <ns7:prefLabel xml:lang="nl">Florence</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfBirth>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230364">
+                <ns7:prefLabel xml:lang="en">Cologne</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Keulen (stad)</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns7:prefLabel xml:lang="en">printmaker</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">prentmaker</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2205832">
+                <ns7:prefLabel xml:lang="nl">koningin</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Medici, Maria de'</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Maria de' Medici (koningin van Frankrijk)</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Medici, Maria de'</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Maria de' Medici</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Maria de' Medici</ns7:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

@@ -1,0 +1,190 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20026670</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:19:58Z</ns0:datestamp>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20026670#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20026670">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101681" />
+                <dc:description xml:lang="nl">De vredesonderhandelingen tussen de leider van de Batavieren Claudius Civilis en de Romeinse generaal Quintus Petillius Cerealis op de afgebroken brug. In de lucht Victoria met lauwerkransen voor beide leiders. Aan weerszijden van de brug wachten de soldaten van beide van legers.</dc:description>
+                <dc:identifier>SK-A-4853</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200414928" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21061122" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21061123" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2213602" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221575" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221577" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2401220" />
+                <dc:title xml:lang="en">The Peace Negotiations between Claudius Civilis and Quintus Petillius Cerealis on the Demolished Bridge.</dc:title>
+                <dc:title xml:lang="nl">De vredesonderhandelingen tussen Claudius Civilis en Quintus Petillius Cerealis op de afgebroken brug</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">1658 - 1662</ns5:created>
+                <ns5:created xml:lang="nl">1658 - 1662</ns5:created>
+                <ns5:extent xml:lang="en">depth 8.5 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 122 cm x width 112.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">buitenmaat: diepte 8,5 cm (drager incl. SK-L-1554)</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 122 cm x breedte 112,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2621170" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301106346" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301120570" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144159" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30114765" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301152272" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301157015" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301157111" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301157230" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301208536" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30134039" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30138368" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30147591" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015254" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30153898" />
+                <ns5:isReferencedBy>Gijs van der; Roelofs, Pieter J.A. Ham, Het late heldendom van Batavenleider Julius Civilis, uit: Geschiedenis Magazine, 50, 2015, 1, pagina p. 14-19 - afb. p. 17</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Jaarverslag Rijksmuseum (1978)</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Jaarverslag Rijksmuseum (1990), p. 63.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">…; the dealer W.M. Sabin, London, 1927;{Hofstede de Groot notes, no. 1057160, RKD.} …; sale, Miss Daubuz &lt;em&gt;et al.&lt;/em&gt; [anonymous section], London (Christie, Manson &amp; Woods), 23 November 1934, no. 103, to Wilde;{Copy RKD.} …; sale, London (Christie, Manson &amp; Woods), 2 June 1938, no. 130; …; collection Christianus Theodorus Franciscus Thurkow (1882-1970), The Hague, by 1956;{Leiden 1956, p. 22, no. 20.} his widow, Louise Thurkow-van Huffel (1900-87), The Hague; by whom donated to the museum, 1978</ns5:provenance>
+                <ns6:spn xml:lang="en">Gift of L. Thurkow-van Huffel, The Hague</ns6:spn>
+                <ns6:spn xml:lang="nl">Schenking van mevrouw L. Thurkow-van Huffel, Den Haag</ns6:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/cZygr/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/cZygr" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/cZygr/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4853--72d4657a46c0dc0ffe0709be3fda076b">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns8:prefLabel xml:lang="en">canvas</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">doek</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2213602">
+            <ns9:sameAs rdf:resource="https://iconclass.org/45A30" />
+            <ns8:altLabel>45A30</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">'Victoria'; 'Vittoria', 'Vittoria navale', 'Vittoria degl'antichi' (Ripa)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221575">
+            <ns9:sameAs rdf:resource="https://iconclass.org/45I41" />
+            <ns8:altLabel>45I41</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">negotiations for truce on a demolished bridge</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221577">
+            <ns9:sameAs rdf:resource="https://iconclass.org/98B%28CIVILIS%295" />
+            <ns8:altLabel>98B(CIVILIS)5</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">non-aggressive activities of Julius Claudius Civilis</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/cZygr">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101681">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/12575331" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500013764" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q374039" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/10080" />
+            <ns10:dateOfBirth xml:lang="nl">1616-06</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1680-07-24</ns10:dateOfDeath>
+            <ns10:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/230171" />
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns8:prefLabel xml:lang="en">Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Amsterdam</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Bol, Ferdinand</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Bol, Ferdinand</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Ferdinand Bol</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Ferdinand Bol</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21061122">
+            <ns8:prefLabel xml:lang="nl">Quintus Petillius Cerealis</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21061123">
+            <ns8:prefLabel xml:lang="nl">Claudius Civilis</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/230171">
+            <ns8:prefLabel xml:lang="en">Dordrecht</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Dordrecht</ns8:prefLabel>
+          </ns3:Place>
+          <ns3:TimeSpan rdf:about="https://id.rijksmuseum.nl/2401220">
+            <ns8:prefLabel xml:lang="nl">Bataafse Opstand</ns8:prefLabel>
+          </ns3:TimeSpan>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

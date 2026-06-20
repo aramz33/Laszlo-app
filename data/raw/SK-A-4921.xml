@@ -1,0 +1,184 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns11="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200410142</ns0:identifier>
+        <ns0:datestamp>2026-06-08T21:32:05Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260215</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>2616</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200410142#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200410142">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21046434" />
+                <dc:description xml:lang="en">Through paintings such as this, believers could follow the episodes of Christ’s Passion and identify with his pain and suffering. In the background, he collapses under the weight of the cross. Next he is stripped (lower right) and mocked (left); then soldiers cast lots for his clothes (bottom left). In an opening at upper centre, Jesus hangs on the cross.</dc:description>
+                <dc:description xml:lang="nl">Op schilderijen als deze Calvarieberg kon de gelovige de verschillende etappes van Jezus’ lijdensweg volgen en zich inleven in zijn pijn en wanhoop. Op de achtergrond bezwijkt hij onder de last van zijn kruis. Vervolgens wordt hij rechts vooraan ontkleed en links bespot; linksvoor dobbelen soldaten om zijn kleren. Op de open plek, middenachter, hangt Jezus aan het kruis.</dc:description>
+                <dc:identifier>SK-A-4921</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22116001" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211963" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221844" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221845" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221861" />
+                <dc:title xml:lang="en">Calvary</dc:title>
+                <dc:title xml:lang="en">De Calvarieberg</dc:title>
+                <dc:title xml:lang="nl">Calvary</dc:title>
+                <dc:title xml:lang="nl">De Calvarieberg</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">c. 1520</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1520</ns5:created>
+                <ns5:extent xml:lang="en">support: height 172.5 cm x width 119 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 172,5 cm (paneelmaat) x breedte 119 cm (paneelmaat)</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260215" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2616" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100933" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301101288" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301102856" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301197843" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244089" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244300" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30139512" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30145946" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015992" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30171287" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30173830" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30194940" />
+                <ns5:isReferencedBy>M.J. Friedländer, 'Die Brügger Leihausstellung von 1902', Repertorium für Kunstwissenschaft 26 (1903), p. 161</ns5:isReferencedBy>
+                <ns5:isReferencedBy>N. Beets, 'Nog eens 'Jan Wellens de Cock' en de zonen van Cornelis Engelbrechtsz: Pieter Cornelisz. Kunst, Cornelis Cornelisz. Kunst, Lucas Cornelisz. de Kock', Oud Holland 67 (1952), p. 15-17.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>N. Beets, 'Zestiende-eeuwsche kunstenaars: 4: Lucas Corneliszoon de Kock. De schilderijen van Lucas Cornelis de Kock en van Cornelis Cornelisz. Kunst. exeat Jan Wellens de Cock', Oud Holland 53 (1936), p. 71-72.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>P. Wescher, 'Um Jan de Cock', Zeitschrift für bildende Kunst 59 (1925-1926), p. 151-152.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22021" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">…; ? collection Hugh Robert Hughes (1827-1911), Kinmel Park, Clwyd, 1887;{London 1887, no. 200.} …; ? dealer, Sekeyan, Paris, 1918;{Winkler 1929, p. 164, note 6.} …; dealer, Reinier Willem Petrus de Vries, Amsterdam, c. 1920;{According to the catalogue for the British Rail Pension Fund sale, 5 July 1995, no. 24.} …; sale, Achillio Chiesa (Milan), Milan, April 1928;{According to the catalogue for the British Rail Pension Fund sale, 5 July 1995, no. 24; the sale catalogue has not been located.} …; from the dealer L. Bellini, Florence, to M. Ros, Zürich, 1933;{According to the catalogue for the British Rail Pension Fund sale, 5 July 1995, no. 24.} his grandson;{According to the catalogue for the British Rail Pension Fund sale, 5 July 1995, no. 24.} his sale, The British Rail Pension Fund &lt;em&gt;et al.&lt;/em&gt;, London (Sotheby’s), 5 July 1995, no. 24, £ 190,000, to the dealer Rob Smeets, Milan;{Copy Sotheby’s London.} from whom, fl. 1,500,000, to the museum, with support from the Vereniging Rembrandt, the Stichting Rijksmuseum, the VSBfonds and private donors, 1996; on loan to the Stedelijk Museum De Lakenhal, Leiden, 2004-10</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230105" />
+                <ns6:spn xml:lang="en">Purchased with the support of the Vereniging Rembrandt, with additional funding from the Prins Bernhard Fonds, the VSBfonds and the Rijksmuseum-Stichting</ns6:spn>
+                <ns6:spn xml:lang="nl">Aankoop met steun van de Vereniging Rembrandt, mede dankzij het Prins Bernhard Fonds, het VSBfonds en de Rijksmuseum-Stichting</ns6:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/pmWeN/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/pmWeN" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/pmWeN/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4921--3b4f47578662fdc039b347d87d3a030c">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/230105">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006809" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q43631" />
+            <ns8:prefLabel xml:lang="en">Leiden</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Leiden</ns8:prefLabel>
+            <ns10:lat>4.5</ns10:lat>
+            <ns10:long>52.15</ns10:long>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260215">
+            <ns8:prefLabel xml:lang="en">Vereniging Rembrandt</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Vereniging Rembrandt</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2616">
+            <ns8:prefLabel xml:lang="en">Early Netherlandish Paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Early Netherlandish Paintings</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22021">
+            <ns8:prefLabel xml:lang="en">wood (plant material)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">hout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22116001">
+            <ns9:sameAs rdf:resource="https://iconclass.org/73D522" />
+            <ns8:altLabel>73D522</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Christ standing near the cross</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211963">
+            <ns9:sameAs rdf:resource="https://iconclass.org/73D54" />
+            <ns8:altLabel>73D54</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">making of the cross ~ prelude to Christ's death on the cross</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221844">
+            <ns9:sameAs rdf:resource="https://iconclass.org/73D6411" />
+            <ns8:altLabel>73D6411</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Mary and John close together; sometimes Mary swooning ~ crucified Christ</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221845">
+            <ns9:sameAs rdf:resource="https://iconclass.org/73D6" />
+            <ns8:altLabel>73D6</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">the crucifixion of Christ: Christ's death on the cross; Golgotha (Matthew 27:45-58; Mark 15:33-45; Luke 23:44-52; John 19:25-38)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221861">
+            <ns9:sameAs rdf:resource="https://iconclass.org/73D415" />
+            <ns8:altLabel>73D415</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Christ meets Veronica, who has a cloth to wipe Christ's face</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/pmWeN">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21046434">
+            <ns11:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns11:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Cock, Pseudo Jan Wellens de</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Cock, Pseudo Jan Wellens de</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Pseudo Jan Wellens de Cock</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Pseudo Jan Wellens de Cock</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

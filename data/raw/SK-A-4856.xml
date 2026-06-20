@@ -1,0 +1,171 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20026546</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:19:10Z</ns0:datestamp>
+        <ns0:setSpec>260215</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20026546#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20026546">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2105457" />
+                <dc:description xml:lang="en">In early 1694 some 30 Dutch warships set sail for the Mediterranean. They were sent to protect a merchant fleet from French attacks. In the Straits of Gibraltar they ran into a heavy storm. Various ships sank or were seriously damaged, including the Hollandia, portrayed centre right in the painting.</dc:description>
+                <dc:description xml:lang="nl">Begin 1694 vertrokken ongeveer dertig oorlogsschepen naar de Middellandse Zee. Zij beschermden een handelsvloot tegen Franse aanvallen. In de Straat van Gibraltar kwamen zij in een zware storm terecht. Verschillende schepen zonken of raakten ernstig beschadigd, waaronder de Hollandia, te zien rechts van het midden van het schilderij.</dc:description>
+                <dc:identifier>SK-A-4856</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20069463" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21097447" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21097448" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221541" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2307061" />
+                <dc:title xml:lang="en">Ludolf Bakhuysen (1631–1708)</dc:title>
+                <dc:title xml:lang="en">Warships in a Heavy Storm</dc:title>
+                <dc:title xml:lang="nl">Ludolf Bakhuysen (1631–1708)</dc:title>
+                <dc:title xml:lang="nl">Warships in a Heavy Storm</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:alternative xml:lang="en">The Men-of-War 'Hollandia' (left) and 'Ridderschap' (right)imperilled during a Storm in the Strait of Gibraltar, 1-3 March 1694</ns5:alternative>
+                <ns5:alternative xml:lang="nl">De oorlogsschepen 'Hollandia' (links) en 'Ridderschap' (rechts) aan hogerwal tijdens de storm in de Straat van Gibraltar, 1-3 maart 1694</ns5:alternative>
+                <ns5:created xml:lang="en">c. 1695</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1695</ns5:created>
+                <ns5:extent xml:lang="en">depth 9 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 150 cm x width 227 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">buitenmaat: diepte 9 cm (drager incl. SK-L-6842)</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 150 cm x breedte 227 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260215" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301208897" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015254" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30187869" />
+                <ns5:isReferencedBy>Mauritshuis en Rijksdienst Beeldende Kunst, '"Een keuze" : een kleine en persoonlijke keuze van de gastconservator mr. drs. L.C. Brinkman uit de diverse aanwinsten die gedurende de laatste zeven jaar voor de Rijkscollectie zijn verworven',  Den Haag 1989, vouwblad nr. 20.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">…; collection E. Malling, 1917;{According to the catalogue for the sale, Amsterdam (Christie’s), 8 December 1983, no. 56.}…; sale, Abraham Cornelis Mees (1864-1950, Wassenaar), Amsterdam (Mak van Waay), 21 (22) January 1947 &lt;em&gt;sqq.&lt;/em&gt;, no. 1557, fl. 2,600;{Copy RKD.}…; sale, Amsterdam (Christie’s), 8 December 1983, no. 56;…; the dealer Rob Kattenburg, Amsterdam, 1984;{Delft 1984, p. 22.} from whom on loan to the museum, 1987 (inv. no. SK-C-1619); from whom, fl. 275,000, to the museum, with support from the Vereniging Rembrandt, 1988</ns5:provenance>
+                <ns6:spn xml:lang="en">Purchased with the support of the Vereniging Rembrandt</ns6:spn>
+                <ns6:spn xml:lang="nl">Aankoop met steun van de Vereniging Rembrandt</ns6:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/PGeVS/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/PGeVS" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/PGeVS/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4856--d0f10212a90c5670d591f3ae21b9b1d6">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260215">
+            <ns8:prefLabel xml:lang="en">Vereniging Rembrandt</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Vereniging Rembrandt</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns8:prefLabel xml:lang="en">canvas</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">doek</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221541">
+            <ns9:sameAs rdf:resource="https://iconclass.org/26C32" />
+            <ns8:altLabel>26C32</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">storm at sea</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/PGeVS">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2105457">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/40185031" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500004095" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q468214" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/3414" />
+            <ns10:dateOfBirth xml:lang="nl">1631</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1708-11-17</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230561">
+                <ns8:prefLabel xml:lang="nl">Emden</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns8:prefLabel xml:lang="en">Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Amsterdam</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Bakhuysen, Ludolf</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Backhuysen, Ludolph</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Bakhuizen, Ludolf</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Bakhuysen, Ludolf</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Bakhuysen</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Bakhuyzen, Ludolf</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Bakhuyzen</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Ludolf Bakhuizen</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Ludolf Bakhuyzen</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Ludolph Backhuysen</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Ludolf Bakhuysen</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Ludolf Bakhuysen</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21097447">
+            <ns8:prefLabel xml:lang="nl">Hollandia (schip)</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21097448">
+            <ns8:prefLabel xml:lang="nl">Ridderschap (schip)</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2307061">
+            <ns8:prefLabel xml:lang="nl">Straat van Gibraltar</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

@@ -1,0 +1,162 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns11="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200127947</ns0:identifier>
+        <ns0:datestamp>2026-06-08T03:15:28Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260250</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26151</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200127947#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200127947">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101216" />
+                <dc:description xml:lang="nl">Eenvoudig woonvertrek met boerengezin tijdens dagelijkse bezigheden. De boerin ontfermt zich over haar jongste kind terwijl een jongen aan tafel eet uit een kom en de boer een snee brood snijdt. Een andere jongen speelt met een hond. De ruimte staat vol met huishoudelijke voorwerpen en meubels.</dc:description>
+                <dc:identifier>RP-P-OB-12.742</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221397" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221448" />
+                <dc:title xml:lang="nl">Boerengezin in interieur</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/22040" />
+                <ns5:alternative xml:lang="nl">Het boerenhuishouden</ns5:alternative>
+                <ns5:created xml:lang="en">1647</ns5:created>
+                <ns5:created xml:lang="nl">1647</ns5:created>
+                <ns5:extent xml:lang="en">height 178 mm x width 159 mm</ns5:extent>
+                <ns5:extent xml:lang="nl">plaatrand: hoogte 178 mm x breedte 159 mm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260250" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26151" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2623223" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301104631" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301205232" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30144723" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30157649" />
+                <ns5:isReferencedBy>Hollstein Dutch 46-1(6)</ns5:isReferencedBy>
+                <ns5:isReferencedBy>The Illustrated Bartsch 46</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22020" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230134" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2202942" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/oRwNL/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/oRwNL" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/oRwNL/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/RP-P-OB-12.742--5ccbb75bbe1b712489f1c94a0c1a2e93">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260250">
+            <ns8:prefLabel xml:lang="en">prints</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">prenten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26151">
+            <ns8:prefLabel xml:lang="en">prints</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">prenten</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22020">
+            <ns8:prefLabel xml:lang="en">paper</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">papier (materiaal)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202942">
+            <ns8:altLabel xml:lang="nl">geëtst</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">omtrekets</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">etching</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">etsen</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22040">
+            <ns8:prefLabel xml:lang="en">print</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">prent</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221397">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41A2" />
+            <ns8:altLabel>41A2</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">interior of the house</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221448">
+            <ns9:sameAs rdf:resource="https://iconclass.org/42B71" />
+            <ns8:altLabel>42B71</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">family life at home</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/oRwNL">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101216">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/24760273" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500021654" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q352438" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/61082" />
+            <ns10:dateOfBirth xml:lang="nl">1610-12 - 1610-12-19</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1685-04-28</ns10:dateOfDeath>
+            <ns10:placeOfBirth />
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230134">
+                <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7007048" />
+                <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q9920" />
+                <ns8:prefLabel xml:lang="en">Haarlem</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Haarlem</ns8:prefLabel>
+                <ns11:lat>4.65</ns11:lat>
+                <ns11:long>52.366667</ns11:long>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Ostade, Adriaen van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Adriaan van Ostade</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Adriaen Jansz. van Ostade</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Ostade, Adriaan van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Ostade, Adriaen Jansz. van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Ostade, Adriaen van</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Adriaen van Ostade</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Adriaen van Ostade</ns8:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

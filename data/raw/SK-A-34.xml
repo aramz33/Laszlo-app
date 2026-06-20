@@ -1,0 +1,181 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200108218</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:19:33Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200108218#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200108218">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2105540" />
+                <dc:description xml:lang="en">The Amsterdam Town Hall (now the Royal Palace) on Dam Square counts as the most important historical and cultural monument of the 17th century in the Netherlands. The building symbolizes the tremendous growth and development the city experienced during that time. Gerrit Berckheyde here portrayed the Town Hall in all its glory while simultaneously conveying the hustle and bustle of the city’s main square.</dc:description>
+                <dc:description xml:lang="nl">Het stadhuis op de Dam (het huidige Koninklijk Paleis) geldt nog altijd als het belangrijkste historische en culturele monument uit de 17de eeuw. Het gebouw symboliseert de enorme groei en ontwikkeling van de stad Amsterdam. Gerrit Berckheyde heeft het stadhuis hier in al zijn glorie geportretteerd. Tegelijk geeft hij een indruk van de drukte en de bedrijvigheid op het centrale plein in de stad.</dc:description>
+                <dc:identifier>SK-A-34</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200415041" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211098" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221364" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2216133" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2301110" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2307244" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2307350" />
+                <dc:title xml:lang="en">Het stadhuis op de Dam in Amsterdam</dc:title>
+                <dc:title xml:lang="en">The Town Hall on Dam Square, Amsterdam</dc:title>
+                <dc:title xml:lang="nl">Het stadhuis op de Dam in Amsterdam</dc:title>
+                <dc:title xml:lang="nl">The Town Hall on Dam Square, Amsterdam</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">1672</ns5:created>
+                <ns5:created xml:lang="nl">1672</ns5:created>
+                <ns5:extent xml:lang="en">height 33.5 cm x width 41.5 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 47 cm x width 53.5 cm x depth 8 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">Afmetingen met lijst: hoogte 47 cm x breedte 53,5 cm x diepte 8 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 33,5 cm x breedte 41,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100494" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301108956" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301193916" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301193917" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301200094" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301209502" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301233519" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301233523" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015253" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30196586" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/opJfz/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/opJfz" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/opJfz/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-34--3f99043feeb029adac841df85558ec52">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns7:prefLabel xml:lang="en">RijksXL</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">RijksXL</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns7:prefLabel xml:lang="en">paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderijen</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns7:prefLabel xml:lang="en">canvas</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">doek</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns7:prefLabel xml:lang="en">painting</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderij</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns7:prefLabel xml:lang="en">oil paint (paint)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">olieverf</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2211098">
+            <ns8:sameAs rdf:resource="https://iconclass.org/25I144" />
+            <ns7:altLabel>25I144</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">square, place, circus, etc.</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221364">
+            <ns8:sameAs rdf:resource="https://iconclass.org/44B233" />
+            <ns7:altLabel>44B233</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">townhall</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2216133">
+            <ns8:sameAs rdf:resource="https://iconclass.org/46C148" />
+            <ns7:altLabel>46C148</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">animal-drawn sledge (Dutch: 'toeslede')</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/opJfz">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2105540">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/2742667" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500021923" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q576025" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/6743" />
+            <ns9:dateOfBirth xml:lang="nl">1638 - 1638-06-06</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1698-06-14</ns9:dateOfDeath>
+            <ns9:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/230134" />
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230134">
+                <ns7:prefLabel xml:lang="en">Haarlem</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Haarlem</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns7:prefLabel xml:lang="en">painter</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">schilder</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns7:prefLabel xml:lang="en">draftsman (artist)</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">tekenaar</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Berckheyde, Gerrit</ns7:altLabel>
+            <ns7:altLabel xml:lang="en">Berckheyde</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Berckheijde, Gerrit Adriaansz.</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Berckheyde, Gerrit Adriaensz.</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Berckheyde, Gerrit Adriaensz</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Berckheyde, Gerrit</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Berckheyde</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Gerrit Adriaansz. Berckheijde</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Gerrit Adriaensz Berckheyde</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Gerrit Adriaensz. Berckheyde</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Gerrit Berckheyde</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Gerrit Berckheyde</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301110">
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q1419675" />
+            <ns7:prefLabel xml:lang="nl">Nieuwe Kerk (Amsterdam)</ns7:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2307244">
+            <ns7:prefLabel xml:lang="nl">Waag op de Dam</ns7:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2307350">
+            <ns7:prefLabel xml:lang="nl">Stadhuis van Amsterdam (1655-1808)</ns7:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

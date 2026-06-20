@@ -1,0 +1,199 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200108276</ns0:identifier>
+        <ns0:datestamp>2026-06-11T08:09:33Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200108276#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200108276">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21043093" />
+                <dc:description xml:lang="en">A young boy holds up a mirror for the woman in the satin gown, who gazes upward at a far more plainly dressed woman. In the 17th century, mirrors symbolized vanity and the transience of life. This painting serves as a cautionary reminder: youth and beauty are fleeting. Ter Borch’s sister, Gesina, also an artist, probably modelled for both women, and his brother Moses for the boy.</dc:description>
+                <dc:description xml:lang="nl">Een jongetje houdt de vrouw in de satijnen jurk een spiegel voor. Zij kijkt omhoog naar een vrouw, die juist eenvoudig is gekleed. De spiegel was in de 17de eeuw een teken van ijdelheid en vergankelijkheid. Dit schilderij is een waarschuwing: jeugd en schoonheid&lt;BR /&gt;zijn maar tijdelijk. Waarschijnlijk stond Ter Borchs zus Gesina, zelf ook kunstenaar, model voor beide vrouwen en zijn broer Moses voor de jongen.</dc:description>
+                <dc:identifier>SK-A-4039</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20073979" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21022056" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221219" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2212768" />
+                <dc:title xml:lang="en">Vrouw voor de spiegel</dc:title>
+                <dc:title xml:lang="en">Woman at a Mirror</dc:title>
+                <dc:title xml:lang="nl">Vrouw voor de spiegel</dc:title>
+                <dc:title xml:lang="nl">Woman at a Mirror</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">c. 1652</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1652</ns5:created>
+                <ns5:extent xml:lang="en">height 36.5 cm x width 28.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 36,5 cm (paneelmaat) x breedte 28,5 cm (paneelmaat)</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/262691" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100494" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301154394" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301194087" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015253" />
+                <ns5:isReferencedBy>J. Blanc, 'Confusion des genres. Des théories hollandaises de la &lt;peinture de genre&gt;', Revue de l'Art 161 (2008) nr. 3, p. 14, afb. 8.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">…; ? sale, Edward Coxe, (1748-1814, London), London (Peter Coxe), 23 April 1807 &lt;em&gt;sqq.&lt;/em&gt;, no. 32, (‘A Lady at her Toilette, with a female Attendant, and Boy waiting - grouped with great judgement, and finished with perfection and accuracy - the reflection in the Mirror happily accomplished’), £15 4s 6d, bought in;{Copy RKD.} ? sale, Edward Coxe &lt;em&gt;et al.&lt;/em&gt;, [section Edward Coxe], London (Mr Squibb), 13 (15) April 1815 &lt;em&gt;sqq.&lt;/em&gt;, no. 44, (‘A Lady at Her Toilet’), £16 16s [[M14]] ;{Copy RKD.} ...; ? sale, Easthoven, London (Mr Christie), 29 April 1826, no. 124, ? 22 gns (‘A Lady in a white satin dress, her back turned to the spectator, in conversation with her female attendant, while a servant boy holds a toilette glass, in which her face is pleasingly reflected; a very highly finished picture’);{Copy National Gallery, London.}...; anonymous sale, Amsterdam (J. de Vries), 19 July 1826, no. 54, (‘TERBURGH, (G.) hoog 3 p. 4 d., breed 2 p. 6 d. [34 x 26 cm] Paneel. Eene Dame in wit satijn gekleed, zittende met hare rug gekeerd naar den beschouwer, aan eene tafel, waarachter een jongeling staat, eene spiegel voor haar in de handen houdende, en waarin haar aangezigt is voorgesteld, nevens haar staat eene burgervrouw, alle ter halver lijve; […]’), fl. 260, to the dealer Jeronimo de Vries, Amsterdam;{Copy RKD.} …; anonymous sale, Rotterdam (A. Lamme), 26 April 1830, no. 68, (‘Eene Dame die haar toilet zit te maken, zeer prachtig in eene witte satijne met goud geborduurde japon gekleed, voor dezelve staat een spiegel waarin men haar gezigt ziet, verder eene kamenier en kamerjongen; […] Pan., h. 33 d. br. 24 d. [33 x 24 cm]’), fl. 280, to the dealer Lamme;{Copy RMA.}…; anonymous collection, London, 1906;{Amsterdam 1906, p. 7, no. 16.} …; collection Sir George Donaldson (1845-1925), London;{Hofstede de Groot V, 1912, p. 25, no 52.} …; ? Galerie C. Brunner, Paris, 1910, no 53, ‘Jeune dame a sa toilette, composition de trois figures, bois, H 33 x L 25 cent, Collection de M.A.L.´;{Hofstede de Groot notes, RKD.} …; purchased from the dealer Muller, Amsterdam, by Albert Lehman, Paris, through the mediation of Frits Lugt, between 1906 and 1911;{Note RMA; Paris 1911, p. 26, no. 150.} his sale, Paris (Galerie Georges Petit), 12 June 1925 sq.q, no. 289, frs. 325,000, to the dealer Féral;{Copy RMA.}…; collection R. Schumann, Paris, after 1925;{Note RMA.}…; collection Etienne Nicolas (1870-1960, Paris), 1937;{Note RMA.} from whom, fl. 38,000, to Frederik Schmidt-Degener, for Isaac de Bruijn (1872-1953), Muri near Bern, June 1937;{Note RMA.} donated to the museum by Isaäc de Bruijn and his wife, Johanna Geertruida de Bruijn-van der Leeuw (1877-1960), Spiez and Muri, near Bern, 1949, but kept in usufruct;{Note RMA.} transferred to the museum, 1961</ns5:provenance>
+                <ns6:spn xml:lang="en">De Bruijn-van der Leeuw Bequest, Muri, Switzerland</ns6:spn>
+                <ns6:spn xml:lang="nl">Legaat van de heer en mevrouw De Bruijn-van der Leeuw, Muri, Zwitserland</ns6:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/hXWwz/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/hXWwz" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/hXWwz/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4039--8791912c6a41ba132fc543660ef1f9d9">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns8:prefLabel xml:lang="en">panel</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">paneel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221219">
+            <ns9:sameAs rdf:resource="https://iconclass.org/31A5111" />
+            <ns8:altLabel>31A5111</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">looking in the mirror; contemplation of own beauty</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2212768">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41D211%28%2B82%29" />
+            <ns8:altLabel>41D211(+82)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">dress, gown (+ women's clothes)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/hXWwz">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21022056">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/80602742" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500021244" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q1519218" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/10683" />
+            <ns10:dateOfBirth xml:lang="nl">ca. 1633-11-15</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1690-04-16</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230180">
+                <ns8:prefLabel xml:lang="nl">Zwolle</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230200">
+                <ns8:prefLabel xml:lang="en">Deventer</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Deventer</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Borch, Gesina ter</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Borch, Geesien</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Borch, Gesina ter</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Geesien Borch</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Gesina Terborch</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Terborch, Gesina</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Gesina ter Borch</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Gesina ter Borch</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21043093">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/54432423" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500017511" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q346808" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/10682" />
+            <ns10:dateOfBirth xml:lang="nl">1617-12</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1681-12-08</ns10:dateOfDeath>
+            <ns10:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/230180" />
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230200">
+                <ns8:prefLabel xml:lang="en">Deventer</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Deventer</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Borch, Gerard ter (II)</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Borch jr., Gerard ter</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Borch, Gerard ter (II)</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Gerard Ter Borch jr.</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Gerard Terborch (de Jonge)</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Gerard Terburg</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Gerard ter Borch jr.</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Ter Borch jr., Gerard</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Terborch, Gerard (de Jonge)</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Terburg, Gerard</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Gerard ter Borch (II)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Gerard ter Borch (II)</ns8:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

@@ -1,0 +1,243 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200113559</ns0:identifier>
+        <ns0:datestamp>2026-06-08T01:20:48Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260213</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26128</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200113559#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200113559">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21043614" />
+                <dc:description xml:lang="en">This table ornament is an ode to the Earth and all that it brings forth, as well as an unsurpassed display of artistic and technical skill. The stem of the dish represents Mother Earth. She is surrounded by flowers, herbs and small animals – all cast from specimens collected in the wild. The lives of actual animals were sacrificed to model the young grass snakes and lizards.</dc:description>
+                <dc:description xml:lang="nl">Dit tafelstuk is een lofzang op de aarde en alles wat zij voortbrengt, en tegelijkertijd een ongeëvenaard voorbeeld van artistiek en technisch machtsvertoon. De stam van de schaal verbeeldt Moeder Aarde. Zij is omgeven door bloemen, kruiden en kleine dieren – allemaal afgegoten naar in het wild verzamelde exemplaren. Voor de modellen van jonge ringslangen en hagedisjes hebben enkele dieren het leven moeten laten.</dc:description>
+                <dc:identifier>BK-17040-A</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200415401" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211404" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211405" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211406" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221289" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221532" />
+                <dc:title xml:lang="en">Table ornament</dc:title>
+                <dc:title xml:lang="en">Tafelstuk</dc:title>
+                <dc:title xml:lang="nl">Table ornament</dc:title>
+                <dc:title xml:lang="nl">Tafelstuk</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201581" />
+                <ns5:created xml:lang="en">1549</ns5:created>
+                <ns5:created xml:lang="nl">1549</ns5:created>
+                <ns5:extent xml:lang="en">height 99.8 cm x diameter 46 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 99,8 cm x diameter 46 cm</ns5:extent>
+                <ns5:hasPart rdf:resource="https://id.rijksmuseum.nl/200720502" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260213" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26128" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2625202" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100933" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301105255" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301118054" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301126546" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30113007" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301133870" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301140317" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301141406" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301146162" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301149274" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301211481" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244089" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244192" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244300" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244302" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30124509" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301321026" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30135204" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30147440" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30152012" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30155154" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30155182" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30155462" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30155494" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30155528" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30156580" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30157935" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30157942" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30158097" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30158105" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30168683" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30169455" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30173305" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30181621" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30192657" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30198970" />
+                <ns5:isReferencedBy>Dora Thornton, 'From Waddesdon to the British Museum. Baron Ferdinand Rothschild and his cabinet collection' in: Journal of the History of Collections, Bd. 13, dl. 2, 2001, p. 191-213.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Ernst Kris, '"Der Stil ‘Rustique"’. Die Verwendung des Naturabgusses bei Wenzel Jamnitzer und Bernard Palissy', Jahrbuch der Kunsthistorischen Sammlungen in Wien, Neue Folge, I (1926), p. 137-208.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Ernst Kris, Le Style rustique. Le moulage d’après nature chez Wenzel Jamnitzer et Bernard Palissy, Patricia Falguières éd., Paris, 2005.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Fieke Tissink, 'Uitgelijnd : Tafelstuk', Rijksmuseum Kunstkrant 27 (2001) nr. 4, p. 10-11.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Hermann Schadt, Goldschmiedekusnt. 5000 Jahre Schmuck und Gerät, Stuttgart 1996, p. 112.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J. van Bennekom, Q. Lemasson, L. Pichon, B. Moignard and A. Pappot, ‘The Merkel centrepiece by  Wenzel Jamnitzer: proving the existence of a previously unknown inscription using the Aglae pixe mapping system’ in Art Matters, International Journal for Technical Art History 6 (2014), 1-10. http://artmattersjournal.org/images/past_issues/volume_6/01-AM-Bennekom-v2.pdf , 8 maart 2016.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Klaus Pechstein, 'Zur Nürnberger Goldschmiedekunst der Renaissance', in: cat. tent. Nürnberg 1985, p. 25-36.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22028" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22045" />
+                <ns5:provenance xml:lang="en">…; from the Duke of Hamilton, possibly for 800,000 RM, to Mayer Carl von Rothschild (1820-1886), Frankfurt, 1880;{Note RMA; Glanville 2003-2004, p. 37.} his daughter, Thèrese, Baroness James de Rothschild (1847-1931), Frankfurt and Paris, 1912, 1928;{Jones 1912, Pl. I , Introduction; Jones, 1928, p.180, Pl. L, no. 1.} her son Henri de Rothschild;{Weltkunst 1937, p. 42.} from whom to a consortium of dealers for Fritz Mannheimer(1890-1939), Amsterdam and Paris;{Weltkunst 1937, p. 42.} from whose estate purchased, &lt;em&gt;en bloc&lt;/em&gt;, by the Dienststelle Mühlmann, The Hague, for Adolf Hitler's Führermuseum, Linz, 1940;{Korthals Altes 1974, pp. 21-22.} war recuperation, SNK, 1945;{HNA, SNK Archive, 2.08.42, inv. no. 548.} on loan, with xx other objects, from the DRVK to the museum, 1952;{Note RMA.} transferred to the museum, 1960</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230367" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2202942" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204537" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206822" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206836" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/220694" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/zIapp/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/zIapp" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/zIapp/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-17040-A--853b60d8602c34e3095165e5d1aaf2cf">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260213">
+            <ns8:prefLabel xml:lang="en">Top 100</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 100</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26128">
+            <ns8:prefLabel xml:lang="nl">edele metalen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2201581">
+            <ns8:prefLabel xml:lang="en">table piece</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">tafelstuk</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22028">
+            <ns8:prefLabel xml:lang="en">silver (metal)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">zilver</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202942">
+            <ns8:altLabel xml:lang="nl">geëtst</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">omtrekets</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">etching</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">etsen</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22045">
+            <ns8:prefLabel xml:lang="nl">email</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2204537">
+            <ns8:altLabel xml:lang="nl">gegoten</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">casting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">gieten</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2206822">
+            <ns8:prefLabel xml:lang="en">gild</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">vergulden</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2206836">
+            <ns8:altLabel xml:lang="nl">geëmailleerd</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">emailleren</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220694">
+            <ns8:altLabel xml:lang="nl">gedreven</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">drijven</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211404">
+            <ns9:sameAs rdf:resource="https://iconclass.org/25F44" />
+            <ns8:altLabel>25F44</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">tortoises, turtles</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211405">
+            <ns9:sameAs rdf:resource="https://iconclass.org/92L2" />
+            <ns8:altLabel>92L2</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">(story of) Cybele, Rhea Cybele, Great Mother of the Gods (Berecynt(h)ia)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211406">
+            <ns9:sameAs rdf:resource="https://iconclass.org/21B" />
+            <ns8:altLabel>21B</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">earth (one of the four elements)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">aarde (een van de vier elementen)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221289">
+            <ns9:sameAs rdf:resource="https://iconclass.org/25F41%28LIZARD%29" />
+            <ns8:altLabel>25F41(LIZARD)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">lizards: lizard</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221532">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41A6711" />
+            <ns8:altLabel>41A6711</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">flowers in a vase</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/zIapp">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21043614">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/51962533" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500023107" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q90247" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/41642" />
+            <ns10:dateOfBirth xml:lang="nl">1508</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1585-12-19</ns10:dateOfDeath>
+            <ns10:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/230224" />
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230367">
+                <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7004334" />
+                <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q2090" />
+                <ns8:prefLabel xml:lang="nl">Neurenberg</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Jamnitzer, Wenzel</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Jamnitzer, Wenzel</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Wenzel Jamnitzer</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Wenzel Jamnitzer</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/230224">
+            <ns8:prefLabel xml:lang="en">Vienna</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Wenen</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

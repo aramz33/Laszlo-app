@@ -1,0 +1,192 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200140603</ns0:identifier>
+        <ns0:datestamp>2026-06-08T04:24:24Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26132</ns0:setSpec>
+        <ns0:setSpec>26139</ns0:setSpec>
+        <ns0:setSpec>261132</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200140603#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200140603">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="en">This room was made for the Court of the Stadholders  at Leeuwarden. It formed part of the apartment of the consort of the Frisian stadholder, Princess Henriëtte Amalia von Anhalt-Dessau. The walls are mounted with Chinese screens of Coromandel lacquer. In this enchanting room, filled with exotic furniture and porcelain, the princess liked to drink tea from China.</dc:description>
+                <dc:description xml:lang="nl">Dit vertrek is vervaardigd voor het Stadhouderlijk Hof in Leeuwarden. Het maakte deel uit van het appartement van de vrouw van de Friese  stadhouder, prinses Henriëtte Amalia van Anhalt-Dessau. De wanden zijn bekleed met Chinese kamerschermen van Coromandellak. In dit sprookjesachtige vertrek, dat vol stond met exotische meubelen en porselein, dronk de prinses graag thee uit China.</dc:description>
+                <dc:identifier>BK-16709</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200564533" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200568517" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200623163" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221148" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221293" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/23012938" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/230176" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/230204" />
+                <dc:title xml:lang="en">Lacquer room</dc:title>
+                <dc:title xml:lang="en">Lakkabinet</dc:title>
+                <dc:title xml:lang="nl">Lacquer room</dc:title>
+                <dc:title xml:lang="nl">Lakkabinet</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201366" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2202587" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220432" />
+                <ns5:created xml:lang="en">before 1695</ns5:created>
+                <ns5:created xml:lang="nl">voor 1695</ns5:created>
+                <ns5:extent xml:lang="en">depth 4 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 294.5 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 53 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">diepte 4 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">lambrizering: hoogte 53 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">paneel: hoogte 294,5 cm (montage op een plank)</ns5:extent>
+                <ns5:hasPart rdf:resource="https://id.rijksmuseum.nl/20080362" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261132" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26132" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26139" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301151248" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301201204" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301201205" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301237600" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244084" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244297" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301248206" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301249457" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301250311" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301250312" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125374" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125375" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125657" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30174018" />
+                <ns5:isReferencedBy>Christina Hagelskamp, 'De Leeuwwarder lakkamer in het Rijksmuseum : nieuwe inzichten over het vervaardigen van Chinese kuan cai lakschermen en hun transformatie tot een laat 17e-eeuws Nederlands interieur', Aziatische Kunst 45 (2015) nr. 2, p. 34-43.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Documentatiemap.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Grasskamp, Anna; Wu, Wen-Ting, We Call Them Ginger Jars : European Reframings of Chinese Ceramic Containers, uit: Vormen uit vuur : mededelingenblad Nederlandse Vereniging van Vrienden van ceramiek en glas, 2016, 3 - p. 67</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Jan van Campen, 'Jaarverslag van de conservatoren over 2012', Aziatische Kunst 43 (2013),  nr. 2, p. 35.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22021" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2202703" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220650" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23058" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/MDkjB/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/MDkjB" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/MDkjB/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-16709--7cbba3b3f98b364943f4a7b90351d64a">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/23058">
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/tgn/7016672" />
+            <ns7:prefLabel xml:lang="nl">Henan</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261132">
+            <ns7:prefLabel xml:lang="nl">China (collectie)</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26132">
+            <ns7:prefLabel xml:lang="nl">meubelen</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26139">
+            <ns7:prefLabel xml:lang="nl">bouwfragmenten</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2201366">
+            <ns7:prefLabel xml:lang="nl">interieuronderdeel</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22021">
+            <ns7:prefLabel xml:lang="en">wood (plant material)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">hout</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202587">
+            <ns7:prefLabel xml:lang="nl">betimmering</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202703">
+            <ns7:prefLabel xml:lang="en">linden</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">lindehout</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220432">
+            <ns7:altLabel xml:lang="en">architectural element</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">architectonisch element</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">architectural element</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">bouwfragment</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220650">
+            <ns7:prefLabel xml:lang="nl">coromandellak</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221148">
+            <ns8:sameAs rdf:resource="https://iconclass.org/32B3311" />
+            <ns7:altLabel>32B3311</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Chinese</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221293">
+            <ns8:sameAs rdf:resource="https://iconclass.org/25K" />
+            <ns7:altLabel>25K</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">landscapes in the non-temperate zone, exotic landscapes</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">landschappen in de tropische zone, exotische landschappen</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/MDkjB">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns7:altLabel xml:lang="nl">Anon</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">anonymous</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">anoniem</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/23012938">
+            <ns7:prefLabel xml:lang="nl">Paleis Stadhouderlijk Hof</ns7:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/230176">
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/tgn/7007006" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q25390" />
+            <ns7:prefLabel xml:lang="nl">Leeuwarden</ns7:prefLabel>
+            <ns9:lat>5.783333</ns9:lat>
+            <ns9:long>53.2</ns9:long>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns7:prefLabel>Rijksmuseum</ns7:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/230204">
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q770" />
+            <ns8:sameAs rdf:resource="https://sws.geonames.org/2755812/" />
+            <ns7:prefLabel xml:lang="nl">Friesland</ns7:prefLabel>
+            <ns9:lat>5.83333</ns9:lat>
+            <ns9:long>53.16667</ns9:long>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

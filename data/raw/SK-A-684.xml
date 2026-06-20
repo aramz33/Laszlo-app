@@ -1,0 +1,165 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20026672</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:19:56Z</ns0:datestamp>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20026672#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20026672">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101681" />
+                <dc:description xml:lang="en">Maria Rey and Roelof Meulenaer married in 1649. This may have been the reason for having both of their portraits painted. Maria and Roelof’s black clothing might look sober, but in fact it is made of silk and was thus very expensive. Also costly are Maria’s pearls, rings, and bracelets. The fan in her right hand is equally exclusive, a true status symbol.</dc:description>
+                <dc:description xml:lang="nl">Maria Rey en Roelof Meulenaer trouwden in 1649. Mogelijk zijn beide portretten naar aanleiding hiervan geschilderd. De zwarte kleding van Maria en Roelof oogt sober, maar is van fijne zijde en dus juist heel kostbaar. Kostbaar zijn ook de parels, ringen en armbanden die Maria draagt. De waaier in haar rechterhand is al even exclusief, een waar statussymbool.</dc:description>
+                <dc:identifier>SK-A-684</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20026671" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21074941" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22129" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221578" />
+                <dc:title xml:lang="en">Portrait of Maria Rey</dc:title>
+                <dc:title xml:lang="en">Portret van Maria Rey</dc:title>
+                <dc:title xml:lang="nl">Portrait of Maria Rey</dc:title>
+                <dc:title xml:lang="nl">Portret van Maria Rey</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">1650</ns5:created>
+                <ns5:created xml:lang="nl">1650</ns5:created>
+                <ns5:extent xml:lang="en">depth 7 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 118 cm x width 96.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">buitenmaat: diepte 7 cm (drager incl. SK-L-4360)</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 118 cm x breedte 96,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015253" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns6:spn xml:lang="en">Jonkheer J.S.H. van de Poll Bequest, Amsterdam</ns6:spn>
+                <ns6:spn xml:lang="nl">Legaat van jhr. J.S.H. van de Poll, Amsterdam</ns6:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/KSuFh/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/KSuFh" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/KSuFh/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-684--42c77310b74fadcf8030d06f3898735a">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns8:prefLabel xml:lang="en">canvas</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">doek</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22129">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41D262" />
+            <ns8:altLabel>41D262</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">fan</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221578">
+            <ns9:sameAs rdf:resource="https://iconclass.org/61BB2%28%2B53%29" />
+            <ns8:altLabel>61BB2(+53)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">historical persons - BB - woman (+ half-length portrait)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/KSuFh">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101681">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/12575331" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500013764" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q374039" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/10080" />
+            <ns10:dateOfBirth xml:lang="nl">1616-06</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1680-07-24</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230171">
+                <ns8:prefLabel xml:lang="en">Dordrecht</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Dordrecht</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns8:prefLabel xml:lang="en">Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Amsterdam</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Bol, Ferdinand</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Bol, Ferdinand</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Ferdinand Bol</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Ferdinand Bol</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21074941">
+            <ns10:dateOfBirth xml:lang="nl">ca. 1630 - ca. 1631</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1703</ns10:dateOfDeath>
+            <ns8:altLabel xml:lang="nl">Rey, Maria</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">Maria Rey</ns8:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

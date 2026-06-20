@@ -1,0 +1,193 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/2006379</ns0:identifier>
+        <ns0:datestamp>2026-06-08T02:17:13Z</ns0:datestamp>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>260236</ns0:setSpec>
+        <ns0:setSpec>261169</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/2006379#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/2006379">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="nl">Linker bruidshandschoen van wit wasleer, rijk geborduurde kappen. Kappen met gelobde rand. Gesloten met drie paar rose veterbandjes, waarop een goudknopje geschoven wordt. Symmetrisch patroon van onder meer twee in elkaar gelegde handjes in bruin contour onder een met pijlen doorboord hart van pareltjes en twee toegewende vogeltjes. Rijk patroon in verschillende kleuren, borduurwerk, parels en pailletten. Rondom goudpassement van kloskant.</dc:description>
+                <dc:identifier>BK-1978-48-A</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/2006380" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/2006381" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21062773" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21062774" />
+                <dc:title xml:lang="en">Glove of white waxed leather with silk and gold metal thread embroidery</dc:title>
+                <dc:title xml:lang="nl">Handschoen van wit wasleer, met geschulpte kappen met goudkant, bandjes met eikels en zijde, geborduurd met veelkleurige zijde, gouddraad- en canetille en vergulde pailletten</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2202065" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220405" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2204536" />
+                <ns5:created xml:lang="en">1622</ns5:created>
+                <ns5:created xml:lang="nl">1622</ns5:created>
+                <ns5:extent xml:lang="en">length 24 cm</ns5:extent>
+                <ns5:extent xml:lang="en">length 26 cm x width 13 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">geheel: lengte 26 cm x breedte 13 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">kap: lengte 24 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260236" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261169" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2621131" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2621493" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/262440" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3011873" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3012918" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301303820" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30139183" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30157625" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30165550" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30166353" />
+                <ns5:isReferencedBy>Bianca M. du Mortier, "Uniek ensemble herenigd. De huwelijksportretten en de handschoenen", in: Jaarverslag 2000, p. 74-75.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220484" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2206819" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2207706" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22088" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/2301" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2201301" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2203710" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/22039" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206594" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2207130" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/CUZWD/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/CUZWD" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/CUZWD/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-1978-48-A--a27ecde30caf5432b0a2c66576ed0495">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2301">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7016845" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q55" />
+            <ns9:sameAs rdf:resource="https://sws.geonames.org/2750405/" />
+            <ns8:prefLabel xml:lang="en">Netherlands</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Nederland</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260236">
+            <ns8:prefLabel xml:lang="en">fashion</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">mode</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261169">
+            <ns8:prefLabel xml:lang="en">accessories</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">accessoires</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2201301">
+            <ns8:prefLabel xml:lang="nl">goudkant</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202065">
+            <ns8:altLabel xml:lang="nl">handschoenen</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">glove</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">handschoen</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2203710">
+            <ns8:altLabel xml:lang="nl">geborduurd</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">embroidering</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">borduren</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22039">
+            <ns8:prefLabel xml:lang="en">bobbin lace</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">kloskant</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220405">
+            <ns8:altLabel xml:lang="nl">bruidskleding</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">wedding clothes</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">trouwkleding</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2204536">
+            <ns8:prefLabel xml:lang="nl">bruidshandschoen</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220484">
+            <ns8:prefLabel xml:lang="en">gold thread</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">gouddraad</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2206594">
+            <ns8:altLabel xml:lang="nl">kant maken</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">kant (techniek)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2206819">
+            <ns8:prefLabel xml:lang="en">chamois (animal material)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">wasleer</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2207130">
+            <ns8:altLabel xml:lang="nl">gelooid</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">tanned</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">looien</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2207706">
+            <ns8:prefLabel xml:lang="nl">kant (materiaal)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22088">
+            <ns8:prefLabel xml:lang="en">silk</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">zijde</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/CUZWD">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21062773">
+            <ns10:dateOfBirth xml:lang="nl">ca. 1589 - ca. 1590</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1654</ns10:dateOfDeath>
+            <ns8:altLabel xml:lang="nl">Son, Pieter van</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">Pieter van Son</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21062774">
+            <ns10:dateOfBirth xml:lang="nl">1600 - 1601</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1660</ns10:dateOfDeath>
+            <ns8:altLabel xml:lang="nl">Maire, Johanna Le</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">Johanna Le Maire</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns8:altLabel xml:lang="nl">Anon</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">anonymous</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">anoniem</ns8:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

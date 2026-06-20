@@ -1,0 +1,203 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20027284</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:24:14Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20027284#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20027284">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2106664" />
+                <dc:description xml:lang="en">Wilhelmina of Prussia on horseback, by T.P.C. Haag, 1789. Forced out by the Patriots who opposed his regime, Stadholder William V found refuge in the east of the country in 1785. He was restored to power in 1787 with the aid of Prussian troops. These had been sent to help, after William's wife, Wilhelmina of Prussia, had been held up by Patriots at Goejanverwellersluis on her way to The Hague. Wilhelmina's brother was the king of Prussia. Court painter Tethart Haag portrayed her on horseback against a background showing The Hague, where the stadholder court returned in 1787. Wilhelmina is wearing the star of the Russian Order of St Anna.</dc:description>
+                <dc:description xml:lang="nl">Wilhelmina van Pruisen te paard, door T.P.C. Haag, 1789. Onder druk van patriotsgezinde tegenstanders van zijn bewind nam stadhouder Willem V in 1785 de wijk naar het oosten van het land. Zijn macht werd in 1787 hersteld door het Pruisische leger. Dit leger kwam te hulp nadat Willems echtgenote, Wilhelmina van Pruisen, op weg naar Den Haag bij Goejanverwellersluis door patriotten was aangehouden. Wilhelmina was de zuster van de koning van Pruisen. Hofschilder Tethart Haag schilderde haar te paard met op de achtergrond Den Haag, waar het stadhouderlijk hof in 1787 terugkeerde. Wilhelmina draagt de ster van de Russische Orde van Sint Anna.</dc:description>
+                <dc:identifier>SK-A-1225</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20067071" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21067394" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211040" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221173" />
+                <dc:title xml:lang="en">Frederika Sophia Wilhelmina of Pruissia (1751-1820), Equestrian portrait of the Wife of Prince Willem V</dc:title>
+                <dc:title xml:lang="nl">Frederika Sophia Wilhelmina van Pruisen (1751-1820). Echtgenote van prins Willem V, te paard</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">1789</ns5:created>
+                <ns5:created xml:lang="nl">1789</ns5:created>
+                <ns5:extent xml:lang="en">depth 9 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 86 cm x width 69.5 cm x thickness 4 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">buitenmaat: diepte 9 cm (drager incl. SK-L-4885)</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 86 cm x breedte 69,5 cm x dikte 4 cm (incl. achterkantbescherming)</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015253" />
+                <ns5:isReferencedBy>Documentatiemap Schilderijen: aantekeningen R. van Luttervelt (voor 1963).</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/EjhxO/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/EjhxO" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/EjhxO/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1225--d63333c93f879c8414b55b303c08ea74">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns7:prefLabel xml:lang="en">RijksXL</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">RijksXL</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns7:prefLabel xml:lang="en">biografic</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">biografisch</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns7:prefLabel xml:lang="en">paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderijen</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns7:prefLabel xml:lang="en">canvas</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">doek</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns7:prefLabel xml:lang="en">painting</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderij</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns7:prefLabel xml:lang="en">oil paint (paint)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">olieverf</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2211040">
+            <ns8:sameAs rdf:resource="https://iconclass.org/46C1312" />
+            <ns7:altLabel>46C1312</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">equestrian state-portrait</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221173">
+            <ns8:sameAs rdf:resource="https://iconclass.org/61BB2" />
+            <ns7:altLabel>61BB2</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">historical persons - BB - woman</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/EjhxO">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2106664">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/95740457" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500009724" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q7706094" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/34829" />
+            <ns9:dateOfBirth xml:lang="nl">1737</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1812-08-03</ns9:dateOfDeath>
+            <ns9:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2302067">
+                <ns7:prefLabel xml:lang="nl">Kassel</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfBirth>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+                <ns7:prefLabel xml:lang="en">The Hague</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Den Haag</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns7:prefLabel xml:lang="en">printmaker</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">prentmaker</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns7:prefLabel xml:lang="en">draftsman (artist)</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">tekenaar</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Haag, P.C.</ns7:altLabel>
+            <ns7:altLabel xml:lang="en">Haag, T.P.C.</ns7:altLabel>
+            <ns7:altLabel xml:lang="en">Haag, Tethart Philip Christian</ns7:altLabel>
+            <ns7:altLabel xml:lang="en">P.C. Haag</ns7:altLabel>
+            <ns7:altLabel xml:lang="en">T.P.C. Haag</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Haag, P.C.</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Haag, T.P.C.</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Haag, Tethart Philip Christian</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">P.C. Haag</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">T.P.C. Haag</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Tethart Philip Christian Haag</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Tethart Philip Christian Haag</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21067394">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/7621226" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500181571" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q58003" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/332022" />
+            <ns9:dateOfBirth xml:lang="nl">1751-08-07</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1820-06-09</ns9:dateOfDeath>
+            <ns9:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230913">
+                <ns7:prefLabel xml:lang="en">Berlin</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Berlijn</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfBirth>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301436">
+                <ns7:prefLabel xml:lang="nl">Paleis Het Loo</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns7:prefLabel xml:lang="en">draftsman (artist)</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">tekenaar</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns7:prefLabel xml:lang="en">painter</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">schilder</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2206448">
+                <ns7:prefLabel xml:lang="en">princess</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">prinses</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="nl">Frederica Sophia Wilhelmina</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Wilhelmina of Prussia (Princess of Orange)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Wilhelmina van Pruisen (1751-1820)</ns7:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

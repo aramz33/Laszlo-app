@@ -1,0 +1,192 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200144487</ns0:identifier>
+        <ns0:datestamp>2026-06-08T05:01:12Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260216</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26133</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200144487#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200144487">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101450" />
+                <dc:identifier>RP-T-1902-A-4593</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200261133" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221653" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/23012952" />
+                <dc:title xml:lang="nl">De Porta Pinciana te Rome</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220363" />
+                <ns5:created xml:lang="en">1629 - 1641</ns5:created>
+                <ns5:created xml:lang="nl">1629 - 1641</ns5:created>
+                <ns5:extent xml:lang="en">height 206 mm x width 272 mm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 206 mm x breedte 272 mm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260216" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26133" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2623223" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301136012" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301153117" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30157649" />
+                <ns5:isReferencedBy>A. C. Steland, 'Herman van Swanevelt als Radierer. Zur Chronologie der Entwürfe und der Drucke', Oud Holland 118, nr. 1/2 (2005), p. 59, abb. 26</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Judikje Kiers, 'Tekenen van warmte', Rijksmuseum Kunstkrant, 27 (2001) nr. 4, p.4-7.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22020" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220463" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220944" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230356" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2202953" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/frNzo/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/frNzo" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/frNzo/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/RP-T-1902-A-4593--2e880bac0eef4b4c38f4f1360b170b8a">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/230356">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7000874" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q220" />
+            <ns8:prefLabel xml:lang="en">Rome</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Rome</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260216">
+            <ns8:prefLabel xml:lang="en">Top 100 print room</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 100 prentenkabinet</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26133">
+            <ns8:prefLabel xml:lang="en">drawings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">tekeningen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22020">
+            <ns8:prefLabel xml:lang="en">paper</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">papier (materiaal)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202953">
+            <ns8:prefLabel xml:lang="en">brush</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">penseel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220363">
+            <ns8:prefLabel xml:lang="en">drawing</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">tekening</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220463">
+            <ns8:prefLabel xml:lang="en">graphite (mineral)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">grafiet</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220944">
+            <ns8:prefLabel xml:lang="en">chalk</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">krijt</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221653">
+            <ns9:sameAs rdf:resource="https://iconclass.org/25I1461" />
+            <ns8:altLabel>25I1461</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">city-gate</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/frNzo">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101450">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/15042005" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500032980" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q875164" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/76191" />
+            <ns10:dateOfBirth xml:lang="nl">1603 - 1604</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1655</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230187">
+                <ns8:prefLabel xml:lang="nl">Woerden</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230215">
+                <ns8:prefLabel xml:lang="en">Paris</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Parijs</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205148">
+                <ns8:prefLabel xml:lang="en">publisher</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">uitgever</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Swanevelt, Herman van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Armand Jean Nevelt</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Armand d'Italie</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Armanno Fiammingo</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Armannus Gianvelt</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Armannus Svanuel</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Armannus Svanvelt</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Eremiet</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Gianvelt, Armannus</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Herman d' Italie</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Herman van Svanevelt</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Italie, Herman d'</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Monsieur Armand</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Monsieur Herman</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Monsu Armanno</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Nevelt, Armand Jean</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Svanevelt, Herman van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Svanuel, Armannus</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Svanvelt, Armannus</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Swanevelt, Herman van</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Herman van Swanevelt</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Herman van Swanevelt</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/23012952">
+            <ns8:prefLabel xml:lang="nl">Porta Pinciana</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

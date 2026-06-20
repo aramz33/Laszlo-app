@@ -1,0 +1,206 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns11="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200112210</ns0:identifier>
+        <ns0:datestamp>2026-06-08T01:11:05Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260242</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261188</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200112210#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200112210">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="en">This inkstand was made for the Orangist Jan Knotter, a bargeman who was granted the right to navigate between Leiden and Delft in 1675. The arms of Leiden and Delft held up by lions, and the water landscape on the back allude to the barge service, and the inscription and the arms of William III to Knotter’s political loyalties.</dc:description>
+                <dc:description xml:lang="nl">Dit inktstel is gemaakt voor de Oranjegezinde Jan Knotter, die in 1675 het recht kreeg om als beurtschipper tussen Leiden en Delft te varen. De door leeuwen opgehouden stadswapens van Leiden en Delft en het waterlandschap op de achterkant verwijzen naar het beurtvaren. Het opschrift en het wapen van Willem III geven Knotters politieke voorkeur aan.</dc:description>
+                <dc:identifier>BK-NM-12400-79</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2103823" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221111" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/230105" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/230132" />
+                <dc:title xml:lang="en">Inkstand with the coats of arms of Leiden, Delft and William III</dc:title>
+                <dc:title xml:lang="en">Inktstel met de wapens van Leiden, van Delft en van Willem III</dc:title>
+                <dc:title xml:lang="nl">Inkstand with the coats of arms of Leiden, Delft and William III</dc:title>
+                <dc:title xml:lang="nl">Inktstel met de wapens van Leiden, van Delft en van Willem III</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201101" />
+                <ns5:created xml:lang="en">c. 1670 - c. 1680</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1670 - ca. 1680</ns5:created>
+                <ns5:extent xml:lang="en">height 15 cm x width 21.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 15 cm x breedte 21,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260242" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261188" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100494" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301107511" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301132304" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301154205" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30123213" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30133860" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220114" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2201227" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2201403" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22028" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230132" />
+                <ns6:spn xml:lang="en">Gift of the heirs of J.F. Loudon, The Hague</ns6:spn>
+                <ns6:spn xml:lang="nl">Schenking van de erven van de heer J.F. Loudon, Den Haag</ns6:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/Xasuz/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/Xasuz" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/Xasuz/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-NM-12400-79--2aafd8f8571ea5dceb404641160854ef">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260242">
+            <ns8:prefLabel xml:lang="en">Dutch Delftware</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Delfts aardewerk</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261188">
+            <ns8:prefLabel xml:lang="en">Dutch tin-glazed earthenware</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Nederlands tinglazuur aardewerk</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2201101">
+            <ns8:prefLabel xml:lang="en">inkstand</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">inktstel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220114">
+            <ns8:altLabel xml:lang="nl">gebakken aarde</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">earthenware</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">aardewerk (materiaal)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2201227">
+            <ns8:prefLabel xml:lang="en">tin glaze</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">tinglazuur</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2201403">
+            <ns8:prefLabel xml:lang="nl">faience</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22028">
+            <ns8:prefLabel xml:lang="en">silver (metal)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">zilver</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221111">
+            <ns9:sameAs rdf:resource="https://iconclass.org/44A1" />
+            <ns8:altLabel>44A1</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">coat of arms (as symbol of the state, etc.)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/Xasuz">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2103823">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/227406842" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500238568" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q129987" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/424318" />
+            <ns10:dateOfBirth xml:lang="nl">1650-11-14</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1702-03-19</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+                <ns8:prefLabel xml:lang="en">The Hague</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Den Haag</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2302446">
+                <ns8:prefLabel xml:lang="nl">Hampton Court Palace</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202479">
+                <ns8:prefLabel xml:lang="en">prince (ruler)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prins</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2203883">
+                <ns8:prefLabel xml:lang="en">stadtholder</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">stadhouder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205140">
+                <ns8:prefLabel xml:lang="nl">koning</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="nl">Willem III (prins van Oranje)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">William III (Prince of Orange and King of England, Scotland, and Ireland)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Willem III (prins van Oranje en koning van Engeland, Schotland en Ierland)</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns8:altLabel xml:lang="nl">Anon</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">anonymous</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">anoniem</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/230105">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006809" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q43631" />
+            <ns8:prefLabel xml:lang="en">Leiden</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Leiden</ns8:prefLabel>
+            <ns11:lat>4.5</ns11:lat>
+            <ns11:long>52.15</ns11:long>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/230132">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006804" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q690" />
+            <ns8:prefLabel xml:lang="en">Delft</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Delft</ns8:prefLabel>
+            <ns11:lat>4.366667</ns11:lat>
+            <ns11:long>52</ns11:long>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

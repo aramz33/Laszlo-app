@@ -1,0 +1,157 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20025957</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:15:16Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>26121</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20025957#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20025957">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101216" />
+                <dc:description xml:lang="nl">Een vrouw achter een viskraam toont ons een mooie verse vis. Het licht valt rechtstreeks op haar gezicht en handen. De vrouw kijkt het schilderij uit en spreekt zo de toeschouwer direct aan. De band tussen toeschouwer en visvrouw wordt nog versterkt door de compositie: door de afsnijding van de marktkraam lijkt de kijker als het ware ín de kraam te staan.</dc:description>
+                <dc:identifier>SK-A-3246</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20067157" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221255" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221256" />
+                <dc:title xml:lang="en">The Fishwife</dc:title>
+                <dc:title xml:lang="nl">De visvrouw</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">1672</ns5:created>
+                <ns5:created xml:lang="nl">1672</ns5:created>
+                <ns5:extent xml:lang="en">outer size: depth 6.1 cm (support incl. frame)</ns5:extent>
+                <ns5:extent xml:lang="en">support: height 35.9 cm x width 40 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">buitenmaat: diepte 6,1 cm (drager incl. SK-L-4598)</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 35,9 cm x breedte 40 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26121" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301120565" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301136048" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301248156" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">…; collection Gerret Braamcamp (1699-1771), Amsterdam, by 1752;{‘Catalogus van Schilderyen: In het Kabinet van den Heere Gerard Braamkamp, in Amsterdam’, in G. Hoet, _&lt;em&gt;Catalogus of naamlyst van schilderyen, met derzelver pryzen zedert een langen reeks van jaaren zoo in Holland als op andere plaatzen in het openbaar verkogt: Benevens een verzameling van lysten van verscheyden nog in wezen zynde cabinetten&lt;/em&gt;_, II, The Hague 1752, pp. 501-12, esp. p. 507: ‘Een Vischmarkt met Visch wyven, door denzelven [Adriaen van Ostade], h. 1 v. 3 d., br. 1 v. 4 d. [36 x 38.5 cm] P.’} his sale, Amsterdam (P. van der Schley &lt;em&gt;et al.&lt;/em&gt;), 31 July 1771, no. 155 (‘Hoog 14, en breed 15½ duim [36 x 40 cm] Dk. Op den Voorgrond ziet men een Vischverkoopster, zy is bezig een Schelvisch schoon te maaken; men ziet ’er verscheide Visschen op den Bank liggen daar zy achter staat: het verschiet verbeeldt eene volkryke Vischmarkt en een Kerktoren. […].’), fl. 1,705, to the painter and dealer Pieter Oets (1720-1790), Amsterdam;…; sale, Pieter de Smeth van Alphen (1753-1810, Amsterdam), Amsterdam (P. van der Schley &lt;em&gt;et al.&lt;/em&gt;), 1 August 1810 _&lt;em&gt;sqq.&lt;/em&gt;_, no. 70 (‘op doek, hoog 13½, breed 15½ duimen [35 x 40 cm] Doek. Eene bevallige Vischvrouw, staande voor hare Bank, waarop onderscheidene Visschen geplaatst zijn, voor dezelve een Jongen met eene Mand aan den arm, verder andere lieden, en een Dorp in het verschiet.’), fl. 3,010, to the dealer Cornelis Sebille Roos; from whom, fl. 4,000, to Jeronimo de Vries, for Lucretia Johanna van Winter (1785-1845), Amsterdam;{Six Archives, Amsterdam, VIII-F-3 III, _&lt;em&gt;Correspondentie over, en nota’s van gekochte schilderijen door L.J. van Winter in de jaren 1809 tot 29 october 1821&lt;/em&gt;_, letter from J. de Vries to L.J. van Winter, 3 August 1810; see R. Priem, ‘The “Most Excellent Collection” of Lucretia Johanna van Winter: The Years 1809-22, with a Catalogue of the Works Purchased’, _&lt;em&gt;Simiolus&lt;/em&gt;_ 25 (1997), pp. 103-235, esp. p. 207, no. 28.} her husband, Jonkheer Hendrik Six (1790-1847), Lord of Hillegom, Amsterdam; his sons, Jonkheer Jan Pieter Six (1824-1899), Lord of Hillegom, and Jonkheer Pieter Hendrik Six (1827-1905), Lord of Vromade; sale, Six collection, Amsterdam (A.W.M. Mensing), 16 October 1928, no. 34, fl. 47,000, to Sir Henri W.A. Deterding (1866-1939), London; by whom donated to the museum, with 17 other paintings, 1936{Provenance reconstructed in C. Bille, _&lt;em&gt;De tempel der kunst of het kabinet van den heer Braamcamp&lt;/em&gt;_, II, Amsterdam 1961, pp. 37-37a, and R. Priem, ‘The “Most Excellent Collection” of Lucretia Johanna van Winter: The Years 1809-22, with a Catalogue of the Works Purchased’, _&lt;em&gt;Simiolus&lt;/em&gt;_ 25 (1997), pp. 103-235, esp. p. 207, no. 28.}</ns5:provenance>
+                <ns6:spn xml:lang="en">Gift of H.W.A. Deterding, London</ns6:spn>
+                <ns6:spn xml:lang="nl">Schenking van de heer H.W.A. Deterding, Londen</ns6:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/JBtZW/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/JBtZW" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/JBtZW/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3246--737526528d7af84763a1b265defb7eb7">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26121">
+            <ns8:prefLabel xml:lang="en">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns8:prefLabel xml:lang="en">canvas</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">doek</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221255">
+            <ns9:sameAs rdf:resource="https://iconclass.org/25F6" />
+            <ns8:altLabel>25F6</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">fishes</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221256">
+            <ns9:sameAs rdf:resource="https://iconclass.org/46B111" />
+            <ns8:altLabel>46B111</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">stall, booth (~ market)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/JBtZW">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101216">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/24760273" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500021654" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q352438" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/61082" />
+            <ns10:dateOfBirth xml:lang="nl">1610-12 - 1610-12-19</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1685-04-28</ns10:dateOfDeath>
+            <ns10:placeOfBirth />
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230134">
+                <ns8:prefLabel xml:lang="en">Haarlem</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Haarlem</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Ostade, Adriaen van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Adriaan van Ostade</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Adriaen Jansz. van Ostade</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Ostade, Adriaan van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Ostade, Adriaen Jansz. van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Ostade, Adriaen van</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Adriaen van Ostade</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Adriaen van Ostade</ns8:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

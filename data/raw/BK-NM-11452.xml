@@ -1,0 +1,214 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns11="http://rdvocab.info/ElementsGr2/" xmlns:ns12="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200115891</ns0:identifier>
+        <ns0:datestamp>2026-06-08T02:09:18Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260215</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26126</ns0:setSpec>
+        <ns0:setSpec>2618</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200115891#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200115891">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21043637" />
+                <dc:description xml:lang="en">Elegantly draped over this man’s doublet, the raised collar of which is clearly visible, is a cloak like those worn by the ancient Romans. This gives the sitter an aristocratic air. Yet it is only an affluent citizen who is portrayed here: probably Vincent Coster, an Amsterdam ‘wine gauger’ (someone who calculated the excise duty on wine).</dc:description>
+                <dc:description xml:lang="nl">Over zijn wambuis, waarvan nog juist het opstaande boord te zien is, draagt de man een zwierig geplooide&lt;BR /&gt;mantel zoals de Romeinen die droegen. Het geeft hem een aristocratisch voorkomen. Toch is hier slechts&lt;BR /&gt;een welgestelde burger voorgesteld; waarschijnlijk is het Vincent Coster, ‘wijnpeiler’ in Amsterdam, een beambte die de accijnzen op wijn vaststelde.</dc:description>
+                <dc:identifier>BK-NM-11452</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20046964" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21061560" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221686" />
+                <dc:title xml:lang="en">Borstbeeld van een man, vermoedelijk Vincent Coster</dc:title>
+                <dc:title xml:lang="en">Bust of a Man, Probably Vincent Coster</dc:title>
+                <dc:title xml:lang="nl">Borstbeeld van een man, vermoedelijk Vincent Coster</dc:title>
+                <dc:title xml:lang="nl">Bust of a Man, Probably Vincent Coster</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220297" />
+                <ns5:created xml:lang="en">1608</ns5:created>
+                <ns5:created xml:lang="nl">1608</ns5:created>
+                <ns5:extent xml:lang="en">height 75 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 75 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260215" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26126" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2618" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301127903" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301128029" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301147324" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301152694" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301153842" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30115456" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3011738" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30119565" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125313" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125314" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301283482" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301283486" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30138992" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30153305" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30157626" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30163535" />
+                <ns5:isReferencedBy>A. Pit, ´Een beeldhouwwerk van Hendrik de Keyser´, Bulletin van de Nederlandse Oudheidkundige Bond 1 (1899/1900), p. 119-120, 152.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>E. Szmodis-Eszláry, 'Un petit bronze inconnu de Hendrick de Keyser', Bulletin du Musée Hongrois des Beaux Arts 34/35 (1970), p, 99-100, afb. 64.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>F. Scholten, 'Beheaded bust and a fountain statue by Hendrick de Keyser', The Burlington Magazine 138 (1995), p. 838-841.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J. Leeuwenberg, 'Drie werken met meer of minder zekerheid aan Hendrick de Keyser toegeschreven', Maandblad voor Beeldende Kunsten 24 (1948), p. 297, afb. 7.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J. Six, 'Hendrik de Keyser als beeldhouwer', Jaarverslag Koninklijk Oudheidkundig Genootschap (1910), p. ix (afb.), xi, .</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220147" />
+                <ns5:provenance xml:lang="en">…; from the dealer Frankfort, Deventer, fl. 700, to the museum, with support of the Vereniging Rembrandt, 1900</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23029985" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206673" />
+                <ns7:spn xml:lang="en">Purchased with the support of the Vereniging Rembrandt</ns7:spn>
+                <ns7:spn xml:lang="nl">Aankoop met steun van de Vereniging Rembrandt</ns7:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/WcWGW/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/WcWGW" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/WcWGW/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-NM-11452--df842a2b6503b5c582ea0fa3b948f5ff">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns9:prefLabel xml:lang="en">RijksXL</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">RijksXL</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260215">
+            <ns9:prefLabel xml:lang="en">Vereniging Rembrandt</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Vereniging Rembrandt</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns9:prefLabel xml:lang="en">biografic</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">biografisch</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26126">
+            <ns9:prefLabel xml:lang="en">sculptures</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">beeldhouwwerken</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2618">
+            <ns9:prefLabel xml:lang="en">European Sculpture in the Rijksmuseum</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">European Sculpture in the Rijksmuseum</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220147">
+            <ns9:prefLabel xml:lang="en">marble (rock)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">marmer</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220297">
+            <ns9:prefLabel xml:lang="en">figure</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">beeld</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2206673">
+            <ns9:altLabel xml:lang="nl">gebeeldhouwd</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">sculpting</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">beeldhouwen</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221686">
+            <ns10:sameAs rdf:resource="https://iconclass.org/61B2%28%2B52%29" />
+            <ns9:altLabel>61B2(+52)</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">historical persons (+ (full) bust portrait)</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/WcWGW">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21043637">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/44515899" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500006817" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q525861" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/44219" />
+            <ns11:dateOfBirth xml:lang="nl">1565-05-15</ns11:dateOfBirth>
+            <ns11:dateOfDeath xml:lang="nl">1621-05-15</ns11:dateOfDeath>
+            <ns11:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2302">
+                <ns9:prefLabel xml:lang="en">Utrecht</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Utrecht (stad)</ns9:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfBirth>
+            <ns11:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006952" />
+                <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q727" />
+                <ns10:sameAs rdf:resource="https://sws.geonames.org/2759794/" />
+                <ns9:prefLabel xml:lang="en">Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Amsterdam</ns9:prefLabel>
+                <ns12:lat>4.916667</ns12:lat>
+                <ns12:long>52.35</ns12:long>
+              </ns3:Place>
+            </ns11:placeOfDeath>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2205167">
+                <ns9:prefLabel xml:lang="en">sculptor</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">beeldhouwer</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns9:prefLabel xml:lang="en">printmaker</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">prentmaker</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2205213">
+                <ns9:prefLabel xml:lang="en">architect</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">architect</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns9:altLabel xml:lang="en">Keyser, Hendrick de (I)</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Keyser, Hendrick de (I)</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Hendrick de Keyser (I)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Hendrick de Keyser (I)</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21061560">
+            <ns11:dateOfBirth xml:lang="nl">ca. 1553</ns11:dateOfBirth>
+            <ns11:dateOfDeath xml:lang="nl">na 1620</ns11:dateOfDeath>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2208199">
+                <ns9:prefLabel xml:lang="nl">wijnroeier</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns9:altLabel xml:lang="nl">Cent de Peyler</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Coster, Vincent Jacobsz.</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Peyler, Cent de</ns9:altLabel>
+            <ns9:prefLabel xml:lang="nl">Vincent Jacobsz. Coster</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns9:prefLabel>Rijksmuseum</ns9:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

@@ -1,0 +1,191 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200109354</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:29:20Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260213</ns0:setSpec>
+        <ns0:setSpec>260215</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>26121</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200109354#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200109354">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2102593" />
+                <dc:description xml:lang="en">The range of grey tonalities that Willem Heda could paint is astounding. With this subtle palette, he deftly rendered the objects – of pewter, silver, damask, glass and mother-of-pearl – on this table. A few yellow and ochre accents compliment this refined interplay of colours. Heda specialized in near monochromatic still lifes, so-called ‘tonal banquet pieces’.</dc:description>
+                <dc:description xml:lang="nl">Het is ongelooflijk hoeveel schakeringen grijs Willem Heda kon schilderen. Daardoor heeft hij de voorwerpen op deze tafel – van tin, zilver, damast, glas, parelmoer – zo goed getroffen. Het verfijnde samenspel van kleuren wordt hier en daar aangevuld met accenten in geel en oker. Willem Heda was gespecialiseerd in bijna eenkleurige stillevens, zogeheten ‘monochrome banketjes’.</dc:description>
+                <dc:identifier>SK-A-4830</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221326" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221398" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221447" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221555" />
+                <dc:title xml:lang="en">Still Life with a Gilt Cup</dc:title>
+                <dc:title xml:lang="en">Stilleven met vergulde bokaal</dc:title>
+                <dc:title xml:lang="nl">Still Life with a Gilt Cup</dc:title>
+                <dc:title xml:lang="nl">Stilleven met vergulde bokaal</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">1635</ns5:created>
+                <ns5:created xml:lang="nl">1635</ns5:created>
+                <ns5:extent xml:lang="en">support: height 87.8 cm x width 112.6 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 87,8 cm x breedte 112,6 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260213" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260215" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26121" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301101017" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301113538" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301117624" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30112160" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301154637" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3011738" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301262165" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301303892" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30135084" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30139175" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015254" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30157626" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30166260" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30187194" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30188100" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30195898" />
+                <ns5:isReferencedBy>'Openbaar Kunstbezit', Kunstschrift (1986) nr. 6, p. 199, afb. 23</ns5:isReferencedBy>
+                <ns5:isReferencedBy>'Wegens verbouwing geopend', De Rijksmuseum Kunstkrant 29 (2004) nr. 2.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Anne Gerritsen, 'Soja, zo als die uit Oost-Indien komt' : de vroege geschiedenis van sojasaus in Nederland, uit: Aziatische Kunst : mededelingenblad van de Vereniging van Vrienden der Aziatische Kunst, 45, 2015, 3, pagina 24-33 - afb. 1</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Annemarie Vels Heijn, 'Zoutvaten in verschillende stijlen', Rijksmuseum Kunstkrant 16 (1989/1990) nr. 1, afb. p. 8.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Fred G. Meijer, 'Frühstucksstilleben und monochrome Banketjes', Kunst und Antiquitäten (1993) nr. 1/2, p. 20 met afb.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>H. Perry Chapman, Frits Scholten en Joanna Woodall, 'The politics of display', Nederlands Kunsthistorisch Jaarboek (2015), p. 12, afb. 4.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>H. Perry; Scholten, Frits; Woodall, Joanna Chapman, The politics of display, uit: Nederlands kunsthistorisch jaarboek = Netherlandish yearbook for history of art, 65, 2015, pagina 6-21 - p. 12, afb. 12</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">…; collection Richedot family, formed in the 17th century in Holland, from the 18th century until the 1970s at the family seat, Château de Choisey, near Dole (Jura);{According to the catalogue for the sale, Paris (Palais d’Orsay), 13 December 1977, no. 18.}…; sale, Paris (Palais d’Orsay), 13 December 1977, no. 18;…; from Noortman and Brod Gallery, London, fl. 3,000,000, to the museum, with support from the Vereniging Rembrandt, the Jubileumfonds, the Dutch State and the Rijksmuseum-Stichting, 1984</ns5:provenance>
+                <ns6:spn xml:lang="en">Purchased with the support of the Vereniging Rembrandt and the Rijksmuseum-Stichting</ns6:spn>
+                <ns6:spn xml:lang="nl">Aankoop met steun van de Vereniging Rembrandt en de Rijksmuseum-Stichting</ns6:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/UjEro/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/UjEro" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/UjEro/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4830--4617db9a8506653eb2437fc6bde903fd">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260213">
+            <ns8:prefLabel xml:lang="en">Top 100</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 100</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260215">
+            <ns8:prefLabel xml:lang="en">Vereniging Rembrandt</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Vereniging Rembrandt</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26121">
+            <ns8:prefLabel xml:lang="en">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns8:prefLabel xml:lang="en">panel</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">paneel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221326">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41C621" />
+            <ns8:altLabel>41C621</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">bread, loaf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221398">
+            <ns9:sameAs rdf:resource="https://iconclass.org/25F72%28OYSTER%29" />
+            <ns8:altLabel>25F72(OYSTER)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">molluscs: oyster</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221447">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41C7111" />
+            <ns8:altLabel>41C7111</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">glass of wine</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221555">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41C38" />
+            <ns8:altLabel>41C38</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">laid table as still life</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/UjEro">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2102593">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/77498796" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500018917" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q40150" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/36809" />
+            <ns10:dateOfBirth xml:lang="nl">1594</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1680</ns10:dateOfDeath>
+            <ns10:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/230134" />
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230134">
+                <ns8:prefLabel xml:lang="en">Haarlem</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Haarlem</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Heda, Willem Claesz</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Heda, Willem Claesz.</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Willem Claesz Heda</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Willem Claesz. Heda</ns8:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

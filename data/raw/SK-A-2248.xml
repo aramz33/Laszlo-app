@@ -1,0 +1,219 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200108934</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:25:48Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260210</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200108934#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200108934">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2102262" />
+                <dc:description xml:lang="en">This scene is set at Fort Elmina, the headquarters of the Dutch slave trade in Western Africa, where Jan Pranger was director from 1730 to 1742. After his directorship, he travelled back via Suriname with ‘170 Slaves, coming from the coast of Guinea’ on board. The enslaved people remained behind in Paramaribo, except for one who accompanied him to Amsterdam as a servant, where this portrait was painted.</dc:description>
+                <dc:description xml:lang="nl">Deze scène speelt zich af in Fort Elmina, het hoofdkwartier van de Nederlandse slavenhandel in westelijk Afrika, waar Jan Pranger van 1730 tot 1742 directeur was. Na zijn directeurschap reisde hij met ‘170 Slaven, komende van de kust van Guinea’ aan boord via Suriname terug. De tot  slaaf gemaakten bleven achter in Paramaribo, op een na die als bediende meeging naar Amsterdam, waar dit portret van hem werd gemaakt.</dc:description>
+                <dc:identifier>SK-A-2248</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200108935" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200312824" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200414772" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21044572" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21049224" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221193" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221195" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2213182" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221774" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2301884" />
+                <dc:title xml:lang="en">Portrait of Jan Pranger and an Enslaved Servant</dc:title>
+                <dc:title xml:lang="en">Portret van Jan Pranger en een tot slaaf gemaakte bediende</dc:title>
+                <dc:title xml:lang="nl">Portrait of Jan Pranger and an Enslaved Servant</dc:title>
+                <dc:title xml:lang="nl">Portret van Jan Pranger en een tot slaaf gemaakte bediende</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:alternative xml:lang="en">Portrait of Jan Pranger</ns5:alternative>
+                <ns5:alternative xml:lang="nl">Portret van Jan Pranger</ns5:alternative>
+                <ns5:created xml:lang="en">1742</ns5:created>
+                <ns5:created xml:lang="nl">1742</ns5:created>
+                <ns5:extent xml:lang="en">height 210 cm x width 154.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 210 cm x breedte 154,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260210" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100935" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301151249" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301209575" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301220787" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301252266" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301252268" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301301938" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30152572" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30199414" />
+                <ns5:isReferencedBy>'Roseboom eigenaar Keizersgracht 64 en een suikerplantage in Suriname', &lt;https://stadsherstel.nl/verhaal/roseboom-eigenaar-keizersgracht-64-en-een-suikerplantage-in-suriname/&gt;</ns5:isReferencedBy>
+                <ns5:isReferencedBy>A. van der Marel, Kunsthistorie en genealogie, Portretten van het echtpaar Pranger-Muilman. De Nederlandse Leeuw (1961), p. 1-7.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Documentatiemap Schilderijen: aantekeningen R. van Luttervelt (voor 1963).</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Dr. R. van Luttervelt, Herinneringen aan de voormalige Nederlandse bezittingen op de Goudkust in het Rijksmuseum. Bulletin KNOB (1961), p. 251-257.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/PYzUE/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/PYzUE" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/PYzUE/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2248--1165e992dcf6e01d5667d18a0f38f725">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260210">
+            <ns7:prefLabel xml:lang="en">Against Opacity</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Against Opacity</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns7:prefLabel xml:lang="en">RijksXL</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">RijksXL</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns7:prefLabel xml:lang="en">biografic</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">biografisch</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns7:prefLabel xml:lang="en">paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderijen</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns7:prefLabel xml:lang="en">canvas</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">doek</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns7:prefLabel xml:lang="en">painting</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderij</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns7:prefLabel xml:lang="en">oil paint (paint)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">olieverf</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221193">
+            <ns8:sameAs rdf:resource="https://iconclass.org/32B321" />
+            <ns7:altLabel>32B321</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Africans</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221195">
+            <ns8:sameAs rdf:resource="https://iconclass.org/49L5" />
+            <ns7:altLabel>49L5</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">writing tools</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2213182">
+            <ns8:sameAs rdf:resource="https://iconclass.org/46A18" />
+            <ns7:altLabel>46A18</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">slavery; serfs and enslaved persons</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221774">
+            <ns8:sameAs rdf:resource="https://iconclass.org/61B2%28%2B55%29" />
+            <ns7:altLabel>61B2(+55)</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">historical persons (+ full length portrait)</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/PYzUE">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2102262">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/226744624" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500019679" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q5492428" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/56067" />
+            <ns9:dateOfBirth xml:lang="nl">1719</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1783-08-20</ns9:dateOfDeath>
+            <ns9:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301056">
+                <ns7:prefLabel xml:lang="nl">Düsseldorf</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfBirth>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230164">
+                <ns7:prefLabel xml:lang="en">London</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Londen</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns7:prefLabel xml:lang="en">painter</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">schilder</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns7:prefLabel xml:lang="en">printmaker</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">prentmaker</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Mijn, Frans van der</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Frans van der Meyn</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Meyn, Frans van der</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Mijn, Frans van der</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Frans van der Mijn</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Frans van der Mijn</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21044572">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/131339121" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q617066" />
+            <ns7:altLabel xml:lang="nl">WIC</ns7:altLabel>
+            <ns7:prefLabel xml:lang="nl">West-Indische Compagnie</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21049224">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/281054338" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q26702968" />
+            <ns9:dateOfBirth xml:lang="nl">1700</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1773</ns9:dateOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2205415">
+                <ns7:prefLabel xml:lang="nl">directeur-generaal</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="nl">Pranger, Jan</ns7:altLabel>
+            <ns7:prefLabel xml:lang="nl">Jan Pranger</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301884">
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/tgn/1012654" />
+            <ns7:prefLabel xml:lang="nl">Goudkust</ns7:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns7:prefLabel>Rijksmuseum</ns7:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

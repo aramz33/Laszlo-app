@@ -1,0 +1,154 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/2006399</ns0:identifier>
+        <ns0:datestamp>2026-06-08T20:10:56Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261157</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/2006399#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/2006399">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="en">Instead of a foot, this glass has a mounted silver sphere containing a dice. The glass was used in a drinking game, in which it had to be emptied the number of times indicated on the dice. The engraving on the bowl was done with a diamondtipped stylus. It is one of the earliest instances of the use of this originally Venetian technique in the Netherlands.</dc:description>
+                <dc:description xml:lang="nl">In plaats van op een voet is dit glas gemonteerd op een zilveren bol, waarin een dobbelsteen zit. Het glas werd gebruikt bij een drinkspel, waarbij het zo vaak moest worden leeggedronken als de dobbelsteen aangaf. De gravering op de kelk is aangebracht met een diamantstift. Het is een van de vroegste toepassingen van deze van oorsprong Venetiaanse techniek in Nederland.</dc:description>
+                <dc:identifier>BK-1995-4</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2214905" />
+                <dc:title xml:lang="en">Dice glass</dc:title>
+                <dc:title xml:lang="en">Dobbelglas</dc:title>
+                <dc:title xml:lang="nl">Dice glass</dc:title>
+                <dc:title xml:lang="nl">Dobbelglas</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2204228" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2209123" />
+                <ns5:created xml:lang="en">c. 1580 - c. 1590</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1580 - ca. 1590</ns5:created>
+                <ns5:extent xml:lang="en">diameter 6.1 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 16.7 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">geheel: hoogte 16,7 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">grondvlak: diameter 6,1 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">mondrand: diameter 6,1 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261157" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100933" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301101288" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301143602" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301153555" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244089" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244300" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301303438" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301318071" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30133127" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30157406" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30157512" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30182299" />
+                <ns5:isReferencedBy>R.J. Baarsen, 'Collecting Dutch silver', in: cat. veil. The Joseph R.Ritman collection of 16th &amp; 17th century silver, Sotheby, Genève, 16-5-1995, p. 13, afb.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22028" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2207803" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23026018" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2203426" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204229" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204449" />
+                <ns7:spn xml:lang="en">Gift of J.R. Ritman, Amsterdam</ns7:spn>
+                <ns7:spn xml:lang="nl">Schenking van de heer J.R. Ritman, Amsterdam</ns7:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/fAwmW/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/fAwmW" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/fAwmW/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-1995-4--50a87982a284b188fa08087cfa6d33f2">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/23026018">
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q15300240" />
+            <ns9:prefLabel xml:lang="en">Low Countries</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Lage Landen</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261157">
+            <ns9:prefLabel xml:lang="en">glass</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">glas</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22028">
+            <ns9:prefLabel xml:lang="en">silver (metal)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">zilver</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2203426">
+            <ns9:prefLabel xml:lang="en">diamond-point engraving</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">diamantgraveren</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2204228">
+            <ns9:prefLabel xml:lang="nl">dobbelglas</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2204229">
+            <ns9:prefLabel xml:lang="en">façon de Venise</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Façon de Venise</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2204449">
+            <ns9:prefLabel xml:lang="en">glassblowing</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">glasblazen</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2207803">
+            <ns9:prefLabel xml:lang="en">glass</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">glas</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2209123">
+            <ns9:prefLabel xml:lang="en">trick glass</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">schertsglas</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2214905">
+            <ns10:sameAs rdf:resource="https://iconclass.org/49E122" />
+            <ns9:altLabel>49E122</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">armillary sphere, skeleton celestial globe</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/fAwmW">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns9:altLabel xml:lang="nl">Anon</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">anonymous</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">anoniem</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns9:prefLabel>Rijksmuseum</ns9:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

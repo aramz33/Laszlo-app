@@ -1,0 +1,176 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200108024</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:18:08Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>26121</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200108024#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200108024">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2106758" />
+                <dc:description xml:lang="en">The man leans out of a window. In his right hand he holds up a gold ring set with a stone. His left hand rests on a touchstone, an instrument for assessing the purity of gold and silver objects. The sitter might be the goldsmith Bartholomeus Jansz van Assendelft. In 1617, the year the portrait was painted, he was appointed assay-master of the Leiden goldsmiths’ guild, which would explain the inclusion of the touchstone.</dc:description>
+                <dc:description xml:lang="nl">De man leunt uit een venster. In zijn rechterhand heeft hij een gouden ring met een steen. Zijn linkerhand&lt;BR /&gt;rust op een toetssteen waarmee het goud- of zilvergehalte van voorwerpen kon worden bepaald. Vermoedelijk is dit de goudsmid Bartholomeus Jansz van Assendelft. In 1617, het jaar waarin het portret werd geschilderd, werd hij keurmeester van het Leidse edelsmidgilde: vandaar de toetssteen.</dc:description>
+                <dc:identifier>SK-A-3920</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20066679" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21074959" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22123" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2213352" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221464" />
+                <dc:title xml:lang="en">Portrait of a Goldsmith, Probably Bartholomeus Jansz van Assendelft</dc:title>
+                <dc:title xml:lang="en">Portret van een goudsmid, waarschijnlijk, Bartholomeus Jansz van Assendelft</dc:title>
+                <dc:title xml:lang="nl">Portrait of a Goldsmith, Probably Bartholomeus Jansz van Assendelft</dc:title>
+                <dc:title xml:lang="nl">Portret van een goudsmid, waarschijnlijk, Bartholomeus Jansz van Assendelft</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:alternative xml:lang="nl">Portret van een man met een ring en toetssteen</ns5:alternative>
+                <ns5:created xml:lang="en">1617</ns5:created>
+                <ns5:created xml:lang="nl">1617</ns5:created>
+                <ns5:extent xml:lang="en">support: height 66 cm x width 49.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 66 cm x breedte 49,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26121" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100494" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30112160" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">? Commissioned by Bartholomeus Jansz van Assendelft (1585-1658), Leiden; ? his son, Jan van Assendelft (1620-68), Leiden; ? his son, Barthout Jansz van Assendelft (1659-1722), Leiden; ? or his son, Adriaan van Assendelft (1626-97), Leiden; ? his son, Jan Adriaansz van Assendelft (1659-1728), Leiden; ? his son, Adriaan van Assendelft (1691-1752), Leiden; ? his son, Barthout Adriaansz van Assendelft (1733-84), Leiden; ? the daughter of his half-sister, Maria Anna Pompe van Slingelandt (1746-1805), the wife of Hugo de Wildt, Leiden; ? by descent to Frans de Wildt (1805-69), Leiden; ? Agnes W. de Wildt (1835-1905), Leiden; her daughter, Jonkvrouw Isabella F. Mollerus (1863-1920), Leiden, wife of Baron Dirk van Asbeck; his sale, Amsterdam (F. Muller), 30 November 1920, no. 1015, to Antoon van Welie (1866-1956), The Hague; from his estate, fl. 7,500, to the museum, 1957{Provenance reconstructed in Ekkart 1999, pp. 20-25.}</ns5:provenance>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/pAJRo/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/pAJRo" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/pAJRo/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3920--bc322475273582bf54cd6f6ebb6da09f">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns7:prefLabel xml:lang="en">RijksXL</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">RijksXL</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns7:prefLabel xml:lang="en">biografic</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">biografisch</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns7:prefLabel xml:lang="en">paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderijen</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26121">
+            <ns7:prefLabel xml:lang="en">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns7:prefLabel xml:lang="en">panel</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">paneel</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns7:prefLabel xml:lang="en">painting</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderij</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns7:prefLabel xml:lang="en">oil paint (paint)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">olieverf</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22123">
+            <ns8:sameAs rdf:resource="https://iconclass.org/61B2" />
+            <ns7:altLabel>61B2</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">historical persons</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2213352">
+            <ns8:sameAs rdf:resource="https://iconclass.org/48C311" />
+            <ns7:altLabel>48C311</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">jeweller, goldsmith, silversmith</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221464">
+            <ns8:sameAs rdf:resource="https://iconclass.org/41D2664" />
+            <ns7:altLabel>41D2664</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">ring</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/pAJRo">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2106758">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/54419402" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500015092" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q7983530" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/78989" />
+            <ns9:dateOfBirth xml:lang="nl">ca. 1580 - ca. 1585</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">in of na 1627</ns9:dateOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns7:prefLabel xml:lang="en">painter</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">schilder</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns7:prefLabel xml:lang="en">printmaker</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">prentmaker</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns7:prefLabel xml:lang="en">draftsman (artist)</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">tekenaar</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Valckert, Werner van den</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Valckert, Werner Jacobsz van den</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Valckert, Werner van den</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Werner Jacobsz van den Valckert</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Werner van den Valckert</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Werner van den Valckert</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21074959">
+            <ns9:dateOfBirth xml:lang="nl">1585</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1658</ns9:dateOfDeath>
+            <ns7:altLabel xml:lang="nl">Assendelft, Bartholomeus Jansz van</ns7:altLabel>
+            <ns7:prefLabel xml:lang="nl">Bartholomeus Jansz van Assendelft</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns7:prefLabel>Rijksmuseum</ns7:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

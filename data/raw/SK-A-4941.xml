@@ -1,0 +1,206 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200411629</ns0:identifier>
+        <ns0:datestamp>2026-06-08T21:37:30Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260215</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200411629#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200411629">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101918" />
+                <dc:description xml:lang="en">The old Dutch title (in parentheses) refers to the cries ‘beautiful!’ (fraai) and ‘extraordinary!’ (curieus) with which itinerant performers announced themselves. Here a performer shows a wooden triptych with characters from a chivalric romance, while undoubtedly recounting the tale to those gathered around. Willem van Mieris was a ‘fine painter’, meaning that he rendered the scene in a highly detailed and refined manner. The painting is actually also a kind of peepshow.</dc:description>
+                <dc:description xml:lang="nl">De oude titel (tussen haakjes) verwijst naar de kreten ‘fraai!’ en ‘curieus!’ waarmee rondtrekkende artiesten de aandacht trokken. Hier toont een artiest een houten drieluik met figuren uit een ridderroman, en hij vertelt er ongetwijfeld het verhaal bij. Willem van Mieris was ‘fijnschilder’: hij verbeeldde de scène zeer gedetailleerd en in een gladde stijl. Het schilderij is eigenlijk ook een soort kijkdoos.</dc:description>
+                <dc:identifier>SK-A-4941</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22114042" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2212283" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221255" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2212958" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221397" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2215074" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22166" />
+                <dc:title xml:lang="en">De rarekiek (’t Fraay Curieus)</dc:title>
+                <dc:title xml:lang="en">The Raree-show (’t Fraay Curieus)</dc:title>
+                <dc:title xml:lang="nl">De rarekiek (’t Fraay Curieus)</dc:title>
+                <dc:title xml:lang="nl">The Raree-show (’t Fraay Curieus)</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">1718</ns5:created>
+                <ns5:created xml:lang="nl">1718</ns5:created>
+                <ns5:extent xml:lang="en">height 58 cm x width 49 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 58 cm x breedte 49 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260215" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2621493" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2621504" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100935" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301118738" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301139902" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301154480" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301204853" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30124751" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30147067" />
+                <ns5:isReferencedBy>'Recent acquisitions at the Rijksmuseum, Amsterdam', The Burlington Magazine (November 2000), p. 733 met afb. XI.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>C.W. Fock, 'Willem van Mieris en zijn mecenas Pieter de la Court van der Voort', LKJ 2 (1983), p. 277.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>G. Jansen, 'De rarekiek', Bulletin Vereniging Rembrandt 9 (1999) 1, p. 20-22 met afb. in kleur.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">Inv.; sale, Robert Hamilton(Norwood, Surrey), London (Christie's), 15 March 1832, no. 317, to Charles Heusch, London; his son, F. Heusch, London; from whom to Lionel Nathan de Rothschild (1808-1879); ? by descent through the family to Baron Alfred de Rothschild (1842-1918), Exbury, Hampshire; from whom to John Enrico Fattorini (1878-1949), Bradford, by 1944;…; collection Mrs J.E. Leacock, Amsterdam, before 1956;…; anonymous sale, Amsterdam (Christie's), 2 April 1976, no. 14;….; the Leger Galleries, London, 1977;…; private collection Engeland, 1989;…;{Provenance 1832-1998, reconstructed by Noortman 2007, cat. no. 11.} from the dealer R. Noortman, Maastricht, fl. 1,184.375, to the museum, with support from the Vereniging Rembrandt and the Rijksmuseum Fonds, 1998</ns5:provenance>
+                <ns6:spn xml:lang="en">Purchased with the support of the Vereniging Rembrandt, with additional funding from the Prins Bernhard Fonds and the Rijksmuseum Fonds</ns6:spn>
+                <ns6:spn xml:lang="nl">Aankoop met steun van de Vereniging Rembrandt, mede dankzij het Prins Bernhard Fonds en het Rijksmuseum Fonds</ns6:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/KtoQD/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/KtoQD" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/KtoQD/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4941--bc14566cbafb19d9c0031cf99106b9ad">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260215">
+            <ns8:prefLabel xml:lang="en">Vereniging Rembrandt</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Vereniging Rembrandt</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns8:prefLabel xml:lang="en">panel</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">paneel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22114042">
+            <ns9:sameAs rdf:resource="https://iconclass.org/43C743" />
+            <ns8:altLabel>43C743</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">child and art</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2212283">
+            <ns9:sameAs rdf:resource="https://iconclass.org/48C75411" />
+            <ns8:altLabel>48C75411</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">minstrel, 'jongleur'</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221255">
+            <ns9:sameAs rdf:resource="https://iconclass.org/25F6" />
+            <ns8:altLabel>25F6</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">fishes</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2212958">
+            <ns9:sameAs rdf:resource="https://iconclass.org/46A152" />
+            <ns8:altLabel>46A152</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">'fahrende Leute', vagrants</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221397">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41A2" />
+            <ns8:altLabel>41A2</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">interior of the house</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2215074">
+            <ns9:sameAs rdf:resource="https://iconclass.org/43A344" />
+            <ns8:altLabel>43A344</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">peep-show</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22166">
+            <ns9:sameAs rdf:resource="https://iconclass.org/34B131" />
+            <ns8:altLabel>34B131</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">bird in a cage</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/KtoQD">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101918">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/61818345" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500013685" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q1348950" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/56022" />
+            <ns10:dateOfBirth xml:lang="nl">1662-06-03</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1747-01-27</ns10:dateOfDeath>
+            <ns10:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/230105" />
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230105">
+                <ns8:prefLabel xml:lang="en">Leiden</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Leiden</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Mierens, W. van</ns8:altLabel>
+            <ns8:altLabel xml:lang="en">Mieris, Willem van</ns8:altLabel>
+            <ns8:altLabel xml:lang="en">W. van Mierens</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Mierens, W. van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Mieris, Willem van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">W. van Mierens</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Willem van Mieris</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Willem van Mieris</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

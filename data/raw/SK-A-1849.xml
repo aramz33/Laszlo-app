@@ -1,0 +1,250 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20027430</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:25:19Z</ns0:datestamp>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20027430#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20027430">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2102183" />
+                <dc:description xml:lang="en">The Royal Procession in Amsterdam, 5 September 1898, by O. Eerelman, before 1900. On 5 September 1898 Queen Wilhelmina (1880 - 1962) arrived with her mother Queen-Regent Emma (1858 - 1934) by train at Amsterdam's Weesperpoort station. The next day Emma was to abdicate the regency and her eighteen-year-old daughter was to be invested as queen in the New Church. Otto Eerelman (1839 - 1926) painted the procession towards the Palace on Dam Square as it passed Frederiksplein. In the background is the Palace of National Industry (Paleis voor Volksvlijt). The artist probably painted the picture without a commission. In 1900 a group of art enthusiasts donated the work to the Rijksmuseum.</dc:description>
+                <dc:description xml:lang="nl">Intocht der koninginnen in Amsterdam, 5 september 1898, door O. Eerelman, vóór 1900. Op 5 september 1898 arriveerden koningin Wilhelmina (1880 - 1962) en haar moeder koningin-regentes Emma (1858 - 1934) per trein op het Weesperpoortstation in Amsterdam. De volgende dag zou Emma terugtreden als regentes en zou haar achttienjarige dochter in de Nieuwe Kerk als koningin worden ingehuldigd. Otto Eerelman (1839 - 1926) legde het moment vast dat de stoet op weg naar het Paleis op de Dam het Frederiksplein passeerde. Op de achtergrond is het Paleis van Volksvlijt afgebeeld. Hij maakte het schilderij waarschijnlijk op eigen initiatief. In 1900 werd het door een groep kunstliefhebbers aangeboden aan het Rijksmuseum.</dc:description>
+                <dc:identifier>SK-A-1849</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200702538" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21010309" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21024459" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221204" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221765" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/23010179" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2301295" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/240194" />
+                <dc:title xml:lang="en">The Frederiksplein, Amsterdam, during the Entry of Queen Wilhelmina, 5 September 1898</dc:title>
+                <dc:title xml:lang="nl">Het Frederiksplein te Amsterdam tijdens de intocht van koningin Wilhelmina, 5 september 1898</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">1898 - 1900</ns5:created>
+                <ns5:created xml:lang="nl">1898 - 1900</ns5:created>
+                <ns5:extent xml:lang="en">depth 19.5 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 139 cm x width 195 cm</ns5:extent>
+                <ns5:extent xml:lang="en">weight 80 kg</ns5:extent>
+                <ns5:extent xml:lang="nl">buitenmaat: diepte 19,5 cm (drager incl. SK-L-6545)</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 139 cm x breedte 195 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">geheel: gewicht (eigenschap) 80 kg (met lijst)</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301106469" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301107395" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301151245" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015253" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3016724" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30167572" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30185539" />
+                <ns5:isReferencedBy>29-I-1998: Gemeentearchief in Amsterdam heeft voorstudie in krijt/potlood (inv. nr. 1987/183)</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Ander schilderij van de intocht van koningin Wilhelmina van de hand  in Amsterdam van Hobbe Smith, in: D. Carasso, Helden van het Vaderland, Onze geschiedenis in 19de-eeuwse taferelen verbeeld, Amsterdam, 1991, p. 164</ns5:isReferencedBy>
+                <ns5:isReferencedBy>C. Scott, Cultural diplomacy and the heritage of empire. Negotiating post-colonial returns, Londen en New York 2020, p. 36, fig. 1.6.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Correspondentie van de heer J.J. Biesing n.a.v. aankoop schilderij in inventarismap aanwezig</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Correspondentie van de heer J.P. Filedt Kok n.a.v. teruggave schilderij in inventarismap aanwezig</ns5:isReferencedBy>
+                <ns5:isReferencedBy>D.H. Couvee, 'Het bezoek der Indische vorsten', Leve de Willemien, p. 87</ns5:isReferencedBy>
+                <ns5:isReferencedBy>De inhuldiging van koningin Wilhelmina, voorstudies van Nicolaas van der Waay, uit de Atlas van Stolk, Historisch Museum  Rotterdam, 1998</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Dicks (?), 'De intocht', Leve de onvolprezen Wilhelmina, p. 264-267</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Documentatiemap Schilderijen: aantekeningen R. van Luttervelt (voor 1963); kopieën archivalia overdracht schilderij aan RM; 'Eeuwfeest, inhuldiging koningin Wilhelmina', folder van de Stichting Viering Inhuldiging Koningin Wilhelmina; artikelen..</ns5:isReferencedBy>
+                <ns5:isReferencedBy>H. Strabbing, Alleen het vuurwerk viel tegen, in: Volkskrant, 6/maandag 31 augustus 1998</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Jaarverslag Rijksmuseum, 1900, p. 77</ns5:isReferencedBy>
+                <ns5:isReferencedBy>K. Broos, Het beeld van de taal, in: O.K., 23, 1979, 5, p. 149, afb. 23</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Nescio, De Titaantjes, Den Haag 1918, p. 36, 67, 71</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Tom van der Meer, 'Intocht der Koninginnen in Amsterdam, 5 september 1898', Rijksmuseumkunstkrant (juli/aug. 1998), p. 18, 19 + afb.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>W. Slob, 'Otto Eerelman- Paarden en Hondenschilder, Op den uitkijk (1964), p. 641-644</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns6:spn xml:lang="en">Gift of J.J. Biesing, The Hague</ns6:spn>
+                <ns6:spn xml:lang="nl">Schenking van de heer J.J. Biesing, Den Haag</ns6:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/qeeVA/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/qeeVA" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/qeeVA/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1849--ca1c11018d38c59580c699ec2656af90">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns8:prefLabel xml:lang="en">canvas</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">doek</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221204">
+            <ns9:sameAs rdf:resource="https://iconclass.org/43A42" />
+            <ns8:altLabel>43A42</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">triumphal entry and public reception, pageant, 'entrée solennelle', 'joyeuse entrée'</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221765">
+            <ns9:sameAs rdf:resource="https://iconclass.org/44BB1651" />
+            <ns8:altLabel>44BB1651</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">ceremonial procession, parade, pageant ~ installation of a ruler - BB - female ruler</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/qeeVA">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21010309">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/261774037" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q150747" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/84533" />
+            <ns10:dateOfBirth xml:lang="nl">1880-08-31</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1962-11-28</ns10:dateOfDeath>
+            <ns10:placeOfBirth />
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301436">
+                <ns8:prefLabel xml:lang="nl">Paleis Het Loo</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2203965">
+                <ns8:prefLabel xml:lang="en">writer (clerical worker)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schrijver</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205832">
+                <ns8:prefLabel xml:lang="nl">koningin</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="nl">Koningin Wilhelmina</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Wilhelmina Helena Pauline Maria</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Wilhelmina of the Netherlands</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Wilhelmina (koningin der Nederlanden)</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2102183">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/42636612" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500010754" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q504222" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/25610" />
+            <ns10:dateOfBirth xml:lang="nl">1839-03-23</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1926-10-03</ns10:dateOfDeath>
+            <ns10:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/2304536" />
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2304536">
+                <ns8:prefLabel xml:lang="nl">Groningen (stad)</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Eerelman, Otto</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Eerelman, Otto</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Otto Eerelman</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Otto Eerelman</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21024459">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/264948458" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q57664" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/437008" />
+            <ns10:dateOfBirth xml:lang="nl">1858-08-02</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1934-03-20</ns10:dateOfDeath>
+            <ns10:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/2304360" />
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+                <ns8:prefLabel xml:lang="en">The Hague</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Den Haag</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205832">
+                <ns8:prefLabel xml:lang="nl">koningin</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="nl">Emma van Waldeck-Pyrmont</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Koningin Emma</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Waldeck-Pyrmont, Emma van</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Emma (Queen consort of the Netherlands)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Emma (koningin-regentes der Nederlanden)</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/23010179">
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q2052678" />
+            <ns8:prefLabel xml:lang="nl">Frederiksplein</ns8:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301295">
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q2077209" />
+            <ns8:prefLabel xml:lang="nl">Paleis voor Volksvlijt</ns8:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2304360">
+            <ns8:prefLabel xml:lang="nl">Arolsen</ns8:prefLabel>
+          </ns3:Place>
+          <ns3:TimeSpan rdf:about="https://id.rijksmuseum.nl/240194">
+            <ns8:prefLabel xml:lang="nl">Inhuldiging van Wilhelmina als koningin der Nederlanden</ns8:prefLabel>
+          </ns3:TimeSpan>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

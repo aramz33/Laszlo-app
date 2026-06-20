@@ -1,0 +1,126 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20091529</ns0:identifier>
+        <ns0:datestamp>2026-06-09T12:33:30Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26132</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20091529#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20091529">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="nl">Marmeren bovenplaat behorend bij een wandtafel van verguld lindehout met aan de voorkant Europa op de stier in reliëf.</dc:description>
+                <dc:identifier>BK-1975-80-1</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211050" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22170" />
+                <dc:title xml:lang="nl">Marmeren bovenplaat behorend bij een wandtafel van verguld lindehout met aan de voorkant Europa op de stier</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220117" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/22015" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2202842" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220667" />
+                <ns5:created xml:lang="en">1690 - 1710</ns5:created>
+                <ns5:created xml:lang="nl">1690 - 1710</ns5:created>
+                <ns5:extent xml:lang="en">height 121.5 cm x width 73.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 121,5 cm x breedte 73,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/20062157" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26132" />
+                <ns5:isReferencedBy>‘Keuze uit de aanwinsten’, Bulletin van het Rijksmuseum 24 (1976), p. 140, afb. 6.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220147" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230143" />
+                <ns6:spn xml:lang="en">Purchased with the support of the Stichting tot Bevordering van de Belangen van het Rijksmuseum</ns6:spn>
+                <ns6:spn xml:lang="nl">Aankoop met steun van de Stichting tot Bevordering van de Belangen van het Rijksmuseum</ns6:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/hhRiv/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/hhRiv" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/hhRiv/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-1975-80-1--cf65b984f382488be21525b06b509bfb">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/230143">
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q27996474" />
+            <ns8:prefLabel xml:lang="en">Northern Netherlands</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Noordelijke Nederlanden</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26132">
+            <ns8:prefLabel xml:lang="nl">meubelen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220117">
+            <ns8:prefLabel xml:lang="en">table</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">tafel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220147">
+            <ns8:prefLabel xml:lang="en">marble (rock)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">marmer</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22015">
+            <ns8:prefLabel xml:lang="en">furniture</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">meubilair</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202842">
+            <ns8:prefLabel xml:lang="nl">wandtafel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220667">
+            <ns8:prefLabel xml:lang="nl">plaat</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211050">
+            <ns9:sameAs rdf:resource="https://iconclass.org/92B1218" />
+            <ns8:altLabel>92B1218</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Jupiter, usually in the shape of a white bull, abducts Europa and carries her across the water</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22170">
+            <ns9:sameAs rdf:resource="https://iconclass.org/48A9831" />
+            <ns8:altLabel>48A9831</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">foliage, tendrils, branches ~ ornament</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/hhRiv">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns8:altLabel xml:lang="nl">Anon</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">anonymous</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">anoniem</ns8:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

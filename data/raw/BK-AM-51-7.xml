@@ -1,0 +1,182 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns11="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns12="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200115913</ns0:identifier>
+        <ns0:datestamp>2026-06-08T02:09:35Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26126</ns0:setSpec>
+        <ns0:setSpec>2618</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200115913#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200115913">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21011729" />
+                <dc:description xml:lang="en">Both façades of the Town Hall are surmounted by three bronze statues. On the rear elevation, Atlas shoulders a celestial globe – of which this is the scale model (without the globe) – with Temperance and Vigilance at his side. On the front elevation, Peace is flanked by the virtues Wisdom and Justice. The message expressed here is that universal peace, on earth and in heaven, depends on these four virtues.</dc:description>
+                <dc:description xml:lang="nl">Beide gevels van het stadhuis worden bekroond door drie bronzen beelden. Op de achtergevel draagt Atlas – waarvan dit een model op schaal is – het hemelgewelf met Matigheid en Waakzaamheid aan zijn zijde. Aan de voorzijde staat de Vrede, geflankeerd door de deugden Wijsheid en Gerechtigheid. Universele vrede, op aarde en in de hemel, is alleen mogelijk dankzij deze vier deugden, zo luidt hier de boodschap.</dc:description>
+                <dc:identifier>BK-AM-51-7</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200115914" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211411" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2307350" />
+                <dc:title xml:lang="en">Atlas</dc:title>
+                <dc:title xml:lang="nl">Atlas</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201048" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201345" />
+                <ns5:created xml:lang="en">1650 - 1651</ns5:created>
+                <ns5:created xml:lang="nl">1650 - 1651</ns5:created>
+                <ns5:extent xml:lang="en">height 78 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 78 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26126" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2618" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30115456" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301193916" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301193917" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125313" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125314" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220445" />
+                <ns5:provenance xml:lang="en">&lt;div&gt;&lt;p&gt;Commissioned by the City of Amsterdam, 1650/51;{A list of works for which Quellinus was paid in four instalments between 6 January and 12 September 1651 includes a _&lt;em&gt;belt van een atlas 3 voet hooge&lt;/em&gt;_ (a sculpture of atlas 3 feet high) for 60 guilders) and _&lt;em&gt;noch eenen atlas tot meerder verbetering&lt;/em&gt;_ (another atlas for greater improvement) also for 60 guilders, see Stadsarchief Amsterdam (hereafter: SAA), archive 5039 (Thesaurie Ordinaris), inv. no. 624, no. 5. Also see no. 11, where the models are mentioned again as a _&lt;em&gt;eenen grooten atlas - 60&lt;/em&gt;_ [gulden] and _&lt;em&gt;noch eenen tot meerder verbetereringe - 60&lt;/em&gt;_ [gulden]. See H. Vreeken, ‘Quellinus’ boetseersels voor het zeventiende-eeuwse stadhuis op de Dam’, in M. Jonker et al., _&lt;em&gt;In beeld gebracht: Beeldhouwkunst uit de collectie van het Amsterdams Historisch Museum&lt;/em&gt;_, coll. cat. Amsterdam 1995, pp. 38-59, esp. p. 48.} from the artist,{K. Fremantle, ‘The Fountains Designed for Van Campen’s Amsterdam Town Hall and Quellien’s Models for Them’, _&lt;em&gt;Album discipulorum aangeboden aan J.G. van Gelder ter gelegenheid van zijn 60ste verjaardag&lt;/em&gt;_ (_&lt;em&gt;Utrechtse Kunsthistorische Studiën&lt;/em&gt;_ 7), Utrecht 1963, pp. 101-18, esp. p. 104 (note 15): _&lt;em&gt;dewijl zijn werk lootse nu affgebroken wordt dat haer Edele&lt;/em&gt;_ [burgemeesters] _&lt;em&gt;sullen laten affhalen de modellen vande beelden die hij ten behoeve dezer Stede gemaeckt heeft&lt;/em&gt;_ (while his workshop is being closed, that her Noble [burgomasters] shall have the models of the sculptures that he made on behalf of this City collected). See also H.J. Wiggers, ‘De stad Amsterdam en haar vroegste beeldencollectie’, in M. Jonker et al., _&lt;em&gt;In beeld gebracht: Beeldhouwkunst uit de collectie van het Amsterdams Historisch Museum&lt;/em&gt;_, coll. cat. Amsterdam 1995, pp. 60-75, esp. p. 62 (referring to A.W. Kroon, _&lt;em&gt;Het Amsterdamsche stadhuis (thans Paleis), 1625-1700: Zijne geschiedenis naar onuitgegeven officiële bronnen bewerkt&lt;/em&gt;_, Amsterdam 1867, p. 138).} transferred to the Town Hall (now Royal Palace) at Dam Square, Amsterdam, 1664;{H.J. Wiggers, ‘De stad Amsterdam en haar vroegste beeldencollectie’, in M. Jonker et al., _&lt;em&gt;In beeld gebracht: Beeldhouwkunst uit de collectie van het Amsterdams Historisch Museum&lt;/em&gt;_, coll. cat. Amsterdam 1995, pp. 60-75, esp. pp. 62-64. The models were initially kept in the Thesaurie Ordinaris (Treasury) of the town hall. Around 1700, most were moved to the art cabinet in the _&lt;em&gt;kunstkamer&lt;/em&gt;_ (art chamber) on the third floor, see _&lt;em&gt;Wegwyzer door Amsterdam&lt;/em&gt;_, Amsterdam (Nicolaas ten Hoorn) 1713, p. 446. From 1768 on, the task of overseeing the models’ preservation was assigned to the Stadstekenacademie (City Drawing Academy), also located in the aforementioned _&lt;em&gt;kunstkamer&lt;/em&gt;_. In 1769, academy director Cornelis Ploos van Amstel compiled an inventory of all sculptures in the art chamber. This inventory also included Quellinus’s models, see SAA, archive H. 86.003 (Library), Cornelis Ploos van Amstel, _&lt;em&gt;Notitie van Boetseersels en Pleisterbeelden enz bewaard wordende op de kunstkamer van het stadhuijs der stad Amsterdam&lt;/em&gt;_ (January 1769). From November 1796 to April 1806, the Stadstekenacademie was obliged to (temporarily) vacate the town hall art chamber on the orders of the French occupier. During this period, it is not known where the models were stored, though presumably they remained in the town hall, albeit without oversight. In April 1806, the models were moved to the _&lt;em&gt;rariteitenkamer&lt;/em&gt;_ (curiosity chamber), also called the Diplomatieke Bibliotheek (Diplomatic Library).} transferred to the Stadstekenacademie (at two or three successive locations), Amsterdam, 1808;{The collection was moved in 1808, when Louis Napoleon took up residence in the town hall. H.J. Wiggers, ‘De stad Amsterdam en haar vroegste beeldencollectie’, in M. Jonker et al., _&lt;em&gt;In beeld gebracht: Beeldhouwkunst uit de collectie van het Amsterdams Historisch Museum&lt;/em&gt;_, coll. cat. Amsterdam 1995, pp. 60-75, esp. pp. 67-68. See also SAA, archive 265 (Stadstekenacademie), inv. nos. 1-4 and 6-54.} transferred to the Koninklijke Academie van Beeldende Kunsten (old Exchange of Hendrick de Keyser), Amsterdam, 1821;{H.J. Wiggers, ‘De stad Amsterdam en haar vroegste beeldencollectie’, in M. Jonker et al., _&lt;em&gt;In beeld gebracht: Beeldhouwkunst uit de collectie van het Amsterdams Historisch Museum&lt;/em&gt;_, coll. cat. Amsterdam 1995, pp. 60-75, esp. p. 70, referring to SAA, archive 265 (Stadstekenacademie), inv. no. 4 (minutes of 1818-1821).} transferred to the Oude Mannenhuis, Amsterdam 1837;{H.J. Wiggers, ‘De stad Amsterdam en haar vroegste beeldencollectie’, in M. Jonker et al., _&lt;em&gt;In beeld gebracht: Beeldhouwkunst uit de collectie van het Amsterdams Historisch Museum&lt;/em&gt;_, coll. cat. Amsterdam 1995, pp. 60-75, esp. pp. 70-71. See also SAA, archive PA 681 (Koninklijke Academie van Beeldende Kunsten), inv. no. 7.} transferred to the Town Hall at the Prinsenhof, Amsterdam, 1878;{H.J. Wiggers, ‘De stad Amsterdam en haar vroegste beeldencollectie’, in M. Jonker et al., _&lt;em&gt;In beeld gebracht: Beeldhouwkunst uit de collectie van het Amsterdams Historisch Museum&lt;/em&gt;_, coll. cat. Amsterdam 1995, pp. 60-75, esp. &amp;nbsp;p. 72. See also SAA, archive H. 86.003 (Library).} on loan to the museum, since 1887{See SAA, archive H. 86.002 (Library).} &lt;/p&gt;&lt;p&gt;**or** &lt;/p&gt;&lt;p&gt;Commissioned by the City of Amsterdam, 1650/51;{A list of works for which Quellinus was paid in four instalments between 6 January and 12 September 1651 includes a _&lt;em&gt;belt van een atlas 3 voet hooge&lt;/em&gt;_ (a sculpture of atlas 3 feet high) for 60 guilders) and _&lt;em&gt;noch eenen atlas tot meerder verbetering&lt;/em&gt;_ (another atlas for greater improvement) also for 60 guilders, see Stadsarchief Amsterdam (hereafter: SAA), archive 5039 (Thesaurie Ordinaris), inv. no. 624, no. 5. Also see no. 11, where the models are mentioned again as a _&lt;em&gt;eenen grooten atlas - 60&lt;/em&gt;_ [gulden] and _&lt;em&gt;noch eenen tot meerder verbetereringe - 60&lt;/em&gt;_ [gulden]. See H. Vreeken, ‘Quellinus’ boetseersels voor het zeventiende-eeuwse stadhuis op de Dam’, in M. Jonker et al., _&lt;em&gt;In beeld gebracht: Beeldhouwkunst uit de collectie van het Amsterdams Historisch Museum&lt;/em&gt;_, coll. cat. Amsterdam 1995, pp. 38-59, esp. p. 48.} from the artist,{K. Fremantle, ‘The Fountains Designed for Van Campen’s Amsterdam Town Hall and Quellien’s Models for Them’, _&lt;em&gt;Album discipulorum aangeboden aan J.G. van Gelder ter gelegenheid van zijn 60ste verjaardag&lt;/em&gt;_ (_&lt;em&gt;Utrechtse Kunsthistorische Studiën&lt;/em&gt;_ 7), Utrecht 1963, pp. 101-18, esp. p. 104 (note 15): _&lt;em&gt;dewijl zijn werk lootse nu affgebroken wordt dat haer Edele&lt;/em&gt;_ [burgemeesters] _&lt;em&gt;sullen laten affhalen de modellen vande beelden die hij ten behoeve dezer Stede gemaeckt heeft&lt;/em&gt;_ (while his workshop is being closed, that her Noble [burgomasters] shall have the models of the sculptures that he made on behalf of this City collected). See also H.J. Wiggers, ‘De stad Amsterdam en haar vroegste beeldencollectie’, in M. Jonker et al., _&lt;em&gt;In beeld gebracht: Beeldhouwkunst uit de collectie van het Amsterdams Historisch Museum&lt;/em&gt;_, coll. cat. Amsterdam 1995, pp. 60-75, esp. p. 62 (referring to A.W. Kroon, _&lt;em&gt;Het Amsterdamsche stadhuis (thans Paleis), 1625-1700: Zijne geschiedenis naar onuitgegeven officiële bronnen bewerkt&lt;/em&gt;_, Amsterdam 1867, p. 138).} transferred to the Town Hall (now Royal Palace) at Dam Square, Amsterdam, 1664;{The _&lt;em&gt;Prudentia&lt;/em&gt;_ ([BK-AM-51-6](https://data.rijksmuseum.nl/200115912) and one of the two Atlas-models ([BK-AM-51-7](https://data.rijksmuseum.nl/200115913) or [-8](https://data.rijksmuseum.nl/200115914)) were stored separately from the other Quelliniana for a long time: they remained in the Thesaurie Ordinaris and were never transferred to the _&lt;em&gt;kunstkamer&lt;/em&gt;_. In April 1806, the models were moved to the _&lt;em&gt;rariteitenkamer&lt;/em&gt;_ (curiosity chamber), also called the Diplomatieke Bibliotheek (Diplomatic Library) and subsequently transferred to the _&lt;em&gt;rariteitenkamer&lt;/em&gt;_ of the town hall in the Prinsenhof, after which they were given in long time loan with the other Quelliniana to the newly opened Rijksmuseum in 1887, see H.J. Wiggers, ‘De stad Amsterdam en haar vroegste beeldencollectie’, in M. Jonker et al., _&lt;em&gt;In beeld gebracht: Beeldhouwkunst uit de collectie van het Amsterdams Historisch Museum&lt;/em&gt;_, coll. cat. Amsterdam 1995, pp. 60-75, esp. pp. 62 and 67-73.} transferred to the Town Hall at the Prinsenhof, Amsterdam, 1808;{H.J. Wiggers, ‘De stad Amsterdam en haar vroegste beeldencollectie’, in M. Jonker et al., _&lt;em&gt;In beeld gebracht: Beeldhouwkunst uit de collectie van het Amsterdams Historisch Museum&lt;/em&gt;_, coll. cat. Amsterdam 1995, pp. 60-75, esp. pp. 69, referring to a list compiled and signed by Arend Fokke Simonsz in 1808, with works which were transferred from the Thesaurie to the new _&lt;em&gt;rariteitenkamer&lt;/em&gt;_ in the Prinsenhof. See SAA, archive H. 86.003 (Library), A. Fokke Simonsz, _&lt;em&gt;Aanteekeningen betreffende de voornaamste Oudheden der stad Amsterdam&lt;/em&gt;_ [...], Amsterdam, 20 January 1808.} on loan to the museum, since 1887{See SAA, archive H. 86.002 (Library).} &lt;/p&gt;&lt;/div&gt;</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23029985" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206793" />
+                <ns7:spn xml:lang="en">On loan from the City of Amsterdam</ns7:spn>
+                <ns7:spn xml:lang="nl">Bruikleen van de gemeente Amsterdam</ns7:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/Dzlbe/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/Dzlbe" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/Dzlbe/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-AM-51-7--067c3f3d1078b7b0b7c6a55f22a5ffe4">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/23029985">
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006952" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q727" />
+            <ns10:sameAs rdf:resource="https://sws.geonames.org/2759794/" />
+            <ns9:prefLabel xml:lang="en">Amsterdam</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Amsterdam</ns9:prefLabel>
+            <ns11:lat>4.916667</ns11:lat>
+            <ns11:long>52.35</ns11:long>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns9:prefLabel xml:lang="en">RijksXL</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">RijksXL</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26126">
+            <ns9:prefLabel xml:lang="en">sculptures</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">beeldhouwwerken</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2618">
+            <ns9:prefLabel xml:lang="en">European Sculpture in the Rijksmuseum</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">European Sculpture in the Rijksmuseum</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2201048">
+            <ns9:altLabel xml:lang="nl">sculptuur</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">sculpture</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">beeldhouwwerk</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2201345">
+            <ns9:prefLabel xml:lang="nl">model</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220445">
+            <ns9:prefLabel xml:lang="en">terracotta (clay material)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">terracotta</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2206793">
+            <ns9:altLabel xml:lang="nl">geboetseerd</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">modeling</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">boetseren</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2211411">
+            <ns10:sameAs rdf:resource="https://iconclass.org/91B13661" />
+            <ns9:altLabel>91B13661</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Atlas supporting the heavens on his shoulders</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/Dzlbe">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21011729">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/52492507" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500012120" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q651461" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/65221" />
+            <ns12:dateOfBirth xml:lang="nl">1609</ns12:dateOfBirth>
+            <ns12:dateOfDeath xml:lang="nl">1668-08-23</ns12:dateOfDeath>
+            <ns12:placeOfBirth />
+            <ns12:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230148">
+                <ns9:prefLabel xml:lang="en">Antwerp</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Antwerpen (stad)</ns9:prefLabel>
+              </ns3:Place>
+            </ns12:placeOfDeath>
+            <ns12:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns9:prefLabel xml:lang="en">printmaker</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">prentmaker</ns9:prefLabel>
+              </ns9:Concept>
+            </ns12:professionOrOccupation>
+            <ns12:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns9:prefLabel xml:lang="en">draftsman (artist)</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">tekenaar</ns9:prefLabel>
+              </ns9:Concept>
+            </ns12:professionOrOccupation>
+            <ns12:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2205167">
+                <ns9:prefLabel xml:lang="en">sculptor</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">beeldhouwer</ns9:prefLabel>
+              </ns9:Concept>
+            </ns12:professionOrOccupation>
+            <ns9:altLabel xml:lang="en">Artus Quellinus</ns9:altLabel>
+            <ns9:altLabel xml:lang="en">Quellinus, Artus (I)</ns9:altLabel>
+            <ns9:altLabel xml:lang="en">Quellinus, Artus</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Arnoldus Quellinus</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Artus Quellinus (de Oude)</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Artus Quellinus</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Quellinus, Arnoldus</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Quellinus, Artus (I)</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Quellinus, Artus (de Oude)</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Quellinus, Artus</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Artus Quellinus (I)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Artus Quellinus (I)</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2307350">
+            <ns9:prefLabel xml:lang="nl">Stadhuis van Amsterdam (1655-1808)</ns9:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

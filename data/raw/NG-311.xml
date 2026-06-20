@@ -1,0 +1,193 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20066403</ns0:identifier>
+        <ns0:datestamp>2026-06-08T21:48:16Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260210</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26132</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20066403#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20066403">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="en">Paul Kruger, president of the Transvaal Republic, arrived in Europe in 1900 on the Dutch warship Gelderland. On board ship he used this chair, which he had borrowed in Mozambique. Kruger never returned the chair, but presented it to the captain of the warship with some ceremony when he disembarked at Marseilles. The captain later gave the chair to the Rijksmuseum</dc:description>
+                <dc:description xml:lang="nl">Paul Kruger, president van Transvaal, kwam in 1900 op het Nederlandse oorlogsschip Gelderland naar Europa. Aan boord gebruikte hij deze stoel, die hij in Mozambique had geleend. Kruger gaf de stoel nooit terug, maar schonk hem toen hij in Marseille van boord ging met enige plichtplegingen aan de kapitein van het oorlogsschip. Die gaf hem later aan het Rijksmuseum</dc:description>
+                <dc:identifier>NG-311</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21046100" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21060575" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2301238" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2302151" />
+                <dc:title xml:lang="en">Armchair used by President Paul Kruger</dc:title>
+                <dc:title xml:lang="en">Armstoel gebruikt door president Paul Kruger</dc:title>
+                <dc:title xml:lang="nl">Armchair used by President Paul Kruger</dc:title>
+                <dc:title xml:lang="nl">Armstoel gebruikt door president Paul Kruger</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220272" />
+                <ns5:created xml:lang="en">in or before 1900</ns5:created>
+                <ns5:created xml:lang="nl">in of voor 1900</ns5:created>
+                <ns5:extent xml:lang="en">height 120 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 45 cm x depth 47 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 63 cm</ns5:extent>
+                <ns5:extent xml:lang="en">width 69 cm x depth 59 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">armleuning: hoogte 63 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">geheel: breedte 69 cm x diepte 59 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">rug: hoogte 120 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">zitting: hoogte 45 cm x diepte 47 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260210" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26132" />
+                <ns5:isReferencedBy>Documentatiemap.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>F. Oudschans Dentz, 'Twee stoelen van president Kruger in het Rijksmuseum te Amsterdam en de arbeid van de Zuid-Afrikaanse Stichting 'Moederland'', Africana notes and news (1960) nr. 2, p. 69.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Geschiedenis van de Schout-bij-Nacht J.H.L.J. Bron Sweerts de Landas Wijborg.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J. Baart, Een Duitse luchtafweerkruiser voor Leningrad: made in Krimpen aan den IJssel"", Terugblik 40-45 (2021), 59ste jaargang nr.7 (617), p. 5 [mbt de Gelderland]</ns5:isReferencedBy>
+                <ns5:isReferencedBy>R. van Luttervelt, 'Twee stoelen van Paul Kruger in het Rijksmuseum te Amsterdam', Africana notes and news (1952) nr. 10, p. 18 e.v.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2201175" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220149" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2202164" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2203402" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2204844" />
+                <ns6:spn xml:lang="en">Gift of J.H.L.J., Baron Sweerts de Landas Wijborgh</ns6:spn>
+                <ns6:spn xml:lang="nl">Schenking van J.H.L.J. baron Sweerts de Landas Wijborgh</ns6:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/Vossm/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/Vossm" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/Vossm/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/NG-311--2a0d979310f5aa7b18a994b797aefd10">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260210">
+            <ns8:prefLabel xml:lang="en">Against Opacity</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Against Opacity</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26132">
+            <ns8:prefLabel xml:lang="nl">meubelen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2201175">
+            <ns8:prefLabel xml:lang="en">beech (wood)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">beukenhout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220149">
+            <ns8:altLabel xml:lang="nl">ahornhout</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">maple (wood)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">esdoornhout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202164">
+            <ns8:prefLabel xml:lang="en">ash (wood)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">essenhout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220272">
+            <ns8:prefLabel xml:lang="nl">armstoel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2203402">
+            <ns8:prefLabel xml:lang="en">osiers</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">wilgenteen</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2204844">
+            <ns8:prefLabel xml:lang="en">poplar (wood)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">populierenhout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/Vossm">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21046100">
+            <ns9:dateOfBirth xml:lang="nl">1851</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1912</ns9:dateOfDeath>
+            <ns8:altLabel xml:lang="nl">Sweerts de Landas Wijborgh, J.H.L.J. baron</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">J.H.L.J. baron Sweerts de Landas Wijborgh</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21060575">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/39463346" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q244407" />
+            <ns9:dateOfBirth xml:lang="nl">1825-10-10</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1904-07-14</ns9:dateOfDeath>
+            <ns9:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2304132">
+                <ns8:prefLabel xml:lang="nl">Vaalbank</ns8:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfBirth>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2304133">
+                <ns8:prefLabel xml:lang="nl">Clarens (Zuid-Afrika)</ns8:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205142">
+                <ns8:prefLabel xml:lang="en">president</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">president</ns8:prefLabel>
+              </ns8:Concept>
+            </ns9:professionOrOccupation>
+            <ns8:altLabel xml:lang="nl">Kruger, Paul</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Kruger, Stephanus Johannes Paulus</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Stephanus Johannes Paulus Kruger</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">Paul Kruger</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns8:altLabel xml:lang="nl">Anon</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">anonymous</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">anoniem</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301238">
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/1000193" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q258" />
+            <ns8:prefLabel xml:lang="nl">Zuid-Afrika</ns8:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2302151">
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/7008781" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q23482" />
+            <ns8:prefLabel xml:lang="en">Marseille</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Marseille</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

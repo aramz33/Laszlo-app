@@ -1,0 +1,215 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20025819</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:14:33Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20025819#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20025819">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101147" />
+                <dc:description xml:lang="en">At the time that this portrait was made, William III was stadholder of the Dutch Republic and commander of the army. This is how a ruler had himself immortalized, namely holding a commander’s staff to underscore his actual might. The plumed helmet and orange sash also signify his status. Still the prince had not yet reached the height of his power: in 1689 he would also become the king of England.</dc:description>
+                <dc:description xml:lang="nl">Toen dit portret werd gemaakt, was Willem III stadhouder van de Republiek en bevelhebber van het leger. Zo liet een heerser zich afbeelden, met de commandostaf in de hand ter onderstreping van zijn feitelijke macht. Ook de gepluimde helm en oranje sjerp duiden op zijn status. Toch was de prins nog niet op het toppunt van zijn macht: in 1689 zou hij ook nog koning van Engeland worden.</dc:description>
+                <dc:identifier>SK-C-194</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20025822" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2103823" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221216" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221217" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221218" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22123" />
+                <dc:title xml:lang="en">Portrait of William III, Prince of Orange and Stadholder</dc:title>
+                <dc:title xml:lang="en">Portret van Willem III, prins van Oranje en stadhouder</dc:title>
+                <dc:title xml:lang="nl">Portrait of William III, Prince of Orange and Stadholder</dc:title>
+                <dc:title xml:lang="nl">Portret van Willem III, prins van Oranje en stadhouder</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">c. 1680 - c. 1684</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1680 - ca. 1684</ns5:created>
+                <ns5:extent xml:lang="en">height 80.5 cm x width 63 cm</ns5:extent>
+                <ns5:extent xml:lang="en">thickness 5.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">dikte 5,5 cm (incl. lijst)</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 80,5 cm x breedte 63 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301107690" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301151245" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns6:spn xml:lang="en">On loan from the City of Amsterdam (A. van der Hoop Bequest)</ns6:spn>
+                <ns6:spn xml:lang="nl">Bruikleen van de gemeente Amsterdam (legaat A. van der Hoop)</ns6:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/SFSsy/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/SFSsy" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/SFSsy/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-C-194--779465f483bdbe0ce5ef27053b8851c6">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns8:prefLabel xml:lang="en">canvas</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">doek</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221216">
+            <ns9:sameAs rdf:resource="https://iconclass.org/45D311" />
+            <ns8:altLabel>45D311</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">commander-in-chief, general, marshal</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221217">
+            <ns9:sameAs rdf:resource="https://iconclass.org/45C22" />
+            <ns8:altLabel>45C22</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">armour</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221218">
+            <ns9:sameAs rdf:resource="https://iconclass.org/44B15121" />
+            <ns8:altLabel>44B15121</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">prince</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22123">
+            <ns9:sameAs rdf:resource="https://iconclass.org/61B2" />
+            <ns8:altLabel>61B2</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">historical persons</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/SFSsy">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101147">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/39615291" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500019639" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q217715" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/59178" />
+            <ns10:dateOfBirth xml:lang="nl">1639</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1684-01-15</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230672">
+                <ns8:prefLabel xml:lang="nl">Heidelberg</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+                <ns8:prefLabel xml:lang="en">The Hague</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Den Haag</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Netscher, Caspar</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Gaspar Netscher</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Gaspard Netscher</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Netscher, Caspar</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Netscher, Gaspar</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Netscher, Gaspard</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Caspar Netscher</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Caspar Netscher</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2103823">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/227406842" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500238568" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q129987" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/424318" />
+            <ns10:dateOfBirth xml:lang="nl">1650-11-14</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1702-03-19</ns10:dateOfDeath>
+            <ns10:placeOfBirth />
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2302446">
+                <ns8:prefLabel xml:lang="nl">Hampton Court Palace</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202479">
+                <ns8:prefLabel xml:lang="en">prince (ruler)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prins</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2203883">
+                <ns8:prefLabel xml:lang="en">stadtholder</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">stadhouder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205140">
+                <ns8:prefLabel xml:lang="nl">koning</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="nl">Willem III (prins van Oranje)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">William III (Prince of Orange and King of England, Scotland, and Ireland)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Willem III (prins van Oranje en koning van Engeland, Schotland en Ierland)</ns8:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

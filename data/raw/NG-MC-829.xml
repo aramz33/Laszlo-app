@@ -1,0 +1,207 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20053991</ns0:identifier>
+        <ns0:datestamp>2026-06-08T16:57:31Z</ns0:datestamp>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26137</ns0:setSpec>
+        <ns0:setSpec>2617</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20053991#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20053991">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="en">On 5 October 1833 the amount raised by the lottery was announced. After costs the lottery made ? 6484,98. A total of 5723 tickets had been sold and 911 prizes awarded.</dc:description>
+                <dc:description xml:lang="nl">Op 5 oktober 1833 werd de opbrengst van de loterij verantwoord. Na aftrek van kosten had de loterij ? 6484,98 opgebracht. Er waren 5723 loten verkocht en 911 prijzen verloot.</dc:description>
+                <dc:identifier>NG-MC-829</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/210158878" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21054913" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21060819" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211031" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/23012950" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2305044" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/24092" />
+                <dc:title xml:lang="en">Model of a Lighthouse</dc:title>
+                <dc:title xml:lang="nl">Model van de vuurtoren J.C.J. van Speyk te Egmond</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2203350" />
+                <ns5:created xml:lang="en">1838</ns5:created>
+                <ns5:created xml:lang="en">1840</ns5:created>
+                <ns5:created xml:lang="nl">1838</ns5:created>
+                <ns5:created xml:lang="nl">1840</ns5:created>
+                <ns5:extent xml:lang="en">height 160 cm x width 112 cm x depth 110 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 160 cm x breedte 112 cm x diepte 110 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26137" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2617" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301101072" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30120410" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301207257" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125136" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30187794" />
+                <ns5:isReferencedBy>J.C. de Leeuw, 'Het monument opgerigt ter eere van J.C.J. van Speyk te Egmond aan Zee', Bouwkundige Bijdrage I, (1843), p. 180-183, pl. XI.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22013" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22021" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2203233" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2207803" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220884" />
+                <ns5:provenance xml:lang="en">...; transferred from the Ministerie van Marine (Department of the Navy), The Hague, to the museum, 1883</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/2301" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/hJFrP/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/hJFrP" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/hJFrP/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/NG-MC-829--ab4a75ac3839d6550c1202ba77e65093">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2301">
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/tgn/7016845" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q55" />
+            <ns8:sameAs rdf:resource="https://sws.geonames.org/2750405/" />
+            <ns7:prefLabel xml:lang="en">Netherlands</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Nederland</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns7:prefLabel xml:lang="en">biografic</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">biografisch</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26137">
+            <ns7:prefLabel xml:lang="en">Navy Model Room</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Marinemodellenkamer</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2617">
+            <ns7:prefLabel xml:lang="en">Navy Models in the Rijksmuseum</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Navy Models in the Rijksmuseum</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22013">
+            <ns7:prefLabel xml:lang="en">bronze (metal)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">brons</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22021">
+            <ns7:prefLabel xml:lang="en">wood (plant material)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">hout</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2203233">
+            <ns7:prefLabel xml:lang="en">sand</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">zand</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2203350">
+            <ns7:prefLabel xml:lang="en">show model</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">pronkmodel</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2207803">
+            <ns7:prefLabel xml:lang="en">glass</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">glas</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220884">
+            <ns7:prefLabel xml:lang="en">gypsum</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">gips</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2211031">
+            <ns8:sameAs rdf:resource="https://iconclass.org/46C2831" />
+            <ns7:altLabel>46C2831</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">lighthouse, lightship</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/hJFrP">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210158878">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/107082903" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q1649385" />
+            <ns9:dateOfBirth xml:lang="nl">1802-01-31</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1831-02-05</ns9:dateOfDeath>
+            <ns9:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns7:prefLabel xml:lang="en">Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Amsterdam</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfBirth>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230148">
+                <ns7:prefLabel xml:lang="en">Antwerp</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Antwerpen (stad)</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2207719">
+                <ns7:prefLabel xml:lang="nl">zeeofficier</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Jan Carel Josephus van Speijk</ns7:altLabel>
+            <ns7:altLabel xml:lang="en">Speijk, Jan Carel Josephus van</ns7:altLabel>
+            <ns7:altLabel xml:lang="en">Speyk, Jan van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Jan Carel Josephus van Speijk</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Jan Carel Josephus van Speyk</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Speijk, Jan Carel Josephus van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Speyk, Jan Carel Josephus van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Speyk, Jan van</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Jan van Speyk</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Jan van Speyk</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21054913">
+            <ns7:prefLabel xml:lang="nl">Militaire Willemsorde</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21060819">
+            <ns7:prefLabel xml:lang="nl">Koninklijke College Zeemanshoop</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns7:altLabel xml:lang="nl">Anon</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">anonymous</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">anoniem</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/23012950">
+            <ns7:prefLabel xml:lang="nl">Vuurtoren J.C.J. van Speijk</ns7:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2305044">
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/tgn/1047752" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q1616324" />
+            <ns7:prefLabel xml:lang="nl">Egmond aan Zee</ns7:prefLabel>
+            <ns10:lat>4.633333</ns10:lat>
+            <ns10:long>52.616667</ns10:long>
+          </ns3:Place>
+          <ns3:TimeSpan rdf:about="https://id.rijksmuseum.nl/24092">
+            <ns7:prefLabel xml:lang="nl">Belgische Revolutie</ns7:prefLabel>
+          </ns3:TimeSpan>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

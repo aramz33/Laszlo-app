@@ -1,0 +1,174 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns11="http://rdvocab.info/ElementsGr2/" xmlns:ns12="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20035336</ns0:identifier>
+        <ns0:datestamp>2026-06-08T02:06:12Z</ns0:datestamp>
+        <ns0:setSpec>260243</ns0:setSpec>
+        <ns0:setSpec>260215</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261200</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20035336#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20035336">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2104732" />
+                <dc:description xml:lang="en">Tapestry with Elijah and the angel. From a series of Eucharist tapestries. Wool and silk. Leiden, c. 1560-1570, by Willem Andriesz. de Raedt. Gift of the Rembrandt Society and the Rijksmuseum Foundation, 1984.</dc:description>
+                <dc:description xml:lang="nl">Wandtapijt met Elia en de engel. Uit een serie eucharistie-tapijten. Wol en zijde. Leiden, ca. 1560-1570, door Willem Andriesz. de Raedt. Geschenk van de Vereniging Rembrandt en de Rijksmuseum-Stichting, 1984.</dc:description>
+                <dc:identifier>BK-1984-12</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211220" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211571" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22118512" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221411" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/230105" />
+                <dc:title xml:lang="nl">Elia en de engel</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220535" />
+                <ns5:alternative xml:lang="nl">Eucharistievoorstellingen</ns5:alternative>
+                <ns5:created xml:lang="en">c. 1550 - c. 1570</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1550 - ca. 1570</ns5:created>
+                <ns5:extent xml:lang="en">height 175.5 cm x width 548 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 175,5 cm x breedte 548 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260215" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260243" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261200" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30144570" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30182300" />
+                <ns5:isReferencedBy>Bulletin van het Rijksmuseum, 39(1989)3, p. 176-178</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Ebeltje Hartkamp-Jonxis, 'Tapestries of the Amsterdam Rijksmuseum : History of the Collection', Filo forme : Storia arte e restauro dei tessili 2 (2002), nr. 3, p. 21, afb. 2.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J. D. Bangs, 'Tapestry weaving before the reformation: The Leiden studio's', Nederlands Kunsthistorisch Jaarboek, 37(1986), p. 233 met afb. 14</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J. D. Bangs, Documentary studies in Leiden art and craft 1475-1575 (diss), Leiden 1976, p. 68-71</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Verslag van de Hoofddirecteur over het jaar 1984. Rijksmuseum te Amsterdam, Den Haag 1985, p. 22-23, 66</ns5:isReferencedBy>
+                <ns5:isReferencedBy>cat. tent. Amsterdam 1986, Kunst voor de Beeldenstorm. Noordnederlandse kunst 1525-1580, Amsterdam 1986, p. 136-140 (dlI), p. 381-384 cat. nr. 259</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220126" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22038" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22088" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230105" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2201010" />
+                <ns7:spn xml:lang="en">Purchased with the support of the Vereniging Rembrandt and the Rijksmuseum-Stichting</ns7:spn>
+                <ns7:spn xml:lang="nl">Aankoop met steun van de Vereniging Rembrandt en de Rijksmuseum-Stichting</ns7:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/yZTcv/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/yZTcv" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/yZTcv/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-1984-12--926990e982e96fe7766323374da66aeb">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260215">
+            <ns9:prefLabel xml:lang="en">Vereniging Rembrandt</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Vereniging Rembrandt</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260243">
+            <ns9:prefLabel xml:lang="en">birdwatching</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">vogelen</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261200">
+            <ns9:prefLabel xml:lang="nl">Europese wandtapijten</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2201010">
+            <ns9:altLabel xml:lang="nl">tapisserie</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">tapestry</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">tapijtwerk</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220126">
+            <ns9:prefLabel xml:lang="en">wool</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">wol</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22038">
+            <ns9:prefLabel xml:lang="en">linen (material)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">linnen</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220535">
+            <ns9:altLabel xml:lang="nl">gobelin</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">tapestry</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">wandtapijt</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22088">
+            <ns9:prefLabel xml:lang="en">silk</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">zijde</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2211220">
+            <ns10:sameAs rdf:resource="https://iconclass.org/25F42" />
+            <ns9:altLabel>25F42</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">snakes</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2211571">
+            <ns10:sameAs rdf:resource="https://iconclass.org/71M53" />
+            <ns9:altLabel>71M53</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">an angel wakes Elijah; a loaf of bread and a jar of water are usually at Elijah's head</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22118512">
+            <ns10:sameAs rdf:resource="https://iconclass.org/25F3" />
+            <ns9:altLabel>25F3</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">birds</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221411">
+            <ns10:sameAs rdf:resource="https://iconclass.org/25F34" />
+            <ns9:altLabel>25F34</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">owls</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/yZTcv">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2104732">
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/361291" />
+            <ns11:dateOfDeath xml:lang="nl">1573 - 1574</ns11:dateOfDeath>
+            <ns11:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230105">
+                <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006809" />
+                <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q43631" />
+                <ns9:prefLabel xml:lang="en">Leiden</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Leiden</ns9:prefLabel>
+                <ns12:lat>4.5</ns12:lat>
+                <ns12:long>52.15</ns12:long>
+              </ns3:Place>
+            </ns11:placeOfDeath>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2205327">
+                <ns9:prefLabel xml:lang="nl">tapijtwever</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns9:altLabel xml:lang="en">Raet, Willem Andriesz. de</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Raedt, Willem Andriesz. de</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Raet, Willem Andriesz. de</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Willem Andriesz. de Raedt</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Willem Andriesz. de Raet</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Willem Andriesz. de Raet</ns9:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

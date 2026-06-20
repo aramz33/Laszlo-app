@@ -1,0 +1,157 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20023964</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:03:12Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260247</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26134</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20023964#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20023964">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="en">Jizo saves souls and those who pass away. Commissioning a portrait of Jizo was also considered propitious for a person’s
+ancestors. Jizo descends on a cloud and meets his devotees. Here he is shown in the usual way as an elegant, young monk,
+with a shaven head and richly decorated clothes.</dc:description>
+                <dc:description xml:lang="nl">Jizo is een redder van zielen en van overledenen. Een afbeelding laten maken van Jizo was zo ook gunstig voor het welzijn&lt;BR /&gt;van voorouders. Hij daalt hier neer op een wolk en komt de gelovigen tegemoet. Zoals gebruikelijk is hij afgebeeld als een&lt;BR /&gt;elegante, jonge monniksfiguur, met geschoren hoofd en rijk versierde kledij.</dc:description>
+                <dc:identifier>AK-MAK-162</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22174" />
+                <dc:title xml:lang="en">Bodhisattva Jizo</dc:title>
+                <dc:title xml:lang="en">Jizo Bodhisattva</dc:title>
+                <dc:title xml:lang="nl">Bodhisattva Jizo</dc:title>
+                <dc:title xml:lang="nl">Jizo Bodhisattva</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220616" />
+                <ns5:created xml:lang="en">c. 1300 - c. 1350</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1300 - ca. 1350</ns5:created>
+                <ns5:extent xml:lang="en">diameter 55 mm</ns5:extent>
+                <ns5:extent xml:lang="en">diameter 67 mm</ns5:extent>
+                <ns5:extent xml:lang="en">height 11 cm x width 68.5 cm x depth 11.5 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 173.5 cm x width 56.9 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 96.8 cm x width 39.5 cm</ns5:extent>
+                <ns5:extent xml:lang="en">width 64.4 mm</ns5:extent>
+                <ns5:extent xml:lang="nl">houten doos: hoogte 11 cm x breedte 68,5 cm x diepte 11,5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">mont.+ rolstok: breedte 64,4 mm</ns5:extent>
+                <ns5:extent xml:lang="nl">montering: hoogte 173,5 cm x breedte 56,9 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">rol: diameter 67 mm</ns5:extent>
+                <ns5:extent xml:lang="nl">rolstok: diameter 55 mm</ns5:extent>
+                <ns5:extent xml:lang="nl">schildering: hoogte 96,8 cm x breedte 39,5 cm</ns5:extent>
+                <ns5:hasPart rdf:resource="https://id.rijksmuseum.nl/20088062" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260247" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26134" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301105988" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30112489" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301156776" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301209248" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244084" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244297" />
+                <ns5:isReferencedBy>Cat. tent.. Chinesische Kunst, Berlijn 1925.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Herman van Gessel, 'Rolschilderingen gerestaureerd', Rijksmuseum Kunstkrant, 27 (2001) nr. 4, p.8-9.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Jan van Campen en Philip Meredith, 'Gerestaureerde rolschilderingen uit China en Japan', Aziatische Kunst 31/3 (2001), pp. 4-35 (no. IX).</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Ostasiatische Zeitschrift, 3 Jahrg., p. 192.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Veilingcat. Collectie Breuer, cat.nr. 326.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220237" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220365" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220447" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22088" />
+                <ns5:provenance xml:lang="en">…; from the the Japanese art market to Prof. Dr Ernst Grosse (1862-1927);{Note RMA.}; from whom to Dr. A. Breuer, DM. 21,000, 1914;{Note RMA.} his sale, Berlin (Paul Cassirer and Hugo Helbing), 14 and 15 May 1929, fl. 14,145, to the Vereniging van Vrienden der Aziatische Kunst;{note RMA.} from whom on loan to the museum, 1972</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23027" />
+                <ns6:spn xml:lang="en">On loan from the Royal Asian Art Society in The Netherlands (purchase auction collection A. Breuer, Berlijn, 1929)</ns6:spn>
+                <ns6:spn xml:lang="nl">Bruikleen van de Koninklijke Vereniging van Vrienden der Aziatische Kunst (aankoop veiling collectie A. Breuer, Berlijn, 1929)</ns6:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/TVSDM/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/TVSDM" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/TVSDM/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/AK-MAK-162--0a4ecba57ee6dc07288d4a2f63e5ceed">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/23027">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/1000120" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q17" />
+            <ns8:prefLabel xml:lang="en">Japan</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Japan</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260247">
+            <ns8:prefLabel xml:lang="en">friends asian art</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">vrienden aziatische kunst</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26134">
+            <ns8:prefLabel xml:lang="nl">Japan (collectie)</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220237">
+            <ns8:prefLabel xml:lang="en">gold (metal)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">goud</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220365">
+            <ns8:prefLabel xml:lang="en">ink</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">inkt</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220447">
+            <ns8:prefLabel xml:lang="en">dye</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">verfstof</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220616">
+            <ns8:altLabel xml:lang="nl">rolschilderij</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">hanging scroll</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">rolschildering</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22088">
+            <ns8:prefLabel xml:lang="en">silk</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">zijde</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22174">
+            <ns9:sameAs rdf:resource="https://iconclass.org/12H13" />
+            <ns8:altLabel>12H13</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">representations ~ gods, demi-gods, heroes, etc. (Hinduism, Buddhism, Jainism)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/TVSDM">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns8:altLabel xml:lang="nl">Anon</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">anonymous</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">anoniem</ns8:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

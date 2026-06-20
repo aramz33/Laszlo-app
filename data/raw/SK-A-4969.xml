@@ -1,0 +1,209 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns11="http://rdvocab.info/ElementsGr2/" xmlns:ns12="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200415971</ns0:identifier>
+        <ns0:datestamp>2026-06-08T21:54:33Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260210</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200415971#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200415971">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2109344" />
+                <dc:description xml:lang="en">Jan Valckenburgh, married to Dina Lems (opposite), twice served as director-general of Elmina (in present-day Ghana), seen here in the distance. The young man standing behind him is one of the numerous individuals brought to Elmina by African traders in order to be sold to the Dutch. At Fort Elmina, this human trafficking was organized and coordinated by the Dutch West India Company (WIC). In total, the Dutch transported 550,000 Africans to the Americas and the Caribbean.</dc:description>
+                <dc:description xml:lang="nl">Jan Valckenburgh, getrouwd met Dina Lems (hiernaast), was tweemaal directeur-generaal van Elmina (in het huidige Ghana), dat we in de verte zien liggen. De jongeman achter hem is een van de vele mensen die door Afrikaanse handelaren naar Elmina gebracht werden om ze aan Nederlanders te verkopen. In Fort Elmina werd deze mensenhandel door de West-Indische Compagnie (WIC) georganiseerd en gecoördineerd. In totaal verscheepten de Nederlanders 550.000 Afrikanen naar de Amerika’s en de Caraïben.</dc:description>
+                <dc:identifier>SK-A-4969</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200415972" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21044572" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21049567" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22123" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2213182" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221354" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/23011418" />
+                <dc:title xml:lang="en">Portrait of Jan Valckenburgh and an Enslaved Servant</dc:title>
+                <dc:title xml:lang="en">Portret van Jan Valckenburgh en een tot slaaf gemaakte bediende</dc:title>
+                <dc:title xml:lang="nl">Portrait of Jan Valckenburgh and an Enslaved Servant</dc:title>
+                <dc:title xml:lang="nl">Portret van Jan Valckenburgh en een tot slaaf gemaakte bediende</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:alternative xml:lang="en">Portrait of Jan Valckenburgh</ns5:alternative>
+                <ns5:alternative xml:lang="nl">Portret van Jan Valckenburgh</ns5:alternative>
+                <ns5:created xml:lang="en">c. 1660</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1660</ns5:created>
+                <ns5:extent xml:lang="en">length 128.3 cm x width 102 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">lengte 128,3 cm x breedte 102 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260210" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2621493" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100494" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301220787" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301252266" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301252268" />
+                <ns5:isReferencedBy>Documentatiemap Schilderijen.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>European Paintings, Londen/New York (The Matthiesen Gallery &amp; Stair Sainty Matthiesen Inc.) 2001, p. 24-27</ns5:isReferencedBy>
+                <ns5:isReferencedBy>G. van der Ham, 'Aan de Afrikaanse Kust', Kunstkrant Rijksmuseum Amsterdam, jan./feb. 2002, p. 18, 19 (afbeelding)</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Jaarverslag Rijksmuseum Amsterdam 2001, Amsterdam 2002, p. 60-63, afb.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">…; sale, Dr H.B. VerLoren van Themaat &lt;em&gt;et al.&lt;/em&gt;, Amsterdam (Mak), 1 December 1925 &lt;em&gt;sqq.&lt;/em&gt;, no. 95, fl. 135, to Diederik Arnold Mauritz Scholten (1874-1948), The Hague, and Cornelia Johanna Scholten - De Bas (1884-1949);{Copy RKD; note RMA.}….; Danish private collection;{Note RMA.}…; anonymous sale [section 'property of a Gentleman'], London (Christie's), 10 july 1998, no. 31, £ 84,000;{Copy RKD.}…; from the dealer Johnny van Haeften, London, £ 160,000, to the museum, with support from the Mondriaan stichting, Stichting Dr Hendrik Muller's Vaderlandsch Fonds, De Frans Mortelmans stichting, M.A.O.C. Gravin van Bijlandt Stichting and Stichting K.F. Hein Fonds, 2001</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23029985" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204040" />
+                <ns7:spn xml:lang="en">Purchased with the support of the Mondriaan Stichting, the Stichting Dr Hendrik Muller's Vaderlandsch Fonds, the Frans Mortelmans Stichting, the M.A.O.C. Gravin van Bylandt Stichting and the K.F. Hein Fonds</ns7:spn>
+                <ns7:spn xml:lang="nl">Aankoop met steun van de Mondriaan Stichting, de Stichting Dr Hendrik Muller's Vaderlandsch Fonds, de Frans Mortelmans Stichting, de M.A.O.C. Gravin van Bylandt Stichting en het K.F. Hein Fonds</ns7:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/Fvczo/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/Fvczo" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/Fvczo/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4969--f162abdc01dbc04327a330bb17c7f02a">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260210">
+            <ns9:prefLabel xml:lang="en">Against Opacity</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Against Opacity</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns9:prefLabel xml:lang="en">RijksXL</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">RijksXL</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns9:prefLabel xml:lang="en">biografic</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">biografisch</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns9:prefLabel xml:lang="en">paintings</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">schilderijen</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns9:prefLabel xml:lang="en">canvas</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">doek</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2204040">
+            <ns9:altLabel xml:lang="nl">geschilderd</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">paint</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">schilderen</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns9:prefLabel xml:lang="en">painting</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">schilderij</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns9:prefLabel xml:lang="en">oil paint (paint)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">olieverf</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22123">
+            <ns10:sameAs rdf:resource="https://iconclass.org/61B2" />
+            <ns9:altLabel>61B2</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">historical persons</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2213182">
+            <ns10:sameAs rdf:resource="https://iconclass.org/46A18" />
+            <ns9:altLabel>46A18</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">slavery; serfs and enslaved persons</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221354">
+            <ns10:sameAs rdf:resource="https://iconclass.org/25I5" />
+            <ns9:altLabel>25I5</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">landscape with tower or castle</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/Fvczo">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21044572">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/131339121" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q617066" />
+            <ns9:altLabel xml:lang="nl">WIC</ns9:altLabel>
+            <ns9:prefLabel xml:lang="nl">West-Indische Compagnie</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21049567">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/81381658" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q2386897" />
+            <ns11:dateOfBirth xml:lang="nl">1623</ns11:dateOfBirth>
+            <ns11:dateOfDeath xml:lang="nl">1667</ns11:dateOfDeath>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2205415">
+                <ns9:prefLabel xml:lang="nl">directeur-generaal</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns9:altLabel xml:lang="nl">Valckenburgh, Jan</ns9:altLabel>
+            <ns9:prefLabel xml:lang="nl">Jan Valckenburgh</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109344">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/95835350" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500024953" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q3701752" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/80715" />
+            <ns11:dateOfBirth xml:lang="nl">1600 - 1601-01-04</ns11:dateOfBirth>
+            <ns11:dateOfDeath xml:lang="nl">1681 - 1684</ns11:dateOfDeath>
+            <ns11:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/23029985" />
+            <ns11:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006952" />
+                <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q727" />
+                <ns10:sameAs rdf:resource="https://sws.geonames.org/2759794/" />
+                <ns9:prefLabel xml:lang="en">Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Amsterdam</ns9:prefLabel>
+                <ns12:lat>4.916667</ns12:lat>
+                <ns12:long>52.35</ns12:long>
+              </ns3:Place>
+            </ns11:placeOfDeath>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns9:prefLabel xml:lang="en">draftsman (artist)</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">tekenaar</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns9:altLabel xml:lang="en">Vertangen, Daniel</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Vertangen, Daniel</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Daniel Vertangen</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Daniel Vertangen</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/23011418">
+            <ns9:prefLabel xml:lang="nl">Fort Elmina</ns9:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns9:prefLabel>Rijksmuseum</ns9:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

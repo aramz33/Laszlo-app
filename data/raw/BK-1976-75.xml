@@ -1,0 +1,254 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns11="http://rdvocab.info/ElementsGr2/" xmlns:ns12="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200113496</ns0:identifier>
+        <ns0:datestamp>2026-06-08T01:20:13Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260213</ns0:setSpec>
+        <ns0:setSpec>260215</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26128</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200113496#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200113496">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2103942" />
+                <dc:description xml:lang="en">On this ewer everything is in motion. Animal and human forms emerge from a viscous mass. It is possible that it represents the primordial soup (prima matera) from which life arose according to alchemists. On the inside are two crawling salamanders or lizards: animals that were also thought to originate from non-living matter. Does the ewer establish a link between the creative power of the artist and that of nature?</dc:description>
+                <dc:description xml:lang="nl">Op deze kan is alles in beweging. Uit een stroperige massa doemen dierlijke en menselijke vormen op. Mogelijk wordt hier de oersoep (prima matera) verbeeld waaruit volgens de alchemisten het leven is ontstaan. Aan de binnenkant kruipen twee salamanders of hagedissen: dieren die ook voortkomen uit dood materiaal. Legt de kan een verband tussen de scheppende kracht van de kunstenaar en de scheppende kracht van  de natuur?</dc:description>
+                <dc:identifier>BK-1976-75</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200586378" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21043040" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211395" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221166" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/23029985" />
+                <dc:title xml:lang="en">Kan met deksel</dc:title>
+                <dc:title xml:lang="en">Lidded ewer</dc:title>
+                <dc:title xml:lang="nl">Kan met deksel</dc:title>
+                <dc:title xml:lang="nl">Lidded ewer</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220501" />
+                <ns5:created xml:lang="en">1614</ns5:created>
+                <ns5:created xml:lang="nl">1614</ns5:created>
+                <ns5:extent xml:lang="en">height 25 cm x width 14 cm x depth 9 cm x weight 910 g</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 25 cm x breedte 14 cm x diepte 9 cm x gewicht (eigenschap) 910 g</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260213" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260215" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26128" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2625202" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100494" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30110100" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301102226" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30110568" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30111329" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301120494" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301139852" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301143083" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301143912" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301146162" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301152561" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301153464" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301154543" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301154565" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3011738" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301208691" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301283482" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301283486" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3012859" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3012871" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301301517" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301301521" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301321026" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30133127" />
+                <ns5:isReferencedBy>A. Jensen Adams, Public Faces and Private Identities in Seventeenth-Century Holland, Portraiture and the Production of Community, New York 2009, p. 184, fig. 51</ns5:isReferencedBy>
+                <ns5:isReferencedBy>A.L. den Blaauwen, 'Een onbekende prent van Adam van Vianen', Bulletin van het Rijksmuseum 4 (1956), p. 32.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J.R. ter Molen, 'Adam van Vianen's silverware in relation to seventeenth century Dutch painting', Apollo 110 (1979), 482-488, afb. 1.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Nederlandse Musea in 1976, IIC, 's-Gravenhage, 1978, p. 20-21.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>R.J. Baarsen, Reviewed Works: Van Vianan-een Utrechtse familie van zilversmeden met een internationale faam by J.R. ter Molen; Zeldzaam Zilver uit de Gouden Eeuw - De Utrechtse edelsmeden Van Vianen ; Paulus van Vianen-Handzeichnungen by T. Gerszi, uit: Oud Holland, 100, 1986, 1, pagina pp. 75-79 - afb. 1-2(zie: http://www.jstor.org/stable/42711210)</ns5:isReferencedBy>
+                <ns5:isReferencedBy>R.J. Baarsen, bespreking van J.R. ter Molen, Van Vianen. Een Utrechtse familie van zilversmeden met een internationale faam, 2 dln., Leiden 1984, in: Oud Holland 100 (1986), p. 77-79., afb. 1,2.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>T. Milnes Gaskell, 'Documentary silver-gilt ewer', Christie's review of the season 1977, London, 1977, p. 170-171.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Th.M. Duyvené de Wit-Klinkhamer, 'Een vermaarde zilveren beker', Nederlands Kunsthistorisch Jaarboek 17 (1966), p. 79-103.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Van ons allemaal sinds 1976 : Kan met deksel Adam van Vianen, uit: Bullentin van de Vereniging Rembrandt, 27, 2017, 1, pagina 34</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Verslag van de Vereniging Rembrandt over 1976, p. 60.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22028" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/2302" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206822" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/220694" />
+                <ns7:spn xml:lang="en">Purchased with the support of the Prins Bernhard Fonds, the Vereniging Rembrandt and the Stichting tot Bevordering van de Belangen van het Rijksmuseum</ns7:spn>
+                <ns7:spn xml:lang="nl">Aankoop met steun van het Prins Bernhard Fonds, de Vereniging Rembrandt en de Stichting tot Bevordering van de Belangen van het Rijksmuseum</ns7:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/MMCGa/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/MMCGa" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/MMCGa/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-1976-75--6fe2c6314868981d9cea106077e10c88">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns9:prefLabel xml:lang="en">RijksXL</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">RijksXL</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260213">
+            <ns9:prefLabel xml:lang="en">Top 100</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 100</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260215">
+            <ns9:prefLabel xml:lang="en">Vereniging Rembrandt</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Vereniging Rembrandt</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns9:prefLabel xml:lang="en">biografic</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">biografisch</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26128">
+            <ns9:prefLabel xml:lang="nl">edele metalen</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22028">
+            <ns9:prefLabel xml:lang="en">silver (metal)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">zilver</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220501">
+            <ns9:prefLabel xml:lang="en">ewer</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">kan</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2206822">
+            <ns9:prefLabel xml:lang="en">gild</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">vergulden</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220694">
+            <ns9:altLabel xml:lang="nl">gedreven</ns9:altLabel>
+            <ns9:prefLabel xml:lang="nl">drijven</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2211395">
+            <ns10:sameAs rdf:resource="https://iconclass.org/31AA2391" />
+            <ns9:altLabel>31AA2391</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">bending figure - AA - female human figure</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221166">
+            <ns10:sameAs rdf:resource="https://iconclass.org/25F22" />
+            <ns9:altLabel>25F22</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">monkeys, apes</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/MMCGa">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2103942">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/290265487" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500002880" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q2696497" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/80850" />
+            <ns11:dateOfBirth xml:lang="nl">1568 - 1569</ns11:dateOfBirth>
+            <ns11:dateOfDeath xml:lang="nl">1627</ns11:dateOfDeath>
+            <ns11:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/2302" />
+            <ns11:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2302">
+                <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006926" />
+                <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q803" />
+                <ns9:prefLabel xml:lang="en">Utrecht</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Utrecht (stad)</ns9:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfDeath>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns9:prefLabel xml:lang="en">printmaker</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">prentmaker</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns9:prefLabel xml:lang="en">draftsman (artist)</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">tekenaar</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2205197">
+                <ns9:prefLabel xml:lang="en">silversmith</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">zilversmid</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns9:altLabel xml:lang="en">Vianen, Adam van (I)</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Vianen, Adam van (I)</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Adam van Vianen (I)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Adam van Vianen (I)</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21043040">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/74446181" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500021694" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q982739" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/80853" />
+            <ns11:dateOfBirth xml:lang="nl">ca. 1570</ns11:dateOfBirth>
+            <ns11:dateOfDeath xml:lang="nl">ca. 1613 - ca. 1614</ns11:dateOfDeath>
+            <ns11:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/2302" />
+            <ns11:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230202">
+                <ns9:prefLabel xml:lang="en">Prague</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Praag</ns9:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfDeath>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns9:prefLabel xml:lang="en">draftsman (artist)</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">tekenaar</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2205268">
+                <ns9:prefLabel xml:lang="en">jeweler</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">edelsmid</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns9:altLabel xml:lang="en">Vianen, Paulus Willemsz. van</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Paulus van Vianen (I)</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Vianen, Paulus Willemsz. van</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Vianen, Paulus van (I)</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Paulus Willemsz. van Vianen</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Paulus Willemsz. van Vianen</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006952" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q727" />
+            <ns10:sameAs rdf:resource="https://sws.geonames.org/2759794/" />
+            <ns9:prefLabel xml:lang="en">Amsterdam</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Amsterdam</ns9:prefLabel>
+            <ns12:lat>4.916667</ns12:lat>
+            <ns12:long>52.35</ns12:long>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

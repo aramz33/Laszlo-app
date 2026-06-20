@@ -1,0 +1,203 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns11="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200109466</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:31:11Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260213</ns0:setSpec>
+        <ns0:setSpec>260215</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>2616</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200109466#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200109466">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2102727" />
+                <dc:description xml:lang="en">A Dutch city is the backdrop to this narrative that shows how a good Christian should help those in need. Christ stands among the spectators in almost every panel. The scenes give an impression of urban society around 1500. The work was badly damaged during the Iconoclasm of 1566, when Roman Catholic churches were vandalized by Protestants.</dc:description>
+                <dc:description xml:lang="nl">Een Hollandse stad vormt het decor voor een beeldverhaal dat laat zien hoe een goed christen hulpbehoevende mensen moet helpen. Christus&lt;BR /&gt;staat in bijna elk tafereel tussen de toeschouwers. De scènes geven een indruk van de stedelijke samenleving omstreeks 1500. Tijdens de  Beeldenstorm van 1566, waarbij rooms-katholieke kerken door protestanten werden vernield, raakte het werk ernstig beschadigd.</dc:description>
+                <dc:identifier>SK-A-2815</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200537269" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200537270" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200537271" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200537272" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200537273" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200537274" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200537275" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211021" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211022" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211023" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211024" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2401247" />
+                <dc:title xml:lang="en">De zeven werken van barmhartigheid</dc:title>
+                <dc:title xml:lang="en">The Seven Works of Mercy</dc:title>
+                <dc:title xml:lang="nl">De zeven werken van barmhartigheid</dc:title>
+                <dc:title xml:lang="nl">The Seven Works of Mercy</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:alternative xml:lang="nl">De zeven werken van barmhartigheid; 1: Het spijzen van de hongerigen 2: Het laven van de dorstigen 3: Het kleden van de naakten 4: Het begraven van de doden 5: Het herbergen van de reizigers 6: Het bezoeken van de zieken 7: Het vertroosten van de gevangenen</ns5:alternative>
+                <ns5:created xml:lang="en">1504</ns5:created>
+                <ns5:created xml:lang="nl">1504</ns5:created>
+                <ns5:extent xml:lang="en">frame: height 119.1 cm x width 469.5 cm x thickness 4 cm</ns5:extent>
+                <ns5:extent xml:lang="en">support: height 101 cm x width 54 cm x width 55.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 101 cm (paneel 1 t/m 7) x breedte 54 cm (paneel 1 en 7) x breedte 55,5 cm (paneel 2,3,4,5,6)</ns5:extent>
+                <ns5:extent xml:lang="nl">lijst: hoogte 119,1 cm (gehele object, alle panelen) x breedte 469,5 cm (gehele object, alle panelen) x dikte 4 cm (gehele object, alle panelen)</ns5:extent>
+                <ns5:hasPart rdf:resource="https://id.rijksmuseum.nl/200415342" />
+                <ns5:hasPart rdf:resource="https://id.rijksmuseum.nl/200415343" />
+                <ns5:hasPart rdf:resource="https://id.rijksmuseum.nl/200415344" />
+                <ns5:hasPart rdf:resource="https://id.rijksmuseum.nl/200415345" />
+                <ns5:hasPart rdf:resource="https://id.rijksmuseum.nl/200415346" />
+                <ns5:hasPart rdf:resource="https://id.rijksmuseum.nl/200415347" />
+                <ns5:hasPart rdf:resource="https://id.rijksmuseum.nl/200415348" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260213" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260215" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2616" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100933" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301101288" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301147809" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301154543" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3011738" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301202718" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301216127" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244089" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244300" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30157257" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30188077" />
+                <ns5:isReferencedBy>Netty Bleichrodt, 'Vernielingen aan De Zeven Werken van Barmhartigheid : Beeldenstorm of stedelijk protest?', Oud Alkmaar 43 (2019) nr. 2, p. 39-49.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>P.M. Halm, Ikonographische Studien zum Armen-Seelen-Kultus, uit: Münchner Jahrbuch der bildenden Kunst, 12, 1921-1922, pagina pp. 1-24</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">? Commissioned by the regents of the Holy Spirit Almshouse, Alkmaar, and installed there, or placed in the St Laurenskerk, Alkmaar;{Knevel 1996, p. 240.} ? transferred to the St Laurenskerk after the closure of the Holy Spirit Almshouse, 1575;{Knevel 1996, p. 240.} recorded in the St Laurenskerk, Alkmaar, 24 June 1582 (‘[…] en hebben de Schildery van de zeven werken van Barmhertigheden, hangende agter in de grote kerk, tegen het Doopvond by het groot Orgel deerlyk bedorven met een quast met zwarte verve’);{Jacob Dircsz Wijncoper (d. 1599), ‘Kroniek van Wijnkoper’, RAA, collectie aanwinsten, inv. no. 3; transcribed in Boomkamp 1747, p. 387.} from the churchwardens of the Nederlands Hervormde Gemeente, Alkmaar, fl. 50,000, to the museum, with support from the Vereniging Rembrandt, 1918; on loan to the Museum Boijmans Van Beuningen, Rotterdam, 2004-10</ns5:provenance>
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204040" />
+                <ns7:spn xml:lang="en">Purchased with the support of the Vereniging Rembrandt and the Commissie voor Fotoverkoop</ns7:spn>
+                <ns7:spn xml:lang="nl">Aankoop met steun van de Vereniging Rembrandt en de Commissie voor Fotoverkoop</ns7:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/ogTdF/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/ogTdF" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/ogTdF/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2815--14aaec41ef8d5849daa5f6a4d08978bf">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns9:prefLabel xml:lang="en">RijksXL</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">RijksXL</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260213">
+            <ns9:prefLabel xml:lang="en">Top 100</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 100</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260215">
+            <ns9:prefLabel xml:lang="en">Vereniging Rembrandt</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Vereniging Rembrandt</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns9:prefLabel xml:lang="en">paintings</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">schilderijen</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2616">
+            <ns9:prefLabel xml:lang="en">Early Netherlandish Paintings</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Early Netherlandish Paintings</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns9:prefLabel xml:lang="en">panel</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">paneel</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2204040">
+            <ns9:altLabel xml:lang="nl">geschilderd</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">paint</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">schilderen</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns9:prefLabel xml:lang="en">painting</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">schilderij</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns9:prefLabel xml:lang="en">oil paint (paint)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">olieverf</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2211021">
+            <ns10:sameAs rdf:resource="https://iconclass.org/46A212" />
+            <ns9:altLabel>46A212</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">giving alms or other charity, e.g.: handing out food</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2211022">
+            <ns10:sameAs rdf:resource="https://iconclass.org/44G311" />
+            <ns9:altLabel>44G311</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">prison, jail</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2211023">
+            <ns10:sameAs rdf:resource="https://iconclass.org/42E23" />
+            <ns9:altLabel>42E23</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">burial</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2211024">
+            <ns10:sameAs rdf:resource="https://iconclass.org/11VV" />
+            <ns9:altLabel>11VV</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">the (seven) Acts of Mercy - VV - Christ present</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/ogTdF">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2102727">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/95715360" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500005656" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q452499" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/53218" />
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns9:prefLabel xml:lang="en">painter</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">schilder</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns9:prefLabel xml:lang="en">Master of Alkmaar</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Meester van Alkmaar</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns9:prefLabel>Rijksmuseum</ns9:prefLabel>
+          </ns3:Place>
+          <ns3:TimeSpan rdf:about="https://id.rijksmuseum.nl/2401247">
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q513860" />
+            <ns9:prefLabel xml:lang="en">Beeldenstorm (1566)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Beeldenstorm (1566)</ns9:prefLabel>
+          </ns3:TimeSpan>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

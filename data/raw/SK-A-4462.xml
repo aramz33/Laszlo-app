@@ -1,0 +1,124 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20028961</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:35:26Z</ns0:datestamp>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>2616</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20028961#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20028961">
+                <dc:description xml:lang="nl">Portret van René de Chalon (ca. 1518-44), prins van Oranje. Buste en profil naar rechts. Pendant van SK-A-4027.</dc:description>
+                <dc:identifier>SK-A-4462</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20028729" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21051686" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211169" />
+                <dc:title xml:lang="en">Portrait of René de Chalon (c. 1519-1544), Prince of Orange</dc:title>
+                <dc:title xml:lang="nl">Portret van René de Chalon (ca. 1519-1544), prins van Oranje</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:alternative xml:lang="nl">Portret René de Chalon (ca. 1518-1544), prins van Oranje</ns5:alternative>
+                <ns5:created xml:lang="en">after 1542</ns5:created>
+                <ns5:created xml:lang="nl">na 1542</ns5:created>
+                <ns5:extent xml:lang="en">support: diameter 15 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: diameter 15 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2616" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301106469" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015254" />
+                <ns5:isReferencedBy>Documentatiemap Schilderijen: aantekeningen R. van Luttervelt (voor 1963).</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">…; ? estate inventory, Kasteel Buren, 1675/1712, ‘in the great hall’, with pendant (probably SK-A-4027), nos. 13.5, 13.6 (‘Noch Renée de Chalon met Sijne princesse, beyde in profijl.’);{Drossaers/Lunsingh Scheurleer I, 1974, p. 555.} ? estate inventory, Kasteel Buren, 1759, ‘The large upper hall’, no. 151 (‘Seven schilderije, pourtraiten’);{Drossaers/Lunsingh Scheurleer II, 1974, p. 545.} estate inventory, Stadholder’s Court, The Hague, 1763/64, no. 4 (‘Een portrait met dit opschrift in de lijst: René de Chalon d’Orange, comte de Nassou, agé de 23 ans, 1542, NB., in een ronde bruyne lijst, 5½ D. Bij 5½ D. [14 by 14 cm]’);{Drossaers/Lunsingh Scheurleer III, 1976, p. 29.} recorded ‘in the writing cabinet’ of Willem V (1748-1806), Prince of Orange;{Inscription on an undated etching after this portrait by Reinier Vinkeles (RP-P-1937-1310)} …; ? transferred to the Koninklijk Kabinet van Zeldzaamheden, The Hague, c. 1816;{Note RMA; Kruijsen 2002, pp. 62-63.} from whom acquired by the Nederlandsch Museum voor Geschiedenis en Kunst, The Hague (inv. no. 193), 1874-75; transferred to the museum, 1885; on loan to the Vereniging Oranje-Nassau Museum, The Hague, 1926-32</ns5:provenance>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/KdCOE/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/KdCOE" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/KdCOE/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4462--28deab1b75f62c72a32b238864642abf">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns7:prefLabel xml:lang="en">biografic</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">biografisch</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns7:prefLabel xml:lang="en">paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderijen</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2616">
+            <ns7:prefLabel xml:lang="en">Early Netherlandish Paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Early Netherlandish Paintings</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns7:prefLabel xml:lang="en">panel</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">paneel</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns7:prefLabel xml:lang="en">painting</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderij</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns7:prefLabel xml:lang="en">oil paint (paint)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">olieverf</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2211169">
+            <ns8:sameAs rdf:resource="https://iconclass.org/61B2%28%2B523%29" />
+            <ns7:altLabel>61B2(+523)</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">historical persons (+ profile portrait)</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/KdCOE">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21051686">
+            <ns9:dateOfBirth xml:lang="nl">ca. 1519-02-05</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1544-07-15</ns9:dateOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2203883">
+                <ns7:prefLabel xml:lang="en">stadtholder</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">stadhouder</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:prefLabel xml:lang="nl">René van Châlon (prins van Oranje)</ns7:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

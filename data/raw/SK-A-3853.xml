@@ -1,0 +1,194 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns11="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200107986</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:17:18Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>2616</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200107986#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200107986">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101398" />
+                <dc:description xml:lang="en">The only thing known about this man is inscribed in Latin on the trompe-l’oeil cartellino on the original frame: ‘In the year of our Lord 1529 / true age 46.’ The word ‘true’ implicitly emphasizes the memory of his appearance at that specific moment. The little piece of paper seems about to come loose at any moment and thus refers to the transience of earthly existence.</dc:description>
+                <dc:description xml:lang="nl">Het enige dat bekend is over deze man staat in het Latijn op het cartellino op de originele lijst: ‘In het jaar des heren 1529 / ware leeftijd 46’. Het woordje ‘waar’ legt de nadruk impliciet op de herinnering aan zijn uiterlijk op dat specifieke moment. Het papiertje lijkt ieder moment los te laten en verwijst daarmee naar de vergankelijkheid van het aardse bestaan.</dc:description>
+                <dc:identifier>SK-A-3853</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2212102" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221382" />
+                <dc:title xml:lang="en">Haarlem Citizen</dc:title>
+                <dc:title xml:lang="en">Haarlemse burger</dc:title>
+                <dc:title xml:lang="nl">Haarlem Citizen</dc:title>
+                <dc:title xml:lang="nl">Haarlemse burger</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">1529</ns5:created>
+                <ns5:created xml:lang="nl">1529</ns5:created>
+                <ns5:extent xml:lang="en">support: height 48.5 cm x width 34.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 48,5 cm (getoogd) x breedte 34,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2616" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301238245" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301254714" />
+                <ns5:isReferencedBy>K. Posner en Robert van Langh [red.], Supporting Conservation : Four projects funded by Gieskes-Strijbis Fonds, Amsterdam 2015, p. 54, afb. 38.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">…; by descent to Jonkheer Pieter van Foreest (1845-1922), Huis de Nijenburg, Heiloo, as anonymous;{Utrecht 1913, suppl. pp. 12-13, no. 171.} transferred to N.V. ‘Nyenburgh’, Heiloo, 1913;{Rombach 1987, p. 25.} from which, fl. 30,000, to the museum, 1953</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230134" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204040" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/BGQRV/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/BGQRV" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/BGQRV/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3853--f5d617083fc6491ef7026a8ed0f03673">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/230134">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7007048" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q9920" />
+            <ns8:prefLabel xml:lang="en">Haarlem</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Haarlem</ns8:prefLabel>
+            <ns10:lat>4.65</ns10:lat>
+            <ns10:long>52.366667</ns10:long>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2616">
+            <ns8:prefLabel xml:lang="en">Early Netherlandish Paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Early Netherlandish Paintings</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns8:prefLabel xml:lang="en">panel</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">paneel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2204040">
+            <ns8:altLabel xml:lang="nl">geschilderd</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">paint</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderen</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2212102">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41D221%28CAP%29%28%2B81%29" />
+            <ns8:altLabel>41D221(CAP)(+81)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">head-gear: cap (+ men's clothes)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221382">
+            <ns9:sameAs rdf:resource="https://iconclass.org/61B11" />
+            <ns8:altLabel>61B11</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">anonymous historical person portrayed</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/BGQRV">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101398">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/59356315" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500029872" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q282708" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/71591" />
+            <ns11:dateOfBirth xml:lang="nl">1495-09-01 - 1495-01-09</ns11:dateOfBirth>
+            <ns11:dateOfDeath xml:lang="nl">1562-12-06</ns11:dateOfDeath>
+            <ns11:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301592">
+                <ns8:prefLabel xml:lang="nl">Schoorl</ns8:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfBirth>
+            <ns11:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2302">
+                <ns8:prefLabel xml:lang="en">Utrecht</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Utrecht (stad)</ns8:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfDeath>
+            <ns11:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns11:professionOrOccupation>
+            <ns11:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns11:professionOrOccupation>
+            <ns11:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns11:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Scorel, Jan van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Jan van Schoorel</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Jan van Schoorl</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Jan van Schoreel</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Jan van Schorel</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Jan van Scoreel</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Jan van Scorelius</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Jan van Scorellius</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Schoorel, Jan van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Schoorl, Jan van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Schoreel, Jan van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Schorel, Jan van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Scoreel, Jan van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Scorel, Jan van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Scorelius, Jan van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Scorellius, Jan van</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Jan van Scorel</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Jan van Scorel</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

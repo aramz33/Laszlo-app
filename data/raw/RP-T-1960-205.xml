@@ -1,0 +1,185 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200148082</ns0:identifier>
+        <ns0:datestamp>2026-06-08T05:37:27Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26133</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200148082#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200148082">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21010718" />
+                <dc:description xml:lang="en">Piranesi is best known for his large prints of Rome and its surroundings, which were intended for sale to tourists. This drawing features a Greek temple in southern Italy. The composition was carefully thought out with a rhythmic succession of columns running diagonally across the picture plane. Emphasis was placed on light and dark effects and the irregular crumbling of the marble. Herders with cattle create a pastoral atmosphere.</dc:description>
+                <dc:description xml:lang="nl">Piranesi is vooral bekend door zijn grootse prenten van Rome en omgeving, bedoeld voor verkoop aan toeristen. Deze tekening verbeeldt een van de Griekse tempels in Zuid-Italië. De compositie is zorgvuldig uitgedacht met haar ritmische opeenvolging van zuilen die diagonaal door het beeldvlak lopen. Daarbij is nadruk gegeven aan licht- en donker-effecten en de onregelmatige afbrokkeling van het marmer. Herders met vee zorgen voor een pastorale sfeer.</dc:description>
+                <dc:identifier>RP-T-1960-205</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200244246" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211761" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2215311" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2215497" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2307767" />
+                <dc:title xml:lang="en">Gezicht op de tempel van ‘Juno’ bij Paestum</dc:title>
+                <dc:title xml:lang="en">View of the Temple of ‘Juno’ at Paestum</dc:title>
+                <dc:title xml:lang="nl">Gezicht op de tempel van ‘Juno’ bij Paestum</dc:title>
+                <dc:title xml:lang="nl">View of the Temple of ‘Juno’ at Paestum</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2202656" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220363" />
+                <ns5:alternative xml:lang="nl">De tempel van Ceres (Athena-tempel), te Paestum</ns5:alternative>
+                <ns5:created xml:lang="en">c. 1775</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1775</ns5:created>
+                <ns5:extent xml:lang="en">height 465 mm x width 675 mm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 465 mm x breedte 675 mm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26133" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301114083" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301216185" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30188567" />
+                <ns5:isReferencedBy>Frank van der Velden, 'De radicale stijl van Piranesi', Teylers Magazijn 98 (voorjaar 2008), p. 3-10, afb. 6.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22020" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22043" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220944" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2202953" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/dBGgw/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/dBGgw" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/dBGgw/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/RP-T-1960-205--adca7613a46abd39173d5802437d3a48">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26133">
+            <ns8:prefLabel xml:lang="en">drawings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">tekeningen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22020">
+            <ns8:prefLabel xml:lang="en">paper</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">papier (materiaal)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202656">
+            <ns8:prefLabel xml:lang="en">design</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">ontwerp</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202953">
+            <ns8:prefLabel xml:lang="en">brush</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">penseel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220363">
+            <ns8:prefLabel xml:lang="en">drawing</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">tekening</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22043">
+            <ns8:prefLabel xml:lang="en">pencil</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">potlood</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220944">
+            <ns8:prefLabel xml:lang="en">chalk</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">krijt</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211761">
+            <ns9:sameAs rdf:resource="https://iconclass.org/48C149" />
+            <ns8:altLabel>48C149</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">ruin of a building ~ architecture</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2215311">
+            <ns9:sameAs rdf:resource="https://iconclass.org/12B61" />
+            <ns8:altLabel>12B61</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">temple, shrine ~ non-Christian religions</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2215497">
+            <ns9:sameAs rdf:resource="https://iconclass.org/48C1411" />
+            <ns8:altLabel>48C1411</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">exterior ~ representation of a building</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/dBGgw">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21010718">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/2546239" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500114965" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q316307" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/63659" />
+            <ns10:dateOfBirth xml:lang="nl">1720-10-04</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1778-11-09</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2302982">
+                <ns8:prefLabel xml:lang="nl">Mogliano Veneto</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230356">
+                <ns8:prefLabel xml:lang="en">Rome</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rome</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205151">
+                <ns8:prefLabel xml:lang="en">designer</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">ontwerper</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205213">
+                <ns8:prefLabel xml:lang="en">architect</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">architect</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Piranesi, Giovanni Battista</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Piranesi, Giovanni Battista</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Piranesi</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Giovanni Battista Piranesi</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Giovanni Battista Piranesi</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2307767">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7054730" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q329967" />
+            <ns8:prefLabel xml:lang="nl">Paestum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

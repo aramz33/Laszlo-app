@@ -1,0 +1,183 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200108147</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:18:53Z</ns0:datestamp>
+        <ns0:setSpec>260215</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>26121</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200108147#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200108147">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101561" />
+                <dc:description xml:lang="en">This still life invites close examination of all the details and elicits marvel at the richness of God’s creation: the colourful flowers, the exotic shells, but certainly also the beautiful insects. At the same time, decay is spreading. Fruit shows the first rotten spots, leaves are eaten away by caterpillars and snails and ants drag a dead fly. The painting is thus also about impermanence.</dc:description>
+                <dc:description xml:lang="nl">Dit stilleven nodigt je uit om alle details nauwkeurig te bestuderen en je te verbazen over de rijkdom van Gods schepping. De kleurrijke bloemen, de exotische schelpen, maar zeker ook de prachtige insecten. Tegelijkertijd rukt het verval op. Fruit vertoont de eerste rotte plekjes, bladeren zijn aangevreten door rupsen en slakjes en mieren slepen met een dode vlieg. Het schilderij gaat dus ook over de vergankelijkheid.</dc:description>
+                <dc:identifier>SK-A-2152</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221527" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221528" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2215699" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22184" />
+                <dc:title xml:lang="en">Still Life of Fruit and Flowers</dc:title>
+                <dc:title xml:lang="en">Stilleven met vruchten en bloemen</dc:title>
+                <dc:title xml:lang="nl">Still Life of Fruit and Flowers</dc:title>
+                <dc:title xml:lang="nl">Stilleven met vruchten en bloemen</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">1620</ns5:created>
+                <ns5:created xml:lang="en">1621</ns5:created>
+                <ns5:created xml:lang="nl">1620</ns5:created>
+                <ns5:created xml:lang="nl">1621</ns5:created>
+                <ns5:extent xml:lang="en">support: height 39.2 cm x width 69.8 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 39,2 cm x breedte 69,8 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260215" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26121" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2625202" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30112160" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301133249" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301262165" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301283482" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301283486" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301321026" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015253" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30157779" />
+                <ns5:isReferencedBy>'Galerij stillevens', Oog 3 (2009) nr. 2, p. 26-37, afb. p. 28-29.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">...; sale, A.H.H. van der Burgh (The Hague), Amsterdam (F. Muller), 21 September 1904, no. 51, fl. 1,046, to the museum, through the mediation of the Vereniging Rembrandt</ns5:provenance>
+                <ns6:spn xml:lang="en">Purchased with the support of the Vereniging Rembrandt</ns6:spn>
+                <ns6:spn xml:lang="nl">Aankoop met steun van de Vereniging Rembrandt</ns6:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/jygAk/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/jygAk" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/jygAk/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2152--1f809bc46d48b96fd8ac342b8ce52d25">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260215">
+            <ns8:prefLabel xml:lang="en">Vereniging Rembrandt</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Vereniging Rembrandt</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26121">
+            <ns8:prefLabel xml:lang="en">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns8:prefLabel xml:lang="en">panel</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">paneel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221527">
+            <ns9:sameAs rdf:resource="https://iconclass.org/25F711%28BUTTERFLY%29" />
+            <ns8:altLabel>25F711(BUTTERFLY)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">insects: butterfly</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221528">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41A671" />
+            <ns8:altLabel>41A671</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">still life of plants, flowers and fruit</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2215699">
+            <ns9:sameAs rdf:resource="https://iconclass.org/25F72%28%2B36%29" />
+            <ns8:altLabel>25F72(+36)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">molluscs (+ shell, snail-shell etc.)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22184">
+            <ns9:sameAs rdf:resource="https://iconclass.org/25F711%28GRASS-HOPPER%29" />
+            <ns8:altLabel>25F711(GRASS-HOPPER)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">insects: grass-hopper</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/jygAk">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101561">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/57514749" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500029053" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q472522" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/2800" />
+            <ns10:dateOfBirth xml:lang="nl">1593 - 1594</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1657 - 1657-12-19</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230174">
+                <ns8:prefLabel xml:lang="en">Middelburg</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Middelburg (Zeeland)</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230132">
+                <ns8:prefLabel xml:lang="en">Delft</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Delft</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Ast, Balthasar van der</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Asch, Baltus vander</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Ast, Balthasar van der</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Ast, Baltus van der</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Ast, Bartholomeus van der</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Baltus van der Ast</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Baltus vander Asch</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Bartholomeus van der Ast</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Balthasar van der Ast</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Balthasar van der Ast</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

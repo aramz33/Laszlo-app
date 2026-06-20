@@ -1,0 +1,177 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns11="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200108122</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:18:35Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200108122#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200108122">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101520" />
+                <dc:description xml:lang="en">This altarpiece, which originally had two wings, is dedicated to the adoration of the newborn baby Jesus by the three magi, each of whom was represented on one of the panels. This centre panel depicts only the oldest king.</dc:description>
+                <dc:description xml:lang="nl">Dit altaar, dat oorspronkelijk twee zijluiken had, is gewijd aan de aanbidding van de pasgeboren Jezus door de drie koningen, die ieder op een van de panelen werden afgebeeld. Op dit middenpaneel is alleen de oudste koning te zien.</dc:description>
+                <dc:identifier>SK-C-1458</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20026472" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221184" />
+                <dc:title xml:lang="en">De aanbidding van de koningen</dc:title>
+                <dc:title xml:lang="en">The Adoration of the Magi</dc:title>
+                <dc:title xml:lang="nl">De aanbidding van de koningen</dc:title>
+                <dc:title xml:lang="nl">The Adoration of the Magi</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">c. 1560</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1560</ns5:created>
+                <ns5:extent xml:lang="en">height 167.5 cm x width 180 cm</ns5:extent>
+                <ns5:extent xml:lang="en">weight 62 kg</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 167,5 cm x breedte 180 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">gewicht (eigenschap) 62 kg (Inclusief lijst)</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100933" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301184726" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301241802" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244089" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244300" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015253" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30182300" />
+                <ns5:isReferencedBy>M. Bijl, Pieter Aertsen in het restauratie-atelier van het Rijksmuseum, uit: Nederlands kunsthistorisch jaarboek, 40, 1989, pagina pp. 197-233 - p. 202-214</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Michiel Plomp, De vernieling van het altaar van Baäl', Bulletin van de Vereniging Rembrandt 18 (2008), nr. 2, p. 11.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Pauline Kintz, 'Collectie : Een blik op Maria', Rijksmuseum Kunstkrant 32 (2006) 6, p. 20-23 (afb.).</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">…; collection of the regents of the Deutzen-Hofje, Amsterdam, 1924;{Winkler 1924, p. 305.} from whom on loan to the museum, 1935-42 (inv. no. SK-C-1301); ? purchased by the dealer P. de Boer, Amsterdam;{Note RMA; on loan to the Koninklijk Kabinet van Schilderijen het Mauritshuis, until 1960.} on loan from the Stichting Collectie P. en N. de Boer, to the museum, 1960</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23029985" />
+                <ns6:spn xml:lang="en">On loan from the Stichting Collectie P. en N. de Boer</ns6:spn>
+                <ns6:spn xml:lang="nl">Bruikleen van de Stichting Collectie P. en N. de Boer</ns6:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/hsWLZ/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/hsWLZ" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/hsWLZ/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-C-1458--ef45655fdadba4c3e377e693d99e2c25">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns8:prefLabel xml:lang="en">panel</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">paneel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221184">
+            <ns9:sameAs rdf:resource="https://iconclass.org/73B57" />
+            <ns8:altLabel>73B57</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">adoration of the kings: the Wise Men present their gifts to the Christ-child (gold, frankincense and myrrh)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/hsWLZ">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101520">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/95853668" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500027884" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q326548" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/605" />
+            <ns10:dateOfBirth xml:lang="nl">1508</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1575-06-02</ns10:dateOfDeath>
+            <ns10:placeOfBirth />
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006952" />
+                <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q727" />
+                <ns9:sameAs rdf:resource="https://sws.geonames.org/2759794/" />
+                <ns8:prefLabel xml:lang="en">Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Amsterdam</ns8:prefLabel>
+                <ns11:lat>4.916667</ns11:lat>
+                <ns11:long>52.35</ns11:long>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Aertsen, Pieter</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Aertsen, Pieter</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Aertsz, Pieter</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Aertsz., Pieter</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Aertszen, Pieter</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Aertszone, Pieter</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Lange Pier</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Pieter Aertsz.</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Pieter Aertsz</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Pieter Aertszen</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Pieter Aertszone</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Pietro Lungo</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Pieter Aertsen</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Pieter Aertsen</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

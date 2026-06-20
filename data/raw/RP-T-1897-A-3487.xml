@@ -1,0 +1,161 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200118551</ns0:identifier>
+        <ns0:datestamp>2026-06-08T02:22:09Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26133</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200118551#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200118551">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21046268" />
+                <dc:description xml:lang="en">This study demonstrates Jacques de Gheyn’s drawing process. He recorded his fanciful ideas directly onto paper in pen and ink with seeming effortlessness. The group of figures in the upper right is difficult to decipher. Two old witches seem to be initiating three young witches into diabolic rituals.</dc:description>
+                <dc:description xml:lang="nl">Dit studieblad toont de routine waarmee Jacques de Gheyn tekende. Schijnbaar moeiteloos zette hij direct in pen en inkt zijn gedachtenspinsels op papier. De groep figuren in de rechter bovenhoek is lastig te doorgronden. Het lijkt alsof de twee oude heksen de drie jonge heksen inwijden in duivelse rituelen.</dc:description>
+                <dc:identifier>RP-T-1897-A-3487</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211513" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221156" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211864" />
+                <dc:title xml:lang="en">Studieblad met handen en figuren</dc:title>
+                <dc:title xml:lang="en">Study of hands and figures</dc:title>
+                <dc:title xml:lang="nl">Studieblad met handen en figuren</dc:title>
+                <dc:title xml:lang="nl">Study of hands and figures</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220363" />
+                <ns5:alternative xml:lang="nl">Studieblad met een jonge man, een negerin met kind en een Parisoordeel of heksensabbat</ns5:alternative>
+                <ns5:created xml:lang="en">1604</ns5:created>
+                <ns5:created xml:lang="nl">1604</ns5:created>
+                <ns5:extent xml:lang="en">height 365 mm x width 258 mm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 365 mm x breedte 258 mm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26133" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2623223" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301101306" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301107727" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30138124" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30157649" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2202182" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220365" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2202293" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/jQmRu/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/jQmRu" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/jQmRu/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/RP-T-1897-A-3487--81332d438006e3fb4d4508af55dcf9dd">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26133">
+            <ns8:prefLabel xml:lang="en">drawings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">tekeningen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202182">
+            <ns8:prefLabel xml:lang="en">cartridge paper</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">kardoespapier</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202293">
+            <ns8:prefLabel xml:lang="en">pen</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">pen</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220363">
+            <ns8:prefLabel xml:lang="en">drawing</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">tekening</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220365">
+            <ns8:prefLabel xml:lang="en">ink</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">inkt</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211513">
+            <ns9:sameAs rdf:resource="https://iconclass.org/94C1131" />
+            <ns8:altLabel>94C1131</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">the Judgement of Paris (without Mercury)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221156">
+            <ns9:sameAs rdf:resource="https://iconclass.org/42A31" />
+            <ns8:altLabel>42A31</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">nursing, suckling</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211864">
+            <ns9:sameAs rdf:resource="https://iconclass.org/31D11221" />
+            <ns8:altLabel>31D11221</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">boy (child between toddler and youth)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/jQmRu">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21046268">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/29688669" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500115191" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q1347434" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/31339" />
+            <ns10:dateOfBirth xml:lang="nl">1565</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1629-03-29</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230148">
+                <ns8:prefLabel xml:lang="en">Antwerp</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Antwerpen (stad)</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+                <ns8:prefLabel xml:lang="en">The Hague</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Den Haag</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Gheyn, Jacques de (II)</ns8:altLabel>
+            <ns8:altLabel xml:lang="en">Jacques de Gheyn II</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Gheyn, Jacob de (II)</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Gheyn, Jacques de (II)</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Jacob de Gheyn (II)</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Jacques de Gheyn II</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Jacques de Gheyn (II)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Jacques de Gheyn (II)</ns8:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

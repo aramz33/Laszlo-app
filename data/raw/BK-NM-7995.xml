@@ -1,0 +1,106 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200386795</ns0:identifier>
+        <ns0:datestamp>2026-06-08T20:31:12Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261157</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200386795#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200386795">
+                <dc:description xml:lang="en">Façon de Venise translates literally as 'in the manner of Venice'. Venetian glass-blowers rose to great fame in the 16th century, for they were the only craftsmen who could produce colourless glass of exquisite delicacy of structure and form. When Venetian glass-blowers set up workshops in Germany, France, England and Holland, their technique was imitated in those countries. These non-Italian products are of such high quality that it is often hard to distinguish glass á la façon de Venise from the genuine article. Wine glass. Venice or Netherlands, façon de Venise, c. 1600-1650.</dc:description>
+                <dc:description xml:lang="nl">Façon de Venise betekent letterlijk: de manier van Venetië. Venetiaanse glasblazers waren in de 16de eeuw beroemd. Zij konden als enigen kleurloos glas produceren. Het Venetiaanse glas was bovendien heel fijn van structuur en vorm. Toen glasblazers uit Venetië zich vestigden in Duitsland, Frankrijk, Engeland en in Holland werd hun techniek daar afgekeken en geïmiteerd. De kwaliteit van de niet-Italiaanse producten was zo hoog dat het glaswerk á la façon de Venise vaak moeilijk te onderscheiden is van het Venetiaanse. Kelkglas. Venetië of Nederlanden, façon de Venise, ca. 1600-1650.</dc:description>
+                <dc:identifier>BK-NM-7995</dc:identifier>
+                <dc:title xml:lang="nl">Kelkglas met een holle stam met vijf bollen</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220190" />
+                <ns5:created xml:lang="en">c. 1600 - c. 1650</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1600 - ca. 1650</ns5:created>
+                <ns5:extent xml:lang="en">diameter 10.5 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 35.5 cm x diameter 10.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">grondvlak: diameter 10,5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 35,5 cm x diameter 10,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261157" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30157512" />
+                <ns5:isReferencedBy>Jaarverslag Rijksmuseum 8 (1885), p. 100.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2207803" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204229" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204449" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/zfaJq/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/zfaJq" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/zfaJq/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-NM-7995--e80741825b8f0737abf38ebb6399d0ae">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261157">
+            <ns8:prefLabel xml:lang="en">glass</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">glas</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220190">
+            <ns8:prefLabel xml:lang="nl">kelkglas</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2204229">
+            <ns8:prefLabel xml:lang="en">façon de Venise</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Façon de Venise</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2204449">
+            <ns8:prefLabel xml:lang="en">glassblowing</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">glasblazen</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2207803">
+            <ns8:prefLabel xml:lang="en">glass</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">glas</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/zfaJq">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

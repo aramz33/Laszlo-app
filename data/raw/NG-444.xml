@@ -1,0 +1,221 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200328075</ns0:identifier>
+        <ns0:datestamp>2026-06-08T17:34:19Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260213</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260245</ns0:setSpec>
+        <ns0:setSpec>260210</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26132</ns0:setSpec>
+        <ns0:setSpec>26134</ns0:setSpec>
+        <ns0:setSpec>261231</ns0:setSpec>
+        <ns0:setSpec>261223</ns0:setSpec>
+        <ns0:setSpec>261177</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200328075#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200328075">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="en">The Dutch East India Company maintained good relations with Asian rulers. To promote their commercial interests, they greased palms with presents: globes, paintings, animals, and chests with bottles, like this one. The expensive aromatic oils in the bottles were the actual gift. The bottles were ordered in Japan and the chest was custommade by joiners in Batavia.</dc:description>
+                <dc:description xml:lang="nl">De VOC onderhield goede relaties met machthebbers in Azië. Daarvoor dienden relatiegeschenken als smeermiddel: globes, schilderijen, dieren en kistjes met flessen, zoals dit ‘flessenkeldertje’. De kostbare geurende oliën in de flessen waren het werkelijke geschenk. De flessen werden in Japan besteld en de kist werd door timmerlieden in Batavia toegevoegd.</dc:description>
+                <dc:identifier>NG-444</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21042670" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221107" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221152" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2301624" />
+                <dc:title xml:lang="en">Chest with nine porcelain bottles</dc:title>
+                <dc:title xml:lang="en">Kist met negen flessen</dc:title>
+                <dc:title xml:lang="nl">Chest with nine porcelain bottles</dc:title>
+                <dc:title xml:lang="nl">Kist met negen flessen</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220210" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220588" />
+                <ns5:created xml:lang="en">c. 1680 - c. 1700</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1680 - ca. 1700</ns5:created>
+                <ns5:extent xml:lang="en">height 36 cm x depth 33 cm</ns5:extent>
+                <ns5:extent xml:lang="en">length 7 cm x width 7 cm x height 15 cm</ns5:extent>
+                <ns5:extent xml:lang="en">width 27 cm x length 25.5 cm x height 16.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">flesjes: lengte 7 cm x breedte 7 cm x hoogte 15 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 36 cm (afmeting wanneer de kist open is) x diepte 33 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">kist: breedte 27 cm x lengte 25,5 cm x hoogte 16,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260210" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260213" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260245" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261177" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261223" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261231" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26132" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26134" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100494" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301115290" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301151249" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301201204" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301202939" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301216127" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301248206" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301253770" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301253771" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30127851" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30148232" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30165550" />
+                <ns5:isReferencedBy>Menno Fitski, 'D'une Beauté Enchantée' : Private trade and Kakiemon porcelain, uit: Vormen uit vuur : mededelingenblad Nederlandse Vereniging van Vrienden van ceramiek en glas, 2016, 3, pagina 58-65 - p. 60, afb. 3</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2201365" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22028" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220311" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22051" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23027" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/iQNAf/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/iQNAf" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/iQNAf/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/NG-444--c7fa45993a84274e3d88c0356506c6e0">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/23027">
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/tgn/1000120" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q17" />
+            <ns7:prefLabel xml:lang="en">Japan</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Japan</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260210">
+            <ns7:prefLabel xml:lang="en">Against Opacity</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Against Opacity</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns7:prefLabel xml:lang="en">RijksXL</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">RijksXL</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260213">
+            <ns7:prefLabel xml:lang="en">Top 100</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 100</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns7:prefLabel xml:lang="en">biografic</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">biografisch</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260245">
+            <ns7:prefLabel xml:lang="en">Asian ceramics</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Aziatische keramiek</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261177">
+            <ns7:prefLabel xml:lang="nl">Varia 17e eeuw</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261223">
+            <ns7:prefLabel xml:lang="en">Asian ceramics</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Aziatische keramiek</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261231">
+            <ns7:prefLabel xml:lang="nl">keramiek (collectie)</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26132">
+            <ns7:prefLabel xml:lang="nl">meubelen</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26134">
+            <ns7:prefLabel xml:lang="nl">Japan (collectie)</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2201365">
+            <ns7:prefLabel xml:lang="en">Coromandel ebony</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">coromandelhout</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220210">
+            <ns7:prefLabel xml:lang="nl">fles</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22028">
+            <ns7:prefLabel xml:lang="en">silver (metal)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">zilver</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220311">
+            <ns7:altLabel xml:lang="en">velvet (fabric weave)</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">velours d'Utrecht</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">velours-chiffon</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">velours</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">velvet (fabric weave)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">fluweel</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22051">
+            <ns7:prefLabel xml:lang="en">porcelain</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">porselein</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220588">
+            <ns7:prefLabel xml:lang="en">chest</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">kist</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221107">
+            <ns8:sameAs rdf:resource="https://iconclass.org/25G41" />
+            <ns7:altLabel>25G41</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">flowers</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221152">
+            <ns8:sameAs rdf:resource="https://iconclass.org/48A98332" />
+            <ns7:altLabel>48A98332</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">lotus ~ ornament</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/iQNAf">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21042670">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/131493728" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q159766" />
+            <ns7:altLabel xml:lang="nl">VOC</ns7:altLabel>
+            <ns7:prefLabel xml:lang="nl">Verenigde Oostindische Compagnie</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns7:altLabel xml:lang="nl">Anon</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">anonymous</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">anoniem</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301624">
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/tgn/4012742" />
+            <ns7:prefLabel xml:lang="nl">Deshima</ns7:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns7:prefLabel>Rijksmuseum</ns7:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

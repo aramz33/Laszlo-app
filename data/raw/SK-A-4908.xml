@@ -1,0 +1,292 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns11="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/2009364</ns0:identifier>
+        <ns0:datestamp>2026-06-11T08:12:02Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/2009364#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/2009364">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21022056" />
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21043093" />
+                <dc:description xml:lang="en">Moses died in 1667 during the storming of Fort Languard near Felixstowe in England. Not long thereafter Gerard and Gesina painted this picture in memory of their youngest brother. Gerard painted Moses’ portrait, Gesina the background and the objects. These allude to Moses’ heroic death and the transience of life, such as time (the pocket watch), death (the skull), eternity (ivy on the rocks) and loyalty (the dogs).</dc:description>
+                <dc:description xml:lang="nl">Moses sneuvelde in 1667 bij de bestorming van het Engelse fort Languard bij Felixstowe. Kort daarna maakten Gerard en Gesina dit schilderij ter nagedachtenis aan hun jongste broer. Gerard schilderde Moses’ portret. Gesina schilderde de achtergrond en de objecten. Deze verwijzen naar Moses’ heldendood en de vergankelijkheid van het leven, zoals de tijd (het horloge), de dood (de schedel), eeuwigheid (klimop op de rotsen) en trouw (de honden).</dc:description>
+                <dc:identifier>SK-A-4908</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200470165" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21043092" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211042" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22136" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221527" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221579" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221774" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22192" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221972" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2303323" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/240445" />
+                <dc:title xml:lang="en">Memorial Portrait of Moses ter Borch</dc:title>
+                <dc:title xml:lang="en">Memorieportret van Moses ter Borch</dc:title>
+                <dc:title xml:lang="nl">Memorial Portrait of Moses ter Borch</dc:title>
+                <dc:title xml:lang="nl">Memorieportret van Moses ter Borch</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">1667 - 1669</ns5:created>
+                <ns5:created xml:lang="nl">1667 - 1669</ns5:created>
+                <ns5:extent xml:lang="en">height 77.5 cm x width 58.3 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 77,5 cm x breedte 58,3 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/262691" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301135146" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301152219" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301153421" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301153555" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301153995" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301154091" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301194087" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30138077" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30154830" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30154894" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30160795" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30165550" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30187865" />
+                <ns5:isReferencedBy>A.A. Turner, Lights and Shadows of New York Picture Galleries. Forty photographs, New York 1864, p. XVI [William of Orange. G. Terburg. In the Gallery of Thomas J. Bryan, Esq. (Frick coll number: O31//Y87)].</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Bryan Companion Catalogue 1853, p. 88, nr. 147.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Catalogue NY Historical Society 1915, p. 79, nr. B-182.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Catalogue of the Bryan Gallery of Christian Art, New York 1853, p. 11, nr. 147 [als portret van Willem III].</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Documentatiemap Schilderijen: correspondentie over de aankoop.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>E.W. Moes, 'Gerard ter Borch en zijn familie', Oud Holland (1886), p. 156 (ill.), p. 162-164.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Hofstede de Groot, vol. 5, p. 92, nr. 276 [als mogelijk Willem III].</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J. Verbeek, 'Tekeningen van de familie Terborch', Antiek (1966) nr. 2, p. 37, 39 + afb.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Kunstschrift, 2005, nr. 3 [gewijd aan Ter Borch]</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Mogelijk M.E. Houck, Mededelingen...ter Borch, Verslagen...Overijsselsch Regt en Geschiedenis 1899, p. 156.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>S.J. Gudlaugsson, 'Einige Ausnahmefälle in der Bildnisgestaltung Ter Borches', Festschrift Friedrich Winckler (1959), p. 309, ill. 5.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>The Burlington Magazine (nov. 1996), p. 779 + afb.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">? testament Gesina ter Borch (1630-90), Zwolle 16 (?) April 1690, (‘En zullen al mijn conterfeitsels, en van broeder Moses en van vader en moeder en bestevader en bestemoeder, … niet verkoft, maar voor de kinderen bewaart moeten worden’);{Houck 1899, p. 156.} …; collection Thomas Jefferson Bryan (1802-70), New York, 1853;{Coll. cat. New York 1853, p. 11, no. 147 (‘portrait of William, Prince of Orange and King of England’) Coll. cat. New York 1853b, p. 88, no. 147 (‘William, Prince of Orange’).} by whom donated to The New York Historical Society, 2 April 1867; periodically on loan to the Metropolitan Museum of Art, New York, c. 1979-94;{McNeil Kettering 1995, p. 317.} sale The New York Historical Society, New York (Sotheby’s), 12 January 1995, no. 33, $310,000 to the museum, with support from the Rijksmuseum-Stichting</ns5:provenance>
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204040" />
+                <ns7:spn xml:lang="en">Purchased with the support of the Rijksmuseum-Stichting</ns7:spn>
+                <ns7:spn xml:lang="nl">Aankoop met steun van de Rijksmuseum-Stichting</ns7:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/vCGOX/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/vCGOX" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/vCGOX/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4908--7b421ca0f67138db1bf1012312cb6892">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns9:prefLabel xml:lang="en">RijksXL</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">RijksXL</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns9:prefLabel xml:lang="en">biografic</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">biografisch</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns9:prefLabel xml:lang="en">paintings</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">schilderijen</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns9:prefLabel xml:lang="en">canvas</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">doek</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2204040">
+            <ns9:altLabel xml:lang="nl">geschilderd</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">paint</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">schilderen</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns9:prefLabel xml:lang="en">painting</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">schilderij</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns9:prefLabel xml:lang="en">oil paint (paint)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">olieverf</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2211042">
+            <ns10:sameAs rdf:resource="https://iconclass.org/45C221" />
+            <ns9:altLabel>45C221</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">helmet</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22136">
+            <ns10:sameAs rdf:resource="https://iconclass.org/23U22" />
+            <ns9:altLabel>23U22</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">hourglass</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221527">
+            <ns10:sameAs rdf:resource="https://iconclass.org/25F711%28BUTTERFLY%29" />
+            <ns9:altLabel>25F711(BUTTERFLY)</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">insects: butterfly</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221579">
+            <ns10:sameAs rdf:resource="https://iconclass.org/25F72%28SNAIL%29" />
+            <ns9:altLabel>25F72(SNAIL)</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">molluscs: snail</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221774">
+            <ns10:sameAs rdf:resource="https://iconclass.org/61B2%28%2B55%29" />
+            <ns9:altLabel>61B2(+55)</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">historical persons (+ full length portrait)</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22192">
+            <ns10:sameAs rdf:resource="https://iconclass.org/34B11" />
+            <ns9:altLabel>34B11</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">dog</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221972">
+            <ns10:sameAs rdf:resource="https://iconclass.org/31F11" />
+            <ns9:altLabel>31F11</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">death's head, skull (symbol of Death)</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/vCGOX">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21022056">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/80602742" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500021244" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q1519218" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/10683" />
+            <ns11:dateOfBirth xml:lang="nl">ca. 1633-11-15</ns11:dateOfBirth>
+            <ns11:dateOfDeath xml:lang="nl">1690-04-16</ns11:dateOfDeath>
+            <ns11:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/230180" />
+            <ns11:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230200">
+                <ns9:prefLabel xml:lang="en">Deventer</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Deventer</ns9:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfDeath>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns9:prefLabel xml:lang="en">draftsman (artist)</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">tekenaar</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns9:altLabel xml:lang="en">Borch, Gesina ter</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Borch, Geesien</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Borch, Gesina ter</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Geesien Borch</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Gesina Terborch</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Terborch, Gesina</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Gesina ter Borch</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Gesina ter Borch</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21043092">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/4685828" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500020032" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q1949233" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/10687" />
+            <ns11:dateOfBirth xml:lang="nl">1645-06 - 1645-06-19</ns11:dateOfBirth>
+            <ns11:dateOfDeath xml:lang="nl">1667-07-12</ns11:dateOfDeath>
+            <ns11:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2303323">
+                <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/7011868" />
+                <ns9:prefLabel xml:lang="nl">Harwich</ns9:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfDeath>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns9:prefLabel xml:lang="en">draftsman (artist)</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">tekenaar</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns9:altLabel xml:lang="en">Borch, Moses ter</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Borch, Moses ter</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Borch, Mozes ter</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Mozes ter Borch</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Moses ter Borch</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Moses ter Borch</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21043093">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/54432423" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500017511" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q346808" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/10682" />
+            <ns11:dateOfBirth xml:lang="nl">1617-12</ns11:dateOfBirth>
+            <ns11:dateOfDeath xml:lang="nl">1681-12-08</ns11:dateOfDeath>
+            <ns11:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230180">
+                <ns9:prefLabel xml:lang="nl">Zwolle</ns9:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfBirth>
+            <ns11:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230200">
+                <ns9:prefLabel xml:lang="en">Deventer</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Deventer</ns9:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfDeath>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns9:prefLabel xml:lang="en">painter</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">schilder</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns9:prefLabel xml:lang="en">draftsman (artist)</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">tekenaar</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns9:altLabel xml:lang="en">Borch, Gerard ter (II)</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Borch jr., Gerard ter</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Borch, Gerard ter (II)</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Gerard Ter Borch jr.</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Gerard Terborch (de Jonge)</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Gerard Terburg</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Gerard ter Borch jr.</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Ter Borch jr., Gerard</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Terborch, Gerard (de Jonge)</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Terburg, Gerard</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Gerard ter Borch (II)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Gerard ter Borch (II)</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns9:prefLabel>Rijksmuseum</ns9:prefLabel>
+          </ns3:Place>
+          <ns3:TimeSpan rdf:about="https://id.rijksmuseum.nl/240445">
+            <ns9:prefLabel xml:lang="en">Raid on the Medway</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Tocht naar Chatham</ns9:prefLabel>
+          </ns3:TimeSpan>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+  

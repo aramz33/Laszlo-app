@@ -1,0 +1,200 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20029042</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:36:07Z</ns0:datestamp>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>26121</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20029042#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20029042">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21011824" />
+                <dc:identifier>SK-C-180</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21044992" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22123" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2214737" />
+                <dc:title xml:lang="en">Portrait of Jacob Cats (1577-1660)</dc:title>
+                <dc:title xml:lang="nl">Portret van Jacob Cats (1577-1660)</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:alternative xml:lang="nl">Portret van Jacob Cats (1577-1660). Raadpensionaris van Holland en Westfriesland en dichter</ns5:alternative>
+                <ns5:created xml:lang="en">1639</ns5:created>
+                <ns5:created xml:lang="nl">1639</ns5:created>
+                <ns5:extent xml:lang="en">outer size: depth 6.5 cm (support incl. frame)</ns5:extent>
+                <ns5:extent xml:lang="en">support: height 67.1 cm x width 57 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">buitenmaat: diepte 6,5 cm (drager incl. SK-L-2226)</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 67,1 cm x breedte 57 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26121" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301107690" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301116753" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30112160" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3011873" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">? Commissioned by or for the sitter; ? his youngest daughter, Elisabeth (1618-73), with Huis Sorghvliet, 1660; ? sold with Huis Sorghvliet to Hans Willem Bentinck (1649-1709), Earl of Portland, 16 January 1675; ? his son, Willem Bentinck (1704-74), with Huis Sorghvliet, 1709; ? his grandson, Willem Gustaaf Frederik Bentinck-Rhoon (1762-1835), with Huis Sorghvliet, 1774; ? transferred to his new residence, Varel Castle, between Oldenburg and Hannover, 1819;…; owned by the warden of the Sociëteit Doctrina et Amicitia, Amsterdam;{Van der Hoop _&lt;em&gt;Lijst&lt;/em&gt;_, p. 8, no. 105; see note 3 below.} from whom, fl. 260, to Adriaan van der Hoop (1778-1854), Amsterdam, 21 March 1834;{Van der Hoop _&lt;em&gt;Lijst&lt;/em&gt;_, p. 8, no. 105: ‘Idem [Portret] van Vader Cats door Mierevelt. gekocht van Geits, Kastelyn van Doctrina, die het heeft van iemand, die het schildery uit Hannover had medegebracht, alwaar Lord Portland hetzelve had overgebracht; naa dat hy dat portret op de verkoping van Zorgvliet had aangekocht hebbende ik daar voor betaald 260, 21 Maart 1834’.} by whom bequeathed to the City of Amsterdam with the rest of his collection, 1854;{Van der Hoop _&lt;em&gt;Taxatie&lt;/em&gt;_ 1854, p. 4, no. 105 ‘Portret van J Cats en ryk gesneden lyst f 80-’.} on loan from the City of Amsterdam to the museum since 30 June 1885{For the reconstruction of the entire provenance see Van Thiel in Amsterdam 1984b, p. 160; Van Thiel in Van Thiel/De Bruyn Kops 1995, p. 206; Pollmer 2004, p. 162, no. 109.}</ns5:provenance>
+                <ns6:spn xml:lang="en">On loan from the City of Amsterdam (A. van der Hoop Bequest)</ns6:spn>
+                <ns6:spn xml:lang="nl">Bruikleen van de gemeente Amsterdam (legaat A. van der Hoop)</ns6:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/uHgGs/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/uHgGs" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/uHgGs/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-C-180--6af9ddfa5075dea153147eeec42e35fa">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26121">
+            <ns8:prefLabel xml:lang="en">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns8:prefLabel xml:lang="en">panel</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">paneel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22123">
+            <ns9:sameAs rdf:resource="https://iconclass.org/61B2" />
+            <ns8:altLabel>61B2</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">historical persons</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2214737">
+            <ns9:sameAs rdf:resource="https://iconclass.org/48C91" />
+            <ns8:altLabel>48C91</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">writer, poet, author</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/uHgGs">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21011824">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/51961814" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500025466" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q864092" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/56017" />
+            <ns10:dateOfBirth xml:lang="nl">1567-05-01</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1641-06-27</ns10:dateOfDeath>
+            <ns10:placeOfBirth />
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230132">
+                <ns8:prefLabel xml:lang="en">Delft</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Delft</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Mierevelt, Michiel Jansz van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Michiel Jansz. van Miereveld</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Michiel van Miereveld</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Michiel van Mierevelt</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Miereveld, Michiel Jansz. van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Miereveld, Michiel van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Mierevelt, Michiel Jansz. van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Mierevelt, Michiel van</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Michiel Jansz van Mierevelt</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Michiel Jansz. van Mierevelt</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21044992">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/29577792" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500315575" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q46151" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/441648" />
+            <ns10:dateOfBirth xml:lang="nl">1577-11-10</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1660-09-12</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2303898">
+                <ns8:prefLabel xml:lang="nl">Brouwershaven</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+                <ns8:prefLabel xml:lang="en">The Hague</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Den Haag</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205168">
+                <ns8:prefLabel xml:lang="en">statesman</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">staatsman</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202946">
+                <ns8:prefLabel xml:lang="en">poet</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">dichter</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2206484">
+                <ns8:prefLabel xml:lang="nl">raadpensionaris</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Cats, Jacob (1577-1660)</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Cats, Jacob (1577-1660)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Jacob Cats (1577-1660)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Jacob Cats (1577-1660)</ns8:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

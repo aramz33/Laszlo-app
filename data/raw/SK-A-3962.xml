@@ -1,0 +1,158 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/2003672</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:15:45Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/2003672#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/2003672">
+                <dc:description xml:lang="en">The man holding an open jug attempts to seduce the woman, who, however, looks the other way. In her right hand, she holds a spindle wrapped with yarn, which, together with the spinning wheel, signals her virtue. Yet in her other hand, she holds a yarn winder, representing temptation. The choice between the two is hers.</dc:description>
+                <dc:description xml:lang="nl">Met een geopende drinkkan in zijn hand probeert deze man de vrouw te verleiden. Zij kijkt de andere kant op. In haar rechterhand heeft ze een met garen omwikkelde spil. Samen met het spinnewiel symboliseert die haar deugdzaamheid. Maar in haar andere hand houdt ze een spintol vast, die juist staat voor verleiding. De keuze is aan haar.</dc:description>
+                <dc:identifier>SK-A-3962</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221247" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221270" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221271" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221272" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221273" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2212738" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2213624" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2216300" />
+                <dc:title xml:lang="en">Man and Woman at a Spinning Wheel</dc:title>
+                <dc:title xml:lang="en">Man en vrouw bij een spinnewiel</dc:title>
+                <dc:title xml:lang="nl">Man and Woman at a Spinning Wheel</dc:title>
+                <dc:title xml:lang="nl">Man en vrouw bij een spinnewiel</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:alternative xml:lang="en">A woman at the spinning wheel and a man with a mug seated in an interior</ns5:alternative>
+                <ns5:alternative xml:lang="nl">Een vrouw bij een spinnewiel en een man met een kan zittend in een interieur</ns5:alternative>
+                <ns5:created xml:lang="en">c. 1560 - c. 1570</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1560 - ca. 1570</ns5:created>
+                <ns5:extent xml:lang="en">depth 3.5 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 76 cm x width 63 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">buitenmaat: diepte 3,5 cm (drager incl. SK-L-2416)</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 76 cm x breedte 63 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301131726" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301184726" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244089" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244300" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30156611" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30182300" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">…; from the dealer Nijstad, The Hague, fl. 70,000 to the museum, with support from the Jubileumfonds 1958, 1959</ns5:provenance>
+                <ns6:spn xml:lang="en">Purchased with the support of the Stichting Jubileumfonds Rijksmuseum</ns6:spn>
+                <ns6:spn xml:lang="nl">Aankoop met steun van de Stichting Jubileumfonds Rijksmuseum</ns6:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/mGAna/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/mGAna" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/mGAna/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3962--1c31820644206a2b45fb8dfae1f6b7e0">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns8:prefLabel xml:lang="en">panel</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">paneel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221247">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41C326" />
+            <ns8:altLabel>41C326</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">jar, jug (used as drinking-vessel)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221270">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41D221%28HAT%29%28%2B81%29" />
+            <ns8:altLabel>41D221(HAT)(+81)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">head-gear: hat (+ men's clothes)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221271">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41D221%28CAP%29%28%2B82%29" />
+            <ns8:altLabel>41D221(CAP)(+82)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">head-gear: cap (+ women's clothes)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221272">
+            <ns9:sameAs rdf:resource="https://iconclass.org/47H313" />
+            <ns8:altLabel>47H313</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">spinning-wheel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221273">
+            <ns9:sameAs rdf:resource="https://iconclass.org/47H312" />
+            <ns8:altLabel>47H312</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">spindle</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2212738">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41D2%28%2B82%29" />
+            <ns8:altLabel>41D2(+82)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">clothes, costume (+ women's clothes)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2213624">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41D2%28%2B81%29" />
+            <ns8:altLabel>41D2(+81)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">clothes, costume (+ men's clothes)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2216300">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41D2321%28%2B82%29" />
+            <ns8:altLabel>41D2321(+82)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">apron (+ women's clothes)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/mGAna">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

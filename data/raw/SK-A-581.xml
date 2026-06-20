@@ -1,0 +1,160 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20027155</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:23:16Z</ns0:datestamp>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>26121</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20027155#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20027155">
+                <dc:creator>
+                  <ns3:Agent rdf:nodeID="Ne4c3064d7d1d41bbb11b02b0141dfa2d" />
+                </dc:creator>
+                <dc:description xml:lang="en">Hugo de Groot (Grotius), copy after M.J. van Miereveld, 1631. In 1607 the internationally renowned jurist Hugo de Groot (1583-1645), known also by his Latinised name Grotius, published Mare liberum, in which he argued for free trade at sea. In a later work, De iure belli ac pacis (on the laws of war and peace) he laid what many consider to be the foundation of international law. Like Johan van Oldenbarnevelt, Hugo de Groot was arrested in 1618 after a confrontation with the stadholder, Prince Maurice. De Groot received a life sentence and was imprisoned in Loevestein castle. In 1621 he escaped and fled to France. During a short return to the Republic he posed for the painter Van Miereveld. This is one of the many copies of that portrait.</dc:description>
+                <dc:description xml:lang="nl">Hugo de Groot (Grotius), kopie naar M.J. van Miereveld, 1631. Hugo de Groot (1583-1645), of Grotius zoals de internationaal befaamde rechtsgeleerde zijn naam verlatiniseerde, publiceerde in 1607 Mare liberum, waarin hij pleitte voor vrije handel op zee. Later verscheen De iure belli ac pacis (over het recht van oorlog en vrede). Dit werk wordt beschouwd als een van de grondslagen van het internationaal volkenrecht. Net als Johan van Oldenbarnevelt werd Hugo de Groot in 1618 gearresteerd na in conflict te zijn geraakt met stadhouder prins Maurits. De Groot kreeg levenslang en werd opgesloten in slot Loevestein. In 1621 ontsnapte hij, en vluchtte naar Frankrijk. Tijdens een kort verblijf in de Republiek poseerde hij voor de schilder Van Miereveld. Dit schilderij is een van de vele kopieën van het portret.</dc:description>
+                <dc:identifier>SK-A-581</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200415049" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20071559" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21011825" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221686" />
+                <dc:title xml:lang="en">Portrait of Hugo de Groot (1583-1645)</dc:title>
+                <dc:title xml:lang="nl">Portret van Hugo de Groot (1583-1645)</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:alternative xml:lang="nl">Portret van Hugo de Groot (1583-1645). Rechtsgeleerde</ns5:alternative>
+                <ns5:created xml:lang="en">1631</ns5:created>
+                <ns5:created xml:lang="nl">1631</ns5:created>
+                <ns5:extent xml:lang="en">outer size: depth 6.6 cm (support incl. frame)</ns5:extent>
+                <ns5:extent xml:lang="en">support: height 63 cm x width 55 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">buitenmaat: diepte 6,6 cm (drager incl. SK-L-1780)</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 63 cm x breedte 55 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26121" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30112160" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301152219" />
+                <ns5:isReferencedBy>Documentatiemap Schilderijen: aantekeningen R. van Luttervelt (voor 1963).</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">…; purchased by the museum with _&lt;em&gt;Portrait of Maria van Utrecht&lt;/em&gt;_ by Paul Moreelse (SK-A-275), fl. 1,946, 22 June 1803{Moes/Van Biema 1909, pp. 63, 207.}</ns5:provenance>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/dsPRm/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/dsPRm" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/dsPRm/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-581--0493d65071813bbb46e875eaee51d248">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns7:prefLabel xml:lang="en">biografic</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">biografisch</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns7:prefLabel xml:lang="en">paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderijen</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26121">
+            <ns7:prefLabel xml:lang="en">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns7:prefLabel xml:lang="en">panel</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">paneel</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns7:prefLabel xml:lang="en">painting</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderij</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns7:prefLabel xml:lang="en">oil paint (paint)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">olieverf</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221686">
+            <ns8:sameAs rdf:resource="https://iconclass.org/61B2%28%2B52%29" />
+            <ns7:altLabel>61B2(+52)</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">historical persons (+ (full) bust portrait)</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/dsPRm">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21011825">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/32005141" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500044269" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q154959" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/435910" />
+            <ns9:dateOfBirth xml:lang="nl">1583-04-10</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1645-08-28</ns9:dateOfDeath>
+            <ns9:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/230132" />
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2302338">
+                <ns7:prefLabel xml:lang="nl">Rostock</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2203965">
+                <ns7:prefLabel xml:lang="en">writer (clerical worker)</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">schrijver</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2205486">
+                <ns7:prefLabel xml:lang="nl">rechtsgeleerde</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2206351">
+                <ns7:prefLabel xml:lang="nl">pensionaris</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Groot, Hugo de</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Groot, Hugo de</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Grotius, Hugo</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Hugo Grotius</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Hugo de Groot</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Hugo de Groot</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/230132">
+            <ns7:prefLabel xml:lang="en">Delft</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Delft</ns7:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

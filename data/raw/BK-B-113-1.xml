@@ -1,0 +1,201 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns11="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20035977</ns0:identifier>
+        <ns0:datestamp>2026-06-08T02:11:29Z</ns0:datestamp>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26126</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20035977#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20035977">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2105106" />
+                <dc:description xml:lang="en">P.J.H. Cuypers (1827 - 1921. Marble. T. Dupuis, 1897. Cuypers is generally considered the first Dutch architect of international stature in modern times. It was he who introduced the Neo-Gothic style to Holland in the 1850s. He built countless Roman Catholic churches in this style. Cuypers came from Roermond. He settled in Amsterdam in 1865. Among his friends he included Jonkheer De Stuers, also from Limburg. Through this man's good offices Cuypers was able to enter the competition to produce a design for the new Rijksmuseum. Cuypers won the commission. The museum was opened in 1885. In 1859 Cuypers married the sister of writer and critic J.A. Alberdingk Thijm.</dc:description>
+                <dc:description xml:lang="nl">P.J.H. Cuypers (1827 - 1921). Marmer. T. Dupuis, 1897. Cuypers wordt wel beschouwd als de eerste Nederlandse architect van internationale betekenis in de moderne tijd. Hij introduceerde in de jaren vijftig de neogotiek in Nederland. In die stijl bouwde hij talloze rooms-katholieke kerken. Cuypers kwam uit Roermond. Hij vestigde zich in 1865 in Amsterdam. Hij was bevriend met de eveneens uit Limburg afkomstige jonkheer De Stuers. Door diens bemiddeling deed Cuypers in 1876 mee aan de prijsvraag voor een ontwerp voor het Rijksmuseum. Cuypers kreeg de opdracht. In 1885 werd het museum geopend. Cuypers trouwde in 1859 met de zuster van de letterkundige J.A. Alberdingk Thijm.</dc:description>
+                <dc:identifier>BK-B-113-1</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21032264" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2109266" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221266" />
+                <dc:title xml:lang="nl">Buste van Dr. Petrus Josephus Hubertus Cuypers (1827-1921), architect</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220525" />
+                <ns5:created xml:lang="en">1912</ns5:created>
+                <ns5:created xml:lang="nl">1912</ns5:created>
+                <ns5:extent xml:lang="en">height 119.5 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 70 cm x width 61 cm x depth 40 cm x width 66 cm x depth 52 cm</ns5:extent>
+                <ns5:extent xml:lang="en">weight 170 kg</ns5:extent>
+                <ns5:extent xml:lang="nl">buste: gewicht (eigenschap) 170 kg</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 70 cm x breedte 61 cm x diepte 40 cm x breedte 66 cm x diepte 52 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">sokkel: hoogte 119,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/200614399" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26126" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30115456" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30165550" />
+                <ns5:isReferencedBy>De Prins der geïllustreerde bladen (1912), p. 279.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Jaarverslag Rijksmuseum (1912), p. 6, afb.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220147" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/2301261" />
+                <ns6:spn xml:lang="en">Gift of the Feestcommissie Jubileum Cuypers 1897</ns6:spn>
+                <ns6:spn xml:lang="nl">Schenking van de Feestcommissie Jubileum Cuypers 1897</ns6:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/FBNBG/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/FBNBG" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:sameAs rdf:resource="http://viaf.org/viaf/159624082" />
+                <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500246547" />
+                <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q190804" />
+                <ns8:sameAs rdf:resource="https://rkd.nl/artists/485537" />
+                <ns9:altLabel xml:lang="nl">Rijkmuseum Amsterdam</ns9:altLabel>
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/FBNBG/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-B-113-1--fbb54530feb4910fb9ddb9db8a983bcc">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns9:prefLabel xml:lang="en">biografic</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">biografisch</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26126">
+            <ns9:prefLabel xml:lang="en">sculptures</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">beeldhouwwerken</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220147">
+            <ns9:prefLabel xml:lang="en">marble (rock)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">marmer</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220525">
+            <ns9:altLabel xml:lang="nl">borstbeeld</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">portretbuste</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">bust</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">buste</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221266">
+            <ns8:sameAs rdf:resource="https://iconclass.org/48C13" />
+            <ns9:altLabel>48C13</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">portrait, self-portrait of architect</ns9:prefLabel>
+          </ns9:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/FBNBG">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21032264">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/64790320" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500012900" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q540431" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/19348" />
+            <ns10:dateOfBirth xml:lang="nl">1827-05-16</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1921-03-03</ns10:dateOfDeath>
+            <ns10:placeOfBirth />
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230766">
+                <ns9:prefLabel xml:lang="nl">Roermond (Limburg)</ns9:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns9:prefLabel xml:lang="en">draftsman (artist)</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">tekenaar</ns9:prefLabel>
+              </ns9:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2205213">
+                <ns9:prefLabel xml:lang="en">architect</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">architect</ns9:prefLabel>
+              </ns9:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2205387">
+                <ns9:prefLabel xml:lang="en">interior decorator</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">interieurontwerper</ns9:prefLabel>
+              </ns9:Concept>
+            </ns10:professionOrOccupation>
+            <ns9:altLabel xml:lang="en">Cuypers, P.J.H.</ns9:altLabel>
+            <ns9:altLabel xml:lang="en">Cuypers, Pierre Joseph Hubert</ns9:altLabel>
+            <ns9:altLabel xml:lang="en">P.J.H. Cuypers</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Cuypers, P.J.H.</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Cuypers, Petrus Josephus Hubertus</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Cuypers, Pierre J.H.</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Cuypers, Pierre Joseph Hubert</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">P.J.H. Cuypers</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Petrus Josephus Hubertus Cuypers</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Pierre J.H. Cuypers</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Pierre Joseph Hubert Cuypers</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Pierre Joseph Hubert Cuypers</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2105106">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/317290947" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500584969" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q7824148" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/24979" />
+            <ns10:dateOfBirth xml:lang="nl">1877-02-18</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1937-10-13</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230148">
+                <ns9:prefLabel xml:lang="en">Antwerp</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Antwerpen (stad)</ns9:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+                <ns8:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006810" />
+                <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q36600" />
+                <ns9:prefLabel xml:lang="en">The Hague</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Den Haag</ns9:prefLabel>
+                <ns11:lat>4.3</ns11:lat>
+                <ns11:long>52.083333</ns11:long>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2205167">
+                <ns9:prefLabel xml:lang="en">sculptor</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">beeldhouwer</ns9:prefLabel>
+              </ns9:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2205217">
+                <ns9:prefLabel xml:lang="en">medalist</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">medailleur</ns9:prefLabel>
+              </ns9:Concept>
+            </ns10:professionOrOccupation>
+            <ns9:altLabel xml:lang="en">Dupuis, Toon</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Dupuis, Toon</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Toon Dupuis</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Toon Dupuis</ns9:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

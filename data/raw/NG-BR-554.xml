@@ -1,0 +1,194 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns11="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20019976</ns0:identifier>
+        <ns0:datestamp>2026-06-08T20:58:48Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260210</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261179</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20019976#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20019976">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="en">Most of these spears were presented to J.C. Baud, Governor-General of the Dutch East Indies in 1834. The Java War (1825-1830), a bloody colonial war between the Dutch and the Java princes, cost the lives of 200,000 Javanese and 15,000 Dutchmen. Because unrest remained in parts of Java, Baud went on an inspection tour in 1834. During this journey he received weapons, traditional symbols of power, from local
+rulers as a token of their (extorted) loyalty to the Dutch government.</dc:description>
+                <dc:description xml:lang="nl">De meeste van deze speren werden in 1834 geschonken aan gouverneur-generaal J.C. Baud. De Java-oorlog (1825-1830), een bloedige koloniale oorlog tussen de Nederlanders en de Javaanse vorsten, had 200.000 Javanen en 15.000 Nederlanders het leven gekost. Omdat delen van Java onrustig bleven, hield Baud in 1834 een inspectiereis. Tijdens die tocht ontving hij van de lokale vorsten wapens, traditionele machtssymbolen, als teken van hun (afgedwongen) loyaliteit aan de Nederlandse overheid.</dc:description>
+                <dc:identifier>NG-BR-554</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21040665" />
+                <dc:title xml:lang="en">Lansenrek van gouverneur-generaal J.C. Baud</dc:title>
+                <dc:title xml:lang="en">Spear Rack of Governor-General J.C. Baud</dc:title>
+                <dc:title xml:lang="nl">Lansenrek van gouverneur-generaal J.C. Baud</dc:title>
+                <dc:title xml:lang="nl">Spear Rack of Governor-General J.C. Baud</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220141" />
+                <ns5:created xml:lang="en">1834</ns5:created>
+                <ns5:created xml:lang="nl">1834</ns5:created>
+                <ns5:extent xml:lang="en">height 171 cm x width 141 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 171 cm x breedte 141 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260210" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261179" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100987" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301313117" />
+                <ns5:isReferencedBy>Documentatiemap: volgorde lansen in rek.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2201667" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22054" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23081" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204537" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204652" />
+                <ns7:spn xml:lang="en">On loan from C.L. Luyken-Baud, Lelystad</ns7:spn>
+                <ns7:spn xml:lang="nl">Bruikleen van mevrouw C.L. Luyken-Baud, Lelystad</ns7:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/ZTaeN/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/ZTaeN" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/ZTaeN/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/NG-BR-554--2925f555bbb8aca0b5c017e2e430dd7d">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/23081">
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/1000116" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q252" />
+            <ns9:prefLabel xml:lang="en">Indonesia</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Indonesië</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260210">
+            <ns9:prefLabel xml:lang="en">Against Opacity</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Against Opacity</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns9:prefLabel xml:lang="en">RijksXL</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">RijksXL</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns9:prefLabel xml:lang="en">biografic</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">biografisch</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261179">
+            <ns9:prefLabel xml:lang="nl">Varia 19e eeuw</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220141">
+            <ns9:prefLabel xml:lang="en">rack</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">rek</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2201667">
+            <ns9:prefLabel xml:lang="en">teak (wood)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">teakhout</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2204537">
+            <ns9:altLabel xml:lang="nl">gegoten</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">casting</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">gieten</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2204652">
+            <ns9:altLabel xml:lang="nl">gesneden</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">uitgesneden</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">uitsnijden</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">cutting</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">snijden</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22054">
+            <ns9:altLabel xml:lang="en">brass (alloy)</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">geelkoper</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">brass (alloy)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">messing</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/ZTaeN">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21040665">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/52591753" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q2334397" />
+            <ns11:dateOfBirth xml:lang="nl">1789-10-23</ns11:dateOfBirth>
+            <ns11:dateOfDeath xml:lang="nl">1859-06-27</ns11:dateOfDeath>
+            <ns11:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/2301261" />
+            <ns11:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+                <ns9:prefLabel xml:lang="en">The Hague</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Den Haag</ns9:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfDeath>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2205119">
+                <ns9:prefLabel xml:lang="nl">minister</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2205132">
+                <ns9:prefLabel xml:lang="nl">Tweede Kamerlid</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2205337">
+                <ns9:prefLabel xml:lang="en">governor general</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">gouverneur-generaal</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2206371">
+                <ns9:prefLabel xml:lang="nl">Minister van Staat</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2206841">
+                <ns9:prefLabel xml:lang="nl">Minister van Koloniën</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2206952">
+                <ns9:prefLabel xml:lang="nl">Raad van State-lid</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns9:altLabel xml:lang="nl">Baud, Jean Chrétien baron</ns9:altLabel>
+            <ns9:prefLabel xml:lang="nl">Jean Chrétien baron Baud</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns9:altLabel xml:lang="nl">Anon</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">anonymous</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">anoniem</ns9:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

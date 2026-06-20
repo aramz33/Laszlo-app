@@ -1,0 +1,217 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200115766</ns0:identifier>
+        <ns0:datestamp>2026-06-08T02:08:07Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26126</ns0:setSpec>
+        <ns0:setSpec>2618</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200115766#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200115766">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="en">Petronella, Countess of Holland, ordered this tympanum for above the entrance to the Benedictine monastery of Egmond-Binnen. She stands at right, her son, Count Dirk VI, at left. Both address the apostle Peter with the words inscribed along the edge: ‘O gate keeper of heaven, let in these faithful multitudes kneeling before you and intercede for them with the King of Heaven.’</dc:description>
+                <dc:description xml:lang="nl">Petronella, gravin van Holland, bestelde dit timpaan voor boven de ingang van het benedictijnenklooster van Egmond-Binnen. Zelf staat ze rechts en haar zoon, graaf Dirk VI, staat links. Beiden richten zich tot de apostel Petrus met de woorden die op de rand staan: ‘O poortwachter van de hemel, laat deze gelovige, voor u knielende schare binnen en verzoen hen met de hemelkoning.’</dc:description>
+                <dc:identifier>BK-NM-1914</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200152529" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200211008" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200479146" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200479147" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200479152" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200479156" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200480609" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21057044" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21060934" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221843" />
+                <dc:title xml:lang="en">Timpaan van de abdij van Egmond</dc:title>
+                <dc:title xml:lang="en">Tympanum from the Abbey Church of Egmond</dc:title>
+                <dc:title xml:lang="nl">Timpaan van de abdij van Egmond</dc:title>
+                <dc:title xml:lang="nl">Tympanum from the Abbey Church of Egmond</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/22011927" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2204869" />
+                <ns5:created xml:lang="en">in or after 1121 - in or before 1130</ns5:created>
+                <ns5:created xml:lang="nl">in of na 1121 - in of voor 1130</ns5:created>
+                <ns5:extent xml:lang="en">height 88 cm x width 175 cm (210 cm incl. corner pieces) x depth 12.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 88 cm x breedte 175 cm (210 cm incl. hoekstukken) x diepte 12,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26126" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2618" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301101288" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301123666" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301123668" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301126505" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301128029" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301128055" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144621" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301147806" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30115456" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301216127" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244089" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244300" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125044" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125313" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125314" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3012644" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30140578" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30153305" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30159434" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30159475" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30165550" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30167537" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30182705" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30182706" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30182707" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30194333" />
+                <ns5:isReferencedBy>D.J. van Lennep, Verhandeling en Hollandsche Duinzang, Zwolle, 1966, p. 61.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>De tympan Egmond, uit: Bulletin van de Nederlandse Oudheidkundige Bond, 3, 1901, 1-2, pagina pp. 39(zie: http://dx.doi.org/10.7480/knob.3.1901.1-2)</ns5:isReferencedBy>
+                <ns5:isReferencedBy>E. den Hartog, De Griekse inscriptie op het timpaan van de abdijkerk te Egmond, Holland historisch tijdschrift, 55ste jaargang/2 (2023)</ns5:isReferencedBy>
+                <ns5:isReferencedBy>E. den Hartog, De oudste kerken van Holland. Van kerstening tot 1300, Utrecht 2002, p. 102.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>H. Püttmann, "Das Tympanonreliëf von St. Cäcilien in Köln", Wallraf-Richartz-Jahrbuch XVII (1955), p. 54, 55, 60, afb. 52.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J. Klein, 'Die romanische Steinplatik des Niederrheins', Studien zur deutschen Kunstgeschichte 184, p. 60, pl. XVIII.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>P. Glazema, "Het tympaan te Velzen", Het Gildeboek XXIII (1940), p. 44-48, afb. 5.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>P. Haverkorn van Rijsewijk, De oudste beeldhouwwerken in Noord-Nederland, uit: Bulletin van de Nederlandse Oudheidkundige Bond, 2, 1901, 5, pagina pp. 205-213(zie: http://dx.doi.org/10.7480/knob.2.1901.5)</ns5:isReferencedBy>
+                <ns5:isReferencedBy>R. van Luttervelt, "Het voormalige Sint Adalbertsklooster te Egmond", Oudheidkundig Jaarboek XI (1942), p. 48.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Verslag P.G. Heinsbroek (documentatiemap beeldhouwkunst)</ns5:isReferencedBy>
+                <ns5:isReferencedBy>W. van Heteren, "Kloostergebouwen in de Middeleeuwen", Jaarboekje van Alberdink Thijm 43 (1894), p. 229, 247.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22011155" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22016" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220337" />
+                <ns5:provenance xml:lang="en">Commissioned by Petronilla of Saxony, Countess of Holland (c. 1082-1144), for the church of Egmond Abbey, by 1130;{H.G.C.M. Klomp, ‘Het tympaan van Egmond: Kunst als instrument van propaganda’, in G.N.M. Vis and J.P. Gumbert (eds.), _&lt;em&gt;Egmond tussen kerk en wereld&lt;/em&gt;_, Hilversum 1993, pp. 139-61, esp. p. 159.} transferred to an unspecified location, 1801/04;{H. van Wijn, ‘Iets nopens de vernieling der Egmondsche Abtdije en Boekerije …’, _&lt;em&gt;Huiszittend leeven&lt;/em&gt;_, vol. 1, part 4, Amsterdam 1804, pp. 442-64.} donated by E.M. Tinne-Gregory, widow of J.P.T. Tinne, Lord of the Egmonds, to the Koninklijk Instituut van Wetenschappen, Letteren en Schoone Kunsten, located in the Trippenhuis, Amsterdam, 1820;{E.H.P. Cordfunke &lt;em&gt;et al.&lt;/em&gt;, _&lt;em&gt;De abdij van Egmond: Archeologie en duizend jaar geschiedenis&lt;/em&gt;_, Zutphen 2010, p. 73.} installed in the garden of the Trippenhuis, Amsterdam, first recorded in 1842;{A. Beekman, _&lt;em&gt;Catalogus der tentoonstelling ‘De abdij van Egmond’ in het Gemeentemuseum ’s-Gravenhage&lt;/em&gt;_, exh. cat. The Hague 1934, p. 20.} transferred to the museum, 1885</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/2305922" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206673" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/TqZzZ/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/TqZzZ" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/TqZzZ/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-NM-1914--bb10923da7faaca87dbc27ba441907f8">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2305922">
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q762943" />
+            <ns8:prefLabel xml:lang="en">County of Holland</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Graafschap Holland</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26126">
+            <ns8:prefLabel xml:lang="en">sculptures</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">beeldhouwwerken</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2618">
+            <ns8:prefLabel xml:lang="en">European Sculpture in the Rijksmuseum</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">European Sculpture in the Rijksmuseum</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22011155">
+            <ns8:altLabel xml:lang="nl">lood (materiaal)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">lead (metal)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">lood</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22011927">
+            <ns8:prefLabel xml:lang="en">relief (sculpture)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">reliëf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22016">
+            <ns8:prefLabel xml:lang="en">metal</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">metaal</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220337">
+            <ns8:prefLabel xml:lang="en">sandstone</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">zandsteen</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2204869">
+            <ns8:altLabel xml:lang="nl">timpanon</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">tympaan</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">tympanum</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">timpaan</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2206673">
+            <ns8:altLabel xml:lang="nl">gebeeldhouwd</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">sculpting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">beeldhouwen</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221843">
+            <ns9:sameAs rdf:resource="https://iconclass.org/11H%28PETER%29" />
+            <ns8:altLabel>11H(PETER)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">the apostle Peter, first bishop of Rome; possible attributes: book, cock, (upturned) cross, (triple) crozier, fish, key, scroll, ship, tiara</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/TqZzZ">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21057044">
+            <ns10:dateOfDeath xml:lang="nl">1157-08-05</ns10:dateOfDeath>
+            <ns8:prefLabel xml:lang="nl">Dirk VI (graaf van Holland)</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21060934">
+            <ns10:dateOfBirth xml:lang="nl">1078</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1144-05-23</ns10:dateOfDeath>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301268">
+                <ns8:prefLabel xml:lang="nl">Rijnsburg (Zuid-Holland)</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns8:altLabel xml:lang="nl">Geertruid van Lotharingen</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Petronella van Saksen</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">Petronella van Lotharingen</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns8:altLabel xml:lang="nl">Anon</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">anonymous</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">anoniem</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

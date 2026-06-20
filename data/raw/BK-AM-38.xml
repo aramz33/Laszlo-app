@@ -1,0 +1,180 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200116025</ns0:identifier>
+        <ns0:datestamp>2026-06-08T02:10:17Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26126</ns0:setSpec>
+        <ns0:setSpec>2618</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200116025#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200116025">
+                <dc:creator>
+                  <ns3:Agent rdf:nodeID="Ned12eb612d394cb28ce1d57844eb991d" />
+                </dc:creator>
+                <dc:identifier>BK-AM-38</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211664" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211665" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211666" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/23011193" />
+                <dc:title xml:lang="en">De Razernij</dc:title>
+                <dc:title xml:lang="en">Frenzy</dc:title>
+                <dc:title xml:lang="nl">De Razernij</dc:title>
+                <dc:title xml:lang="nl">Frenzy</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201048" />
+                <ns5:alternative xml:lang="nl">De dolhuisvrouw, genoemd de Razernij</ns5:alternative>
+                <ns5:created xml:lang="en">after 1648 - in or before 1662</ns5:created>
+                <ns5:created xml:lang="nl">na 1648 - in of voor 1662</ns5:created>
+                <ns5:extent xml:lang="en">height 162 cm x width 65 cm x depth 62 cm x weight 944 kg (figure)</ns5:extent>
+                <ns5:extent xml:lang="en">height 295 cm x width 75 cm x depth 75 cm x weight 1887 kg (total)</ns5:extent>
+                <ns5:extent xml:lang="en">weight 242 kg (cover plate)</ns5:extent>
+                <ns5:extent xml:lang="en">weight 313 kg (plinth)</ns5:extent>
+                <ns5:extent xml:lang="en">weight 388 kg (socle)</ns5:extent>
+                <ns5:extent xml:lang="nl">beeld: hoogte 162 cm x breedte 65 cm x diepte 62 cm x gewicht (eigenschap) 944 kg</ns5:extent>
+                <ns5:extent xml:lang="nl">dekplaat: gewicht (eigenschap) 242 kg (2 delen)</ns5:extent>
+                <ns5:extent xml:lang="nl">geheel: hoogte 295 cm x breedte 75 cm x diepte 75 cm x gewicht (eigenschap) 1887 kg (5 delen)</ns5:extent>
+                <ns5:extent xml:lang="nl">plint: gewicht (eigenschap) 313 kg</ns5:extent>
+                <ns5:extent xml:lang="nl">sokkel: gewicht (eigenschap) 388 kg</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26126" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2618" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301114610" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30112396" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301128029" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30114385" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144554" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30114459" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301152694" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30115456" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301186859" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301187805" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301193916" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301193917" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30119565" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301216127" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125313" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125314" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30132848" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30138992" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30151784" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30163535" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30165468" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3016759" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30198970" />
+                <ns5:isReferencedBy>A. Pit, 'De verzameling Hollandsch beeldhouwwerk in het Nederlandsch Museum, te Amsterdam', Bulletin van den Nederlandschen Oudheidkundigen Bond 1 (1899/1900), p. 148.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>E. Neurdenburg, 'De Razernij of Dolhuisvrouw', Oudheidkundig Jaarboek 9 (1929), p. 109-114.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>E. Redslob, 'Andreas Schlüter und die Plastik der Niederlände', Zeitschrift für Kunstwissenschaft 9 (1955), p. 91, afb. 4</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Gerard Pley en Herman W.J. de Boer, "De Razerny, zinnebeeld van waanzin", Ons Amsterdam 45 (1993), p. 271 - 275</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J. Gabriels, 'Nog eens 'De Razernij' of 'Dolhuisvrouw' van het Nederlandsch Museum', Oudheidkundig Jaarboek 10 (1930), p. 171-175.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J. Six, 'Hendrik de Keyser als beeldhouwer', Jaarverslag Koninklijk Oudheidkundig Genootschap te Amsterdam (1910), p. XXII, afb.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>K. Fremantle, "De Razernij", Openbaar Kunstbezit 8 (1964) dec.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>W.R. Valentiner, 'A neglected sculptor in the Mannerist Exhibition at Amsterdam', The Art Quarterly (1956), p. 48-49, afb. 7.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220337" />
+                <ns5:provenance xml:lang="en">…; courtyard of the Dolhuys (madhouse), Kloveniersburgwal, Amsterdam, first recorded in 1662;{M. Fokkens, _&lt;em&gt;Beschrijvinge der wijdt-vermaarde Koopstadt Amsterdam&lt;/em&gt;_, Amsterdam 1662, p. 285.} transferred to the Buitengasthuis, Amsterdam, c. 1792;{The Dolhuys at the Kloveniersburgwal was demolished in 1792, the patients as well as the statue were transferred to the Buitengasthuis at the Overtoom in Amsterdam, see C.A.L. Sander, ‘Het Dulhuys of Dolhuis aan de Vesten of de Kloveniersburgwal’, _&lt;em&gt;Maandblad Amstelodamum&lt;/em&gt;_ 45 (1958), pp. 229-38, esp. p. 238.} on loan from the City of Amsterdam (Burgerlijk Armenbestuur),{M. Jonker &lt;em&gt;et al.&lt;/em&gt;, _&lt;em&gt;In beeld gebracht: Beeldhouwkunst uit de collectie van het Amsterdams Historisch Museum&lt;/em&gt;_, coll. cat. Amsterdam 1995, no. 65A (inv. no. BA 2542).} to the Koninklijk Oudheidkundig Genootschap (KOG), Amsterdam, 1877-85;{Former inv. no. KOG-2673.} on loan to the museum, since 1885</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23029985" />
+                <ns6:spn xml:lang="en">On loan from the City of Amsterdam</ns6:spn>
+                <ns6:spn xml:lang="nl">Bruikleen van de gemeente Amsterdam</ns6:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/XRTOL/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/XRTOL" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/XRTOL/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-AM-38--4d2f6e695317b2ce772dbf148782e16e">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/23029985">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006952" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q727" />
+            <ns9:sameAs rdf:resource="https://sws.geonames.org/2759794/" />
+            <ns8:prefLabel xml:lang="en">Amsterdam</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Amsterdam</ns8:prefLabel>
+            <ns10:lat>4.916667</ns10:lat>
+            <ns10:long>52.35</ns10:long>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26126">
+            <ns8:prefLabel xml:lang="en">sculptures</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">beeldhouwwerken</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2618">
+            <ns8:prefLabel xml:lang="en">European Sculpture in the Rijksmuseum</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">European Sculpture in the Rijksmuseum</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2201048">
+            <ns8:altLabel xml:lang="nl">sculptuur</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">sculpture</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">beeldhouwwerk</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220337">
+            <ns8:prefLabel xml:lang="en">sandstone</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">zandsteen</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211664">
+            <ns9:sameAs rdf:resource="https://iconclass.org/31B8" />
+            <ns8:altLabel>31B8</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">fool, simpleton, numskull</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211665">
+            <ns9:sameAs rdf:resource="https://iconclass.org/56E2%28%2B1%29" />
+            <ns8:altLabel>56E2(+1)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Rage, Anger (+ personification)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211666">
+            <ns9:sameAs rdf:resource="https://iconclass.org/11N33" />
+            <ns8:altLabel>11N33</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Anger; 'Ira' (Ripa) ~ personification of one of the Seven Deadly Sins</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/XRTOL">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/23011193">
+            <ns8:prefLabel xml:lang="en">Dolhuis</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Dolhuis (Amsterdam)</ns8:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

@@ -1,0 +1,121 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20027869</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:28:23Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20027869#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20027869">
+                <dc:creator>
+                  <ns3:Agent rdf:nodeID="N15b3c00bab014a93ab3fd3dfd2570126" />
+                </dc:creator>
+                <dc:description xml:lang="en">Attributed to Carel Fabritius (1622 - 1654). The beheading of John the Baptist, c. 1645. On the right we see Salomé who - according to the biblical account - is rewarded for her dancing with the head of John the Baptist on a platter. It is not certain who the artist was. The free painting style and the contrasts between light and dark point to one of Rembrandt's pupils, perhaps Carel Fabritius. Purchased in 1801 as a Rembrandt.</dc:description>
+                <dc:description xml:lang="nl">Toegeschreven aan Carel Fabritius (1622 - 1654). De onthoofding van Johannes de Doper, ca. 1645. Rechts staat Salomé die - zoals de bijbel verhaalt - als beloning voor haar danskunst een schaal ontvangt met het afgehouwen hoofd van Johannes de Doper. Het is niet zeker wie dit schilderij maakte. De losse schildertrant, de grote figuren en het lichtdonker contrast wijzen erop dat het een leerling van Rembrandt was, misschien Carel Fabritius. Aankoop 1801 als Rembrandt.</dc:description>
+                <dc:identifier>SK-A-91</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200174086" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200174087" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200174088" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200265664" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20066810" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211540" />
+                <dc:title xml:lang="nl">Salome ontvangt het hoofd van Johannes de Doper</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:alternative xml:lang="en">The Beheading of John the Baptist</ns5:alternative>
+                <ns5:alternative xml:lang="nl">De onthoofding van Johannes de Doper</ns5:alternative>
+                <ns5:created xml:lang="en">c. 1640 - c. 1645</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1640 - ca. 1645</ns5:created>
+                <ns5:extent xml:lang="en">height 149 cm x width 121 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 149 cm x breedte 121 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301120564" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301153836" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301154316" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301185785" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301185790" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30122140" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30122143" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301241009" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015253" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30177302" />
+                <ns5:isReferencedBy>F. Grijzenhout, 'Tempel voor Nederland : De Nationale Konst-Gallerij in 's-Gravenhage', Nederlands Kunsthistorische Jaarboek 35 (1984), p. 24, afb. 21.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Is the Rijksmuseum's first 'Rembrandt' a Fabritius? Some Notes on "The Beheading of John the Baptist", uit: Oud Holland, 119, 2006, 2/3, pagina pp. 110-119(zie: http://www.jstor.org/stable/42711726)
+Geen Fabritius.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>The Rembrandt Database,  Object information, follower ofnavolger vanRembrandt, or attributed toof toegeschreven aanCarel Fabritius,  The beheading of John the Baptist,  first half 1640s, Rijksmuseum, Amsterdam, inv. no. SK-A-91, http://www.rembrandtdatabase.org/Rembrandt/painting/2745/the-beheading-of-john-the-baptist, accessed 2016 February 01</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Women with Pearl Earrings: On Paintings Apparently by Carel Fabritius, in Hannover, Vaduz, and Amsterdam, uit: Oud Holland, 119, 2006, 2/3, pagina pp. 120-129 - p. 124, 126(zie: http://www.jstor.org/stable/42711727)
+Toch Fabritius?</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">...; ? estate inventory, Catharina Deyl (?-1686), widow of the painter Nicolaas Roosendael (c. 1635-1686), Amsterdam, 7 March 1687, no. 8, as Fabritius ('Johannes Onthoofding van Fabritius');{Bredius II, 1916, p. 542.} ...; ? anonymous sale, Amsterdam (auction house not known), 16 May 1696, no. 76, as Fabritius ('St. Jans Onthoofding van Fabritius.'), fl. 20;{Hoet 1752, I, p. 37.} ...; ? anonymous sale, Paris (P. Remy), 7 February 1782 &lt;em&gt;sqq.&lt;/em&gt;, no. 24, as Rembrandt ('La Décolation de St. Jean Baptiste: le bourreau présente à Hérodiade la tête de ce saint sur un plat. Ce tableau est d'une grande distinction; les figures sont au nombre de sept: il est peint sur toile, &amp; porte 4 pieds 9 pouces de haut, sur 3 pieds 4 pouces de large [153 x 108 cm].'), sold &lt;em&gt;en bloc&lt;/em&gt; before the auction for frs. 60,000 to M. Olliot;{See GPI no. F-A678.} ... ; ? sale, Johann Anton de Peters (Paris, 1725-95), Paris (J.B.P. Lebrun and P. Remy), 5 November 1787 &lt;em&gt;sqq.&lt;/em&gt;, no. 35, as Rembrandt (description same as above), frs. 1,500 to De Gamond; ...; sale, Pierre Fouquet Jr. (Amsterdam, 1729-1800), Amsterdam (P. van der Schley), 13 April 1801 &lt;em&gt;sqq.&lt;/em&gt;, no. 61, as Rembrandt ('Rembrand van Rhyn, op doek, hoog 55, breed 47 duim [141 x 121 cm]. Dit uitmuntend Schildery verbeeld de Dochter van Herodes, benevens den Scherprechter welke het hoofd van Joannes op een schotel heeft liggende, verzeld van een menigte van haar gevolg, de caracters zyn spreekend, het licht frappant, en het coloriet allerbevalligst, zo ook de ordonantie en Meesterlyk schildering.'), fl. 775 to Cornelis Sebille Roos for the museum</ns5:provenance>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/gRTKx/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/gRTKx" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/gRTKx/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-91--83ccbdc041e7f94d75709846397df6c6">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns7:prefLabel xml:lang="en">paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderijen</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns7:prefLabel xml:lang="en">canvas</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">doek</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns7:prefLabel xml:lang="en">painting</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderij</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns7:prefLabel xml:lang="en">oil paint (paint)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">olieverf</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2211540">
+            <ns8:sameAs rdf:resource="https://iconclass.org/73C1334" />
+            <ns7:altLabel>73C1334</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Salome is given the head of John the Baptist by the executioner</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/gRTKx">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

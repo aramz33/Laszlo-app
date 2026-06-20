@@ -1,0 +1,158 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200108886</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:25:28Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200108886#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200108886">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21041475" />
+                <dc:description xml:lang="en">Whistler here connected painting with music and literature, alluded to by the title of this piece. He used the musical term ‘arrangement’ to draw attention to the composition of colours. Later on, he added the literary subtitle ‘Effie Deans’ after the heroine of a novel by the Scottish writer Walter Scott. The model posing for Whistler in this painting is Maud Franklin, who worked with him for more than fifteen years.</dc:description>
+                <dc:description xml:lang="nl">Whistler verbond de schilderkunst met muziek en literatuur. In de titel gebruikte hij de muziekterm ‘arrangement’ om aandacht te vestigen op de compositie van kleuren. Later voegde hij de literaire ondertitel ‘Effie Deans’ toe, naar de heldin van een roman van de Schotse schrijver Walter Scott. Het model dat voor hem poseerde was Maud Franklin. Zij werkte meer dan vijftien jaar met Whistler samen.</dc:description>
+                <dc:identifier>SK-A-1902</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200646320" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200902536" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221481" />
+                <dc:title xml:lang="en">‘Arrangement in Yellow and Gray’: Effie Deans</dc:title>
+                <dc:title xml:lang="nl">‘Arrangement in Yellow and Gray’: Effie Deans</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">c. 1876 - c. 1878</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1876 - ca. 1878</ns5:created>
+                <ns5:extent xml:lang="en">height 194 cm x width 93 cm x depth 9 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 224.5 cm x width 124 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">doekmaat: hoogte 194 cm x breedte 93 cm x diepte 9 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">inclusief lijst: hoogte 224,5 cm x breedte 124 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301108645" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301115824" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301141410" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301145751" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301149817" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301199485" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301272381" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301272384" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301274270" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30140463" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015254" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30173249" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30173252" />
+                <ns5:isReferencedBy>J.F. Heijbroek en E.L. Wouthuysen, Portret van een Kunsthandel : De firma Van Wisselingh en zijn compagnons 1838-heden, Zwolle-Amsterdam 1999, p. 274-275.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns6:spn xml:lang="en">Gift of M.C., Baroness van Lynden-van Pallandt, The Hague</ns6:spn>
+                <ns6:spn xml:lang="nl">Schenking van M.C. barones van Lynden-van Pallandt, Den Haag</ns6:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/pqdys/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/pqdys" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/pqdys/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1902--895b07048d5aa8628495e274abf24f74">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns8:prefLabel xml:lang="en">canvas</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">doek</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221481">
+            <ns9:sameAs rdf:resource="https://iconclass.org/31AA231" />
+            <ns8:altLabel>31AA231</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">standing figure - AA - female human figure</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/pqdys">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21041475">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/46804212" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500012432" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q203643" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/84027" />
+            <ns10:dateOfBirth xml:lang="nl">1834-07-10</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1903-07-17</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2305349">
+                <ns8:prefLabel xml:lang="nl">Lowell</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2302548">
+                <ns8:prefLabel xml:lang="nl">Chelsea (Londen)</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Whistler, James Abbott McNeill</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">James McNeill Whistler</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Whistler, James Abbott McNeill</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Whistler, James McNeill</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">James Abbott McNeill Whistler</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">James Abbott McNeill Whistler</ns8:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

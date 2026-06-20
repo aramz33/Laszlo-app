@@ -1,0 +1,199 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns11="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200114001</ns0:identifier>
+        <ns0:datestamp>2026-06-08T01:24:09Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26128</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200114001#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200114001">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2108227" />
+                <dc:description xml:lang="en">These salt cellars showcase the artistic influences Johannes Lutma absorbed while in Rome in 1630. Already in Roman antiquity, children were a favourite motif in sculpture, new variants of which sculptors developed in Lutma’s time. Lutma, too, created his own version, incorporating it into his salt cellars. The figure of the child follows the classical idiom, skilfully combined with fanciful auricular ornaments adorning the pedestal and bowl.</dc:description>
+                <dc:description xml:lang="nl">De zoutvaten reflecteren de ideeën die Johannes Lutma in 1630 in Rome opdeed. Al in de Romeinse oudheid waren kinderen een geliefd motief in de beeldhouwkunst. In de tijd van Lutma ontwikkelden beeldhouwers nieuwe varianten. Lutma bedacht een eigen versie en verwerkte deze in zijn zoutvaten. Voor de figuur van het kind volgde hij de klassieke vormentaal, die hij combineerde met fantasievolle ornamenten voor het voetstuk en de schaal.</dc:description>
+                <dc:identifier>BK-1960-13-A</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200114002" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211321" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211326" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22138" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221705" />
+                <dc:title xml:lang="en">Twee zoutvaten</dc:title>
+                <dc:title xml:lang="en">Two Salt Cellars</dc:title>
+                <dc:title xml:lang="nl">Twee zoutvaten</dc:title>
+                <dc:title xml:lang="nl">Two Salt Cellars</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220793" />
+                <ns5:created xml:lang="en">1639</ns5:created>
+                <ns5:created xml:lang="nl">1639</ns5:created>
+                <ns5:extent xml:lang="en">height 24 cm x width 12 cm x weight 802 g</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 24 cm x breedte 12 cm x gewicht (eigenschap) 802 g</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26128" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100648" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30111329" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301120565" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144631" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301154668" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30124857" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125525" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301283482" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301283486" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301301517" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301301521" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30139131" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30139209" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3016821" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30183148" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30192337" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30192373" />
+                <ns5:isReferencedBy>D. van der Kellen jr., Nederlandse Oudheden, Den Haag 1861, p. 46-47, pl. LXXXXI (als vroeg 18de eeuw).</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J.R. ter Molen, 'Auriculaire', in: A. Gruber (red.), L'art décoratif en Europe. Classique et Baroque, Parijs 1992, afb. p. 59.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Rijksmuseum Amsterdam Jaarverslag 2006, p. 56</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220169" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22028" />
+                <ns5:provenance xml:lang="en">…; sale, Van Iddekinge van Drogenhorst, Mr. H.C. Du Bois, &lt;em&gt;et al.&lt;/em&gt; [section Van Iddekinge van Drogenhorst], Amsterdam (F. Muller), 27 November (3 December) 1906 &lt;em&gt;sqq.&lt;/em&gt;, no. 452, fl. 4,000 to Frederik Muller, Amsterdam, or fl. 2,000 to Frederik Muller, Amsterdam, and fl. 2,000 to the dealer Duits, Amsterdam;{Copy Fondation Custodia, Paris; Copy Metropolitan Museum, New York.} …; sale, Emma Budge (1852-1937, Hamburg), Berlin (Paul Graupe), 4 October 1937 &lt;em&gt;sqq.&lt;/em&gt;, no. 255, with no. 254, 12,900 RM, probably to Graetzer;{Bid book Graupe, according to the lostart website.} …; Dutch private collection, 1937,1943;{Van Gelder 1937, p. 113; Frederiks 1943, p. 27.} …; ? the dealer Vecht, Amsterdam;{De Lorm 1999, p. 38, no. 10; note RMA.} …; ? collection Hendrik Petrus Doodeheefver (1889-1971), Hilversum;{De Lorm 1999, p. 38, no. 10; note RMA.} …; ? the dealer Katz, Dieren;{De Lorm 1999, p. 38, no. 10; note RMA.} ….; collection Wilhelmus Josephus Rudolphus Dreesmann (1885-1954), Amsterdam, 1951;{Coll. cat. Dreesmann, III, 1951, p. 809.} his sale, Amsterdam (F. Muller), 22 (23) March 1960 &lt;em&gt;sqq.&lt;/em&gt;, no. 95 and 96, fl. 110,000 and fl. 122,000, to Mr W. Kock on behalf of the Gemeente Amsterdam;{Copy RKD; note RMA.} from whom purchased, with BK-1960-13-B, by the museum, 1960</ns5:provenance>
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206822" />
+                <ns7:spn xml:lang="en">Purchased with the support of the Friends Lottery, the Mondriaan Fund, the Rembrandt Association (thanks in part to its Themed Fund for Silver), and through the Rijksmuseum Fonds: Mr. H.B. van der Ven, the Ernst Nijkerk Fonds, the Ton en Judy van Heuzen-Dijksma Fonds and the bequest of Mr. H. de Looper</ns7:spn>
+                <ns7:spn xml:lang="nl">Aankoop met steun van de VriendenLoterij, het Mondriaan Fonds, de Vereniging Rembrandt (mede dankzij haar Themafonds Zilver), en via het Rijksmuseum Fonds: de heer H.B. van der Ven, het Ernst Nijkerk Fonds, het Ton en Judy van Heuzen-Dijksma Fonds en de nalatenschap van de heer H. de Looper</ns7:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/LdetC/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/LdetC" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/LdetC/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-1960-13-A--3f4c9ac1280e786cd61160f1b9c0d6e7">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns9:prefLabel xml:lang="en">RijksXL</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">RijksXL</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26128">
+            <ns9:prefLabel xml:lang="nl">edele metalen</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220169">
+            <ns9:prefLabel xml:lang="en">gilding (material)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">verguldsel</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22028">
+            <ns9:prefLabel xml:lang="en">silver (metal)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">zilver</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2206822">
+            <ns9:prefLabel xml:lang="en">gild</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">vergulden</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220793">
+            <ns9:prefLabel xml:lang="en">salt (condiment vessel)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">zoutvat</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2211321">
+            <ns10:sameAs rdf:resource="https://iconclass.org/48A984" />
+            <ns9:altLabel>48A984</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">ornament derived from animal forms</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2211326">
+            <ns10:sameAs rdf:resource="https://iconclass.org/48A9844" />
+            <ns9:altLabel>48A9844</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">dolphin ~ ornament</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22138">
+            <ns10:sameAs rdf:resource="https://iconclass.org/48A9853" />
+            <ns9:altLabel>48A9853</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">scallop, shell ~ ornament</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221705">
+            <ns10:sameAs rdf:resource="https://iconclass.org/92D1916" />
+            <ns9:altLabel>92D1916</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">cupids: 'amores', 'amoretti', 'putti'</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/LdetC">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2108227">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/95792045" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500018089" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q2778143" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/51418" />
+            <ns11:dateOfBirth xml:lang="nl">1584</ns11:dateOfBirth>
+            <ns11:dateOfDeath xml:lang="nl">1669-01</ns11:dateOfDeath>
+            <ns11:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230561">
+                <ns9:prefLabel xml:lang="nl">Emden</ns9:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfBirth>
+            <ns11:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns9:prefLabel xml:lang="en">Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Amsterdam</ns9:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfDeath>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns9:prefLabel xml:lang="en">printmaker</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">prentmaker</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns9:prefLabel xml:lang="en">draftsman (artist)</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">tekenaar</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2205197">
+                <ns9:prefLabel xml:lang="en">silversmith</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">zilversmid</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns9:altLabel xml:lang="en">Lutma, Johannes (1584-1669)</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Janus Lutma (de Oude)</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Joannes Lutma (I)</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Lutma, Janus (de Oude)</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Lutma, Joannes (I)</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Lutma, Johannes (1584-1669)</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Johannes Lutma (1584-1669)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Johannes Lutma (1584-1669)</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns9:prefLabel>Rijksmuseum</ns9:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

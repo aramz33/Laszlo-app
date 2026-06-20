@@ -1,0 +1,179 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns11="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20038762</ns0:identifier>
+        <ns0:datestamp>2026-06-08T04:27:01Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260242</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261231</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20038762#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20038762">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="en">This tile panel was probably part of a wall covering in a room in a palace. The decoration is remarkably bold. The figure of Guanyin (a Buddhist deity) at the upper right is based directly on a Chinese woodcut. The striking black figures represent Brazilian Indians and were added to make the scene more exotic.</dc:description>
+                <dc:description xml:lang="nl">Dit tegelveld was waarschijnlijk onderdeel van de wandbekleding van een kamer in een paleis. De decoratie is bijzonder krachtig. De figuur van Guanyin (een boeddhistische godheid) rechtsboven, is direct gebaseerd op een Chinese houtsnede. De opvallende zwarte figuren stellen Braziliaanse indianen voor en zijn toegevoegd om de voorstelling nóg exotischer te maken.</dc:description>
+                <dc:identifier>BK-NM-12400-443</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221148" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221193" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221293" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221545" />
+                <dc:title xml:lang="en">Tegeltableau</dc:title>
+                <dc:title xml:lang="en">Tile panel with a Chinese landscape</dc:title>
+                <dc:title xml:lang="nl">Tegeltableau</dc:title>
+                <dc:title xml:lang="nl">Tile panel with a Chinese landscape</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2202306" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220449" />
+                <ns5:created xml:lang="en">c. 1700</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1700</ns5:created>
+                <ns5:extent xml:lang="en">height 171.3 cm x width 79.9 cm x depth 4.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">buitenmaat: hoogte 171,3 cm (inclusief frame/ lijst (frame/ lijst is oud)) x breedte 79,9 cm (inclusief frame/ lijst (frame/ lijst is oud)) x diepte 4,5 cm (inclusief frame/ lijst (frame/ lijst is oud))</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260242" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261231" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301107511" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301115625" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30118536" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30118537" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30123213" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301248206" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301294817" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30133878" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3014275" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015955" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30175413" />
+                <ns5:isReferencedBy>C.H. de Jonge, 'Hollandse tegelkamers in Duitse en Franse kastelen uit de eerste helft van de 18e eeuw', Nederlands Kunsthistorisch Jaarboek 10 (1959), p. 161-163.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>H.E. van Gelder, “Het grote tegeltableau der collectie Loudon” Bulletin van het Rijksmuseum, 4, nr. 4 (1956), p. 96-101</ns5:isReferencedBy>
+                <ns5:isReferencedBy>U. Kiby, 'Die Küche der Amalienburg im Schlossgarten von Nymphenburg zu München', Keramos 108 (1985), p. 48-52.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>tent. cat. "Het wondere zwart van delft. tentoonstelling ter gelegenheid van het tienjarig bestaan van de vereniging van vrienden der Nederlandse keramiek" Mededelingenblad van de Vrienden der Nederlandse Ceramiek, Gemeente Musea Amsterdam, Willet Holthuysen, 1964, nr. 54</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220114" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2201227" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22016" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230132" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2202093" />
+                <ns7:spn xml:lang="en">Gift of the heirs of J.F. Loudon, The Hague</ns7:spn>
+                <ns7:spn xml:lang="nl">Schenking van de erven van de heer J.F. Loudon, Den Haag</ns7:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/AFeVA/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/AFeVA" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/AFeVA/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-NM-12400-443--04608d9a4c967f2de5303c8bd33ea086">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/230132">
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006804" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q690" />
+            <ns9:prefLabel xml:lang="en">Delft</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Delft</ns9:prefLabel>
+            <ns11:lat>4.366667</ns11:lat>
+            <ns11:long>52</ns11:long>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns9:prefLabel xml:lang="en">RijksXL</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">RijksXL</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260242">
+            <ns9:prefLabel xml:lang="en">Dutch Delftware</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Delfts aardewerk</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261231">
+            <ns9:prefLabel xml:lang="nl">keramiek (collectie)</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220114">
+            <ns9:altLabel xml:lang="nl">gebakken aarde</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">earthenware</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">aardewerk (materiaal)</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2201227">
+            <ns9:prefLabel xml:lang="en">tin glaze</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">tinglazuur</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22016">
+            <ns9:prefLabel xml:lang="en">metal</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">metaal</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202093">
+            <ns9:prefLabel xml:lang="en">maiolica</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">majolica</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202306">
+            <ns9:prefLabel xml:lang="en">tile tableau</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">tegeltableau</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220449">
+            <ns9:prefLabel xml:lang="en">tile</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">tegel</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221148">
+            <ns10:sameAs rdf:resource="https://iconclass.org/32B3311" />
+            <ns9:altLabel>32B3311</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Chinese</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221193">
+            <ns10:sameAs rdf:resource="https://iconclass.org/32B321" />
+            <ns9:altLabel>32B321</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Africans</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221293">
+            <ns10:sameAs rdf:resource="https://iconclass.org/25K" />
+            <ns9:altLabel>25K</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">landscapes in the non-temperate zone, exotic landscapes</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">landschappen in de tropische zone, exotische landschappen</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221545">
+            <ns10:sameAs rdf:resource="https://iconclass.org/25G3%28PALM-TREE%29" />
+            <ns9:altLabel>25G3(PALM-TREE)</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">trees: palm-tree</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/AFeVA">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns9:altLabel xml:lang="nl">Anon</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">anonymous</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">anoniem</ns9:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

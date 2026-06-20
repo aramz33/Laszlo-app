@@ -1,0 +1,109 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.w3.org/2004/02/skos/core#" xmlns:ns7="http://www.w3.org/2002/07/owl#" xmlns:ns8="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200113528</ns0:identifier>
+        <ns0:datestamp>2026-06-08T01:20:26Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>26128</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200113528#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200113528">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21048124" />
+                <dc:description xml:lang="en">Three-piece tea service. Silver and enamel. Amsterdam, Hoeker &amp;amp; Zoon, 1903, designed by Jan Eisenloeffel.</dc:description>
+                <dc:description xml:lang="nl">Driedelig theeservies. Zilver en email. Amsterdam, Fa. Hoeker &amp;amp; Zoon, 1903, naar ontwerp van Jan Eisenloeffel.</dc:description>
+                <dc:identifier>BK-1973-158</dc:identifier>
+                <dc:rights xml:lang="nl">erven Jan Eisenloeffel</dc:rights>
+                <dc:title xml:lang="nl">Driedelig theeservies</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220162" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2203763" />
+                <ns5:created xml:lang="en">1903</ns5:created>
+                <ns5:created xml:lang="nl">1903</ns5:created>
+                <ns5:extent xml:lang="en" />
+                <ns5:extent xml:lang="nl">(zie afzonderlijke delen)</ns5:extent>
+                <ns5:hasPart rdf:resource="https://id.rijksmuseum.nl/20032430" />
+                <ns5:hasPart rdf:resource="https://id.rijksmuseum.nl/20032431" />
+                <ns5:hasPart rdf:resource="https://id.rijksmuseum.nl/20032432" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26128" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301184818" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301303680" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3016821" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30173408" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220140" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2201452" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22028" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22045" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23029985" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://rightsstatements.org/vocab/InC/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns6:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns6:prefLabel>
+                <ns6:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns6:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-1973-158--e59f2b0076b703cb2d7e5b5156beb0fd">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/23029985">
+            <ns7:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006952" />
+            <ns7:sameAs rdf:resource="http://www.wikidata.org/entity/Q727" />
+            <ns7:sameAs rdf:resource="https://sws.geonames.org/2759794/" />
+            <ns6:prefLabel xml:lang="en">Amsterdam</ns6:prefLabel>
+            <ns6:prefLabel xml:lang="nl">Amsterdam</ns6:prefLabel>
+            <ns8:lat>4.916667</ns8:lat>
+            <ns8:long>52.35</ns8:long>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns6:prefLabel xml:lang="en">Top 1000</ns6:prefLabel>
+            <ns6:prefLabel xml:lang="nl">Top 1000</ns6:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns6:prefLabel xml:lang="en">All published objects</ns6:prefLabel>
+            <ns6:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns6:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26128">
+            <ns6:prefLabel xml:lang="nl">edele metalen</ns6:prefLabel>
+          </rdf:Description>
+          <ns6:Concept rdf:about="https://id.rijksmuseum.nl/220140">
+            <ns6:prefLabel xml:lang="nl">riet</ns6:prefLabel>
+          </ns6:Concept>
+          <ns6:Concept rdf:about="https://id.rijksmuseum.nl/2201452">
+            <ns6:prefLabel xml:lang="en">ebony (wood)</ns6:prefLabel>
+            <ns6:prefLabel xml:lang="nl">ebbenhout</ns6:prefLabel>
+          </ns6:Concept>
+          <ns6:Concept rdf:about="https://id.rijksmuseum.nl/220162">
+            <ns6:prefLabel xml:lang="en">tea service</ns6:prefLabel>
+            <ns6:prefLabel xml:lang="nl">theeservies</ns6:prefLabel>
+          </ns6:Concept>
+          <ns6:Concept rdf:about="https://id.rijksmuseum.nl/22028">
+            <ns6:prefLabel xml:lang="en">silver (metal)</ns6:prefLabel>
+            <ns6:prefLabel xml:lang="nl">zilver</ns6:prefLabel>
+          </ns6:Concept>
+          <ns6:Concept rdf:about="https://id.rijksmuseum.nl/2203763">
+            <ns6:prefLabel xml:lang="nl">vaatwerk</ns6:prefLabel>
+          </ns6:Concept>
+          <ns6:Concept rdf:about="https://id.rijksmuseum.nl/22045">
+            <ns6:prefLabel xml:lang="nl">email</ns6:prefLabel>
+          </ns6:Concept>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21048124">
+            <ns7:sameAs rdf:resource="http://www.wikidata.org/entity/Q106314082" />
+            <ns7:sameAs rdf:resource="https://rkd.nl/artists/88484" />
+            <ns6:prefLabel xml:lang="nl">Firma Hoeker &amp; Zoon</ns6:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

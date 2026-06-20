@@ -1,0 +1,187 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20015970</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:34:42Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20015970#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20015970">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101483" />
+                <dc:description xml:lang="en">Troost depicted a scene from the popular farce The Spendthrift or the Wasteful Woman. The central character, Johanna, wastes her new expensive finery on two Polish-Jewish traders, portrayed in a stereotypical manner. In reality, they are Johanna’s father and husband, who have disguised themselves in order to expose her. Perched on the chair at the left, amidst a variety of Chinese valuables, is a ring-tailed lemur from Madagascar.</dc:description>
+                <dc:description xml:lang="nl">Troost beeldt een toneelscène af uit de populaire  komedie De spilpenning, of Verkwistende vrouw. Hoofdpersoon Johanna verpatst haar nieuwe dure kleren aan twee Pools-Joodse opkopers, die stereotyperend zijn afgebeeld. In werkelijkheid zijn dit haar vader en echtgenoot die verkleed zijn om haar te ontmaskeren. Links op de stoel zit, tussen allerlei Chinese kostbaarheden, een van oorsprong uit Madagaskar afkomstige ringstaartmaki.</dc:description>
+                <dc:identifier>SK-A-4209</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200414780" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211163" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211164" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211165" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22114850" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221444" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221755" />
+                <dc:title xml:lang="en">Johanna and the Jewish Merchants</dc:title>
+                <dc:title xml:lang="en">Johanna en de Joodse kooplieden</dc:title>
+                <dc:title xml:lang="nl">Johanna and the Jewish Merchants</dc:title>
+                <dc:title xml:lang="nl">Johanna en de Joodse kooplieden</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:alternative xml:lang="en">The Spendthrift or the Wasteful Woman, act III, scene V, from the Play by Thomas Asselijn (Joanna and the Polish Jewish Traders)</ns5:alternative>
+                <ns5:alternative xml:lang="nl">'Joanna en de 'smousen'; 3de bedrijf, 5de toneel uit het blijspel 'De Spilpenning of de verkwistende vrouw' van Thomas Asselijn</ns5:alternative>
+                <ns5:alternative xml:lang="nl">De 'Spilpenning', 3de bedrijf, 5e toneel uit het gelijknamige toneelstuk van Thomas Asselijn</ns5:alternative>
+                <ns5:created xml:lang="en">1741</ns5:created>
+                <ns5:created xml:lang="nl">1741</ns5:created>
+                <ns5:extent xml:lang="en">height 68.5 cm x width 86 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 68,5 cm x breedte 86 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100935" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301211623" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301250311" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301250312" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301270748" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301303682" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301303684" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30130999" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30131000" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30152572" />
+                <ns5:isReferencedBy>Rosalien van der Poel, 'Boekbespreking : Zijden Draad - China en Nederland sinds 1600', Aziatische Kunst 46 (2016) nr. 1, p. 56, afb. 2.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">…; on loan from Christiaan Pieter Hendrik Ras (1866-1934), Bussum, to the museum, 1909-13 (inv. no. SK-C-954); his son, Gozewin Hendrik Gerard Ras (1914-44), Mauthausen; his mother, Mrs. Siemens - Ruyter, Amsterdam; donated by Mr. and Mrs. Siemens-Ruyter, Amsterdam, to the museum, 1954, but kept in usufruct; transferred to the museum, 1971</ns5:provenance>
+                <ns6:spn xml:lang="en">Gift of Mr and Mrs Leopold Siemens-Ruyter, Blaricum</ns6:spn>
+                <ns6:spn xml:lang="nl">Schenking van de heer en mevrouw Leopold Siemens-Ruyter, Blaricum</ns6:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/tVKnn/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/tVKnn" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/tVKnn/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4209--da7933981ba111f0edc72f4013737a5c">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns8:prefLabel xml:lang="en">panel</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">paneel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211163">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41A4" />
+            <ns8:altLabel>41A4</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">decorations (interior of the house)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211164">
+            <ns9:sameAs rdf:resource="https://iconclass.org/55C11%28%2B5%29" />
+            <ns8:altLabel>55C11(+5)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Squandering, Extravagance, Prodigality, Waste; 'Prodigalità' (Ripa) (+ 'exemplum', representation of exemplary (historical) event)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211165">
+            <ns9:sameAs rdf:resource="https://iconclass.org/43D2" />
+            <ns8:altLabel>43D2</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">collecting (leisure time activity)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22114850">
+            <ns9:sameAs rdf:resource="https://iconclass.org/12A9" />
+            <ns8:altLabel>12A9</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">anti-semitism</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221444">
+            <ns9:sameAs rdf:resource="https://iconclass.org/46B311" />
+            <ns8:altLabel>46B311</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">coin</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221755">
+            <ns9:sameAs rdf:resource="https://iconclass.org/48C8546" />
+            <ns8:altLabel>48C8546</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">comedy</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/tVKnn">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101483">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/95727993" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500007701" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q2627927" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/78260" />
+            <ns10:dateOfBirth xml:lang="nl">1696-10-08</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1750-03-07</ns10:dateOfDeath>
+            <ns10:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/23029985" />
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns8:prefLabel xml:lang="en">Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Amsterdam</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Troost, Cornelis</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Troost, Cornelis</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Cornelis Troost</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Cornelis Troost</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

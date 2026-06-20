@@ -1,0 +1,170 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns11="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200408903</ns0:identifier>
+        <ns0:datestamp>2026-06-08T21:29:02Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26126</ns0:setSpec>
+        <ns0:setSpec>2618</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200408903#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200408903">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2105523" />
+                <dc:description xml:lang="en">This triton, a sea creature in the retinue of the god Neptune, is one of sixteen sculptures that together once formed part of a monumental fountain. The huge complex stood in front of Frederiksborg Castle in Denmark, but in 1659 Swedish soldiers took the statues as war booty to Stockholm. The triton originally perched on the edge of a basin, and water spouted from the shell he is blowing.</dc:description>
+                <dc:description xml:lang="nl">Deze triton, een zeewezen uit het gevolg van de god Neptunus, is een van de zestien beelden die ooit samen een monumentale fontein vormden. Het gevaarte stond voor het slot Frederiksborg in Denemarken. In 1659 brachten Zweedse soldaten de beelden als oorlogsbuit over naar Stockholm. De triton zat oorspronkelijk op de rand van een bassin; uit de schelp waarop hij blaast spoot water.</dc:description>
+                <dc:identifier>BK-C-1997-2</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2219841" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/23025157" />
+                <dc:title xml:lang="en">Triton Blowing a Conch Shell</dc:title>
+                <dc:title xml:lang="en">Triton, blazend op een kinkhoorn</dc:title>
+                <dc:title xml:lang="nl">Triton Blowing a Conch Shell</dc:title>
+                <dc:title xml:lang="nl">Triton, blazend op een kinkhoorn</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220297" />
+                <ns5:created xml:lang="en">c. 1615 - c. 1617</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1615 - ca. 1617</ns5:created>
+                <ns5:extent xml:lang="en">height 157 cm x width 88 cm x depth 80 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 157 cm x breedte 88 cm x diepte 80 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26126" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2618" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100494" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30120467" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301245956" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30128040" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3013390" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3013415" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30144421" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22013" />
+                <ns5:provenance xml:lang="en">Commissioned by King Christian IV of Denmark (1577-1648) in 1615; installed as part of the Neptune-fountain at Frederiksborg Castle (Hillerød, Denmark), c. 1620;{L.O. Larsson, _&lt;em&gt;Adrian de Vries: Adrianus Fries Hagiensis Batavus 1545-1626&lt;/em&gt;_, Vienna/Munich 1967, p. 69.} looted by Swedish troops, 1659;{G. Cavalli-Björkman, ‘Sweden’s Capture of the Sculptures by Adriaen de Vries’, in F. Scholten &lt;em&gt;et al.&lt;/em&gt;, _&lt;em&gt;Adriaen de Vries 1556-1626: Imperial Sculptor&lt;/em&gt;_, exh. cat. Amsterdam (Rijksmuseum)/Stockholm (Nationalmuseum)/Los Angeles (The J. Paul Getty Museum) 1998-2000, pp. 59-63, esp. p. 63.} …; ? Drottingholm Castle, Stockholm, c. 1690;{The sculptures of the Neptune fountain were installed in the garden of Drottingholm Castle circa 1690. Unclear, however, is whether the Amsterdam Triton was still with the rest of ensemble at this time and transferred to Karlberg only later, or possibly already separated from the others. In any event, certain is that the Triton was no longer at Drottingholm Castle in 1726. See J. Böttiger, _&lt;em&gt;Bronsarbeten af Adrian de Fries i Sverige, särskildt å Drottningholm&lt;/em&gt;_, Stockholm 1884, pp. 6 and 8.} transferred to Karlberg, Stockholm, in or before 1726;{In the Drottningholm inventories of 1744 and 1777, the Amsterdam Triton is listed as standing in the royal garden ‘Carlberg’; in 1744, it was valued at 1200 krona, see J. Böttiger, _&lt;em&gt;Bronsarbeten af Adrian de Fries i Sverige, särskildt å Drottningholm&lt;/em&gt;_, Stockholm 1884, pp. 8, 43, 46, 48. The other sculptures from the Neptune fountain remained at Drottningholm; the other two tritons are still listed in the 1726 inventory, see ibidem p. 7, nos. 27-28.} …; Heleneborg (at Södermalm), Stockholm, first documented in 1884;{J. Böttiger, _&lt;em&gt;Bronsarbeten af Adrian de Fries i Sverige, särskildt å Drottningholm&lt;/em&gt;_, Stockholm 1884, pp. 5-10, 53 (as at Heleneborg).} presented by the owners of Heleneborg to the Nationalmuseum, Stockholm, 1950;{Inv. no. Drh Sk 161.} on loan to the museum, since 1977</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230202" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204537" />
+                <ns7:spn xml:lang="en">On loan from the Nationalmuseum, Stockholm</ns7:spn>
+                <ns7:spn xml:lang="nl">Bruikleen van het Nationalmuseum, Stockholm</ns7:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/qhnNe/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/qhnNe" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/qhnNe/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-C-1997-2--c156eec29b1220c3ff3d3de044f72897">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns9:prefLabel xml:lang="en">RijksXL</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">RijksXL</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26126">
+            <ns9:prefLabel xml:lang="en">sculptures</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">beeldhouwwerken</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2618">
+            <ns9:prefLabel xml:lang="en">European Sculpture in the Rijksmuseum</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">European Sculpture in the Rijksmuseum</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22013">
+            <ns9:prefLabel xml:lang="en">bronze (metal)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">brons</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220297">
+            <ns9:prefLabel xml:lang="en">figure</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">beeld</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2204537">
+            <ns9:altLabel xml:lang="nl">gegoten</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">casting</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">gieten</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2219841">
+            <ns10:sameAs rdf:resource="https://iconclass.org/92H391%28%2B8%29" />
+            <ns9:altLabel>92H391(+8)</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">triton(s) (+ attributes)</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/qhnNe">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2105523">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/285928785" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500021335" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q367968" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/82060" />
+            <ns11:dateOfBirth xml:lang="nl">ca. 1556</ns11:dateOfBirth>
+            <ns11:dateOfDeath xml:lang="nl">ca. 1626-11-22 - ca. 1626-05-15</ns11:dateOfDeath>
+            <ns11:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+                <ns9:prefLabel xml:lang="en">The Hague</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Den Haag</ns9:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfBirth>
+            <ns11:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230202">
+                <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006464" />
+                <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q1085" />
+                <ns9:prefLabel xml:lang="en">Prague</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Praag</ns9:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfDeath>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns9:prefLabel xml:lang="en">draftsman (artist)</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">tekenaar</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2205167">
+                <ns9:prefLabel xml:lang="en">sculptor</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">beeldhouwer</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns9:altLabel xml:lang="en">Vries, Adriaen de</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Vries, Adriaen de</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Adriaen de Vries</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Adriaen de Vries</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns9:prefLabel>Rijksmuseum</ns9:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/23025157">
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/1100268" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q226103" />
+            <ns9:prefLabel xml:lang="nl">Frederiksborg (Hillerød)</ns9:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

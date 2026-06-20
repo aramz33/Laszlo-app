@@ -1,0 +1,200 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200107773</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:14:19Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>2616</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200107773#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200107773">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101107" />
+                <dc:description xml:lang="en">This painting ‘zooms in’ on the adoration of the magi to such an extent that, as a spectator, you feel almost present at the birth. The kings bring gifts for baby Jesus, who is not in a lowly stable, but in the ruins of a palace - that of King David, where, according to legend, Jesus was born many centuries later.</dc:description>
+                <dc:description xml:lang="nl">Hier is zo ‘ingezoomd’ op de aanbidding van de drie koningen dat je als kijker bijna aanwezig bent bij de gebeurtenis. De koningen brengen het kind Jezus geschenken. Niet in een armoedige stal, maar in een paleisruïne. Het zijn de resten van het paleis van koning David, waar volgens een legende eeuwen later Jezus werd geboren.</dc:description>
+                <dc:identifier>SK-A-671</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20066681" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20071275" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221179" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221180" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221181" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221182" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221183" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221184" />
+                <dc:title xml:lang="en">De aanbidding van de koningen</dc:title>
+                <dc:title xml:lang="en">The Adoration of the Magi</dc:title>
+                <dc:title xml:lang="nl">De aanbidding van de koningen</dc:title>
+                <dc:title xml:lang="nl">The Adoration of the Magi</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">c. 1520 - c. 1525</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1520 - ca. 1525</ns5:created>
+                <ns5:extent xml:lang="en">painted surface: height 48.5 cm x width 34 cm</ns5:extent>
+                <ns5:extent xml:lang="en">support: height 51 cm x width 36.5 cm</ns5:extent>
+                <ns5:extent xml:lang="en">thickness 1.3 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">beschilderd oppervlak: hoogte 48,5 cm x breedte 34 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">dikte 1,3 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 51 cm x breedte 36,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2616" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301154610" />
+                <ns5:isReferencedBy>J.P. Filedt Kok, "Portret van een Afrikaanse man", Bulletin van de Vereniging Rembrandt 15 (2005), nr. 2, p. 10.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">…; ? estate inventory, Anna van Renesse, Lady of Assendelft (1622-67), Kasteel Assumburgh, near Heemskerk, 1667, ‘Old gentleman’s room above the great chamber’ (‘een oud schilderije’);{Transcribed in Wildeman 1905, p. 46.} ? her cousin, George Frederik van Renesse, Baron van Elderen (1620-81), Kasteel ’s Herenelderen, Tongeren;{Wildeman 1905, p. 42.} his granddaughter, Anna Margaretha, Gravin van Rennesse van Elderen (1703-75), and her husband, Frederik Johan van Isendoorn à Blois (1699-1771), Kasteel Cannenburg, Vaassen;{Lunsingh Scheurleer 1990, pp. 203-04.} recorded in the ‘cabinet of the apartment’ at Kasteel Cannenburg, Vaassen, no. 8 or 23, after 1726;{Between 1726 and 1742 Anna Margaretha, Gravin van Renesse van Elderen kept an account of the decoration of Kasteel Cannenburg: AG, AHC, no. 407; see Lunsingh Scheurleer 1990, pp. 203-04.} their grandson, Frederik Carel Theodoor, Baron van Isendoorn à Blois (1784-1865), Kasteel Cannenburg, Vaassen; his sale, Amsterdam (C.F. Roos), 19 August 1879, no. 1, as 15th-century Flemish school, fl. 2,200, to J.W. Kaiser, for the museum;{NHA, ARM, Kop, inv. 39, p. 273, no. 40 (1 August 1879), no. 41 (20 August 1879); NHA, ARS, IS, inv. 161, no. 323 (12 August 1879), no. 326 (27 August 1879); on loan to the Museum Boijmans Van Beuningen, Rotterdam, 2004-10}</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230134" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/gwTXR/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/gwTXR" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/gwTXR/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-671--b7301db43dfdd0bdb0f77b812940fc48">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns7:prefLabel xml:lang="en">RijksXL</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">RijksXL</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns7:prefLabel xml:lang="en">paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderijen</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2616">
+            <ns7:prefLabel xml:lang="en">Early Netherlandish Paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Early Netherlandish Paintings</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns7:prefLabel xml:lang="en">panel</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">paneel</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns7:prefLabel xml:lang="en">painting</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderij</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns7:prefLabel xml:lang="en">oil paint (paint)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">olieverf</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221179">
+            <ns8:sameAs rdf:resource="https://iconclass.org/73A21" />
+            <ns7:altLabel>73A21</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">tree of Jesse: genealogical tree showing Christ's ancestors, sprouting from Jesse's loins</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221180">
+            <ns8:sameAs rdf:resource="https://iconclass.org/71H5263" />
+            <ns7:altLabel>71H5263</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">three of David's heroes draw water out of the well of Bethlehem, during their stay in the cave Adullam; David pours the water out</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221181">
+            <ns8:sameAs rdf:resource="https://iconclass.org/11I21" />
+            <ns7:altLabel>11I21</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">the Tiburtine sibyl and Augustus: the sibyl reveals to the emperor a vision of the Madonna in heaven</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221182">
+            <ns8:sameAs rdf:resource="https://iconclass.org/71D1441" />
+            <ns7:altLabel>71D1441</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">the butler's dream: the grape-vine with three branches whose fruit the butler squeezes into the king's cup</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221183">
+            <ns8:sameAs rdf:resource="https://iconclass.org/73B56" />
+            <ns7:altLabel>73B56</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">the arrival of the three Wise Men in Bethlehem</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">de aankomst van de drie koningen in Bethlehem</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221184">
+            <ns8:sameAs rdf:resource="https://iconclass.org/73B57" />
+            <ns7:altLabel>73B57</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">adoration of the kings: the Wise Men present their gifts to the Christ-child (gold, frankincense and myrrh)</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/gwTXR">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101107">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/124704542" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500006027" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q577279" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/57985" />
+            <ns9:dateOfBirth xml:lang="nl">1465 - 1485</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1552 - 1553</ns9:dateOfDeath>
+            <ns9:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/230134" />
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230134">
+                <ns8:sameAs rdf:resource="http://vocab.getty.edu/tgn/7007048" />
+                <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q9920" />
+                <ns7:prefLabel xml:lang="en">Haarlem</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Haarlem</ns7:prefLabel>
+                <ns10:lat>4.65</ns10:lat>
+                <ns10:long>52.366667</ns10:long>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns7:prefLabel xml:lang="en">painter</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">schilder</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns7:prefLabel xml:lang="en">draftsman (artist)</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">tekenaar</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Mostaert, Jan Jansz</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Jan Mostaert</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Jan Mostertsoen</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Jehan Masturd</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Joannes Sinapius</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Master of Oultremont</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Masturd, Jehan</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Meester van d'Oultremont</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Mostaert, Jan Jansz</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Mostaert, Jan</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Mostertsoen, Jan</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Sinapius, Joannes</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Jan Jansz Mostaert</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Jan Jansz Mostaert</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns7:prefLabel>Rijksmuseum</ns7:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

@@ -1,0 +1,148 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200386888</ns0:identifier>
+        <ns0:datestamp>2026-06-08T20:32:05Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260243</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261157</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200386888#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200386888">
+                <dc:description xml:lang="en">This is one of sixteen extant Hedwig glasses, a type of beaker named after Saint Hedwig of Silesia (1174–1234), who owned two of them. According to an inscription on the bottom of this glass, it belonged a German count in 1643. The glass was then thought to be a thousand years old. In fact, it probably originated in the 12th century and was made in Sicily.</dc:description>
+                <dc:description xml:lang="nl">Dit is een van de zestien nog overgebleven Hedwig-glazen, een type glas genoemd naar Sint-Hedwig van Silezië (1174–1234) die er twee in haar bezit had. Volgens een inscriptie onder het glas was dit glas in 1643 eigendom van een Duitse graaf. Toen werd gedacht dat het duizend jaar oud was. In werkelijkheid stamt het waarschijnlijk uit de 12de eeuw en werd het op Sicilië gemaakt.</dc:description>
+                <dc:identifier>BK-NM-712</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211444" />
+                <dc:title xml:lang="en">Hedwig beaker</dc:title>
+                <dc:title xml:lang="en">Hedwig-beker</dc:title>
+                <dc:title xml:lang="nl">Hedwig beaker</dc:title>
+                <dc:title xml:lang="nl">Hedwig-beker</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/22010588" />
+                <ns5:created xml:lang="en">c. 1100 - c. 1200</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1100 - ca. 1200</ns5:created>
+                <ns5:extent xml:lang="en">height 14.7 cm x diameter 13 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 14,7 cm x diameter 13 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260243" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261157" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100103" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301105003" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30111184" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301112116" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301136271" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244089" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244300" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125019" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125020" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125262" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30149671" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30157458" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30157512" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30165000" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30171699" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30171700" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30180440" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3018148" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30195125" />
+                <ns5:isReferencedBy>A. Essenwein, 'Ein Hedwigsbecher im germanischen Museum', Anzeiger für Kunde der deutschen Vorzeit, Organ des Germanischen Museums, N.F. 24 (1877).</ns5:isReferencedBy>
+                <ns5:isReferencedBy>C.J. du Ry, L'Islam, l'art de Byzance et de l'Islam, Parijs/Brussel, 1979, p. 333.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Documentatiemap.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>E. von Czihak, 'Die Hedwiggläser', Zeitschrift für christliche Kunst 3 (1890), kol. 344.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>R. Fry, 'The Munich Exhibition : Mohamedan Art II', The Burlington Magazine 17 (1910), p. 328, pl. I:4.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>R. Koch, 'Zwei fragmente eines Hedwigsbechers von der Burg Weibertreu bei Weinsberg', Archäologisches Korrespondenzblatt 7 (1977), p. 114.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2207803" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2203175" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2203204" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204449" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/rPlOF/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/rPlOF" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/rPlOF/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-NM-712--5492b2ebc34257f348e1765b7b357cf5">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260243">
+            <ns8:prefLabel xml:lang="en">birdwatching</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">vogelen</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261157">
+            <ns8:prefLabel xml:lang="en">glass</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">glas</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22010588">
+            <ns8:prefLabel xml:lang="nl">Hedwigbeker</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2203175">
+            <ns8:altLabel xml:lang="nl">geslepen</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">grinding</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">slijpen</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2203204">
+            <ns8:altLabel xml:lang="nl">wielgraveren</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">radgravure</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2204449">
+            <ns8:prefLabel xml:lang="en">glassblowing</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">glasblazen</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2207803">
+            <ns8:prefLabel xml:lang="en">glass</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">glas</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211444">
+            <ns9:sameAs rdf:resource="https://iconclass.org/25F33%28EAGLE%29" />
+            <ns8:altLabel>25F33(EAGLE)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">predatory birds: eagle</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/rPlOF">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

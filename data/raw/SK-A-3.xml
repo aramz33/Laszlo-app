@@ -1,0 +1,200 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200108123</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:18:37Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>2611</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200108123#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200108123">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101520" />
+                <dc:description xml:lang="en">At right, in this brothel, a young man does an egg dance to the music of a bagpiper. While dancing, he had to roll an egg within a chalk circle – without it breaking – and to cover it with a wooden bowl. This ‘pointless’ amusement, along with the dissolute behaviour of the other figures, served as a moral warning against debauchery.</dc:description>
+                <dc:description xml:lang="nl">In dit bordeel doet een jongeman een eierdans op de muziek van de doedelzakspeler. Hij moet al dansend een ei binnen een krijtcirkel rollen – zonder het te breken – en het met een houten kom afdekken. Dit ‘zinloze’ vertier is, samen met het liederlijke gedrag van de andere personages, een morele vermaning tegen zedeloos gedrag.</dc:description>
+                <dc:identifier>SK-A-3</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200409283" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20066758" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20067191" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200839136" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221397" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221504" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221509" />
+                <dc:title xml:lang="en">De eierdans</dc:title>
+                <dc:title xml:lang="en">The Egg Dance</dc:title>
+                <dc:title xml:lang="nl">De eierdans</dc:title>
+                <dc:title xml:lang="nl">The Egg Dance</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">1552</ns5:created>
+                <ns5:created xml:lang="nl">1552</ns5:created>
+                <ns5:extent xml:lang="en">height 84 cm x width 172 cm</ns5:extent>
+                <ns5:extent xml:lang="en">weight 20.5 kg</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 84 cm x breedte 172 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">gewicht (eigenschap) 20,5 kg (Inclusief lijst)</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2611" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100933" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301108659" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301113481" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30114902" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301154610" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301184726" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301236845" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301240814" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244089" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244300" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301245017" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301248351" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015253" />
+                <ns5:isReferencedBy>M. Bijl, Pieter Aertsen in het restauratie-atelier van het Rijksmuseum, uit: Nederlands kunsthistorisch jaarboek, 40, 1989, pagina pp. 197-233 - p. 197-202</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230148" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/mReXJ/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/mReXJ" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/mReXJ/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3--91dcdcf42fbaa18fafee20c129bd62af">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/230148">
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/tgn/7007856" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q12892" />
+            <ns7:prefLabel xml:lang="en">Antwerp</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Antwerpen (stad)</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns7:prefLabel xml:lang="en">RijksXL</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">RijksXL</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2611">
+            <ns7:prefLabel xml:lang="en">Cat. 15th and 16th century Dutch Paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Cat. 15e en 16e eeuwse Nederlandse Schilderijen</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns7:prefLabel xml:lang="en">paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderijen</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns7:prefLabel xml:lang="en">panel</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">paneel</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns7:prefLabel xml:lang="en">painting</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderij</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns7:prefLabel xml:lang="en">oil paint (paint)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">olieverf</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221397">
+            <ns8:sameAs rdf:resource="https://iconclass.org/41A2" />
+            <ns7:altLabel>41A2</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">interior of the house</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221504">
+            <ns8:sameAs rdf:resource="https://iconclass.org/43C911" />
+            <ns7:altLabel>43C911</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">man dancing alone</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221509">
+            <ns8:sameAs rdf:resource="https://iconclass.org/43A%28%2B71%29" />
+            <ns7:altLabel>43A(+71)</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">festivities (+ games of skill ~ festive activities)</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/mReXJ">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101520">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/95853668" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500027884" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q326548" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/605" />
+            <ns9:dateOfBirth xml:lang="nl">1508</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1575-06-02</ns9:dateOfDeath>
+            <ns9:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/23029985" />
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns7:prefLabel xml:lang="en">Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Amsterdam</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns7:prefLabel xml:lang="en">painter</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">schilder</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns7:prefLabel xml:lang="en">printmaker</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">prentmaker</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns7:prefLabel xml:lang="en">draftsman (artist)</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">tekenaar</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Aertsen, Pieter</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Aertsen, Pieter</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Aertsz, Pieter</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Aertsz., Pieter</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Aertszen, Pieter</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Aertszone, Pieter</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Lange Pier</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Pieter Aertsz.</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Pieter Aertsz</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Pieter Aertszen</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Pieter Aertszone</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Pietro Lungo</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Pieter Aertsen</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Pieter Aertsen</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns7:prefLabel>Rijksmuseum</ns7:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

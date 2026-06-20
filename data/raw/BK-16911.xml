@@ -1,0 +1,165 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200112381</ns0:identifier>
+        <ns0:datestamp>2026-06-08T01:12:02Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26131</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200112381#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200112381">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:identifier>BK-16911</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221105" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221720" />
+                <dc:title xml:lang="en">Aquamanile in the Form of a Mounted Knight</dc:title>
+                <dc:title xml:lang="en">Ridder-aquamanile</dc:title>
+                <dc:title xml:lang="nl">Aquamanile in the Form of a Mounted Knight</dc:title>
+                <dc:title xml:lang="nl">Ridder-aquamanile</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201243" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220297" />
+                <ns5:created xml:lang="en">c. 1220 - c. 1240</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1220 - ca. 1240</ns5:created>
+                <ns5:extent xml:lang="en">height 31.5 cm x width 25 cm x depth 12 cm</ns5:extent>
+                <ns5:extent xml:lang="en">width 20 cm x depth 12 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">grondvlak: breedte 20 cm x diepte 12 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 31,5 cm x breedte 25 cm x diepte 12 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26131" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301107363" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301123656" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301145688" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301199990" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30129301" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30163309" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30178391" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30180656" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30181049" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30186473" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3018972" />
+                <ns5:isReferencedBy>Ekaterina Nekrasova-Shedrinksy, Il destino delle opere della collezione Basilewsky, in: 'L'Ermitage di Basilewsky. Il collezionista di meraviglie', Torino 2013, pp. 32-41, p. 35-37, afb. p. 35.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220264" />
+                <ns5:provenance xml:lang="en">…; from Prince Alexander Petrovich Basilevsky (1829-85), Paris, &lt;em&gt;en bloc&lt;/em&gt;, frs 5,500,000, to Tsar Alexander III of Russia, for the Hermitage, St. Petersburg, 1884;{Kryzanovskaya 1990, p. 152.} …; private collection, Amsterdam, 1935;{Von Falke/Meyer 1935, p. 107, no. 294, image 261.} collection Dr Fritz Mannheimer (1890-1939), Amsterdam and Paris, 1936;{Von Falke 1936, p. 112, no. B7.} purchased from his estate, &lt;em&gt;en bloc&lt;/em&gt;, by the Dienststelle Mühlmann, The Hague, for Adolf Hitler's Führermuseum, Linz, 1940;{Korthals Altes 1974, pp. 21-22.} war recuperation, SNK, 1945;{HNA, SNK Archive, 2.08.42, inv. no. 548.} on loan, with 1,702 other objects, from the DRVK to the museum, 1952;{Note RMA.} transferred to the museum, 1960</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230472" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2203531" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204537" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204606" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206861" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/HgvKK/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/HgvKK" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/HgvKK/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-16911--4e6275f305eb3ef29d65cc3f6037e7cb">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/230472">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7005248" />
+            <ns8:prefLabel xml:lang="nl">Hildesheim</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26131">
+            <ns8:prefLabel xml:lang="nl">onedele metalen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2201243">
+            <ns8:prefLabel xml:lang="en">aquamanile</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">aquamanile</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220264">
+            <ns8:prefLabel xml:lang="en">copper alloy</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">koperlegering</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220297">
+            <ns8:prefLabel xml:lang="en">figure</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">beeld</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2203531">
+            <ns8:altLabel xml:lang="nl">gestoken</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">uitgestoken</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">uitsteken</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">steken</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2204537">
+            <ns8:altLabel xml:lang="nl">gegoten</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">casting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">gieten</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2204606">
+            <ns8:altLabel xml:lang="nl">geciseleerd</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">ciselure</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">ciseleren</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2206861">
+            <ns8:altLabel xml:lang="nl">gegraveerd</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">engraving</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">graveren (inkerven)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221105">
+            <ns9:sameAs rdf:resource="https://iconclass.org/46C131" />
+            <ns8:altLabel>46C131</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">riding a horse, ass, or mule; rider, horseman</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221720">
+            <ns9:sameAs rdf:resource="https://iconclass.org/46A124" />
+            <ns8:altLabel>46A124</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">knight</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/HgvKK">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns8:altLabel xml:lang="nl">Anon</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">anonymous</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">anoniem</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

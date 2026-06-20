@@ -1,0 +1,174 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200108226</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:19:40Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200108226#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200108226">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101653" />
+                <dc:description xml:lang="en">Bilders painted this small panel in the vicinity of Lochem in the province of Gelderland. He was fasci-nated by the colours of nature and tried to recreate them as closely as possible. This painting is about the effect of the sunset, which is mirrored in the pond. The branches of the trees stand out starkly against the glowing sky.</dc:description>
+                <dc:description xml:lang="nl">Bilders schilderde dit paneeltje in de buurt van Lochem in Gelderland. Hij was vooral gefascineerd door de kleuren van de natuur en probeerde deze zo dicht mogelijk te benaderen. Hier gaat het om het effect van de zonsondergang. Die wordt weerspiegeld in de plas, terwijl de takken van de bomen zich in silhouet aftekenen tegen de lucht.</dc:description>
+                <dc:identifier>SK-A-3072</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221123" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221458" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221556" />
+                <dc:title xml:lang="en">Bosvijver bij zonsondergang</dc:title>
+                <dc:title xml:lang="en">Woodland Pond at Sunset</dc:title>
+                <dc:title xml:lang="nl">Bosvijver bij zonsondergang</dc:title>
+                <dc:title xml:lang="nl">Woodland Pond at Sunset</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">c. 1862</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1862</ns5:created>
+                <ns5:extent xml:lang="en">height 22 cm x width 35 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 22 cm x breedte 35 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100936" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301101291" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301114892" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301119551" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301131740" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301149108" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244266" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301274270" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30140463" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30143310" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30161433" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30184102" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns6:spn xml:lang="en">J.B.A.M. Westerwoudt Bequest, Haarlem</ns6:spn>
+                <ns6:spn xml:lang="nl">Legaat van de heer J.B.A.M. Westerwoudt, Haarlem</ns6:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/ffnha/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/ffnha" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/ffnha/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3072--0ccecf86228a0717654735ca15630ac1">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns8:prefLabel xml:lang="en">panel</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">paneel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221123">
+            <ns9:sameAs rdf:resource="https://iconclass.org/25G3" />
+            <ns8:altLabel>25G3</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">trees</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221458">
+            <ns9:sameAs rdf:resource="https://iconclass.org/25H2143" />
+            <ns8:altLabel>25H2143</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">pond, pool</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221556">
+            <ns9:sameAs rdf:resource="https://iconclass.org/24A2" />
+            <ns8:altLabel>24A2</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">sunset</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/ffnha">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101653">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/42735457" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500026942" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q1403997" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/8404" />
+            <ns10:dateOfBirth xml:lang="nl">1838-12-09</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1865-03-08</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2302">
+                <ns8:prefLabel xml:lang="en">Utrecht</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Utrecht (stad)</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns8:prefLabel xml:lang="en">Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Amsterdam</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Bilders, Gerard</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Albert Gerard Bilders</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Albertus Gerardus Bilders</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Bilders, Albert Gerard</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Bilders, Albertus Gerardus</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Bilders, Gerard</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Gerard Bilders</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Gerard Bilders</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

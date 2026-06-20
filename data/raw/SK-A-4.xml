@@ -1,0 +1,263 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200108146</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:18:53Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260213</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200108146#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200108146">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101556" />
+                <dc:description xml:lang="en">A swan fiercely defends its nest against a dog. In later centuries this scuffle was interpreted as a political allegory: the white swan was thought to symbolize the Dutch statesman Johan de Witt (assassinated in 1672) protecting the country from its enemies. This was the meaning attached to the painting when it became the very first acquisition to enter the Nationale Kunstgalerij (the forerunner of the Rijksmuseum) in 1800.</dc:description>
+                <dc:description xml:lang="nl">Energiek verdedigt een zwaan haar nest tegen een hond. Het gevecht werd in latere eeuwen politiek geduid: de witte zwaan werd opgevat als de in 1672 vermoorde staatsman Johan de Witt, die het land verdedigt tegen zijn vijanden. Met die interpretatie kwam het schilderij in 1800 als eerste aankoop in de Nationale Kunstgalerij (de voorloper van het Rijksmuseum) terecht.</dc:description>
+                <dc:identifier>SK-A-4</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200415511" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20071512" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20071540" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200903005" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21032823" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21060397" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22118511" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221525" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221526" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22192" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/230143" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/23020" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/230364" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/23041" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/230476" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/24049" />
+                <dc:title xml:lang="en">De bedreigde zwaan</dc:title>
+                <dc:title xml:lang="en">The Threatened Swan</dc:title>
+                <dc:title xml:lang="nl">De bedreigde zwaan</dc:title>
+                <dc:title xml:lang="nl">The Threatened Swan</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">c. 1650</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1650</ns5:created>
+                <ns5:extent xml:lang="en">height 144 cm x width 171 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">doekmaat: hoogte 144 cm x breedte 171 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260213" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301143803" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301153503" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301153850" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015253" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30157626" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30177302" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30180440" />
+                <ns5:isReferencedBy>De inrichting van de Nationale Konst-Gallery in het openingsjaar 1800, uit: Oud Holland, 95, 1981, 4, pagina pp. 170-227 - p. 188, afb. 34(zie: http://www.jstor.org/stable/42711068)</ns5:isReferencedBy>
+                <ns5:isReferencedBy>F. Grijzenhout, 'Tempel voor Nederland : De Nationale Konst-Gallerij in 's-Gravenhage', Nederlands Kunsthistorische Jaarboek 35 (1984), p. 19, afb. 16.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Inzoomer object op zaal, 2013 (Nederlands/English).</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/hZepb/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/hZepb" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/hZepb/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4--22040f90565e730131983a44a85b989f">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns7:prefLabel xml:lang="en">RijksXL</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">RijksXL</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260213">
+            <ns7:prefLabel xml:lang="en">Top 100</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 100</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns7:prefLabel xml:lang="en">biografic</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">biografisch</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns7:prefLabel xml:lang="en">paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderijen</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns7:prefLabel xml:lang="en">canvas</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">doek</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns7:prefLabel xml:lang="en">painting</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderij</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns7:prefLabel xml:lang="en">oil paint (paint)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">olieverf</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22118511">
+            <ns8:sameAs rdf:resource="https://iconclass.org/25F36%28SWAN%29" />
+            <ns7:altLabel>25F36(SWAN)</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">water-birds: swan</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221525">
+            <ns8:sameAs rdf:resource="https://iconclass.org/41C642" />
+            <ns7:altLabel>41C642</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">eggs, egg-dishes</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221526">
+            <ns8:sameAs rdf:resource="https://iconclass.org/45A10" />
+            <ns7:altLabel>45A10</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">symbols, allegories of war; 'Guerra' (Ripa)</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22192">
+            <ns8:sameAs rdf:resource="https://iconclass.org/34B11" />
+            <ns7:altLabel>34B11</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">dog</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/hZepb">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101556">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/285582832" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500017296" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q541976" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/2761" />
+            <ns9:dateOfBirth xml:lang="nl">1610</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1652-10</ns9:dateOfDeath>
+            <ns9:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230733">
+                <ns7:prefLabel xml:lang="nl">Dieppe</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfBirth>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns7:prefLabel xml:lang="en">Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Amsterdam</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns7:prefLabel xml:lang="en">draftsman (artist)</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">tekenaar</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Asselijn, Jan</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Asselijn, Jan</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Krabbetje</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Jan Asselijn</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Jan Asselijn</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21032823">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/14944172" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q318362" />
+            <ns9:dateOfBirth xml:lang="nl">1625-09-25</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1672-08-20</ns9:dateOfDeath>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+                <ns7:prefLabel xml:lang="en">The Hague</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Den Haag</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202480">
+                <ns7:prefLabel xml:lang="en">lawyer</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">advocaat</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2205143">
+                <ns7:prefLabel xml:lang="en">politician</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">politicus</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2206484">
+                <ns7:prefLabel xml:lang="nl">raadpensionaris</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Witt, Johan de</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Witt, Johan de</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Johan de Witt</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Johan de Witt</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21060397">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/155946218" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q170072" />
+            <ns7:prefLabel xml:lang="nl">Republiek der Zeven Verenigde Nederlanden</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/230143">
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q27996474" />
+            <ns7:prefLabel xml:lang="en">Northern Netherlands</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Noordelijke Nederlanden</ns7:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns7:prefLabel>Rijksmuseum</ns7:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/23020">
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/tgn/1000070" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q142" />
+            <ns7:prefLabel xml:lang="en">France</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Frankrijk</ns7:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/230364">
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/tgn/7004446" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q365" />
+            <ns7:prefLabel xml:lang="en">Cologne</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Keulen (stad)</ns7:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/23041">
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/tgn/7002445" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q21" />
+            <ns7:prefLabel xml:lang="en">England</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Engeland</ns7:prefLabel>
+            <ns10:lat>-2</ns10:lat>
+            <ns10:long>53</ns10:long>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/230476">
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/tgn/7004445" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q2742" />
+            <ns7:prefLabel xml:lang="nl">Münster (Noordrijn-Westfalen)</ns7:prefLabel>
+          </ns3:Place>
+          <ns3:TimeSpan rdf:about="https://id.rijksmuseum.nl/24049">
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q1779786" />
+            <ns7:prefLabel xml:lang="en">Rampjaar (Disaster Year)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Rampjaar</ns7:prefLabel>
+          </ns3:TimeSpan>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

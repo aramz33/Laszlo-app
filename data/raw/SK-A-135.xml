@@ -1,0 +1,214 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200109347</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:29:12Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260213</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>26121</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200109347#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200109347">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2102576" />
+                <dc:description xml:lang="en">This work is a pinnacle of Hals’ bold and loose ‘rough’ style. The brushstrokes criss-cross the canvas, creating the impression of rapid execution as well as suggesting movement. The sitter, likely a civic guardsman or a military man based on his attire, is just about to raise his glass to toast with us.</dc:description>
+                <dc:description xml:lang="nl">Dit werk is een hoogtepunt van Hals’ gedurfde ‘rauwe’ en losse stijl. De verfstreken gaan kriskras over het doek. Daardoor lijkt het alsof hij razendsnel werkte, maar het geeft ook een suggestie van beweging. Het is of de man, die vanwege zijn kleding vermoedelijk een schutter of militair is, zojuist zijn glas heft om met ons te toosten.</dc:description>
+                <dc:identifier>SK-A-135</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200161986" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200265594" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200283773" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200283774" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200284169" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200398325" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200410809" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20066781" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200902547" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221254" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221270" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221307" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221412" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221586" />
+                <dc:title xml:lang="en">De vrolijke drinker</dc:title>
+                <dc:title xml:lang="en">The Merry Drinker</dc:title>
+                <dc:title xml:lang="nl">De vrolijke drinker</dc:title>
+                <dc:title xml:lang="nl">The Merry Drinker</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:alternative xml:lang="en">The Merry Drinker</ns5:alternative>
+                <ns5:alternative xml:lang="nl">De vrolijke drinker</ns5:alternative>
+                <ns5:created xml:lang="en">c. 1628 - c. 1630</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1628 - ca. 1630</ns5:created>
+                <ns5:extent xml:lang="en">support: height 81 cm x width 66.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 81 cm x breedte 66,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260213" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26121" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100494" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301118738" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301120649" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30112160" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144615" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301153774" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30138991" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30138992" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30139153" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30146074" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30150408" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30150412" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30150416" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30150422" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30150449" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30150450" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015253" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30157625" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30158489" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30158496" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30166205" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30166431" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30166432" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30176886" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30177302" />
+                <ns5:isReferencedBy>F. Desbuissons, A l'enseigne du Bon Bock, in:  La revue de Musée d'Orsay nr. 30 (automne 2010) 48, 14, p. 35, fig. 2</ns5:isReferencedBy>
+                <ns5:isReferencedBy>H. Kaufmann, 'Die Fünfsinne in der Niederlänischen Malerei des 17. Jahrhunderts', in: Kunstgeschichtliche Studien, Breslau 1943, p. 141, afb. 22 (misschien de smaak of meer speciaal de geneugten van het drinken).</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Rijksmuseum Kunstkrant, Jaargang 33 (sept.-okt. 2007), nr. 5, p. 9</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">…: sale, Baroness Hermina Jacoba van Leyden van Warmond, née Comtesse de Thoms (1744-1814), Warmond Castle, sold on the premises (P. van der Schley &lt;em&gt;et al.&lt;/em&gt;), 31 July 1816, no. 13 (‘un guerrier ayant un visage riant et tenant un verre à la main […] sur bois; haut 2 pieds 7 pouces, longue 2 pieds 2 pouces’ [74.6 x 61.8 cm]), fl. 325, to De Vries, for the museum</ns5:provenance>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/CgrHr/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/CgrHr" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/CgrHr/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-135--884b50ad9157e0b12a90e4a5e8acf336">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns7:prefLabel xml:lang="en">RijksXL</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">RijksXL</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260213">
+            <ns7:prefLabel xml:lang="en">Top 100</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 100</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns7:prefLabel xml:lang="en">paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderijen</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26121">
+            <ns7:prefLabel xml:lang="en">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns7:prefLabel xml:lang="en">canvas</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">doek</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns7:prefLabel xml:lang="en">painting</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderij</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns7:prefLabel xml:lang="en">oil paint (paint)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">olieverf</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221254">
+            <ns8:sameAs rdf:resource="https://iconclass.org/31B62321" />
+            <ns7:altLabel>31B62321</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">laughing</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221270">
+            <ns8:sameAs rdf:resource="https://iconclass.org/41D221%28HAT%29%28%2B81%29" />
+            <ns7:altLabel>41D221(HAT)(+81)</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">head-gear: hat (+ men's clothes)</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221307">
+            <ns8:sameAs rdf:resource="https://iconclass.org/45%28%2B26%29" />
+            <ns7:altLabel>45(+26)</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">warfare; military affairs (+ citizen soldiery, civil guard, citizen militia)</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221412">
+            <ns8:sameAs rdf:resource="https://iconclass.org/41C323" />
+            <ns7:altLabel>41C323</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">glass, rummer</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221586">
+            <ns8:sameAs rdf:resource="https://iconclass.org/41C12" />
+            <ns7:altLabel>41C12</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">drinking</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/CgrHr">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2102576">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/100165669" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500027794" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q167654" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/35550" />
+            <ns9:dateOfBirth xml:lang="nl">ca. 1582 - ca. 1583</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1666-08-26</ns9:dateOfDeath>
+            <ns9:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230148">
+                <ns7:prefLabel xml:lang="en">Antwerp</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Antwerpen (stad)</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfBirth>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230134">
+                <ns7:prefLabel xml:lang="en">Haarlem</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Haarlem</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns7:prefLabel xml:lang="en">draftsman (artist)</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">tekenaar</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Hals, Frans</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Hals, Frans</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Frans Hals</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Frans Hals</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns7:prefLabel>Rijksmuseum</ns7:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

@@ -1,0 +1,177 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200109799</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:32:56Z</ns0:datestamp>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>2616</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200109799#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200109799">
+                <dc:creator>
+                  <ns3:Agent rdf:nodeID="N4008b79b42934bf3bfebfb96da5a7b13" />
+                </dc:creator>
+                <dc:description xml:lang="en">Maximilian i (1459-1519) was the Holy Roman Emperor. He was married to Mary of Burgundy. Through this marriage, the Burgundian Netherlands came into the hands of the Habsburgs.</dc:description>
+                <dc:description xml:lang="nl">Maximiliaan i (1459-1519) was keizer van het Heilig Roomse Rijk. Hij was getrouwd met Maria van Bourgondië. Door dit huwelijk kwamen de Bourgondische Nederlanden in Habsburgse handen.</dc:description>
+                <dc:identifier>SK-A-3293</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2108444" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22123" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221517" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221590" />
+                <dc:title xml:lang="en">Portrait of Maximilian i (1459-1519)</dc:title>
+                <dc:title xml:lang="en">Portret van Maximiliaan i (1459-1519)</dc:title>
+                <dc:title xml:lang="nl">Portrait of Maximilian i (1459-1519)</dc:title>
+                <dc:title xml:lang="nl">Portret van Maximiliaan i (1459-1519)</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">c. 1530</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1530</ns5:created>
+                <ns5:extent xml:lang="en">depth 4.5 cm</ns5:extent>
+                <ns5:extent xml:lang="en">painted surface: height 34.3 cm x width 24.2 cm</ns5:extent>
+                <ns5:extent xml:lang="en">support: height 34.6 cm x width 24.4 cm x depth 0.6 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">beschilderd oppervlak: hoogte 34,3 cm x breedte 24,2 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">buitenmaat: diepte 4,5 cm (drager incl. SK-L-6559)</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 34,6 cm x breedte 24,4 cm x diepte 0,6 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2616" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3012474" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015253" />
+                <ns5:isReferencedBy>Documentatiemap Schilderijen: aantekeningen R. van Luttervelt (voor 1963).</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">…; sale, Dr Frederick Salmon (1796-1868) &lt;em&gt;et al.&lt;/em&gt;, London (Christie’s), 26 May 1868, no. 99, as Holbein; …; the dealer Henry Graves, London;{No. 2082, according to a label on the reverse.} …; collection Dominicus Antonius Josephus Kessler (1855-1939) and Mrs A.C.M.H. Kessler-Hülsmann (1868-1947), Kapelle op den Bosch, near Mechelen;{Note RMA.} donated, with xx other objects, by Mrs A.C.M.H. Kessler-Hülsmann to the museum, 1940</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230148" />
+                <ns6:spn xml:lang="en">Gift of Mr and Mrs Kessler-Hülsmann, Kapelle op den Bosch</ns6:spn>
+                <ns6:spn xml:lang="nl">Schenking van de heer en mevrouw Kessler-Hülsmann, Kapelle op den Bosch</ns6:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/mQzCX/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/mQzCX" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/mQzCX/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3293--808ebe3c8cfee108bf7ecd28f762caa0">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/230148">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7007856" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q12892" />
+            <ns8:prefLabel xml:lang="en">Antwerp</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Antwerpen (stad)</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2616">
+            <ns8:prefLabel xml:lang="en">Early Netherlandish Paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Early Netherlandish Paintings</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns8:prefLabel xml:lang="en">panel</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">paneel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22123">
+            <ns9:sameAs rdf:resource="https://iconclass.org/61B2" />
+            <ns8:altLabel>61B2</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">historical persons</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221517">
+            <ns9:sameAs rdf:resource="https://iconclass.org/46A1241%28GOLDEN%20FLEECE%291" />
+            <ns8:altLabel>46A1241(GOLDEN FLEECE)1</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">knighthood order of the Golden Fleece - insignia of a knighthood order, e.g.: badge, chain (with NAME of order)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221590">
+            <ns9:sameAs rdf:resource="https://iconclass.org/25G41%28CARNATION%29" />
+            <ns8:altLabel>25G41(CARNATION)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">flowers: carnation</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/mQzCX">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2108444">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/293727145" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500260809" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q150726" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/490206" />
+            <ns10:dateOfBirth xml:lang="nl">1459-03-22</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1519-01-12</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2304170">
+                <ns8:prefLabel xml:lang="nl">Wiener Neustadt</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2304171">
+                <ns8:prefLabel xml:lang="nl">Wels</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202483">
+                <ns8:prefLabel xml:lang="en">emperor</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">keizer</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205313">
+                <ns8:prefLabel xml:lang="nl">aartshertog</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:prefLabel xml:lang="en">Maximilian I (Holy Roman Emperor)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Maximiliaan I (Rooms-Duits keizer)</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

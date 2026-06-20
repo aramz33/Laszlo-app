@@ -1,0 +1,156 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns11="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200386682</ns0:identifier>
+        <ns0:datestamp>2026-06-08T20:30:35Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261157</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+        <ns0:setSpec>2601</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200386682#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200386682">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="en">The date ‘1644’ is engraved on the stem of this glass, between the top row of raspberry prunts. The bowl is ornamented with a view of the city of Nijmegen, seen across the River Waal. As a source, the engraver relied on an illustration from a book about the history of Gelderland.</dc:description>
+                <dc:description xml:lang="nl">Op de stam, tussen de bovenste rij braamnoppen, staat de datering van dit glas: ‘1644’. De kelk is versierd met een gezicht op de stad Nijmegen, met daarvoor de rivier de Waal. Als voorbeeld gebruikte de graveur een illustratie in een boek over de geschiedenis van Gelderland.</dc:description>
+                <dc:identifier>BK-KOG-1557</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221155" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221171" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/230203" />
+                <dc:title xml:lang="en">Roemer</dc:title>
+                <dc:title xml:lang="nl">Roemer</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2202671" />
+                <ns5:created xml:lang="en">1644</ns5:created>
+                <ns5:created xml:lang="nl">1644</ns5:created>
+                <ns5:extent xml:lang="en">diameter 13.4 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 24.3 cm x weight 351 g</ns5:extent>
+                <ns5:extent xml:lang="nl">geheel: hoogte 24,3 cm x gewicht (eigenschap) 351 g</ns5:extent>
+                <ns5:extent xml:lang="nl">mondrand: diameter 13,4 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2601" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261157" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301214043" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30157512" />
+                <ns5:isReferencedBy>A.-E. Theuerkauff-Liederwald, 'Der Römer, Studien zu einer Glasform, I', Journal of Glass Studies 10 (1968), p. 141, afb. B1.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>A.M. Pareau en J.P. Six, 'Verslag van de conservatoren (korte beschrijving van het legaat D. Henriques de Castro Dzn)', Jaarverslag KOG 32 (1891), p. 10.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>A.M. Pareau, 'Legaat De Castro, Gegraveerd, geëtst en op andere wijze versierd glaswerk, beschrijving', Jaarverslag KOG 38 (1896), nr. 7.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>P.C. Ritsema van Eck, 'Sources for glass engraving in the Netherlands in the 17th Century', Annales du 10e Congrès de l'AIHV (Madrid 1985), Amsterdam 1987, p. 448, afb. 20.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2207803" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23026018" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2203426" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204449" />
+                <ns7:spn xml:lang="en">On loan from the Koninklijk Oudheidkundig Genootschap</ns7:spn>
+                <ns7:spn xml:lang="nl">Bruikleen van het Koninklijk Oudheidkundig Genootschap</ns7:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/Diynq/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/Diynq" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/Diynq/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-KOG-1557--db21477b994fd4723bfff2aa286f11e9">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/23026018">
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q15300240" />
+            <ns9:prefLabel xml:lang="en">Low Countries</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Lage Landen</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2601">
+            <ns9:prefLabel xml:lang="nl">KOG</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns9:prefLabel xml:lang="en">RijksXL</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">RijksXL</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261157">
+            <ns9:prefLabel xml:lang="en">glass</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">glas</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202671">
+            <ns9:prefLabel xml:lang="en">roemer</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">roemer</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2203426">
+            <ns9:prefLabel xml:lang="en">diamond-point engraving</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">diamantgraveren</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2204449">
+            <ns9:prefLabel xml:lang="en">glassblowing</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">glasblazen</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2207803">
+            <ns9:prefLabel xml:lang="en">glass</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">glas</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221155">
+            <ns10:sameAs rdf:resource="https://iconclass.org/25I1" />
+            <ns9:altLabel>25I1</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">city-view in general; 'veduta'</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221171">
+            <ns10:sameAs rdf:resource="https://iconclass.org/25H213" />
+            <ns9:altLabel>25H213</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">river</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/Diynq">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns9:altLabel xml:lang="nl">Anon</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">anonymous</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">anoniem</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns9:prefLabel>Rijksmuseum</ns9:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/230203">
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q13188714" />
+            <ns10:sameAs rdf:resource="https://sws.geonames.org/2750053/" />
+            <ns9:prefLabel xml:lang="en">Nijmegen</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Nijmegen</ns9:prefLabel>
+            <ns11:lat>5.85278</ns11:lat>
+            <ns11:long>51.8425</ns11:long>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

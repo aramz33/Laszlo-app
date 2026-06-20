@@ -1,0 +1,282 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20026697</ns0:identifier>
+        <ns0:datestamp>2026-06-11T08:09:41Z</ns0:datestamp>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20026697#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20026697">
+                <dc:description xml:lang="nl">Gerard ter Borch was op 15 mei 1648 in het raadhuis van Munster aanwezig bij de bekrachtiging van het vredesverdrag tussen Nederland en Spanje. Links: de Nederlandse delegatie. Rechts: de Spaanse gezanten. De katholieke Spanjaarden zwoeren met de rechterhand op het kruis en de bijbel. De protestantse Nederlanders staken wijs- en middelvinger omhoog. Op tafel: de kistjes met de vredesverdragen voor beide partijen.</dc:description>
+                <dc:identifier>SK-A-405</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200414512" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200414685" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21044279" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21044280" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21044281" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21044283" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21044285" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21044289" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21044291" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21044292" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221588" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/230476" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/24040" />
+                <dc:title xml:lang="en">Ratification of the Peace of Münster between Spain and the Dutch Republic in the Town Hall of Münster, 15 May 1648</dc:title>
+                <dc:title xml:lang="nl">De beëdiging van het vredesverdrag tussen Spanje en de Verenigde Nederlanden in het Raadhuis van Munster, 15 mei 1648</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">1648 - 1670</ns5:created>
+                <ns5:created xml:lang="nl">1648 - 1670</ns5:created>
+                <ns5:extent xml:lang="en">frame: depth 4.8 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 45.7 cm x width 59 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">buitenmaat: diepte 4,8 cm (drager incl. SK-L-1063)</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 45,7 cm x breedte 59 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100494" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301149356" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301152831" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30139183" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30139197" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015253" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30154894" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30154897" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30154901" />
+                <ns5:isReferencedBy>Documentatiemap Schilderijen: aantekeningen R. van Luttervelt (voor 1963).</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Uitgelijnd : De Beëdiging van de Vrede van Munster, 15 mei 1648/ Geert H. Janssen - In: Rijksmuseum Kunstkrant, jrg. 26, sept.-okt. 2000, nr. 5, pag.18-19.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220150" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/zCdkp/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/zCdkp" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/zCdkp/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-405--ca0b9c5c43cf436046edf1090690a164">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns7:prefLabel xml:lang="en">biografic</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">biografisch</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns7:prefLabel xml:lang="en">paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderijen</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220150">
+            <ns7:altLabel xml:lang="en">copper</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">roodkoper</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">copper (metal)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">koper</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns7:prefLabel xml:lang="en">painting</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderij</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns7:prefLabel xml:lang="en">oil paint (paint)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">olieverf</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221588">
+            <ns8:sameAs rdf:resource="https://iconclass.org/44B4211" />
+            <ns7:altLabel>44B4211</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">signing of peace treaty, concluding the peace</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/zCdkp">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21044279">
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500314843" />
+            <ns9:dateOfBirth xml:lang="nl">1596</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1676</ns9:dateOfDeath>
+            <ns7:altLabel xml:lang="en">Bracamonte y Guzman, Gaspar de (graaf van Peñaranda)</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Bracamonte y Guzman, Gaspar de (graaf van Peñaranda)</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Peñaranda, de graaf van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">de graaf van Peñaranda</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Gaspar de Bracamonte y Guzman (graaf van Peñaranda)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Gaspar de Bracamonte y Guzman (graaf van Peñaranda)</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21044280">
+            <ns9:dateOfBirth xml:lang="nl">1600</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1654</ns9:dateOfDeath>
+            <ns7:altLabel xml:lang="nl">Brun, Antoine</ns7:altLabel>
+            <ns7:prefLabel xml:lang="nl">Antoine Brun</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21044281">
+            <ns9:dateOfBirth xml:lang="nl">ca. 1578</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1650-09-22</ns9:dateOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2205168">
+                <ns7:prefLabel xml:lang="en">statesman</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">staatsman</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2205144">
+                <ns7:prefLabel xml:lang="en">ambassador</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">ambassadeur</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="nl">Gent, Barthold van, heer van Meynerswijck</ns7:altLabel>
+            <ns7:prefLabel xml:lang="nl">Barthold van Gent</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21044283">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/45232771" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q17355324" />
+            <ns9:dateOfBirth xml:lang="nl">1596</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1653</ns9:dateOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2205466">
+                <ns7:prefLabel xml:lang="en">diplomat</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">diplomaat</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2205168">
+                <ns7:prefLabel xml:lang="en">statesman</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">staatsman</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="nl">Johan van Matenesse</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Matenesse, Johan van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Mathenesse, Johan van</ns7:altLabel>
+            <ns7:prefLabel xml:lang="nl">Johan van Mathenesse</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21044285">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/57545784" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q367636" />
+            <ns9:dateOfBirth xml:lang="nl">1585-11-01</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1653-02-21</ns9:dateOfDeath>
+            <ns9:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns7:prefLabel xml:lang="en">Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Amsterdam</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfBirth>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+                <ns7:prefLabel xml:lang="en">The Hague</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Den Haag</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2205143">
+                <ns7:prefLabel xml:lang="en">politician</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">politicus</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2206484">
+                <ns7:prefLabel xml:lang="nl">raadpensionaris</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Pauw, Adriaen (1585-1653)</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Adriaen Pauw</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Pauw, Adriaen (1585-1653)</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Pauw, Adriaen, heer van Heemstede</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Adriaen Pauw (1585-1653)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Adriaen Pauw (1585-1653)</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21044289">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/89092150" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q13135658" />
+            <ns9:dateOfBirth xml:lang="nl">ca. 1580</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1651-02-25</ns9:dateOfDeath>
+            <ns9:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23026200">
+                <ns7:prefLabel xml:lang="nl">Jelsum</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfBirth>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+                <ns7:prefLabel xml:lang="en">The Hague</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Den Haag</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2205138">
+                <ns7:prefLabel xml:lang="en">shipmaster</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">kapitein</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2205466">
+                <ns7:prefLabel xml:lang="en">diplomat</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">diplomaat</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="nl">Donia, Frans van</ns7:altLabel>
+            <ns7:prefLabel xml:lang="nl">Frans van Donia</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21044291">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/187559932" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q367529" />
+            <ns9:dateOfBirth xml:lang="nl">1599</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1665-01-25</ns9:dateOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2205466">
+                <ns7:prefLabel xml:lang="en">diplomat</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">diplomaat</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="nl">Adriaen Clant van Stedum</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Clant van Stedum, Adriaen</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Clant, Adriaen</ns7:altLabel>
+            <ns7:prefLabel xml:lang="nl">Adriaen Clant</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21044292">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/15707782" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q829110" />
+            <ns9:dateOfBirth xml:lang="nl">1600</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1669-09</ns9:dateOfDeath>
+            <ns7:altLabel xml:lang="nl">Ripperda, Willem van</ns7:altLabel>
+            <ns7:prefLabel xml:lang="nl">Willem van Ripperda</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/230476">
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/tgn/7004445" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q2742" />
+            <ns7:prefLabel xml:lang="nl">Münster (Noordrijn-Westfalen)</ns7:prefLabel>
+          </ns3:Place>
+          <ns3:TimeSpan rdf:about="https://id.rijksmuseum.nl/24040">
+            <ns7:prefLabel xml:lang="nl">Vrede van Münster</ns7:prefLabel>
+          </ns3:TimeSpan>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

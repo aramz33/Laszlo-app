@@ -1,0 +1,301 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200107874</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:15:48Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260213</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200107874#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200107874">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101244" />
+                <dc:description xml:lang="en">Here the Duke of Wellington is receiving the message that Prussian forces are coming to his aid. Wellington, commander of the Anglo-Dutch troops, is the central figure in this group portrait of the major players at Waterloo. Lying wounded on a stretcher in the left foreground is the Dutch Crown Prince, later King William II. Originally intended for Wellington, the painting remained in the Netherlands thanks to William I who bought the picture for his son.</dc:description>
+                <dc:description xml:lang="nl">De hertog van Wellington krijgt hier het bericht dat de Pruisische troepen te hulp komen. In dit groepsportret van de hoofdrolspelers staat Wellington, bevelhebber van de Brits-Nederlandse troepen, centraal. Linksvoor ligt de Nederlandse kroonprins, de latere Willem II, gewond op een brancard. Het schilderij was aanvankelijk bedoeld voor Wellington. Maar toen Willem I het zag kocht hij het voor zijn zoon. Zo bleef het schilderij behouden voor Nederland.</dc:description>
+                <dc:identifier>SK-A-1115</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200364889" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200364895" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200364897" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200364898" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200418131" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200425534" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200436356" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20054589" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20054908" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200551382" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200551383" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200551387" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200668737" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20071438" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21040136" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21076460" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2109825" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221261" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221262" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221263" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2301002" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/240106" />
+                <dc:title xml:lang="en">De Slag bij Waterloo</dc:title>
+                <dc:title xml:lang="en">The Battle of Waterloo</dc:title>
+                <dc:title xml:lang="nl">De Slag bij Waterloo</dc:title>
+                <dc:title xml:lang="nl">The Battle of Waterloo</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">1824</ns5:created>
+                <ns5:created xml:lang="nl">1824</ns5:created>
+                <ns5:extent xml:lang="en">height 567 cm x width 823 cm</ns5:extent>
+                <ns5:extent xml:lang="en">length 565.7 cm</ns5:extent>
+                <ns5:extent xml:lang="en">length 566.4 cm</ns5:extent>
+                <ns5:extent xml:lang="en">length 650 cm x length 592 cm x width 40 cm</ns5:extent>
+                <ns5:extent xml:lang="en">length 822.6 cm</ns5:extent>
+                <ns5:extent xml:lang="en">length 822.7 cm</ns5:extent>
+                <ns5:extent xml:lang="en">length 825.7 cm x width 555.1 cm x depth 10 cm</ns5:extent>
+                <ns5:extent xml:lang="en">length 900 cm x length 842 cm x width 40 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">buitenmaat: lengte 825,7 cm (maten inclusief huidige omlijsting) x breedte 555,1 cm (maten inclusief huidige omlijsting (555,1 (links) -555,8 (rechts))) x diepte 10 cm (maten inclusief huidige omlijsting)</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 567 cm x breedte 823 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">kort deel 1 spieraam: lengte 565,7 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">kort deel 2 spieraam: lengte 566,4 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">kort deel lijst: lengte 650 cm x lengte 592 cm (dagmaat) x breedte 40 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">lang deel 1 spieraam: lengte 822,7 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">lang deel 2 spieraam: lengte 822,6 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">lang deel lijst: lengte 900 cm x lengte 842 cm (dagmaat) x breedte 40 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260213" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100936" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301101291" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301106469" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301114892" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301123729" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301193774" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30120410" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301235023" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301237878" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301248949" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301249934" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301274270" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30165550" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30192347" />
+                <ns5:isReferencedBy>A. van Lee, 'J.W. Pieneman en zijne werken', Album der Schoone Kunsten : romantiesch, kritiesch en historiesch tijdschrift voor Hollandsche en Vlaamsche letterkunde en kunst 3 (1852), p. 17-24.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>A.A.E. Vels Heijn, 'Jan Willem Pieneman : De slag bij Waterloo (detail: hertog van Wellington en zijn staf)', Openbaar Kunstbezit (1972) nr. 3, p. 21a-b.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Benno van Tilburg, 'Toptstukken uit het Rijksmuseum :  De slag bij Waterloo', De Rijksmuseum Kunstkrant (1992) nr. 5, p. 22-23.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>E. Bergvelt, 'Nationale, levende en 19e-eeuwse meesters : Rijksmusea en eigentijdse kunst (1800-1848), Nederlands Kunsthistorische Jaarboek 35 (1984), p. 101, afb. 27.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>F.G. de Wilde, 'Uniformkundige beschrijving van het schilderij voorstellende de veldslag bij Waterloo, 18 juni 1815, door J.W. Pieneman', 1974.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Inzoomer object op zaal, 2013 (Nederlands/English).</ns5:isReferencedBy>
+                <ns5:isReferencedBy>W.F. Rappard, 'De Nationale bestemming van J.W. Pienemans tweede grote historieschilderij "De Slag bij Waterloo", Jaarboek Oranje-Nassau Museum, 2001, p. 77-91.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/GebpD/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/GebpD" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/GebpD/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1115--9fc8b4d132695d9b276b9c92522386f3">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns7:prefLabel xml:lang="en">RijksXL</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">RijksXL</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260213">
+            <ns7:prefLabel xml:lang="en">Top 100</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 100</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns7:prefLabel xml:lang="en">biografic</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">biografisch</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns7:prefLabel xml:lang="en">paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderijen</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns7:prefLabel xml:lang="en">canvas</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">doek</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns7:prefLabel xml:lang="en">painting</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderij</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns7:prefLabel xml:lang="en">oil paint (paint)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">olieverf</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221261">
+            <ns8:sameAs rdf:resource="https://iconclass.org/45E4" />
+            <ns7:altLabel>45E4</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">animals used in the army</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221262">
+            <ns8:sameAs rdf:resource="https://iconclass.org/45H52" />
+            <ns7:altLabel>45H52</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">putting out of action by wounding</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221263">
+            <ns8:sameAs rdf:resource="https://iconclass.org/45H3" />
+            <ns7:altLabel>45H3</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">battle</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/GebpD">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101244">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/77060508" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500024980" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q512948" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/63369" />
+            <ns9:dateOfBirth xml:lang="nl">1779-11-04</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1853-04-08</ns9:dateOfDeath>
+            <ns9:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/2302047" />
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns7:prefLabel xml:lang="en">Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Amsterdam</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns7:prefLabel xml:lang="en">painter</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">schilder</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns7:prefLabel xml:lang="en">printmaker</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">prentmaker</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns7:prefLabel xml:lang="en">draftsman (artist)</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">tekenaar</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Pieneman, Jan Willem</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Pieneman, Jan Willem</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Jan Willem Pieneman</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Jan Willem Pieneman</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21040136">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/5904163513732811230007" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500373138" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q154287" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/349540" />
+            <ns9:dateOfBirth xml:lang="nl">1792-12-06</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1849-03-17</ns9:dateOfDeath>
+            <ns9:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+                <ns7:prefLabel xml:lang="en">The Hague</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Den Haag</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfBirth>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301085">
+                <ns7:prefLabel xml:lang="nl">Tilburg</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2205140">
+                <ns7:prefLabel xml:lang="nl">koning</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="nl">Willem Frederik George Lodewijk</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">William II of the Netherlands</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Willem II (koning der Nederlanden)</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21076460">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/2465308" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500088735" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q131691" />
+            <ns9:dateOfBirth xml:lang="nl">1769-05-01</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1852-09-14</ns9:dateOfDeath>
+            <ns9:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230699">
+                <ns7:prefLabel xml:lang="nl">Dublin</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfBirth>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23019152">
+                <ns7:prefLabel xml:lang="en">Walmer Castle</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Walmer Castle</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2206336">
+                <ns7:prefLabel xml:lang="en">field marshal</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">veldmaarschalk</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Wellington, Arthur Wellesley of</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Arthur Wellesley (hertog van Wellington)</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Arthur Wellesley hertog van Wellington</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Wellington, Arthur Wellesley hertog van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Wellington, Arthur Wellesley of</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Arthur Wellesley of Wellington</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Arthur Wellesley of Wellington</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109825">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/32793081" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q370241" />
+            <ns9:dateOfBirth xml:lang="nl">1795</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1879</ns9:dateOfDeath>
+            <ns7:altLabel xml:lang="nl">Hill, sir Rowland</ns7:altLabel>
+            <ns7:prefLabel xml:lang="nl">sir Rowland Hill</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301002">
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/tgn/7008022" />
+            <ns7:prefLabel xml:lang="en">Waterloo</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Waterloo</ns7:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns7:prefLabel>Rijksmuseum</ns7:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2302047">
+            <ns7:prefLabel xml:lang="en">Abcoude</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Abcoude</ns7:prefLabel>
+          </ns3:Place>
+          <ns3:TimeSpan rdf:about="https://id.rijksmuseum.nl/240106">
+            <ns7:prefLabel xml:lang="nl">Slag bij Waterloo</ns7:prefLabel>
+          </ns3:TimeSpan>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

@@ -1,0 +1,166 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns11="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns12="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/2009119</ns0:identifier>
+        <ns0:datestamp>2026-06-08T04:51:23Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261106</ns0:setSpec>
+        <ns0:setSpec>261217</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/2009119#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/2009119">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2108630" />
+                <dc:identifier>NG-VG-1-406</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200484727" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200484729" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221155" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2212529" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2215664" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/230105" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2401197" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/240139" />
+                <dc:title xml:lang="en">Ontzet van Leiden</dc:title>
+                <dc:title xml:lang="en">Relief of Leiden</dc:title>
+                <dc:title xml:lang="nl">Ontzet van Leiden</dc:title>
+                <dc:title xml:lang="nl">Relief of Leiden</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201653" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2202752" />
+                <ns5:created xml:lang="en">1574</ns5:created>
+                <ns5:created xml:lang="nl">1574</ns5:created>
+                <ns5:extent xml:lang="en">diameter 4.8 cm x weight 82.23 g</ns5:extent>
+                <ns5:extent xml:lang="en">length 6.3 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">diameter 4,8 cm x gewicht (eigenschap) 82,23 g</ns5:extent>
+                <ns5:extent xml:lang="nl">ketting inclusief draagring: lengte 6,3 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261106" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261217" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30116977" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22028" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230171" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2202379" />
+                <ns7:spn xml:lang="en">Gift of J.M. van Gelder-Nijhoff</ns7:spn>
+                <ns7:spn xml:lang="nl">Schenking van mevrouw J.M. van Gelder-Nijhoff</ns7:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/QknYt/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/QknYt" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/QknYt/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/NG-VG-1-406--01127420d8ac90f32925dbccc9361843">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/230171">
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006798" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q26421" />
+            <ns9:prefLabel xml:lang="en">Dordrecht</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Dordrecht</ns9:prefLabel>
+            <ns11:lat>4.666667</ns11:lat>
+            <ns11:long>51.8</ns11:long>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261106">
+            <ns9:prefLabel xml:lang="nl">munten, penningen en draagtekens</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261217">
+            <ns9:prefLabel xml:lang="nl">Van Gelder</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2201653">
+            <ns9:altLabel xml:lang="nl">gedenkpenning</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">history medal</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">historiepenning</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202379">
+            <ns9:altLabel xml:lang="nl">geslagen</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">striking (metalworking)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">slaan</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202752">
+            <ns9:prefLabel xml:lang="nl">triomfpenning</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22028">
+            <ns9:prefLabel xml:lang="en">silver (metal)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">zilver</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221155">
+            <ns10:sameAs rdf:resource="https://iconclass.org/25I1" />
+            <ns9:altLabel>25I1</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">city-view in general; 'veduta'</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2212529">
+            <ns10:sameAs rdf:resource="https://iconclass.org/71L2438" />
+            <ns9:altLabel>71L2438</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">at night, an angel of the Lord decimates the Assyrian camp: 185.000 soldiers are killed</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2215664">
+            <ns10:sameAs rdf:resource="https://iconclass.org/45H4" />
+            <ns9:altLabel>45H4</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">putting the enemy to flight</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/QknYt">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2108630">
+            <ns12:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2205322">
+                <ns9:prefLabel xml:lang="nl">muntmaker</ns9:prefLabel>
+              </ns9:Concept>
+            </ns12:professionOrOccupation>
+            <ns9:altLabel xml:lang="en">Jacobsz., Dirk</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Jacobsz., Dirk</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Dirk Jacobsz.</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Dirk Jacobsz.</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/230105">
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006809" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q43631" />
+            <ns9:prefLabel xml:lang="en">Leiden</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Leiden</ns9:prefLabel>
+            <ns11:lat>4.5</ns11:lat>
+            <ns11:long>52.15</ns11:long>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns9:prefLabel>Rijksmuseum</ns9:prefLabel>
+          </ns3:Place>
+          <ns3:TimeSpan rdf:about="https://id.rijksmuseum.nl/2401197">
+            <ns9:prefLabel xml:lang="nl">Tachtigjarige Oorlog</ns9:prefLabel>
+          </ns3:TimeSpan>
+          <ns3:TimeSpan rdf:about="https://id.rijksmuseum.nl/240139">
+            <ns9:prefLabel xml:lang="nl">Ontzet van Leiden</ns9:prefLabel>
+          </ns3:TimeSpan>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

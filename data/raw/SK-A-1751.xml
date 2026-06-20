@@ -1,0 +1,157 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20025815</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:14:33Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20025815#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20025815">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101145" />
+                <dc:description xml:lang="en">Virtually nothing is known about the painter Martinus Nellius, only a few works by whom have been preserved. He must have been active in Leiden and The Hague and, like his contemporary Adriaen Coorte, specialized in still lifes with simple compositions featuring only a few objects  or fruits rendered with a great eye for detail.</dc:description>
+                <dc:description xml:lang="nl">Er is heel weinig bekend over de schilder Martinus Nellius, van wie slechts een klein aantal werken is overgeleverd. Hij moet in Leiden en Den Haag hebben gewerkt en specialiseerde zich, net als zijn tijdgenoot Adriaen Coorte, in stillevens met eenvoudige composities waarop slechts enkele objecten of vruchten met veel oog voor detail zijn weergegeven.</dc:description>
+                <dc:identifier>SK-A-1751</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221211" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221212" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221213" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221214" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221215" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22152" />
+                <dc:title xml:lang="en">Still Life with Quinces, Medlars and a Glass</dc:title>
+                <dc:title xml:lang="en">Stilleven met kweeperen, mispels en een glas</dc:title>
+                <dc:title xml:lang="nl">Still Life with Quinces, Medlars and a Glass</dc:title>
+                <dc:title xml:lang="nl">Stilleven met kweeperen, mispels en een glas</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">1669 - 1719</ns5:created>
+                <ns5:created xml:lang="nl">1669 - 1719</ns5:created>
+                <ns5:extent xml:lang="en">depth 5.5 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 41.5 cm x width 34.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">buitenmaat: diepte 5,5 cm (drager incl. SK-L-4120)</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 41,5 cm x breedte 34,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301133249" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns6:spn xml:lang="en">D. Franken Bequest, Le Vésinet</ns6:spn>
+                <ns6:spn xml:lang="nl">Legaat van de heer D. Franken, Le Vésinet</ns6:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/LGzCj/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/LGzCj" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/LGzCj/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1751--59ad51827cc3f8ff806b341b9e4c9c34">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns8:prefLabel xml:lang="en">panel</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">paneel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221211">
+            <ns9:sameAs rdf:resource="https://iconclass.org/25G21%28POMEGRANATE%29" />
+            <ns8:altLabel>25G21(POMEGRANATE)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">fruits: pomegranate</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221212">
+            <ns9:sameAs rdf:resource="https://iconclass.org/25G21%28MEDLAR%29" />
+            <ns8:altLabel>25G21(MEDLAR)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">fruits: medlar</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221213">
+            <ns9:sameAs rdf:resource="https://iconclass.org/25G21%28PEAR%29" />
+            <ns8:altLabel>25G21(PEAR)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">fruits: pear</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221214">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41C323%28FLUTE%29" />
+            <ns8:altLabel>41C323(FLUTE)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">glass, rummer (FLUTE)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221215">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41C653" />
+            <ns8:altLabel>41C653</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">fruit</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22152">
+            <ns9:sameAs rdf:resource="https://iconclass.org/31AA" />
+            <ns8:altLabel>31AA</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">the (nude) human figure; 'Corpo humano' (Ripa) - AA - female human figure</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/LGzCj">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101145">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/95797694" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500018968" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q16853834" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/59115" />
+            <ns10:dateOfBirth xml:lang="nl">in of voor 1674</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1719-10-28</ns10:dateOfDeath>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+                <ns8:prefLabel xml:lang="en">The Hague</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Den Haag</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Nellius, Martinus</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Nellius, Martinus</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Martinus Nellius</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Martinus Nellius</ns8:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

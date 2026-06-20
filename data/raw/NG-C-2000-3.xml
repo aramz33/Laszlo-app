@@ -1,0 +1,171 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200414160</ns0:identifier>
+        <ns0:datestamp>2026-06-08T21:47:27Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260210</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>260211</ns0:setSpec>
+        <ns0:setSpec>260235</ns0:setSpec>
+        <ns0:setSpec>26140</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200414160#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200414160">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="en">This diamond is war booty. It was once owned by Panembahan Adam, the sultan of Banjarmasin (Kalimantan). The stone belonged to the state heirlooms, symbols of the sultan’s sovereignty. After his death, the Netherlands intervened in the battle of succession. In 1859 Dutch troops violently seized control of Banjarmasin and abolished the sultanate. The rough diamond was sent to the Netherlands, where it was cut into a rectangle of 36 carats.</dc:description>
+                <dc:description xml:lang="nl">Deze diamant is oorlogsbuit. Ooit was hij eigendom van Panembahan Adam, de sultan van Banjarmasin (Kalimantan). De steen behoorde tot de rijkssieraden, symbolen van de sultans soevereiniteit. Na diens dood mengde Nederland zich in de opvolgingsstrijd. In 1859 veroverden Nederlandse troepen met geweld Banjarmasin, en hieven eenzijdig het sultanaat op. De ruwe diamant werd naar Nederland gestuurd waar hij  werd geslepen tot een rechthoek van 36 karaat.</dc:description>
+                <dc:identifier>NG-C-2000-3</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21042670" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2301663" />
+                <dc:title xml:lang="en">De diamant van Banjarmasin</dc:title>
+                <dc:title xml:lang="en">The Banjarmasin Diamond</dc:title>
+                <dc:title xml:lang="nl">De diamant van Banjarmasin</dc:title>
+                <dc:title xml:lang="nl">The Banjarmasin Diamond</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/22011838" />
+                <ns5:alternative xml:lang="nl">Diamant van Banjarmasin</ns5:alternative>
+                <ns5:created xml:lang="en">before 1835</ns5:created>
+                <ns5:created xml:lang="en">c. 1875</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1875</ns5:created>
+                <ns5:created xml:lang="nl">voor 1835</ns5:created>
+                <ns5:extent xml:lang="en">height 1.4 cm x width 1.7 cm x length 2.2 cm x weight 7.65 g x weight 38.23 ct</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 1,4 cm (exact 1.386 cm) x breedte 1,7 cm (exact 1.737 cm) x lengte 2,2 cm (exact 2.186 cm) x gewicht (eigenschap) 7,65 g x gewicht (eigenschap) 38,23 kt</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260210" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260211" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260235" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26140" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100987" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30135867" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30135874" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30146905" />
+                <ns5:isReferencedBy>Cees Fasseur, De weg naar het paradijs, Amsterdam (1995), p. 109-111.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Documentatiemap.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Encyclopedie van Nederlandsch Oost Indië, Den Haag, Leiden 1917, dl. 1, p. 135-137.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Hans Wierenga, 'Waar bleef de Lombok-schat?', Vorsten : maandblad over alle vorstenhuizen (1987) okt., p. 10-13.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J. Mooren, K. Stutje en F. van Vree, Clues. Research into provenance history and significance of cultural objects and collections acquired in colonial situation. Final report. Pilotproject Provenance Research on Objects of the Colonial Era, Amsterdam : NIOD, Rijksmuseum, Nationaal Museum van Wereldculturen, 2022. https://niod.on.worldcat.org/oclc/1303893587</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J. Mooren, K. Stutje en F. van Vree, Jejak. Penelitian sejarah asal usul dan pemaknaan benda-benda dan koleksi budaya yang diperoleh dalam situasi kolonial, Amsterdam : NIOD, Rijksmuseum, Nationaal Museum van Wereldculturen, 2022. https://niod.on.worldcat.org/oclc/1303893550</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J. Mooren, K. Stutje en F. van Vree, Sporen. Onderzoek naar herkomstgeschiedenis en betekenisgeving van culturele objecten en collecties verworven in koloniale situaties. Eindrapport Pilotproject Provenance Research on Objects of the Colonial Era. Herkomstonderzoek van objecten uit de koloniale tijd, Amsterdam : NIOD, Rijksmuseum, Nationaal Museum van Wereldculturen, 2022. https://niod.on.worldcat.org/oclc/1303889123</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Klaas Akkerma, 'Een hart, extraordinair groot : de geschiedenis van de grootste diamant in Oranjebezit', Antiek 24 (1989) nr. 5, p. 277-296.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Klaas Stutje, Provenance report regarding The Banjarmasin Diamond, Amsterdam : NIOD, Rijksmuseum, Nationaal Museum van Wereldculturen, 2022. https://niod.on.worldcat.org/oclc/1302196249</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Notulen van het Bataviaasch Genootschap III (1865-09-19), p. 130, 147-151.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Salomon Müller, Reizen en Onderzoekingen in Den Indischen Archipel: Gedaan Op Last der Nederlandsche Indische Regering, Tusschen de Jaren 1828 en 1836, Frederik Muller, Amsterdam, 2 delen, 1857, p. 269</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Tijdschrift van het Bataviaasch Genootschap 12 (1862), p. 122-125, 136-137, 219.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220671" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/2301663" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2203175" />
+                <ns7:spn xml:lang="en">On loan from the Ministerie van Koloniën</ns7:spn>
+                <ns7:spn xml:lang="nl">Bruikleen van het Ministerie van Koloniën</ns7:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/sEcIK/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/sEcIK" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/sEcIK/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/NG-C-2000-3--986672ec647e9af066242dce1aace198">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260210">
+            <ns9:prefLabel xml:lang="en">Against Opacity</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Against Opacity</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260211">
+            <ns9:prefLabel xml:lang="en">Indonesian heritage</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Indisch erfgoed</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns9:prefLabel xml:lang="en">RijksXL</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">RijksXL</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260235">
+            <ns9:prefLabel xml:lang="en">jewellery</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">sieraden</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns9:prefLabel xml:lang="en">biografic</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">biografisch</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26140">
+            <ns9:prefLabel xml:lang="en">jewellery</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">juwelen</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22011838">
+            <ns9:prefLabel xml:lang="en">diamond</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">diamant</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2203175">
+            <ns9:altLabel xml:lang="nl">geslepen</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">grinding</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">slijpen</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220671">
+            <ns9:prefLabel xml:lang="en">diamond (mineral)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">diamant</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/sEcIK">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21042670">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/131493728" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q159766" />
+            <ns9:altLabel xml:lang="nl">VOC</ns9:altLabel>
+            <ns9:prefLabel xml:lang="nl">Verenigde Oostindische Compagnie</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns9:altLabel xml:lang="nl">Anon</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">anonymous</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">anoniem</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301663">
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/7015963" />
+            <ns9:prefLabel xml:lang="en">Borneo</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Borneo</ns9:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns9:prefLabel>Rijksmuseum</ns9:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

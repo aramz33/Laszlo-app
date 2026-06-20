@@ -1,0 +1,207 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200107965</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:16:58Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260213</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>26121</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200107965#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200107965">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101346" />
+                <dc:description xml:lang="en">Bright, clear light fills this church, in which – as it happens – a sermon is being preached from the pulpit. Saenredam created a sense of space with his consistent use of perspective, in which all the orthogonal lines converge at the same point. This church was special to the painter: not only was he born in Assendelft, but the gravestone of his father, Jan Saenredam, bearing an inscription, can be seen in the right foreground.</dc:description>
+                <dc:description xml:lang="nl">Wat een licht en helderheid in deze kerk, waar toevallig net vanaf de kansel gepreekt wordt. Ruimtelijkheid creëert Saenredam door het centraal perspectief consequent toe te passen, waardoor alle lijnen hetzelfde verdwijnpunt hebben. Deze ruimte had voor de schilder een bijzondere betekenis: hij was in Assendelft geboren en de grafsteen van zijn vader, Jan Saenredam, is met inscriptie en al rechts vooraan te zien.</dc:description>
+                <dc:identifier>SK-C-217</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20066747" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221361" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221362" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221363" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2307494" />
+                <dc:title xml:lang="en">Interieur van de Sint-Odulphuskerk in Assendelft</dc:title>
+                <dc:title xml:lang="en">Interior of the Sint-Odulphuskerk in Assendelft</dc:title>
+                <dc:title xml:lang="nl">Interieur van de Sint-Odulphuskerk in Assendelft</dc:title>
+                <dc:title xml:lang="nl">Interior of the Sint-Odulphuskerk in Assendelft</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">1649-10-02</ns5:created>
+                <ns5:created xml:lang="nl">1649-10-02</ns5:created>
+                <ns5:extent xml:lang="en">frame: height 70.4 cm x width 95.6 cm x thickness 5.7 cm</ns5:extent>
+                <ns5:extent xml:lang="en">sight size: height 49 cm x width 73.6 cm</ns5:extent>
+                <ns5:extent xml:lang="en">support: height 49.6 cm x width 75 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">dagmaat: hoogte 49 cm x breedte 73,6 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 49,6 cm x breedte 75 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">lijst: hoogte 70,4 cm x breedte 95,6 cm x dikte 5,7 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260213" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26121" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100494" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301107690" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301113606" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30112160" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301125279" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301215626" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301215627" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301216127" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301239395" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301262165" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30165550" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30166465" />
+                <ns5:isReferencedBy>Inzoomer object op zaal, 2013 (Nederlands/English).</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">...; sale, J.V.D.H. (†), Zoeterwoude, near Leiden (P. de Bruyn), 11 September 1776, no. 79 (‘P. Saenredam, 1649, 2 October. De Kerk te Assendelft van binne te zien, terwyl ’er gepredikt word voor eenige Toehoorders, benevens de Tombe of Begraavplaats vande Heeren tot Assendelft, [...] op penneel, hoog 19½, breet 29 duim’ [50 x 74.5 cm]);...; sale, Jeronimo de Bosch III (1740-1811), Amsterdam (J. Yver &lt;em&gt;et al.&lt;/em&gt;), 6 April 1812, no. 51 (‘De Kerk te Assendelft van binnen. [...] door P.J. Saenredam. Hoog 20, breed 29 duim [51.4 x 74.5 cm.] Paneel’), fl. 131, to the dealer Jeronimo de Vries, Amsterdam;{Copy RKD.} from whom, fl. 600, to Adriaan van der Hoop, Amsterdam, 17 January 1848;{Van der Hoop _&lt;em&gt;Lijst&lt;/em&gt;_, p. 38, no. 235: ‘Van den Heer J:o de Vries overgenomen eene voorstelling van de kerk te Assendelft, door P. Saenredam; en is dit Schilderij geteekend door hem, met het jaartel 1649, zijnde zeer helder en fijn uitgewerkt; voor de Som van ... 600’.} by whom bequeathed to the City of Amsterdam with the rest of his collection, 1854;{Van der Hoop _&lt;em&gt;Taxatie&lt;/em&gt;_ 1854, p. 2, no. 235: ‘Gezigt in de kerk te Assendelft, fl. 100’.} on loan from the City of Amsterdam to the museum since 30 June 1885 {Provenance reconstructed in Pollmer 2004, p. 172, no. 154.}</ns5:provenance>
+                <ns6:spn xml:lang="en">On loan from the City of Amsterdam (A. van der Hoop Bequest)</ns6:spn>
+                <ns6:spn xml:lang="nl">Bruikleen van de gemeente Amsterdam (legaat A. van der Hoop)</ns6:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/fjTNG/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/fjTNG" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/fjTNG/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-C-217--ece748ca3c45cc2167022acebca268ca">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260213">
+            <ns8:prefLabel xml:lang="en">Top 100</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 100</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26121">
+            <ns8:prefLabel xml:lang="en">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns8:prefLabel xml:lang="en">panel</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">paneel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221361">
+            <ns9:sameAs rdf:resource="https://iconclass.org/11Q713" />
+            <ns8:altLabel>11Q713</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">interior of church</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221362">
+            <ns9:sameAs rdf:resource="https://iconclass.org/11Q71454" />
+            <ns8:altLabel>11Q71454</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">pulpit, ambo, chancel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221363">
+            <ns9:sameAs rdf:resource="https://iconclass.org/11Q7312" />
+            <ns8:altLabel>11Q7312</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Protestant service</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/fjTNG">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101346">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/9881086" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500115526" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q433804" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/69237" />
+            <ns10:dateOfBirth xml:lang="nl">1597-06-09</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1665-05</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301630">
+                <ns8:prefLabel xml:lang="en">Assendelft</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Assendelft</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230134">
+                <ns8:prefLabel xml:lang="en">Haarlem</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Haarlem</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Saenredam, Pieter Jansz</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Pieter Jansz. Sanredam</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Pieter Jansz. Zaenredam</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Pieter Saenredam</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Pieter Zaenredam</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Saenredam, Pieter Jansz.</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Saenredam, Pieter</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Sanredam, Pieter Jansz.</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Zaenredam, Pieter Jansz.</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Zaenredam, Pieter</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Pieter Jansz Saenredam</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Pieter Jansz. Saenredam</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2307494">
+            <ns8:prefLabel xml:lang="nl">Sint-Odulphuskerk (Assendelft)</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

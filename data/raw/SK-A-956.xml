@@ -1,0 +1,206 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns11="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200107795</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:14:43Z</ns0:datestamp>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200107795#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200107795">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="en">This sitter is probably Louis of Nassau, an illegitimate son of Maurice. He is depicted wearing a gold medal bearing a portrait of his father. This medal was struck to celebrate the Capture of Grave in 1602. Louis was born at that time and is eighteen months old in this portrait. Did Maurice dedicate his victory to his youngest scion?</dc:description>
+                <dc:description xml:lang="nl">Dit is waarschijnlijk Lodewijk van Nassau, een buitenechtelijke zoon van Maurits. Hij is afgebeeld met een gouden penning waarop het portret van zijn vader te zien is. Deze penning is geslagen om de inname van Grave in 1602 te vieren. In diezelfde tijd is Lodewijk geboren, die op dit portret achttien maanden oud is. Droeg Maurits zijn overwinning aan zijn jongste telg op?</dc:description>
+                <dc:identifier>SK-A-956</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21042704" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21064319" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221224" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22123" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/230205" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/240130" />
+                <dc:title xml:lang="en">Portrait of a Little Boy, Possibly Louis of Nassau</dc:title>
+                <dc:title xml:lang="en">Portret van een jongetje, wellicht Lodewijk van Nassau</dc:title>
+                <dc:title xml:lang="nl">Portrait of a Little Boy, Possibly Louis of Nassau</dc:title>
+                <dc:title xml:lang="nl">Portret van een jongetje, wellicht Lodewijk van Nassau</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">1604</ns5:created>
+                <ns5:created xml:lang="nl">1604</ns5:created>
+                <ns5:extent xml:lang="en">height 90 cm x width 69 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 90 cm x breedte 69 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2621498" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301106448" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3011873" />
+                <ns5:isReferencedBy>Documentatiemap Schilderijen: aantekeningen R. van Luttervelt (voor 1963).</ns5:isReferencedBy>
+                <ns5:isReferencedBy>R. van Luttervelt, 'Een kinderportret uit het Huis Nassau', Historia (1945), p. 222-224</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230143" />
+                <ns6:spn xml:lang="en">Gift of A. de Pinto, The Hague</ns6:spn>
+                <ns6:spn xml:lang="nl">Schenking van de heer A. de Pinto, Den Haag</ns6:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/uykLv/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/uykLv" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/uykLv/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-956--d1f02669d0aa3ddb394aa672642384d7">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/230143">
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q27996474" />
+            <ns8:prefLabel xml:lang="en">Northern Netherlands</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Noordelijke Nederlanden</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns8:prefLabel xml:lang="en">panel</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">paneel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221224">
+            <ns9:sameAs rdf:resource="https://iconclass.org/31D112" />
+            <ns8:altLabel>31D112</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">child</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22123">
+            <ns9:sameAs rdf:resource="https://iconclass.org/61B2" />
+            <ns8:altLabel>61B2</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">historical persons</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/uykLv">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21042704">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/72836094" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500373136" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q164062" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/436329" />
+            <ns10:dateOfBirth xml:lang="nl">1567-11-13</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1625-04-23</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2304038">
+                <ns8:prefLabel xml:lang="nl">Dillenburg</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+                <ns8:prefLabel xml:lang="en">The Hague</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Den Haag</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2203883">
+                <ns8:prefLabel xml:lang="en">stadtholder</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">stadhouder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208146">
+                <ns8:prefLabel xml:lang="nl">legeraanvoerder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:prefLabel xml:lang="en">Maurice (Prince of Orange)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Maurits (prins van Oranje)</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns8:altLabel xml:lang="nl">Anon</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">anonymous</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">anoniem</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21064319">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/184059721" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500354687" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q325649" />
+            <ns10:dateOfBirth xml:lang="nl">1602</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1665-02-28</ns10:dateOfDeath>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+                <ns8:prefLabel xml:lang="en">The Hague</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Den Haag</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202837">
+                <ns8:prefLabel xml:lang="nl">militair</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205466">
+                <ns8:prefLabel xml:lang="en">diplomat</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">diplomaat</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="nl">Lodewijk van Nassau, heer van Beverweerd, Odijk en de Lek</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Nassau-Beverweerd, Lodewijk van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">heer van Beverweerd Lodewijk van Nassau</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">Lodewijk van Nassau-Beverweerd</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/230205">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/1047800" />
+            <ns8:prefLabel xml:lang="en">Grave</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Grave</ns8:prefLabel>
+            <ns11:lat>5.733333</ns11:lat>
+            <ns11:long>51.766667</ns11:long>
+          </ns3:Place>
+          <ns3:TimeSpan rdf:about="https://id.rijksmuseum.nl/240130">
+            <ns8:prefLabel xml:lang="nl">Inname van Grave (1602)</ns8:prefLabel>
+          </ns3:TimeSpan>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

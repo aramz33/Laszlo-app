@@ -1,0 +1,199 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200108466</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:22:25Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26136</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200108466#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200108466">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2106343" />
+                <dc:description xml:lang="en">Liotard was already 54 when he married the 29-yearold Marie Fargues in Amsterdam in 1756. This extraordinary portrait – it is one of Liotard’s largest pastels and necessitated the use of two pieces of vellum – was probably done shortly following their wedding. Liotard chose a composition he had first used in a drawing made in Constantinople and had repeated several times in different contexts: it was, indeed, one of the most famous inventions of his persona as ‘Le peintre turc’.</dc:description>
+                <dc:description xml:lang="nl">Liotard was 54 jaar oud toen hij trouwde met de 29-jarige Marie Fargues. Dit is één van de grootste pastels van Liotard waarvoor twee stukken perkament nodig waren. Het is waarschijnlijk kort na hun huwelijk gemaakt. Liotard gebruikte een compositie van een tekening die hij eerder had gemaakt in Constantinopel. Deze compositie herhaalde hij meerdere malen in verschillende contexten: een van zijn beroemde uitvindingen als ‘De Turkse schilder’.</dc:description>
+                <dc:identifier>SK-A-240</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200819471" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21073016" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221173" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221197" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22134" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221471" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221532" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221676" />
+                <dc:title xml:lang="en">Marie Fargues, echtgenote van de kunstenaar</dc:title>
+                <dc:title xml:lang="en">Marie Fargues, the Painter’s Wife</dc:title>
+                <dc:title xml:lang="nl">Marie Fargues, echtgenote van de kunstenaar</dc:title>
+                <dc:title xml:lang="nl">Marie Fargues, the Painter’s Wife</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220363" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220461" />
+                <ns5:alternative xml:lang="nl">Jonge vrouw in een Turks interieur, vroeger bekend als Maria, gravin van Coventry</ns5:alternative>
+                <ns5:alternative xml:lang="nl">Jonge vrouw in een Turks interieur</ns5:alternative>
+                <ns5:alternative xml:lang="nl">Portret van Maria, gravin van Coventry</ns5:alternative>
+                <ns5:created xml:lang="en">1756 - 1758</ns5:created>
+                <ns5:created xml:lang="nl">1756 - 1758</ns5:created>
+                <ns5:extent xml:lang="en">height 103.8 cm x width 79.8 cm</ns5:extent>
+                <ns5:extent xml:lang="en">weight 14.1 kg</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 103,8 cm x breedte 79,8 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">geheel: gewicht (eigenschap) 14,1 kg (inclusief lijst en 2mm glas)</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26136" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301151665" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301243940" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301251001" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3017622" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30176674" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30186475" />
+                <ns5:isReferencedBy>Duncan Bull, 'Princess, countess, lover or wife? Liotard's 'lady on a sofa'', The Burlington Magazine, The Burlington Magazine 150 (2008), p. 592-602.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>K. Posner en Robert van Langh [red.], Supporting Conservation : Four projects funded by Gieskes-Strijbis Fonds, Amsterdam 2015, p. 23, 32, afb. 16, 22, 23.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Kunstschrift 49 (2005), nr. 2, p. 4-5. (Thema: portretten van de 18e eeuw)</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Taco Dibbits, Het Hollands meisje van Liotard : Exceptionele aanwinst voor Rijksmuseum Amsterdam, uit: Bulletin van de Vereniging Rembrandt, 27, 2017, 1, pagina 22-24 - p. 22, afb.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220381" />
+                <ns6:spn xml:lang="en">Bequeathed by Miss Marie-Anne Liotard, Amsterdam</ns6:spn>
+                <ns6:spn xml:lang="nl">Legaat van mejuffrouw Marie-Anne Liotard, Amsterdam</ns6:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/AXKRf/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/AXKRf" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/AXKRf/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-240--ec75b69657bf0a90b711e6889d86f78a">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26136">
+            <ns8:prefLabel xml:lang="nl">pastels</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220363">
+            <ns8:prefLabel xml:lang="en">drawing</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">tekening</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220381">
+            <ns8:prefLabel xml:lang="en">parchment (animal material)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">perkament</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220461">
+            <ns8:prefLabel xml:lang="en">pastel</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">pastel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221173">
+            <ns9:sameAs rdf:resource="https://iconclass.org/61BB2" />
+            <ns8:altLabel>61BB2</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">historical persons - BB - woman</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221197">
+            <ns9:sameAs rdf:resource="https://iconclass.org/31A511" />
+            <ns8:altLabel>31A511</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">mirror</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22134">
+            <ns9:sameAs rdf:resource="https://iconclass.org/49M32" />
+            <ns8:altLabel>49M32</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">book</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221471">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41D3" />
+            <ns8:altLabel>41D3</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">folk costume, regional costume</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221532">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41A6711" />
+            <ns8:altLabel>41A6711</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">flowers in a vase</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221676">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41A722" />
+            <ns8:altLabel>41A722</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">couch, sofa, settee</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/AXKRf">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2106343">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/61675695" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500003329" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q123757" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/50314" />
+            <ns10:dateOfBirth xml:lang="nl">1702-12-22</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1789-06-12</ns10:dateOfDeath>
+            <ns10:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/230483" />
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230483">
+                <ns8:prefLabel xml:lang="nl">Genève</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Liotard, Jean-Etienne</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Liotard, Jean-Etienne</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Liotard</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Jean-Etienne Liotard</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Jean-Etienne Liotard</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21073016">
+            <ns10:dateOfBirth xml:lang="nl">1728</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1782</ns10:dateOfDeath>
+            <ns8:altLabel xml:lang="nl">Fargues, Marie</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">Marie Fargues</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

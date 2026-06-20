@@ -1,0 +1,180 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200311573</ns0:identifier>
+        <ns0:datestamp>2026-06-08T16:28:19Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>260236</ns0:setSpec>
+        <ns0:setSpec>26127</ns0:setSpec>
+        <ns0:setSpec>261169</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200311573#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200311573">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="en">The elderly statesman Johan van Oldenbarnevelt was supposed to have used one of these walking sticks to support himself as he climbed the scaffold on May 13 1619 to be beheaded. He had been condemned to death after a political trial. In the previous twenty years, he had been one of the driving forces in the young Dutch Republic. The sticks were preserved as relics. In 1657 Vondel wrote a moving poem about one of them.</dc:description>
+                <dc:description xml:lang="nl">Op een van deze stokjes zou de oude staatsman Johan van Oldenbarnevelt gesteund kunnen hebben toen hij op 13 mei 1619 het schavot beklom en werd onthoofd. Hij was na een politiek proces ter dood veroordeeld. In de twintig jaar daarvoor was hij een van de belangrijkste bestuurders van de jonge Republiek geweest. Als relieken werden de stokken bewaard. over een hiervan maakte Vondel in 1657 een indringend gedicht.</dc:description>
+                <dc:identifier>NG-NM-548</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200412119" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21030773" />
+                <dc:title xml:lang="en">Twee ‘stokskes’ van Van Oldenbarnevelt</dc:title>
+                <dc:title xml:lang="en">Two ‘walking sticks’ of Van Oldenbarnevelt</dc:title>
+                <dc:title xml:lang="nl">Twee ‘stokskes’ van Van Oldenbarnevelt</dc:title>
+                <dc:title xml:lang="nl">Two ‘walking sticks’ of Van Oldenbarnevelt</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201169" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201198" />
+                <ns5:created xml:lang="en">1600 - 1625</ns5:created>
+                <ns5:created xml:lang="nl">1600 - 1625</ns5:created>
+                <ns5:extent xml:lang="en">height 96 cm x diameter 4 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 96 cm x diameter 4 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260236" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261169" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26127" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100494" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301283482" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301283486" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30165550" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220102" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220144" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22021" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230125" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204652" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/IeZLB/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/IeZLB" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/IeZLB/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/NG-NM-548--35b17e6cec240f7cc0dc6dbd4e359453">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/230125">
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q3292403" />
+            <ns8:prefLabel xml:lang="nl">Noord-Nederland</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260236">
+            <ns8:prefLabel xml:lang="en">fashion</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">mode</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261169">
+            <ns8:prefLabel xml:lang="en">accessories</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">accessoires</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26127">
+            <ns8:prefLabel xml:lang="en">costumes and accessories</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">kostuums en accessoires</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220102">
+            <ns8:prefLabel xml:lang="en">ivory</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">ivoor</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2201169">
+            <ns8:prefLabel xml:lang="en">walking stick</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">wandelstok</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2201198">
+            <ns8:prefLabel xml:lang="nl">rotting</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220144">
+            <ns8:prefLabel xml:lang="en">iron (metal)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">ijzer</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22021">
+            <ns8:prefLabel xml:lang="en">wood (plant material)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">hout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2204652">
+            <ns8:altLabel xml:lang="nl">gesneden</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">uitgesneden</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">uitsnijden</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">cutting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">snijden</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/IeZLB">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21030773">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/69085364" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q166623" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/499509" />
+            <ns10:dateOfBirth xml:lang="nl">1547-09-14</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1619-05-13</ns10:dateOfDeath>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+                <ns8:prefLabel xml:lang="en">The Hague</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Den Haag</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205336">
+                <ns8:prefLabel xml:lang="en">jurist</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">jurist</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Oldenbarnevelt, Johan van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Oldenbarnevelt, Johan van</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Johan van Oldenbarnevelt</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Johan van Oldenbarnevelt</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns8:altLabel xml:lang="nl">Anon</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">anonymous</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">anoniem</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

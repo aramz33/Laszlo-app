@@ -1,0 +1,214 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200415900</ns0:identifier>
+        <ns0:datestamp>2026-06-08T21:54:17Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260213</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26155</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200415900#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200415900">
+                <dc:description xml:lang="en">This clock was originally intended as merchandise for sale or as a gift. It was hung up in the ‘Save House’ as the only means of providing a sense of time during the long, polar nights. On 3 December 1596, it froze. Barentsz and Van Heemskerck shoved a parting letter into the gunpowder horn when they left. Three centuries later, the horn was rediscovered with the letter still inside. The letter cannot be exhibited due to its fragility.</dc:description>
+                <dc:description xml:lang="nl">Deze klok was eigenlijk bedoeld als handelswaar of geschenk. In het Behouden Huis werd hij opgehangen om in de lange poolnacht nog enig besef van tijd te hebben. Op 3 december 1596 vroor hij vast. In de kruithoorn stopten Barentz en Van Heemskerck bij hun vertrek een afscheidsbriefje. Drie eeuwen later werd de kruithoorn teruggevonden met het briefje er nog in. Vanwege de kwetsbaarheid kan het briefje niet worden getoond.</dc:description>
+                <dc:identifier>NG-NM-7687</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200902686" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21031817" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21060096" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2301533" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2304435" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/240970" />
+                <dc:title xml:lang="en">Clock and gunpowder horn</dc:title>
+                <dc:title xml:lang="en">Klok en kruithoorn</dc:title>
+                <dc:title xml:lang="nl">Clock and gunpowder horn</dc:title>
+                <dc:title xml:lang="nl">Klok en kruithoorn</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/22010767" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201355" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220173" />
+                <ns5:created xml:lang="en">c. 1590 - c. 1596</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1590 - ca. 1596</ns5:created>
+                <ns5:extent xml:lang="en">height 38.9 cm x width 20.5 cm x depth 16.4 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 38,9 cm x breedte 20,5 cm x diepte 16,4 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/200522914" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260213" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26155" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301103786" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301216127" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301221356" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301221357" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30156058" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30165550" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220144" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204578" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/ffVgY/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/ffVgY" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/ffVgY/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/NG-NM-7687--761b560cb51ca15970ff3564d4160d0f">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260213">
+            <ns8:prefLabel xml:lang="en">Top 100</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 100</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26155">
+            <ns8:prefLabel xml:lang="nl">Nova Zembla (collectie)</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22010767">
+            <ns8:prefLabel xml:lang="en">mechanical clock</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">mechanische klok</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2201355">
+            <ns8:prefLabel xml:lang="en">clockwork</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">uurwerk</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220144">
+            <ns8:prefLabel xml:lang="en">iron (metal)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">ijzer</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220173">
+            <ns8:prefLabel xml:lang="en">clock</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">klok</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2204578">
+            <ns8:altLabel xml:lang="nl">gesmeed</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">forging</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">smeden</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/ffVgY">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21031817">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/5038801" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q133060" />
+            <ns10:dateOfBirth xml:lang="nl">ca. 1550</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1597-06-20</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2303040">
+                <ns8:prefLabel xml:lang="nl">Terschelling</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205353">
+                <ns8:prefLabel xml:lang="en">cartographer</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">cartograaf</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205617">
+                <ns8:prefLabel xml:lang="nl">zeereiziger</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205618">
+                <ns8:prefLabel xml:lang="nl">scheepsbevelhebber</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Barendsz., Willem</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Barendsz., Willem</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Willem Barendsz.</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Willem Barendsz.</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21060096">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/222745584" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q472245" />
+            <ns10:dateOfBirth xml:lang="nl">1567</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1607-04-25</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns8:prefLabel xml:lang="en">Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Amsterdam</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2203194">
+                <ns8:prefLabel xml:lang="en">admiral</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">admiraal</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205776">
+                <ns8:prefLabel xml:lang="en">explorer</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">ontdekkingsreiziger</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205777">
+                <ns8:prefLabel xml:lang="en">merchant</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">koopman</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Heemskerck, Jacob van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Heemskerck, Jacob van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Heemskerk, Jacob van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Jacob van Heemskerk</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Jacob van Heemskerck</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Jacob van Heemskerck</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301533">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7015391" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q80413" />
+            <ns8:prefLabel xml:lang="nl">Nova Zembla</ns8:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2304435">
+            <ns8:prefLabel xml:lang="nl">Behouden Huys</ns8:prefLabel>
+          </ns3:Place>
+          <ns3:TimeSpan rdf:about="https://id.rijksmuseum.nl/240970">
+            <ns8:prefLabel xml:lang="nl">Overwintering op Nova Zembla</ns8:prefLabel>
+          </ns3:TimeSpan>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

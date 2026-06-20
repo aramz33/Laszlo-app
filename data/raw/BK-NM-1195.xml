@@ -1,0 +1,141 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200115837</ns0:identifier>
+        <ns0:datestamp>2026-06-08T02:08:35Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26126</ns0:setSpec>
+        <ns0:setSpec>2618</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200115837#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200115837">
+                <dc:description xml:lang="en">These three statues come from the monastery of Mariënwater in Koudewater (near ‘s Hertogenbosch). They are attributed to a sculptor who probably worked in the seclusion of the monastery. This would account for the rather old-fashioned, static and expressionless appearance of his work.</dc:description>
+                <dc:description xml:lang="nl">Deze drie beelden komen uit het klooster Mariënwater in Koudewater (bij Den Bosch). Ze worden toegeschreven aan een beeldhouwer die vermoedelijk werkte in de afzondering van het klooster. Zijn werk oogt daardoor wat ouderwets, statisch en gesloten.</dc:description>
+                <dc:identifier>BK-NM-1195</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200115836" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200115838" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211013" />
+                <dc:title xml:lang="en">Saint Barbara</dc:title>
+                <dc:title xml:lang="en">Sint-Barbara</dc:title>
+                <dc:title xml:lang="nl">Saint Barbara</dc:title>
+                <dc:title xml:lang="nl">Sint-Barbara</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220297" />
+                <ns5:created xml:lang="en">c. 1470</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1470</ns5:created>
+                <ns5:extent xml:lang="en">height 92 cm x width 30 cm x depth 21 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 92 cm x breedte 30 cm x diepte 21 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26126" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2618" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100933" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301101288" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301102281" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301128029" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144621" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30115344" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30115364" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30115456" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30118442" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244089" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244300" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125313" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125314" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30166654" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30167204" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30169401" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30194351" />
+                <ns5:isReferencedBy>G. Lemmens, 'Beelden uit Brabant', Spiegel Historiael 6 (1971), p. 538.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Jaarverslag Rijksmuseum (1973), p. 25 (restauratie).</ns5:isReferencedBy>
+                <ns5:isReferencedBy>K.J. Kutsch, 'Spätgotische Schnitzkunst zwischen Maas und Ruhr', Selfkantia 64 (1956), p. 72.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220164" />
+                <ns5:provenance xml:lang="en">? Commissioned by the Bridgettine abbey Mariënwater, Koudewater, near Rosmalen, c. 1470;{For the history of this abbey and the transitional period and transfer of the art patrimony, see L.C.B.M. van Liebergen, _&lt;em&gt;Beelden in de abdij: Middeleeuwse kunst uit het noordelijk deel van het hertogdom Brabant&lt;/em&gt;_, exh. cat. Uden (Museum voor Religieuze Kunst) 1999, pp. 39-57, 62-64, 97.} or commissioned by the Bridgettine abbey of Marienbaum, near Xanten;{Ibid.} transferred to the Bridgettine convent Maria Refugie, Uden, resp. 1713-24 or 1802;{Ibid.} from where, with numerous other sculptures (BK-NM-1195 to -1243), fl. 2,000 for all, to the Nederlandsch Museum voor Geschiedenis en Kunst, The Hague, 1875; transferred to the museum, 1885; on loan to the Museum voor Religieuze Kunst, Uden, 2005-12</ns5:provenance>
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2203464" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206822" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/rpXAL/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/rpXAL" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/rpXAL/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-NM-1195--cf403e56daf8b431ea6548d41484e8a1">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26126">
+            <ns8:prefLabel xml:lang="en">sculptures</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">beeldhouwwerken</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2618">
+            <ns8:prefLabel xml:lang="en">European Sculpture in the Rijksmuseum</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">European Sculpture in the Rijksmuseum</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220164">
+            <ns8:prefLabel xml:lang="en">walnut (hardwood)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">notenhout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220297">
+            <ns8:prefLabel xml:lang="en">figure</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">beeld</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2203464">
+            <ns8:prefLabel xml:lang="en">polychromy</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">polychromie</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2206822">
+            <ns8:prefLabel xml:lang="en">gild</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">vergulden</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211013">
+            <ns9:sameAs rdf:resource="https://iconclass.org/11HH%28BARBARA%29" />
+            <ns8:altLabel>11HH(BARBARA)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">the virgin martyr Barbara; possible attributes: book, cannon(ball), crown, cross, chalice with wafer, Dioscuros (her father), peacock feather, sword, torches, mason's tools, tower</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/rpXAL">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

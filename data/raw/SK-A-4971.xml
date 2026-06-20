@@ -1,0 +1,252 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns11="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200416903</ns0:identifier>
+        <ns0:datestamp>2026-06-08T21:57:38Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260215</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200416903#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200416903">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21019210" />
+                <dc:description xml:lang="en">As Grand Almoner of Antwerp, the merchant Le Witer was responsible for collecting charitable gifts. On the corner of the table is an object  referring to this function, an offering plate with the inscription ‘[A]lemos[e] 1623’, the year in which Le Witer took up this office. The small, fettered figurine indicates that the alms were intended for prisoners.</dc:description>
+                <dc:description xml:lang="nl">Le Witer was koopman en grootaalmoezenier van Antwerpen. In die laatste functie was hij verantwoordelijk voor de inzameling van liefdadige giften. Op tafel staat een verwijzing naar deze functie: een collecteschaal met het opschrift ‘[A]lemos[e] 1623’, het jaar waarin Le Witer aantrad. Het geboeide mannetje wijst erop dat de aalmoezen voor gevangenen bestemd waren.</dc:description>
+                <dc:identifier>SK-A-4971</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200416906" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200416907" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20071325" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21075005" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22116097" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22123" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221270" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2215392" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221638" />
+                <dc:title xml:lang="en">Portrait of Rogier Le Witer</dc:title>
+                <dc:title xml:lang="en">Portret van Rogier Le Witer</dc:title>
+                <dc:title xml:lang="nl">Portrait of Rogier Le Witer</dc:title>
+                <dc:title xml:lang="nl">Portret van Rogier Le Witer</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">1635</ns5:created>
+                <ns5:created xml:lang="nl">1635</ns5:created>
+                <ns5:extent xml:lang="en">height 152 cm x width 118.4 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 152 cm x breedte 118,4 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260215" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2621493" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301103525" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301115855" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301136063" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301136064" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301146585" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3011738" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30120673" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125448" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301283482" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301283486" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30147067" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30147922" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30148623" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30148656" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30172731" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30172735" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30172737" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30176276" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30176281" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30176283" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30176284" />
+                <ns5:isReferencedBy>Cat. Sotheby's London, Old Master Paintings Part I, sale L01121 (2001-07-12), lot 35</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Documentatiemap SK.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J.P. Filedt Kok, 'Drie portretten', Bulletin van de Vereniging Rembrandt 12 (2002), p. 9-13.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J.S. Held, 'Notes on Jordaens', Oud Holland 80 (1965), p. 112-114, 117-118.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Jaarverslag Rijksmuseum Amsterdam 2001, Amsterdam 2002, p. 56-57 met afb.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>L. Hendrikman, 'Oog in oog met Jacob Jordaens', Rijksmuseum Maastricht, Uitgelicht 8 [vouwblad].</ns5:isReferencedBy>
+                <ns5:isReferencedBy>P. van der Ploeg, 'Over twee portretten van Rubens', Mauritshuis in Focus 16 (2003), p. 20-21.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>R.-A. d'Hulst, 'Het boek in de Europese schilderkunst en meer in het bijzonder in het oeuvre van Jacob Jordaens', in: Liber Amicorum Herman Liebaers, Brussel 1984, p. 448.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">Commissioned by the sitter, Rogier Le Witer, Antwerp;{Note RMA.}….; Baron Dubois Wellens (Antwerp);{Note RMA}…; sale, P.H. Carpentier (Antwerp), 25 June 1849, no. 1, 2 and 3, bought in; Louis du Bois de Caters (1800-68), Antwerp; Douairière Bosschaert du Bois, Castle Vorselaar near Antwerp; Baron de Borrekens(?-1999), with the castle Vorselaar near Antwerp; his sale, London (Sotheby's), 12 July 2001, no. 35A, no. 35B and no. 36, £2,203,500, to the dealer R. Noortman, Maastricht;{Copy RMA.} from whom, fl. 12,500,000, with SK-A-4972 and SK-A-4973, to the Rijksmuseum, 2002</ns5:provenance>
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204040" />
+                <ns7:spn xml:lang="en">Purchased with the support of the BankGiro Lottery, the Stichting Nationaal Fonds Kunstbezit, the Vereniging Rembrandt, with additional funding from the Prins Bernhard Cultuurfonds, the Mondriaan Stichting, the Ministerie van OCenW, the VSBfonds, the Jaffé-Pierson Stichting, H.B. van der Ven, The Hague and the Rijksmuseum Fonds</ns7:spn>
+                <ns7:spn xml:lang="nl">Aankoop met steun van de BankGiro Loterij, de Stichting Nationaal Fonds Kunstbezit, de Vereniging Rembrandt, mede dankzij het Prins Bernhard Cultuurfonds, de Mondriaan Stichting, het Ministerie van OCenW, het VSBfonds, de Jaffé-Pierson Stichting, de heer H.B. van der Ven, Den Haag en het Rijksmuseum Fonds</ns7:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/KwHqX/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/KwHqX" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/KwHqX/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4971--6a5b2a97b4adb2c8ada7ae8df17c0849">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns9:prefLabel xml:lang="en">RijksXL</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">RijksXL</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260215">
+            <ns9:prefLabel xml:lang="en">Vereniging Rembrandt</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Vereniging Rembrandt</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns9:prefLabel xml:lang="en">biografic</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">biografisch</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns9:prefLabel xml:lang="en">paintings</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">schilderijen</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns9:prefLabel xml:lang="en">canvas</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">doek</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2204040">
+            <ns9:altLabel xml:lang="nl">geschilderd</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">paint</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">schilderen</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns9:prefLabel xml:lang="en">painting</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">schilderij</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns9:prefLabel xml:lang="en">oil paint (paint)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">olieverf</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22116097">
+            <ns10:sameAs rdf:resource="https://iconclass.org/11Q7551" />
+            <ns9:altLabel>11Q7551</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">offertory-box, offertory-bag</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22123">
+            <ns10:sameAs rdf:resource="https://iconclass.org/61B2" />
+            <ns9:altLabel>61B2</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">historical persons</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221270">
+            <ns10:sameAs rdf:resource="https://iconclass.org/41D221%28HAT%29%28%2B81%29" />
+            <ns9:altLabel>41D221(HAT)(+81)</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">head-gear: hat (+ men's clothes)</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2215392">
+            <ns10:sameAs rdf:resource="https://iconclass.org/92B5722" />
+            <ns9:altLabel>92B5722</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">other hybrid forms in the shape of a pillar</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221638">
+            <ns10:sameAs rdf:resource="https://iconclass.org/41A721" />
+            <ns9:altLabel>41A721</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">chair</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/KwHqX">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21019210">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/34465050" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500012431" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q270658" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/42880" />
+            <ns11:dateOfBirth xml:lang="nl">1593-05-19</ns11:dateOfBirth>
+            <ns11:dateOfDeath xml:lang="nl">1678-10-18</ns11:dateOfDeath>
+            <ns11:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/230148" />
+            <ns11:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230148">
+                <ns9:prefLabel xml:lang="en">Antwerp</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Antwerpen (stad)</ns9:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfDeath>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns9:prefLabel xml:lang="en">printmaker</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">prentmaker</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns9:prefLabel xml:lang="en">painter</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">schilder</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns9:prefLabel xml:lang="en">draftsman (artist)</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">tekenaar</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2205151">
+                <ns9:prefLabel xml:lang="en">designer</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">ontwerper</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns9:altLabel xml:lang="en">Jordaens, Jacques</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Jacob Jordaens (I)</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Jacobus Jordaens</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Jordaens, Jacob (I)</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Jordaens, Jacobus</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Jordaens, Jacques</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Jacques Jordaens</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Jacques Jordaens</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21075005">
+            <ns11:dateOfBirth xml:lang="nl">ca. 1591</ns11:dateOfBirth>
+            <ns11:dateOfDeath xml:lang="nl">1678-10-04</ns11:dateOfDeath>
+            <ns11:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230148">
+                <ns9:prefLabel xml:lang="en">Antwerp</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Antwerpen (stad)</ns9:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfDeath>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2205777">
+                <ns9:prefLabel xml:lang="en">merchant</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">koopman</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns9:altLabel xml:lang="nl">Witer, Rogier Le</ns9:altLabel>
+            <ns9:prefLabel xml:lang="nl">Rogier Le Witer</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns9:prefLabel>Rijksmuseum</ns9:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

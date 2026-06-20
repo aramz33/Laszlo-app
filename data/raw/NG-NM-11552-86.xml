@@ -1,0 +1,179 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns11="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20019334</ns0:identifier>
+        <ns0:datestamp>2026-06-08T19:37:44Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260210</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261189</ns0:setSpec>
+        <ns0:setSpec>261153</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20019334#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20019334">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="en">This shield resembles those of the Dayak from Borneo. However, it was seized in Aceh (Sumatra). This province fiercely resisted the expansion of the Dutch colonial regime. The label on the shield attests coolly to this dramatic struggle: ‘Shield of the Acehnese, who in Dec. 1876 killed 1st Lieutenant Regensburg in the banteng of Lembu. Acehnese also dead.’ The Aceh War (1873-1914) claimed more than 100,000 lives.</dc:description>
+                <dc:description xml:lang="nl">Dit schild lijkt op de schilden van de Dayak uit Borneo. Het is echter buitgemaakt in Atjeh (Sumatra). Deze provincie verzette zich fel tegen de Nederlandse expansie. Het etiket op het schild getuigt op onderkoelde wijze van die dramatische strijd: ‘Schild van den Atjeher die in dec. 1876 den 1e luitenant Regensburg in de benteng Lemboe deed sneuvelen. Atjinees ook dood’. De Atjeh-oorlog (1873-1914) kostte meer dan 100.000 mensen het leven.</dc:description>
+                <dc:identifier>NG-NM-11552-86</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21037438" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22141" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/240126" />
+                <dc:title xml:lang="en">Acehnese Shield</dc:title>
+                <dc:title xml:lang="en">Schild van een Atjeeër</dc:title>
+                <dc:title xml:lang="nl">Acehnese Shield</dc:title>
+                <dc:title xml:lang="nl">Schild van een Atjeeër</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201066" />
+                <ns5:alternative xml:lang="nl">Schild van een Atjeeër</ns5:alternative>
+                <ns5:created xml:lang="en">before 1877</ns5:created>
+                <ns5:created xml:lang="nl">voor 1877</ns5:created>
+                <ns5:extent xml:lang="en">depth 5.5 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 131.5 cm x width 34.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">diepte 5,5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">geheel: hoogte 131,5 cm x breedte 34,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260210" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261153" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261189" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100987" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301216127" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301249444" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301249448" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301274270" />
+                <ns5:isReferencedBy>Dagboek van Albert Carel baron Snouckaert van Schauburg, 27 april 1882, Delft, Legermuseum.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>G.F.W. Borel en M.A. de Groot, Onze vestiging in Atjeh: drogredenen zijn geen waarheid, Delft 2009, p. 127.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J.B. Avé, 'Shield 88', in: S. Greub (red.), Expressions of Belief. Masterpieces of African, Oceanic and Indonesian Art from the Museum of Volkenkunde, Rotterdam, New York 1988, p. 210.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220140" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22020" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22021" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22025" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/2301631" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206730" />
+                <ns7:spn xml:lang="en">Gift of A.C., Baron Snouckaert van Schauburg, The Hague</ns7:spn>
+                <ns7:spn xml:lang="nl">Schenking van A.C. baron Snouckaert van Schauburg, Den Haag</ns7:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/CrCFK/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/CrCFK" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/CrCFK/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/NG-NM-11552-86--f9b0a6b4b8a37b3f213bda48424d7636">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260210">
+            <ns9:prefLabel xml:lang="en">Against Opacity</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Against Opacity</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns9:prefLabel xml:lang="en">RijksXL</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">RijksXL</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns9:prefLabel xml:lang="en">biografic</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">biografisch</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261153">
+            <ns9:prefLabel xml:lang="nl">Snouckaert</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261189">
+            <ns9:prefLabel xml:lang="nl">wapens &amp; militaria</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2201066">
+            <ns9:prefLabel xml:lang="en">shield</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">schild</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220140">
+            <ns9:prefLabel xml:lang="nl">riet</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22020">
+            <ns9:prefLabel xml:lang="en">paper</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">papier (materiaal)</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22021">
+            <ns9:prefLabel xml:lang="en">wood (plant material)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">hout</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22025">
+            <ns9:prefLabel xml:lang="en">paint (coating)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">verf</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2206730">
+            <ns9:prefLabel xml:lang="en">painting technique</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">schildertechniek</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22141">
+            <ns10:sameAs rdf:resource="https://iconclass.org/48A98211" />
+            <ns9:altLabel>48A98211</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">mask, mascaron ~ ornament</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/CrCFK">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21037438">
+            <ns11:dateOfDeath xml:lang="nl">1876-12</ns11:dateOfDeath>
+            <ns11:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301631">
+                <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/7016479" />
+                <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q1823" />
+                <ns9:prefLabel xml:lang="nl">Atjeh</ns9:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfDeath>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2205420">
+                <ns9:prefLabel xml:lang="nl">luitenant</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns9:altLabel xml:lang="nl">Regensburg, luitenant</ns9:altLabel>
+            <ns9:prefLabel xml:lang="nl">luitenant Regensburg</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns9:altLabel xml:lang="nl">Anon</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">anonymous</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">anoniem</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:TimeSpan rdf:about="https://id.rijksmuseum.nl/240126">
+            <ns9:prefLabel xml:lang="nl">Atjeh-oorlog</ns9:prefLabel>
+          </ns3:TimeSpan>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

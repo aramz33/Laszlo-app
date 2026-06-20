@@ -1,0 +1,211 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200110498</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:34:30Z</ns0:datestamp>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200110498#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200110498">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21022394" />
+                <dc:description xml:lang="en">Johan Rudolf Thorbecke (1798 - 1872), by J.H. Neuman, 1852. The liberal statesman Thorbecke drew up the constitution of 1848 in which more power was taken away from the monarch and given to parliament. Before entering politics Thorbecke had enjoyed an academic career. After graduating he had spent a number of years in Germany. In 1825 he was appointed professor of philosophy and literature at Ghent. In 1830, following the start of the Belgian revolution, Thorbecke returned to Holland. In 1831 he was appointed professor at the faculty of law in Leiden. His political career began in 1840. He became leader of the liberal faction in the Second Chamber. After 1848 he led three cabinets: 1849 - 1853, 1862 - 1868 and 1871 - 1872. Thorbecke is wearing the commander's cross of the Orde van de Nederlandse Leeuw.</dc:description>
+                <dc:description xml:lang="nl">Johan Rudolf Thorbecke (1798 - 1872), door J.H. Neuman, 1852. De liberale staatsman Thorbecke ontwierp de grondwet van 1848 die meer macht aan het parlement gaf ten koste van de macht van de koning. Vóór zijn politieke loopbaan maakte Thorbecke een universitaire carrière. Na zijn studie verbleef hij enkele jaren in Duitsland. In 1825 werd hij hoogleraar wijsbegeerte en letteren in Gent. In 1830, met het uitbreken van de Belgische opstand, keerde Thorbecke terug naar Nederland. In 1831 werd hij in Leiden hoogleraar aan de juridische faculteit. Zijn politieke loopbaan begon in 1840. In de Tweede Kamer werd hij de leider van de liberalen. Na 1848 leidde hij driemaal een kabinet: 1849 - 1853; 1862 - 1868; 1871 - 1872. Thorbecke draagt het kommandeurskruis van de Orde van de Nederlandse Leeuw.</dc:description>
+                <dc:identifier>SK-A-4120</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21037605" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21054211" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211155" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211156" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22123" />
+                <dc:title xml:lang="en">Portrait of Johan Rudolf Thorbecke, Minister of State and Minister of the Interior</dc:title>
+                <dc:title xml:lang="nl">Johan Rudolf Thorbecke (1796-1872). Minister van Staat en minister van binnenlandse zaken</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">1852</ns5:created>
+                <ns5:created xml:lang="nl">1852</ns5:created>
+                <ns5:extent xml:lang="en">depth 6 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 100 cm x width 84 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">buitenmaat: diepte 6 cm (drager incl. SK-L-4921)</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 100 cm x breedte 84 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301117251" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144604" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301152831" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301216127" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301246300" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301302802" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30165550" />
+                <ns5:isReferencedBy>Documentatiemap Schilderijen: aantekeningen R. van Luttervelt (voor 1963)?</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">? collection of the sitter; ? by descent to his grandson, Willem J. R. Thorbecke (?-1989), The Hague; from whom, fl. 5,000, to the museum, 1965</ns5:provenance>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/hcYMA/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/hcYMA" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/hcYMA/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4120--7469daa6ff1a3bd03af511c021536fb1">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns7:prefLabel xml:lang="en">biografic</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">biografisch</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns7:prefLabel xml:lang="en">paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderijen</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns7:prefLabel xml:lang="en">canvas</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">doek</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns7:prefLabel xml:lang="en">painting</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderij</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns7:prefLabel xml:lang="en">oil paint (paint)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">olieverf</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2211155">
+            <ns8:sameAs rdf:resource="https://iconclass.org/44B211" />
+            <ns7:altLabel>44B211</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">minister ~ government</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2211156">
+            <ns8:sameAs rdf:resource="https://iconclass.org/41A7212" />
+            <ns7:altLabel>41A7212</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">armchair, seat</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22123">
+            <ns8:sameAs rdf:resource="https://iconclass.org/61B2" />
+            <ns7:altLabel>61B2</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">historical persons</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/hcYMA">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21022394">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/96207834" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500074645" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q18508375" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/59215" />
+            <ns9:dateOfBirth xml:lang="nl">1819-01-07</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1898-04-14</ns9:dateOfDeath>
+            <ns9:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230364">
+                <ns7:prefLabel xml:lang="en">Cologne</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Keulen (stad)</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfBirth>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+                <ns7:prefLabel xml:lang="en">The Hague</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Den Haag</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns7:prefLabel xml:lang="en">painter</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">schilder</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns7:prefLabel xml:lang="en">printmaker</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">prentmaker</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns7:prefLabel xml:lang="en">draftsman (artist)</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">tekenaar</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Neuman, Johan Heinrich</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Jan Hendrik Neuman</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Neuman, Jan Hendrik</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Neuman, Johan Heinrich</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Johan Heinrich Neuman</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Johan Heinrich Neuman</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21037605">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/66475528" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q182509" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/444242" />
+            <ns9:dateOfBirth xml:lang="nl">1798-01-14</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1872-06-04</ns9:dateOfDeath>
+            <ns9:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230180">
+                <ns7:prefLabel xml:lang="nl">Zwolle</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfBirth>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+                <ns7:prefLabel xml:lang="en">The Hague</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Den Haag</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2205132">
+                <ns7:prefLabel xml:lang="nl">Tweede Kamerlid</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2206371">
+                <ns7:prefLabel xml:lang="nl">Minister van Staat</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2206381">
+                <ns7:prefLabel xml:lang="nl">Minister van Binnenlandse Zaken</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Thorbecke, Johan Rudolf</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Thorbecke, Johan Rudolf</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Johan Rudolf Thorbecke</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Johan Rudolf Thorbecke</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21054211">
+            <ns7:prefLabel xml:lang="nl">Orde van de Nederlandse Leeuw</ns7:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

@@ -1,0 +1,199 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200109265</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:28:08Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260213</ns0:setSpec>
+        <ns0:setSpec>260215</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>26121</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200109265#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200109265">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2102110" />
+                <dc:description xml:lang="en">This is a panoramic, sun-drenched river landscape – somewhat hazy in the distance – with sketchily drawn clouds. Two Dutch officers halt at the river, and water their horses next to a herder and his resting cattle. This idyllic scene does not unfold in Italy, but along the Waal between Nijmegen and Cleves, where Cuyp made landscape drawings that he took back to his workshop in Dordrecht.</dc:description>
+                <dc:description xml:lang="nl">Een weids zonovergoten rivierlandschap, wazig in de verte, met een luchtig geschetste wolkenpartij. Twee Nederlandse officieren houden halt aan de rivier en drenken hun paarden vlak bij een herder met zijn rustende kudde. Dit idyllische tafereel speelt zich niet af in Italië, maar aan de Waal bij Nijmegen, waar Cuyp landschapstekeningen maakte die hij meenam naar zijn atelier in Dordrecht.</dc:description>
+                <dc:identifier>SK-A-4118</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20071533" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221130" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221171" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22150" />
+                <dc:title xml:lang="en">River Landscape with Riders</dc:title>
+                <dc:title xml:lang="en">Rivierlandschap met ruiters</dc:title>
+                <dc:title xml:lang="nl">River Landscape with Riders</dc:title>
+                <dc:title xml:lang="nl">Rivierlandschap met ruiters</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">c. 1653 - 1657</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1653 - 1657</ns5:created>
+                <ns5:extent xml:lang="en">outer size: depth 10 cm (support incl. frame)</ns5:extent>
+                <ns5:extent xml:lang="en">support: height 128.7 cm x width 227.8 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">buitenmaat: diepte 10 cm (drager incl. SK-L-4756)</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 128,7 cm x breedte 227,8 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260213" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260215" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26121" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301139902" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301140863" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30116763" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3011738" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30124751" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30131757" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3013517" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3013518" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3013522" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015253" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30157626" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015968" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30166463" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30166844" />
+                <ns5:isReferencedBy>Chr. Brown, Simiolus nr. 3 (1998), p. 202, 203 + afb.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>D.G. Burnett, Apollo (1969), p. 377-379, fig. 16 (ca. 1655)</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Gazette des Beaux-Arts, LXVII (febr. 1966), p. 85 (afgebeeld als aanwinst voor het Rijksmuseum)</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Rustende ruiters in een landschap door Aelbert Cuyp, Bulletin Dordrechts Museum, 3 (1978), p. 2 + afb.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>S. Reiss, Aelbert Cuyp, The Burlington Magazine 95 (1953), p. 46 (middenperiode ca. 1655)</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">&lt;div&gt;&lt;p&gt;…; sale, Jacob Odon (†), Amsterdam (P. van der Schley et al.), 6 September 1784, no. 51 (‘In dit capitaal Landschap ziet men ter rechterzyde op de voorgrond, drie rustende Koeijen en een staande, ter zyde derzelve een staande Veehoeder met een Hond, rustende op zyn Stok; op de voorgrond voor derzelve zyn twee Heeren te Paard aan een Rivier, waar uit een der Paarden staat te drinken, en ter linkerzyde eenige zwemmende Eenden, en ter zelve zyde over de Rivier een aangenaam Landgezigt van Kreupelbosschen en Valleyen, en in het Verschiet het hoog blaauw Gebergte; ter rechterzyde op de tweede grond staat tegens het hoog Gebergte een Herberg, en voor dezelve een Postkar met eenige Passagiers, ter zyde deeze Herberg een Boere Stulp, en in het Verschiet een Dorpgezigt. Op Doek, hoog 50, breed 87 duim [128.5 x 223.5 cm]’), fl. 380, to Coclair;{A. Chong, _&lt;em&gt;Aelbert Cuyp and the Meaning of Landscape&lt;/em&gt;_, diss. New York University 1992, p. 424.}...; the dealer Noel Joseph Desenfans (1745-1807), London, c. 1795;{J. Smith, _&lt;em&gt;A Catalogue Raisonné of the Works of the Most Eminent Dutch, Flemish and French Painters&lt;/em&gt;_, IX, London 1842, p. 660. Various authors have suggested that the painting was in the collection that Desenfans put together for the Polish king Stanislaw II (1732-1798), who was deposed in 1795; C.J. de Bruyn Kops, ‘Kanttekeningen bij het nieuw verworven landschap van Aelbert Cuyp: En enige bijzonderheden over de waardering en export van zijn werk in het verleden’, _&lt;em&gt;Bulletin van het Rijksmuseum&lt;/em&gt;_ 13 (1965), pp. 161-76, esp. pp. 169-71; A. Chong, _&lt;em&gt;Aelbert Cuyp and the Meaning of Landscape&lt;/em&gt;_, diss. New York University 1992, pp. 37-38.} from whom, 350 gns, probably to Joseph Martin († 1828), Ham Court, Upton-on-Severn, Worcestershire, c. 1796;{Smith states that the painting was bought around 1796, implying that this was done by Joseph’s son John Joseph, the later owner, but since he was about 6 years old at the time this seems unlikely; J. Smith, _&lt;em&gt;A Catalogue Raisonné of the Works of the Most Eminent Dutch, Flemish and French Painters&lt;/em&gt;_, IX, London 1842, p. 660.} his son, John Joseph Martin (1790-1873), with Ham Court; recorded in his collection, 1842, 1850, 1854;{J. Smith, _&lt;em&gt;A Catalogue Raisonné of the Works of the Most Eminent Dutch, Flemish and French Painters&lt;/em&gt;_, IX, London 1842, pp. 659-60; _&lt;em&gt;Catalogue of Pictures by Italian, Spanish, Flemish, Dutch, French, and English Masters: With Which the Proprietors Have Favoured the Institutio&lt;/em&gt;n_, exh. cat. London (British Institution for Promoting the Fine Arts in the United Kingdom) 1850, p. 8, no. 20; G.F. Waagen, _&lt;em&gt;Treasures of Art in Great Britain: Being an Account of the Chief Collections of Paintings, Drawings, Sculptures, Illuminated MSS., &amp;amp;c. &amp;amp;c.&lt;/em&gt;,_, III, London 1854, p. 224, no. 114.} his nephew, George Edward Martin (1829-1905), with Ham Court; recorded in his collection, 1870, 1880;{F.P. Seguier, _&lt;em&gt;A Critical and Commercial Dictionary of the Works of Painters: Comprising Eight Thousand Eight Hundred and Fifty Sale Notes of Pictures and Nine Hundred and Eighty Original Notes on the Subjects and Styles of Various Artists Who Have Painted in the Schools of Europe between the Years 1250 and 1850&lt;/em&gt;_, London 1870, p. 54; _&lt;em&gt;Exhibition of Works by the Old Masters, and by Deceased Masters of the British School&lt;/em&gt;_, exh. cat. London (Royal Academy of Arts) 1880, no. 114; C. Hofstede de Groot, _&lt;em&gt;Beschreibendes und kritisches Verzeichnis der Werke der hervorragendsten holländischen Maler des XVII. Jahrhunderts&lt;/em&gt;_, II, Esslingen/Paris 1908, p. 133, no. 458.}…; collection Baron Alfred de Rothschild (1842-1918), London and Halton House, Buckinghamshire, early 20th century;{E.K. Waterhouse et al., _&lt;em&gt;Catalogue of the Exhibition of 17th Century Art in Europe&lt;/em&gt;_, exh. cat. London (Royal Academy of Arts) 1938, no. 127. According to Chong De Rothschild purchased the painting after 1907; A. Chong, _&lt;em&gt;Aelbert Cuyp and the Meaning of Landscape&lt;/em&gt;_, diss. New York University 1992, p. 53.} his nephew, Lionel Nathan de Rothschild (1882-1942), with Halton House, 1918;{E.K. Waterhouse et al., _&lt;em&gt;Catalogue of the Exhibition of 17th Century Art in Europe&lt;/em&gt;_, exh. cat. London (Royal Academy of Arts) 1938, no. 127.} transferred to his estate, Exbury, Hampshire, 1920s;{According to A. Chong, _&lt;em&gt;Aelbert Cuyp and the Meaning of Landscape&lt;/em&gt;_, diss. New York University 1992, p. 424, listed in the Exbury inventory.} his son, Edmund Leopold de Rothschild (1916-2009), with the Exbury estate, 1942;{D. Thomas and R.T. James, _&lt;em&gt;Dutch Pictures 1450-1750&lt;/em&gt;_, exh. cat. London (Royal Academy of Arts) 1952-53, p. 39, no. 170; _&lt;em&gt;European Pictures from an English County&lt;/em&gt;_, exh. cat. London (Thos. Agnew &amp;amp; Sons Ltd) 1957, no. 19.} from whom, £192,500, to the museum, through the mediation of the dealer Geoffrey Agnew, with the support of the Dutch Government, the Vereniging Rembrandt, the Prins Bernhard Cultuurfonds and the Fotocommissie, 1965&lt;/p&gt;&lt;/div&gt;</ns5:provenance>
+                <ns6:spn xml:lang="en">Purchased with the support of the State of the Netherlands, the Vereniging Rembrandt and the Stichting tot Bevordering van de Belangen van het Rijksmuseum</ns6:spn>
+                <ns6:spn xml:lang="nl">Aankoop met steun van de Staat der Nederlanden, de Vereniging Rembrandt en de Stichting tot Bevordering van de Belangen van het Rijksmuseum</ns6:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/uMHxo/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/uMHxo" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/uMHxo/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4118--138c129165a232744e15199829b37ba1">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260213">
+            <ns8:prefLabel xml:lang="en">Top 100</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 100</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260215">
+            <ns8:prefLabel xml:lang="en">Vereniging Rembrandt</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Vereniging Rembrandt</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26121">
+            <ns8:prefLabel xml:lang="en">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns8:prefLabel xml:lang="en">canvas</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">doek</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221130">
+            <ns9:sameAs rdf:resource="https://iconclass.org/47I2112" />
+            <ns8:altLabel>47I2112</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">cow</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221171">
+            <ns9:sameAs rdf:resource="https://iconclass.org/25H213" />
+            <ns8:altLabel>25H213</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">river</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22150">
+            <ns9:sameAs rdf:resource="https://iconclass.org/46C13141" />
+            <ns8:altLabel>46C13141</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">horse</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/uMHxo">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2102110">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/19949742" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500121064" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q313194" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/19498" />
+            <ns10:dateOfBirth xml:lang="nl">1620-10-20</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1691-11 - 1691-11-15</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230171">
+                <ns8:prefLabel xml:lang="en">Dordrecht</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Dordrecht</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Cuyp, Aelbert</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Cuyp, Aelbert</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Aelbert Cuyp</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Aelbert Cuyp</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

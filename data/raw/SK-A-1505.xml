@@ -1,0 +1,205 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200109293</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:28:37Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260213</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200109293#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200109293">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2102266" />
+                <dc:description xml:lang="en">‘Our country is saturated with colour. ... I repeat, our country is not grey, not even in grey weather, nor are the dunes grey’, wrote Constant Gabriël in a letter. Unlike many Hague School painters, he actually enjoyed depicting a beautiful summer day. There are even two of them in this painting: the image of the grass, sky and mill, and their reflection in the water.</dc:description>
+                <dc:description xml:lang="nl">‘Ons land is gekleurd-sappig-vet. (...) ik herhaal het, ons land is niet grijs, zelfs niet bij grijs weer, de duinen zijn ook niet grijs’, schreef Constant Gabriël in een brief. In tegenstelling tot veel schilders van de Haagse School schilderde hij graag een mooie zomerdag. Op dit schilderij staan er zelfs twee: het gras, de lucht en de molen worden weerspiegeld in het water.</dc:description>
+                <dc:identifier>SK-A-1505</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221240" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221352" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221611" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221900" />
+                <dc:title xml:lang="en">A Windmill on a Polder Waterway, Known as ‘In the Month of July’</dc:title>
+                <dc:title xml:lang="en">Een molen aan een poldervaart, bekend als ‘In de maand juli’</dc:title>
+                <dc:title xml:lang="nl">A Windmill on a Polder Waterway, Known as ‘In the Month of July’</dc:title>
+                <dc:title xml:lang="nl">Een molen aan een poldervaart, bekend als ‘In de maand juli’</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:alternative xml:lang="en">‘In the Month of July’, a Windmill on a Polder Waterway</ns5:alternative>
+                <ns5:alternative xml:lang="nl">'In de maand juli', een molen aan een poldervaart</ns5:alternative>
+                <ns5:created xml:lang="en">c. 1889</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1889</ns5:created>
+                <ns5:extent xml:lang="en">height 102 cm x width 66 cm x depth 14 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 102 cm x breedte 66 cm x diepte 14 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260213" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2621558" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100936" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301101291" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301105811" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30110897" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301110162" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301114892" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301119551" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301126955" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301131740" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301149108" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301153128" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301153672" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301154105" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30119878" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301274270" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3013997" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30140463" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30143310" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015253" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30161428" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30161433" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30166844" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30184102" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30192341" />
+                <ns5:isReferencedBy>A. McNeil Kettering, 'Landscape with sails: the windmill in Netherlandish prints', Simiolus 33 (2007/2008), p. 79</ns5:isReferencedBy>
+                <ns5:isReferencedBy>M. Jonkman, 'Tussen binnen en buiten. Plein-air schilderen in de negentiende eeuw', Kunstschrift, 51, (2007) nr. 3, p. 28, afb. 33</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204040" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/HNwWx/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/HNwWx" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/HNwWx/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1505--3e97d6f21dd17609968549d9d3b76922">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260213">
+            <ns8:prefLabel xml:lang="en">Top 100</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 100</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns8:prefLabel xml:lang="en">canvas</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">doek</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2204040">
+            <ns8:altLabel xml:lang="nl">geschilderd</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">paint</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderen</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221240">
+            <ns9:sameAs rdf:resource="https://iconclass.org/25H22" />
+            <ns8:altLabel>25H22</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">canal</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221352">
+            <ns9:sameAs rdf:resource="https://iconclass.org/25I41" />
+            <ns8:altLabel>25I41</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">windmill in landscape</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221611">
+            <ns9:sameAs rdf:resource="https://iconclass.org/47D31" />
+            <ns8:altLabel>47D31</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">windmill</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221900">
+            <ns9:sameAs rdf:resource="https://iconclass.org/23L31" />
+            <ns8:altLabel>23L31</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">landscape symbolizing July</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/HNwWx">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2102266">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/5203487" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500003466" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q2303402" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/29873" />
+            <ns10:dateOfBirth xml:lang="nl">1828</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1903-08-23</ns10:dateOfDeath>
+            <ns10:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/23029985" />
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230604">
+                <ns8:prefLabel xml:lang="nl">Scheveningen</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Gabriël, P.J.C.</ns8:altLabel>
+            <ns8:altLabel xml:lang="en">Gabriël, Paul Joseph Constantin</ns8:altLabel>
+            <ns8:altLabel xml:lang="en">P.J.C. Gabriël</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Gabriël, P.J.C.</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Gabriël, Paul Joseph Constantin</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">P.J.C. Gabriël</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Paul Joseph Constantin Gabriël</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Paul Joseph Constantin Gabriël</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+            <ns8:prefLabel xml:lang="en">Amsterdam</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Amsterdam</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

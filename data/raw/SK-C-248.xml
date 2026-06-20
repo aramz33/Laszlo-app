@@ -1,0 +1,186 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20026821</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:20:51Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20026821#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20026821">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101767" />
+                <dc:description xml:lang="en">When this picture went under the hammer in 1824, it was presented as a self-portrait of Adriaen van de Velde with his family. This myth persisted throughout the entire 19th century, and in part because of this it became one of the most admired attractions in Amsterdam. When it became clear that it was certainly not a self-portrait, interest in the painting diminished noticeably.</dc:description>
+                <dc:description xml:lang="nl">In 1824, toen dit schilderij werd geveild, werd het gepresenteerd als een zelfportret van Adriaen van de Velde met zijn gezin. Gedurende de hele 19de eeuw hield deze mythe stand, en mede daardoor groeide het werk uit tot een van de meest bewonderde bezienswaardigheden in Amsterdam. Toen duidelijk werd dat dit zeker geen zelfportret is, nam de belangstelling zienderogen af.</dc:description>
+                <dc:identifier>SK-C-248</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200144737" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20074135" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221202" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221205" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221339" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221609" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221610" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22192" />
+                <dc:title xml:lang="en">Portrait of a Couple with Two Children and a Nurse in a Landscape</dc:title>
+                <dc:title xml:lang="en">Portret van een echtpaar met twee kinderen en een min in een landschap</dc:title>
+                <dc:title xml:lang="nl">Portrait of a Couple with Two Children and a Nurse in a Landscape</dc:title>
+                <dc:title xml:lang="nl">Portret van een echtpaar met twee kinderen en een min in een landschap</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">1667</ns5:created>
+                <ns5:created xml:lang="nl">1667</ns5:created>
+                <ns5:extent xml:lang="en">depth 8.5 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 148 cm x width 178 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">buitenmaat: diepte 8,5 cm (drager incl. SK-L-4755)</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 148 cm x breedte 178 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301107690" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301120564" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144234" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301185785" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301248156" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30166465" />
+                <ns5:isReferencedBy>J.W. de Zeeuw, 'De Gouden Eeuw uit turf geboren', Spieghel Historiael (1879), p. 524-531, afb. 9.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns6:spn xml:lang="en">On loan from the City of Amsterdam (A. van der Hoop Bequest)</ns6:spn>
+                <ns6:spn xml:lang="nl">Bruikleen van de gemeente Amsterdam (legaat A. van der Hoop)</ns6:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/nBeuk/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/nBeuk" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/nBeuk/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-C-248--84fca816234186e133ba8a1799856c18">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns8:prefLabel xml:lang="en">canvas</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">doek</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221202">
+            <ns9:sameAs rdf:resource="https://iconclass.org/42B74" />
+            <ns8:altLabel>42B74</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">family group, especially parents with their child(ren)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221205">
+            <ns9:sameAs rdf:resource="https://iconclass.org/25H1" />
+            <ns8:altLabel>25H1</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">landscapes in the temperate zone</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221339">
+            <ns9:sameAs rdf:resource="https://iconclass.org/46C11" />
+            <ns8:altLabel>46C11</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">road, path</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221609">
+            <ns9:sameAs rdf:resource="https://iconclass.org/46C1442" />
+            <ns8:altLabel>46C1442</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">four-wheeled vehicle drawn by two animals</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221610">
+            <ns9:sameAs rdf:resource="https://iconclass.org/42A311" />
+            <ns8:altLabel>42A311</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">wet-nurse</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22192">
+            <ns9:sameAs rdf:resource="https://iconclass.org/34B11" />
+            <ns8:altLabel>34B11</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">dog</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/nBeuk">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101767">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/76585672" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500007230" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q367741" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/79763" />
+            <ns10:dateOfBirth xml:lang="nl">1636 - 1636-11-30</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1672 - 1672-01-21</ns10:dateOfDeath>
+            <ns10:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/23029985" />
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns8:prefLabel xml:lang="en">Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Amsterdam</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Velde, Adriaen van de</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Adriaan van de Velde</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Velde, Adriaan van de</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Velde, Adriaen van de</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Adriaen van de Velde</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Adriaen van de Velde</ns8:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

@@ -1,0 +1,266 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns11="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200116033</ns0:identifier>
+        <ns0:datestamp>2026-06-08T02:10:17Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26126</ns0:setSpec>
+        <ns0:setSpec>2618</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200116033#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200116033">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2105026" />
+                <dc:description xml:lang="en">In his design for the tomb of Maerten Harpertsz Tromp, Rombout Verhulst chose to represent the naval hero wearing his armour, his head resting on a cannon, with the medal he was once awarded in one hand, his commander’s baton in the other. The admiral was killed on 3 August 1653 off the cost of South Holland by English cannon fire. His real tomb is made of marble and stands in the Oude Kerk in Delft.</dc:description>
+                <dc:description xml:lang="nl">In zijn harnas, zijn hoofd rustend op een kanon, de erepenning die hij ooit kreeg in zijn ene hand, zijn commandostaf in de andere: zo beeldde Rombout Verhulst de zeeheld Maerten Harpertsz Tromp af op zijn grafmonument. De admiraal was op 3 augustus 1653 voor de Zuid-Hollandse kust door een Engelse kogel gedood. Het echte grafmonument is van marmer en staat in de Oude Kerk in Delft.</dc:description>
+                <dc:identifier>BK-NM-4352</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2108726" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221111" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22138" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221657" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221705" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2307475" />
+                <dc:title xml:lang="en">Model for the tomb of Maerten Harpertsz Tromp</dc:title>
+                <dc:title xml:lang="en">Model voor het praalgraf van Maerten Harpertsz Tromp</dc:title>
+                <dc:title xml:lang="nl">Model for the tomb of Maerten Harpertsz Tromp</dc:title>
+                <dc:title xml:lang="nl">Model voor het praalgraf van Maerten Harpertsz Tromp</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201345" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2202197" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220909" />
+                <ns5:created xml:lang="en">1654</ns5:created>
+                <ns5:created xml:lang="nl">1654</ns5:created>
+                <ns5:extent xml:lang="en">height 125 cm x width 104 cm x depth 40 cm (total)</ns5:extent>
+                <ns5:extent xml:lang="en">height 125 cm x width 86 cm (frame)</ns5:extent>
+                <ns5:extent xml:lang="en">height 62 cm x width 53 cm (terracotta)</ns5:extent>
+                <ns5:extent xml:lang="en">length 56 cm x depth 33 cm (recumbent figure)</ns5:extent>
+                <ns5:extent xml:lang="nl">figuur: lengte 56 cm x diepte 33 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">geheel: hoogte 125 cm x breedte 104 cm x diepte 40 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">lijst: hoogte 125 cm x breedte 86 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">reliëf: hoogte 62 cm x breedte 53 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26126" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2618" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100494" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301104229" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301123774" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301140466" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30114459" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301152219" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301152694" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30115456" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3011873" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125313" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125314" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30153305" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30172770" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30178569" />
+                <ns5:isReferencedBy>A. Pit, 'De verzameling Hollandsch Beeldhouwwerk in het Nederlandsch Museum, te Amsterdam', Bulletin van den Nederlandschen Oudheidkundigen Bond II (1900-1901), p. 13-14.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>D. van der Kellen, 'Het Nederlandsch Museum voor Geschiedenis en Kunst te 's-Gravenhage', Eigen Haard (1879), p. 154.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Documentatiemap.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>M. van Baalen, 'Schaalmodel voor het praalgraf van Maarten Harpertszoon Tromp (1598-1653) te Delft', KunstKrant (2003), nr. 6, p. 12-13.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>R. van Luttervelt, 'Rombout Verhulst (1624-1698) Willem de Keyser (1603-na 1674) naar een ontwerp van Jacob van Campen : Het grafmonument van Maarten Harpertsz. Tromp Oude Kerk Delft, Openbaar Kunstbezit (ca. 196.[?]), p. 32a, b en afb. 32V, 32AV en 32BV.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220445" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220907" />
+                <ns5:provenance xml:lang="en">Commissioned by the States General, 1654;{An almost complete transcription of the resolutions of the States General concerning the commissioning of the tomb is preserved at the Huisarchief Kasteel Twickel (Delden). These accompany the resolutions concerning the building of the tomb of Admiral Jacob van Wassenaer Obdam (no. PW 259, resolutions of 4 March and 15 July 1667), see F. Scholten, _&lt;em&gt;Sumptuous Memories: Studies in Seventeenth-Century Dutch Tomb Sculpture&lt;/em&gt;_, Zwolle 2003, p. 262 (note 95).}; ? donated to Maarten Tromp’s widow Cornelia Teding van Berkhout (1614-1680), c. 1654/58; her daughter, Anna Maria Gans-Tromp (1644-1717), Keysershoff, Den Bosch and Huis Binderen (near Helmond);{Mentioned in the inventories of her estate, dated 1 February 1717: _&lt;em&gt;Een out model van hout en pleisterwerk van den admirael Maarten Herpertse Tromp&lt;/em&gt;_ and 10 April 1717: _&lt;em&gt;Het model van de tombe van den admirael Tromp van eyckehout&lt;/em&gt;_, see A. Sassen, _&lt;em&gt;De protocollen der Helmondsche notarissen [1595-1798]&lt;/em&gt;_, Den Bosch 1890, nos. 246 and 248.} acquired by ‘M. Sarluis’, 10 April 1717;{Note RMA by R. van Luttervelt.} ? by descent to the dealer S. Sarluis, The Hague; from whom, fl. 350, to the Ministry of Internal Affairs, 1878;{Note RMA.} transferred to the Nederlandsch Museum van Geschiedenis en Kunst, The Hague, 1878; transferred to the museum, 1885</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23029985" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204652" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204686" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206793" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/NCMvk/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/NCMvk" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/NCMvk/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-NM-4352--6d54c57bcd567728d8712a0c8238f710">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/23029985">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006952" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q727" />
+            <ns9:sameAs rdf:resource="https://sws.geonames.org/2759794/" />
+            <ns8:prefLabel xml:lang="en">Amsterdam</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Amsterdam</ns8:prefLabel>
+            <ns10:lat>4.916667</ns10:lat>
+            <ns10:long>52.35</ns10:long>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26126">
+            <ns8:prefLabel xml:lang="en">sculptures</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">beeldhouwwerken</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2618">
+            <ns8:prefLabel xml:lang="en">European Sculpture in the Rijksmuseum</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">European Sculpture in the Rijksmuseum</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2201345">
+            <ns8:prefLabel xml:lang="nl">model</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202197">
+            <ns8:altLabel xml:lang="nl">grafteken</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">sepulchral monument</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">grafmonument</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220445">
+            <ns8:prefLabel xml:lang="en">terracotta (clay material)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">terracotta</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2204652">
+            <ns8:altLabel xml:lang="nl">gesneden</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">uitgesneden</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">uitsnijden</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">cutting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">snijden</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2204686">
+            <ns8:altLabel xml:lang="nl">gesaust</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">painted</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">sausen</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2206793">
+            <ns8:altLabel xml:lang="nl">geboetseerd</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">modeling</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">boetseren</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220907">
+            <ns8:prefLabel xml:lang="en">oak (wood)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">eikenhout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220909">
+            <ns8:prefLabel xml:lang="en">sketch</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schets</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221111">
+            <ns9:sameAs rdf:resource="https://iconclass.org/44A1" />
+            <ns8:altLabel>44A1</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">coat of arms (as symbol of the state, etc.)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22138">
+            <ns9:sameAs rdf:resource="https://iconclass.org/48A9853" />
+            <ns8:altLabel>48A9853</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">scallop, shell ~ ornament</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221657">
+            <ns9:sameAs rdf:resource="https://iconclass.org/42E3" />
+            <ns8:altLabel>42E3</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">grave, tomb and other grave-forms and grave-markers</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221705">
+            <ns9:sameAs rdf:resource="https://iconclass.org/92D1916" />
+            <ns8:altLabel>92D1916</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">cupids: 'amores', 'amoretti', 'putti'</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/NCMvk">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2105026">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/50280490" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500009676" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q706378" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/80391" />
+            <ns11:dateOfBirth xml:lang="nl">1624-01-15</ns11:dateOfBirth>
+            <ns11:dateOfDeath xml:lang="nl">1698 - 1698-11-27</ns11:dateOfDeath>
+            <ns11:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/230162" />
+            <ns11:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+                <ns8:prefLabel xml:lang="en">The Hague</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Den Haag</ns8:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfDeath>
+            <ns11:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205167">
+                <ns8:prefLabel xml:lang="en">sculptor</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">beeldhouwer</ns8:prefLabel>
+              </ns8:Concept>
+            </ns11:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Verhulst, Rombout</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Verhulst, Rombout</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Rombout Verhulst</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Rombout Verhulst</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2108726">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/50024751" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q470200" />
+            <ns11:dateOfBirth xml:lang="nl">1598-04-23</ns11:dateOfBirth>
+            <ns11:dateOfDeath xml:lang="nl">1653-08-10</ns11:dateOfDeath>
+            <ns11:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230946">
+                <ns8:prefLabel xml:lang="en">Brielle</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Brielle (Zuid-Holland)</ns8:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfBirth>
+            <ns11:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230604">
+                <ns8:prefLabel xml:lang="nl">Scheveningen</ns8:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfDeath>
+            <ns11:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2203194">
+                <ns8:prefLabel xml:lang="en">admiral</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">admiraal</ns8:prefLabel>
+              </ns8:Concept>
+            </ns11:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Tromp, Maarten Harpertszoon</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Tromp, Maarten Harpertszoon</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Maarten Harpertszoon Tromp</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Maarten Harpertszoon Tromp</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/230162">
+            <ns8:prefLabel xml:lang="en">Mechelen</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Mechelen (stad)</ns8:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2307475">
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q612065" />
+            <ns8:prefLabel xml:lang="nl">Oude Kerk (Delft)</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

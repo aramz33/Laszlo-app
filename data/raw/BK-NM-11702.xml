@@ -1,0 +1,157 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20034370</ns0:identifier>
+        <ns0:datestamp>2026-06-08T01:31:17Z</ns0:datestamp>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260243</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261200</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20034370#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20034370">
+                <dc:description xml:lang="en">Tapestry (fragment) with the arms of Guillaume Roger de Beaufort, Count of Turenne (? - 1394), and Aliénor de Comminges (? - 1397). Wool. Southern Netherlands or Northern France,c. 1400 - 1440. The fragment originally formed part of tapestry wall or bed hangings.</dc:description>
+                <dc:description xml:lang="nl">Wandtapijt (fragment) met wapens van Guillaume Roger de Beaufort, Graaf van Turenne (? - 1394), en Aliénor de Comminges (? - 1397). Wol. Zuidelijke Nederlanden of Noord-Frankrijk,ca. 1400 - 1440. Het fragment is eens onderdeel geweest van behangsels of (bed)gordijnen in tapisserie.</dc:description>
+                <dc:identifier>BK-NM-11702</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21074917" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21074918" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211366" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211383" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211544" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211545" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22185" />
+                <dc:title xml:lang="nl">Tapijt met de wapens van Rogier de Beaufort, Turenne en De Comminges (fragment)</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220535" />
+                <ns5:created xml:lang="en">c. 1376 - c. 1378</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1376 - ca. 1378</ns5:created>
+                <ns5:extent xml:lang="en">height 221.5 cm x width 210 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 221,5 cm x breedte 210 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260243" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261200" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301148451" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30144570" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30163854" />
+                <ns5:isReferencedBy>E. de Comminges, 'Une tapisserie aux armes Beaufort, Turenne et Comminges', Revue de Comminges 85 (1972), 267-290, planche 6.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J.-B. de Vaivre, A propos dúne tapisserie aux armes Beaufort-Comminges', Bulletin Monumental Société Française d'Archeologie 132 (1974), p. 297-302.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220126" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22088" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2201010" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/Ikahj/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/Ikahj" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/Ikahj/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-NM-11702--58a6d10b90b346d5f750a07dca641bd2">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260243">
+            <ns8:prefLabel xml:lang="en">birdwatching</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">vogelen</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261200">
+            <ns8:prefLabel xml:lang="nl">Europese wandtapijten</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2201010">
+            <ns8:altLabel xml:lang="nl">tapisserie</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">tapestry</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">tapijtwerk</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220126">
+            <ns8:prefLabel xml:lang="en">wool</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">wol</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220535">
+            <ns8:altLabel xml:lang="nl">gobelin</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">tapestry</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">wandtapijt</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22088">
+            <ns8:prefLabel xml:lang="en">silk</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">zijde</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211366">
+            <ns9:sameAs rdf:resource="https://iconclass.org/25F24%28DEER%29" />
+            <ns8:altLabel>25F24(DEER)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">hoofed animals: deer</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211383">
+            <ns9:sameAs rdf:resource="https://iconclass.org/25FF241" />
+            <ns8:altLabel>25FF241</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">unicorn</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211544">
+            <ns9:sameAs rdf:resource="https://iconclass.org/11G23" />
+            <ns8:altLabel>11G23</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">angels crowning and/or bringing palm-branches</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211545">
+            <ns9:sameAs rdf:resource="https://iconclass.org/25F37%28STORK%29" />
+            <ns8:altLabel>25F37(STORK)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">shore-birds and wading-birds: stork</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22185">
+            <ns9:sameAs rdf:resource="https://iconclass.org/25F25%28ELEPHANT%29" />
+            <ns8:altLabel>25F25(ELEPHANT)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">trunked animals: elephant</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/Ikahj">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21074917">
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q58312912" />
+            <ns10:dateOfBirth xml:lang="nl">1332</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1395</ns10:dateOfDeath>
+            <ns8:altLabel xml:lang="nl">Roger de Beaufort, Guillaume III</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">Guillaume III Roger de Beaufort</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21074918">
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q2837335" />
+            <ns10:dateOfBirth xml:lang="nl">1329</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1402</ns10:dateOfDeath>
+            <ns8:altLabel xml:lang="nl">Comminges, Aliénor de</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">Aliénor de Comminges</ns8:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

@@ -1,0 +1,237 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns11="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200114065</ns0:identifier>
+        <ns0:datestamp>2026-06-08T01:24:31Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260215</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26128</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200114065#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200114065">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2104310" />
+                <dc:description xml:lang="en">This bust once contained part of the skull of Frederick, Bishop of Utrecht. After his murder in 838, he was canonized and his skull was venerated as an important relic. The silversmith Scerpswert made this precious container for the skull, shaping it like a portrait bust of the bishop. On Christian feast days, the faithful could worship this devotional object.</dc:description>
+                <dc:description xml:lang="nl">In dit borstbeeld zat ooit een deel van de schedel van de Utrechtse bisschop Frederik. Nadat Frederik in 838 was vermoord, werd hij heilig verklaard. Zijn schedel zou als een belangrijk reliek vereerd worden. De zilversmid Scerpswert maakte er deze kostbare houder voor, in de vorm van een portret van de bisschop. Gelovigen konden het aansprekende voorwerp op christelijke feestdagen zien en vereren.</dc:description>
+                <dc:identifier>BK-NM-11450</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21061050" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221237" />
+                <dc:title xml:lang="en">Borstbeeld van Sint-Frederik</dc:title>
+                <dc:title xml:lang="en">Bust of Saint Frederick</dc:title>
+                <dc:title xml:lang="nl">Borstbeeld van Sint-Frederik</dc:title>
+                <dc:title xml:lang="nl">Bust of Saint Frederick</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201252" />
+                <ns5:created xml:lang="en">1362</ns5:created>
+                <ns5:created xml:lang="nl">1362</ns5:created>
+                <ns5:extent xml:lang="en">height 26.5 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 45.2 cm</ns5:extent>
+                <ns5:extent xml:lang="en">width 24.2 cm x depth 17.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">breedte 24,2 cm x diepte 17,5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">buste: hoogte 26,5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">geheel: hoogte 45,2 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260215" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26128" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2621180" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2621182" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100933" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301101288" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301109626" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301136271" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301136607" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144621" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301152796" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3011738" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301192588" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301210761" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301213643" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301216127" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301237412" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244089" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244192" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244300" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244302" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125593" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125605" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301272373" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301272374" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30158063" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30158086" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30158459" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30158461" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30184092" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30185664" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30185816" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30194352" />
+                <ns5:isReferencedBy>'Aanteekeningen : Reliquien uit Utrecht door de Franschen in 1673 medegenomen', De Navorscher 10 (1860), p. 273.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>A. Darcel, 'L'expostion rétropective d'Amsterdam', Gazette des Beaux-Arts 28 (1883), nr. 11, p. 322.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>A. Matthaeus, Fundationes et fata ecclesiarum praesertim quae Ultrajecti et in ejusdem suburbiis et passim alibi in dioecesi, Leiden, 1704, (herdruk Utrecht, 1710), p. 63.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>A. Pit, 'De zilveren reliekschrijn van Elyas Scerpswert', Bulletin uitgegeven door den Nederlandschen Oudheidkundigen Bond (1899/1900), nr. 2, p. 49; nr. 3, p. 65-70.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>A.A.J. van Rossum, 'Kerkelijke plechtigheden in de St. Salvatorkerk te Utrecht' , Archief voor de geschiedenis van het aartsbisdom Utrecht 3 (1876), p. 109-259.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>C.A. Rutgers, Jan van Arkel, bisschop van Utrecht, Groningen, 1970, p. 214-215, 240.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>E. Molinier, 'Préface', Catalogue des objets d'art et de haute curiosité composant la collection de feu M. Charles Stein et dont la vente aura lieu Galerie Georges Petit. Parijs 8-10 juni 1899, nr. 39.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>G. Brom, 'Kerksieraden van Oudmunster', Archief voor de geschiedenis van het aartsbisdom Utrecht 27 (1901), p. 380, 389, 390, 396, 398, 399.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>H. Schrade, 'Zur Frühgeschichte der mittelalterlichen Monumentalplastik', Westfalen 35 (1957) I, p. 33-64.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>H.F. v[an] H[eussen en H. v[an] R[ijn], Batavia Sacra : Kerkelijke historie van Batavia of levens der Utrechtse Bisschoppen, Antwerpen, 1715, p. 520-521.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>H.F. van Heussen, Batavia sacra, sive res gestae apostolicorum virorum, qui fidem Bataviae primi intulerunt, Brussel, 1714, dl. 1, p. 103.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J. Bolland, Acta Sanctorum, Antwerpen, 1725, p. 454.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J. Braun, Die Reliquiare des christlichen Kultus und ihre Entwicklung, Freiburg im Breisgau, 1940, p. 419.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J. Kalf, 'Een veertiend' eeuwsche reliekschrijn : caput S. Frederici episcopi', De Katholiek, godsdienstig, geschied- en letterkundig maandschrift 116 (1899), p. 350-370.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J.C. Overvoorde, 'Altaar en schilderijen uit de kerk der oud-katholieken te Leiden', Oudheidkundig Jaarboek, Bulletin van den Nederlandschen Oudheidkundigen Bond, derde serie, 7 (1927), p. 12.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J.D. Frenay, 'Aanteekeningen betreffende de Leidsche pastoors sedert "De Hervorming" tot aan de Herstelling" : van 1557-1857', Bijdragen voor de geschiedenis van het bisdom Haarlem 8 (1880), p. 56-85.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J.F.M. Sterck, 'Caput St Frederici Episcopi', Het jaarboekje van Alberdingk Thijm : Almanak voor Nederlandsche Katholieken 49 (1900), p. xxxvii-xxxix.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J.J. Rorimer, 'A reliquary bust made for Poggio Bracciolini', Bulletin of the Metropolitan Museum of Art juni (1956), p. 246-251.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>L. Surius, De probatis sanctorum vitit, quas tam ex mss. codicibus, quam ex aditis authoribus, Keulen, 1618, p. 221.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>L.E. Hoogterp, 'Ik goudsmid maak kostelijke dingen', Kunstschrift Openbaar Kunstbezit 29 (1985), p. 10-14.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Mariët Westermann, 'What's on at the new Rijks', Nederlands Kunsthistorisch Jaarboek (2015), p. 31, afb. 6.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>P. Albers, 'De H. Frederik, VIIIe bisschop van Utrecht', Archief voor de geschiedenis van het aartsbisdom Utrecht 20 (1893), p. 61-64, 259-349.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>W.J.A. Visser, 'Een inventaris van kerksieraden uit 1609, toebehoorende aan de Oudmunster te Utrecht', Archief voor de geschiedenis van het aartsbisdom Utrecht 58 (1934), p. 187</ns5:isReferencedBy>
+                <ns5:isReferencedBy>W.J.A. Visser, 'Relieken van den H. Willibrordus die in 1301 aan de Oudmunsterkerk te Utrecht ten geschenke zijn gegeven', Archief voor de geschiedenis van het aartsbisdom Utrecht 57 (1933), p. 203.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>W.J.A. Visser, 'Verschil van Opvatting', Archief voor de geschiedenis van het aartsbisdom Utrecht 58 (1934), p. 203.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22028" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/2302" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2203881" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206822" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206861" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/220694" />
+                <ns7:spn xml:lang="en">Purchased with the support of the Vereniging Rembrandt and the Koninklijk Oudheidkundig Genootschap</ns7:spn>
+                <ns7:spn xml:lang="nl">Aankoop met steun van de Vereniging Rembrandt en het Koninklijk Oudheidkundig Genootschap</ns7:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/ygNPr/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/ygNPr" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/ygNPr/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-NM-11450--ceae472e3a423da8d8b542d6901ebb23">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2302">
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006926" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q803" />
+            <ns9:prefLabel xml:lang="en">Utrecht</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Utrecht (stad)</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns9:prefLabel xml:lang="en">RijksXL</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">RijksXL</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260215">
+            <ns9:prefLabel xml:lang="en">Vereniging Rembrandt</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Vereniging Rembrandt</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns9:prefLabel xml:lang="en">biografic</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">biografisch</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26128">
+            <ns9:prefLabel xml:lang="nl">edele metalen</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2201252">
+            <ns9:altLabel xml:lang="nl">reliekdrager</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">reliekhouder</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">reliekkist</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">reliekkruis</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">reliekschrijn</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">reliquary</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">reliquiarium</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22028">
+            <ns9:prefLabel xml:lang="en">silver (metal)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">zilver</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2203881">
+            <ns9:altLabel xml:lang="nl">geponst</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">punching</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">ponsen</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2206822">
+            <ns9:prefLabel xml:lang="en">gild</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">vergulden</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2206861">
+            <ns9:altLabel xml:lang="nl">gegraveerd</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">engraving</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">graveren (inkerven)</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220694">
+            <ns9:altLabel xml:lang="nl">gedreven</ns9:altLabel>
+            <ns9:prefLabel xml:lang="nl">drijven</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221237">
+            <ns10:sameAs rdf:resource="https://iconclass.org/11H" />
+            <ns9:altLabel>11H</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">saints</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">heiligen</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/ygNPr">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2104310">
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q19569581" />
+            <ns11:dateOfBirth xml:lang="nl">1320 - 1330</ns11:dateOfBirth>
+            <ns11:dateOfDeath xml:lang="nl">1387</ns11:dateOfDeath>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2205009">
+                <ns9:prefLabel xml:lang="en">goldsmith</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">goudsmid</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns9:altLabel xml:lang="en">Scerpswert, Elias</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Scerpswert, Elias</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Elias Scerpswert</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Elias Scerpswert</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21061050">
+            <ns11:dateOfDeath xml:lang="nl">838-07-18</ns11:dateOfDeath>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2201817">
+                <ns9:prefLabel xml:lang="en">saint</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">heilige</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns9:prefLabel xml:lang="nl">Fredericus I van Utrecht</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns9:prefLabel>Rijksmuseum</ns9:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

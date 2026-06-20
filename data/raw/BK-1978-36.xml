@@ -1,0 +1,156 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns11="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns12="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20036372</ns0:identifier>
+        <ns0:datestamp>2026-06-08T02:13:11Z</ns0:datestamp>
+        <ns0:setSpec>260215</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26126</ns0:setSpec>
+        <ns0:setSpec>2618</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20036372#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20036372">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2105032" />
+                <dc:description xml:lang="en">Pieter Xavery (c. 1647 - 1674, 1673). Young man with a hurdy-gurdy. Terracotta.  Acquired with the support of the Vereniging Rembrandt.</dc:description>
+                <dc:description xml:lang="nl">Pieter Xavery (ca. 1647 - 1674, 1673). Jonge man met draailier. Terracotta. Aankoop met de steun van de Vereniging Rembrandt.</dc:description>
+                <dc:identifier>BK-1978-36</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211732" />
+                <dc:title xml:lang="en">Hurdy-Gurdy Player</dc:title>
+                <dc:title xml:lang="nl">Draailierspeler</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220297" />
+                <ns5:created xml:lang="en">1673</ns5:created>
+                <ns5:created xml:lang="nl">1673</ns5:created>
+                <ns5:extent xml:lang="en">height 31.3 cm (total)</ns5:extent>
+                <ns5:extent xml:lang="en">length 22.7 cm x depth 14.5 cm (plinth)</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 31,3 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">plint: lengte 22,7 cm x diepte 14,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260215" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26126" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2618" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301136271" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301245872" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125069" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301303760" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30183199" />
+                <ns5:isReferencedBy>E. Pelinck, 'Nieuws over den beeldhouwer Pieter Xavery', Oud-Holland 59 (1942), p. 108-109.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Jaarverslag Rijksmuseum (1978), p. 24, afb. 11.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>W. Halsema-Kubes, 'Draailierspeler : Pieter Xavery (1647-1674?)', Vereniging Rembrandt verslag over 1978, p. 41-42.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220445" />
+                <ns5:provenance xml:lang="en">&lt;div&gt;&lt;p&gt;…; ? sale collection Leonardus van Heemskerk, Leiden (P. Delfos), 2 November 1771, p. 14, no. 25, fl. 3 (together with nos. 23 and 24), to Delfos;{T.H. Lunsingh Scheurleer et al., _&lt;em&gt;Het Rapenburg: Geschiedenis van een Leidse gracht&lt;/em&gt;_, Leiden 1992, vol. 6a, p. 137.} …; ? sale collection Johan van der Marck Aegidiuszn (Leiden), Amsterdam (De Winter/Yver), 25 August 1783, p. 185, no. 22, fl. 7 (with no. 21) to Delfos;{Copy RKD. _&lt;em&gt;Pieter Savery ... 22 ----- &amp;nbsp;van dito, waar van een is spelende op de Lier. Zynde niet minder dan de voorgaande&lt;/em&gt;_. The former lot concerns:_&lt;em&gt;een fraaye Groep van twee zittende Mannetjes waar van een is spelende op een Doedelzak, verzelt van een Hond&lt;/em&gt;_. See also inv. no. [BK-1980-19](https://data.rijksmuseum.nl/200262795), from the same sale (no. 23).} …; collection Simon Wolf (‘Sim’) Josephus Jitta (1819-1897), in or before 1877;{_&lt;em&gt;Catalogus der tentoonstelling van kunst toegepast op nijverheid&lt;/em&gt;_, exh. cat. Amsterdam (Paleis voor Volksvlijt) 1877, p. 138, no. 14.} …; collection Robert May (1873-1962), Amsterdam, date unknown;{Robert May was an associate of the Amsterdam bank Lippmann, Rosenthal &amp;amp; Co. See Christiaan J.A. Jörg, _&lt;em&gt;Chinese Ceramics in the Collection of the Rijksmuseum, Amsterdam: The Ming and Qing Dynasties&lt;/em&gt;_, Amsterdam/London 1997, pp. 18-21.} his life companion Jimmy Post, Amsterdam, 1962; from whom, fl. 35,000, to the museum, with support of the Vereniging Rembrandt, 1978&lt;/p&gt;&lt;/div&gt;</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230105" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206793" />
+                <ns7:spn xml:lang="en">Purchased with the support of the Vereniging Rembrandt</ns7:spn>
+                <ns7:spn xml:lang="nl">Aankoop met steun van de Vereniging Rembrandt</ns7:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/SCBtL/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/SCBtL" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/SCBtL/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-1978-36--083c6ba8e6c38ed0da85b99368191623">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/230105">
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006809" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q43631" />
+            <ns9:prefLabel xml:lang="en">Leiden</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Leiden</ns9:prefLabel>
+            <ns11:lat>4.5</ns11:lat>
+            <ns11:long>52.15</ns11:long>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260215">
+            <ns9:prefLabel xml:lang="en">Vereniging Rembrandt</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Vereniging Rembrandt</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26126">
+            <ns9:prefLabel xml:lang="en">sculptures</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">beeldhouwwerken</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2618">
+            <ns9:prefLabel xml:lang="en">European Sculpture in the Rijksmuseum</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">European Sculpture in the Rijksmuseum</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220297">
+            <ns9:prefLabel xml:lang="en">figure</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">beeld</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220445">
+            <ns9:prefLabel xml:lang="en">terracotta (clay material)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">terracotta</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2206793">
+            <ns9:altLabel xml:lang="nl">geboetseerd</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">modeling</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">boetseren</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2211732">
+            <ns10:sameAs rdf:resource="https://iconclass.org/48CC75611" />
+            <ns9:altLabel>48CC75611</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">hurdy-gurdy player - CC - out of doors</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/SCBtL">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2105032">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/144145542433696640173" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500047567" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q3387371" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/207044" />
+            <ns12:dateOfBirth xml:lang="nl">ca. 1647</ns12:dateOfBirth>
+            <ns12:dateOfDeath xml:lang="nl">1673</ns12:dateOfDeath>
+            <ns12:placeOfBirth />
+            <ns12:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230148">
+                <ns9:prefLabel xml:lang="en">Antwerp</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Antwerpen (stad)</ns9:prefLabel>
+              </ns3:Place>
+            </ns12:placeOfDeath>
+            <ns12:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2205167">
+                <ns9:prefLabel xml:lang="en">sculptor</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">beeldhouwer</ns9:prefLabel>
+              </ns9:Concept>
+            </ns12:professionOrOccupation>
+            <ns9:altLabel xml:lang="en">Xaveri, Pieter</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Xaveri, Pieter</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Pieter Xaveri</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Pieter Xaveri</ns9:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

@@ -1,0 +1,226 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200109365</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:29:28Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200109365#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200109365">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101893" />
+                <dc:description xml:lang="en">Princess of Orange Mary Stuart I is dressed in white, the traditional colour of mourning for a noble. Her husband, Stadholder William II, had died two years earlier. Mary was keen to secure the succession of her very young son. This portrait alludes to that claim to stadtholdership: she holds an orange, symbolizing the House of Orange. At the left is depicted the Stadtholders’ Gate of the Binnenhof (Inner Court) in The Hague.</dc:description>
+                <dc:description xml:lang="nl">Prinses van Oranje Maria Stuart I is gekleed in het wit, de kleur van rouw voor iemand van adel. Twee jaar eerder overleed haar echtgenoot, stadhouder Willem II. Maria wilde haar piepjonge zoon tot zijn opvolger laten benoemen. Dit portret verwijst naar die claim op het stadhouderschap: in haar hand houdt zij een sinaasappel, symbool voor het huis van Oranje. Links de Stadhouderspoort van het Binnenhof in Den Haag.</dc:description>
+                <dc:identifier>SK-A-142</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200902478" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200902489" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21042648" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21057223" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221173" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221944" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2301539" />
+                <dc:title xml:lang="en">Maria Stuart als weduwe van Willem II</dc:title>
+                <dc:title xml:lang="en">Mary Stuart, Princess of Orange, as Widow of William II</dc:title>
+                <dc:title xml:lang="nl">Maria Stuart als weduwe van Willem II</dc:title>
+                <dc:title xml:lang="nl">Mary Stuart, Princess of Orange, as Widow of William II</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:alternative xml:lang="en">Portrait of Princess Mary Stuart (1631-1660), Widow of Willem II, Prince of Orange</ns5:alternative>
+                <ns5:alternative xml:lang="nl">Portret van prinses Maria Stuart (1631-1660), weduwe van Willem II, prins van Oranje</ns5:alternative>
+                <ns5:created xml:lang="en">1652</ns5:created>
+                <ns5:created xml:lang="nl">1652</ns5:created>
+                <ns5:extent xml:lang="en">height 199.5 cm x width 170 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 199,5 cm x breedte 170 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301151248" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301154559" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301193774" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301201024" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301211936" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301214533" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301274270" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015253" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015254" />
+                <ns5:isReferencedBy>Documentatiemap Schilderijen: aantekeningen R. van Luttervelt (voor 1963).</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/EcygS/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/EcygS" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/EcygS/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-142--e3a4c174e44fd36c366da0cb77286ffb">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns7:prefLabel xml:lang="en">RijksXL</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">RijksXL</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns7:prefLabel xml:lang="en">biografic</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">biografisch</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns7:prefLabel xml:lang="en">paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderijen</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns7:prefLabel xml:lang="en">canvas</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">doek</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns7:prefLabel xml:lang="en">painting</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderij</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns7:prefLabel xml:lang="en">oil paint (paint)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">olieverf</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221173">
+            <ns8:sameAs rdf:resource="https://iconclass.org/61BB2" />
+            <ns7:altLabel>61BB2</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">historical persons - BB - woman</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221944">
+            <ns8:sameAs rdf:resource="https://iconclass.org/25G21%28ORANGE%29" />
+            <ns7:altLabel>25G21(ORANGE)</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">fruits: orange</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/EcygS">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101893">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/5995918" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500115795" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q380704" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/37307" />
+            <ns9:dateOfBirth xml:lang="nl">1613</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1670-12 - 1670-12-16</ns9:dateOfDeath>
+            <ns9:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230134">
+                <ns7:prefLabel xml:lang="en">Haarlem</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Haarlem</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfBirth>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns7:prefLabel xml:lang="en">Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Amsterdam</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns7:prefLabel xml:lang="en">painter</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">schilder</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns7:prefLabel xml:lang="en">draftsman (artist)</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">tekenaar</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Helst, Bartholomeus van der</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Bartel Verelst</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Bartel Verhelst</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Bartel van der Elst</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Bartel van der Helst</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Bartelmeus Verelst</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Bartelmeus Verhelst</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Bartelmeus van der Elst</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Bartelmeus van der Helst</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Bartholomeus Verelst</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Bartholomeus Verhelst</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Bartholomeus van der Elst</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Elst, Bartel van der</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Elst, Bartelmeus van der</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Elst, Bartholomeus van der</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Helst, Bartel van der</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Helst, Bartelmeus van der</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Helst, Bartholomeus van der</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Verelst, Bartel</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Verelst, Bartelmeus</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Verelst, Bartholomeus</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Verhelst, Bartel</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Verhelst, Bartelmeus</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Verhelst, Bartholomeus</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Bartholomeus van der Helst</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Bartholomeus van der Helst</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21042648">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/20488918" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q311455" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/424322" />
+            <ns9:dateOfBirth xml:lang="nl">1626-05-27</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1650-11-06</ns9:dateOfDeath>
+            <ns7:prefLabel xml:lang="en">William II (Prince of Orange)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Willem II (prins van Oranje)</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21057223">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/55006628" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q236930" />
+            <ns9:dateOfBirth xml:lang="nl">1631-11-04</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1660-12-24</ns9:dateOfDeath>
+            <ns9:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/230164" />
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230164">
+                <ns7:prefLabel xml:lang="en">London</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Londen</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns7:altLabel xml:lang="en">Stuart, Mary Henrietta</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Maria I Stuart</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Maria Stuart I</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Stuart, Maria Henrietta</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Mary Henrietta Stuart</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Maria Henrietta Stuart</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301539">
+            <ns7:prefLabel xml:lang="nl">Stadhouderspoort</ns7:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns7:prefLabel>Rijksmuseum</ns7:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

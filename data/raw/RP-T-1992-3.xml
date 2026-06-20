@@ -1,0 +1,129 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200117864</ns0:identifier>
+        <ns0:datestamp>2026-06-08T02:19:17Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26133</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200117864#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200117864">
+                <dc:creator>
+                  <ns3:Agent rdf:nodeID="Nb7053b164c8641148933f6b4163c7e3f" />
+                </dc:creator>
+                <dc:description xml:lang="nl">De figuur Fama staat op haar zegekar en blaast op de bazuinen van goede en slechte faam. De figuren rondom de kar bestaan uit helden uit de Oudheid, onder andere Hercules, en twee geschiedschrijvers. De drie schikgodinnen liggen verslagen op de grond.</dc:description>
+                <dc:identifier>RP-T-1992-3</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211557" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221576" />
+                <dc:title xml:lang="nl">Triomf van de Faam</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220363" />
+                <ns5:created xml:lang="en">1512 - 1549</ns5:created>
+                <ns5:created xml:lang="nl">1512 - 1549</ns5:created>
+                <ns5:extent xml:lang="en">diameter 284 mm</ns5:extent>
+                <ns5:extent xml:lang="nl">voorstelling: diameter 284 mm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26133" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301303137" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30153336" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30188077" />
+                <ns5:isReferencedBy>Burlington Magazine, 134 (nov. 1992), no. 1076, p. 766, pl. XIII</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J. Bruyn, 'Tekeningen uit de werkplaats van Pieter Coecke van Aelst voor een serie glasruitjes met de 'Trionfi', Nederlands Kunsthistorisch Jaarboek 38 (1987), p. 73-86</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22020" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2202822" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220365" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230148" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2202293" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2202953" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/mpmcQ/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/mpmcQ" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/mpmcQ/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/RP-T-1992-3--44ee38ab52670ba7ca384070c477d663">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/230148">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7007856" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q12892" />
+            <ns8:prefLabel xml:lang="en">Antwerp</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Antwerpen (stad)</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26133">
+            <ns8:prefLabel xml:lang="en">drawings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">tekeningen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22020">
+            <ns8:prefLabel xml:lang="en">paper</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">papier (materiaal)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202293">
+            <ns8:prefLabel xml:lang="en">pen</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">pen</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202822">
+            <ns8:prefLabel xml:lang="en">deck paint</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">dekverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202953">
+            <ns8:prefLabel xml:lang="en">brush</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">penseel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220363">
+            <ns8:prefLabel xml:lang="en">drawing</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">tekening</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220365">
+            <ns8:prefLabel xml:lang="en">ink</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">inkt</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211557">
+            <ns9:sameAs rdf:resource="https://iconclass.org/43A4314" />
+            <ns8:altLabel>43A4314</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">'Trionfo della Fama', 'Triumphus Famae'; 'Carro della Fama' (Ripa)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221576">
+            <ns9:sameAs rdf:resource="https://iconclass.org/59B32" />
+            <ns8:altLabel>59B32</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Fame; 'Fama', 'Fama buona', 'Fama chiara' (Ripa)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/mpmcQ">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

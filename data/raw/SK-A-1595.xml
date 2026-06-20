@@ -1,0 +1,290 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns11="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200108370</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:21:15Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260215</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200108370#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200108370">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101778" />
+                <dc:description xml:lang="en">Vermeer chose an unusual vantage point for this painting. From a dim space in the foreground, a glimpse is afforded of another room with a domestic scene. An elegantly dressed woman looks up expectantly at a maidservant, who has just handed her a letter. The seascape on the wall behind them may well allude to the epistle’s subject: during the 17th century, the sea was often compared to love, and the lover to a ship.</dc:description>
+                <dc:description xml:lang="nl">Voor dit schilderij koos Vermeer een opmerkelijk standpunt. Vanuit een schemerig vertrek is een glimp van een kamer te zien met een huiselijke scène. Een rijk geklede vrouw neemt verwachtingsvol een brief aan van een dienstmeisje. Het onderwerp van de brief blijkt wellicht uit het zeegezicht achter hen. De zee werd in de 17de eeuw vaak vergeleken met de liefde, en de minnaar met een schip.</dc:description>
+                <dc:identifier>SK-A-1595</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20067289" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221521" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221538" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221553" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221560" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221632" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221633" />
+                <dc:title xml:lang="en">De liefdesbrief</dc:title>
+                <dc:title xml:lang="en">The Love Letter</dc:title>
+                <dc:title xml:lang="nl">De liefdesbrief</dc:title>
+                <dc:title xml:lang="nl">The Love Letter</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">c. 1669 - c. 1670</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1669 - ca. 1670</ns5:created>
+                <ns5:extent xml:lang="en">height 44 cm x width 38.5 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 68.5 cm x width 62.5 cm x thickness 7 cm</ns5:extent>
+                <ns5:extent xml:lang="en">weight 9 kg</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 44 cm x breedte 38,5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">geheel: gewicht (eigenschap) 9 kg (20.09.2011)</ns5:extent>
+                <ns5:extent xml:lang="nl">lijst: hoogte 68,5 cm x breedte 62,5 cm x dikte 7 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260215" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100494" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301102310" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301106419" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301109402" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301111461" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301113550" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301118213" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301120649" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301126913" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301128613" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301133673" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301136157" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301139231" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301140916" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301143803" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301143912" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144175" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144185" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144193" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144194" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144197" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144202" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144205" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144211" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144215" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144218" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144222" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144232" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144234" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144242" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144247" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301149303" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301152860" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301152869" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301153148" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301154560" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30116763" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3011738" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301185785" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301185790" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301193472" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301194365" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301199400" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301210541" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301212714" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301214410" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301214419" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301239395" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30133901" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30138992" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30139131" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30139155" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30149750" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30150944" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30157956" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30166431" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30166432" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30166463" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30166476" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30166480" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30166844" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30173808" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30175790" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30175799" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30175800" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30183507" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30185365" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30187194" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30187582" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30191336" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30194905" />
+                <ns5:isReferencedBy>"Vermeer" lag onder', Algemeen Dagblad 7 oktober 1971</ns5:isReferencedBy>
+                <ns5:isReferencedBy>'Restauratie van "Liefdesbrief" mirakel?', De Standaard 11 oktober 1971.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>'Vermeer', Vrij Nederland (1996) 8 (24 febr. 1996) Bijlage.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>A. Hyatt Mayor, 'The photographic eye', The Metropolitan Museum of Art Bulletin (1946), p. 19 e.v.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>A. Vels Heijn, 'De Liefdesbrief van Vermeer', Kunsttrip 3 (1972/73) 21.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>B. Diller, 'First theme', The Bulletin of the Cleveland Museum of Art, 1975 (April), p. 112-113, afb. 11</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Ben Broos, 'Het gezicht op Delft en het Stinstarmysterie', Oud-Holland (1996) 1, p. 41.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Daniel A. Fink, 'Vermeer's use of the Camera Obscura - a comparative study', The Art Bulletin 53 (1971), p. 493-505.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>De restauratie van  Johannes Vermeers Liefdesbrief, Proef-werkgroepbulletin : Kunsthistorisch Instituut van de Universiteit van Amsterdam, 2 (1971)</ns5:isReferencedBy>
+                <ns5:isReferencedBy>G. Ungaretti &amp; P. Bianconi, L'opera completa di Vermeer, Milan 1967, p. 95, nr. 36, ill., pl. XLVI.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>H. von Sonnenburg, 'Technical comments', Bulletin of the Metropolitan Museum of Arts, 31 (1973), afb. 100.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Inzoomer object op zaal, 2013 (Nederlands/English).</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J. Koene-de Gilde, 'De brief van Vermeer', Pulchri (1996) 1, p. 31, afb.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J. Van Steen, 'Is kostelijke "Liefdesbrief" geen Vermeer?', Gazet van Antwerpen 11 december 1971</ns5:isReferencedBy>
+                <ns5:isReferencedBy>James A. Welu, 'Vermeer : his catographic sources', The Art Bulletin 58 (1975), p. 533, 541, afb. 4.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>L. Gowing, Vermeer, Londen 1952, p. 152, ill.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Markus A. Castor, 'Augenblick und Zeitfluss, Bemerkungen zu einigen Konstanten in der malerei Jan Vermeers', Patheon 54 (1996), p. 90.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>P.J.J. Thiel and L. Kuiper, 'Purloined, damaged, recovered, restored : Vermeer's The Letter', Delta (1973) (Spring), p. 17-34.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>R. Huyge &amp; A. de Vries, Jan Vermeer de Delft, Paris 1948, p.XV, fig. 24,</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Renate Meijer, 'De liefdesbrief', KunstKrant (2005) 4, p. 12-13.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>S. Guiton, 'How to stop art thefts', The Conoisseur (1973), p. 64, afb.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">…; collection Pieter van Lennep (1780-1850), Amsterdam;{According to the sale catalogue Messchert van Vollenhoven and Van Engelenberg [section Messchert van Vollenhoven], Amsterdam (C.F. Roos), 29 March 1892, introduction.} his daughter, Margaretha Catharina Messchert van Vollenhoven-Van Lennep (1815-1891), Bloemendaal; by inheritance to J.F. van Lennep (1819-1892), Amsterdam, 1892;{Exh.cat. Washington/The Hague 1995, pp. 184-185, n. 20.} sale Messchert van Vollenhoven and Van Engelenberg [section Messchert van Vollenhoven], Amsterdam (C.F. Roos), 29 March 1892, no. 14, fl. 41,000, to J. Ankersmit of the Vereniging Rembrandt for the museum, fl. 15,000, 1893{Copy RKD.}</ns5:provenance>
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204040" />
+                <ns7:spn xml:lang="en">Purchased with the support of the Vereniging Rembrandt</ns7:spn>
+                <ns7:spn xml:lang="nl">Aankoop met steun van de Vereniging Rembrandt</ns7:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/hqxQG/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/hqxQG" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/hqxQG/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1595--508513eb7ee162ec2f68ea3d3138d912">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns9:prefLabel xml:lang="en">RijksXL</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">RijksXL</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260215">
+            <ns9:prefLabel xml:lang="en">Vereniging Rembrandt</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Vereniging Rembrandt</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns9:prefLabel xml:lang="en">paintings</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">schilderijen</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns9:prefLabel xml:lang="en">canvas</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">doek</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2204040">
+            <ns9:altLabel xml:lang="nl">geschilderd</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">paint</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">schilderen</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns9:prefLabel xml:lang="en">painting</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">schilderij</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns9:prefLabel xml:lang="en">oil paint (paint)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">olieverf</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221521">
+            <ns10:sameAs rdf:resource="https://iconclass.org/48C514" />
+            <ns9:altLabel>48C514</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">picture, painting</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221538">
+            <ns10:sameAs rdf:resource="https://iconclass.org/48C7323" />
+            <ns9:altLabel>48C7323</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">lute, and special forms of lute, e.g.: theorbo</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221553">
+            <ns10:sameAs rdf:resource="https://iconclass.org/46E221" />
+            <ns9:altLabel>46E221</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">letter, envelope</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221560">
+            <ns10:sameAs rdf:resource="https://iconclass.org/42F51" />
+            <ns9:altLabel>42F51</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">maid ~ house personnel</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221632">
+            <ns10:sameAs rdf:resource="https://iconclass.org/42F32" />
+            <ns9:altLabel>42F32</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">(household) utensils and implements</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221633">
+            <ns10:sameAs rdf:resource="https://iconclass.org/41A422" />
+            <ns9:altLabel>41A422</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">hangings and drapery</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/hqxQG">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101778">
+            <ns10:sameAs rdf:resource="http://data.cerl.org/thesaurus/cnp01437165" />
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/51961439" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500032927" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q41264" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/80476" />
+            <ns11:dateOfBirth xml:lang="nl">1632 - 1632-10-31</ns11:dateOfBirth>
+            <ns11:dateOfDeath xml:lang="nl">1675-12 - 1675-12-15</ns11:dateOfDeath>
+            <ns11:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/230132" />
+            <ns11:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230132">
+                <ns9:prefLabel xml:lang="en">Delft</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Delft</ns9:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfDeath>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns9:prefLabel xml:lang="en">painter</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">schilder</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns9:prefLabel xml:lang="en">draftsman (artist)</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">tekenaar</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns9:altLabel xml:lang="en">Vermeer, Johannes</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Jan Vermeer van Delft</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Jan Vermeer</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Johannes Reyniersz. Vermeer</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Johannes Vermeer van Delft</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Vermeer van Delft, Jan</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Vermeer van Delft, Johannes</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Vermeer, Jan</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Vermeer, Johannes Reyniersz.</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Vermeer, Johannes</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Johannes Vermeer</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Johannes Vermeer</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns9:prefLabel>Rijksmuseum</ns9:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

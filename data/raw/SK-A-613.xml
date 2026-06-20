@@ -1,0 +1,168 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200108247</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:19:54Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200108247#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200108247">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101681" />
+                <dc:description xml:lang="en">This picture was painted for the headquarters of the Admiralty of Amsterdam. It represents a story from Roman times in which a consul ondemns his son to be beheaded for ignoring a command. The Admiralty intended this image to proclaim that insubordination would be severely punished. It also reminded officers that they must always remain impartial.</dc:description>
+                <dc:description xml:lang="nl">Dit schilderij is gemaakt voor het hoofdkwartier van de Amsterdamse marine, de Admiraliteit. Het toont een verhaal uit de Romeinse tijd, waarin een bestuurder zijn zoon laat onthoofden omdat deze een bevel had genegeerd. Hiermee wilde de Admiraliteit duidelijk maken dat ook zij gezagsondermijning streng zou straffen. Tegelijkertijd werden de bestuurders eraan herinnerd altijd onpartijdig te zijn.</dc:description>
+                <dc:identifier>SK-A-613</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21056042" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221569" />
+                <dc:title xml:lang="en">Consul Titus Manlius Torquatus Orders the Beheading of his Son</dc:title>
+                <dc:title xml:lang="en">Consul Titus Manlius Torquatus laat zijn zoon onthoofden</dc:title>
+                <dc:title xml:lang="nl">Consul Titus Manlius Torquatus Orders the Beheading of his Son</dc:title>
+                <dc:title xml:lang="nl">Consul Titus Manlius Torquatus laat zijn zoon onthoofden</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">1661 - 1663</ns5:created>
+                <ns5:created xml:lang="nl">1661 - 1663</ns5:created>
+                <ns5:extent xml:lang="en">height 218 cm x width 242 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 218 cm x breedte 242 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301152219" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301202261" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301203928" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015253" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015254" />
+                <ns5:isReferencedBy>F. Grijzenhout, 'Tempel voor Nederland : De Nationale Konst-Gallerij in 's-Gravenhage', Nederlands Kunsthistorische Jaarboek 35 (1984), p. 29, afb. 25.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/urKzm/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/urKzm" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/urKzm/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-613--ea1681019b1965108fb93667d272a855">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns7:prefLabel xml:lang="en">RijksXL</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">RijksXL</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns7:prefLabel xml:lang="en">biografic</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">biografisch</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns7:prefLabel xml:lang="en">paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderijen</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns7:prefLabel xml:lang="en">canvas</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">doek</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns7:prefLabel xml:lang="en">painting</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderij</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns7:prefLabel xml:lang="en">oil paint (paint)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">olieverf</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221569">
+            <ns8:sameAs rdf:resource="https://iconclass.org/98B%28TORQUATUS%2C%20T.M.%2942" />
+            <ns7:altLabel>98B(TORQUATUS, T.M.)42</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Torquatus has his son beheaded because he has fought an enemy in single combat against the strict orders of his father</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/urKzm">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101681">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/12575331" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500013764" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q374039" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/10080" />
+            <ns9:dateOfBirth xml:lang="nl">1616-06</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1680-07-24</ns9:dateOfDeath>
+            <ns9:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230171">
+                <ns7:prefLabel xml:lang="en">Dordrecht</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Dordrecht</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfBirth>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns7:prefLabel xml:lang="en">Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Amsterdam</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns7:prefLabel xml:lang="en">painter</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">schilder</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns7:prefLabel xml:lang="en">printmaker</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">prentmaker</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns7:prefLabel xml:lang="en">draftsman (artist)</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">tekenaar</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Bol, Ferdinand</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Bol, Ferdinand</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Ferdinand Bol</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Ferdinand Bol</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21056042">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/152617411" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q2735134" />
+            <ns7:prefLabel xml:lang="nl">Admiraliteit van Amsterdam</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns7:prefLabel>Rijksmuseum</ns7:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

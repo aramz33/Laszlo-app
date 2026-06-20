@@ -1,0 +1,165 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns11="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200109491</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:31:28Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260215</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>2616</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200109491#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200109491">
+                <dc:description xml:lang="en">On the night of 19 November 1421 – the feast day of Saint Elizabeth – much of Holland was flooded. The Dordrecht region was badly hit: 23 villages were submerged and 2,000 people died. The survivors later had an altarpiece made. The outer panels depict the disaster, with the breach of the dike on the right and the undamaged town of Dordrecht on the left.</dc:description>
+                <dc:description xml:lang="nl">In de nacht van 19 november 1421 – de naamdag van de heilige Elisabeth – overstroomden grote delen van Holland. Vooral de omgeving van Dordrecht werd door deze ramp zwaar getroffen: 23 dorpen gingen ten onder en 2000 mensen vonden de dood. De nabestaanden lieten later een altaarstuk maken. Op de buitenpanelen werd de ramp afgebeeld, met rechts de dijkdoorbraak en links het veilige Dordrecht.</dc:description>
+                <dc:identifier>SK-A-3147-B</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200109469" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200109489" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200109490" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211045" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211046" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/23012957" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2401188" />
+                <dc:title xml:lang="en">De Sint-Elisabethsvloed</dc:title>
+                <dc:title xml:lang="en">The Saint Elizabeth’s Day Flood</dc:title>
+                <dc:title xml:lang="nl">De Sint-Elisabethsvloed</dc:title>
+                <dc:title xml:lang="nl">The Saint Elizabeth’s Day Flood</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:alternative xml:lang="nl">De Sint Elisabethsvloed, 18-19 november 1421 met de stad Dordrecht op de achtergrond</ns5:alternative>
+                <ns5:created xml:lang="en">c. 1490 - c. 1495</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1490 - ca. 1495</ns5:created>
+                <ns5:extent xml:lang="en">support: height 127.5 cm x width 110.5 cm x height 126 cm x width 109 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 127,5 cm x breedte 110,5 cm x hoogte 126 cm (painted surface) x breedte 109 cm (painted surface)</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260215" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2616" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144604" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301146170" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3011738" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301204637" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301216127" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244089" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244300" />
+                <ns5:isReferencedBy>"’So grot overvlot der watere’. Een bijdrage in het moderne multidisciplinaire onderzoek naar de St. Elisabethsvloed en de periode die daaraan vooraf ging”/ P. Cleveringa e.a. - In: Holland 36/3 (2004), pp. 162-180.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>De Elisabethsvloed en het altaar van de Wieldrechtenaren in de Grote Kerk van Dordrecht / Liesbeth M. Helmus - In: Kwartaal &amp; Teken 18/1992 (verkorte en aangepaste versie van 1991-nr. 2).</ns5:isReferencedBy>
+                <ns5:isReferencedBy>De watersnood van 1421 / Jean Baptist Bedaux - In: Vitrine: museummagazine 3/95, pag. 13.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>De waterstaat/ Tom van der Meer - In: Rijksmuseum Kunstkrant, jrg. 25, maart-april 1999, nr. 2, pag.4-10.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>G. Simpson, The Pine Standard Chest in St Margaret's Church, King's Lynn, and the Social and Economic Significance of the Type, in: King's Lynn and the Fens: medieval art, architecture and archaeology, British Archaeological Association Conference Transactions XXXI (2008), p. 60, fig. 5</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Inzoomer object op zaal, 2013 (Nederlands/English).</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Liesbeth M. Helmus, Het altaarstuk met de Sint Elisabethsvloed uit de Grote Kerk van Dordrecht. De oorspronkelijke plaats en de opdrachtgevers, uit: Oud Holland, 105, 1991, 2, pagina pp. 127-139(zie: http://www.jstor.org/stable/42711319)</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Strijd tegen het water / In: 20 Eeuwen Nederland en de Nederlanders - Waanders Uitgevers 1998, afl. 1, pag. 12.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">See the provenance for SK-A-3145.</ns5:provenance>
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204040" />
+                <ns7:spn xml:lang="en">Purchased with the support of the Vereniging Rembrandt</ns7:spn>
+                <ns7:spn xml:lang="nl">Aankoop met steun van de Vereniging Rembrandt</ns7:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/hHyvh/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/hHyvh" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/hHyvh/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3147-B--f9caaa65ebb369e1731f57e9b4c97e3d">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns9:prefLabel xml:lang="en">RijksXL</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">RijksXL</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260215">
+            <ns9:prefLabel xml:lang="en">Vereniging Rembrandt</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Vereniging Rembrandt</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns9:prefLabel xml:lang="en">paintings</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">schilderijen</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2616">
+            <ns9:prefLabel xml:lang="en">Early Netherlandish Paintings</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Early Netherlandish Paintings</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns9:prefLabel xml:lang="en">panel</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">paneel</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2204040">
+            <ns9:altLabel xml:lang="nl">geschilderd</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">paint</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">schilderen</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns9:prefLabel xml:lang="en">painting</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">schilderij</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns9:prefLabel xml:lang="en">oil paint (paint)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">olieverf</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2211045">
+            <ns10:sameAs rdf:resource="https://iconclass.org/25H1992" />
+            <ns9:altLabel>25H1992</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">rescue work during a flood</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2211046">
+            <ns10:sameAs rdf:resource="https://iconclass.org/25H1991" />
+            <ns9:altLabel>25H1991</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">dike-break</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/hHyvh">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/23012957">
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q2005813" />
+            <ns10:sameAs rdf:resource="https://sws.geonames.org/2744563/" />
+            <ns9:prefLabel xml:lang="nl">Wieldrecht</ns9:prefLabel>
+            <ns11:lat>4.63194</ns11:lat>
+            <ns11:long>51.78417</ns11:long>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns9:prefLabel>Rijksmuseum</ns9:prefLabel>
+          </ns3:Place>
+          <ns3:TimeSpan rdf:about="https://id.rijksmuseum.nl/2401188">
+            <ns9:prefLabel xml:lang="nl">Sint Elisabethsvloed</ns9:prefLabel>
+          </ns3:TimeSpan>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

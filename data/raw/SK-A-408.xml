@@ -1,0 +1,201 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200108493</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:22:41Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26136</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200108493#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200108493">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101473" />
+                <dc:description xml:lang="en">Under pressure from fierce opposition to his rule, Stadtholder William V and his family fled The Hague in 1785. They returned two years later and the stadtholder’s authority was restored. This provided the occasion to commission a series of portraits of the members of his family from the portraitist Tischbein. The artist produced a fashionable group of oval portraits in pastel. The giltwood frames were made by the Hague framemaker Hendrik Ebbens.</dc:description>
+                <dc:description xml:lang="nl">Onder druk van hevige oppositie tegen het bewind van Willem V vluchtte de stadhouderlijke familie in 1785 uit Den Haag. Twee jaar later keerde zij terug en werd het gezag van de stadhouder hersteld. Dit was de aanleiding om de portrettist Tischbein opdracht te geven tot een serie portretten van leden van de stadhouderlijke familie. Hij maakte een modieuze reeks ovale portretten in pastelkrijt. De verguld houten lijsten werden geleverd door de Haagse lijstenmaker Hendrik Ebbens</dc:description>
+                <dc:identifier>SK-A-408</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200108494" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200108495" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200108496" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200108497" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200108498" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200108499" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200108500" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200108501" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200499543" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21026829" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21046081" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221686" />
+                <dc:title xml:lang="en">Stadhouder prins Willem v</dc:title>
+                <dc:title xml:lang="en">Stadtholder Prince William v</dc:title>
+                <dc:title xml:lang="nl">Stadhouder prins Willem v</dc:title>
+                <dc:title xml:lang="nl">Stadtholder Prince William v</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220363" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220461" />
+                <ns5:created xml:lang="en">1789</ns5:created>
+                <ns5:created xml:lang="nl">1789</ns5:created>
+                <ns5:extent xml:lang="en">height 62.7 cm x width 52.4 cm</ns5:extent>
+                <ns5:extent xml:lang="en">weight 10.3 kg</ns5:extent>
+                <ns5:extent xml:lang="nl">dagmaat: hoogte 62,7 cm (ovaal) x breedte 52,4 cm (ovaal)</ns5:extent>
+                <ns5:extent xml:lang="nl">geheel: gewicht (eigenschap) 10,3 kg (inclusief lijst en glas 2mm)</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26136" />
+                <ns5:isReferencedBy>Documentatiemap Schilderijen: aantekeningen R. van Luttervelt (voor 1963).</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220381" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2208482" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/DZHly/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/DZHly" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/DZHly/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-408--9b3966d0a022d2977695f7281a1cc4c6">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns7:prefLabel xml:lang="en">RijksXL</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">RijksXL</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns7:prefLabel xml:lang="en">biografic</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">biografisch</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26136">
+            <ns7:prefLabel xml:lang="nl">pastels</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220363">
+            <ns7:prefLabel xml:lang="en">drawing</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">tekening</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220381">
+            <ns7:prefLabel xml:lang="en">parchment (animal material)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">perkament</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220461">
+            <ns7:prefLabel xml:lang="en">pastel</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">pastel</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2208482">
+            <ns7:prefLabel xml:lang="en">pastel (crayon)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">pastelkrijt</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221686">
+            <ns8:sameAs rdf:resource="https://iconclass.org/61B2%28%2B52%29" />
+            <ns7:altLabel>61B2(+52)</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">historical persons (+ (full) bust portrait)</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/DZHly">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101473">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/51960279" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500023878" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q213795" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/77628" />
+            <ns9:dateOfBirth xml:lang="nl">1750-03-09</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1812-06-21</ns9:dateOfDeath>
+            <ns9:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230206">
+                <ns7:prefLabel xml:lang="en">Maastricht</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Maastricht</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfBirth>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230672">
+                <ns7:prefLabel xml:lang="nl">Heidelberg</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns7:prefLabel xml:lang="en">painter</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">schilder</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Tischbein, Johann Friedrich August</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Friedrich Jan August Tischbein</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Friedrich Tischbein</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Jan Frederik August Tischbein</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Tischbein, Friedrich Jan August</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Tischbein, Friedrich</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Tischbein, Jan Frederik August</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Tischbein, Johann Friedrich August</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Johann Friedrich August Tischbein</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Johann Friedrich August Tischbein</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21026829">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/264065168" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500340314" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q312215" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/93127" />
+            <ns9:dateOfBirth xml:lang="nl">1748-03-08</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1806-04-09</ns9:dateOfDeath>
+            <ns9:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+                <ns7:prefLabel xml:lang="en">The Hague</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Den Haag</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfBirth>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230886">
+                <ns7:prefLabel xml:lang="nl">Braunschweig</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2203883">
+                <ns7:prefLabel xml:lang="en">stadtholder</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">stadhouder</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="nl">Prins, W.</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">W. Prins</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Willem V, stadhouder</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">stadhouder Willem V</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">William V (Prince of Orange)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Willem V (prins van Oranje-Nassau)</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21046081">
+            <ns7:prefLabel xml:lang="nl">Orde van de Kouseband</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns7:prefLabel>Rijksmuseum</ns7:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

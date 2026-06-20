@@ -1,0 +1,223 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns11="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200109203</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:27:25Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260215</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>2611</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200109203#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200109203">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2102429" />
+                <dc:description xml:lang="en">The three kings worship the baby Jesus on the central panel. The donors, their children and patron saints appear on the wings: the father with his six sons and Saint Jerome (left), and the mother with her seven daughters and Saint Catherine (right). The two children in white shrouds had died. On the outer wings are Saint Christopher and Saint Anthony Abbot.</dc:description>
+                <dc:description xml:lang="nl">Op het middenpaneel aanbidden drie koningen het kind Jezus. De opdrachtgevers, hun kinderen en beschermheiligen zijn op de zijluiken afgebeeld. Links de vader met zes zonen en Sint-Hiëronymus, rechts de moeder met zeven dochters en Sint-Catharina. De twee in witte doodshemden afgebeelde kinderen waren al overleden. De schilder heeft de voorstelling in een bouwvallig gebouw met prachtige Renaissance-ornamenten geplaatst.</dc:description>
+                <dc:identifier>SK-A-4706</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221841" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221865" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221866" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221867" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221868" />
+                <dc:title xml:lang="en">De aanbidding van de drie koningen</dc:title>
+                <dc:title xml:lang="en">The Adoration of the Magi</dc:title>
+                <dc:title xml:lang="nl">De aanbidding van de drie koningen</dc:title>
+                <dc:title xml:lang="nl">The Adoration of the Magi</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201260" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:alternative xml:lang="en">Triptych with the Adoration of the Magi</ns5:alternative>
+                <ns5:alternative xml:lang="nl">Drieluik met de aanbidding der koningen</ns5:alternative>
+                <ns5:created xml:lang="en">1517</ns5:created>
+                <ns5:created xml:lang="nl">1517</ns5:created>
+                <ns5:extent xml:lang="en">support: height 84.1 cm x width 55.2 cm x height 82.2 cm x width 23.6 cm x height 82.2 cm x width 23.6 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 84,1 cm (centre panel (Geheel ingeklapt inc. lijst : H: 95cm, B: 67cm, D: 8cm)) x breedte 55,2 cm (centre panel) x hoogte 82,2 cm (left wing) x breedte 23,6 cm (left wing) x hoogte 82,2 cm (right wing) x breedte 23,6 cm (right wing)</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260215" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2611" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100933" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301108642" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301147809" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301236018" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244089" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244300" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301303823" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30139512" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015253" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015254" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015991" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3016000" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30185616" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30194352" />
+                <ns5:isReferencedBy>K. Steinbart, 'Nachlese im Werk des Jacob Cornelisz. von Amsterdam', Marburger Jahrbuch für Kunstwissenschaft 5 (1929), p. 234.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>M. Leeflang en D. Meuwissen, 'Ondertekend' : Onderzoek naar de ondertekening van de schilderijen van Jacob Cornelisz. van Oostsanen, Oostzaan, 2003, cat.nr. 3.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>S.A.C. Dudok van Heel, Twee figuren teveel : De familie Cat en hun memorietafel uit 1517, uit: Jaarboek van het Centraal Bureau voor Genealogie, 50, 1996, pagina pp. 199-223</ns5:isReferencedBy>
+                <ns5:isReferencedBy>S.A.C. Dudok van Heel, m.m.v. W.J. van den Berg, 'De schilders Jacob Cornelisz. alias Jacob War en Cornelis Buys uit Oostzaan : Hun werkplaatsen in Amsterdam en Alkmaar', De Nederlandsche Leeuw 128 (2011) jun., p. 51.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Vereniging Rembrandt, Verslag over 1978, p. 78-80.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">…; Franciscan convent near Messiera , 1792;{Hinterding/Horsch 1989, p. 59, no. 15} …; Van Parijs;{According to the dealer L.J. Nieuwenhuys; see Hinterding/Horsch 1989, p. 59, no. 15} …; purchased from the dealer L.J. Nieuwenhuys, Brussels, by Willem II (1792-1849), King of the Netherlands, Brussels, as Gossaert, with 22 other ‘tableaux gottiques’, probably April 1823;{Hinterding/Horsch 1989, pp. 9, 59, no. 15} his sale, The Hague (De Vries, Roos, Brondgeest), 18 August 1850, no. 15, as ‘Jean Memling’, unsold; from his estate, fl. 7,700, to Frederik (1797-1881), Prince of The Netherlands, 14 October 1850;{Hinterding/Horsch 1989, pp. 43, 59, no. 15} his daughter, Marie (1841-1910), Fürstin zu Wied, Princess of the Netherlands, Neuwied, 1883; her sale &lt;em&gt;et al.&lt;/em&gt;, London (Sotheby’s), 5 July 1967, no. 11, £ 37,000 to the dealer E.J. Speelman;{Copy RKD}…; on loan to the museum from J. William Middendorf II (1924-), Washington and The Hague, 1973-78; from whom, fl. 1,145,833, to the museum, with support from the Prins Bernard Fonds, the Vereniging Rembrandt and Mr and Mrs J. William Middendorf II, 1978; on loan to the Amsterdams Historisch Museum, 2004-10</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23029985" />
+                <ns6:spn xml:lang="en">Purchased with the support of the Vereniging Rembrandt and Mr and Mrs Middendorf, Washington</ns6:spn>
+                <ns6:spn xml:lang="nl">Aankoop met steun van de Vereniging Rembrandt en de heer en mevrouw Middendorf, Washington</ns6:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/EMPFV/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/EMPFV" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/EMPFV/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4706--3032322cf43cc6530e35c60011c16c35">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260215">
+            <ns8:prefLabel xml:lang="en">Vereniging Rembrandt</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Vereniging Rembrandt</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2611">
+            <ns8:prefLabel xml:lang="en">Cat. 15th and 16th century Dutch Paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Cat. 15e en 16e eeuwse Nederlandse Schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns8:prefLabel xml:lang="en">panel</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">paneel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2201260">
+            <ns8:altLabel xml:lang="nl">triptych</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">triptych</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">triptiek</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221841">
+            <ns9:sameAs rdf:resource="https://iconclass.org/11H%28CHRISTOPHER%29" />
+            <ns8:altLabel>11H(CHRISTOPHER)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">the giant and martyr Christophorus; possible attributes: palm-tree (with bunches of dates, or withered), infant Christ</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221865">
+            <ns9:sameAs rdf:resource="https://iconclass.org/11H%28ANTONY%20ABBOT%29" />
+            <ns8:altLabel>11H(ANTONY ABBOT)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">the hermit Antony Abbot (Antonius Abbas) of Egypt, also called the Great; possible attributes: bell, book, T-shaped staff, flames, pig</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221866">
+            <ns9:sameAs rdf:resource="https://iconclass.org/11HH%28CATHERINE%2911" />
+            <ns8:altLabel>11HH(CATHERINE)11</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">the virgin martyr Catherine of Alexandria; possible attributes: book, crown, emperor Maxentius, palm-branch, ring, sword, wheel - female saint as patroness, protectress, intercessor</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221867">
+            <ns9:sameAs rdf:resource="https://iconclass.org/11H%28JEROME%2951" />
+            <ns8:altLabel>11H(JEROME)51</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">St. Jerome pulling a thorn out of the paw of a lion</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221868">
+            <ns9:sameAs rdf:resource="https://iconclass.org/73B57%28%2B5%29" />
+            <ns8:altLabel>73B57(+5)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">adoration of the kings: the Wise Men present their gifts to the Christ-child (gold, frankincense and myrrh) (+ donor(s), supplicant(s), whether or not with patron saint(s))</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/EMPFV">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2102429">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/22939175" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500115388" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q1029143" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/18413" />
+            <ns10:dateOfBirth xml:lang="nl">ca. 1475</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">ca. 1528 - ca. 1533</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301398">
+                <ns8:prefLabel xml:lang="nl">Oostzaan</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006952" />
+                <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q727" />
+                <ns9:sameAs rdf:resource="https://sws.geonames.org/2759794/" />
+                <ns8:prefLabel xml:lang="en">Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Amsterdam</ns8:prefLabel>
+                <ns11:lat>4.916667</ns11:lat>
+                <ns11:long>52.35</ns11:long>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Cornelisz van Oostsanen, Jacob</ns8:altLabel>
+            <ns8:altLabel xml:lang="en">Cornelisz., Jacob</ns8:altLabel>
+            <ns8:altLabel xml:lang="en">Jacob Cornelisz.</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Cornelisz. van Oostsanen, Jacob</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Cornelisz., Jacob</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Jacob Cornelisz. van Oostsanen</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Jacob Cornelisz.</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Oostsanen, Jacob Cornelisz. van</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Jacob Cornelisz van Oostsanen</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Jacob Cornelisz. van Oostsanen</ns8:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

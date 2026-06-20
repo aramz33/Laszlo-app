@@ -1,0 +1,178 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200116229</ns0:identifier>
+        <ns0:datestamp>2026-06-08T02:12:32Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26126</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200116229#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200116229">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21076503" />
+                <dc:description xml:lang="en">The style of the famous Dutch sculptor Nicolaas Gerhaert van Leyden is reflected in the painstaking, calligraphic rendering of these figures, with their grace and spatial coherence. Van Leyden worked in Strasbourg and had a profound influence on Late Gothic German sculpture. The artist who made this beguiling nativity group was probably a pupil of his.</dc:description>
+                <dc:description xml:lang="nl">In de nauwgezette, kalligrafische weergave van de figuren, hun gratie en grote ruimtelijkheid is de stijl van de beroemde Hollandse beeldhouwer Nicolaas Gerhaert van Leyden voelbaar. Van Leyden werkte in Straatsburg en was van grote invloed op de Duitse beeldhouwkunst van de late gotiek. De maker van deze betoverende kerstgroep was waarschijnlijk zijn leerling.</dc:description>
+                <dc:identifier>BK-16985</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211243" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211717" />
+                <dc:title xml:lang="en">De geboorte van Jezus</dc:title>
+                <dc:title xml:lang="en">The Nativity</dc:title>
+                <dc:title xml:lang="nl">De geboorte van Jezus</dc:title>
+                <dc:title xml:lang="nl">The Nativity</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201048" />
+                <ns5:created xml:lang="en">c. 1470</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1470</ns5:created>
+                <ns5:extent xml:lang="en">height 60 cm x width 55 cm x depth 30 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 60 cm x breedte 55 cm x diepte 30 cm</ns5:extent>
+                <ns5:hasPart rdf:resource="https://id.rijksmuseum.nl/20087029" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26126" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301102042" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301104173" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301128042" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301131456" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301138418" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301151091" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30115456" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301202177" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301202556" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301206449" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244089" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244300" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30135403" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30164439" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30166093" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30178391" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30181864" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30198970" />
+                <ns5:isReferencedBy>E.D. Schmid, Der Nördlinger Hochaltar und sein Bildhauerwerk. Rekonstruktion, Stil, Frage des Meisters (Nicolaus Gerhart von Leiden), Datierung, Ausstrahlung im Nördlinger Raum, Dissertatie Universiteit München, 1971, p. 72.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>H. Krohm, 'Bemerkungen zur kunstgeschichtlichen Problematik des Herlin-Retabels in Rothenburg o. T.', Jahrbuch der Berliner Museen 33 (1991), p. 205-207.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>H. Scholz, Hans Wild und Hans Kamensetzer : Hypotheken der Ulmer und Strassburger Kunstgeschichte des Spätmittelalters, uit: Jahrbuch der Berliner Museen, 36, 1994, pagina pp. 93-140 - p. 109-112</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Inzoomer object op zaal, 2013 (Nederlands/English).</ns5:isReferencedBy>
+                <ns5:isReferencedBy>K. Chamonikolasová, 'Nicolaus Gerhaert of Leyden in the Moravian Context', Wiener Jahrbuch für Kunstgeschichte 48 (1995), p. 77.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>L. Schultes, 'Das Relief der Geburt Christi aus Freistadt/Hlohovec/Galgóc, die Wiener Burgkapellenfiguren und die Skulpturen des Kaschauer Hochaltars', Galéria : rocenka Slovenskej národnej galérie v Bratislava (2004), p. 213-214, 217.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Pauline Kintz, 'Collectie : Een blik op Maria', Rijksmuseum Kunstkrant 32 (2006) 6, p. 20-23 (afb.).</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220164" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2202703" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22038" />
+                <ns5:provenance xml:lang="en">…; sale, Georges Spetz (1844-1914, Issenheim), New York (American Art Association), 14 (17) January 1925 &lt;em&gt;sqq.&lt;/em&gt;, no. 713, $2,500;{Copy MMNY.} …; the dealer A.S. Drey, Munich, 1925;{Hessig 1935, p. 10, afb. 5, p. 117, note 8.}…; from Dr Fritz Mannheimer (1890-1939), Amsterdam and Paris, fl. 6,350,000, &lt;em&gt;en bloc&lt;/em&gt;, to Artistic &amp; General Securities Ltd. as security for a loan from the Mendelssohn &amp; Co. Bank, but kept in usufruct, 1934;{NHA, 476, RMA Archive, inv. no. 2142, Recapitulatie der geïnventariseerde kunstvoorwerpen van wijlen Dr F. Mannheimer, undated, p. 97, no. Bk 38, Artistic no. 5/43; NHA, 233, Arrondissementsrechtbank Amsterdam, inv. no. 1365, “O.R. 256/1939, Faillissementsdossier: nalatenschap Dr. F. Mannheimer, 28 augustus 1939”, image 3, page 2.} purchased from Mendelssohn &amp; Co. Bank, &lt;em&gt;en bloc&lt;/em&gt;, by the Dienststelle Mühlmann, The Hague, for Adolf Hitler's Führermuseum, Linz, 1940;{Korthals Altes 1974, pp. 21-22.} war recuperation, SNK, 1945;{HNA, SNK Archive, 2.08.42, inv. no. 548.} on loan, with 1,702 other objects, from the DRVK to the museum, 1952;{Note RMA.} transferred to the museum, 1960</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230645" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2203464" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206822" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/nFFKz/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/nFFKz" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/nFFKz/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-16985--7711d19a45e3af05d32f66b37ea216a8">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/230645">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7012346" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q6602" />
+            <ns8:prefLabel xml:lang="nl">Straatsburg (Frankrijk)</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26126">
+            <ns8:prefLabel xml:lang="en">sculptures</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">beeldhouwwerken</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2201048">
+            <ns8:altLabel xml:lang="nl">sculptuur</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">sculpture</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">beeldhouwwerk</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220164">
+            <ns8:prefLabel xml:lang="en">walnut (hardwood)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">notenhout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202703">
+            <ns8:prefLabel xml:lang="en">linden</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">lindehout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2203464">
+            <ns8:prefLabel xml:lang="en">polychromy</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">polychromie</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22038">
+            <ns8:prefLabel xml:lang="en">linen (material)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">linnen</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2206822">
+            <ns8:prefLabel xml:lang="en">gild</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">vergulden</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211243">
+            <ns9:sameAs rdf:resource="https://iconclass.org/73B25" />
+            <ns8:altLabel>73B25</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">adoration of the Christ-child by the shepherds; Mary and Joseph present</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211717">
+            <ns9:sameAs rdf:resource="https://iconclass.org/73B23%28%2B3%29" />
+            <ns8:altLabel>73B23(+3)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">adoration of the Christ-child by Mary and Joseph (+ angel(s))</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/nFFKz">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21076503">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/67581807" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q131573272" />
+            <ns10:dateOfDeath xml:lang="nl">voor 1487</ns10:dateOfDeath>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230224">
+                <ns8:prefLabel xml:lang="en">Vienna</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Wenen</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns8:altLabel xml:lang="en">Kamensetzer, Hans</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Kamensetzer, Hans</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Hans Kamensetzer</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Hans Kamensetzer</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

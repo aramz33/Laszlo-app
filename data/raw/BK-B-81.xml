@@ -1,0 +1,190 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns11="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20035964</ns0:identifier>
+        <ns0:datestamp>2026-06-08T02:11:25Z</ns0:datestamp>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26126</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20035964#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20035964">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2103101" />
+                <dc:description xml:lang="en">J.J.L. ten Kate (1819 - 1889). Marble, B. van Hove, 1889. Ten Kate was minister, poet and translator. In 1860, after Marken, Almkerk (Brabant) and Middelburg he was appointed to a parish in Amsterdam. Like many other preachers of the mid-19th century Ten Kate played a prominent role in public life. Ministers of religion considered themselves spokesmen of society. No public celebration would be complete without a festive address by a clergyman. Preachers also formed an important group numerically. Each village had its own minister. They formed a majority in the academic world, too. In Utrecht, for example, where Ten Kate had studied, half of the students were with the theology faculty. This figure was presented to the Rijksmuseum by friends and admirers, among them Nicolaas Beets.</dc:description>
+                <dc:description xml:lang="nl">J.J.L. ten Kate (1819 - 1889). Marmer, B. van Hove, 1889. Ten Kate was dominee, dichter en vertaler. Na Marken, Almkerk (Brabant) en Middelburg werd hij in 1860 predikant in Amsterdam. Ten Kate speelde evenals veel andere predikanten in het midden van de 19de eeuw een vooraanstaande rol in het openbare leven. Predikanten beschouwden zich als woordvoerders der gemeenschap. Zo sprak bij feestelijke gebeurtenissen altijd wel een dominee de feestrede uit. Ook in aantal vormden de predikanten een belangrijke groep. Ieder dorp had wel een predikant. Onder de academici vormden zij de meerderheid. In Utrecht bijvoorbeeld, waar Ten Kate studeerde, was de helft van alle studenten theologie-student. Het beeld werd in 1899 aan het Rijksmuseum aangeboden door vrienden en vereerders, onder wie Nicolaas Beets.</dc:description>
+                <dc:identifier>BK-B-81</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20073120" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20073121" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21051780" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221258" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2301" />
+                <dc:title xml:lang="nl">Buste van Jan Jacob Lodewijk ten Kate (1819-1889), dichter</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220525" />
+                <ns5:created xml:lang="en">1889</ns5:created>
+                <ns5:created xml:lang="nl">1889</ns5:created>
+                <ns5:extent xml:lang="en">height 115 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 80 cm x width 55 cm x depth 26 cm x weight 100 kg</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 80 cm x breedte 55 cm x diepte 26 cm x gewicht (eigenschap) 100 kg</ns5:extent>
+                <ns5:extent xml:lang="nl">voetstuk: hoogte 115 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26126" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100936" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301153527" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30115456" />
+                <ns5:isReferencedBy>Verslagen omtrent 's Rijks verzamelingen van Geschiedenis en Kunst, 1885, p. 27</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220147" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23029985" />
+                <ns6:spn xml:lang="en">Gift of E. Laurillard</ns6:spn>
+                <ns6:spn xml:lang="nl">Schenking van de heer E. Laurillard</ns6:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/rAArR/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/rAArR" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/rAArR/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-B-81--6e6f283e7cc09815dca2159a32216f7a">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26126">
+            <ns8:prefLabel xml:lang="en">sculptures</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">beeldhouwwerken</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220147">
+            <ns8:prefLabel xml:lang="en">marble (rock)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">marmer</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220525">
+            <ns8:altLabel xml:lang="nl">borstbeeld</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">portretbuste</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">bust</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">buste</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221258">
+            <ns9:sameAs rdf:resource="https://iconclass.org/48C93" />
+            <ns8:altLabel>48C93</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">portrait of a writer</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/rAArR">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2103101">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/67602027" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500114425" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q2946177" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/88407" />
+            <ns10:dateOfBirth xml:lang="nl">1850-03-17</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1914-02-10</ns10:dateOfDeath>
+            <ns10:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/2301261" />
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006952" />
+                <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q727" />
+                <ns9:sameAs rdf:resource="https://sws.geonames.org/2759794/" />
+                <ns8:prefLabel xml:lang="en">Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Amsterdam</ns8:prefLabel>
+                <ns11:lat>4.916667</ns11:lat>
+                <ns11:long>52.35</ns11:long>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205167">
+                <ns8:prefLabel xml:lang="en">sculptor</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">beeldhouwer</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Hove, Bart van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Bartholomeus Johannes Wilhelmus Maria van Hove</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Hove, Bart van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Hove, Bartholomeus Johannes Wilhelmus Maria van</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Bart van Hove</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Bart van Hove</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21051780">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/122246293" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q1869897" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/440039" />
+            <ns10:dateOfBirth xml:lang="nl">1819-12-23</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1889-12-24</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+                <ns8:prefLabel xml:lang="en">The Hague</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Den Haag</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006952" />
+                <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q727" />
+                <ns9:sameAs rdf:resource="https://sws.geonames.org/2759794/" />
+                <ns8:prefLabel xml:lang="en">Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Amsterdam</ns8:prefLabel>
+                <ns11:lat>4.916667</ns11:lat>
+                <ns11:long>52.35</ns11:long>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205161">
+                <ns8:prefLabel xml:lang="en">rector (pastor)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">predikant</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202946">
+                <ns8:prefLabel xml:lang="en">poet</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">dichter</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Kate, Jan Jakob Lodewijk ten</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Kate, Jan Jakob Lodewijk ten</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Jan Jakob Lodewijk ten Kate</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Jan Jakob Lodewijk ten Kate</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7016845" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q55" />
+            <ns9:sameAs rdf:resource="https://sws.geonames.org/2750405/" />
+            <ns8:prefLabel xml:lang="en">Netherlands</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Nederland</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

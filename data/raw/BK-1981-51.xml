@@ -1,0 +1,296 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns11="http://rdvocab.info/ElementsGr2/" xmlns:ns12="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200113487</ns0:identifier>
+        <ns0:datestamp>2026-06-08T01:20:09Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260215</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26128</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200113487#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200113487">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2103933" />
+                <dc:description xml:lang="en">The cup was made to celebrate the marriage in 1750 of Johan van Borssele van der Hooge and Anna Margaretha Coninck. Its form and decoration are based on a cup that William IV had commissioned as a gift to the civic guard company of The Hague. That cup was also made by the Metayer brothers from France.</dc:description>
+                <dc:description xml:lang="nl">Minerva, godin van de wijsheid, leidt een 
+kind naar de tempel. Ze worden begeleid 
+door de personificaties van Godvruchtig heid 
+en Vlijt. Deze voorstelling verwijst naar de 
+goede opvoeding van Anna Margaretha 
+Elisabeth Coninck. Zij trouwde met Johann 
+van Borssele, die in dienst was van de 
+stadhouder. Aan de zijkanten van de bokaal 
+zijn de familiewapens van het Zeeuwse 
+echtpaar afgebeeld.</dc:description>
+                <dc:identifier>BK-1981-51</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200394909" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2109121" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2109122" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2109441" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2109443" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211303" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211391" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211392" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211393" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211394" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221573" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22165" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221705" />
+                <dc:title xml:lang="en">Bokaal</dc:title>
+                <dc:title xml:lang="en">Cup</dc:title>
+                <dc:title xml:lang="nl">Bokaal</dc:title>
+                <dc:title xml:lang="nl">Cup</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220357" />
+                <ns5:created xml:lang="en">1754</ns5:created>
+                <ns5:created xml:lang="nl">1754</ns5:created>
+                <ns5:extent xml:lang="en">diameter 9.9 cm x weight 853 g</ns5:extent>
+                <ns5:extent xml:lang="en">height 25.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">diameter 9,9 cm x gewicht (eigenschap) 853 g</ns5:extent>
+                <ns5:extent xml:lang="nl">geheel: hoogte 25,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260215" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26128" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/262146" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100604" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100935" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301123129" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301126546" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3011738" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30124857" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30127164" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3016821" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30183148" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30192380" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220237" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23029985" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204606" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/220694" />
+                <ns7:spn xml:lang="en">Purchased with the support of the Rijksmuseum-Stichting, the Vereniging Rembrandt, the Ministerie van CRM and the Amsterdamsch Fonds</ns7:spn>
+                <ns7:spn xml:lang="nl">Aankoop met steun van de Rijksmuseum-Stichting, de Vereniging Rembrandt, het Ministerie van CRM en het Amsterdamsch Fonds</ns7:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/aGmaG/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/aGmaG" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/aGmaG/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-1981-51--ede383b6a12b503e09e5c98cea356f07">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns9:prefLabel xml:lang="en">RijksXL</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">RijksXL</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260215">
+            <ns9:prefLabel xml:lang="en">Vereniging Rembrandt</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Vereniging Rembrandt</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns9:prefLabel xml:lang="en">biografic</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">biografisch</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26128">
+            <ns9:prefLabel xml:lang="nl">edele metalen</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220237">
+            <ns9:prefLabel xml:lang="en">gold (metal)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">goud</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220357">
+            <ns9:prefLabel xml:lang="en">goblet</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">bokaal</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2204606">
+            <ns9:altLabel xml:lang="nl">geciseleerd</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">ciselure</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">ciseleren</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220694">
+            <ns9:altLabel xml:lang="nl">gedreven</ns9:altLabel>
+            <ns9:prefLabel xml:lang="nl">drijven</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2211303">
+            <ns10:sameAs rdf:resource="https://iconclass.org/48A9863" />
+            <ns9:altLabel>48A9863</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">rocaille ornament</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2211391">
+            <ns10:sameAs rdf:resource="https://iconclass.org/92C1" />
+            <ns9:altLabel>92C1</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">(story of) Juno (Hera)</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2211392">
+            <ns10:sameAs rdf:resource="https://iconclass.org/42D24" />
+            <ns9:altLabel>42D24</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">civil marriage ceremony</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2211393">
+            <ns10:sameAs rdf:resource="https://iconclass.org/54A2%28%2B1%29" />
+            <ns9:altLabel>54A2(+1)</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Carefulness, Diligence; 'Diligenza' (Ripa) (+ personification)</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2211394">
+            <ns10:sameAs rdf:resource="https://iconclass.org/11M31" />
+            <ns9:altLabel>11M31</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Faith, 'Fides'; 'Fede', 'Fede catholica', 'Fede christiana', 'Fede christiana catholica' (Ripa) ~ one of the Three Theological Virtues</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221573">
+            <ns10:sameAs rdf:resource="https://iconclass.org/92C27" />
+            <ns9:altLabel>92C27</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">specific aspects, allegorical aspects of Minerva; Minerva as patroness</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22165">
+            <ns10:sameAs rdf:resource="https://iconclass.org/25F23%28LION%29" />
+            <ns9:altLabel>25F23(LION)</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">beasts of prey, predatory animals: lion</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221705">
+            <ns10:sameAs rdf:resource="https://iconclass.org/92D1916" />
+            <ns9:altLabel>92D1916</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">cupids: 'amores', 'amoretti', 'putti'</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/aGmaG">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2103933">
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500068580" />
+            <ns11:dateOfDeath xml:lang="nl">1774</ns11:dateOfDeath>
+            <ns11:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2302071">
+                <ns9:prefLabel xml:lang="nl">Rouen</ns9:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfBirth>
+            <ns11:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006952" />
+                <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q727" />
+                <ns10:sameAs rdf:resource="https://sws.geonames.org/2759794/" />
+                <ns9:prefLabel xml:lang="en">Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Amsterdam</ns9:prefLabel>
+                <ns12:lat>4.916667</ns12:lat>
+                <ns12:long>52.35</ns12:long>
+              </ns3:Place>
+            </ns11:placeOfDeath>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2205009">
+                <ns9:prefLabel xml:lang="en">goldsmith</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">goudsmid</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2205197">
+                <ns9:prefLabel xml:lang="en">silversmith</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">zilversmid</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns9:altLabel xml:lang="en">Métayer, Louis</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Métayer, Louis</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Louis Métayer</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Louis Métayer</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109121">
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q113294932" />
+            <ns11:dateOfBirth xml:lang="nl">1685-10-07</ns11:dateOfBirth>
+            <ns11:dateOfDeath xml:lang="nl">1758-11-28</ns11:dateOfDeath>
+            <ns11:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230164">
+                <ns9:prefLabel xml:lang="en">London</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Londen</ns9:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfBirth>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2205153">
+                <ns9:prefLabel xml:lang="en">mayor</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">burgemeester</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns9:altLabel xml:lang="nl">Citters, Willem van</ns9:altLabel>
+            <ns9:prefLabel xml:lang="nl">Willem van Citters</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109122">
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q113294934" />
+            <ns11:dateOfBirth xml:lang="nl">1694-01-30</ns11:dateOfBirth>
+            <ns11:dateOfDeath xml:lang="nl">1753-02-18</ns11:dateOfDeath>
+            <ns11:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230209">
+                <ns9:prefLabel xml:lang="nl">Veere</ns9:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfBirth>
+            <ns11:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230174">
+                <ns9:prefLabel xml:lang="en">Middelburg</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Middelburg (Zeeland)</ns9:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfDeath>
+            <ns9:altLabel xml:lang="nl">Kien, Maria</ns9:altLabel>
+            <ns9:prefLabel xml:lang="nl">Maria Kien</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109441">
+            <ns11:dateOfBirth xml:lang="nl">1707-08-26</ns11:dateOfBirth>
+            <ns11:dateOfDeath xml:lang="nl">1764-03-14</ns11:dateOfDeath>
+            <ns11:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/2301261" />
+            <ns11:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+                <ns9:prefLabel xml:lang="en">The Hague</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Den Haag</ns9:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfDeath>
+            <ns9:altLabel xml:lang="nl">Borssele van der Hooghe, Jan van</ns9:altLabel>
+            <ns9:prefLabel xml:lang="nl">Jan van Borssele van der Hooghe</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109443">
+            <ns11:dateOfBirth xml:lang="nl">1733-03-25</ns11:dateOfBirth>
+            <ns11:dateOfDeath xml:lang="nl">1795-01-25</ns11:dateOfDeath>
+            <ns11:placeOfBirth />
+            <ns11:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230208">
+                <ns9:prefLabel xml:lang="en">Cleves</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Kleef (Noordrijn-Westfalen)</ns9:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfDeath>
+            <ns9:altLabel xml:lang="nl">Coninck, Anna Margaretha Elisabeth</ns9:altLabel>
+            <ns9:prefLabel xml:lang="nl">Anna Margaretha Elisabeth Coninck</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns9:prefLabel>Rijksmuseum</ns9:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

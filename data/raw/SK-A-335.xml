@@ -1,0 +1,159 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20027079</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:22:32Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>26121</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20027079#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20027079">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101928" />
+                <dc:description xml:lang="en">Pieter de Ring (1615 - 1660). Still life with a golden cup.</dc:description>
+                <dc:description xml:lang="nl">Pieter de Ring (1615 - 1660). Stilleven met een gouden bokaal.</dc:description>
+                <dc:identifier>SK-A-335</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221555" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221683" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221684" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221685" />
+                <dc:title xml:lang="en">Still Life with Golden Goblet</dc:title>
+                <dc:title xml:lang="nl">Stilleven met een gouden bokaal</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">c. 1655 - c. 1660</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1655 - ca. 1660</ns5:created>
+                <ns5:extent xml:lang="en">outersize: depth 9 cm (support incl. SK-L-5905)</ns5:extent>
+                <ns5:extent xml:lang="en">support: height 101.2 cm x width 84.7 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">buitenmaat: diepte 9 cm (drager incl. SK-L-5905)</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 101,2 cm x breedte 84,7 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26121" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301133249" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301192481" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301241009" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015253" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30166233" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30166260" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30173379" />
+                <ns5:isReferencedBy>Tucker Kinder, Tyrell, 'Pieter de Ring: A Still-Life Painter in Seventeenth Century Holland', Indiana University Art Museum Bulletin (1979), p. 30-32, fig. 5.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">&lt;div&gt;&lt;p&gt;…; collection Adriaan Leonard van Heteren Gevers (1794-1866), Rotterdam (‘Pierre de Ring. Tableau capital, représentant une table couverte d’un tapis de velours bleu, sur la quelle sont posés plusieurs espèces de fruits, des écrivisses, des crabbes, des huitres, &amp;amp;c. (toile, h. 38½ l. 32½) [100 x 85 cm].’);{_&lt;em&gt;Catalogue raisonné d’une collection de tableaux appartenant à Monsieur A.L. Gevers, Page de Leurs Majestés le Roi et la Reine de Hollande&lt;/em&gt;_ 1808; transcr. in E.W. Moes and E. van Biema, _De Nationale Konst-Gallery en het Koninklijk Museum_, Amsterdam 1909, pp. 145-51, esp. p. 149, no. 90.} from whom, with 136 other paintings (known as ‘Kabinet van Heteren Gevers’), fl. 100,000, to the museum, by decree of Louis Napoleon, King of Holland, and through the mediation of his father, Dirk Cornelis Gevers (1763-1839), 8 June 1809{T.L.J. Verroen, ‘“Een verstandig ryk man”: De achttiende-eeuwse verzamelaar Adriaan Leonard van Heteren’, _&lt;em&gt;Leids Kunsthistorisch Jaarboek&lt;/em&gt;_ 4 (1985), pp. 17-61, esp. p. 17, notes 2, 3.}&lt;/p&gt;&lt;/div&gt;</ns5:provenance>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/KOPdZ/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/KOPdZ" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/KOPdZ/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-335--9eb9a945b17a9e634394c863f6f1d7cc">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns7:prefLabel xml:lang="en">paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderijen</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26121">
+            <ns7:prefLabel xml:lang="en">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns7:prefLabel xml:lang="en">canvas</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">doek</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns7:prefLabel xml:lang="en">painting</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderij</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns7:prefLabel xml:lang="en">oil paint (paint)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">olieverf</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221555">
+            <ns8:sameAs rdf:resource="https://iconclass.org/41C38" />
+            <ns7:altLabel>41C38</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">laid table as still life</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221683">
+            <ns8:sameAs rdf:resource="https://iconclass.org/25F716%28LOBSTER%29" />
+            <ns7:altLabel>25F716(LOBSTER)</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">crustaceans: lobster</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221684">
+            <ns8:sameAs rdf:resource="https://iconclass.org/25G21" />
+            <ns7:altLabel>25G21</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">fruits</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221685">
+            <ns8:sameAs rdf:resource="https://iconclass.org/41C65" />
+            <ns7:altLabel>41C65</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">vegetables and fruit; still life of vegetables and fruit</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/KOPdZ">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101928">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/95749117" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500011186" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q3066618" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/67085" />
+            <ns9:dateOfBirth xml:lang="nl">ca. 1615</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1660-09-22</ns9:dateOfDeath>
+            <ns9:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/230600" />
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230105">
+                <ns7:prefLabel xml:lang="en">Leiden</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Leiden</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns7:prefLabel xml:lang="en">painter</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">schilder</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Ring, Pieter de</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Ring, Pieter de</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Pieter de Ring</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Pieter de Ring</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/230600">
+            <ns7:prefLabel xml:lang="nl">Ieper (stad)</ns7:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

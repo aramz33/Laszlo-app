@@ -1,0 +1,161 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20015801</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:01:22Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260245</ns0:setSpec>
+        <ns0:setSpec>260247</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261132</ns0:setSpec>
+        <ns0:setSpec>261223</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20015801#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20015801">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="en">Stoneware with black or black-brown glaze was popular among the lower middle class, especially for utilitarian items designed for everyday use. This type of stoneware was made in Fujian province. The kilns there produced a deep black stoneware through the addition of iron-rich glazes. This bowl has a thick glaze with a fine striped pattern, aptly described as the ‘hare’s fur.’</dc:description>
+                <dc:description xml:lang="nl">Steengoed met zwart of zwartbruin glazuur was populair bij de lagere middenklasse, vooral bij voorwerpen voor dagelijks gebruik. Het werd geproduceerd in de provincie Fujian. De ovens daar leverden diepzwart steengoed, dat ontstond door de toevoeging van ijzerrijke glazuren. Deze kom heeft een dikke glazuur met een fijn gestreepte tekening, het zogenoemde ‘hazenvel’.</dc:description>
+                <dc:identifier>AK-MAK-615</dc:identifier>
+                <dc:title xml:lang="en">Bowl</dc:title>
+                <dc:title xml:lang="en">Kom</dc:title>
+                <dc:title xml:lang="nl">Bowl</dc:title>
+                <dc:title xml:lang="nl">Kom</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220549" />
+                <ns5:created xml:lang="en">c. 1100 - c. 1299</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1100 - ca. 1299</ns5:created>
+                <ns5:extent xml:lang="en">diameter 12 cm x height 6.8 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">diameter 12 cm x hoogte 6,8 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260245" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260247" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261132" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261223" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30112489" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30127747" />
+                <ns5:isReferencedBy>Menno Fitski, 'Ceramics for the Japanese tea ceremony in the Rijksmuseum', Andon (2009) nr. 86, p. 27-34, afb. 2.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Menno Fitski, 'Collectie : De Japanse theeceremonie', Rijksmuseum Kunstkrant 33 (2007) nr. 2, p. 16-19.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Menno Fitski, 'Japanese art in the Westendorp-Osieck collection', Arts of Asia 38 (2008) nr. 4, p. 52, afb. 7.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220109" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220110" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22016" />
+                <ns5:provenance xml:lang="en">…; collection of Herman Karel Westendorp (1868-1941), Amsterdam, 1941;{Note RMA.} his widow Betsy Westendorp-Osieck (1880-1968), Amsterdam, by whom bequeathed to the Vereniging van Vrienden der Aziatische Kunst, 1968;{note RMA.} from whom on loan to the museum, 1972</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23024" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/22018" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2203127" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2207006" />
+                <ns7:spn xml:lang="en">On loan from the Royal Asian Art Society in The Netherlands (Westendorp-Osieck bequest, 1968)</ns7:spn>
+                <ns7:spn xml:lang="nl">Bruikleen van de Koninklijke Vereniging van Vrienden der Aziatische Kunst (legaat Westendorp-Osieck, 1968)</ns7:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/fqYeN/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/fqYeN" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/fqYeN/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/AK-MAK-615--ebd6b3b5e90922f73022b4a8ee4d5b55">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/23024">
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q148" />
+            <ns10:sameAs rdf:resource="https://sws.geonames.org/1814991/" />
+            <ns9:prefLabel xml:lang="en">China</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">China</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260245">
+            <ns9:prefLabel xml:lang="en">Asian ceramics</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Aziatische keramiek</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260247">
+            <ns9:prefLabel xml:lang="en">friends asian art</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">vrienden aziatische kunst</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261132">
+            <ns9:prefLabel xml:lang="nl">China (collectie)</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261223">
+            <ns9:prefLabel xml:lang="en">Asian ceramics</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Aziatische keramiek</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220109">
+            <ns9:prefLabel xml:lang="en">stoneware</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">steengoed</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220110">
+            <ns9:prefLabel xml:lang="en">glaze</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">glazuur</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22016">
+            <ns9:prefLabel xml:lang="en">metal</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">metaal</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22018">
+            <ns9:altLabel xml:lang="nl">draaien</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">gedraaid</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">turning</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">draaiend bewerken</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2203127">
+            <ns9:altLabel xml:lang="nl">geglazuurd</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">vitrification</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">glazuren</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220549">
+            <ns9:prefLabel xml:lang="en">tea bowl</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">theekom</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2207006">
+            <ns9:altLabel xml:lang="nl">gebakken</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">fired</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">bakken</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/fqYeN">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns9:altLabel xml:lang="nl">Anon</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">anonymous</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">anoniem</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns9:prefLabel>Rijksmuseum</ns9:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

@@ -1,0 +1,185 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200106133</ns0:identifier>
+        <ns0:datestamp>2026-06-07T23:58:07Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26151</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200106133#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200106133">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21040372" />
+                <dc:identifier>RP-P-1992-70</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22132" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22133" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22134" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22135" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22136" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22137" />
+                <dc:title xml:lang="nl">Vanitasstilleven met een schedel met lauwerkrans</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/22040" />
+                <ns5:alternative xml:lang="nl">Finis Coronat Opus</ns5:alternative>
+                <ns5:created xml:lang="en">1626</ns5:created>
+                <ns5:created xml:lang="nl">1626</ns5:created>
+                <ns5:extent xml:lang="en">height 216 mm x width 275 mm</ns5:extent>
+                <ns5:extent xml:lang="en">height 431 mm x width 285 mm</ns5:extent>
+                <ns5:extent xml:lang="nl">blad: hoogte 431 mm x breedte 285 mm</ns5:extent>
+                <ns5:extent xml:lang="nl">gravure: hoogte 216 mm x breedte 275 mm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26151" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2623223" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301110754" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144234" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301185785" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301208533" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30157649" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30163133" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30163553" />
+                <ns5:isReferencedBy>B.A. Heezen-Stoll, Een vanitasstilleven van Jacques de Gheyn II uit 1621: afspiegeling van neostoïsche denkbeelden, uit: Oud Holland, 93, 1979, 4, pagina pp. 217-250 - p. 218(zie: http://www.jstor.org/stable/42711022)</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Hollstein Dutch 19</ns5:isReferencedBy>
+                <ns5:isReferencedBy>New Hollstein Dutch 20-1(4)</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22020" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/220103" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2207277" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/Giqgi/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/Giqgi" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/Giqgi/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/RP-P-1992-70--14c4622e75c91f349af691dde2001c71">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26151">
+            <ns8:prefLabel xml:lang="en">prints</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">prenten</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220103">
+            <ns8:prefLabel xml:lang="en">letterpress printing</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">boekdruk</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22020">
+            <ns8:prefLabel xml:lang="en">paper</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">papier (materiaal)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22040">
+            <ns8:prefLabel xml:lang="en">print</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">prent</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2207277">
+            <ns8:altLabel xml:lang="nl">kopergravure</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">engraving</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">graveren (drukprocedé)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22132">
+            <ns9:sameAs rdf:resource="https://iconclass.org/48C534" />
+            <ns8:altLabel>48C534</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">tools, implements of graphic artist</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22133">
+            <ns9:sameAs rdf:resource="https://iconclass.org/48C515" />
+            <ns8:altLabel>48C515</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">tools, implements of painter</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22134">
+            <ns9:sameAs rdf:resource="https://iconclass.org/49M32" />
+            <ns8:altLabel>49M32</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">book</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22135">
+            <ns9:sameAs rdf:resource="https://iconclass.org/11R71" />
+            <ns8:altLabel>11R71</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">skull as symbol of 'Vanitas'</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22136">
+            <ns9:sameAs rdf:resource="https://iconclass.org/23U22" />
+            <ns8:altLabel>23U22</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">hourglass</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22137">
+            <ns9:sameAs rdf:resource="https://iconclass.org/11R6" />
+            <ns8:altLabel>11R6</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">'Vanitas' still life</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/Giqgi">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21040372">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/66148995768959750881" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500006788" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q926814" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/39407" />
+            <ns10:dateOfBirth xml:lang="nl">1573-06-09</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">voor 1650-10-25</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2306526">
+                <ns8:prefLabel xml:lang="nl">Duffel</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+                <ns8:prefLabel xml:lang="en">The Hague</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Den Haag</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205148">
+                <ns8:prefLabel xml:lang="en">publisher</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">uitgever</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Hondius, Hendrick (I)</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Hh(ondius)</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Hondius, Hendrick (I)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Hendrick Hondius (I)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Hendrick Hondius (I)</ns8:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

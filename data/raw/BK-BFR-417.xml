@@ -1,0 +1,132 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200141211</ns0:identifier>
+        <ns0:datestamp>2026-06-08T04:26:57Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26132</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200141211#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200141211">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="en">Altar from the Roman Catholic church at Rijsbergen. Descent from the cross, by Caspar de Crayer (1584 - 1669).</dc:description>
+                <dc:description xml:lang="nl">Altaarafkomstig uit de R.K. kerk te Rijsbergen. Kruisafneming, door Caspar de Crayer (1584 - 1669).</dc:description>
+                <dc:identifier>BK-BFR-417</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211236" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2215495" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2305727" />
+                <dc:title xml:lang="nl">Altaar van de Rooms Katholieke kerk te Rijsbergen</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/22015" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2202147" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220824" />
+                <ns5:created xml:lang="en">c. 1625 - c. 1650</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1625 - ca. 1650</ns5:created>
+                <ns5:extent xml:lang="en">height 529 cm x width 451 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 529 cm x breedte 451 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26132" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125657" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22021" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220907" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230149" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/khAkS/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/khAkS" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/khAkS/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-BFR-417--5c9f13fed596420f9c8af50ed4e6ca1e">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/230149">
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q2002438" />
+            <ns7:prefLabel xml:lang="nl">Zuid-Nederland</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26132">
+            <ns7:prefLabel xml:lang="nl">meubelen</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22015">
+            <ns7:prefLabel xml:lang="en">furniture</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">meubilair</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22021">
+            <ns7:prefLabel xml:lang="en">wood (plant material)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">hout</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202147">
+            <ns7:prefLabel xml:lang="nl">kerkmeubel</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220824">
+            <ns7:prefLabel xml:lang="en">altar</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">altaar</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220907">
+            <ns7:prefLabel xml:lang="en">oak (wood)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">eikenhout</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2211236">
+            <ns8:sameAs rdf:resource="https://iconclass.org/11G1911" />
+            <ns7:altLabel>11G1911</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">cherubs, i.e. children's heads with wings</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2215495">
+            <ns8:sameAs rdf:resource="https://iconclass.org/48C1614" />
+            <ns7:altLabel>48C1614</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">spiral or Solomonic column</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/khAkS">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns7:altLabel xml:lang="nl">Anon</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">anonymous</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">anoniem</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2305727">
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q3432017" />
+            <ns8:sameAs rdf:resource="https://sws.geonames.org/2748091/" />
+            <ns7:prefLabel xml:lang="nl">Rijsbergen</ns7:prefLabel>
+            <ns9:lat>4.69722</ns9:lat>
+            <ns9:long>51.5175</ns9:long>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

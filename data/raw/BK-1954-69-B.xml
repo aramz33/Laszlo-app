@@ -1,0 +1,168 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns11="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200390851</ns0:identifier>
+        <ns0:datestamp>2026-06-08T20:41:57Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261200</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200390851#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200390851">
+                <dc:creator>
+                  <ns3:Agent rdf:nodeID="N4e5e246733394597ba30958b1d19c45a" />
+                </dc:creator>
+                <dc:description xml:lang="en">To test the faithfulness of his wife Procris, Cephalus disguised himself and tried to seduce her. Just when she was about to give in, he revealed himself. In her distress, Procris fled to the goddess Diana, but was eventually reconciled with her husband. In the foreground, Diana and Procris bid each other farewell.</dc:description>
+                <dc:description xml:lang="nl">Omdat Cephalus wil weten of zijn vrouw Procris hem ontrouw is, probeert hij haar in vermomming te verleiden. Op het moment dat zij lijkt toe te geven, toont hij haar zijn ware gedaante. De hevig ontdane Procris vlucht naar de godin Diana, maar keert later toch weer terug naar haar man. Op de voorgrond nemen Diana en Procris afscheid.</dc:description>
+                <dc:identifier>BK-1954-69-B</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200114829" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200390850" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200479164" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20074234" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20074235" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22110280" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211351" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22115281" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221169" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221205" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221772" />
+                <dc:title xml:lang="en">Cephalus and Procris</dc:title>
+                <dc:title xml:lang="en">Cephalus en Procris</dc:title>
+                <dc:title xml:lang="nl">Cephalus and Procris</dc:title>
+                <dc:title xml:lang="nl">Cephalus en Procris</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220535" />
+                <ns5:alternative xml:lang="nl">De geschiedenissen van Diana</ns5:alternative>
+                <ns5:created xml:lang="en">c. 1593 - c. 1610</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1593 - ca. 1610</ns5:created>
+                <ns5:extent xml:lang="en">height 354 cm x height 351 cm x width 546 cm x width 542 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 354 cm (links) x hoogte 351 cm (rechts) x breedte 546 cm (boven) x breedte 542 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261200" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301135445" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301154543" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30139213" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30144570" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30156105" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30157626" />
+                <ns5:isReferencedBy>A.M.L.E. Mulder-Erkelens, 'Procris afscheid van Diana' , Bijvoorbeeld, 11(1979)2, p. 12-15</ns5:isReferencedBy>
+                <ns5:isReferencedBy>E. Hartkamp, 'Collectie : Puzzelen met de goden', Rijksmuseum Kunstkrant 33 (2007), nr. 5, p. 20-23, afb.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>L.J.F. Wijsenbeek, A.M.L.E. Erkelens, Oud Delft. Delfts Zilver. De wandtapijten te Delft, Rotterdam/'s Gravenhage 1962, p. 77-80</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Lars Hendrikman, Gejaagd door de Maagd : De Dianatapijten van het Rijksmuseum [Brochure bij de tentoonstelling], Maastricht 2009.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Th. H. Lunsingh-Scheurleer, 'Een kapitale schenking', Bulletin van het Rijksmuseum, 2(1954)3, p. 64-65</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Th.H. Lunsing Scheurleer, "Diana en Procris", Openbaar Kunstbezit (19XX) p. 18a-b.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Verslagen der Rijksverzamelingen van Geschiedenis en Kunst, deel LXXVI, 1954, p. 17-18</ns5:isReferencedBy>
+                <ns5:isReferencedBy>cat. tent. Delft 1981, M.I.E. van Zijl, 'De Delftse wandtapijten', in: R.A. Leeuw, I.V.T. Spaanders (red), De stad Delft. Cultuur en maatschappij van 1572 tot 1667, Delft (Stedelijk Museum Het Prinsenhof), Delft 1981</ns5:isReferencedBy>
+                <ns5:isReferencedBy>cat. tent. Stockholm 1959, Konstkatter fran Hollands guldalder, Stockholm (National Museum), Stockholm 1959, p. 20 met afb.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220126" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22088" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230132" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2201010" />
+                <ns7:spn xml:lang="en">Gift of Van Leer's Vatenfabriek N.V., Amsterdam</ns7:spn>
+                <ns7:spn xml:lang="nl">Schenking van Van Leer's Vatenfabriek N.V., Amsterdam</ns7:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/tZAAb/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/tZAAb" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/tZAAb/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-1954-69-B--69b7daccf757a1081c804cf6c88aa7aa">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/230132">
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006804" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q690" />
+            <ns9:prefLabel xml:lang="en">Delft</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Delft</ns9:prefLabel>
+            <ns11:lat>4.366667</ns11:lat>
+            <ns11:long>52</ns11:long>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261200">
+            <ns9:prefLabel xml:lang="nl">Europese wandtapijten</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2201010">
+            <ns9:altLabel xml:lang="nl">tapisserie</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">tapestry</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">tapijtwerk</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220126">
+            <ns9:prefLabel xml:lang="en">wool</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">wol</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220535">
+            <ns9:altLabel xml:lang="nl">gobelin</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">tapestry</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">wandtapijt</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22088">
+            <ns9:prefLabel xml:lang="en">silk</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">zijde</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22110280">
+            <ns10:sameAs rdf:resource="https://iconclass.org/95A%28CEPHALUS%29211" />
+            <ns9:altLabel>95A(CEPHALUS)211</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Cephalus in disguise uses presents to seduce Procris</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2211351">
+            <ns10:sameAs rdf:resource="https://iconclass.org/92C3" />
+            <ns9:altLabel>92C3</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">(story of) Diana (Artemis)</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22115281">
+            <ns10:sameAs rdf:resource="https://iconclass.org/92C39" />
+            <ns9:altLabel>92C39</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">offspring, companion(s), train etc. of Diana</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221169">
+            <ns10:sameAs rdf:resource="https://iconclass.org/43C1147" />
+            <ns9:altLabel>43C1147</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">hunting dogs</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221205">
+            <ns10:sameAs rdf:resource="https://iconclass.org/25H1" />
+            <ns9:altLabel>25H1</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">landscapes in the temperate zone</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221772">
+            <ns10:sameAs rdf:resource="https://iconclass.org/33A2" />
+            <ns9:altLabel>33A2</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">taking leave</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/tZAAb">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

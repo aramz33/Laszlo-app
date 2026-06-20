@@ -1,0 +1,202 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20026751</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:20:26Z</ns0:datestamp>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>26121</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20026751#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20026751">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101748" />
+                <dc:description xml:lang="nl">Tegen de achtergrond van de Haagse hofvijver passeert Maurits met zijn lijfwacht en gevolg. De figuur rechts naast hem is zijn jongere broer en opvolger Frederik Hendrik. Direct achter hen staan de belangrijkste hofdienaren. Allen dragen elegante, modieuze kleding. &lt;BR /&gt;De rijk geklede vrouw links is mogelijk Maurits’ geliefde Margaretha van Mechelen.</dc:description>
+                <dc:identifier>SK-A-955</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21042628" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21042704" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221374" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221391" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/230460" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2309757" />
+                <dc:title xml:lang="en">The Vijverberg, The Hague, in Winter, with Prince Maurits and his Retinue in the Foreground</dc:title>
+                <dc:title xml:lang="nl">Wintergezicht op de Vijverberg te Den Haag met op de voorgrond prins Maurits en zijn gevolg</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">1618</ns5:created>
+                <ns5:created xml:lang="nl">1618</ns5:created>
+                <ns5:extent xml:lang="en">outer size: depth 8 cm (support incl. frame)</ns5:extent>
+                <ns5:extent xml:lang="en">support: height 71 cm x width 131.8 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">buitenmaat: diepte 8 cm (drager incl. SK-L-4023)</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 71 cm x breedte 131,8 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26121" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2621498" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30112160" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301206950" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015253" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30161444" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30191694" />
+                <ns5:isReferencedBy>Documentatiemap Schilderijen: aantekeningen R. van Luttervelt (voor 1963).</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">…; an 18th-century Dutch collection;{Two labels with old handwriting on the reverse of the panel.}…; ? sale, J. Visser (†), The Hague (B. Scheurleer), 16 (20) December 1811 _&lt;em&gt;sqq.&lt;/em&gt;_, no. 66 (‘Gezigt van ’t binnenhof, vyver en vyverberg, zynde een ysvermaak, 1618’);…; from Mr Ruppertshoven van Boll, Vienna, fl. 700, to the Nederlandsch Museum voor Geschiedenis en Kunst, The Hague (inv. no. 4385), 1878; transferred to the museum, 1885</ns5:provenance>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/MVjUj/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/MVjUj" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/MVjUj/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-955--12ff66058c00bfb46c0ee46380b6f70b">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns7:prefLabel xml:lang="en">biografic</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">biografisch</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns7:prefLabel xml:lang="en">paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderijen</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26121">
+            <ns7:prefLabel xml:lang="en">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns7:prefLabel xml:lang="en">panel</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">paneel</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns7:prefLabel xml:lang="en">painting</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderij</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns7:prefLabel xml:lang="en">oil paint (paint)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">olieverf</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221374">
+            <ns8:sameAs rdf:resource="https://iconclass.org/43C244" />
+            <ns7:altLabel>43C244</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">skates (winter sports)</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221391">
+            <ns8:sameAs rdf:resource="https://iconclass.org/25I145" />
+            <ns7:altLabel>25I145</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">canals, waters (in city)</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/MVjUj">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101748">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/291350274" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500030486" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q1911509" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/12287" />
+            <ns9:dateOfBirth xml:lang="nl">ca. 1584 - ca. 1586</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">na 1642</ns9:dateOfDeath>
+            <ns7:altLabel xml:lang="en">Breen, Adam van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Breen, Adam van</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Adam van Breen</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Adam van Breen</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21042628">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/67257928" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500354743" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q167236" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/431927" />
+            <ns9:dateOfBirth xml:lang="nl">1584-01-29</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1647-03-14</ns9:dateOfDeath>
+            <ns9:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230132">
+                <ns7:prefLabel xml:lang="en">Delft</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Delft</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfBirth>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+                <ns7:prefLabel xml:lang="en">The Hague</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Den Haag</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns7:prefLabel xml:lang="en">Frederick Henry (Prince of Orange)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Frederik Hendrik (prins van Oranje)</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21042704">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/72836094" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500373136" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q164062" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/436329" />
+            <ns9:dateOfBirth xml:lang="nl">1567-11-13</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1625-04-23</ns9:dateOfDeath>
+            <ns9:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2304038">
+                <ns7:prefLabel xml:lang="nl">Dillenburg</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfBirth>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+                <ns7:prefLabel xml:lang="en">The Hague</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Den Haag</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2203883">
+                <ns7:prefLabel xml:lang="en">stadtholder</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">stadhouder</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2208146">
+                <ns7:prefLabel xml:lang="nl">legeraanvoerder</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:prefLabel xml:lang="en">Maurice (Prince of Orange)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Maurits (prins van Oranje)</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/230460">
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q863935" />
+            <ns8:sameAs rdf:resource="https://sws.geonames.org/6950771/" />
+            <ns7:prefLabel xml:lang="nl">Binnenhof</ns7:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2309757">
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q2271931" />
+            <ns7:prefLabel xml:lang="nl">Vijverberg</ns7:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

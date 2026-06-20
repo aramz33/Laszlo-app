@@ -1,0 +1,193 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns11="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200113994</ns0:identifier>
+        <ns0:datestamp>2026-06-08T01:24:02Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>260236</ns0:setSpec>
+        <ns0:setSpec>26128</ns0:setSpec>
+        <ns0:setSpec>261169</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200113994#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200113994">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2103933" />
+                <dc:description xml:lang="en">The young boys represented on this handle symbolize Geography, Astronomy, Music, Painting and Sculpture.</dc:description>
+                <dc:description xml:lang="nl">De jongetjes symboliseren Aardrijkskunde, Sterrenkunde, Muziek, Schilderkunst en Beeldhouwkunst.</dc:description>
+                <dc:identifier>BK-VBR-395</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211219" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211435" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211436" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211467" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211468" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221705" />
+                <dc:title xml:lang="en">Cane handle</dc:title>
+                <dc:title xml:lang="en">Wandelstokknop</dc:title>
+                <dc:title xml:lang="nl">Cane handle</dc:title>
+                <dc:title xml:lang="nl">Wandelstokknop</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201467" />
+                <ns5:created xml:lang="en">1750</ns5:created>
+                <ns5:created xml:lang="nl">1750</ns5:created>
+                <ns5:extent xml:lang="en">diameter 2 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 6.7 cm x diameter 3.9 cm x weight 86 g</ns5:extent>
+                <ns5:extent xml:lang="nl">grondvlak: diameter 2 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 6,7 cm x diameter 3,9 cm x gewicht (eigenschap) 86 g</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260236" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261169" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26128" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/262146" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100604" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301123129" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301198189" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125593" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125605" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30156464" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3016821" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30193429" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220237" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23029985" />
+                <ns6:spn xml:lang="en">F.G.S. Baron van Brakell tot den Brakell Bequest, Arnhem</ns6:spn>
+                <ns6:spn xml:lang="nl">Legaat van F.G.S. baron van Brakell tot den Brakell, Arnhem</ns6:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/XFhqh/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/XFhqh" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/XFhqh/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-VBR-395--79367f433dbf6ef03b375c5bca9a9302">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260236">
+            <ns8:prefLabel xml:lang="en">fashion</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">mode</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261169">
+            <ns8:prefLabel xml:lang="en">accessories</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">accessoires</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26128">
+            <ns8:prefLabel xml:lang="nl">edele metalen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2201467">
+            <ns8:prefLabel xml:lang="nl">wandelstokknop</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220237">
+            <ns8:prefLabel xml:lang="en">gold (metal)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">goud</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211219">
+            <ns9:sameAs rdf:resource="https://iconclass.org/49I0" />
+            <ns8:altLabel>49I0</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">'Geografia'</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211435">
+            <ns9:sameAs rdf:resource="https://iconclass.org/48C510" />
+            <ns8:altLabel>48C510</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">'Pictura', symbolic representations, allegories and emblems ~ painting; 'Pittura' (Ripa)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211436">
+            <ns9:sameAs rdf:resource="https://iconclass.org/48C70" />
+            <ns8:altLabel>48C70</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">'Musica', symbolic representations, allegories and emblems ~ music; 'Musica'(Ripa)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211467">
+            <ns9:sameAs rdf:resource="https://iconclass.org/49E10" />
+            <ns8:altLabel>49E10</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">'Astronomia', 'Cosmografia'; 'Cosmografia' (Ripa)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211468">
+            <ns9:sameAs rdf:resource="https://iconclass.org/48C20" />
+            <ns8:altLabel>48C20</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">'Sculptura', symbolic representations, allegories and emblems ~ sculpture; 'Scoltura' (Ripa)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221705">
+            <ns9:sameAs rdf:resource="https://iconclass.org/92D1916" />
+            <ns8:altLabel>92D1916</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">cupids: 'amores', 'amoretti', 'putti'</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/XFhqh">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2103933">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500068580" />
+            <ns10:dateOfDeath xml:lang="nl">1774</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2302071">
+                <ns8:prefLabel xml:lang="nl">Rouen</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006952" />
+                <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q727" />
+                <ns9:sameAs rdf:resource="https://sws.geonames.org/2759794/" />
+                <ns8:prefLabel xml:lang="en">Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Amsterdam</ns8:prefLabel>
+                <ns11:lat>4.916667</ns11:lat>
+                <ns11:long>52.35</ns11:long>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205009">
+                <ns8:prefLabel xml:lang="en">goldsmith</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">goudsmid</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205197">
+                <ns8:prefLabel xml:lang="en">silversmith</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">zilversmid</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Métayer, Louis</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Métayer, Louis</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Louis Métayer</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Louis Métayer</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

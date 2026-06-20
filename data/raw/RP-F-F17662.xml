@@ -1,0 +1,185 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200321137</ns0:identifier>
+        <ns0:datestamp>2026-06-08T17:14:35Z</ns0:datestamp>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260216</ns0:setSpec>
+        <ns0:setSpec>26150</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200321137#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200321137">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21049407" />
+                <dc:description xml:lang="en">Man Ray was a photographer with two souls. While he would have preferred to devote himself exclusively to painting, he derived his primary source of income from portrait, fashion, and advertising photography. Alongside this ‘commercial’ work he conducted all kinds of artistic experiments in the darkroom. In 1924 he took this elegant photograph of Peggy Guggenheim wearing a gown by Paul Poiret. While the cast shadow is a modern element, the soft-focus in contrast is traditional, if not old-fashioned.</dc:description>
+                <dc:description xml:lang="nl">Man Ray was een fotograaf met twee zielen. Het liefst zou hij zich exclusief aan het schilderen wijden, maar portret-, mode- en reclamefoto’s waren zijn voornaamste inkomstenbron. Naast dit ‘commerciële’ werk deed hij allerlei artistieke experimenten in de doka. In 1924 maakte hij deze joyeuze foto van Peggy Guggenheim in een jurk van Paul Poiret. De slagschaduw is een modern element, de softfocus daarentegen traditioneel, zo niet ouderwets.</dc:description>
+                <dc:identifier>RP-F-F17662</dc:identifier>
+                <dc:rights xml:lang="nl">erven Man Ray/Pictoright</dc:rights>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21068296" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221173" />
+                <dc:title xml:lang="en">Peggy Guggenheim</dc:title>
+                <dc:title xml:lang="nl">Peggy Guggenheim</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220951" />
+                <ns5:created xml:lang="en">1924</ns5:created>
+                <ns5:created xml:lang="nl">1924</ns5:created>
+                <ns5:extent xml:lang="en">height 279 mm x width 179 mm</ns5:extent>
+                <ns5:extent xml:lang="nl">foto: hoogte 279 mm x breedte 179 mm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260216" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26150" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301151184" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301219502" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301219504" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301239988" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2204201" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23017" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206970" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/Pvymb/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/Pvymb" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://rightsstatements.org/vocab/InC/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/Pvymb/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/RP-F-F17662--06cebafc55bce0348564a2c54c128638">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/23017">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7012149" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q30" />
+            <ns8:prefLabel xml:lang="en">United States of America</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Verenigde Staten van Amerika</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260216">
+            <ns8:prefLabel xml:lang="en">Top 100 print room</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 100 prentenkabinet</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26150">
+            <ns8:prefLabel xml:lang="en">photos</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">foto's</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2204201">
+            <ns8:prefLabel xml:lang="en">baryta paper</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">barietpapier</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2206970">
+            <ns8:altLabel xml:lang="en">gelatin silver process</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">OGZ</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">bromidedruk</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">ontwikkel gelatinezilverdruk</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">gelatin silver print</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">ontwikkelgelatinezilverdruk</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220951">
+            <ns8:prefLabel xml:lang="en">photograph</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">foto</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221173">
+            <ns9:sameAs rdf:resource="https://iconclass.org/61BB2" />
+            <ns8:altLabel>61BB2</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">historical persons - BB - woman</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/Pvymb">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21049407">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/7396101" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500015030" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q46139" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/65785" />
+            <ns10:dateOfBirth xml:lang="nl">1890-08-27</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1976</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2302905">
+                <ns8:prefLabel xml:lang="nl">Philadelphia</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230215">
+                <ns8:prefLabel xml:lang="en">Paris</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Parijs</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2204764">
+                <ns8:prefLabel xml:lang="en">photographer</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">fotograaf</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Ray, Man</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Emmanuel Radensky</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Emmanuel Radnitsky</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Emmanuel Radnitzky</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Emmanuel Rudnitsky</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Man Ray</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Radensky, Emmanuel</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Radnitsky, Emmanuel</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Radnitzky, Emmanuel</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Ray, Man</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Rudnitsky, Emmanuel</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Man Ray</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Man Ray</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21068296">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/107537036" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500117879" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q233806" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/437743" />
+            <ns10:dateOfBirth xml:lang="nl">1898-08-26</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1979-12-23</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301601">
+                <ns8:prefLabel xml:lang="en">New York (city)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">New York</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230358">
+                <ns8:prefLabel xml:lang="nl">Padua</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205230">
+                <ns8:prefLabel xml:lang="en">collector</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">verzamelaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="nl">Guggenheim, Marguerite (Peggy)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">Marguerite Guggenheim (Peggy)</ns8:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

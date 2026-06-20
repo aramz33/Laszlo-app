@@ -1,0 +1,175 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns11="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200114173</ns0:identifier>
+        <ns0:datestamp>2026-06-08T01:25:12Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26128</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200114173#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200114173">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2104239" />
+                <dc:description xml:lang="en">Two funeral shields from the cobblers guild of Amsterdam. Silver. Amsterdam, 1643, by Johannes Grill. On loan from the city of Amsterdam.</dc:description>
+                <dc:description xml:lang="nl">Twee begrafenisschilden van het Schoenmakersgilde te Amsterdam. Zilver. Amsterdam, 1643, door Johannes Grill. Bruikleen van de Stad Amsterdam.</dc:description>
+                <dc:identifier>BK-AM-18-C</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21075085" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211236" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211340" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221809" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/23029985" />
+                <dc:title xml:lang="en">Funeral Shield of the Cobblers’ Guild in Amsterdam</dc:title>
+                <dc:title xml:lang="nl">Begrafenisschild van het Schoenlappersgilde te Amsterdam</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201783" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201784" />
+                <ns5:created xml:lang="en">1643</ns5:created>
+                <ns5:created xml:lang="nl">1643</ns5:created>
+                <ns5:extent xml:lang="en">height 31.3 cm x width 23.4 cm x weight 534 g</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 31,3 cm x breedte 23,4 cm x gewicht (eigenschap) 534 g</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26128" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100494" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301117542" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30124857" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125071" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125593" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125605" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30139209" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30145012" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30165557" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3016821" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30192337" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30192373" />
+                <ns5:isReferencedBy>Documentatiemap.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22028" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23029985" />
+                <ns6:spn xml:lang="en">On loan from the City of Amsterdam</ns6:spn>
+                <ns6:spn xml:lang="nl">Bruikleen van de gemeente Amsterdam</ns6:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/mLWBZ/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/mLWBZ" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/mLWBZ/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-AM-18-C--ffa7175b2ef6fe2d752ea6c734f5777f">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26128">
+            <ns8:prefLabel xml:lang="nl">edele metalen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2201783">
+            <ns8:prefLabel xml:lang="nl">gildeschild</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2201784">
+            <ns8:prefLabel xml:lang="nl">begrafenisschild</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22028">
+            <ns8:prefLabel xml:lang="en">silver (metal)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">zilver</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211236">
+            <ns9:sameAs rdf:resource="https://iconclass.org/11G1911" />
+            <ns8:altLabel>11G1911</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">cherubs, i.e. children's heads with wings</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211340">
+            <ns9:sameAs rdf:resource="https://iconclass.org/48A9862" />
+            <ns8:altLabel>48A9862</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">auricular ornament, lobe style ~ ornament</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221809">
+            <ns9:sameAs rdf:resource="https://iconclass.org/47H73" />
+            <ns8:altLabel>47H73</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">shoe-maker, cobbler</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/mLWBZ">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2104239">
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q110081977" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/492942" />
+            <ns10:dateOfBirth xml:lang="nl">ca. 1614</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1670</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230109">
+                <ns8:prefLabel xml:lang="en">Augsburg</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Augsburg</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006952" />
+                <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q727" />
+                <ns9:sameAs rdf:resource="https://sws.geonames.org/2759794/" />
+                <ns8:prefLabel xml:lang="en">Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Amsterdam</ns8:prefLabel>
+                <ns11:lat>4.916667</ns11:lat>
+                <ns11:long>52.35</ns11:long>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205197">
+                <ns8:prefLabel xml:lang="en">silversmith</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">zilversmid</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Grill, Johannes</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Grill, Johannes</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Johannes Grill</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Johannes Grill</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21075085">
+            <ns8:prefLabel xml:lang="nl">Schoenmakersgilde (Amsterdam)</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

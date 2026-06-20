@@ -1,0 +1,152 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200412693</ns0:identifier>
+        <ns0:datestamp>2026-06-08T21:42:54Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260210</ns0:setSpec>
+        <ns0:setSpec>260211</ns0:setSpec>
+        <ns0:setSpec>26133</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200412693#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200412693">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21042539" />
+                <dc:description xml:lang="nl">Kinderschilderij van de inname van Jogyakarta tijdens de tweede militaire actie, december 1948.</dc:description>
+                <dc:identifier>NG-1998-7-10</dc:identifier>
+                <dc:rights xml:lang="nl">Erven Mohammad Toha Adimidjojo</dc:rights>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2214528" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221496" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2304314" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2402183" />
+                <dc:title xml:lang="en">Victims of Dutch troops on thier way to Yogyakarta</dc:title>
+                <dc:title xml:lang="nl">Slachtoffers gemaakt door de Nederlandse troepen op weg naar Jogyakarta</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220363" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220499" />
+                <ns5:created xml:lang="en">1948-12-19 - 1949-06-30</ns5:created>
+                <ns5:created xml:lang="nl">1948-12-19 - 1949-06-30</ns5:created>
+                <ns5:extent xml:lang="en">height 16.8 cm x width 25.3 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 16,8 cm x breedte 25,3 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260210" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260211" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26133" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301154461" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301216127" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30177944" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30179277" />
+                <ns5:isReferencedBy>Cat. tent. Pameran Lukisan dokumenter perang kemerdekaan : Paintings in War of Freedom exhibition, Jakarta (Erasmus Huis) 1992 (25 maart-4 april), cat.nr. 17.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Documentatiemap: kopie artikel Sigmond 1991; Cat. tent. 1992; foto's Mohammad Toha op jonge leeftijd en latere leeftijd; zwart-wit foto's tekeningen collectie.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J.P. Sigmond, 'Oorlog en revolutie : Indonesische kindertekeningen uit Djokjakarta 1948-1949 als historische bron', Armamentaria (1991) nr. 27, p. 97-106.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220462" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220917" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/2304314" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2202953" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/NwGKv/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/NwGKv" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://rightsstatements.org/vocab/InC/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/NwGKv/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/NG-1998-7-10--f342c2e9dc756d658a9d675603dfc673">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260210">
+            <ns8:prefLabel xml:lang="en">Against Opacity</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Against Opacity</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260211">
+            <ns8:prefLabel xml:lang="en">Indonesian heritage</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Indisch erfgoed</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26133">
+            <ns8:prefLabel xml:lang="en">drawings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">tekeningen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202953">
+            <ns8:prefLabel xml:lang="en">brush</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">penseel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220363">
+            <ns8:prefLabel xml:lang="en">drawing</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">tekening</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220462">
+            <ns8:altLabel xml:lang="en">watercolor (paint)</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">aquarelverf</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">watercolor (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">waterverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220499">
+            <ns8:prefLabel xml:lang="nl">aquarel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220917">
+            <ns8:prefLabel xml:lang="en">hardboard</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">hardboard</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2214528">
+            <ns9:sameAs rdf:resource="https://iconclass.org/45A141" />
+            <ns8:altLabel>45A141</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">horrors of war</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221496">
+            <ns9:sameAs rdf:resource="https://iconclass.org/45C16" />
+            <ns8:altLabel>45C16</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">firearms</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/NwGKv">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21042539">
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q27004286" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/437011" />
+            <ns10:dateOfBirth xml:lang="nl">1937</ns10:dateOfBirth>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Toha Adimidjojo, Mohammad</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Toha Adimidjojo, Mohammad</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Mohammad Toha Adimidjojo</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Mohammad Toha Adimidjojo</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2304314">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/1078909" />
+            <ns8:prefLabel xml:lang="nl">Jogjakarta</ns8:prefLabel>
+          </ns3:Place>
+          <ns3:TimeSpan rdf:about="https://id.rijksmuseum.nl/2402183">
+            <ns8:prefLabel xml:lang="nl">Tweede militaire actie (1948-1949)</ns8:prefLabel>
+          </ns3:TimeSpan>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

@@ -1,0 +1,194 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200109406</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:30:09Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260213</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200109406#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200109406">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101460" />
+                <dc:description xml:lang="en">This charming scene contains a message. The children of a fisherman, with their tattered rags and paltry toys, offer us a glimpse of their future. The eldest boy carries the weight of the family on his shoulders, and the little boat stands for the rigours of life at sea. Jozef Israëls first painted this subject in 1863. It became enormously popular and the artist subsequently repeated it often.</dc:description>
+                <dc:description xml:lang="nl">Deze lieflijke scène bevat een boodschap. De visserskinderen met hun armoedige kleding en schamele speelgoed geven ons een beeld van hun toekomst. De oudste jongen torst de last van het gezin op zijn schouders en het bootje staat voor het zware leven op zee. Jozef Israëls schilderde dit thema voor het eerst in 1863. Het was enorm populair en Israëls heeft het daarna vaak herhaald.</dc:description>
+                <dc:identifier>SK-A-2382</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200395364" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200395365" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200395366" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200395367" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200395368" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200395369" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200395370" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221134" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221970" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221971" />
+                <dc:title xml:lang="en">Children of the Sea</dc:title>
+                <dc:title xml:lang="en">Kinderen der zee</dc:title>
+                <dc:title xml:lang="nl">Children of the Sea</dc:title>
+                <dc:title xml:lang="nl">Kinderen der zee</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">1872</ns5:created>
+                <ns5:created xml:lang="nl">1872</ns5:created>
+                <ns5:extent xml:lang="en">height 48.5 cm x width 93.5 cm x height 49 cm x width 91 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 48,5 cm x breedte 93,5 cm x hoogte 49 cm (overgenomen uit het inventarisboek (data uit voormalig bruikleen record SK-C-495)) x breedte 91 cm (overgenomen uit het inventarisboek (data uit voormalig bruikleen record SK-C-495))</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260213" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100936" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301101291" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30110885" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301114892" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301119551" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301131740" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301149108" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301207723" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301274270" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30143310" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015253" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30161433" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30171779" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30176734" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30176736" />
+                <ns5:isReferencedBy>D. Dekkers, Kinderen der zee, Amsterdam 2013</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns6:spn xml:lang="en">J.B.A.M. Westerwoudt Bequest, Haarlem</ns6:spn>
+                <ns6:spn xml:lang="nl">Legaat van de heer J.B.A.M. Westerwoudt, Haarlem</ns6:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/nnjuR/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/nnjuR" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/nnjuR/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2382--98cc90bcb55dfc39dda04341bc8414c1">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260213">
+            <ns8:prefLabel xml:lang="en">Top 100</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 100</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns8:prefLabel xml:lang="en">canvas</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">doek</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221134">
+            <ns9:sameAs rdf:resource="https://iconclass.org/43C7" />
+            <ns8:altLabel>43C7</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">children's games and plays</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221970">
+            <ns9:sameAs rdf:resource="https://iconclass.org/43C78421" />
+            <ns8:altLabel>43C78421</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">(playing with) boats</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221971">
+            <ns9:sameAs rdf:resource="https://iconclass.org/43B51" />
+            <ns8:altLabel>43B51</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">in or beside the water (on the beach)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/nnjuR">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101460">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/192238" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500012980" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q528460" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/41177" />
+            <ns10:dateOfBirth xml:lang="nl">1824-01-27</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1911-08-12</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2304536">
+                <ns8:prefLabel xml:lang="nl">Groningen (stad)</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+                <ns8:prefLabel xml:lang="en">The Hague</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Den Haag</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Israëls, Jozef</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Israëls, Joseph</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Israëls, Jozef</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Joseph Israëls</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Jozef Israëls</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Jozef Israëls</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

@@ -1,0 +1,154 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20025746</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:14:11Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20025746#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20025746">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21043226" />
+                <dc:description xml:lang="en">Joos de Momper (1564 - 1635). River landscape with wild boar hunt, c. 1600. In this work the artist has created an impressive landscape. As was common at the time, the artist has added human figures: several men who are in the process of subduing a wild boar. The landscapes dating from this period were usually imaginary, although the artist always included a number of elements which actually existed. By around 1600 this type of landscape had evolved into a separate genre. De Momper even had someone else - Sebastiaan Vrancx - painting the figures. Joos de Momper composed his painting according to a fixed colourscheme: the foreground in brown, with the middleground in green fading into blue and becoming steadily lighter, creating the effect of depth. This illusion of depth is enhanced by the fact that various parts of the composition function as 'wings', almost as if the landscape is a stage. Purchased in 1958, with the support of the Jubileum-Fonds.</dc:description>
+                <dc:description xml:lang="nl">Joos de Momper (1564 - 1635). Rivierlandschap met everzwijnjacht, ca. 1600. Hier is een indrukwekkend landschap weergegeven. Zoals in de meeste landschappen uit deze periode, zijn er menselijke figuren toegevoegd: een paar mannen overmeesteren een everzwijn. Landschappen in deze periode zijn fantasielandschappen. De kunstenaar voegde verschillende delen uit de werkelijkheid samen in één schilderij. Het landschap werd rond 1600 een apart specialisme. De Momper liet zelfs de figuurtjes in zijn schilderij door iemand anders schilderen, Sebastiaan Vrancx. Joos de Momper bouwde zijn schilderij op volgens een vast kleurenschema: de voorgrond bruin, dan via groen naar blauw, naar de achtergrond steeds lichter. Dat zorgt voor diepte. De illusie van diepte wordt versterkt doordat de verschillende delen van het landschap, als op het toneel, een soort coulissen vormen. Aankoop 1958, met steun van het Jubileumfonds.</dc:description>
+                <dc:identifier>SK-A-3949</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221168" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221169" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221170" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221171" />
+                <dc:title xml:lang="en">River Landscape with Boar Hunt</dc:title>
+                <dc:title xml:lang="nl">Rivierlandschap met everzwijnjacht</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">c. 1590 - c. 1635</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1590 - ca. 1635</ns5:created>
+                <ns5:extent xml:lang="en">depth 9 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 121 cm x width 196.5 cm</ns5:extent>
+                <ns5:extent xml:lang="en">weight 0 kg</ns5:extent>
+                <ns5:extent xml:lang="nl">buitenmaat: diepte 9 cm (drager incl. SK-L-5468)</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 121 cm x breedte 196,5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">geheel: gewicht (eigenschap) 0 kg (drager incl. SK-L-5468)</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">…; from the dealer Robert Finck, Brussels, bf. 650,000, to the museum, with support from the Jubileum Fonds, 1958</ns5:provenance>
+                <ns6:spn xml:lang="en">Purchased with the support of the Stichting Jubileumfonds Rijksmuseum</ns6:spn>
+                <ns6:spn xml:lang="nl">Aankoop met steun van de Stichting Jubileumfonds Rijksmuseum</ns6:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/TEqxS/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/TEqxS" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/TEqxS/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3949--fcf7271fc6ffc268c9222562a101b183">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns8:prefLabel xml:lang="en">panel</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">paneel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221168">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41A12" />
+            <ns8:altLabel>41A12</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">castle</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221169">
+            <ns9:sameAs rdf:resource="https://iconclass.org/43C1147" />
+            <ns8:altLabel>43C1147</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">hunting dogs</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221170">
+            <ns9:sameAs rdf:resource="https://iconclass.org/43C111243" />
+            <ns8:altLabel>43C111243</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">boar-hunting</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221171">
+            <ns9:sameAs rdf:resource="https://iconclass.org/25H213" />
+            <ns8:altLabel>25H213</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">river</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/TEqxS">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21043226">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/8184591" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500029526" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q560548" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/56801" />
+            <ns10:dateOfBirth xml:lang="nl">1564</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1635-02-05</ns10:dateOfDeath>
+            <ns10:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/230148" />
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230148">
+                <ns8:prefLabel xml:lang="en">Antwerp</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Antwerpen (stad)</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Momper, Joos de (II)</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Jodocus de Momper (II)</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Momper, Jodocus de (II)</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Momper, Joos de (II)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Joos de Momper (II)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Joos de Momper (II)</ns8:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

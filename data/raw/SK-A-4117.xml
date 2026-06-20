@@ -1,0 +1,216 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns11="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200110497</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:34:30Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200110497#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200110497">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101875" />
+                <dc:description xml:lang="en">A civil war between Orangists and Patriots raged in the Dutch Republic during 1786 and 1787. In May 1787, the Stadtholder’s army tried to cut off the city of Utrecht, which was in the hands of the Patriots, from the neighbouring Patriot-held province of Holland. The Patriots succeeded in repelling the attack on 9 May. Seen at left are the Stadtholder’s troops and at the right the Utrecht Patriots.</dc:description>
+                <dc:description xml:lang="nl">In 1786 en 1787 woedde in de Republiek een burgeroorlog tussen prinsgezinden en patriotten. Het stadhouderlijke leger probeerde in mei 1787 de stad Utrecht, die in handen was van patriotten, te isoleren van het eveneens patriotse gewest Holland. Op 9 mei slaagden de patriotten erin de aanval af te slaan. Links zijn de stadhouderlijke troepen te zien, rechts de Utrechtse patriotten.</dc:description>
+                <dc:identifier>SK-A-4117</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200189686" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21026829" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221263" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2302" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2302051" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2401681" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/240983" />
+                <dc:title xml:lang="en">Exchange of Fire on the Vaartse Rijn near Jutphaas</dc:title>
+                <dc:title xml:lang="en">Vuurgevecht aan de Vaartse Rijn bij Jutphaas</dc:title>
+                <dc:title xml:lang="nl">Exchange of Fire on the Vaartse Rijn near Jutphaas</dc:title>
+                <dc:title xml:lang="nl">Vuurgevecht aan de Vaartse Rijn bij Jutphaas</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2205619" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">1787 - 1788</ns5:created>
+                <ns5:created xml:lang="nl">1787 - 1788</ns5:created>
+                <ns5:extent xml:lang="en">height 27 cm x width 33 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 27 cm x breedte 33 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301106469" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301147315" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301302799" />
+                <ns5:isReferencedBy>RMA cat. 2916-D3</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2207803" />
+                <ns5:provenance xml:lang="en">…; from A. van der Berg, Boskoop, fl. 2,500, to the museum, 1965</ns5:provenance>
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206719" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2208993" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/qHLsj/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/qHLsj" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/qHLsj/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4117--8aafce486af8d54e87bbc4ce9686e788">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205619">
+            <ns8:prefLabel xml:lang="en">reverse painting on glass</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">achterglasschildering</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2206719">
+            <ns8:prefLabel xml:lang="en">verre églomisé</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">verre églomisé</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2207803">
+            <ns8:prefLabel xml:lang="en">glass</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">glas</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208993">
+            <ns8:prefLabel xml:lang="en">glass painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">glasschilderen</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221263">
+            <ns9:sameAs rdf:resource="https://iconclass.org/45H3" />
+            <ns8:altLabel>45H3</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">battle</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/qHLsj">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101875">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/35377963" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500009797" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q17126179" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/86329" />
+            <ns10:dateOfBirth xml:lang="nl">1727-11-07</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1814</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2302067">
+                <ns8:prefLabel xml:lang="nl">Kassel</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns8:prefLabel xml:lang="en">Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Amsterdam</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Zeuner, Jonas</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Zeuner, Jonas</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Jonas Zeuner</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Jonas Zeuner</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21026829">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/264065168" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500340314" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q312215" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/93127" />
+            <ns10:dateOfBirth xml:lang="nl">1748-03-08</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1806-04-09</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+                <ns8:prefLabel xml:lang="en">The Hague</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Den Haag</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230886">
+                <ns8:prefLabel xml:lang="nl">Braunschweig</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2203883">
+                <ns8:prefLabel xml:lang="en">stadtholder</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">stadhouder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="nl">Prins, W.</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">W. Prins</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Willem V, stadhouder</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">stadhouder Willem V</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">William V (Prince of Orange)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Willem V (prins van Oranje-Nassau)</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2302">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006926" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q803" />
+            <ns8:prefLabel xml:lang="en">Utrecht</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Utrecht (stad)</ns8:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2302051">
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q1921467" />
+            <ns9:sameAs rdf:resource="https://sws.geonames.org/2753174/" />
+            <ns8:prefLabel xml:lang="nl">Jutphaas</ns8:prefLabel>
+            <ns11:lat>5.08333</ns11:lat>
+            <ns11:long>52.03333</ns11:long>
+          </ns3:Place>
+          <ns3:TimeSpan rdf:about="https://id.rijksmuseum.nl/2401681">
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q1898124" />
+            <ns8:prefLabel xml:lang="en">Patriots (1780-1795)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Patriottentijd (1780-1795)</ns8:prefLabel>
+          </ns3:TimeSpan>
+          <ns3:TimeSpan rdf:about="https://id.rijksmuseum.nl/240983">
+            <ns8:prefLabel xml:lang="nl">Patriottenstrijd 1787</ns8:prefLabel>
+          </ns3:TimeSpan>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

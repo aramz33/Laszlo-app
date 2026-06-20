@@ -1,0 +1,192 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200106309</ns0:identifier>
+        <ns0:datestamp>2026-06-07T23:59:44Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260213</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260247</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26126</ns0:setSpec>
+        <ns0:setSpec>261135</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200106309#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200106309">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="en">Shiva, in his manifestation as Nataraja (King of Dancers), represented in the anandatandava pose and encircled by a halo of fire, is both the creator and destroyer of the world. Beneath his foot is a dwarf, symbolizing ignorance. Richly decorated bronze figures of Hindu gods were carried in procession on feast days. Carrying poles were inserted through the rings on the base.</dc:description>
+                <dc:description xml:lang="nl">Shiva in zijn gedaante als Nataraja (Koning van de dansers), omringd door een vlammenkrans en afgebeeld in de anandatandava-houding, is tegelijkertijd de schepper en de vernietiger van de wereld. Onder zijn voet ligt een dwergje: het symbool van de onwetendheid. Rijkversierde bronzen beelden van hindoegoden werden op feestdagen meegedragen in processies. Door ringen aan de sokkel werden dan draagstokken gestoken.</dc:description>
+                <dc:identifier>AK-MAK-187</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21096574" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22153" />
+                <dc:title xml:lang="en">Shiva Nataraja</dc:title>
+                <dc:title xml:lang="nl">Shiva Nataraja</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201048" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220297" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220512" />
+                <ns5:created xml:lang="en">c. 1100 - c. 1200</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1100 - ca. 1200</ns5:created>
+                <ns5:extent xml:lang="en">height 153 cm x width 114.5 cm</ns5:extent>
+                <ns5:extent xml:lang="en">weight 255 kg</ns5:extent>
+                <ns5:extent xml:lang="en">width 73.5 cm x depth 44 cm x height 19 cm x weight 40 kg</ns5:extent>
+                <ns5:extent xml:lang="nl">beeld: gewicht (eigenschap) 255 kg</ns5:extent>
+                <ns5:extent xml:lang="nl">geheel: hoogte 153 cm x breedte 114,5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">voetstuk: breedte 73,5 cm x diepte 44 cm x hoogte 19 cm x gewicht (eigenschap) 40 kg</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260213" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260247" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261135" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26126" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301105988" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30112489" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301128922" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3011738" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301209248" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244297" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301283002" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301283477" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301292371" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30144955" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30145886" />
+                <ns5:isReferencedBy>Anna Slaczka, 'Devi aan Zee', Aziatische Kunst 38 (2008), nr. 4, p. 149, afb. 6.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Annette Löseke en Anna Grasskamp, 'Framing 'Asia' : results from a visitor study at the Rijksmuseum's Asian Pavilion', Aziatische Kunst 44 (2014) nr. 2, p. 50, fig. 2.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>C. Sivaramamurti, South Indian Bronzes, Bombay 1963, pl. 696.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>H. Goetz, Indien, in: Kunst der Welt, Baden-Baden 1962, p. 185.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Inzoomer object op zaal, 2013 (Nederlands/English).</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J. van; Creange, S.; Slaczka, A.; Davies, G. Bennekom, Unearthing a context for Nataraja : a technical and art-historical investigation of the Rijksmuseum Dancing Shiva, uit: Metal 2016 : Proceedings of the interim meeting of the ICOM-CC Metals Working Group, September 26-30, 2016, Delhi, India, 2016, pagina 22-30</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Jaarverslag van de conservatoren over 2014, uit: Aziatische Kunst : mededelingenblad van de Vereniging van Vrienden der Aziatische Kunst, 45, 2015, 3, pagina 49-53 - p. 49</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Jan van Campen, 'Jaarverslag van de conservatoren over 2012', Aziatische Kunst 43 (2013),  nr. 2, p. 35.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Jean Varenne, L'art de l'Inde, Paris 1982, pl. 42.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Karel van Kooij, 'Bold and Beautiful', Aziatische Kunst 19/4 (1999), pp. 2-23.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>M. Derck, Indian art, London 1967, pl. 26.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Maandblad voor beeldende kunsten (1935), oct., p. 290-306.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>P. Kaimal, Shiva Nataraja : Shifting Meanings of an Icon, uit: The Art Bulletin, 81, 1999, 3, pagina 390-410</ns5:isReferencedBy>
+                <ns5:isReferencedBy>P.C.M. Lunsingh Scheurleer, 'De menselijke gestalte in de Aziatische beeldhouwkunst op de tentoonstelling Rijksmuseum aan Zee: Hemelse beelden uit Oost en West', Sculptuur Studies 2008 (2009), p. 12-17.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>P.C.M. Lunsingh Scheurleer, 'The Human form in Asian sculpture in the exhibition Rijksmuseum aan Zee: Heavenly sculptures from east and west', Sculptuur Studies 2008 (2009), p. 104-109.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Pauline Lunsingh Scheurleer, 'De Dansende Shiva', Aziatische Kunst 26/1 (1996), pp. 13-20.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Renée Steenbergen, 'De Vereniging van Vrienden der Aziatische Kunst in het interbellum : Deftige verzamelaars, rijke donateurs en Indische fortuinen', Aziatische Kunst 38 (2008), nr. 3, p. 10, afb. 8.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Robert Uterwijk, 'Als je zou kunnen zien, de boog van zijn wenkbrauw', Aziatische Kunst 37/1 (2007), pp.  23-27.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22013" />
+                <ns5:provenance xml:lang="en">…; from C.T. Loo, Paris, fl. 16,000, with support from the Vereniging Rembrandt, to the Vereniging van Vrienden der Aziatische Kunst, 1935;{Note RMA.} from whom on loan to the museum, 1972</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/2307097" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204537" />
+                <ns7:spn xml:lang="en">On loan from the Royal Asian Art Society in The Netherlands (purchase with the support of the Vereniging Rembrandt, 1935)</ns7:spn>
+                <ns7:spn xml:lang="nl">Bruikleen van de Koninklijke Vereniging van Vrienden der Aziatische Kunst (aankoop met steun van de Vereniging Rembrandt, 1935)</ns7:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/LAXcK/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/LAXcK" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/LAXcK/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/AK-MAK-187--95977e9e42c08b342dd8614230e2c948">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2307097">
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/7001797" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q1445" />
+            <ns9:prefLabel xml:lang="nl">Tamil Nadu</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns9:prefLabel xml:lang="en">RijksXL</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">RijksXL</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260213">
+            <ns9:prefLabel xml:lang="en">Top 100</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 100</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260247">
+            <ns9:prefLabel xml:lang="en">friends asian art</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">vrienden aziatische kunst</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261135">
+            <ns9:prefLabel xml:lang="nl">Zuid-Azië (collectie)</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26126">
+            <ns9:prefLabel xml:lang="en">sculptures</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">beeldhouwwerken</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2201048">
+            <ns9:altLabel xml:lang="nl">sculptuur</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">sculpture</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">beeldhouwwerk</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22013">
+            <ns9:prefLabel xml:lang="en">bronze (metal)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">brons</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220297">
+            <ns9:prefLabel xml:lang="en">figure</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">beeld</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2204537">
+            <ns9:altLabel xml:lang="nl">gegoten</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">casting</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">gieten</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220512">
+            <ns9:prefLabel xml:lang="nl">Shiva</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22153">
+            <ns10:sameAs rdf:resource="https://iconclass.org/12H13%28SHIVA%2951" />
+            <ns9:altLabel>12H13(SHIVA)51</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Shiva dancing</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/LAXcK">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns9:altLabel xml:lang="nl">Anon</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">anonymous</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">anoniem</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21096574">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/105148570582824311471" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q11378" />
+            <ns9:prefLabel xml:lang="en">Shiva</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Shiva</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns9:prefLabel>Rijksmuseum</ns9:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

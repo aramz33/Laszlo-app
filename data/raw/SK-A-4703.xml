@@ -1,0 +1,195 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200107969</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:17:01Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200107969#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200107969">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21072037" />
+                <dc:description xml:lang="en">Raden Saleh, scion of a Javanese regent family, came to the Netherlands in 1829 to study painting. Here we still see him as a European dandy before a Western seascape. However, he soon specialized in oriental scenes, and began dressing as a Javanese prince. Back on Java (1851), Raden Saleh built a small neo-Gothic palace, where he received the European elite. And so he constantly shifted between his Javanese and his European identity.</dc:description>
+                <dc:description xml:lang="nl">Raden Saleh, telg uit een Javaanse regentenfamilie,  kwam in 1829 naar Nederland om een schildersopleiding te volgen. Hier zien we hem nog als een Europese dandy voor een westers zeegezicht, maar al snel specialiseerde hij zich in oriëntaalse taferelen en kleedde hij zich als een Javaanse prins. Terug op Java (1851) bouwde Raden Saleh een neogotisch paleisje. Hier ging hij om met de Europese elite. Zo laveerde hij tussen zijn Javaanse en Europese identiteit.</dc:description>
+                <dc:identifier>SK-A-4703</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2101351" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221328" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221337" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221367" />
+                <dc:title xml:lang="en">Portrait of Raden Syarif Bustaman Saleh</dc:title>
+                <dc:title xml:lang="en">Portret van Raden Syarif Bustaman Saleh</dc:title>
+                <dc:title xml:lang="nl">Portrait of Raden Syarif Bustaman Saleh</dc:title>
+                <dc:title xml:lang="nl">Portret van Raden Syarif Bustaman Saleh</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:alternative xml:lang="nl">Zelfportret van Raden Sarief Bastaman Saleh</ns5:alternative>
+                <ns5:created xml:lang="en">c. 1840</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1840</ns5:created>
+                <ns5:extent xml:lang="en">depth 10.5 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 106.7 cm x width 85.3 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">buitenmaat: diepte 10,5 cm (drager incl. SK-L-3623)</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 106,7 cm x breedte 85,3 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100987" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301198676" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301303820" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015254" />
+                <ns5:isReferencedBy>C. Scott, Cultural diplomacy and the heritage of empire. Negotiating post-colonial returns, Londen en New York 2020, p. 134, fig. 4.8.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Documentatiemap Schilderijen.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Dr. H.J. de Graaf, 'De leeuwen van Radèn Saleh', Verslagen en aanwinsten 1978-1979, Stichting cultuurgeschiedenis van de Nederlanders overzee, p. 52-59.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Thieme Becker; Von Boetticher, Malerwerke des 19. Jahrhunderts, 1901, Deel II, p. 2.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">…; from Reinhold Wimmers-Sonderegger, Wachtberg-Niederbachen, fl. 8,022.98, to the museum, 1978</ns5:provenance>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/DbjAO/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/DbjAO" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/DbjAO/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4703--bf08968bcb925ac235ced1c10838d357">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns7:prefLabel xml:lang="en">RijksXL</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">RijksXL</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns7:prefLabel xml:lang="en">biografic</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">biografisch</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns7:prefLabel xml:lang="en">paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderijen</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns7:prefLabel xml:lang="en">canvas</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">doek</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns7:prefLabel xml:lang="en">painting</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderij</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns7:prefLabel xml:lang="en">oil paint (paint)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">olieverf</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221328">
+            <ns8:sameAs rdf:resource="https://iconclass.org/48C513" />
+            <ns7:altLabel>48C513</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">portrait, self-portrait of painter</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221337">
+            <ns8:sameAs rdf:resource="https://iconclass.org/25H23" />
+            <ns7:altLabel>25H23</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">sea (seascape)</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221367">
+            <ns8:sameAs rdf:resource="https://iconclass.org/48C511" />
+            <ns7:altLabel>48C511</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">painter at work, in his studio</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/DbjAO">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101351">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/67406024" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500123362" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q1375979" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/69357" />
+            <ns9:dateOfBirth xml:lang="nl">ca. 1814</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1880-04-23</ns9:dateOfDeath>
+            <ns9:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301684">
+                <ns7:prefLabel xml:lang="nl">Semarang</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfBirth>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2303397">
+                <ns7:prefLabel xml:lang="nl">Buitenzorg (West-Java)</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns7:prefLabel xml:lang="en">painter</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">schilder</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns7:prefLabel xml:lang="en">draftsman (artist)</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">tekenaar</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Saleh, Raden Sarief Bastaman</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Raden Sarief Bastaman Saleh</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Saleh, Raden Sarief Bastaman</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Raden Sarief Bastaman Saleh</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Raden Sarief Bastaman Saleh</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21072037">
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q15043410" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/419213" />
+            <ns9:dateOfBirth xml:lang="nl">1773-06-14</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1853</ns9:dateOfDeath>
+            <ns9:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230206">
+                <ns7:prefLabel xml:lang="en">Maastricht</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Maastricht</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfBirth>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230723">
+                <ns7:prefLabel xml:lang="nl">Dresden</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns7:altLabel xml:lang="en">Schreuel, Friedrich Carl Albert</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Schreuel, Friedrich Carl Albert</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Friedrich Carl Albert Schreuel</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Friedrich Carl Albert Schreuel</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns7:prefLabel>Rijksmuseum</ns7:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

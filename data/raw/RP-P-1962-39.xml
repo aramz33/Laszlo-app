@@ -1,0 +1,164 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns11="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200124978</ns0:identifier>
+        <ns0:datestamp>2026-06-08T03:04:32Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26151</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200124978#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200124978">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2103429" />
+                <dc:description xml:lang="en">When you scratch a line in an etching plate, it produces a small raised edge called a ‘burr’. The burr, which gives drypoint lines such a sumptuous velvety look, wears away quickly. As a result, the decorative effect of the technique diminishes and the representation becomes
+increasingly lighter. Here Rembrandt solved that problem by making areas of shadow darker again with extra lines, for example under the dog in the foreground.</dc:description>
+                <dc:description xml:lang="nl">Als je in een etsplaat krast, ontstaat er een opstaand randje, een zogeheten ‘braam’. De braam, die drogenaaldlijnen zo’n fraai fluwelig karakter geeft, slijt snel weg. Daardoor vermindert het decoratieve effect van de techniek en wordt de voorstelling steeds lichter. Hier loste Rembrandt dat probleem op door de schaduwpartijen weer donkerder te maken met extra lijnen, bijvoorbeeld onder het hondje in de voorgrond.</dc:description>
+                <dc:identifier>RP-P-1962-39</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2213336" />
+                <dc:title xml:lang="en">De drie kruisen</dc:title>
+                <dc:title xml:lang="en">The Three Crosses</dc:title>
+                <dc:title xml:lang="nl">De drie kruisen</dc:title>
+                <dc:title xml:lang="nl">The Three Crosses</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/22040" />
+                <ns5:created xml:lang="en">1653</ns5:created>
+                <ns5:created xml:lang="nl">1653</ns5:created>
+                <ns5:extent xml:lang="en">height 387 mm x width 455 mm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 387 mm x breedte 455 mm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26151" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2623223" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301199307" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301214907" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301262165" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30157649" />
+                <ns5:isReferencedBy>Bartsch 78-3(5)</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Hollstein Dutch 78-3(5)</ns5:isReferencedBy>
+                <ns5:isReferencedBy>New Hollstein Dutch and Flemish (Rembrandt text) 274-3(5)</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22020" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2208085" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2208102" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/220922" />
+                <ns7:spn xml:lang="en">Mr and Mrs De Bruijn-van der Leeuw Bequest, Muri, Switzerland</ns7:spn>
+                <ns7:spn xml:lang="nl">Legaat van de heer en mevrouw De Bruijn-van der Leeuw, Muri, Zwitserland</ns7:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/OkyXZ/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/OkyXZ" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/OkyXZ/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/RP-P-1962-39--7b9320dad7806437d71325eb4044f1dd">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26151">
+            <ns9:prefLabel xml:lang="en">prints</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">prenten</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22020">
+            <ns9:prefLabel xml:lang="en">paper</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">papier (materiaal)</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22040">
+            <ns9:prefLabel xml:lang="en">print</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">prent</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2208085">
+            <ns9:prefLabel xml:lang="en">intaglio printmaking technique</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">plaattoon</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2208102">
+            <ns9:prefLabel xml:lang="nl">burijn</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220922">
+            <ns9:prefLabel xml:lang="en">drypoint</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">droge naald</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2213336">
+            <ns10:sameAs rdf:resource="https://iconclass.org/73DD652" />
+            <ns9:altLabel>73DD652</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Christ on the cross; only scenes following the crucifixion added - DD - the three crosses</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/OkyXZ">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2103429">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/64013650" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500011051" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q5598" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/66219" />
+            <ns11:dateOfBirth xml:lang="nl">1606-07-15</ns11:dateOfBirth>
+            <ns11:dateOfDeath xml:lang="nl">1669-10-08</ns11:dateOfDeath>
+            <ns11:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230105">
+                <ns9:prefLabel xml:lang="en">Leiden</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Leiden</ns9:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfBirth>
+            <ns11:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns9:prefLabel xml:lang="en">Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Amsterdam</ns9:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfDeath>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns9:prefLabel xml:lang="en">painter</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">schilder</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns9:prefLabel xml:lang="en">printmaker</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">prentmaker</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns9:prefLabel xml:lang="en">draftsman (artist)</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">tekenaar</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns9:altLabel xml:lang="en">Rijn, Rembrandt van</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Rembrandt Harmensz. van Rijn</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Rembrandt van Rijn</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Rembrandt</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Rijn, Rembrandt Harmensz. van</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Rijn, Rembrandt van</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Rembrandt van Rijn</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Rembrandt van Rijn</ns9:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

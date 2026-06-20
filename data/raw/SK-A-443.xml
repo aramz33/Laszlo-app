@@ -1,0 +1,157 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200108351</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:20:51Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200108351#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200108351">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101767" />
+                <dc:description xml:lang="en">In composing this scene, Van de Velde relied on various preliminary drawings made from life. His superb skills as a painter of figures and animals were renowned in the 17th century, and he was regularly asked to paint the staffage in the landscapes and city views of other artists.</dc:description>
+                <dc:description xml:lang="nl">Van de Velde bereidde dit tafereel zorgvuldig voor met diverse tekeningen die hij naar de natuur maakte. In de 17de eeuw stond hij bekend als een voortreffelijk schilder van mensen en dieren. Daarom werd hij geregeld gevraagd om figuren in landschappen en stadsgezichten van andere kunstenaars te schilderen.</dc:description>
+                <dc:identifier>SK-A-443</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20066779" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221105" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221174" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221606" />
+                <dc:title xml:lang="en">De hut</dc:title>
+                <dc:title xml:lang="en">The Hut</dc:title>
+                <dc:title xml:lang="nl">De hut</dc:title>
+                <dc:title xml:lang="nl">The Hut</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">1671</ns5:created>
+                <ns5:created xml:lang="nl">1671</ns5:created>
+                <ns5:extent xml:lang="en">height 76 cm x width 65 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 76 cm x breedte 65 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30177302" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/qtaTQ/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/qtaTQ" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/qtaTQ/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-443--91d8c09fbfcfd82611f3bad8357b20f6">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns7:prefLabel xml:lang="en">RijksXL</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">RijksXL</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns7:prefLabel xml:lang="en">paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderijen</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns7:prefLabel xml:lang="en">canvas</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">doek</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns7:prefLabel xml:lang="en">painting</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderij</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns7:prefLabel xml:lang="en">oil paint (paint)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">olieverf</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221105">
+            <ns8:sameAs rdf:resource="https://iconclass.org/46C131" />
+            <ns7:altLabel>46C131</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">riding a horse, ass, or mule; rider, horseman</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221174">
+            <ns8:sameAs rdf:resource="https://iconclass.org/47I221" />
+            <ns7:altLabel>47I221</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">herding, herdsman, herdswoman, shepherd, shepherdess, cowherd, etc.</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221606">
+            <ns8:sameAs rdf:resource="https://iconclass.org/41A18" />
+            <ns7:altLabel>41A18</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">hut, cabin, lodge</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/qtaTQ">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101767">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/76585672" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500007230" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q367741" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/79763" />
+            <ns9:dateOfBirth xml:lang="nl">1636 - 1636-11-30</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1672 - 1672-01-21</ns9:dateOfDeath>
+            <ns9:placeOfBirth />
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns7:prefLabel xml:lang="en">Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Amsterdam</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns7:prefLabel xml:lang="en">painter</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">schilder</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns7:prefLabel xml:lang="en">printmaker</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">prentmaker</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns7:prefLabel xml:lang="en">draftsman (artist)</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">tekenaar</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Velde, Adriaen van de</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Adriaan van de Velde</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Velde, Adriaan van de</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Velde, Adriaen van de</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Adriaen van de Velde</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Adriaen van de Velde</ns7:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

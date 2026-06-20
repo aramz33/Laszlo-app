@@ -1,0 +1,164 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20054640</ns0:identifier>
+        <ns0:datestamp>2026-06-08T17:07:26Z</ns0:datestamp>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260246</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26132</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20054640#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20054640">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="en">Archive cabinet of the States General. This wooden cabinet once housed part of the archive that was kept at the States General assembly hall until around 1700. It contained documents relating to foreign policy. Behind the doors are 39 drawers and an inner cabinet which can be closed. Each drawer has a label with the name of a country. One of the items in the inner cabinet was the velvet case containing the charter of the Treaty of Münster (1648).</dc:description>
+                <dc:description xml:lang="nl">Archiefkast van de Staten-Generaal. De houten kast is een deel van de archiefkast die tot omstreeks 1700 in de vergaderzaal van de Staten-Generaal stond. Er werden stukken met betrekking tot de buitenlandse politiek in opgeborgen. Achter de deuren bevinden zich 39 laden en nog een binnenkast die kan worden afgesloten. Op de laden zitten etiketten met de namen van de landen erop. In de binnenkast zou onder meer het met fluweel beklede koffertje met het tractaat van de vrede van Munster (1648) bewaard zijn.</dc:description>
+                <dc:identifier>BK-16464</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21034528" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2301261" />
+                <dc:title xml:lang="nl">Archiefkast van de Staten Generaal</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220120" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/22015" />
+                <ns5:created xml:lang="en">1600 - 1699</ns5:created>
+                <ns5:created xml:lang="nl">1600 - 1699</ns5:created>
+                <ns5:extent xml:lang="en">height 128 cm x width 287 cm x depth 92 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 128 cm x breedte 287 cm x diepte 92 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260246" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26132" />
+                <ns5:isReferencedBy>Documentatiemap.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220144" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220150" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22020" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2202087" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22021" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22025" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220907" />
+                <ns5:provenance xml:lang="en">Commissioned by the Dutch government, The Hague;{Note RMA.} transferred to the museum, 1950</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230125" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/bcrVo/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/bcrVo" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/bcrVo/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-16464--1d4c8e84e918d47cf7861636f306a72e">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/230125">
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q3292403" />
+            <ns7:prefLabel xml:lang="nl">Noord-Nederland</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns7:prefLabel xml:lang="en">biografic</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">biografisch</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260246">
+            <ns7:prefLabel xml:lang="en">Staten-Generaal</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Staten-Generaal</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26132">
+            <ns7:prefLabel xml:lang="nl">meubelen</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220120">
+            <ns7:altLabel xml:lang="nl">credenza</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">kastmeubilair</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">case furniture</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">kast</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220144">
+            <ns7:prefLabel xml:lang="en">iron (metal)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">ijzer</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22015">
+            <ns7:prefLabel xml:lang="en">furniture</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">meubilair</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220150">
+            <ns7:altLabel xml:lang="en">copper</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">roodkoper</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">copper (metal)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">koper</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22020">
+            <ns7:prefLabel xml:lang="en">paper</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">papier (materiaal)</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202087">
+            <ns7:prefLabel xml:lang="en">spruce (wood)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">vurenhout</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22021">
+            <ns7:prefLabel xml:lang="en">wood (plant material)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">hout</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22025">
+            <ns7:prefLabel xml:lang="en">paint (coating)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">verf</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220907">
+            <ns7:prefLabel xml:lang="en">oak (wood)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">eikenhout</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/bcrVo">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21034528">
+            <ns7:altLabel xml:lang="nl">Staten Generaal</ns7:altLabel>
+            <ns7:prefLabel xml:lang="nl">Staten-Generaal</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns7:altLabel xml:lang="nl">Anon</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">anonymous</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">anoniem</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006810" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q36600" />
+            <ns7:prefLabel xml:lang="en">The Hague</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Den Haag</ns7:prefLabel>
+            <ns9:lat>4.3</ns9:lat>
+            <ns9:long>52.083333</ns9:long>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

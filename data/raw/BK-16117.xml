@@ -1,0 +1,265 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200318147</ns0:identifier>
+        <ns0:datestamp>2026-06-08T17:05:17Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26132</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200318147#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200318147">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21041173" />
+                <dc:description xml:lang="en">During the early 17th century cabinetmakers from the Netherlands and Germany established themselves in Paris and introduced the art of veneered furniture. This involved covering inferior wood carcasses with thin layers of exotic and expensive woods. This ebonyveneered cabinet is an example of the production that
+arose at that time. It features carved biblical scenes and has a richly ornamented interior.</dc:description>
+                <dc:description xml:lang="nl">In de vroege 17de eeuw vestigden zich meubelmakers uit de Nederlanden en Duitsland in Parijs, waar ze de kunst van het gefineerde meubel introduceerden. Daarbij wordt het kernhout met kostbaardere houtsoorten&lt;BR /&gt;belijmd. Dit met ebbenhout belijmde kabinet is een voorbeeld van de productie die toen op gang kwam. Het bevat beeldhouwwerk met Bijbelse voorstellingen en heeft een rijk versierd interieur.</dc:description>
+                <dc:identifier>BK-16117</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22111463" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211206" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211286" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221158" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2212618" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221283" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2215392" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2216070" />
+                <dc:title xml:lang="en">Cabinet</dc:title>
+                <dc:title xml:lang="en">Kabinet</dc:title>
+                <dc:title xml:lang="nl">Cabinet</dc:title>
+                <dc:title xml:lang="nl">Kabinet</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201069" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220120" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/22015" />
+                <ns5:created xml:lang="en">c. 1645 - c. 1650</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1645 - ca. 1650</ns5:created>
+                <ns5:extent xml:lang="en">height 212 cm x width 185 cm x depth 68.5 cm</ns5:extent>
+                <ns5:extent xml:lang="en">width 180 cm x depth 67 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">grondvlak: breedte 180 cm x diepte 67 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 212 cm x breedte 185 cm x diepte 68,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26132" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100834" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301113330" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301215978" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125657" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301283482" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301283486" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30129654" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301795" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30193893" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30195275" />
+                <ns5:isReferencedBy>Alexandre du Sommerard, Les Arts au Moyen Age, Paris, 1838-1846, dl. 5, p. 206, album, pl. XXII.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Inzoomer object op zaal, 2013 (Nederlands/English).</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Reinier Baarsen, ´Wilhelm de Rots and early cabinet making in The Hague´, The Burlington Magazine 150 (2008), p. 377, fig. 6.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Th.H. Lunsingh Scheurleer, 'Novels in Ebony', Journal of the Warburg and Courtauld Institutes 19 (1956), 266-268, fig. 50c-d.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220144" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2201452" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220150" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220168" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220169" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220175" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22021" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2202699" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2203306" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22035" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220400" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220907" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230215" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2202689" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206673" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206822" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206861" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/ZEJEo/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/ZEJEo" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/ZEJEo/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-16117--d2dfca598f4d2224c28c690b17c4f7a1">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/230215">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7008038" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q90" />
+            <ns8:prefLabel xml:lang="en">Paris</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Parijs</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26132">
+            <ns8:prefLabel xml:lang="nl">meubelen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2201069">
+            <ns8:altLabel xml:lang="nl">kunstkabinet</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">collector's cabinet</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">kunstkast</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220120">
+            <ns8:altLabel xml:lang="nl">credenza</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">kastmeubilair</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">case furniture</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">kast</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220144">
+            <ns8:prefLabel xml:lang="en">iron (metal)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">ijzer</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2201452">
+            <ns8:prefLabel xml:lang="en">ebony (wood)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">ebbenhout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22015">
+            <ns8:prefLabel xml:lang="en">furniture</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">meubilair</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220150">
+            <ns8:altLabel xml:lang="en">copper</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">roodkoper</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">copper (metal)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">koper</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220168">
+            <ns8:prefLabel xml:lang="en">looking glasses</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">spiegelglas</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220169">
+            <ns8:prefLabel xml:lang="en">gilding (material)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">verguldsel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220175">
+            <ns8:prefLabel xml:lang="en">pine (wood)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">grenenhout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22021">
+            <ns8:prefLabel xml:lang="en">wood (plant material)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">hout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202689">
+            <ns8:prefLabel xml:lang="nl">marqueterie</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202699">
+            <ns8:prefLabel xml:lang="en">rosewood (wood)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">rozenhout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2203306">
+            <ns8:prefLabel xml:lang="en">softwood</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">naaldhout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22035">
+            <ns8:prefLabel xml:lang="en">bone (material)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">been</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220400">
+            <ns8:prefLabel xml:lang="en">rosewood (wood)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">palissanderhout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2206673">
+            <ns8:altLabel xml:lang="nl">gebeeldhouwd</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">sculpting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">beeldhouwen</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2206822">
+            <ns8:prefLabel xml:lang="en">gild</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">vergulden</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2206861">
+            <ns8:altLabel xml:lang="nl">gegraveerd</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">engraving</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">graveren (inkerven)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220907">
+            <ns8:prefLabel xml:lang="en">oak (wood)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">eikenhout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22111463">
+            <ns9:sameAs rdf:resource="https://iconclass.org/71A3" />
+            <ns8:altLabel>71A3</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">creation of man; the Garden of Eden (Genesis 1:26 - 2)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211206">
+            <ns9:sameAs rdf:resource="https://iconclass.org/71I32" />
+            <ns8:altLabel>71I32</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">the judgement of Solomon (1 Kings 3:16-28)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211286">
+            <ns9:sameAs rdf:resource="https://iconclass.org/48A98" />
+            <ns8:altLabel>48A98</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">ornaments ~ art</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221158">
+            <ns9:sameAs rdf:resource="https://iconclass.org/92C2" />
+            <ns8:altLabel>92C2</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">(story of) Minerva (Pallas, Athena)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2212618">
+            <ns9:sameAs rdf:resource="https://iconclass.org/71I33" />
+            <ns8:altLabel>71I33</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Solomon and the queen of Sheba (1 Kings 10:1-3; 2 Chronicles 9:1-9)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221283">
+            <ns9:sameAs rdf:resource="https://iconclass.org/71A6" />
+            <ns8:altLabel>71A6</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">expulsion of Adam and Eve from paradise (Genesis 3:22-24)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2215392">
+            <ns9:sameAs rdf:resource="https://iconclass.org/92B5722" />
+            <ns8:altLabel>92B5722</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">other hybrid forms in the shape of a pillar</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2216070">
+            <ns9:sameAs rdf:resource="https://iconclass.org/71F2453" />
+            <ns8:altLabel>71F2453</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Jephthah's daughter dances with tambourines to meet her father on his return from the battle; Jephthah rends his clothes in despair</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/ZEJEo">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21041173">
+            <ns8:altLabel xml:lang="en">Gole, Pierre</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Gole, Pierre</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Pierre Gole</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Pierre Gole</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

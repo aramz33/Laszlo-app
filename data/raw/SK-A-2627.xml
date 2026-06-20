@@ -1,0 +1,180 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20027805</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:27:58Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>26121</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20027805#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20027805">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210169673" />
+                <dc:description xml:lang="en">The book is rendered in such detail that it is easy to see what the woman is reading: the beginning of chapter 19 of the Gospel of Luke. The passage states that those who wish to do good must give away half of all they own to the poor. The old woman’s expensive clothing contrasts sharply with this message: she is still attached to worldly possessions.</dc:description>
+                <dc:description xml:lang="nl">Het boek is zo gedetailleerd weergegeven dat duidelijk te zien is wat de vrouw leest: het begin van het negentiende hoofdstuk van het evangelie van Lucas. Daarin staat dat wie werkelijk goed wil doen, zo veel mogelijk van zijn bezit aan de armen moet schenken. In schrille tegenspraak met die boodschap is de dure kleding van de oude vrouw: zij hecht nog aan aards bezit.</dc:description>
+                <dc:identifier>SK-A-2627</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221136" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221319" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221878" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221879" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221880" />
+                <dc:title xml:lang="en">Lezende oude vrouw</dc:title>
+                <dc:title xml:lang="en">Old Woman Reading</dc:title>
+                <dc:title xml:lang="nl">Lezende oude vrouw</dc:title>
+                <dc:title xml:lang="nl">Old Woman Reading</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">c. 1631 - c. 1632</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1631 - ca. 1632</ns5:created>
+                <ns5:extent xml:lang="en">frame: height 85.3 cm x width 69.5 cm x depth 5.8 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 71.1 cm x width 55.2 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">drager inclusief lijst: hoogte 85,3 cm x breedte 69,5 cm x diepte 5,8 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 71,1 cm x breedte 55,2 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26121" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2621504" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301132298" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301206454" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30121552" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015253" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30169525" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30184937" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">…; ? collection William Wells Esq. (1767-1845), Redleaf, near Penshurst (Kent), 1829;{J. Smith, _A Catalogue Raisonné of the Works of the Most Eminent Dutch, Flemish and French Painters_, I, London 1829, p. 45, no. 138 (‘The portrait of an elderly female, said to be the mother of the artist. This picture is painted the size of nature, and is evidently the work of Dow, when in the school of Rembrandt. Collection of W. Wells, Esq. 26 _in_. by 21 _in_.-P. [66 x 53.3 cm]’).} ? his sale, London (Christie &amp;amp; Manson), 12 May 1848 _sqq_., no. 56, £36.15, to Evans;{Copy RKD. The description of the painting is the same as in J. Smith, _A Catalogue Raisonné of the Works of the Most Eminent Dutch, Flemish and French Painters_, I, London 1829, p. 45, no. 138; see preceding note.}…; or purchased by the Hoekwater family, The Hague, c. 1830;{Note RMA.} on loan from Vice-Admiral Anthony Hendrik Hoekwater (1854-1912), Hilversum, to the museum, July 1889-10 November 1891;{Note RMA.} by whom donated to the museum, 1912</ns5:provenance>
+                <ns6:spn xml:lang="en">A.H. Hoekwater Bequest, The Hague</ns6:spn>
+                <ns6:spn xml:lang="nl">Legaat van de heer A.H. Hoekwater, Den Haag</ns6:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/KzwJs/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/KzwJs" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/KzwJs/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2627--be2f43ac209a0907437f4297b8dcd924">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26121">
+            <ns8:prefLabel xml:lang="en">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns8:prefLabel xml:lang="en">panel</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">paneel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221136">
+            <ns9:sameAs rdf:resource="https://iconclass.org/49N" />
+            <ns8:altLabel>49N</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">reading</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">lezen</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221319">
+            <ns9:sameAs rdf:resource="https://iconclass.org/31D17" />
+            <ns8:altLabel>31D17</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">old woman</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221878">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41D222%28COLLAR%29%28%2B43%29" />
+            <ns8:altLabel>41D222(COLLAR)(+43)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">neck-gear: collar (+ fur used for clothes)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221879">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41D221%28CAP%29%28%2B43%29" />
+            <ns8:altLabel>41D221(CAP)(+43)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">head-gear: cap (+ fur used for clothes)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221880">
+            <ns9:sameAs rdf:resource="https://iconclass.org/11Q511" />
+            <ns8:altLabel>11Q511</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">the Bible as a book</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/KzwJs">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210169673">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/96538660" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500115513" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q335927" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/23986" />
+            <ns10:dateOfBirth xml:lang="nl">1613-04-07</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1675</ns10:dateOfDeath>
+            <ns10:placeOfBirth />
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230105">
+                <ns8:prefLabel xml:lang="en">Leiden</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Leiden</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Dou, Gerard</ns8:altLabel>
+            <ns8:altLabel xml:lang="en">Gerard Dou</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Dou, Gerard</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Dou, Gerrit</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Gerard Dou</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">Gerrit Dou</ns8:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

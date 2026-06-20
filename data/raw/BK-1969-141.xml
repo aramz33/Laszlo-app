@@ -1,0 +1,235 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns11="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200369739</ns0:identifier>
+        <ns0:datestamp>2026-06-08T19:38:06Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260243</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26132</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200369739#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200369739">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21037447" />
+                <dc:description xml:lang="en">German-born Matthijs Horrix was the leading cabinet-maker in The Hague and the preferred purveyor of furniture to the stadtholder’s court. He specialized in furniture with marquetry decoration in the French style, and even named his shop in The Hague In de commode van Parijs (In the commode of Paris).</dc:description>
+                <dc:description xml:lang="nl">De uit Duitsland afkomstige Matthijs Horrix was de belangrijkste meubelmaker van Den Haag en de favoriete leverancier van meubels aan het stadhouderlijk hof. Hij was gespecialiseerd in meubels met marqueterie in Franse stijl. Zijn winkel in Den Haag gaf hij de naam In de commode van Parijs.</dc:description>
+                <dc:identifier>BK-1969-141</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211364" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221149" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2212067" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221667" />
+                <dc:title xml:lang="en">Commode</dc:title>
+                <dc:title xml:lang="nl">Commode</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201055" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220120" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/22015" />
+                <ns5:created xml:lang="en">c. 1775 - c. 1780</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1775 - ca. 1780</ns5:created>
+                <ns5:extent xml:lang="en">height 90 cm x width 121 cm x depth 50.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 90 cm x breedte 121 cm x diepte 50,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260243" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26132" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100966" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301302825" />
+                <ns5:isReferencedBy>'In de commode van Parijs tot Den Haag' Matthijs Horrix (1735-1809), een meubelmaker in Den Haag in de tweede helft van de achttiende eeuw, uit: Oud Holland, 107, 1993, 2, pagina pp. 161-255 - afb. 53-54(zie: http://www.jstor.org/stable/42711425)</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22013" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220147" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220149" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220169" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22021" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2202699" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2202700" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2202813" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2203604" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2203637" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220907" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/2301261" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2202689" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206822" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/ECCkX/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/ECCkX" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/ECCkX/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-1969-141--011fa62958fde0c8f13e79ce1ffedd81">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260243">
+            <ns8:prefLabel xml:lang="en">birdwatching</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">vogelen</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26132">
+            <ns8:prefLabel xml:lang="nl">meubelen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2201055">
+            <ns8:prefLabel xml:lang="en">commode</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">commode</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220120">
+            <ns8:altLabel xml:lang="nl">credenza</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">kastmeubilair</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">case furniture</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">kast</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22013">
+            <ns8:prefLabel xml:lang="en">bronze (metal)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">brons</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220147">
+            <ns8:prefLabel xml:lang="en">marble (rock)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">marmer</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220149">
+            <ns8:altLabel xml:lang="nl">ahornhout</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">maple (wood)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">esdoornhout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22015">
+            <ns8:prefLabel xml:lang="en">furniture</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">meubilair</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220169">
+            <ns8:prefLabel xml:lang="en">gilding (material)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">verguldsel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22021">
+            <ns8:prefLabel xml:lang="en">wood (plant material)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">hout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202689">
+            <ns8:prefLabel xml:lang="nl">marqueterie</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202699">
+            <ns8:prefLabel xml:lang="en">rosewood (wood)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">rozenhout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202700">
+            <ns8:altLabel xml:lang="en">purpleheart (wood)</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">amaranthout</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">purpleheart (wood)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">purperharthout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202813">
+            <ns8:prefLabel xml:lang="en">elm (wood)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">iepenhout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2203604">
+            <ns8:prefLabel xml:lang="en">boxwood (hardwood)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">buxushout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2203637">
+            <ns8:altLabel xml:lang="nl">notenwortelhout</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">wortelnotenhout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2206822">
+            <ns8:prefLabel xml:lang="en">gild</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">vergulden</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220907">
+            <ns8:prefLabel xml:lang="en">oak (wood)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">eikenhout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211364">
+            <ns9:sameAs rdf:resource="https://iconclass.org/25F35" />
+            <ns8:altLabel>25F35</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">ornamental birds</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221149">
+            <ns9:sameAs rdf:resource="https://iconclass.org/48A98333" />
+            <ns8:altLabel>48A98333</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">bunch of flowers ~ ornament</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2212067">
+            <ns9:sameAs rdf:resource="https://iconclass.org/48A9854" />
+            <ns8:altLabel>48A9854</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">vase ~ ornament</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221667">
+            <ns9:sameAs rdf:resource="https://iconclass.org/48A9875" />
+            <ns8:altLabel>48A9875</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">ornament ~ festoon, garland</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/ECCkX">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21037447">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/42886867" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500083794" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q24736082" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/119836" />
+            <ns10:dateOfBirth xml:lang="nl">1735</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1809-05-11 - 1809-05-12</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2302062">
+                <ns8:prefLabel xml:lang="nl">Krefeld</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+                <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006810" />
+                <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q36600" />
+                <ns8:prefLabel xml:lang="en">The Hague</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Den Haag</ns8:prefLabel>
+                <ns11:lat>4.3</ns11:lat>
+                <ns11:long>52.083333</ns11:long>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205308">
+                <ns8:prefLabel xml:lang="en">furniture maker (person)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">meubelmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Horrix, Matthijs</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Horrix, Matthijs</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Matthijs Horrix</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Matthijs Horrix</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

@@ -1,0 +1,151 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200142871</ns0:identifier>
+        <ns0:datestamp>2026-06-08T04:48:41Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>260235</ns0:setSpec>
+        <ns0:setSpec>261119</ns0:setSpec>
+        <ns0:setSpec>261135</ns0:setSpec>
+        <ns0:setSpec>261166</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200142871#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200142871">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="en">These jewels are part of an ensemble collected by Julius Stein van Gollenesse, director-general of the VOC (Dutch East India Company) in Batavia (now Jakarta). Attached to the top of the ornament in the shape of a horizontal crescent moon is a tiny eye. A pearl necklace would have been affixed to it, and the jewel then pinned in the hair so that it would fall in the middle of the forehead. The round ornament was worn on the side of the head.</dc:description>
+                <dc:description xml:lang="nl">Deze sieraden behoren tot een ensemble dat verzameld werd door Julius Stein van Gollenesse, directeur-generaal van de VOC in Batavia (het huidige Jakarta). Aan het sieraad in de vorm van een liggende halve maan is bovenaan een oogje aangebracht. Daaraan werd een parelsnoer bevestigd, dat vervolgens in het haar werd vastgemaakt zodat het sieraad midden op het voorhoofd viel. Het ronde sieraad werd gedragen aan de zijkant van het hoofd.</dc:description>
+                <dc:identifier>AK-NM-7060</dc:identifier>
+                <dc:title xml:lang="en">Paar oorbellen en twee haarsieraden</dc:title>
+                <dc:title xml:lang="en">Pair of Earrings and Two Hair Ornaments</dc:title>
+                <dc:title xml:lang="nl">Paar oorbellen en twee haarsieraden</dc:title>
+                <dc:title xml:lang="nl">Pair of Earrings and Two Hair Ornaments</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2202724" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220672" />
+                <ns5:created xml:lang="en">c. 1750</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1750</ns5:created>
+                <ns5:extent xml:lang="en">height 4.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 4,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260235" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261119" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261135" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261166" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100987" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3011764" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30121055" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244084" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244297" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301283002" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301283477" />
+                <ns5:isReferencedBy>Documentatiemap</ns5:isReferencedBy>
+                <ns5:isReferencedBy>P. Lunsingh Scheurleer, Rich Remains from Social Anthropological Fieldwork in Eighteenth-Century India, uit: Journal of the history of collections, 8, 1996, 1, pagina 71-91</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2201306" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220237" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220671" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/2306852" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/cKlhn/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/cKlhn" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/cKlhn/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/AK-NM-7060--0d147f35d71d6544c4bd2eb2c48a43d1">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2306852">
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/tgn/7001592" />
+            <ns7:prefLabel xml:lang="nl">Surat</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns7:prefLabel xml:lang="en">RijksXL</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">RijksXL</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260235">
+            <ns7:prefLabel xml:lang="en">jewellery</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">sieraden</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261119">
+            <ns7:prefLabel xml:lang="en">applied arts</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">kunstnijverheid</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261135">
+            <ns7:prefLabel xml:lang="nl">Zuid-Azië (collectie)</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261166">
+            <ns7:prefLabel xml:lang="en">jewellery</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">sieraden</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2201306">
+            <ns7:prefLabel xml:lang="en">pearl</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">parel</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220237">
+            <ns7:prefLabel xml:lang="en">gold (metal)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">goud</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202724">
+            <ns7:prefLabel xml:lang="nl">voorhoofdsieraad</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220671">
+            <ns7:prefLabel xml:lang="en">diamond (mineral)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">diamant</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220672">
+            <ns7:prefLabel xml:lang="en">jewellery</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">sieraad</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/cKlhn">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns7:altLabel xml:lang="nl">Anon</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">anonymous</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">anoniem</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns7:prefLabel>Rijksmuseum</ns7:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

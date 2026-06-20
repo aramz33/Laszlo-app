@@ -1,0 +1,211 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns11="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20027429</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:25:17Z</ns0:datestamp>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20027429#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20027429">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101237" />
+                <dc:description xml:lang="en">Jan Blanken, by J.A. Daiwaille, c. 1825. Hydraulic engineer Jan Blanken (1755-1838) played a key roll in the development of the Dutch water authority after 1800. Despite the political turmoil of those years, this was a period in which major projects were initiated. Under a succession of Dutch governments, Blanken supplied the country with docks, harbours, canals and fortifications. One of his best-known works is the North Holland canal, opened in 1824. In the painting in the background is the entrance to the canal, the Willem sluice at Amsterdam, named after the man who commissioned the work, King William I. Here Blanken is portrayed in his official uniform. Like Goudriaan, he was appointed inspector general of the water authority in 1808. Blanken supported the wearing of uniforms: the corps of engineers was organised along military lines.</dc:description>
+                <dc:description xml:lang="nl">Jan Blanken, door J.A. Daiwaille, ca. 1825. De waterbouwkundige Jan Blanken (1755-1838) speelde een belangrijke rol bij de ontwikkeling van de Nederlandse waterstaat na 1800. Hoewel het een politiek roerige periode was, kwamen in deze jaren grote projecten van de grond. In opdracht van verschillende machthebbers bouwde Blanken in Nederland dokken, havens, kanalen en vestingwerken. Een van zijn bekendste werken is het Noord-Hollands Kanaal, dat in 1824 gereed kwam. Op het schilderij is, op de achtergrond, de toegang tot het kanaal te zien: de Willemssluizen te Amsterdam, genoemd naar opdrachtgever koning Willem I. Blanken liet zich portretteren in ambtskostuum. Net als Goudriaan was hij in 1808 benoemd tot inspecteur-generaal van de waterstaat. Het dragen van uniformen werd door Blanken gepropageerd: de organisatie van het corps ingenieurs werd op militaire leest geschoeid.</dc:description>
+                <dc:identifier>SK-A-1845</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200316014" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200316660" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200414843" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21032141" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2103605" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21054211" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22123" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2301027" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/23012769" />
+                <dc:title xml:lang="en">Jan Blanken Jansz., Superintendent of Waterworks</dc:title>
+                <dc:title xml:lang="nl">Jan Blanken Jansz. (1755-1838), Inspecteur-generaal van Waterstaat</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">1820 - 1838</ns5:created>
+                <ns5:created xml:lang="nl">1820 - 1838</ns5:created>
+                <ns5:extent xml:lang="en">depth 13 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 79 cm x width 66 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">buitenmaat: diepte 13 cm (drager incl. SK-L-1329)</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 79 cm x breedte 66 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2622349" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301112748" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301135762" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301207257" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301247111" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015253" />
+                <ns5:isReferencedBy>Documentatiemap Schilderijen: artikel.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Tom van der Meer, 'De waterstaat', Rijksmuseum Kunstkrant 25 (1999) nr. 2, p.4-10.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns6:spn xml:lang="en">Gift of J.A. Matthes, Amsterdam</ns6:spn>
+                <ns6:spn xml:lang="nl">Schenking van J.A. Matthes, Amsterdam</ns6:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/UEoem/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/UEoem" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/UEoem/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1845--a5866d77a22c6b95b09bf08f2fd25343">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns8:prefLabel xml:lang="en">canvas</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">doek</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22123">
+            <ns9:sameAs rdf:resource="https://iconclass.org/61B2" />
+            <ns8:altLabel>61B2</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">historical persons</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/UEoem">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101237">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/27978810" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500010375" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q2330453" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/19706" />
+            <ns10:dateOfBirth xml:lang="nl">voor 1786-08-06</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1850-04-11</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230364">
+                <ns8:prefLabel xml:lang="en">Cologne</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Keulen (stad)</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23019">
+                <ns8:prefLabel xml:lang="en">Rotterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rotterdam</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2203016">
+                <ns8:prefLabel xml:lang="en">printer (person)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">drukker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Daiwaille, Jean Augustin</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Daiwaille, Jean August</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Daiwaille, Jean Augustin</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Jean August Daiwaille</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Jean Augustin Daiwaille</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Jean Augustin Daiwaille</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21032141">
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q133870004" />
+            <ns10:dateOfBirth xml:lang="nl">1755-11-15</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1838-07-17</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2304859">
+                <ns8:prefLabel xml:lang="nl">Bergambacht</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301055">
+                <ns8:prefLabel xml:lang="nl">Vianen</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2206370">
+                <ns8:prefLabel xml:lang="nl">inspecteur-generaal</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Blanken Jansz., Jan</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Blanken Jansz., Jan</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Blanken jr., Jan</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Blanken, Jan Jansz.</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Blanken, Jan</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Jan Blanken jr.</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Jan Blanken</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Jan Jansz. Blanken</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Jan Blanken Jansz.</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Jan Blanken Jansz.</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2103605">
+            <ns8:prefLabel xml:lang="nl">Rijkswaterstaat</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21054211">
+            <ns8:prefLabel xml:lang="nl">Orde van de Nederlandse Leeuw</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301027">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7268842" />
+            <ns8:prefLabel xml:lang="nl">Noordhollandsch Kanaal</ns8:prefLabel>
+            <ns11:lat>4.916667</ns11:lat>
+            <ns11:long>52.383333</ns11:long>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/23012769">
+            <ns8:prefLabel xml:lang="nl">Willem I Sluis</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

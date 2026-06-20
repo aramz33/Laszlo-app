@@ -1,0 +1,195 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns11="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200371060</ns0:identifier>
+        <ns0:datestamp>2026-06-08T19:42:25Z</ns0:datestamp>
+        <ns0:setSpec>260215</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260216</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26133</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200371060#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200371060">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2102256" />
+                <dc:identifier>RP-T-1962-65</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2212623" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2217840" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2309884" />
+                <dc:title xml:lang="en">Hill with the ruins of Montmajour</dc:title>
+                <dc:title xml:lang="nl">Heuvel met ruïne van Montmajour</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220363" />
+                <ns5:created xml:lang="en">1888</ns5:created>
+                <ns5:created xml:lang="nl">1888</ns5:created>
+                <ns5:extent xml:lang="en">height 483 mm x width 598 mm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 483 mm x breedte 598 mm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260215" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260216" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26133" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/262600" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100936" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301101291" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301101699" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301104607" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301123880" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301142869" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301142899" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301146002" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301151451" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301154224" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3011738" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30184102" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3019034" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22020" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220365" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22043" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220944" />
+                <ns5:provenance xml:lang="en">From the artist to his brother Theo van Gogh (1857-1891), Amsterdam, 1888; his widow, Johanna Gezina van Gogh-Bonger (1862-1925), Amsterdam; by whom donated to her brother, Willem Adriaan Bonger (1876-1940), Amsterdam, 1905;{Note RMA.} his heirs; from whom, fl. 70,000, to the museum, with support from De Vereniging Rembrandt and the Prins Bernhardfonds, 1962</ns5:provenance>
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2202293" />
+                <ns7:spn xml:lang="en">Purchased with the support of the Vereniging Rembrandt and the Prins Bernhard Fonds</ns7:spn>
+                <ns7:spn xml:lang="nl">Aankoop met steun van de Vereniging Rembrandt en het Prins Bernhard Fonds</ns7:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/xpewc/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/xpewc" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/xpewc/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/RP-T-1962-65--82c4082ae172417e414e150193facfd3">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260215">
+            <ns9:prefLabel xml:lang="en">Vereniging Rembrandt</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Vereniging Rembrandt</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260216">
+            <ns9:prefLabel xml:lang="en">Top 100 print room</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 100 prentenkabinet</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26133">
+            <ns9:prefLabel xml:lang="en">drawings</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">tekeningen</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22020">
+            <ns9:prefLabel xml:lang="en">paper</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">papier (materiaal)</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202293">
+            <ns9:prefLabel xml:lang="en">pen</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">pen</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220363">
+            <ns9:prefLabel xml:lang="en">drawing</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">tekening</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220365">
+            <ns9:prefLabel xml:lang="en">ink</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">inkt</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22043">
+            <ns9:prefLabel xml:lang="en">pencil</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">potlood</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220944">
+            <ns9:prefLabel xml:lang="en">chalk</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">krijt</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2212623">
+            <ns10:sameAs rdf:resource="https://iconclass.org/11P3151" />
+            <ns9:altLabel>11P3151</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">abbey, monastery, convent ~ Roman Catholic church</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2217840">
+            <ns10:sameAs rdf:resource="https://iconclass.org/25H16" />
+            <ns9:altLabel>25H16</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">plain</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/xpewc">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2102256">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/9854560" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500115588" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q5582" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/32439" />
+            <ns11:dateOfBirth xml:lang="nl">1853-03-30</ns11:dateOfBirth>
+            <ns11:dateOfDeath xml:lang="nl">1890-07-29</ns11:dateOfDeath>
+            <ns11:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2303615">
+                <ns9:prefLabel xml:lang="nl">Groot Zundert</ns9:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfBirth>
+            <ns11:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2302511">
+                <ns9:prefLabel xml:lang="nl">Auvers-sur-Oise</ns9:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfDeath>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202965">
+                <ns9:prefLabel xml:lang="en">lithographer</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">lithograaf</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns9:prefLabel xml:lang="en">painter</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">schilder</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns9:prefLabel xml:lang="en">printmaker</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">prentmaker</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns9:prefLabel xml:lang="en">draftsman (artist)</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">tekenaar</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns9:altLabel xml:lang="en">Gogh, Vincent van</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Gogh, Vincent van</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Vincent van Gogh</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Vincent van Gogh</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2309884">
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q334060" />
+            <ns9:prefLabel xml:lang="nl">klooster Montmajour</ns9:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

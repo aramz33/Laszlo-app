@@ -1,0 +1,247 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns11="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200109363</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:29:28Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>2616</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200109363#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200109363">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210625" />
+                <dc:description xml:lang="en">A man is working on his accounts, while a woman is seated at a spinning wheel. This pair of portraits was probably painted for the couple’s engagement or wedding. He is portrayed as a prudent merchant, she as a diligent housewife. These are two of the earliest portraits of Dutch citizens.</dc:description>
+                <dc:description xml:lang="nl">Een man is bezig zijn kas op te maken, terwijl een vrouw aan het spinnewiel zit. Waarschijnlijk is dit paar vanwege hun verloving of huwelijk geschilderd. Hij is weergegeven als een zorgvuldige handelaar, zij als een vlijtige huisvrouw. Dit zijn twee van de vroegste portretten van Hollandse burgers.</dc:description>
+                <dc:identifier>SK-A-3518</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200109362" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21054219" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22123" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22134" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221878" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221941" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221942" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221943" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/23029985" />
+                <dc:title xml:lang="en">Portraits of a Couple, possibly Pieter Gerritsz Bicker and Anna Codde</dc:title>
+                <dc:title xml:lang="en">Portretten van een echtpaar, mogelijk Pieter Gerritsz Bicker en Anna Codde</dc:title>
+                <dc:title xml:lang="nl">Portraits of a Couple, possibly Pieter Gerritsz Bicker and Anna Codde</dc:title>
+                <dc:title xml:lang="nl">Portretten van een echtpaar, mogelijk Pieter Gerritsz Bicker en Anna Codde</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:alternative xml:lang="en">Portrait of a Man, Formerly Identified as Pieter Gerritsz Bicker (1497-1567), Mintmaster and Alderman of Amsterdam</ns5:alternative>
+                <ns5:alternative xml:lang="en">Portrait of a Man, possibly Pieter Gerritsz Bicker (1497-1567)</ns5:alternative>
+                <ns5:alternative xml:lang="nl">Portret van een man, mogelijk Pieter Gerritsz Bicker (1497-1567)</ns5:alternative>
+                <ns5:alternative xml:lang="nl">Portret van een man, vroeger geidentificeerd als Pieter Gerritsz. Bicker (1497-1567). Muntmeester en schepen van Amsterdam</ns5:alternative>
+                <ns5:created xml:lang="en">1529</ns5:created>
+                <ns5:created xml:lang="nl">1529</ns5:created>
+                <ns5:extent xml:lang="en">frame: height 101 cm x width 83.5 cm x thickness 5.5 cm</ns5:extent>
+                <ns5:extent xml:lang="en">support: height 86.3 cm x width 66.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 86,3 cm x breedte 66,5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">lijst: hoogte 101 cm x breedte 83,5 cm x dikte 5,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2616" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100933" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301101288" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301238245" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244089" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244300" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3012498" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015253" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30182300" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">…; ? Alida van Leyden, née Van Ruytenburch (1671-1724);{Martin/Moes 1912, nos. 20-21.} ? her great-granddaughter, Sophia Dina (1778-1835) Baroness van Rhemen, née Van Leyden;{Martin/Moes 1912, nos. 20-21.} ? her daughter, Baroness Adriana Sophia Schimmelpenninck van der Oye, née Van Rhemen (1806-42), Huis de Poll, Voorst, near Zutphen;{Martin/Moes 1912, nos. 20-21.} her son, W.A.A.J. Baron Schimmelpenninck van der Oye (1834-89), Huis de Poll, Voorst, as Jan van Scorel;{Martin/Moes 1912, nos. 20-21.} his wife, Jacoba Christina Baroness Schimmelpenninck van der Oye-van Pallandt (1843-1931);{Utrecht 1913, p. 94, no. 95; De Jonge 1932, p. 145.} by descent to Jonkheer Rudolf Everard Willem van Weede (1858-1933), The Hague, widower of Nicoline Adrienne Sophie Baroness Schimmelpenninck van der Oye (1865-1921);{Bruyn in Amsterdam 1986, p. 192.} from whom on loan to the Centraal Museum, Utrecht, 1931-33;{Bruyn in Amsterdam 1986, pp. 192-93.}…; ? the dealer J. Goudstikker, Amsterdam;{Bruyn in Amsterdam 1986, p. 192.} …; purchased from a dealer by an unknown collector, USA, c. 1937;{Hoogewerff IV, 1941-42, pp. 205, 230.} …; from ‘Mr van Aalst’, probably the heirs of Cornelis Johannes Karel van Aalst (1866-1939), Hoevelaken, fl. 140,000, to the dealer D. Katz, Dieren, 1940;{Muller/Schretlen 2002, p. 72, note 172; HNA, SNK archive, 2.08.42, inv. no. 154, note dd. 17 May 1951, p. 3.} the dealer D. Katz, Dieren, 1941;{Note by M.J. Friedländer on photo RKD no. 28050.} from whom purchased by Hans Posse (1879-1942) for Adolf Hitler’s Führermuseum, Linz, 1941;{Muller/Schretlen 2002, p. 72, note 172; MCCP website, file card nos. 4365, 4823; the Linz nos. 1902, 1903 are recorded in black on the reverse of the panels; HNA, SNK archive, 2.08.42, inv. no. 154, note dd. 17 May 1951: this document is not clear on the price Posse paid to Katz.} war recuperation, SNK, 9 October 1945;{MCCP website, file card nos. 4365, 4823} restituted to Benjamin and Nathan Katz, Dieren, fl. 35,000, 1947;{Muller/Schretlen 2002, p. 72; HNA, SNK archive, 2.08.42, inv. no. 154, list of restituted goods.} by whom donated to the museum, 1948</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230134" />
+                <ns6:spn xml:lang="en">Gift of D. Katz, Dieren and N. Katz, Dieren</ns6:spn>
+                <ns6:spn xml:lang="nl">Schenking van de heer D. Katz, Dieren en de heer N. Katz, Dieren</ns6:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/dRwRs/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/dRwRs" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/dRwRs/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3518--2c64913eb13ed5f1c318b9da5f59157b">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2616">
+            <ns8:prefLabel xml:lang="en">Early Netherlandish Paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Early Netherlandish Paintings</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns8:prefLabel xml:lang="en">panel</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">paneel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22123">
+            <ns9:sameAs rdf:resource="https://iconclass.org/61B2" />
+            <ns8:altLabel>61B2</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">historical persons</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22134">
+            <ns9:sameAs rdf:resource="https://iconclass.org/49M32" />
+            <ns8:altLabel>49M32</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">book</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221878">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41D222%28COLLAR%29%28%2B43%29" />
+            <ns8:altLabel>41D222(COLLAR)(+43)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">neck-gear: collar (+ fur used for clothes)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221941">
+            <ns9:sameAs rdf:resource="https://iconclass.org/46B31" />
+            <ns8:altLabel>46B31</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">money</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221942">
+            <ns9:sameAs rdf:resource="https://iconclass.org/49D53" />
+            <ns8:altLabel>49D53</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">counting, calculating</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221943">
+            <ns9:sameAs rdf:resource="https://iconclass.org/46B21" />
+            <ns8:altLabel>46B21</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">merchant, salesman</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/dRwRs">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21054219">
+            <ns10:dateOfBirth xml:lang="nl">1497</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1567</ns10:dateOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205236">
+                <ns8:prefLabel xml:lang="en">mintmaster</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">muntmeester</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="nl">Bicker, Pieter Gerritsz</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">Pieter Gerritsz Bicker</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210625">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/88717459" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500124291" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q538350" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/36851" />
+            <ns10:dateOfBirth xml:lang="nl">1498</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1574</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301836">
+                <ns8:prefLabel xml:lang="nl">Heemskerk</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230134">
+                <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7007048" />
+                <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q9920" />
+                <ns8:prefLabel xml:lang="en">Haarlem</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Haarlem</ns8:prefLabel>
+                <ns11:lat>4.65</ns11:lat>
+                <ns11:long>52.366667</ns11:long>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Heemskerck, Maarten van</ns8:altLabel>
+            <ns8:altLabel xml:lang="en">Heemskerck, Martinus van</ns8:altLabel>
+            <ns8:altLabel xml:lang="en">Martinus van Heemskerck</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Heemskerck, Maarten van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Heemskerck, Maerten van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Heemskerck, Marten van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Heemskerck, Martinus van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Heemskerk, Maarten van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Maarten van Heemskerk</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Maerten van Heemskerck</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Marten van Heemskerck</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Martinus van Heemskerck</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Maarten van Heemskerck</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Maarten van Heemskerck</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006952" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q727" />
+            <ns9:sameAs rdf:resource="https://sws.geonames.org/2759794/" />
+            <ns8:prefLabel xml:lang="en">Amsterdam</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Amsterdam</ns8:prefLabel>
+            <ns11:lat>4.916667</ns11:lat>
+            <ns11:long>52.35</ns11:long>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

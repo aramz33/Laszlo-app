@@ -1,0 +1,172 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200111817</ns0:identifier>
+        <ns0:datestamp>2026-06-08T01:04:43Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>26121</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200111817#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200111817">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2103354" />
+                <dc:description xml:lang="en">The promiscuous Messalina, the bare-breasted woman in the centre, was the wife of Emperor Claudius. She committed adultery by marrying Sillius and they organized an inordinately lavish banquet to celebrate their wedding. The group peering out the window is on to something; Emperor Claudius is approaching the palace to put an end to the infidelity, drinking and merrymaking. Messalina’s frenzied greed ultimately
+led to her downfall.</dc:description>
+                <dc:description xml:lang="nl">De losbandige Messalina, in het midden met ontblote borsten, was de vrouw van keizer Claudius. Ze pleegde overspel door te trouwen met Sillius. Ter gelegenheid van het huwelijk organiseerden ze een buitensporig feest. Het groepje aan het raam is iets op het spoor. Keizer Claudius nadert het paleis om een eind te maken aan de ontrouw en de zuippartij. Messalina’s uitzinnige hebzucht leidt uiteindelijk tot haar eigen ondergang.</dc:description>
+                <dc:identifier>SK-A-4779</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200415077" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221100" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211210" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211211" />
+                <dc:title xml:lang="en">Scene from the Wedding of Messalina and Gaius Sillius</dc:title>
+                <dc:title xml:lang="en">Scène uit het huwelijk van Messalina en Gaius Sillius</dc:title>
+                <dc:title xml:lang="nl">Scene from the Wedding of Messalina and Gaius Sillius</dc:title>
+                <dc:title xml:lang="nl">Scène uit het huwelijk van Messalina en Gaius Sillius</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:alternative xml:lang="en">Brothel Scene, possibly an Episode from a Story</ns5:alternative>
+                <ns5:alternative xml:lang="nl">Bordeelscene, mogelijk een episode uit een verhaal</ns5:alternative>
+                <ns5:created xml:lang="en">c. 1645 - c. 1650</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1645 - ca. 1650</ns5:created>
+                <ns5:extent xml:lang="en">outer size: depth 6.5 cm (support incl. frame)</ns5:extent>
+                <ns5:extent xml:lang="en">support: height 59.7 cm x width 74.4 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">buitenmaat: diepte 6,5 cm (drager incl. SK-L-2055)</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 59,7 cm x breedte 74,4 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26121" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100494" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301241254" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301303848" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015254" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">…; collection Louis Philippe Joseph (1747-1793), Duc d’Orléans, Palais Royal, Paris, after 1788;{Inscription on an engraving by Jan-Louis Delignon (as J.B. Weenix), _&lt;em&gt;La Gaieté Bachique&lt;/em&gt;_, 1808; illustrated in J. Couché, _&lt;em&gt;Galerie du Palais Royal gravée d'après les tableaux des différentes écoles qui la composent […]: Dediée à S.A.S. Monseigneur le duc d’Orléans&lt;/em&gt;_, III, Paris 1808, unpag. For the period of acquisition see also the entry.} from whom, with the other Dutch and Flemish paintings in his collection, fr. 350,000, to Thomas Moore Slade, London, 1792/93;{W. Buchanan, _&lt;em&gt;Memoirs of Painting: With a Chronological History of the Importation of Pictures by the Great Masters into England since the French Revolution&lt;/em&gt;_, I, London 1824, pp. 159-64; D. Sutton, ‘Aspects of British Collecting, III.XIII: The Orléans Collection’, _&lt;em&gt;Apollo&lt;/em&gt;_ 119 (1984), pp. 357-72, esp. pp. 359-62.} his sale, London, Pall Mall (auction house not known), April 1793, no. 251, as J.B. Weenix (‘The debauch’);{GPI, Br-A5163.}…; ? sale, Auguste-Louis-César-Hipolite-Théodore de L’Espinasse de Langeac, Comte d’Arlet, Paris (Constantin), 4 January 1815 _&lt;em&gt;sqq.&lt;/em&gt;_, no. 204, as N. Knupfer (‘L’enfant prodigue avec ses maîtresses, ou peut-être un musico hollandaise, sur bois’);…; sale, William Wilkins (1778-1839, Cambridge), London (Christie’s), 22 May 1830, no. 2, as Jan Baptist Weenix (‘The Prodigal Son, or La Gaieté bacchique, as it was denominated when in the Orléans collection. An inscription on the back of the panel states it to have been one of the Tableaux reclamés de St. Cloud, from which palace it had been surreptitiously abstracted. Houbraken, in his Lives of the Painters, notices this picture as being one of the most celebrated of this master’), bought in at 40 gns;{Copy RKD. See the entry for the inscription referred to in this sale catalogue.}…; collection Count André Mniszech (1823-1905), Paris;{Note RMA. Not located in the catalogue for the sale, Countess André Mniszech, Paris (H. Baudoin, Hôtel Drouot), 10 May 1910.}…; collection Adolphe Schloss (c. 1842/43-1910) and his wife, Lucie Schloss (1858-1938), Paris; confiscated by the Nazis from their children, Château de Chambon, near Tulle, 1943; restituted to the Schloss family after World War II; their sale, Paris (Galerie Charpentier), 25 May 1949, no. 28, fr. 480,000;{Copy RMA. According to the catalogue for the sale, The Duke of Beaufort &lt;em&gt;et al.&lt;/em&gt;, London (Sotheby’s), 10 December 1980, no. 62, the painting was purchased at the 1949 sale by a member of the family who brought it into the 1980 sale.}…; private collection, Le Verviers, near Liège;{Note RMA.}…; sale, The Duke of Beaufort &lt;em&gt;et al.&lt;/em&gt;, London (Sotheby’s), 10 December 1980, no.18,000, to the dealer Hoogsteder; from whom purchased by the museum, as a gift from the Rijksmuseum-Stichting, 1981</ns5:provenance>
+                <ns6:spn xml:lang="en">Gift of the Rijksmuseum-Stichting</ns6:spn>
+                <ns6:spn xml:lang="nl">Schenking van de Rijksmuseum-Stichting</ns6:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/XLKMs/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/XLKMs" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/XLKMs/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4779--ea98266f7d70fea77659a15c3fff7cc3">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26121">
+            <ns8:prefLabel xml:lang="en">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns8:prefLabel xml:lang="en">panel</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">paneel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221100">
+            <ns9:sameAs rdf:resource="https://iconclass.org/47I422" />
+            <ns8:altLabel>47I422</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">vine</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211210">
+            <ns9:sameAs rdf:resource="https://iconclass.org/98C%28MESSALINA%2921" />
+            <ns8:altLabel>98C(MESSALINA)21</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Messalina in the brothel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211211">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41C52" />
+            <ns8:altLabel>41C52</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">carousal, drinking-bout, orgy</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/XLKMs">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2103354">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/44258459" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500004818" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q936917" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/45163" />
+            <ns10:dateOfBirth xml:lang="nl">ca. 1609</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1655</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230782">
+                <ns8:prefLabel xml:lang="nl">Leipzig</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2302">
+                <ns8:prefLabel xml:lang="en">Utrecht</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Utrecht (stad)</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Knupfer, Nicolaes</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Knupfer, Nicolaes</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Knüpfer, Nicolaus</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Nicolaus Knüpfer</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Nicolaes Knupfer</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Nicolaes Knupfer</ns8:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

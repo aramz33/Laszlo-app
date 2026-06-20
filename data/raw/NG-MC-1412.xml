@@ -1,0 +1,177 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200316200</ns0:identifier>
+        <ns0:datestamp>2026-06-08T16:58:54Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260249</ns0:setSpec>
+        <ns0:setSpec>260210</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>260211</ns0:setSpec>
+        <ns0:setSpec>26137</ns0:setSpec>
+        <ns0:setSpec>2617</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200316200#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200316200">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21032071" />
+                <dc:description xml:lang="en">The full-scale, 60-metre-high version of this lighthouse was erected at Vlakkenhoek, on the southwest point of Sumatra. The tower was built in The Hague by Enthoven &amp;amp; Co., then shipped to Sumatra. The strength of the cast-iron structure was proven during the 1883 volcano eruption of Krakatoa; only the lighthouse withstood the tsunami that devastated everything else.</dc:description>
+                <dc:description xml:lang="nl">Op de zuidwestelijke punt van Sumatra, bij Vlakkenhoek, verrees deze 60 meter hoge vuurtoren. De toren werd bij de Haagse firma Enthoven en Co. gebouwd en daarna naar Sumatra verscheept. Dat de gietijzeren constructie stevig was, bewees de uitbarsting van de vulkaan Krakatau in 1883. Alleen de toren weerstond de tsunami, terwijl alles in de omgeving werd verwoest.</dc:description>
+                <dc:identifier>NG-MC-1412</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211031" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2301662" />
+                <dc:title xml:lang="en">Model of the Vlakkenhoek lighthouse on Sumatra</dc:title>
+                <dc:title xml:lang="en">Model van de vuurtoren van Vlakkenhoek op Sumatra</dc:title>
+                <dc:title xml:lang="nl">Model of the Vlakkenhoek lighthouse on Sumatra</dc:title>
+                <dc:title xml:lang="nl">Model van de vuurtoren van Vlakkenhoek op Sumatra</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2202819" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2203352" />
+                <ns5:created xml:lang="en">c. 1879</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1879</ns5:created>
+                <ns5:extent xml:lang="en">height 170.5 cm x diameter 34 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 170,5 cm x diameter 34 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260210" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260211" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260249" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26137" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2617" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100987" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301101072" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301126749" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301135762" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301200389" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301207257" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301216127" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301249444" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301249448" />
+                <ns5:isReferencedBy>Encyclopedie Nederlands Indië, 1918, dl. 2, p. 494.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>M. Meddeler, Bouwmodel of Pronkstuk? : De besluitvorming en de behandeling van het model van de vuurtoren te Vlakkenhoek (Sumatra) vervaardigd uit messing, mica en hout (Sriptie ter afronding van het postinitiële traject, Universiteit van Amsterdam), juni 2013.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>W. Steffens, Kort overzicht uit de geschiedenis der kustverlichting in Nederlands-Indië, december 1926 (Marinebibliotheek, Den Haag).</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22021" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22054" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220773" />
+                <ns5:provenance xml:lang="en">...; transferred from the Ministerie van Marine (Department of the Navy), The Hague, to the museum, 1883</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/2301261" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/NQpfR/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/NQpfR" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/NQpfR/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/NG-MC-1412--1f81b5786b5ab2a839c02edccc4a6eed">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2301261">
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006810" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q36600" />
+            <ns7:prefLabel xml:lang="en">The Hague</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Den Haag</ns7:prefLabel>
+            <ns9:lat>4.3</ns9:lat>
+            <ns9:long>52.083333</ns9:long>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260210">
+            <ns7:prefLabel xml:lang="en">Against Opacity</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Against Opacity</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260211">
+            <ns7:prefLabel xml:lang="en">Indonesian heritage</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Indisch erfgoed</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns7:prefLabel xml:lang="en">RijksXL</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">RijksXL</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260249">
+            <ns7:prefLabel xml:lang="en">maritime digital</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">maritiem digitaal</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26137">
+            <ns7:prefLabel xml:lang="en">Navy Model Room</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Marinemodellenkamer</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2617">
+            <ns7:prefLabel xml:lang="en">Navy Models in the Rijksmuseum</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Navy Models in the Rijksmuseum</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22021">
+            <ns7:prefLabel xml:lang="en">wood (plant material)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">hout</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202819">
+            <ns7:prefLabel xml:lang="en">scale model</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schaalmodel</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2203352">
+            <ns7:prefLabel xml:lang="en">presentation model</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">presentatiemodel</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22054">
+            <ns7:altLabel xml:lang="en">brass (alloy)</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">geelkoper</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">brass (alloy)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">messing</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220773">
+            <ns7:prefLabel xml:lang="nl">mica</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2211031">
+            <ns8:sameAs rdf:resource="https://iconclass.org/46C2831" />
+            <ns7:altLabel>46C2831</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">lighthouse, lightship</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/NQpfR">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21032071">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/123899570" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q107095037" />
+            <ns7:altLabel xml:lang="nl">Enthoven en Co, Firma E.J., Gieterij</ns7:altLabel>
+            <ns7:prefLabel xml:lang="nl">Enthoven &amp; Co.</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301662">
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/tgn/7016484" />
+            <ns7:prefLabel xml:lang="en">Sumatra</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Sumatra</ns7:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns7:prefLabel>Rijksmuseum</ns7:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

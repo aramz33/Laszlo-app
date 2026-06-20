@@ -1,0 +1,216 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns11="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20027195</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:23:39Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>2616</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20027195#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20027195">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="en">Four Dutch knights kneel before the Virgin. The first three died in 1345 in the Battle of Warns against the Frisians; the fourth was badly wounded. Behind them stands Saint George, their patron saint. The coats of arms above them show that they belong to the De Rover family of Montfoort. The painting is a ‘commemorative panel’ to honour their memory.</dc:description>
+                <dc:description xml:lang="nl">Vier Hollandse ridders knielen voor Maria. De eerste drie sneuvelden in 1345 in de Slag bij Warns tegen de Friezen, de achterste raakte zwaargewond. Achter hen staat hun beschermheilige Sint-Joris. De wapenschilden boven de ridders geven aan dat zij behoren tot het geslacht De Rover van Montfoort. Het schilderij is een ‘memorietafel’, gemaakt om hen te herdenken.</dc:description>
+                <dc:identifier>SK-A-831</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20066988" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21061181" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21061259" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21061260" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221719" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221720" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221721" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/230529" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2401357" />
+                <dc:title xml:lang="en">De heren van Montfoort</dc:title>
+                <dc:title xml:lang="en">The Lords of Montfoort</dc:title>
+                <dc:title xml:lang="nl">De heren van Montfoort</dc:title>
+                <dc:title xml:lang="nl">The Lords of Montfoort</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">c. 1400</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1400</ns5:created>
+                <ns5:extent xml:lang="en">frame: height 86 cm x width 157.5 cm x thickness 6 cm</ns5:extent>
+                <ns5:extent xml:lang="en">support: height 69.5 cm x width 142.9 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 69,5 cm x breedte 142,9 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">lijst: hoogte 86 cm x breedte 157,5 cm x dikte 6 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2616" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2621180" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301101017" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301102856" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301106065" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301106114" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301109626" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301114337" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301210761" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301216127" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301237412" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301272373" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301272374" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30139403" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30153355" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30155908" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3016000" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30178059" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30185616" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3019285" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30194351" />
+                <ns5:isReferencedBy>A. Hulshof, Utrechtse panelen, Utrecht 1944, afb. 29 [vgl. miniatuur van Willem van Montfoort en getijdenboek]</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Bart Ibelings, "De opdrachtgevers en oudst bekende restauratie van de memorietafel van de heren van Montfoort", Heemtijdinghen 48/2 (2012)</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Bart Ibelings, 'De opdrachtgever en oudst bekende restauratie van de memorietafel van de heren van Montfoort', Heemtijdinghen 48 (2012) nr. 2, p. 65-74.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Documentatiemap Schilderijen: aantekeningen R. van Luttervelt (voor 1963). Correspondentie Gemeentearchief Amsterdam, C. Noordam over Hendrik Rover van Heulestein, 9 april 1996; correspondentie H. M. Zijlstra-Zweens over de afgebeelde helmen, 14 juli 1986; overdruk tentoonstellingscatalogus 'Die Parler', 1978.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Documentatiemap Schilderijen: papiertje met naam van schenker, 1884; correspondentie over identificatie Heren van Montfoort, 1996.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Gerson (Geertgen), p. 8, afb. 4.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>H.W. van Os, 'De gebreken van de beeldtaal', O.K. 23 (1979), nr. 5, p. 134, afb.6</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J. Blok, 'Gegevens van de geschiedenis der kleederdrachten (kleeding) in de 14de eeuw, uit de rekeningen der grafelijkheid', Bulletin van den Nederlandsch Oudheidkundige Bond 1914, p. 185, 189. [over de harnassen]</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Jaarboek Amstelodamum 88 (1996), p. 31 + afb.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>K. Bauch, 'Bildnisse des Jan van Eyck', Studien zur Kunstgeschichte (1967), p. 105.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>K.G. Boon, Maandblad voor Beeldende Kunst 1950, p. 263.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Liesbeth M. Helmus, Schilderen in opdracht : Noord-Nederlandse contracten voor altaarstukken 1485-1570, Utrecht 2009, p. 44</ns5:isReferencedBy>
+                <ns5:isReferencedBy>M.J. Bok, 'Laying claims to nobility', Simiolus 2/3 (1996), p. 222-223 + afb.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Marius Pieter van der Linden, De burggraven van Montfoort in de geschiedenis van het Sticht Utrecht en het graafschap Holland (± 1260-1490), Assen 1957.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>N. Plomp, "Een Linschotens schilderstuk uit de veertiende eeuw", Heemtijdinghen 13 (1977), p. 44-49.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Navorscher, XXII, p. 269.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>R. Terner, 'Bemerkungen zur, Madonna des Kanonikus van der Paele', Zeitschrift für Kunstgeschichte 42 (1979), p. 85, afb. 4.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>W. van Anrooij, 'De Memorietafel van de heren van Montfoort en het Hollandse gravenhof omstreeks 1400', in: Madoc : tijdschrift over de Middeleeuwen, 3 (1989), nr. 2, p. 22-28</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">? Commissioned by a member of the Van Montfoort family for the altar of the Virgin Mary, St Janskerk, Linschoten;{J.G. Frederiks in Obreen VI, 1884-87, pp. 80-81.} …; ? collection Jonkheer Godschalck van Harmale, Hofstede Heulenstein, Linschoten, 1659;{Noordam in Olde Meierink &lt;em&gt;et al.&lt;/em&gt; 1995, p. 253; J.G.M.B. 1963.} ? his nephew, Gerlach van der Capellen, Lord of Mervelt and Schalkwijk, Hofstede Heulenstein, Linschoten, 1662;{J.G.M.B. 1963.} ? from whom to Leonard van der Nath, Hofstede Heulenstein, Linschoten, 1666;{J.G.M.B. 1963.} ? from whom to Magdalena Van Outvorst, Hofstede Heulenstein, Linschoten, 1705;{J.G.M.B. 1963.} ? her son, Hendrik de Sandra, Hofstede Heulenstein, Linschoten;{J.G.M.B. 1963.} ? from his heirs to Elisabeth Buijs, Lady of Kattenbroek, Hofstede Heulenstein, Linschoten, 1775;{J.G.M.B. 1963.} ? from whom to Bastiaan van Rossum, Hofstede Heulenstein, Linschoten, 1810;{J.G.M.B. 1963.} from whom to Jan Knijff (1772-1848), Hofstede Heulenstein, Linschoten, 1836;{J.G.M.B. 1963; letter from C.J. van Leeuwen to the Rijksmuseum; NHA, ARS, IS, inv. 165, no. 349 (4 April 1885).} his niece, Mensina Knijff (1808-80); her husband, Dr Hermanus van der Lee (1814-1884), Woerden;{Letter from C.J. van Leeuwen to the Rijksmuseum; NHA, ARS, IS, inv. 165, no. 349 (4 April 1885).} his son-in-law, Jan Janse Koning (1839-c. 1930), Leiderdorp;{Letter from C.J. van Leeuwen to the Rijksmuseum; NHA, ARS, IS, inv. 165, no. 349 (4 April 1885).} by whom presented to the museum, through the mediation of C.J. van Leeuwen, Woerden, August 1885;{NHA, ARS, IS, inv. 164, no. 272 (26 July 1884), no. 273 (2 August 1884); NHA, ARS, IS, inv. 165, no. 349 (4 April 1885), no. 352 (14 April 1885).} on loan to the Centraal Museum, Utrecht, 2003-10</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230143" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204040" />
+                <ns7:spn xml:lang="en">Gift from the H. van der Lee Bequest, Woerden</ns7:spn>
+                <ns7:spn xml:lang="nl">Schenking uit de nalatenschap van de heer H. van der Lee, Woerden</ns7:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/RpVoz/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/RpVoz" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/RpVoz/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-831--2bf817edb3670eb58d73f35832ee9750">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/230143">
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q27996474" />
+            <ns9:prefLabel xml:lang="en">Northern Netherlands</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Noordelijke Nederlanden</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns9:prefLabel xml:lang="en">RijksXL</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">RijksXL</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns9:prefLabel xml:lang="en">biografic</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">biografisch</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns9:prefLabel xml:lang="en">paintings</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">schilderijen</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2616">
+            <ns9:prefLabel xml:lang="en">Early Netherlandish Paintings</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Early Netherlandish Paintings</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns9:prefLabel xml:lang="en">panel</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">paneel</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2204040">
+            <ns9:altLabel xml:lang="nl">geschilderd</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">paint</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">schilderen</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns9:prefLabel xml:lang="en">painting</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">schilderij</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns9:prefLabel xml:lang="en">oil paint (paint)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">olieverf</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221719">
+            <ns10:sameAs rdf:resource="https://iconclass.org/11H%28GEORGE%29" />
+            <ns9:altLabel>11H(GEORGE)</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">the warrior martyr George (Georgius); possible attributes: banner (red cross on white field), (red) cross, dragon, (white) horse, broken lance, shield (with cross), sword</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221720">
+            <ns10:sameAs rdf:resource="https://iconclass.org/46A124" />
+            <ns9:altLabel>46A124</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">knight</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221721">
+            <ns10:sameAs rdf:resource="https://iconclass.org/11F422" />
+            <ns9:altLabel>11F422</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Mary sitting or enthroned, the Christ-child on her knee (Christ-child to Mary's left)</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/RpVoz">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21061181">
+            <ns9:prefLabel xml:lang="nl">Maria</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21061259">
+            <ns9:prefLabel xml:lang="nl">Heren van Montfoort</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21061260">
+            <ns9:prefLabel xml:lang="nl">St. Joris</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns9:altLabel xml:lang="nl">Anon</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">anonymous</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">anoniem</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/230529">
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/7270042" />
+            <ns9:prefLabel xml:lang="nl">Montfoort</ns9:prefLabel>
+            <ns11:lat>4.9500</ns11:lat>
+            <ns11:long>52.0500</ns11:long>
+          </ns3:Place>
+          <ns3:TimeSpan rdf:about="https://id.rijksmuseum.nl/2401357">
+            <ns9:prefLabel xml:lang="nl">Slag bij Warns</ns9:prefLabel>
+          </ns3:TimeSpan>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

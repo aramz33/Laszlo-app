@@ -1,0 +1,143 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200116167</ns0:identifier>
+        <ns0:datestamp>2026-06-08T02:11:53Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26126</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200116167#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200116167">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21069954" />
+                <dc:description xml:lang="en">Antico worked in Mantua, where for many years he was in the service of the noble Gonzaga family. He specialized in the manufacture of bronze statuettes, whose subject matter and style were modelled on examples from Classical antiquity. This particular statuette may have been intended for the collection of Isabella d’Este, the art-loving wife of Francesco Gonzaga.</dc:description>
+                <dc:description xml:lang="nl">Antico werkte in Mantua, waar hij lang in dienst was van de vorstelijke familie Gonzaga. Hij was gespecialiseerd in het vervaardigen van kleine bronzen beelden, in onderwerp en stijl geïnspireerd op voorbeelden uit de klassieke oudheid. Dit exemplaar was wellicht bestemd voor de verzameling van Isabella d’Este, de kunstminnende vrouw van Francesco Gonzaga.</dc:description>
+                <dc:identifier>BK-16936-1</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200146383" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20080545" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221388" />
+                <dc:title xml:lang="en">Cupid</dc:title>
+                <dc:title xml:lang="en">Cupido</dc:title>
+                <dc:title xml:lang="nl">Cupid</dc:title>
+                <dc:title xml:lang="nl">Cupido</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220297" />
+                <ns5:created xml:lang="en">c. 1520</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1520</ns5:created>
+                <ns5:extent xml:lang="en">diameter 11.5 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 29 cm x height 32.5 cm x width 18 cm x depth 11.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">grondvlak: diameter 11,5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 29 cm (met plint) x hoogte 32,5 cm x breedte 18 cm x diepte 11,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26126" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100209" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301129565" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301131922" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30115456" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30119143" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30120534" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30120536" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244089" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244300" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30151696" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30172301" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30172302" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30178391" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22013" />
+                <ns5:provenance xml:lang="en">Inv.;…; collection John Pierpont Morgan (1837-1913), New York, 1910;{Von Bode I, 1910, p. 22, no. 79, image 48.}…; ? collection Henry Clay Frick (1849-1919), New York, 1922;{Von Bode 1922, p. 35, image 29C.}…; collection Dr Fritz Mannheimer (1890-1939), Amsterdam and Paris, before 1933;{Photo album ‘Het huis van Dr F. Mannheimer, Amsterdam’, 1928-32, Rijksmuseum, inv. no. B-F-1963-426-27.} from whom, fl. 6,350,000, &lt;em&gt;en bloc&lt;/em&gt;, to Artistic &amp; General Securities Ltd. as security for a loan from the Mendelssohn &amp; Co. Bank, but kept in usufruct, 1934;{NHA, 476, RMA Archive, inv. no. 2142, Recapitulatie der geïnventariseerde kunstvoorwerpen van wijlen Dr F. Mannheimer, undated, p. 86, no. Br 27, Artistic no. 29/46; NHA, 233, Arrondissementsrechtbank Amsterdam, inv. no. 1365, “O.R. 256/1939, Faillissementsdossier: nalatenschap Dr. F. Mannheimer, 28 augustus 1939”, image 3, page 2.} purchased from Mendelssohn &amp; Co. Bank, &lt;em&gt;en bloc&lt;/em&gt;, by the Dienststelle Mühlmann, The Hague, for Adolf Hitler's Führermuseum, Linz, 1940;{Korthals Altes 1974, pp. 21-22.} war recuperation, SNK, 1945;{HNA, SNK Archive, 2.08.42, inv. no. 548.} on loan, with 1,702 other objects, from the DRVK to the museum, 1952;{Note RMA.} transferred to the museum, 1960</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/2301386" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/JiRIn/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/JiRIn" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/JiRIn/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-16936-1--41d7ca88779a46c7afa4077124f78658">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns7:prefLabel xml:lang="en">RijksXL</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">RijksXL</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26126">
+            <ns7:prefLabel xml:lang="en">sculptures</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">beeldhouwwerken</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22013">
+            <ns7:prefLabel xml:lang="en">bronze (metal)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">brons</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220297">
+            <ns7:prefLabel xml:lang="en">figure</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">beeld</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221388">
+            <ns8:sameAs rdf:resource="https://iconclass.org/92D1" />
+            <ns7:altLabel>92D1</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">(story of) Cupid, Amor (Eros)</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/JiRIn">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21069954">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/23208624" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500006970" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q1464234" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/129061" />
+            <ns9:dateOfBirth xml:lang="nl">1450 - 1470</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1528</ns9:dateOfDeath>
+            <ns9:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/2301386" />
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301386">
+                <ns8:sameAs rdf:resource="http://vocab.getty.edu/tgn/7005879" />
+                <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q6247" />
+                <ns7:prefLabel xml:lang="nl">Mantua</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns7:altLabel xml:lang="en">Bonacolsi, Pier Jacopo Alari</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Antico</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Bonacolsi, Pier Jacopo Alari</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Pier Jacopo Alari Bonacolsi</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Pier Jacopo Alari Bonacolsi</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns7:prefLabel>Rijksmuseum</ns7:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

@@ -1,0 +1,134 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200123224</ns0:identifier>
+        <ns0:datestamp>2026-06-08T02:38:29Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260250</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26151</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200123224#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200123224">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21050034" />
+                <dc:description xml:lang="nl">Een elegant geklede jongeman met tootschoenen. Naast hem de Dood in de gedaante van een magere man, aan zijn voeten een pad en een slang.</dc:description>
+                <dc:identifier>RP-P-OB-913</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200118251" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211502" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211836" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211837" />
+                <dc:title xml:lang="nl">Jongeman en de Dood</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/22040" />
+                <ns5:created xml:lang="en">1485 - 1490</ns5:created>
+                <ns5:created xml:lang="nl">1485 - 1490</ns5:created>
+                <ns5:extent xml:lang="en">height 140 mm x width 86 mm</ns5:extent>
+                <ns5:extent xml:lang="nl">blad: hoogte 140 mm x breedte 86 mm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260250" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26151" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301218973" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30155590" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30185666" />
+                <ns5:isReferencedBy>Cat LF 58-.1</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Lehrs 53</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22020" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23015" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/220922" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/aBNba/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/aBNba" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/aBNba/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/RP-P-OB-913--7519c9a4ca0dd2fd61c938501e228d3c">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/23015">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7000084" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q183" />
+            <ns8:prefLabel xml:lang="en">Germany</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Duitsland</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260250">
+            <ns8:prefLabel xml:lang="en">prints</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">prenten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26151">
+            <ns8:prefLabel xml:lang="en">prints</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">prenten</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22020">
+            <ns8:prefLabel xml:lang="en">paper</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">papier (materiaal)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22040">
+            <ns8:prefLabel xml:lang="en">print</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">prent</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220922">
+            <ns8:prefLabel xml:lang="en">drypoint</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">droge naald</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211502">
+            <ns9:sameAs rdf:resource="https://iconclass.org/25F51%28TOAD%29" />
+            <ns8:altLabel>25F51(TOAD)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">tailless amphibians: toad</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211836">
+            <ns9:sameAs rdf:resource="https://iconclass.org/31F24" />
+            <ns8:altLabel>31F24</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Death as old man</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211837">
+            <ns9:sameAs rdf:resource="https://iconclass.org/11R5" />
+            <ns8:altLabel>11R5</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">(personifications of) 'Vanitas', the vanity of human life; Fragilità humana, Fugacità delle grandezze &amp; della gloria mondana, Meditatione della morte, Opera vana, Piacere vano, Vana gloria, Vanità (Ripa)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/aBNba">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21050034">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/279993677" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500002780" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q460300" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/115714" />
+            <ns8:altLabel xml:lang="nl">Meester van het Hausbuch</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Meester van het Amsterdamse Kabinet</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Meester van het Amsterdamse Kabinet</ns8:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

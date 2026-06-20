@@ -1,0 +1,162 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200108007</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:17:49Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200108007#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200108007">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101451" />
+                <dc:description xml:lang="en">Like so many artists, Sweerts undertook a study trip to Rome. There he painted this scene of a painter’s studio, in which all the phases of artistic training are to be seen. At the left a young artist studies a large
+anatomical figure; piled up at the right are fragments of antique statues. In the left background a painter sketches from a nude model; a completed painting hangs on the wall.</dc:description>
+                <dc:description xml:lang="nl">Zoals veel kunstenaars ondernam ook Sweerts een studiereis naar Rome. Daar maakte hij dit beeld van een atelier, waarin alle fasen van een kunstopleiding te zien zijn. Een jonge kunstenaar links bestudeert een groot anatomisch beeld; rechts op een hoop liggen fragmenten van antieke beelden. Linksachter werkt een schilder naar een naaktmodel. Een afgerond schilderij hangt aan de muur.</dc:description>
+                <dc:identifier>SK-A-1957</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221252" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221437" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221438" />
+                <dc:title xml:lang="en">A Painter’s Studio</dc:title>
+                <dc:title xml:lang="en">Een schildersatelier</dc:title>
+                <dc:title xml:lang="nl">A Painter’s Studio</dc:title>
+                <dc:title xml:lang="nl">Een schildersatelier</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">c. 1646 - c. 1650</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1646 - ca. 1650</ns5:created>
+                <ns5:extent xml:lang="en">height 71 cm x width 74 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 71 cm x breedte 74 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244003" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/TYTyL/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/TYTyL" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/TYTyL/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1957--05c1f4252fe6f5efd051af686df52d52">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns7:prefLabel xml:lang="en">paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderijen</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns7:prefLabel xml:lang="en">canvas</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">doek</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns7:prefLabel xml:lang="en">painting</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderij</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns7:prefLabel xml:lang="en">oil paint (paint)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">olieverf</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221252">
+            <ns8:sameAs rdf:resource="https://iconclass.org/48C5111" />
+            <ns7:altLabel>48C5111</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">workshop, studio ~ painter</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221437">
+            <ns8:sameAs rdf:resource="https://iconclass.org/48C5114" />
+            <ns7:altLabel>48C5114</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">painter preparing colours</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221438">
+            <ns8:sameAs rdf:resource="https://iconclass.org/48C51122" />
+            <ns7:altLabel>48C51122</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">painter studying classical remains</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/TYTyL">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101451">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/18030345" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500026983" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q1342328" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/76229" />
+            <ns9:dateOfBirth xml:lang="nl">1618-09 - 1618-09-29</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1664</ns9:dateOfDeath>
+            <ns9:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/230196" />
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2303180">
+                <ns7:prefLabel xml:lang="nl">Goa</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns7:prefLabel xml:lang="en">painter</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">schilder</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns7:prefLabel xml:lang="en">printmaker</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">prentmaker</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Sweerts, Michael</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Michele Suars</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Michele Suarssi</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Michiel Suerz</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Michiel Sweerts</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Michiello Suerts</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Suars, Michele</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Suars, il Cavaliere</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Suarssi, Michele</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Suerts, Michiello</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Suerz, Michiel</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Sweerts, Michael</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Sweerts, Michiel</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">il Cavaliere Suars</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Michael Sweerts</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Michael Sweerts</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns7:prefLabel>Rijksmuseum</ns7:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/230196">
+            <ns7:prefLabel xml:lang="en">Brussels</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Brussel (stad)</ns7:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

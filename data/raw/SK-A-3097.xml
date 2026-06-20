@@ -1,0 +1,279 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200109724</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:32:36Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200109724#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200109724">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2105421" />
+                <dc:description xml:lang="en">For nearly seven years, Rutger Schimmelpenninck promoted the interests of the Batavian Republic in Paris and London. As a patriot, he championed democracy. He and his wife Catharina Nahuys formed a successful ambassadorial duo. The portrait demonstrates their closeness and their love for nature and their children, Catharina and Gerrit. Initially, Catharina leaned on her husband’s shoulder with both arms in a more intimate pose, which the artist adjusted while painting.</dc:description>
+                <dc:description xml:lang="nl">Bijna zeven jaar lang behartigde Rutger Schimmelpenninck de belangen van de Bataafse Republiek in Parijs en Londen. Als patriot streefde hij naar meer democratie. Samen met zijn vrouw Catharina Nahuys vormde hij een succesvol ambassadeurspaar. Het portret&lt;BR /&gt;toont hun verbondenheid en de liefde voor de natuur en hun kinderen, Catharina en Gerrit. Aanvankelijk was Catharina’s pose intiemer en leunde ze met beide armen op haar mans schouder. Dit is tijdens het schilderen aangepast.</dc:description>
+                <dc:identifier>SK-A-3097</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200402542" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200492548" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2102989" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21049091" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21049092" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21058368" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21060396" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211060" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221202" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221607" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/240991" />
+                <dc:title xml:lang="en">Portrait of Rutger Jan Schimmelpenninck and Catharina Nahuys with their Children</dc:title>
+                <dc:title xml:lang="en">Portret van Rutger Jan Schimmelpenninck en Catharina Nahuys met hun kinderen</dc:title>
+                <dc:title xml:lang="nl">Portrait of Rutger Jan Schimmelpenninck and Catharina Nahuys with their Children</dc:title>
+                <dc:title xml:lang="nl">Portret van Rutger Jan Schimmelpenninck en Catharina Nahuys met hun kinderen</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:alternative xml:lang="nl">Portret van Rutger Jan Schimmelpenninck en zijn gezin</ns5:alternative>
+                <ns5:created xml:lang="en">1801 - 1802</ns5:created>
+                <ns5:created xml:lang="nl">1801 - 1802</ns5:created>
+                <ns5:extent xml:lang="en">height 263.5 cm x width 200 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 263,5 cm x breedte 200 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301136498" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301154189" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30127174" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30150548" />
+                <ns5:isReferencedBy>Documentatiemap Schilderijen: aantekeningen R. van Luttervelt (voor 1963); overdruk Balbian Verster</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J.F.L. de Balbian Verster, 'Rutger Jan Schimmelpenninck en de zijnen', ..</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns6:spn xml:lang="en">Gift of Mr and Mrs Drucker-Fraser, Montreux</ns6:spn>
+                <ns6:spn xml:lang="nl">Schenking van de heer en mevrouw Drucker-Fraser, Montreux</ns6:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/DZMVg/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/DZMVg" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/DZMVg/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3097--64d99381b8e241e6bfbd268441cdfb50">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns8:prefLabel xml:lang="en">canvas</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">doek</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211060">
+            <ns9:sameAs rdf:resource="https://iconclass.org/43B144" />
+            <ns8:altLabel>43B144</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">picking flowers</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221202">
+            <ns9:sameAs rdf:resource="https://iconclass.org/42B74" />
+            <ns8:altLabel>42B74</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">family group, especially parents with their child(ren)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221607">
+            <ns9:sameAs rdf:resource="https://iconclass.org/47I214" />
+            <ns8:altLabel>47I214</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">goat</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/DZMVg">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2102989">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/105144814441199444490" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q281640" />
+            <ns10:dateOfBirth xml:lang="nl">1761-10-31</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1825-03-25</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230200">
+                <ns8:prefLabel xml:lang="en">Deventer</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Deventer</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns8:prefLabel xml:lang="en">Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Amsterdam</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2206484">
+                <ns8:prefLabel xml:lang="nl">raadpensionaris</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Schimmelpenninck, Rutger Jan (1761-1825)</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Schimmelpenninck, Rutger Jan (1761-1825)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Rutger Jan Schimmelpenninck (1761-1825)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Rutger Jan Schimmelpenninck (1761-1825)</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21049091">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/34821453" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q682310" />
+            <ns10:dateOfBirth xml:lang="nl">1794-02-25</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1863-10-04</ns10:dateOfDeath>
+            <ns10:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/23029985" />
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2306">
+                <ns8:prefLabel xml:lang="en">Arnhem</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Arnhem</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205119">
+                <ns8:prefLabel xml:lang="nl">minister</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="nl">Schimmelpenninck, Gerrit graaf</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">Gerrit graaf Schimmelpenninck</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21049092">
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q76179929" />
+            <ns10:dateOfBirth xml:lang="nl">1790</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1842</ns10:dateOfDeath>
+            <ns8:altLabel xml:lang="nl">Schimmelpenninck, Catharina</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">Catharina Schimmelpenninck</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2105421">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/49234795" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500003716" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q469056" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/65005" />
+            <ns10:dateOfBirth xml:lang="nl">1758-04-04</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1823-02-14</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230314">
+                <ns8:prefLabel xml:lang="nl">Cluny</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230215">
+                <ns8:prefLabel xml:lang="en">Paris</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Parijs</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205148">
+                <ns8:prefLabel xml:lang="en">publisher</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">uitgever</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Prud'hon, Pierre</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Pierre Paul Prud'hon</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Pierre Paul Prudhon</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Pierre Prudhon</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Prud'hon, Pierre Paul</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Prud'hon, Pierre</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Prudhon (père)</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Prudhon, Pierre Paul</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Prudhon, Pierre</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Pierre Prud'hon</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Pierre Prud'hon</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21058368">
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q76053478" />
+            <ns10:dateOfBirth xml:lang="nl">1770-12-26 - 1770-12-16</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1844-03-22</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301737">
+                <ns8:prefLabel xml:lang="nl">Monnickendam</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2308604">
+                <ns8:prefLabel xml:lang="nl">Diepenheim</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns8:altLabel xml:lang="nl">Catharina Schimmelpenninck-Nahuys</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Nahuys, Catharina</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Schimmelpenninck-Nahuys, Catharina</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">Catharina Nahuys</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21060396">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/147757314" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q188553" />
+            <ns8:prefLabel xml:lang="nl">Bataafse Republiek</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+          <ns3:TimeSpan rdf:about="https://id.rijksmuseum.nl/240991">
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q506023" />
+            <ns8:prefLabel xml:lang="nl">Franse tijd</ns8:prefLabel>
+          </ns3:TimeSpan>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

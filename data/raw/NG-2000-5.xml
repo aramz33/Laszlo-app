@@ -1,0 +1,214 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns11="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200413308</ns0:identifier>
+        <ns0:datestamp>2026-06-08T21:44:53Z</ns0:datestamp>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260248</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>260211</ns0:setSpec>
+        <ns0:setSpec>260236</ns0:setSpec>
+        <ns0:setSpec>26127</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200413308#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200413308">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21044169" />
+                <dc:identifier>NG-2000-5</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/2001183" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20013304" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200407961" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20067750" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21044169" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21050539" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211408" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/23024" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/23027" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/23037" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/23046" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/23052" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2401318" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/240979" />
+                <dc:title xml:lang="en">Dressing gown or dress made of silk maps</dc:title>
+                <dc:title xml:lang="en">Ochtendjas van zijden landkaarten</dc:title>
+                <dc:title xml:lang="nl">Dressing gown or dress made of silk maps</dc:title>
+                <dc:title xml:lang="nl">Ochtendjas van zijden landkaarten</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201908" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2204552" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/22059" />
+                <ns5:created xml:lang="en">1945-07 - 1946-05</ns5:created>
+                <ns5:created xml:lang="nl">1945-07 - 1946-05</ns5:created>
+                <ns5:extent xml:lang="en">length 155 cm</ns5:extent>
+                <ns5:extent xml:lang="en">width 40 cm</ns5:extent>
+                <ns5:extent xml:lang="en">width 82 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">lengte 155 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">schouder: breedte 40 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">taille: breedte 82 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260211" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260236" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260248" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26127" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301196427" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301204847" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301216127" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301253770" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301253771" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301265226" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301316894" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30165550" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22022" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22088" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2205850" />
+                <ns7:spn xml:lang="en">Gift of P.A. Terwen, Leiden and J.W. Terwen, Nieuwegein</ns7:spn>
+                <ns7:spn xml:lang="nl">Schenking van de heer P.A. Terwen, Leiden en de heer J.W. Terwen, Nieuwegein</ns7:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/VrAmP/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/VrAmP" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/VrAmP/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/NG-2000-5--c2fd81a2e10a6a03e3483053e9aeac36">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260211">
+            <ns9:prefLabel xml:lang="en">Indonesian heritage</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Indisch erfgoed</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260236">
+            <ns9:prefLabel xml:lang="en">fashion</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">mode</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns9:prefLabel xml:lang="en">biografic</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">biografisch</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260248">
+            <ns9:prefLabel xml:lang="en">second world war</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">tweede wereldoorlog</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26127">
+            <ns9:prefLabel xml:lang="en">costumes and accessories</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">kostuums en accessoires</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2201908">
+            <ns9:altLabel xml:lang="nl">jurk</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">robe</ns9:altLabel>
+            <ns9:prefLabel xml:lang="nl">japon</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22022">
+            <ns9:prefLabel xml:lang="en">plastic (organic material)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">plastic</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2204552">
+            <ns9:prefLabel xml:lang="en">morning dress</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">ochtendjurk</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2205850">
+            <ns9:altLabel xml:lang="nl">genaaid</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">sewing</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">naaien</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22059">
+            <ns9:altLabel xml:lang="nl">vrouwenkleding</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">womenswear</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">dameskleding</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22088">
+            <ns9:prefLabel xml:lang="en">silk</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">zijde</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2211408">
+            <ns10:sameAs rdf:resource="https://iconclass.org/25A3" />
+            <ns9:altLabel>25A3</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">maps of separate countries or regions</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/VrAmP">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21044169">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/306343356" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q82575549" />
+            <ns11:dateOfBirth xml:lang="nl">1910</ns11:dateOfBirth>
+            <ns11:dateOfDeath xml:lang="nl">1973</ns11:dateOfDeath>
+            <ns9:altLabel xml:lang="en">Terwen-de Loos, J.</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Terwen-de Loos, J.</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">J. Terwen-de Loos</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">J. Terwen-de Loos</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21050539">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/1528149198360774940003" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q165862" />
+            <ns9:altLabel xml:lang="nl">RAF</ns9:altLabel>
+            <ns9:prefLabel xml:lang="nl">Royal Air Force</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/23024">
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q148" />
+            <ns10:sameAs rdf:resource="https://sws.geonames.org/1814991/" />
+            <ns9:prefLabel xml:lang="en">China</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">China</ns9:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/23027">
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/1000120" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q17" />
+            <ns9:prefLabel xml:lang="en">Japan</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Japan</ns9:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/23037">
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/7000198" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q668" />
+            <ns9:prefLabel xml:lang="nl">India</ns9:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/23046">
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/1000142" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q869" />
+            <ns9:prefLabel xml:lang="en">Thailand</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Thailand</ns9:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/23052">
+            <ns9:prefLabel xml:lang="nl">Birma</ns9:prefLabel>
+          </ns3:Place>
+          <ns3:TimeSpan rdf:about="https://id.rijksmuseum.nl/2401318">
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q4894934" />
+            <ns9:prefLabel xml:lang="nl">Bersiap periode</ns9:prefLabel>
+          </ns3:TimeSpan>
+          <ns3:TimeSpan rdf:about="https://id.rijksmuseum.nl/240979">
+            <ns9:prefLabel xml:lang="nl">Japanse bezetting van Nederlands-Indië</ns9:prefLabel>
+          </ns3:TimeSpan>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

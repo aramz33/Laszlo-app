@@ -1,0 +1,173 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200109431</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:30:27Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260215</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>26121</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200109431#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200109431">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2102148" />
+                <dc:description xml:lang="en">Judith Leyster was the first woman to become a master painter in the Netherlands in the 17th century. She received this title in 1633 after being admitted to the Haarlem Guild of St Luke. This high status allowed Leyster to open her own studio in Haarlem and take on pupils. Her talent is on display in the effects of light and dark and her use of colour in this painting of a singing lute player. The bright red of his breeches forms a fine contrast with the greenish background.</dc:description>
+                <dc:description xml:lang="nl">Judith Leyster was de enige vrouwelijke meesterschilder van de 17de eeuw. Ze kreeg deze titel in 1633 nadat zij was toegelaten tot het Haarlemse Sint-Lucasgilde. Als gevolg van deze hoge status mocht Leyster een eigen atelier openen in Haarlem en leerlingen aannemen. Haar talent komt bij deze luitspeler tot uiting in de licht-donkereffecten en het kleurgebruik. Het heldere rood van de broek contrasteert mooi met de groenige achtergrond.</dc:description>
+                <dc:identifier>SK-A-2326</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221538" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221990" />
+                <dc:title xml:lang="en">De serenade</dc:title>
+                <dc:title xml:lang="en">The Serenade</dc:title>
+                <dc:title xml:lang="nl">De serenade</dc:title>
+                <dc:title xml:lang="nl">The Serenade</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">1629</ns5:created>
+                <ns5:created xml:lang="nl">1629</ns5:created>
+                <ns5:extent xml:lang="en">support: height 47 cm x width 34.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 47 cm x breedte 34,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260215" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26121" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301107680" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301126277" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301191479" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30122085" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30141031" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015253" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30166844" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30176884" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30176886" />
+                <ns5:isReferencedBy>A. von Schneider, 'Gerard Honthorst und Judith Leyster', Oud Holland (1922), p. 170, afb.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J. Harms, 'Judith Leyster', Oud Holland (1927), p. 115, afb. 2.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Jaarverslag Rijksmuseum (1908), p. 10.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>R. Priem, 'The most excellent collection' of Lucretia Johanna van Witter', Simiolus 25 (1997) nr. 2/3, p. 190, 196, 219 nr. 67, 224.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">? Probate inventory, Jan Miense Molenaer, Haarlem, 10 October 1668, in the vestibule (‘Een luijtslager van sijn huijsvrou’);{NHA, notary W. van Kittensteyn; A. Bredius, _&lt;em&gt;Künstler-Inventare&lt;/em&gt;_, I, The Hague 1915, p. 3, no. 12; GPI, N-5314.}…; collection Pieter van Winter (1745-1807), Amsterdam, as Frans Hals;{Six Archives, Amsterdam, V-F-II V 2, _&lt;em&gt;Tauxatie van het kabinet schilderyen nagelaten door wylen den weledlen heer P. van Winter Nsz.&lt;/em&gt;_, 31 January 1815; see R. Priem, ‘The “Most Excellent Collection” of Lucretia Johanna van Winter: The Years 1809-22, with a Catalogue of the Works Purchased’, _&lt;em&gt;Simiolus&lt;/em&gt;_ 25 (1997), pp. 103-235, esp. p. 219, no. 67.} his daughter, Lucretia Johanna van Winter (1785-1845), Amsterdam;{Six Archives, Amsterdam, VIII-F-3 I D, _&lt;em&gt;Verdeeling schilderyen tusschen Lucr.a Joh.a v.Winter en haar zuster A L A. van Winter 20 Dec. 1815 getr. met Willem van Loon&lt;/em&gt;_, fl. 85; see R. Priem, ‘The “Most Excellent Collection” of Lucretia Johanna van Winter: The Years 1809-22, with a Catalogue of the Works Purchased’, _&lt;em&gt;Simiolus&lt;/em&gt;_ 25 (1997), pp. 103-235, esp. p. 224, no. 89.} her husband, Jonkheer Hendrik Six (1790-1847), Lord of Hillegom, Amsterdam, as Frans Hals; his sons, Jonkheer Jan Pieter Six (1824-1899), Lord of Hillegom, and Jonkheer Pieter Hendrik Six (1827-1905), Lord of Vromade; from whose heirs, with 38 other paintings, fl. 751,400, to the museum, with the support of the Vereniging Rembrandt, 1908</ns5:provenance>
+                <ns6:spn xml:lang="en">Purchased with the support of the Vereniging Rembrandt</ns6:spn>
+                <ns6:spn xml:lang="nl">Aankoop met steun van de Vereniging Rembrandt</ns6:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/ZppYx/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/ZppYx" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/ZppYx/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2326--5b56863e2af8c41e0f4d27c4553ddc8f">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260215">
+            <ns8:prefLabel xml:lang="en">Vereniging Rembrandt</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Vereniging Rembrandt</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26121">
+            <ns8:prefLabel xml:lang="en">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns8:prefLabel xml:lang="en">panel</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">paneel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221538">
+            <ns9:sameAs rdf:resource="https://iconclass.org/48C7323" />
+            <ns8:altLabel>48C7323</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">lute, and special forms of lute, e.g.: theorbo</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221990">
+            <ns9:sameAs rdf:resource="https://iconclass.org/33C213" />
+            <ns8:altLabel>33C213</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">serenade to the beloved</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/ZppYx">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2102148">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/77115067" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500025814" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q232423" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/49864" />
+            <ns10:dateOfBirth xml:lang="nl">1609 - 1609-07-28</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1660 - 1660-02-10</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230134">
+                <ns8:prefLabel xml:lang="en">Haarlem</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Haarlem</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301655">
+                <ns8:prefLabel xml:lang="nl">Heemstede</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Leyster, Judith</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Judita Leystar</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Leystar, Judita</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Leyster, Judith</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Judith Leyster</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Judith Leyster</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

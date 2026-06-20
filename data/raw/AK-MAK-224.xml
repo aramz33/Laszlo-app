@@ -1,0 +1,153 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200106520</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:00:38Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260247</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26126</ns0:setSpec>
+        <ns0:setSpec>261136</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200106520#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200106520">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="en">This head originally formed part of a complete figure of Vishnu. The Hindu god would have been represented reclining on his side, resting his head on his hand. The damage behind his right ear marks the place where the hand would have been. According to Hindu belief, creation is cyclical. Before each new creation cycle, Vishnu sleeps and dreams of the coming regeneration.</dc:description>
+                <dc:description xml:lang="nl">Oorspronkelijk hoorde dit hoofd bij een compleet beeld van Vishnu. De hindoeïstische god lag op zijn zij, het hoofd leunend op zijn arm. De beschadiging bij zijn rechteroor is de plek waar de hand zat waarop hij leunde. Volgens het hindoeïsme hernieuwt de schepping zich telkens. Voor elke nieuwe schepping slaapt Vishnu en droomt over de ophanden zijnde hernieuwing.</dc:description>
+                <dc:identifier>AK-MAK-224</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22181" />
+                <dc:title xml:lang="en">Slapende Vishnu</dc:title>
+                <dc:title xml:lang="en">Sleeping Vishnu</dc:title>
+                <dc:title xml:lang="nl">Slapende Vishnu</dc:title>
+                <dc:title xml:lang="nl">Sleeping Vishnu</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201048" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/22011487" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220662" />
+                <ns5:alternative xml:lang="nl">Kop van slapende Vishnu</ns5:alternative>
+                <ns5:created xml:lang="en">c. 1100 - c. 1300</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1100 - ca. 1300</ns5:created>
+                <ns5:extent xml:lang="en">height 32.8 cm x width 20.2 cm x depth 19.4 cm x weight 14.5 kg</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 32,8 cm x breedte 20,2 cm x diepte 19,4 cm x gewicht (eigenschap) 14,5 kg</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260247" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261136" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26126" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301105988" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30112489" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301209248" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244084" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244297" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125056" />
+                <ns5:isReferencedBy>G. Cœdes, Un chef d'œuvre de la sculpture khmère au Musée d'Art Asiatique d'Amsterdam, uit: Phoenix : maandschrift voor beeldende kunst, 4, 1949, pagina 287-291</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Jan Fontein, 'De vroege jaren van de vereniging: lezing nieuwjaarsbijeenkomst 2005', Aziatische Kunst 35/2 (2005), pp. 2-20.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220337" />
+                <ns5:provenance xml:lang="en">… ; from Bouasse-Lebel to Paul Mallon;{Note RMA.} from whom to Dr P. Rosenberg;{Note RMA.}…; from C.J.P. Baronesse v.d. Feltz-Lotsy, fl. 10,000, with support from the Vereniging Rembrandt, to the Vereniging van Vrienden der Aziatische Kunst, 1951;{Note RMA.} from whom on loan to the museum, 1972</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23050" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206058" />
+                <ns7:spn xml:lang="en">On loan from the Royal Asian Art Society in The Netherlands (purchase C.J.P. Baronesse van der Feltz-Lotsy, 1951)</ns7:spn>
+                <ns7:spn xml:lang="nl">Bruikleen van de Koninklijke Vereniging van Vrienden der Aziatische Kunst (aankoop C.J.P. Baronesse van der Feltz-Lotsy, 1951)</ns7:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/lxHLm/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/lxHLm" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/lxHLm/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/AK-MAK-224--7c67c23783a8dd9c909619a62b8d229e">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/23050">
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/1000109" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q424" />
+            <ns9:prefLabel xml:lang="nl">Cambodja</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns9:prefLabel xml:lang="en">RijksXL</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">RijksXL</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260247">
+            <ns9:prefLabel xml:lang="en">friends asian art</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">vrienden aziatische kunst</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261136">
+            <ns9:prefLabel xml:lang="nl">Zuidoost-Azië, vasteland (collectie)</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26126">
+            <ns9:prefLabel xml:lang="en">sculptures</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">beeldhouwwerken</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2201048">
+            <ns9:altLabel xml:lang="nl">sculptuur</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">sculpture</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">beeldhouwwerk</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22011487">
+            <ns9:prefLabel xml:lang="nl">hoofd</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220337">
+            <ns9:prefLabel xml:lang="en">sandstone</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">zandsteen</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2206058">
+            <ns9:altLabel xml:lang="nl">gehakt</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">picked</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">hakken</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220662">
+            <ns9:altLabel xml:lang="nl">Visnu</ns9:altLabel>
+            <ns9:prefLabel xml:lang="nl">Visjnoe</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22181">
+            <ns10:sameAs rdf:resource="https://iconclass.org/12H13%28VISHNU%29" />
+            <ns9:altLabel>12H13(VISHNU)</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Vishnu, protector and preserver of the world</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/lxHLm">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns9:altLabel xml:lang="nl">Anon</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">anonymous</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">anoniem</ns9:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

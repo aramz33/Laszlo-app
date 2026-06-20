@@ -1,0 +1,172 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200115910</ns0:identifier>
+        <ns0:datestamp>2026-06-08T02:09:31Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26126</ns0:setSpec>
+        <ns0:setSpec>2618</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200115910#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200115910">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21060392" />
+                <dc:description xml:lang="en">The Brussels sculptor Gerard van Opstal created a stir at the French court in Paris with his small-scale ivory reliefs in the Flemish Baroque style of Rubens. Here, this finds expression in the chubby bodies of the putti and the plump proportions of the pair of satyrs.</dc:description>
+                <dc:description xml:lang="nl">De Brusselse beeldhouwer Van Opstal maakte aan het Franse hof in Parijs furore met kleine ivoren reliëfs in de stijl van de Vlaamse barok van Rubens. Dat komt hier tot uitdrukking in de vette kinderlijfjes en het mollige saterpaartje.</dc:description>
+                <dc:identifier>BK-NM-2934</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211398" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211653" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221387" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221801" />
+                <dc:title xml:lang="en">Bacchanaal van saters en amors</dc:title>
+                <dc:title xml:lang="en">Bacchanal of Satyrs and Cupids</dc:title>
+                <dc:title xml:lang="nl">Bacchanaal van saters en amors</dc:title>
+                <dc:title xml:lang="nl">Bacchanal of Satyrs and Cupids</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201048" />
+                <ns5:created xml:lang="en">c. 1635 - c. 1642</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1635 - ca. 1642</ns5:created>
+                <ns5:extent xml:lang="en">height 11.8 cm x width 31.5 cm x thickness 2 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 11,8 cm x breedte 31,5 cm x dikte 2 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26126" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2618" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301149440" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30115456" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125313" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125314" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30141156" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3014595" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30165210" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30172467" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30197950" />
+                <ns5:isReferencedBy>Burlington Fine Arts CLub (1923), pl. XLIX, nr. 195.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220102" />
+                <ns5:provenance xml:lang="en">…; collection of the painter Jacob Jordaens (1593-1678), Antwerp; by descent to his grandson Johan Jacob Wierts (1663-1717), The Hague; his widow Hillegonda Maria van Heemskerk (d. 1734), The Hague, 1717;{The object can be identified with ‘Een ijvooren basrelieff verbeeldende een dansend kinderspel met een sater en een saterinne, gemaakt door Francis van Amsterdam seer kunstig’, no. 176, listed under ‘Op de proceleijn kamer’ (in the porcelain room), Haags Gemeentearchief, Notary Archive, access no. 0372-01, notary Abraham Cortebrant inv. 2436, no. 11, 23 January 1734, under ‘Schilderijen van Historien als andere konstige stukken’, see B. van der Mark, ‘Gerard van Opstal, _&lt;em&gt;Bacchanal with a Satyr Family and Dancing Putti&lt;/em&gt;_, Antwerp, c. 1635-42’, in F. Scholten and B. van der Mark (eds.), _&lt;em&gt;European Sculpture in the Rijksmuseum&lt;/em&gt;_, online coll. cat. Amsterdam 2024.} …; collection Jan Snellen (1711-1787), Rotterdam, by 1738;{R.J.A. te Rijdt, ‘Een “nieuw” portret van een “nieuwe” verzamelaar van kunst en naturaliën: Jan Snellen geportretteerd door Aert Schouman in 1746’, _&lt;em&gt;Oud Holland&lt;/em&gt;_ 111 (1997), pp. 22-53, esp. p. 35 and note 64.} by descent to his grandson Jan Snellen van Vollenhoven (1786-1820), Rotterdam; his son Samuel Constant Snellen van Vollenhoven (1816-1880), The Hague, 1820; from whom acquired by the Nederlandsch Museum voor Geschiedenis en Kunst, The Hague, 1876; transferred to the museum, 1885</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230148" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/nUams/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/nUams" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/nUams/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-NM-2934--943e48c68ef7c6c0658a53c6b96fbef3">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns7:prefLabel xml:lang="en">RijksXL</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">RijksXL</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26126">
+            <ns7:prefLabel xml:lang="en">sculptures</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">beeldhouwwerken</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2618">
+            <ns7:prefLabel xml:lang="en">European Sculpture in the Rijksmuseum</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">European Sculpture in the Rijksmuseum</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220102">
+            <ns7:prefLabel xml:lang="en">ivory</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">ivoor</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2201048">
+            <ns7:altLabel xml:lang="nl">sculptuur</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">sculpture</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">beeldhouwwerk</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2211398">
+            <ns8:sameAs rdf:resource="https://iconclass.org/92L1913" />
+            <ns7:altLabel>92L1913</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">children's bacchanal</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2211653">
+            <ns8:sameAs rdf:resource="https://iconclass.org/48C7353" />
+            <ns7:altLabel>48C7353</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">panpipes</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221387">
+            <ns8:sameAs rdf:resource="https://iconclass.org/92L41" />
+            <ns7:altLabel>92L41</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">satyr(s) (in general)</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221801">
+            <ns8:sameAs rdf:resource="https://iconclass.org/47I4222" />
+            <ns7:altLabel>47I4222</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">bunch of grapes</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/nUams">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21060392">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/7658495" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500030105" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q673573" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/206290" />
+            <ns9:dateOfBirth xml:lang="nl">1605</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1668-08-01</ns9:dateOfDeath>
+            <ns9:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230148">
+                <ns8:sameAs rdf:resource="http://vocab.getty.edu/tgn/7007856" />
+                <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q12892" />
+                <ns7:prefLabel xml:lang="en">Antwerp</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Antwerpen (stad)</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfBirth>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230215">
+                <ns7:prefLabel xml:lang="en">Paris</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Parijs</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2205208">
+                <ns7:prefLabel xml:lang="en">ivory carver</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">ivoorsnijder</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Opstal, Gerard van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Opstal, Gerard van</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Gerard van Opstal</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Gerard van Opstal</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns7:prefLabel>Rijksmuseum</ns7:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

@@ -1,0 +1,282 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200109279</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:28:17Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260246</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200109279#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200109279">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="nl">Het melkkoetje. Door onbekende Engelse schilder. Omstreeks 1585.&lt;BR /&gt;Na de afzwering van de Spaanse koning in 1581 probeerden de opstandige provincies meer dan ooit buitenlandse steun te vinden. Tevoren hadden zij de souvereiniteit aangeboden aan de hertog van Anjou, zoon van Hendrik II van Frankrijk: dit experiment mislukte. Daarop werd in 1585 een overeenkomst gesloten met koningin Elisabeth van Engeland. Zij zond geld en troepen onder de Graaf van Leicester. Ook deze politiek mislukte. &lt;BR /&gt;De koe, die de opstandige gewesten verbeeldt, wordt door Philips II bereden. Hij geeft haar tot bloedens toe de sporen. De Prins van Oranje melkt de koe uit, terwijl Anjou haar aan de staart trekt. Koningin Elisabeth voedert het beest, dat bij de hoorns wordt gevat door de deputatie uit de Staten-Generaal, die op 20 augustus 1585 de overeenkomst met Engeland sloot.</dc:description>
+                <dc:identifier>SK-A-2684</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21030917" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21034528" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21042703" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21060397" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2108643" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2108652" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221130" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221223" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221889" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2301" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2401197" />
+                <dc:title xml:lang="en">The Dairy Cow: The Dutch Provinces, Revolting against the Spanish King Philip II, Are Led by Prince William of Orange, The States General Entreat Queen Elizabeth I for Aid</dc:title>
+                <dc:title xml:lang="nl">Het melkkoetje: satire op het uitbuiten der Nederlanden door de prins van Oranje</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">c. 1633 - c. 1639</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1633 - ca. 1639</ns5:created>
+                <ns5:extent xml:lang="en">height 52 cm x width 67 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 69.7 cm x width 84 cm x thickness 7.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 52 cm x breedte 67 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">lijst: hoogte 69,7 cm x breedte 84 cm x dikte 7,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260246" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301216830" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301216831" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301315753" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3018750" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3019799" />
+                <ns5:isReferencedBy>Documentatiemap Schilderijen.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>James Tanis, 'The Tale of a Cow', in: The Low Countries. Art and Society in Flanders and the Netherlands. A Yearbook. 1996-97, Rekkem (Ons Erfdeel) 1996, p. 152-162.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230148" />
+                <ns6:spn xml:lang="en">R.T., Baron van Pallandt van Eerde Bequest</ns6:spn>
+                <ns6:spn xml:lang="nl">Legaat van R.T. baron van Pallandt van Eerde</ns6:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/HnXnU/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/HnXnU" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/HnXnU/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-2684--02af4468b77e69036c482df5f1f0d0ce">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/230148">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7007856" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q12892" />
+            <ns8:prefLabel xml:lang="en">Antwerp</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Antwerpen (stad)</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260246">
+            <ns8:prefLabel xml:lang="en">Staten-Generaal</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Staten-Generaal</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns8:prefLabel xml:lang="en">panel</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">paneel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221130">
+            <ns9:sameAs rdf:resource="https://iconclass.org/47I2112" />
+            <ns8:altLabel>47I2112</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">cow</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221223">
+            <ns9:sameAs rdf:resource="https://iconclass.org/44B1511" />
+            <ns8:altLabel>44B1511</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">queen, empress, etc. (wife of a ruler)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221889">
+            <ns9:sameAs rdf:resource="https://iconclass.org/44C312" />
+            <ns8:altLabel>44C312</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">political caricatures and satires</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/HnXnU">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21030917">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/88973996" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500253117" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q34417" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/435459" />
+            <ns10:dateOfBirth xml:lang="nl">1527-05-21</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1598-09-13</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301336">
+                <ns8:prefLabel xml:lang="nl">Valladolid (stad)</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2303507">
+                <ns8:prefLabel xml:lang="nl">Escorial</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205140">
+                <ns8:prefLabel xml:lang="nl">koning</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:prefLabel xml:lang="en">Philip II of Spain</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Filips II (koning van Spanje)</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21034528">
+            <ns8:altLabel xml:lang="nl">Staten Generaal</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">Staten-Generaal</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21042703">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/261981977" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500354070" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q78454" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/424324" />
+            <ns10:dateOfBirth xml:lang="nl">1533-04-24</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1584-07-10</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2304038">
+                <ns8:prefLabel xml:lang="nl">Dillenburg</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230132">
+                <ns8:prefLabel xml:lang="en">Delft</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Delft</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2203883">
+                <ns8:prefLabel xml:lang="en">stadtholder</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">stadhouder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="nl">Oranje, Willem van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Willem de Zwijger</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Willem van Oranje</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">William I (Prince of Orange)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Willem I (prins van Oranje)</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21060397">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/155946218" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q170072" />
+            <ns8:prefLabel xml:lang="nl">Republiek der Zeven Verenigde Nederlanden</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns8:altLabel xml:lang="nl">Anon</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">anonymous</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">anoniem</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2108643">
+            <ns10:dateOfBirth xml:lang="nl">1555-03-18</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1584-06-10</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230215">
+                <ns8:prefLabel xml:lang="en">Paris</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Parijs</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2302393">
+                <ns8:prefLabel xml:lang="nl">Château-Thierry</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202954">
+                <ns8:prefLabel xml:lang="en">duke</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">hertog</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Valois, François-Hercule de (hertog van Anjou)</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Valois, François-Hercule de (hertog van Anjou)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">François-Hercule de Valois (hertog van Anjou)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">François-Hercule de Valois (hertog van Anjou)</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2108652">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/97107753" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500356869" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q7207" />
+            <ns10:dateOfBirth xml:lang="nl">1533-09-07</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1603-03-24</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2303015">
+                <ns8:prefLabel xml:lang="nl">Greenwich (Londen)</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2305192">
+                <ns8:prefLabel xml:lang="nl">Richmond (Surrey)</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205832">
+                <ns8:prefLabel xml:lang="nl">koningin</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:prefLabel xml:lang="nl">Elizabeth I Tudor (koningin van Engeland)</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7016845" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q55" />
+            <ns9:sameAs rdf:resource="https://sws.geonames.org/2750405/" />
+            <ns8:prefLabel xml:lang="en">Netherlands</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Nederland</ns8:prefLabel>
+          </ns3:Place>
+          <ns3:TimeSpan rdf:about="https://id.rijksmuseum.nl/2401197">
+            <ns8:prefLabel xml:lang="nl">Tachtigjarige Oorlog</ns8:prefLabel>
+          </ns3:TimeSpan>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

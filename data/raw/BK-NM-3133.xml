@@ -1,0 +1,193 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200112209</ns0:identifier>
+        <ns0:datestamp>2026-06-09T19:41:42Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260242</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261188</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200112209#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200112209">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="en">Prince William III was eight years old when this dish with his portrait was made. The Delft pottery factories would continue to produce dishes and jugs with his portrait long after his death, not as royal commissions, but rather for private individuals intent on expressing their Orangist loyalties through such objects.</dc:description>
+                <dc:description xml:lang="nl">Prins Willem III was acht jaar oud toen deze schotel met zijn portret werd gemaakt. De Delftse plateelfabrieken zouden tot ver na zijn dood schotels en kannen met zijn portret blijven produceren. Niet als koninklijke opdrachten, maar voor particulieren die met zo’n object in huis hun Oranjesympathie wilden uiten.</dc:description>
+                <dc:identifier>BK-NM-3133</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200413825" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2103823" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221935" />
+                <dc:title xml:lang="en">Dish with a Portrait of Prince William III as a Child</dc:title>
+                <dc:title xml:lang="en">Schotel met een portret van prins Willem III als kind</dc:title>
+                <dc:title xml:lang="nl">Dish with a Portrait of Prince William III as a Child</dc:title>
+                <dc:title xml:lang="nl">Schotel met een portret van prins Willem III als kind</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2202" />
+                <ns5:created xml:lang="en">1658</ns5:created>
+                <ns5:created xml:lang="nl">1658</ns5:created>
+                <ns5:extent xml:lang="en">diameter 20.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">diameter 20,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260242" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261188" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301106469" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301107511" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30131556" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30133860" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30133878" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30153423" />
+                <ns5:isReferencedBy>Documentatiemap.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J.D. van Dam, "De Koning-Stadhouder Willem III op Delftse faience. Een keuze: als prinsje, als veldheer, als koning" Antiek vol. 23, nr. 2 (1988), p. 73, afb. 3</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220114" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2201227" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2201403" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230132" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/EyOop/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/EyOop" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/EyOop/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-NM-3133--7653088abf6d39b34bc7fcee15419aeb">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/230132">
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006804" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q690" />
+            <ns7:prefLabel xml:lang="en">Delft</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Delft</ns7:prefLabel>
+            <ns9:lat>4.366667</ns9:lat>
+            <ns9:long>52</ns9:long>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns7:prefLabel xml:lang="en">RijksXL</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">RijksXL</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns7:prefLabel xml:lang="en">biografic</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">biografisch</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260242">
+            <ns7:prefLabel xml:lang="en">Dutch Delftware</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Delfts aardewerk</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261188">
+            <ns7:prefLabel xml:lang="en">Dutch tin-glazed earthenware</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Nederlands tinglazuur aardewerk</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220114">
+            <ns7:altLabel xml:lang="nl">gebakken aarde</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">earthenware</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">aardewerk (materiaal)</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2201227">
+            <ns7:prefLabel xml:lang="en">tin glaze</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">tinglazuur</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2201403">
+            <ns7:prefLabel xml:lang="nl">faience</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202">
+            <ns7:altLabel xml:lang="nl">bord</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">plate (dishes)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">bord (vaatwerk)</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221935">
+            <ns8:sameAs rdf:resource="https://iconclass.org/44B151211" />
+            <ns7:altLabel>44B151211</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">crown prince</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/EyOop">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2103823">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/227406842" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500238568" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q129987" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/424318" />
+            <ns10:dateOfBirth xml:lang="nl">1650-11-14</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1702-03-19</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+                <ns7:prefLabel xml:lang="en">The Hague</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Den Haag</ns7:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2302446">
+                <ns7:prefLabel xml:lang="nl">Hampton Court Palace</ns7:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202479">
+                <ns7:prefLabel xml:lang="en">prince (ruler)</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">prins</ns7:prefLabel>
+              </ns7:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2203883">
+                <ns7:prefLabel xml:lang="en">stadtholder</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">stadhouder</ns7:prefLabel>
+              </ns7:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2205140">
+                <ns7:prefLabel xml:lang="nl">koning</ns7:prefLabel>
+              </ns7:Concept>
+            </ns10:professionOrOccupation>
+            <ns7:altLabel xml:lang="nl">Willem III (prins van Oranje)</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">William III (Prince of Orange and King of England, Scotland, and Ireland)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Willem III (prins van Oranje en koning van Engeland, Schotland en Ierland)</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns7:altLabel xml:lang="nl">Anon</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">anonymous</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">anoniem</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns7:prefLabel>Rijksmuseum</ns7:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

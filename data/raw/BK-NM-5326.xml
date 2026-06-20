@@ -1,0 +1,150 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200113894</ns0:identifier>
+        <ns0:datestamp>2026-06-08T01:23:04Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26128</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200113894#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200113894">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2104193" />
+                <dc:description xml:lang="en">Servants would go around with ewers and basins at the beginning and end of formal dinners. Water was
+poured from the ewer over the hands of the distinguished guests, and the dirty water was caught in the basin. This ewer and basin were the property of Vlissingen. The city’s coat of arms – a crowned bottle – and its motto are engraved in the centre of the basin.</dc:description>
+                <dc:description xml:lang="nl">Aan het begin en het einde van maaltijden met belangrijke gasten reikten bedienden kannen en schalen aan. Uit de kan werd water over de handen geschonken, in de schaal werd het vuile water opgevangen. Deze kan en schaal waren van de stad Vlissingen. In het midden van de schaal staan het wapen, een gekroonde fles, en de spreuk van Vlissingen.</dc:description>
+                <dc:identifier>BK-NM-5326</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200113893" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211198" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211334" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22187" />
+                <dc:title xml:lang="en">Ewer and basin with the arms of Vlissingen</dc:title>
+                <dc:title xml:lang="en">Kan en schaal met het stadswapen van Vlissingen</dc:title>
+                <dc:title xml:lang="nl">Ewer and basin with the arms of Vlissingen</dc:title>
+                <dc:title xml:lang="nl">Kan en schaal met het stadswapen van Vlissingen</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220501" />
+                <ns5:created xml:lang="en">1608</ns5:created>
+                <ns5:created xml:lang="nl">1608</ns5:created>
+                <ns5:extent xml:lang="en">height 30.8 cm x width 13.5 cm x diameter 11.5 cm x weight 748 g</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 30,8 cm x breedte 13,5 cm x diameter 11,5 cm x gewicht (eigenschap) 748 g</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26128" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301130674" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301136271" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301141406" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144234" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301154578" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301185785" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125593" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30125605" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30139131" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30139207" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30156464" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30158461" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3016821" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30170464" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30192373" />
+                <ns5:isReferencedBy>A.D. de Vries Adz., 'De tentoonstelling van kunstvoorwerpen uit edele metalen, gehouden in Amsterdam in 1880', Eigen Haard (1880), p. 292-294.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Documentatiemap.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Vlissingsche Courant, 26 mei 1881</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22028" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23029985" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/mNInF/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/mNInF" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/mNInF/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-NM-5326--16c82ed3dcf2ebd03366d111a6aa66b4">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/23029985">
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006952" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q727" />
+            <ns8:sameAs rdf:resource="https://sws.geonames.org/2759794/" />
+            <ns7:prefLabel xml:lang="en">Amsterdam</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Amsterdam</ns7:prefLabel>
+            <ns9:lat>4.916667</ns9:lat>
+            <ns9:long>52.35</ns9:long>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26128">
+            <ns7:prefLabel xml:lang="nl">edele metalen</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22028">
+            <ns7:prefLabel xml:lang="en">silver (metal)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">zilver</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220501">
+            <ns7:prefLabel xml:lang="en">ewer</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">kan</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2211198">
+            <ns8:sameAs rdf:resource="https://iconclass.org/48A9843" />
+            <ns7:altLabel>48A9843</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">lion's head ~ ornament</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2211334">
+            <ns8:sameAs rdf:resource="https://iconclass.org/48A9842" />
+            <ns7:altLabel>48A9842</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">ram's head ~ ornament</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22187">
+            <ns8:sameAs rdf:resource="https://iconclass.org/48A9833" />
+            <ns7:altLabel>48A9833</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">flowers ~ ornament</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/mNInF">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2104193">
+            <ns10:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2205197">
+                <ns7:prefLabel xml:lang="en">silversmith</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">zilversmid</ns7:prefLabel>
+              </ns7:Concept>
+            </ns10:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Bogaert, Jacques</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Bogaert, Jacques</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Jacques Bogaert</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Jacques Bogaert</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns7:prefLabel>Rijksmuseum</ns7:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

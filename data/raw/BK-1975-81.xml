@@ -1,0 +1,197 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/2006408</ns0:identifier>
+        <ns0:datestamp>2026-06-08T19:15:09Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260213</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26132</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/2006408#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/2006408">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21045890" />
+                <dc:description xml:lang="en">This cupboard is a work of art showcasing a remarkable interplay of forms and materials. The precious, tropical ebony is glued on the oak and inlaid with mother-of pearl, thus hiding the wood carcass. Herman Doomer made this cupboard ten years after its counterpart, also on view here. The large, twisted columns give this cupboard its monumental character. Rembrandt, who undoubtedly admired Doomer’s work, immortalized the cabinetmaker and his wife in pendants in 1640.</dc:description>
+                <dc:description xml:lang="nl">Deze kast is een kunstwerk met een indrukwekkend samenspel van vormen en materialen. Het kostbare, tropische ebbenhout is gelijmd op het eikenhout en ingelegd met parelmoer, waardoor het kernhout niet meer te zien is. Herman Doomer maakte de kast bijna 10 jaar na de kast hier tegenover. Door de grote, geslingerde zuilen wekt deze kast een monumentale indruk. Rembrandt, die het werk van Herman Doomer ongetwijfeld bewonderde, schilderde in 1640 portretten van Doomer en zijn vrouw.</dc:description>
+                <dc:identifier>BK-1975-81</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211334" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211496" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22187" />
+                <dc:title xml:lang="en">Cupboard</dc:title>
+                <dc:title xml:lang="en">Kast</dc:title>
+                <dc:title xml:lang="nl">Cupboard</dc:title>
+                <dc:title xml:lang="nl">Kast</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220120" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/22015" />
+                <ns5:created xml:lang="en">c. 1635 - c. 1645</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1635 - ca. 1645</ns5:created>
+                <ns5:extent xml:lang="en">height 220.5 cm x width 206 cm x depth 83.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 220,5 cm x breedte 206 cm x diepte 83,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260213" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26132" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100494" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100966" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301151248" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301208688" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301220762" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301248206" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301763" />
+                <ns5:isReferencedBy>K. Posner en Robert van Langh [red.], Supporting Conservation : Four projects funded by Gieskes-Strijbis Fonds, Amsterdam 2015, p. 6, 15, afb. 1, 8, 9.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>R. Baarsen, 'Collectie : Speurtocht in de eigen collectie', Rijksmuseum Kunstkrant 33 (2007), nr. 4, p. 20-23, afb.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220102" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2201452" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22021" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220334" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2203616" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2203673" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220400" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220907" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2202689" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/LQvPg/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/LQvPg" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/LQvPg/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-1975-81--a5f4763470939d163dd1fa8fa3f3d9e0">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260213">
+            <ns8:prefLabel xml:lang="en">Top 100</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 100</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26132">
+            <ns8:prefLabel xml:lang="nl">meubelen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220102">
+            <ns8:prefLabel xml:lang="en">ivory</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">ivoor</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220120">
+            <ns8:altLabel xml:lang="nl">credenza</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">kastmeubilair</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">case furniture</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">kast</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2201452">
+            <ns8:prefLabel xml:lang="en">ebony (wood)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">ebbenhout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22015">
+            <ns8:prefLabel xml:lang="en">furniture</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">meubilair</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22021">
+            <ns8:prefLabel xml:lang="en">wood (plant material)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">hout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202689">
+            <ns8:prefLabel xml:lang="nl">marqueterie</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220334">
+            <ns8:altLabel xml:lang="en">mother of pearl</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">paarlemoer</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">paarlmoer</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">mother of pearl</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">parelmoer</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2203616">
+            <ns8:prefLabel xml:lang="nl">koningshout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2203673">
+            <ns8:prefLabel xml:lang="nl">bruinharthout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220400">
+            <ns8:prefLabel xml:lang="en">rosewood (wood)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">palissanderhout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220907">
+            <ns8:prefLabel xml:lang="en">oak (wood)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">eikenhout</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211334">
+            <ns9:sameAs rdf:resource="https://iconclass.org/48A9842" />
+            <ns8:altLabel>48A9842</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">ram's head ~ ornament</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211496">
+            <ns9:sameAs rdf:resource="https://iconclass.org/48C161" />
+            <ns8:altLabel>48C161</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">column, pillar ~ architecture</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22187">
+            <ns9:sameAs rdf:resource="https://iconclass.org/48A9833" />
+            <ns8:altLabel>48A9833</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">flowers ~ ornament</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/LQvPg">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21045890">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/315940442" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q2592423" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/367799" />
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205302">
+                <ns8:prefLabel xml:lang="en">framemaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">lijstenmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205301">
+                <ns8:prefLabel xml:lang="en">woodworker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">houtbewerker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Doomer, Herman</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Doomer, Herman</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Herman Doomer</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Herman Doomer</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

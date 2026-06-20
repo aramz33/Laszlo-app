@@ -1,0 +1,264 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns11="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20026744</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:20:24Z</ns0:datestamp>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20026744#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20026744">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101741" />
+                <dc:description xml:lang="en">The married couple Margarieta van Bancken and Abraham Casteleyn, founder of the Haerlemse Courant (Haarlem Newspaper), operated In de Blije Druck, the city’s printing shop. The books, atlas, and globe refer to their profession and knowledge. After Abraham’s death, Margarieta continued the printing house, taking on the administrative and financial responsibilities. The bust in the background represents the Haarlem townsman L.J. Coster, long credited with having invented book printing.</dc:description>
+                <dc:description xml:lang="nl">Het echtpaar Margarieta van Bancken en Abraham Casteleyn, oprichter van de Haerlemse Courant, bestierde de stadsdrukkerij In de Blije Druck. De boeken, atlas en wereldbol verwijzen naar hun beroep en kennis. Na Abrahams overlijden zette Margarieta de drukkerij voort en nam ze de bestuurlijke en financiële taken over. Het borstbeeld op de achtergrond toont de Haarlemmer L.J. Coster, die lang werd beschouwd als de uitvinder van de boekdrukkunst.</dc:description>
+                <dc:identifier>SK-A-3280</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20067240" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21033301" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21064507" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21095060" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221317" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221370" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221593" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221594" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/230134" />
+                <dc:title xml:lang="en">Het echtpaar Abraham Casteleyn en Margarieta van Bancken</dc:title>
+                <dc:title xml:lang="en">The Married Couple Abraham Casteleyn and Margarieta van Bancken</dc:title>
+                <dc:title xml:lang="nl">Het echtpaar Abraham Casteleyn en Margarieta van Bancken</dc:title>
+                <dc:title xml:lang="nl">The Married Couple Abraham Casteleyn and Margarieta van Bancken</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:alternative xml:lang="en">The Haarlem Printer Abraham Casteleyn and his Wife Margarieta van Bancken</ns5:alternative>
+                <ns5:alternative xml:lang="nl">De Haarlemse drukker Abraham Casteleyn en zijn echtgenote Margarieta van Bancken</ns5:alternative>
+                <ns5:created xml:lang="en">1663</ns5:created>
+                <ns5:created xml:lang="nl">1663</ns5:created>
+                <ns5:extent xml:lang="en">depth 7 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 83 cm x width 106.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">buitenmaat: diepte 7 cm (drager incl. SK-L-5137)</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 83 cm x breedte 106,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301125524" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144234" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301185785" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301185790" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301192481" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301206140" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301209575" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301211936" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3012474" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301248156" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30139183" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015253" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015254" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30166353" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30175812" />
+                <ns5:isReferencedBy>Documentatiemap: aantekeningen R. van Luttervelt (voor 1963).</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">Inv.; collection widow Francisca Ernestina Blaauw, née Berg (1834-1903), ‘s Gravenhage, 1894;{Utrecht 1894, p. 102, no. 270} her son, Frans Ernst Blaauw (1860-1936), ‘Gooilust’, ‘s Graveland, 1920;{Note RKD.} by whom bequeathed to the museum, 1939</ns5:provenance>
+                <ns6:spn xml:lang="en">F.E. Blaauw Bequest, 's-Graveland</ns6:spn>
+                <ns6:spn xml:lang="nl">Legaat van de heer F.E. Blaauw, 's-Graveland</ns6:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/xvXos/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/xvXos" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/xvXos/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3280--dc34ce475ed198234e126d3021305578">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns8:prefLabel xml:lang="en">canvas</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">doek</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221317">
+            <ns9:sameAs rdf:resource="https://iconclass.org/42D3" />
+            <ns8:altLabel>42D3</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">marriage, married couple, 'matrimonium'</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221370">
+            <ns9:sameAs rdf:resource="https://iconclass.org/48C24" />
+            <ns8:altLabel>48C24</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">piece of sculpture, reproduction of a piece of sculpture</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221593">
+            <ns9:sameAs rdf:resource="https://iconclass.org/25A13" />
+            <ns8:altLabel>25A13</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">globe</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221594">
+            <ns9:sameAs rdf:resource="https://iconclass.org/49M12" />
+            <ns8:altLabel>49M12</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">persons ~ printing</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/xvXos">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101741">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/14727448" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500032401" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q541789" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/12194" />
+            <ns10:dateOfBirth xml:lang="nl">ca. 1627</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1697 - 1697-04-04</ns10:dateOfDeath>
+            <ns10:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/230134" />
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns8:prefLabel xml:lang="en">Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Amsterdam</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Bray, Jan de</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Bray, Jan de</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Jan de Bray</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Jan de Bray</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21033301">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/250432543" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q17419089" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/90488" />
+            <ns10:dateOfBirth xml:lang="nl">ca. 1628</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">voor 1681-01</ns10:dateOfDeath>
+            <ns10:placeOfBirth />
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230134">
+                <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7007048" />
+                <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q9920" />
+                <ns8:prefLabel xml:lang="en">Haarlem</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Haarlem</ns8:prefLabel>
+                <ns11:lat>4.65</ns11:lat>
+                <ns11:long>52.366667</ns11:long>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2203016">
+                <ns8:prefLabel xml:lang="en">printer (person)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">drukker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205148">
+                <ns8:prefLabel xml:lang="en">publisher</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">uitgever</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Casteleyn, Abraham</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Casteleyn, Abraham</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Abraham Casteleyn</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Abraham Casteleyn</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21064507">
+            <ns9:sameAs rdf:resource="http://data.cerl.org/thesaurus/cni00084933" />
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/73144782956982690676" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500475853" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q17419131" />
+            <ns10:dateOfBirth xml:lang="nl">1628</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1694</ns10:dateOfDeath>
+            <ns10:placeOfBirth />
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230134">
+                <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7007048" />
+                <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q9920" />
+                <ns8:prefLabel xml:lang="en">Haarlem</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Haarlem</ns8:prefLabel>
+                <ns11:lat>4.65</ns11:lat>
+                <ns11:long>52.366667</ns11:long>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2203016">
+                <ns8:prefLabel xml:lang="en">printer (person)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">drukker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2205148">
+                <ns8:prefLabel xml:lang="en">publisher</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">uitgever</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Bancken, Margareta van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Bancken, Margareta van</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Margareta van Bancken</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Margareta van Bancken</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21095060">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/74651031" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500066882" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q576201" />
+            <ns10:dateOfBirth xml:lang="nl">1405</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1484</ns10:dateOfDeath>
+            <ns10:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/230134" />
+            <ns8:altLabel xml:lang="nl">Coster, Laurens Jansz.</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Coster, Laurens Janszoon</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Koster, Laurens</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Laurens Jansz. Coster</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Laurens Koster</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">Laurens Janszoon Coster</ns8:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

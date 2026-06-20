@@ -1,0 +1,144 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200109460</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:31:01Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260215</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>2616</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200109460#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200109460">
+                <dc:description xml:lang="en">After breaking off her engagement to a Roman consul to become a Christian, Lucy endured many tortures, yet she remained steadfast. She was eventually executed by the sword, as seen here. This panel was part of an altar dedicated to the saint.</dc:description>
+                <dc:description xml:lang="nl">Nadat zij haar verloving met een Romeinse consul had verbroken om christen te kunnen worden, moest Lucia vele martelingen doorstaan, maar zij bleef standvastig. Ten slotte werd ze met een zwaard gedood, zoals hier te zien is. Dit paneel was onderdeel van een altaar dat aan deze heilige was gewijd.</dc:description>
+                <dc:identifier>SK-A-1688</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211017" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211018" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211019" />
+                <dc:title xml:lang="en">Het martelaarschap van Sint-Lucia</dc:title>
+                <dc:title xml:lang="en">The Martyrdom of Saint Lucy</dc:title>
+                <dc:title xml:lang="nl">Het martelaarschap van Sint-Lucia</dc:title>
+                <dc:title xml:lang="nl">The Martyrdom of Saint Lucy</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">c. 1505 - c. 1510</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1505 - ca. 1510</ns5:created>
+                <ns5:extent xml:lang="en">frame: height 149.1 cm x width 119.4 cm x thickness 9 cm</ns5:extent>
+                <ns5:extent xml:lang="en">support: height 132.4 cm x width 101.7 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 132,4 cm x breedte 101,7 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">lijst: hoogte 149,1 cm x breedte 119,4 cm x dikte 9 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260215" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2616" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100933" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301147809" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3011738" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301236018" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244089" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244300" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30139403" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30194352" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">…; ? collection Berger;{According to an annotation in the catalogue for the Ritter von Engert sale, 5 June 1871, no. 38; copy RKD.} sale, Erasmus Ritter von Engert (1796-1871, Vienna), sold on the premises (Miethke &amp; Wawra), 5 June 1871 &lt;em&gt;sqq.&lt;/em&gt;, no. 38, fl. 350, to the dealers H.O. Miethke and Wawra;{Copy RKD.} …; sale, Friedrich Lippmann (1838-1903, Vienna), Paris (Boussaton), 16 March 1876 &lt;em&gt;sqq.&lt;/em&gt;, no. 17, as Gerhard von Haarlem; …; from the dealer H.O. Miethke, Vienna, fl. 2,500, to the museum, with support from the Vereniging Rembrandt, 1897; on loan to the Museum Boijmans Van Beuningen, Rotterdam, since March 2004</ns5:provenance>
+                <ns6:spn xml:lang="en">Purchased with the support of the Vereniging Rembrandt</ns6:spn>
+                <ns6:spn xml:lang="nl">Aankoop met steun van de Vereniging Rembrandt</ns6:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/zMHpz/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/zMHpz" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/zMHpz/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1688--c7b29d58954f03ab8b369d4eb743a7b7">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260215">
+            <ns8:prefLabel xml:lang="en">Vereniging Rembrandt</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Vereniging Rembrandt</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2616">
+            <ns8:prefLabel xml:lang="en">Early Netherlandish Paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Early Netherlandish Paintings</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns8:prefLabel xml:lang="en">panel</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">paneel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211017">
+            <ns9:sameAs rdf:resource="https://iconclass.org/11HH%28LUCY%2968" />
+            <ns8:altLabel>11HH(LUCY)68</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">St. Lucy is stabbed through the throat with a dagger or a sword</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211018">
+            <ns9:sameAs rdf:resource="https://iconclass.org/11HH%28LUCY%2964" />
+            <ns8:altLabel>11HH(LUCY)64</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">St. Lucy is burned at the stake, but the flames do not harm her</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211019">
+            <ns9:sameAs rdf:resource="https://iconclass.org/11HH%28LUCY%2962" />
+            <ns8:altLabel>11HH(LUCY)62</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">St. Lucy, tied to a team of oxen, is dragged to a brothel but stands fast</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/zMHpz">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

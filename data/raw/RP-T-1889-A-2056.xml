@@ -1,0 +1,185 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns11="http://rdvocab.info/ElementsGr2/" xmlns:ns12="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200117977</ns0:identifier>
+        <ns0:datestamp>2026-06-08T02:19:50Z</ns0:datestamp>
+        <ns0:setSpec>260215</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26133</ns0:setSpec>
+        <ns0:setSpec>2619</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200117977#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200117977">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2103429" />
+                <dc:description xml:lang="en">Rembrandt took visible pleasure in drawing domestic scenes of women and children. Collectors, too, were clearly charmed by them. When the painter and collector Jan van de Cappelle died in 1679, he left behind an album containing 135 drawings ‘being the life of women with children by Rembrandt.’ Perhaps this splendid drawing was one of them.</dc:description>
+                <dc:description xml:lang="nl">Rembrandt had zichtbaar plezier in het tekenen van huiselijke taferelen met vrouwen en kinderen. Ook verzamelaars waren er duidelijk van gecharmeerd. Toen de schilder en verzamelaar Jan van de Cappelle in 1679 stierf, liet hij een album na met 135 tekeningen ‘sijnde het vrouwenleven met kinderen van Rembrant’. Wellicht was deze prachtige tekening er één van.</dc:description>
+                <dc:identifier>RP-T-1889-A-2056</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221202" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22145" />
+                <dc:title xml:lang="en">Drie vrouwen en een kind bij een huisdeur</dc:title>
+                <dc:title xml:lang="en">Three Women and a Child by a Door</dc:title>
+                <dc:title xml:lang="nl">Drie vrouwen en een kind bij een huisdeur</dc:title>
+                <dc:title xml:lang="nl">Three Women and a Child by a Door</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220363" />
+                <ns5:created xml:lang="en">c. 1645</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1645</ns5:created>
+                <ns5:extent xml:lang="en">height 233 mm x width 178 mm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 233 mm x breedte 178 mm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260215" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26133" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2619" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2621024" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2623223" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301120226" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301120536" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301120556" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301136080" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30157649" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30186954" />
+                <ns5:isReferencedBy>Schatborn 27</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22020" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220365" />
+                <ns5:provenance xml:lang="en">…; collection Jacob de Vos Jbzn (1803-78), Amsterdam;{According to an inscription on the drawing.} his sale, Amsterdam (C.F. Roos &lt;em&gt;et al.&lt;/em&gt;), 22 May 1883 &lt;em&gt;sqq.&lt;/em&gt;, no. 424, with fifteen other drawings, as school of Rembrandt, fl. 480, to J.H. Balfoort (active 1853-83), Utrecht, for the Vereniging Rembrandt (L. 2135);{Copy RKD; note RMA.} from whom, fl. 5,049, with 166 other drawings, to the museum (L. 2228), 1889</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23029985" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2202293" />
+                <ns7:spn xml:lang="en">Purchased with the support of the Vereniging Rembrandt</ns7:spn>
+                <ns7:spn xml:lang="nl">Aankoop met steun van de Vereniging Rembrandt</ns7:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/XvnHO/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/XvnHO" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/XvnHO/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/RP-T-1889-A-2056--b3cf6ab24738008d4c8611ca14f2ae4a">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260215">
+            <ns9:prefLabel xml:lang="en">Vereniging Rembrandt</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Vereniging Rembrandt</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26133">
+            <ns9:prefLabel xml:lang="en">drawings</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">tekeningen</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2619">
+            <ns9:prefLabel xml:lang="en">Drawings by Rembrandt and his School in the Rijksmuseum</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Drawings by Rembrandt and his School in the Rijksmuseum</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22020">
+            <ns9:prefLabel xml:lang="en">paper</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">papier (materiaal)</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202293">
+            <ns9:prefLabel xml:lang="en">pen</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">pen</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220363">
+            <ns9:prefLabel xml:lang="en">drawing</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">tekening</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220365">
+            <ns9:prefLabel xml:lang="en">ink</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">inkt</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221202">
+            <ns10:sameAs rdf:resource="https://iconclass.org/42B74" />
+            <ns9:altLabel>42B74</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">family group, especially parents with their child(ren)</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22145">
+            <ns10:sameAs rdf:resource="https://iconclass.org/42A3" />
+            <ns9:altLabel>42A3</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">mother and baby or young child</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/XvnHO">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2103429">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/64013650" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500011051" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q5598" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/66219" />
+            <ns11:dateOfBirth xml:lang="nl">1606-07-15</ns11:dateOfBirth>
+            <ns11:dateOfDeath xml:lang="nl">1669-10-08</ns11:dateOfDeath>
+            <ns11:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230105">
+                <ns9:prefLabel xml:lang="en">Leiden</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Leiden</ns9:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfBirth>
+            <ns11:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006952" />
+                <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q727" />
+                <ns10:sameAs rdf:resource="https://sws.geonames.org/2759794/" />
+                <ns9:prefLabel xml:lang="en">Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Amsterdam</ns9:prefLabel>
+                <ns12:lat>4.916667</ns12:lat>
+                <ns12:long>52.35</ns12:long>
+              </ns3:Place>
+            </ns11:placeOfDeath>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns9:prefLabel xml:lang="en">painter</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">schilder</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns9:prefLabel xml:lang="en">printmaker</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">prentmaker</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns9:prefLabel xml:lang="en">draftsman (artist)</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">tekenaar</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns9:altLabel xml:lang="en">Rijn, Rembrandt van</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Rembrandt Harmensz. van Rijn</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Rembrandt van Rijn</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Rembrandt</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Rijn, Rembrandt Harmensz. van</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Rijn, Rembrandt van</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Rembrandt van Rijn</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Rembrandt van Rijn</ns9:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

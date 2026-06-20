@@ -1,0 +1,145 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns11="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200390490</ns0:identifier>
+        <ns0:datestamp>2026-06-08T20:40:59Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26150</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200390490#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200390490">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21036354" />
+                <dc:identifier>RP-F-1996-60</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221155" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2307532" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2308106" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2308454" />
+                <dc:title xml:lang="nl">Gezicht op Parijs</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2203565" />
+                <ns5:alternative xml:lang="nl">Panorama de Paris</ns5:alternative>
+                <ns5:created xml:lang="en">c. 1865 - c. 1875</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1865 - ca. 1875</ns5:created>
+                <ns5:extent xml:lang="en">height 88 mm x width 153 mm</ns5:extent>
+                <ns5:extent xml:lang="nl">foto: hoogte 88 mm x breedte 153 mm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26150" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220192" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2202619" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230215" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2202645" />
+                <ns7:spn xml:lang="en">Gift of B.G.J. Elias, Amersfoort</ns7:spn>
+                <ns7:spn xml:lang="nl">Schenking van B.G.J. Elias, Amersfoort</ns7:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/Wjukg/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/Wjukg" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/Wjukg/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/RP-F-1996-60--e8eb008cce0b40786c23b52db28fd5b6">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26150">
+            <ns9:prefLabel xml:lang="en">photos</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">foto's</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220192">
+            <ns9:altLabel xml:lang="nl">carton</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">cardboard</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">karton</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202619">
+            <ns9:altLabel xml:lang="en">photographic paper</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">fotopapier</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">photographic support</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">fotodrager</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202645">
+            <ns9:prefLabel xml:lang="en">albumen print</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">albuminedruk</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2203565">
+            <ns9:altLabel xml:lang="nl">cabinetfoto</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">cabinet photograph</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">kabinetfoto</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221155">
+            <ns10:sameAs rdf:resource="https://iconclass.org/25I1" />
+            <ns9:altLabel>25I1</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">city-view in general; 'veduta'</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/Wjukg">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21036354">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/74126483" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q112971471" />
+            <ns11:dateOfBirth xml:lang="nl">1846</ns11:dateOfBirth>
+            <ns11:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230215">
+                <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/7008038" />
+                <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q90" />
+                <ns9:prefLabel xml:lang="en">Paris</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Parijs</ns9:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfBirth>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2204764">
+                <ns9:prefLabel xml:lang="en">photographer</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">fotograaf</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns9:altLabel xml:lang="en">Dontenville, Edouard</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Dontenville, Edouard</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Edouard Dontenville</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Edouard Dontenville</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2307532">
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/7009707" />
+            <ns9:prefLabel xml:lang="nl">Seine</ns9:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2308106">
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q188856" />
+            <ns9:prefLabel xml:lang="nl">Panthéon</ns9:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2308454">
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q335277" />
+            <ns10:sameAs rdf:resource="https://sws.geonames.org/6452939/" />
+            <ns9:prefLabel xml:lang="nl">Pont Neuf (Parijs)</ns9:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

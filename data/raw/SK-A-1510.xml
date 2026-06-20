@@ -1,0 +1,218 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20027374</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:24:50Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20027374#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20027374">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2101889" />
+                <dc:description xml:lang="en">The Trip family – powerful international arms dealers – owned this cannon foundry in southern Sweden. It was a perfect location: iron ore was mined there, and there was ample waterpower, inexpensive labour and fuel (wood). The family built what is known as the Trippenhuis on the Kloveniersburgwal in Amsterdam. The Rijksmuseum was accommodated in this grand residence in the 19th century.</dc:description>
+                <dc:description xml:lang="nl">De familie Trip, belangrijke internationale wapenhandelaars, was eigenaar van deze geschutgieterij in Zuid-Zweden. Een perfecte locatie: er werd ijzererts gedolven, er was waterkracht, en ook waren goedkope arbeidskrachten en brandstof (hout) ruim voldoende voorhanden. Aan de Kloveniersburgwal in Amsterdam liet de familie het Trippenhuis bouwen, waar in de 19de eeuw het Rijksmuseum werd ondergebracht.</dc:description>
+                <dc:identifier>SK-A-1510</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21061144" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221205" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221745" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221746" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2306999" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2308039" />
+                <dc:title xml:lang="en">De geschutgieterij van Hendrik Trip in Julita Bruk in Zweden</dc:title>
+                <dc:title xml:lang="en">Hendrik Trip’s Cannon Foundry in Julitabruk, Sweden</dc:title>
+                <dc:title xml:lang="nl">De geschutgieterij van Hendrik Trip in Julita Bruk in Zweden</dc:title>
+                <dc:title xml:lang="nl">Hendrik Trip’s Cannon Foundry in Julitabruk, Sweden</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:alternative xml:lang="en">Hendrick Trip's Cannon Foundry in Julitabroeck, Södermanland, Sweden</ns5:alternative>
+                <ns5:alternative xml:lang="nl">De geschutgieterij van Hendrik Trip te Julitabroeck, Södermanland, Zweden</ns5:alternative>
+                <ns5:created xml:lang="en">1650 - 1675</ns5:created>
+                <ns5:created xml:lang="nl">1650 - 1675</ns5:created>
+                <ns5:extent xml:lang="en">depth 10 cm x height 215 cm x width 274.5 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 192 cm x width 254.5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">Drager: hoogte 192 cm x breedte 254,5 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">Lijst: diepte 10 cm (Lijst heeft ornament van +/- 3 cm diep midden boven) x hoogte 215 cm x breedte 274,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3011873" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30121552" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015279" />
+                <ns5:isReferencedBy>Documentatiemap Schilderijen: aantekeningen R. van Luttervelt (voor 1963).</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/cjQOU/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/cjQOU" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/cjQOU/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1510--187752cef5c30fd1c778f57db6592774">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns7:prefLabel xml:lang="en">RijksXL</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">RijksXL</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns7:prefLabel xml:lang="en">biografic</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">biografisch</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns7:prefLabel xml:lang="en">paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderijen</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns7:prefLabel xml:lang="en">canvas</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">doek</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns7:prefLabel xml:lang="en">painting</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderij</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns7:prefLabel xml:lang="en">oil paint (paint)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">olieverf</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221205">
+            <ns8:sameAs rdf:resource="https://iconclass.org/25H1" />
+            <ns7:altLabel>25H1</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">landscapes in the temperate zone</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221745">
+            <ns8:sameAs rdf:resource="https://iconclass.org/45C1%28%2B0%29" />
+            <ns7:altLabel>45C1(+0)</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">weapons (+ variant)</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221746">
+            <ns8:sameAs rdf:resource="https://iconclass.org/47B2" />
+            <ns7:altLabel>47B2</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">industries</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/cjQOU">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2101889">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/42110876" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500115159" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q539036" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/26851" />
+            <ns9:dateOfBirth xml:lang="nl">1621-06 - 1621-06-18</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1675 - 1675-11-08</ns9:dateOfDeath>
+            <ns9:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230168">
+                <ns7:prefLabel xml:lang="nl">Alkmaar</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfBirth>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns7:prefLabel xml:lang="en">Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Amsterdam</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns7:prefLabel xml:lang="en">painter</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">schilder</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns7:prefLabel xml:lang="en">printmaker</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">prentmaker</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns7:prefLabel xml:lang="en">draftsman (artist)</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">tekenaar</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Everdingen, Allaert van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Aldert Pietersz. van Everdingen</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Aldert van Everdingen</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Allaert Pietersz. van Everdingen</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Allaert v Everdingen</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Allard van Everdingen</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Allart Pietersz. van Everdingen</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Allart van Everdingen</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Allert van Everdingen</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Everdingen, Aldert Pietersz. van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Everdingen, Aldert van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Everdingen, Allaert Pietersz. van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Everdingen, Allaert v</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Everdingen, Allaert van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Everdingen, Allard van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Everdingen, Allart Pietersz. van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Everdingen, Allart van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Everdingen, Allert van</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Allaert van Everdingen</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Allaert van Everdingen</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21061144">
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q75533216" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/469333" />
+            <ns9:dateOfBirth xml:lang="nl">1607-01-14</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1666-11-15</ns9:dateOfDeath>
+            <ns9:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/230171" />
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns7:prefLabel xml:lang="en">Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Amsterdam</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns7:altLabel xml:lang="nl">Trip, Hendrik</ns7:altLabel>
+            <ns7:prefLabel xml:lang="nl">Hendrik Trip</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/230171">
+            <ns7:prefLabel xml:lang="en">Dordrecht</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Dordrecht</ns7:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2306999">
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/tgn/1003836" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q626062" />
+            <ns7:prefLabel xml:lang="nl">Södermanland (provincie)</ns7:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2308039">
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q2252756" />
+            <ns7:prefLabel xml:lang="nl">Trippenhuis</ns7:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

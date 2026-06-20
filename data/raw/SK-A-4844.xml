@@ -1,0 +1,205 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200109188</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:27:17Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260215</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>26121</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200109188#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200109188">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2102419" />
+                <dc:description xml:lang="en">Why is this company so merry? This painting depicts several of life’s pleasures. On the left, a singing woman plays the lute. The objects on the table and the pearl earring belonging to the woman in the middle both allude to luxury. The toiletries on the
+table, including a mirror, likely allude to vanity. The bed and the two gentlemen entering with a hare and a partridge are a nod to another kind of pleasure: ‘chasing the hare’ and ‘birding’ were euphemisms for making love.</dc:description>
+                <dc:description xml:lang="nl">Waarom is dit gezelschap zo vrolijk? Dit schilderij toont verschillende soorten plezier in het leven. Links bespeelt een zingende vrouw de luit. De spullen op tafel en de pareloorbel van de vrouw in het midden verwijzen naar luxe. Het bed en de twee heren die&lt;BR /&gt;binnenkomen met een haas en een patrijs zijn een knipoog naar een ander soort genot: ‘de haas jagen’ en ‘vogelen’ betekenden de liefde bedrijven.</dc:description>
+                <dc:identifier>SK-A-4844</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20066784" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221207" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221418" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221538" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221846" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221847" />
+                <dc:title xml:lang="en">Galant gezelschap</dc:title>
+                <dc:title xml:lang="en">Gallant Company</dc:title>
+                <dc:title xml:lang="nl">Galant gezelschap</dc:title>
+                <dc:title xml:lang="nl">Gallant Company</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:alternative xml:lang="nl">Galante dames en heren</ns5:alternative>
+                <ns5:created xml:lang="en">1633</ns5:created>
+                <ns5:created xml:lang="nl">1633</ns5:created>
+                <ns5:extent xml:lang="en">outer size: depth 6.7 cm (support incl. frame)</ns5:extent>
+                <ns5:extent xml:lang="en">support: height 54.2 cm x width 68.4 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">buitenmaat: diepte 6,7 cm (drager incl. SK-L-4586)</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 54,2 cm x breedte 68,4 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260215" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26121" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2621388" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2622648" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100494" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30112160" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301139231" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301140958" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144234" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301153970" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301154650" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3011738" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301303095" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30139024" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30139131" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015253" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015254" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30155926" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30157626" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30166210" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30166272" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30166279" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30171110" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30183507" />
+                <ns5:isReferencedBy>E. de Jongh, "Erotica in vogelsperspectief', Simiolus 3 (1968/69) p. 41, 43, afb. 13</ns5:isReferencedBy>
+                <ns5:isReferencedBy>E. de Jongh, 'Pearls of virtue and pearls of vice', Simiolus 8 (1975/76), p. 78, noot 42</ns5:isReferencedBy>
+                <ns5:isReferencedBy>G. Kieft, in: Kunstschrift nr. 3 (2002), p. 28 + ill. in kleur</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J. Herbert, 'Christie's Reviews of the Season', Londen 1974, p. 41, ill.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>P. Torresan, 'Per una rivalutazione di Pieter Codde', Antichità viva 14 (1975), p. 14-15, afb. 8</ns5:isReferencedBy>
+                <ns5:isReferencedBy>P. van Thiel, Bulletin van het Rijksmuseum 37 (1989), nr. 3, cat.nr. 26</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">...; collection Van Essen, Vik, Sweden;{Granberg I, 1911, p. 110, no. 485.}...; collection Carl U. Palm, Djursholm, 1911;{Granberg I, 1911, p. 110, no. 485.}...; collection William Gibson, Jonsered, Sweden;{Stockholm 1967, p. 40.}...; sale, the Albright Leasing Corporation &lt;em&gt;et al.&lt;/em&gt; [anonymous section], London (Christie’s), 30 November 1973, no. 94;...; collection Mr L.G. Holtom, Harbledown (Canterbury);{Note RMA.} from whom on loan to the Rijksmuseum, through the mediation of the dealer Richard Green, London, 1974-86; from whom, £ 150,000, to the museum, through the mediation of the dealer Richard Green, London, with support from the Vereniging Rembrandt and the Rijksmuseum-Stichting, 1986</ns5:provenance>
+                <ns6:spn xml:lang="en">Purchased with the support of the Vereniging Rembrandt and the Rijksmuseum-Stichting</ns6:spn>
+                <ns6:spn xml:lang="nl">Aankoop met steun van de Vereniging Rembrandt en de Rijksmuseum-Stichting</ns6:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/CwtnX/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/CwtnX" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/CwtnX/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4844--09027acc927e8b35b85f71aeb48a001a">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260215">
+            <ns8:prefLabel xml:lang="en">Vereniging Rembrandt</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Vereniging Rembrandt</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26121">
+            <ns8:prefLabel xml:lang="en">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns8:prefLabel xml:lang="en">panel</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">paneel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221207">
+            <ns9:sameAs rdf:resource="https://iconclass.org/33A3" />
+            <ns8:altLabel>33A3</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">visiting; receiving guests; elegant company</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221418">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41A761" />
+            <ns8:altLabel>41A761</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">bed</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221538">
+            <ns9:sameAs rdf:resource="https://iconclass.org/48C7323" />
+            <ns8:altLabel>48C7323</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">lute, and special forms of lute, e.g.: theorbo</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221846">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41D2663" />
+            <ns8:altLabel>41D2663</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">ear-rings</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221847">
+            <ns9:sameAs rdf:resource="https://iconclass.org/43C1149" />
+            <ns8:altLabel>43C1149</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">return from the hunt</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/CwtnX">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2102419">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/5232415" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500016283" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q655049" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/17452" />
+            <ns10:dateOfBirth xml:lang="nl">ca. 1599</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1678-10-12</ns10:dateOfDeath>
+            <ns10:placeOfBirth />
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns8:prefLabel xml:lang="en">Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Amsterdam</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Codde, Pieter</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Codde, Pieter</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Pieter Codde</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Pieter Codde</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

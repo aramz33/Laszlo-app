@@ -1,0 +1,222 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200127451</ns0:identifier>
+        <ns0:datestamp>2026-06-08T03:13:44Z</ns0:datestamp>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260250</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26151</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200127451#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200127451">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2106175" />
+                <dc:description xml:lang="nl">Kopie naar zelfportret van Titiaan met een jonge vrouw. Rechtsonder een doodshoofd. Het schilderij van Titiaan is verloren gegaan, door de ets van Van Dyck weten we hoe het portret er uitzag.</dc:description>
+                <dc:identifier>RP-P-BI-7437</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2105484" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221328" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22135" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2213633" />
+                <dc:title xml:lang="nl">Portret van Titiaan en zijn maitresse</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/22040" />
+                <ns5:created xml:lang="en">1627 - 1635</ns5:created>
+                <ns5:created xml:lang="nl">1627 - 1635</ns5:created>
+                <ns5:extent xml:lang="en">height 306 mm x width 235 mm</ns5:extent>
+                <ns5:extent xml:lang="nl">plaatrand: hoogte 306 mm x breedte 235 mm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260250" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26151" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30167966" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3018076" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3018714" />
+                <ns5:isReferencedBy>Mauquoy-Hendricx (van Dyck) B-1(7)</ns5:isReferencedBy>
+                <ns5:isReferencedBy>New Hollstein Dutch 628-1(8)</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22020" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230148" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2202942" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2202953" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/nxznw/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/nxznw" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/nxznw/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/RP-P-BI-7437--316bbc9eba82e0129a5a90db144059e0">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260250">
+            <ns8:prefLabel xml:lang="en">prints</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">prenten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26151">
+            <ns8:prefLabel xml:lang="en">prints</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">prenten</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22020">
+            <ns8:prefLabel xml:lang="en">paper</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">papier (materiaal)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202942">
+            <ns8:altLabel xml:lang="nl">geëtst</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">omtrekets</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">etching</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">etsen</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202953">
+            <ns8:prefLabel xml:lang="en">brush</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">penseel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22040">
+            <ns8:prefLabel xml:lang="en">print</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">prent</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221328">
+            <ns9:sameAs rdf:resource="https://iconclass.org/48C513" />
+            <ns8:altLabel>48C513</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">portrait, self-portrait of painter</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22135">
+            <ns9:sameAs rdf:resource="https://iconclass.org/11R71" />
+            <ns8:altLabel>11R71</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">skull as symbol of 'Vanitas'</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2213633">
+            <ns9:sameAs rdf:resource="https://iconclass.org/42D7" />
+            <ns8:altLabel>42D7</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">mistress</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/nxznw">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2105484">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500031075" />
+            <ns10:dateOfBirth xml:lang="nl">ca. 1488</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1576-08-27</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2303923">
+                <ns8:prefLabel xml:lang="nl">Pieve di Cadore</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230225">
+                <ns8:prefLabel xml:lang="en">Venice</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Venetië</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="nl">Tiziano Vecellio</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Vecellio, Tiziano</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Titiaan</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Titiaan</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2106175">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/17231738" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500115190" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q150679" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/25230" />
+            <ns10:dateOfBirth xml:lang="nl">1599-03-22</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1641-12-09</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230148">
+                <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7007856" />
+                <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q12892" />
+                <ns8:prefLabel xml:lang="en">Antwerp</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Antwerpen (stad)</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230164">
+                <ns8:prefLabel xml:lang="en">London</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Londen</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Antoon Van Dyck</ns8:altLabel>
+            <ns8:altLabel xml:lang="en">Dyck, Anthony van</ns8:altLabel>
+            <ns8:altLabel xml:lang="en">Van Dyck, Antoon</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Anthonie van Dyck</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Anthony van Dijck</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Anton van Dijck</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Anton van Dyck</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Antoni van Dyck</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Antoon Van Dyck</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Dijck, Anthony van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Dijck, Anton van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Dyck, Anthonie van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Dyck, Anthony van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Dyck, Anton van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Dyck, Antoni van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Van Dyck, Antoon</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Anthony van Dyck</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Anthony van Dyck</ns8:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

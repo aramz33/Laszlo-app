@@ -1,0 +1,240 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200108355</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:20:56Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260213</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200108355#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200108355">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21043301" />
+                <dc:description xml:lang="en">To commemorate the Dutch naval commander Maerten Harpertsz Tromp, his family commissioned a series of pen paintings of Tromp’s best-known battles from Willem van de Velde. The artist used pen and ink on canvas for these works, which resemble meticulous, accurate engravings. Van de Velde witnessed the Battle of Terheide in 1653. He used the sketches that he produced on board as studies for this pen painting.</dc:description>
+                <dc:description xml:lang="nl">Om de Nederlandse bevelhebber Maerten Harpertsz Tromp te herdenken bestelde zijn familie bij Willem van de Velde een serie penschilderijen van zijn memorabele zeeslagen. Ze zijn op doek getekend met pen en inkt en lijken op accurate, betrouwbare gravures. Van de Velde was aanwezig tijdens de Slag bij Terheide in 1653. De tekeningen die hij aan boord maakte, werkte hij uit in het penschilderij.</dc:description>
+                <dc:identifier>SK-A-1365</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20071610" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21051611" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2108726" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221132" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221617" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/230572" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/240101" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/240294" />
+                <dc:title xml:lang="en">De zeeslag bij Terheide</dc:title>
+                <dc:title xml:lang="en">The Battle of Terheide</dc:title>
+                <dc:title xml:lang="nl">De zeeslag bij Terheide</dc:title>
+                <dc:title xml:lang="nl">The Battle of Terheide</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220925" />
+                <ns5:created xml:lang="en">1657</ns5:created>
+                <ns5:created xml:lang="nl">1657</ns5:created>
+                <ns5:extent xml:lang="en">height 170 cm x width 289 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 170 cm x breedte 289 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260213" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100494" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301127023" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301140466" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301142689" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301152219" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301216127" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30161444" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30187043" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30198970" />
+                <ns5:isReferencedBy>Harm Stevens, 'Uitgelijnd : Zeeslag bij Terheide, 10 augustus 1653', Rijksmuseum Kunstkrant 24 (1998) nar. 6, p. 20-21.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>P. Sigmond, 'Collectie : Zeeslagen en zeehelden in de Gouden Eeuw, Maritieme geschiedenis in het De Ruyterjaar', Rijksmuseum Kunstkrant, 33 (2007) 2, p. 5-8 (afb.).</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220365" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/cOyAv/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/cOyAv" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/cOyAv/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-1365--434ca25302f765b5b616246040488da9">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns7:prefLabel xml:lang="en">RijksXL</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">RijksXL</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260213">
+            <ns7:prefLabel xml:lang="en">Top 100</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 100</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns7:prefLabel xml:lang="en">biografic</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">biografisch</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns7:prefLabel xml:lang="en">paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderijen</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns7:prefLabel xml:lang="en">canvas</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">doek</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220365">
+            <ns7:prefLabel xml:lang="en">ink</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">inkt</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns7:prefLabel xml:lang="en">painting</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderij</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/220925">
+            <ns7:prefLabel xml:lang="nl">penschildering</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221132">
+            <ns8:sameAs rdf:resource="https://iconclass.org/46C24" />
+            <ns7:altLabel>46C24</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">sailing-ship, sailing-boat</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221617">
+            <ns8:sameAs rdf:resource="https://iconclass.org/45H3%28%2B32%29" />
+            <ns7:altLabel>45H3(+32)</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">battle (+ sailing-ships)</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/cOyAv">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21043301">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/3270908" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500014495" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q722912" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/79793" />
+            <ns9:dateOfBirth xml:lang="nl">1611</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1693-12-13</ns9:dateOfDeath>
+            <ns9:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230105">
+                <ns7:prefLabel xml:lang="en">Leiden</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Leiden</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfBirth>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230164">
+                <ns7:prefLabel xml:lang="en">London</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Londen</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns7:prefLabel xml:lang="en">draftsman (artist)</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">tekenaar</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns7:prefLabel xml:lang="en">painter</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">schilder</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Velde, Willem van de (I)</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Velde, Willem van de (I)</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Willem van de Velde (I)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Willem van de Velde (I)</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21051611">
+            <ns9:dateOfBirth xml:lang="nl">1608-12-06</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1670-01-03</ns9:dateOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2203194">
+                <ns7:prefLabel xml:lang="en">admiral</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">admiraal</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2205168">
+                <ns7:prefLabel xml:lang="en">statesman</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">staatsman</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="nl">Monck, George (hertog van Albemarle)</ns7:altLabel>
+            <ns7:prefLabel xml:lang="nl">George Monck (hertog van Albemarle)</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2108726">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/50024751" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q470200" />
+            <ns9:dateOfBirth xml:lang="nl">1598-04-23</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1653-08-10</ns9:dateOfDeath>
+            <ns9:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/230946" />
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230604">
+                <ns7:prefLabel xml:lang="nl">Scheveningen</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2203194">
+                <ns7:prefLabel xml:lang="en">admiral</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">admiraal</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Tromp, Maarten Harpertszoon</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Tromp, Maarten Harpertszoon</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Maarten Harpertszoon Tromp</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Maarten Harpertszoon Tromp</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns7:prefLabel>Rijksmuseum</ns7:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/230572">
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/tgn/7271506" />
+            <ns7:prefLabel xml:lang="nl">Ter Heijde</ns7:prefLabel>
+            <ns10:lat>4.166667</ns10:lat>
+            <ns10:long>52.033333</ns10:long>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/230946">
+            <ns7:prefLabel xml:lang="en">Brielle</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Brielle (Zuid-Holland)</ns7:prefLabel>
+          </ns3:Place>
+          <ns3:TimeSpan rdf:about="https://id.rijksmuseum.nl/240101">
+            <ns7:prefLabel xml:lang="nl">Eerste Engelse Oorlog</ns7:prefLabel>
+          </ns3:TimeSpan>
+          <ns3:TimeSpan rdf:about="https://id.rijksmuseum.nl/240294">
+            <ns7:prefLabel xml:lang="en">Battle of Scheveningen</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Zeeslag bij Terheide</ns7:prefLabel>
+          </ns3:TimeSpan>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

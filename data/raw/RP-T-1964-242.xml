@@ -1,0 +1,193 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200369098</ns0:identifier>
+        <ns0:datestamp>2026-06-08T19:36:01Z</ns0:datestamp>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26133</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200369098#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200369098">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2102819" />
+                <dc:description xml:lang="nl">Mauve is frontaal afgebeeld, hij kijkt de beschouwer aan. De bovenkant van zijn pak is met enkele krijtstrepen aangegeven. Witsen gebruikte sterke licht-donkercontrasten. Het licht komt van rechts, valt over het voorhoofd en op het haar, maakt een lichtvlekje op de neus en werpt een sterke schaduw aan de linkerkant van het gezicht.</dc:description>
+                <dc:identifier>RP-T-1964-242</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2102301" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221328" />
+                <dc:title xml:lang="nl">Portret van de kunstschilder Anton Mauve</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220363" />
+                <ns5:created xml:lang="en">c. 1885</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1885</ns5:created>
+                <ns5:extent xml:lang="en">height 198 mm x width 130 mm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 198 mm x breedte 130 mm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26133" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301150426" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22020" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220944" />
+                <ns5:provenance xml:lang="en">…; on loan from the Witsenhuis to the museum, 1964</ns5:provenance>
+                <ns6:spn xml:lang="en">On loan from the Willem Witsenhuis</ns6:spn>
+                <ns6:spn xml:lang="nl">Bruikleen van het Willem Witsenhuis</ns6:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/FxDdC/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/FxDdC" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/FxDdC/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/RP-T-1964-242--ffc831697407d6836de4c47597df561f">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26133">
+            <ns8:prefLabel xml:lang="en">drawings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">tekeningen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22020">
+            <ns8:prefLabel xml:lang="en">paper</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">papier (materiaal)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220363">
+            <ns8:prefLabel xml:lang="en">drawing</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">tekening</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220944">
+            <ns8:prefLabel xml:lang="en">chalk</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">krijt</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221328">
+            <ns9:sameAs rdf:resource="https://iconclass.org/48C513" />
+            <ns8:altLabel>48C513</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">portrait, self-portrait of painter</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/FxDdC">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2102301">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/35252522" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500009041" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q591907" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/54139" />
+            <ns10:dateOfBirth xml:lang="nl">1838-09-18</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1888-02-05</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230438">
+                <ns8:prefLabel xml:lang="nl">Zaandam</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2306">
+                <ns8:prefLabel xml:lang="en">Arnhem</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Arnhem</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Mauve, Anton</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Anthonij Mauve</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Mauve, Anthonij</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Mauve, Anton</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Anton Mauve</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Anton Mauve</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2102819">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/57673889" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500025421" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q2614892" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/85165" />
+            <ns10:dateOfBirth xml:lang="nl">1860-08-13</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1923-04-13</ns10:dateOfDeath>
+            <ns10:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/23029985" />
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns8:prefLabel xml:lang="en">Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Amsterdam</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Witsen, Willem</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Verberchem, W.J.</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">W.J. Verberchem</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">W.J. van Westervoorde</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Westervoorde, W.J. van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Willem Arnold Witsen</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Willem Arnoldus Witsen</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Witsen, Willem Arnold</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Witsen, Willem Arnoldus</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Witsen, Willem</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Willem Witsen</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Willem Witsen</ns8:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

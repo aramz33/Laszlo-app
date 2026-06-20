@@ -1,0 +1,183 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20027803</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:27:59Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>26121</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20027803#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20027803">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210169673" />
+                <dc:description xml:lang="en">A young man leans on a window ledge, smoking a pipe and looking out at us. Dou was a master of illusionism. The open book on the sill seems to protrude from the window into our space, and the green curtain hanging from the copper rod is so realistically painted that we are tempted to draw it farther back. However, the painting’s small size gives away the deception.</dc:description>
+                <dc:description xml:lang="nl">Een jongeman kijkt ons vanuit een vensternis aan, terwijl hij een pijp rookt. Dou is een meester in het scheppen van illusies. Het opengeslagen boek lijkt vanuit het raam onze ruimte in te steken, en ook het groene gordijntje aan de koperen roede is zo realistisch geschilderd dat we bijna worden verleid het opzij te&lt;BR /&gt;trekken. Maar toch, het schilderij is zo klein dat het daardoor zijn bedrog prijsgeeft.</dc:description>
+                <dc:identifier>SK-A-86</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/210169673" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221246" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221308" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221328" />
+                <dc:title xml:lang="en">Man Smoking a Pipe</dc:title>
+                <dc:title xml:lang="en">Pijprokende man</dc:title>
+                <dc:title xml:lang="nl">Man Smoking a Pipe</dc:title>
+                <dc:title xml:lang="nl">Pijprokende man</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:alternative xml:lang="en">Self Portrait</ns5:alternative>
+                <ns5:alternative xml:lang="nl">Zelfportret</ns5:alternative>
+                <ns5:created xml:lang="en">c. 1650 - c. 1655</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1650 - ca. 1655</ns5:created>
+                <ns5:extent xml:lang="en">frame: height 64 cm x width 52.8 cm x thickness 6.5 cm</ns5:extent>
+                <ns5:extent xml:lang="en">height 48 cm x width 36.6 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 48 cm (paneelmaat) x breedte 36,6 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">lijst: hoogte 64 cm x breedte 52,8 cm x dikte 6,5 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26121" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2621504" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301120565" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144218" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301211623" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30133502" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015253" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30184937" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30188097" />
+                <ns5:isReferencedBy>P. Hecht, 'Art beats nature, and painting does so best of all: the 'paragone' competition in Duquesnoy, Dou and Schalcken', Simiolus 29 (2002), nr. 3/4, p. 196, afb. 14.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Robert Fucci, Parrhasius and the art of display : The illusionistic curtain in seventeenth-century Dutch painting, uit: Nederlands kunsthistorisch jaarboek = Netherlandish yearbook for history of art., 65, 2015, pagina 145-174 - p. 156, afb. 9</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220116" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">…; ? collection Franco Reyers van Bleyswijk (1695-1734), Delft, 1734, in the front room (‘Een stuk (tabakrooker) van Dou fl. 200’);{Private agreement relating to the paintings he bequeathed; published in C. Hofstede de Groot, ‘Schilderijenverzamelingen van het geslacht Slingelandt: Bijdrage tot de wordingsgeschiedenis van het Koninklijk Kabinet van Schilderijen’, _&lt;em&gt;Oud Holland&lt;/em&gt;_ 10 (1892), pp. 229-37, esp. p. 235.} his niece, Maria Catharina van der Burch (1707-1761), Delft, 1734;{C. Hofstede de Groot, ‘Schilderijenverzamelingen van het geslacht Slingelandt: Bijdrage tot de wordingsgeschiedenis van het Koninklijk Kabinet van Schilderijen’, _&lt;em&gt;Oud Holland&lt;/em&gt;_ 10 (1892), pp. 229-37, esp. p. 235.} ? collection of her husband, Hendrik van Slingelandt (1702-1759), The Hague, 1752 (‘Een Tabaks rooker zynde ’t pourtrait van G. Dou door hem zelfs geschildert. H. 17 en een half, x 13 en een half d. [45.8 x 35.3 cm]’);{G. Hoet, _&lt;em&gt;Catalogus of naamlyst van schilderyen, met derzelver pryzen zedert een langen reeks van jaaren zoo in Holland als op andere plaatzen in het openbaar verkogt: Benevens een verzameling van lysten van verscheyden nog in wezen zynde cabinetten&lt;/em&gt;_, II, The Hague 1752, p. 407.} ? his will, The Hague, 6 September 1761, no. 3 (‘Een Rookendt Mannetje door G. Douw fl. 300’);{C. Hofstede de Groot, ‘Schilderijenverzamelingen van het geslacht Slingelandt: Bijdrage tot de wordingsgeschiedenis van het Koninklijk Kabinet van Schilderijen’, _&lt;em&gt;Oud Holland&lt;/em&gt;_ 10 (1892), pp. 229-37, esp. p. 231.} ? his son, Baron Barthout van Slingelandt (1731-1798), Dordrecht;{C. Hofstede de Groot, ‘Schilderijenverzamelingen van het geslacht Slingelandt: Bijdrage tot de wordingsgeschiedenis van het Koninklijk Kabinet van Schilderijen’, _&lt;em&gt;Oud Holland&lt;/em&gt;_ 10 (1892), pp. 229-37, esp. p. 231.} ? probate inventory, his widow, Baroness Magdalena Anna Elisabeth van Boetzelaer (1756-1808), The Hague, 29 September 1808, in the large front room (‘Een dito, verbeeldende ’t pourtrait van Gerrit Dou door _&lt;em&gt;hem zelf&lt;/em&gt;_ geschilderd’);{C. Hofstede de Groot, ‘Schilderijenverzamelingen van het geslacht Slingelandt: Bijdrage tot de wordingsgeschiedenis van het Koninklijk Kabinet van Schilderijen’, _&lt;em&gt;Oud Holland&lt;/em&gt;_ 10 (1892), pp. 229-37, esp. p. 232.} ? her probate inventory, The Hague, 28 July 1811 (‘Een binnenvertrek waarin een figuur, waarschijnlijk G. Dou met verder verschiet en beelden uitvoerig door G. Douw fl. 450’);{C. Hofstede de Groot, ‘Schilderijenverzamelingen van het geslacht Slingelandt: Bijdrage tot de wordingsgeschiedenis van het Koninklijk Kabinet van Schilderijen’, _&lt;em&gt;Oud Holland&lt;/em&gt;_ 10 (1892), pp. 229-37, esp. p. 234.} ? her daughter, Baroness Diderica Catharina van Slingelandt (1794-1838), The Hague;{C. Hofstede de Groot, ‘Schilderijenverzamelingen van het geslacht Slingelandt: Bijdrage tot de wordingsgeschiedenis van het Koninklijk Kabinet van Schilderijen’, _&lt;em&gt;Oud Holland&lt;/em&gt;_ 10 (1892), pp. 229-37, esp. pp. 233-34. The statement in C. Hofstede de Groot, _&lt;em&gt;Beschreibendes und kritisches Verzeichnis der Werke der hervorragendsten holländischen Maler des XVII. Jahrhunderts&lt;/em&gt;_, I, Esslingen/Paris 1907, p. 426, no. 267, that the painting was auctioned in 1827 from the collection of Hendrik Reyden is incorrect, because the sale catalogue gives other dimensions and a different format.} ? her husband, Jonkheer Daniel Hooft (1788-1860), Amsterdam; ? his sale, Amsterdam (C.F. Roos et al.), 30 October 1860, no. 1 (‘Gerard Dou. Portrait du maître. No. 1. Il paraît avoir l’age de trente à trent cinq ans, et s’est placé accoudé sur l’appui d’une niche fénestrale, fumant une pipe; de la main droite il semble avoir feuilleté dans un livre de gravures ouvert devant lui, dont le contenu semble lui rendre l’air pensif et naif, sous la toque de velours cramoisi s’échappant de longues boucles de cheveux blonds qui tombent sur les épaules; une légère collerette rabattue entoure le cou, son pourpoint est d’un brun maron, détache d’en bas, laissent voir la chemise; il se détache contre un fond neutre, qui se perd du côté droit dans des tons mystérieux et dévoile un attelier, dans lequel deux élêves sont en besogne, près d’eux un chevalet. A l’extérieur de la niche pend un ample rideau bleu pâle. Suffit de dire que cet admirable chef d’œuvre d’une si extrême rareté, porte le cachet indibutable, que Dou fut un des plus dignes élèves de Rembrandt. Haut 49 Large 36 centimètres, sur bois. NB Le tableau que nous venons de signaler provient par succession du Sieur P. van Slingelandt, artiste et bourgemaître; dans la famille Hooft, la tradition en dit, que Dou lui en fit cadeau en souvenir d’amitié, et ce qui rend notre tradition encore plus évidente, c’est que jamais jusqu’à ce jour ce portrait n’ait paru en vente publique. Note des Directeurs’), fl. 6,400, to Roos, for the dealer O. de Kat, Dordrecht;{Copy RKD.}…; collection Leendert Dupper Willemsz (1799-1870), Dordrecht;{C. von Lützow, ‘Die vormals Dupper’sche Sammlung’, _&lt;em&gt;Zeitschrift für bildende Kunst&lt;/em&gt;_ 5 (1870), pp. 227-30, esp. p. 228.} by whom bequeathed to the museum, as _&lt;em&gt;Self-Portrait&lt;/em&gt;_, with 63 other paintings, 12 April 1870{NHA, ARM, IS, inv. 30, nos. 123 (8 March 1870), 132 (25 April 1870, no. 245); NHA, ARM, Kop., inv. 39, pp. 62-63 (11 May 1870).}</ns5:provenance>
+                <ns6:spn xml:lang="en">Dupper Wzn. Bequest, Dordrecht</ns6:spn>
+                <ns6:spn xml:lang="nl">Legaat van L. Dupper Wzn., Dordrecht</ns6:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/FhWMP/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/FhWMP" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/FhWMP/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-86--c83dd88085efb63bd3af44150a0dab32">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26121">
+            <ns8:prefLabel xml:lang="en">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220116">
+            <ns8:prefLabel xml:lang="en">panel</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">paneel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221246">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41C741" />
+            <ns8:altLabel>41C741</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">pipe ~ tobacco</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221308">
+            <ns9:sameAs rdf:resource="https://iconclass.org/49MM32" />
+            <ns8:altLabel>49MM32</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">book - MM - book open</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221328">
+            <ns9:sameAs rdf:resource="https://iconclass.org/48C513" />
+            <ns8:altLabel>48C513</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">portrait, self-portrait of painter</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/FhWMP">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210169673">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/96538660" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500115513" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q335927" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/23986" />
+            <ns10:dateOfBirth xml:lang="nl">1613-04-07</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1675</ns10:dateOfDeath>
+            <ns10:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/230105" />
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230105">
+                <ns8:prefLabel xml:lang="en">Leiden</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Leiden</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Dou, Gerard</ns8:altLabel>
+            <ns8:altLabel xml:lang="en">Gerard Dou</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Dou, Gerard</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Dou, Gerrit</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Gerard Dou</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">Gerrit Dou</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

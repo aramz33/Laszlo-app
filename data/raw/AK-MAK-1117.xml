@@ -1,0 +1,127 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20023558</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:01:04Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260247</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26134</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20023558#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20023558">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210792" />
+                <dc:description xml:lang="en">Tsuba with a phoenix and plant design. 17th century; signed: Umetada Myôju (1559 - 1631); iron, gold, silver.</dc:description>
+                <dc:description xml:lang="nl">Tsuba met feniks en planten. 17de eeuw; gesigneerd: Umetada Myôju (1559 - 1631); ijzer, goud, zilver.</dc:description>
+                <dc:identifier>AK-MAK-1117</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22182" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22183" />
+                <dc:title xml:lang="en">Hand guard</dc:title>
+                <dc:title xml:lang="nl">Zwaardstootplaat</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220542" />
+                <ns5:created xml:lang="en">1600 - 1900</ns5:created>
+                <ns5:created xml:lang="nl">1600 - 1900</ns5:created>
+                <ns5:extent xml:lang="en">height 10.3 cm x width 9.3 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 10,3 cm x breedte 9,3 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260247" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26134" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220144" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220237" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22028" />
+                <ns5:provenance xml:lang="en">…; collection of Herman Karel Westendorp (1868-1941), Amsterdam, 1941;{Note RMA.} his widow Betsy Westendorp-Osieck (1880-1968), Amsterdam, by whom bequeathed to the Vereniging van Vrienden der Aziatische Kunst, 1968;{note RMA.} from whom on loan to the museum, 1972</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23027" />
+                <ns6:spn xml:lang="en">On loan from the Royal Asian Art Society in The Netherlands (Westendorp-Osieck bequest, 1968)</ns6:spn>
+                <ns6:spn xml:lang="nl">Bruikleen van de Koninklijke Vereniging van Vrienden der Aziatische Kunst (legaat Westendorp-Osieck, 1968)</ns6:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/FfVWF/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/FfVWF" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/FfVWF/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/AK-MAK-1117--b2a63ba28a98982f625d924e526acd07">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/23027">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/1000120" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q17" />
+            <ns8:prefLabel xml:lang="en">Japan</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Japan</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260247">
+            <ns8:prefLabel xml:lang="en">friends asian art</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">vrienden aziatische kunst</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26134">
+            <ns8:prefLabel xml:lang="nl">Japan (collectie)</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220144">
+            <ns8:prefLabel xml:lang="en">iron (metal)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">ijzer</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220237">
+            <ns8:prefLabel xml:lang="en">gold (metal)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">goud</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22028">
+            <ns8:prefLabel xml:lang="en">silver (metal)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">zilver</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220542">
+            <ns8:altLabel xml:lang="nl">zwaardstootplaat</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">tsuba</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22182">
+            <ns9:sameAs rdf:resource="https://iconclass.org/48A9834" />
+            <ns8:altLabel>48A9834</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">unidentifiable plant forms ~ ornament</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22183">
+            <ns9:sameAs rdf:resource="https://iconclass.org/25FF3%28PHOENIX%29" />
+            <ns8:altLabel>25FF3(PHOENIX)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">fabulous animals ~ birds: phoenix</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/FfVWF">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210792">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/305192148" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q37449107" />
+            <ns8:prefLabel xml:lang="nl">Umetada</ns8:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

@@ -1,0 +1,224 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns11="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200311602</ns0:identifier>
+        <ns0:datestamp>2026-06-08T16:28:31Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261205</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200311602#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200311602">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="en">This crown was intended as a diplomatic gift to the king of Ardra (a kingdom in West Africa) to promote trade in enslaved Africans. The nature and extent of human trafficking and slavery in West Africa changed with the arrival of the Dutch West India Company (WIC). Besides the fact that people were now being shipped to other continents, the colonial system made the status of enslaved people inheritable and linked to skin colour.</dc:description>
+                <dc:description xml:lang="nl">Deze kroon was bedoeld als diplomatiek geschenk voor de koning van Ardra (een koninkrijk in West-Afrika) om de handel in tot slaaf gemaakte Afrikanen te bevorderen. Met de komst van de West-Indische Compagnie (WIC) veranderde de aard en omvang van de  mensenhandel en slavernij in West-Afrika. Naast dat mensen nu verscheept werden naar andere continenten, werd in het koloniale systeem slavernij overerfbaar en aan huidskleur gekoppeld.</dc:description>
+                <dc:identifier>NG-NM-816-A</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200311604" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21030780" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21031853" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211477" />
+                <dc:title xml:lang="en">Crown for the King of Ardra</dc:title>
+                <dc:title xml:lang="en">Kroon voor de koning van Ardra</dc:title>
+                <dc:title xml:lang="nl">Crown for the King of Ardra</dc:title>
+                <dc:title xml:lang="nl">Kroon voor de koning van Ardra</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201263" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/22058" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220672" />
+                <ns5:created xml:lang="en">c. 1664</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1664</ns5:created>
+                <ns5:extent xml:lang="en">height 28 cm x diameter 18 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 28 cm x diameter 18 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261205" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301220787" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301252266" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301252268" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30165550" />
+                <ns5:isReferencedBy>Object van de maand (7), Gijs van der Ham, Historiek, 10 juli 2012 - http://historiek.net/overige/6696-een-kroon-voor-ardra-7</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220150" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220311" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2207803" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23041" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2202485" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2203154" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204537" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2207053" />
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/QtLPT/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/QtLPT" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/QtLPT/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/NG-NM-816-A--fb28ffe1d7419b5a83608d9e40645d57">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/23041">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/7002445" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q21" />
+            <ns8:prefLabel xml:lang="en">England</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Engeland</ns8:prefLabel>
+            <ns10:lat>-2</ns10:lat>
+            <ns10:long>53</ns10:long>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261205">
+            <ns8:prefLabel xml:lang="nl">maritieme collecties</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2201263">
+            <ns8:prefLabel xml:lang="en">crown</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">kroon</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220150">
+            <ns8:altLabel xml:lang="en">copper</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">roodkoper</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">copper (metal)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">koper</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202485">
+            <ns8:altLabel xml:lang="nl">ingelegd</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">inlay (process)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">inleggen</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220311">
+            <ns8:altLabel xml:lang="en">velvet (fabric weave)</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">velours d'Utrecht</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">velours-chiffon</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">velours</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">velvet (fabric weave)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">fluweel</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2203154">
+            <ns8:altLabel xml:lang="nl">gevoerd</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">voeren</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2204537">
+            <ns8:altLabel xml:lang="nl">gegoten</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">casting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">gieten</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22058">
+            <ns8:prefLabel xml:lang="en">clothing</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">kleding</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220672">
+            <ns8:prefLabel xml:lang="en">jewellery</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">sieraad</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2207053">
+            <ns8:altLabel xml:lang="nl">bevestigd</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">fastened</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">bevestigen</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2207803">
+            <ns8:prefLabel xml:lang="en">glass</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">glas</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2211477">
+            <ns9:sameAs rdf:resource="https://iconclass.org/44B193" />
+            <ns8:altLabel>44B193</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">orb (symbol of sovereignty; sphere with cross on top)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/QtLPT">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21030780">
+            <ns8:altLabel xml:lang="nl">Ardra, koning van</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">koning van Ardra</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21031853">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/100285921" />
+            <ns9:sameAs rdf:resource="http://www.biografischportaal.nl/persoon/19278350" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q316945" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/425705" />
+            <ns11:dateOfBirth xml:lang="nl">1607-03-24</ns11:dateOfBirth>
+            <ns11:dateOfDeath xml:lang="nl">1676-04-29</ns11:dateOfDeath>
+            <ns11:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230199">
+                <ns8:prefLabel xml:lang="en">Flushing</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Vlissingen</ns8:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfBirth>
+            <ns11:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2305274">
+                <ns8:prefLabel xml:lang="nl">Syracuse (stad)</ns8:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfDeath>
+            <ns11:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2203194">
+                <ns8:prefLabel xml:lang="en">admiral</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">admiraal</ns8:prefLabel>
+              </ns8:Concept>
+            </ns11:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Ruyter, Michiel Adriaenszoon de</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Michiel Adriaansz. de Ruijter</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Michiel Adriaansz. de Ruiter</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Michiel Adriaansz. de Ruyter</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Michiel Adriaensz. de Ruyter</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Ruijter, Michiel Adriaansz. de</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Ruiter, Michiel Adriaansz. de</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Ruyter, Michiel Adriaansz. de</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Ruyter, Michiel Adriaensz. de</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Ruyter, Michiel Adriaenszoon de</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Michiel Adriaenszoon de Ruyter</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Michiel Adriaenszoon de Ruyter</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns8:altLabel xml:lang="nl">Anon</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">anonymous</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">anoniem</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

@@ -1,0 +1,197 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns11="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20016281</ns0:identifier>
+        <ns0:datestamp>2026-06-08T01:31:23Z</ns0:datestamp>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26129</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20016281#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20016281">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21051012" />
+                <dc:description xml:lang="nl">Echarpe of loper van naturelkleurige naaldkant, Brusselse gaaskant. Een rechthoekig middenstuk met maasgrond is gevuld met opgaande, naar het midden gekeerde hyacinthen en bloeiende tulpenbollen, terwijl de randen gevuld zijn met lelietjes van dalen, die in kruisvorm zijn gecomponeerd. Aan de uiteinden staat het Nederlandse Koninklijke wapen, binnen een krans van eiketakken. Hieromheen staat een tweede schildvorm, bekroond met het opschrift JE MAINTIENDRAI, dat met linten en strikken is opgehangen aan een cirkelboog, die een brede rand omgeeft, waarop tien putti zich in reidans bewegen, oranje-appels strooiende uit manden en hoorns van overvloed. Deze rand wordt vergezeld van een rand met wapenschilden der negen Belgische provincies (Brabant, Luik, Henegouwen, Antwerpen, West-Vlaanderen, Oost-Vlaanderen, Limburg, Namen en Luxemburg), die in een zware keten als het ware geboeid zijn. Aan de uiteinden loopt een schulprand, waarin viermaal een met oranje-takken omkranste reserve met opschriften: tussen twee gekroonde W's de jaartallen 1914 en 1915, aan de andere zijde 1916 en 1917. Boven een der initialen staat de signatuur I. DE RUDDER.</dc:description>
+                <dc:identifier>BK-BR-J-233</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21010309" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221111" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211251" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221705" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22189" />
+                <dc:title xml:lang="nl">Echarpe of loper van naaldkant van Koningin Wilhelmina</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201893" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220370" />
+                <ns5:created xml:lang="en">1918</ns5:created>
+                <ns5:created xml:lang="nl">1918</ns5:created>
+                <ns5:extent xml:lang="en">height 245 cm x width 45 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 245 cm x breedte 45 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26129" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2622423" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3011485" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30177625" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22038" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230196" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/22010132" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/22047" />
+                <ns7:spn xml:lang="en">On loan from the Koninklijke Verzamelingen, The Hague</ns7:spn>
+                <ns7:spn xml:lang="nl">Bruikleen van de Koninklijke Verzamelingen, Den Haag</ns7:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/LLBFE/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/LLBFE" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/LLBFE/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-BR-J-233--88eb6b4d05dbe68c9f90874912b15b32">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/230196">
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/7007868" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q239" />
+            <ns9:prefLabel xml:lang="en">Brussels</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Brussel (stad)</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns9:prefLabel xml:lang="en">biografic</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">biografisch</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26129">
+            <ns9:prefLabel xml:lang="en">lace</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">kant</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22010132">
+            <ns9:altLabel xml:lang="nl">Vlaamse gaaskant</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">point de gaze de Bruxelles</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Brussels point de gaze</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Brusselse gaaskant</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2201893">
+            <ns9:prefLabel xml:lang="nl">echarpe</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220370">
+            <ns9:prefLabel xml:lang="en">runner</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">loper</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22038">
+            <ns9:prefLabel xml:lang="en">linen (material)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">linnen</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22047">
+            <ns9:prefLabel xml:lang="nl">naaldkant</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221111">
+            <ns10:sameAs rdf:resource="https://iconclass.org/44A1" />
+            <ns9:altLabel>44A1</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">coat of arms (as symbol of the state, etc.)</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2211251">
+            <ns10:sameAs rdf:resource="https://iconclass.org/92B11221" />
+            <ns9:altLabel>92B11221</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">'Cornucopia', Horn of Plenty</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221705">
+            <ns10:sameAs rdf:resource="https://iconclass.org/92D1916" />
+            <ns9:altLabel>92D1916</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">cupids: 'amores', 'amoretti', 'putti'</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22189">
+            <ns10:sameAs rdf:resource="https://iconclass.org/46A122" />
+            <ns9:altLabel>46A122</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">armorial bearing, heraldry</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/LLBFE">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21010309">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/261774037" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q150747" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/84533" />
+            <ns11:dateOfBirth xml:lang="nl">1880-08-31</ns11:dateOfBirth>
+            <ns11:dateOfDeath xml:lang="nl">1962-11-28</ns11:dateOfDeath>
+            <ns11:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+                <ns9:prefLabel xml:lang="en">The Hague</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Den Haag</ns9:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfBirth>
+            <ns11:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301436">
+                <ns9:prefLabel xml:lang="nl">Paleis Het Loo</ns9:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfDeath>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns9:prefLabel xml:lang="en">printmaker</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">prentmaker</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2203965">
+                <ns9:prefLabel xml:lang="en">writer (clerical worker)</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">schrijver</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2205832">
+                <ns9:prefLabel xml:lang="nl">koningin</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns9:altLabel xml:lang="nl">Koningin Wilhelmina</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Wilhelmina Helena Pauline Maria</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Wilhelmina of the Netherlands</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Wilhelmina (koningin der Nederlanden)</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21051012">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/77073632" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500168666" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q630353" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/20960" />
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2205719">
+                <ns9:prefLabel xml:lang="nl">patroonontwerper</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns9:altLabel xml:lang="en">De Rudder, Isidore</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">De Rudder, Isidore</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Isidoor de Rudder</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Rudder, Isidoor de</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Isidore De Rudder</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Isidore De Rudder</ns9:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

@@ -1,0 +1,151 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200106516</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:00:30Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260247</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26126</ns0:setSpec>
+        <ns0:setSpec>261132</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200106516#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200106516">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="en">Maitreya, the Buddha of the Future, will appear during the following world cycle and rule an earthly paradise as successor to the Buddha. At present he is still in his heaven, awaiting his descent to earth. This figure comes from Longmen, a complex of Buddhist temples carved from the living rock. The fine stylization of the drapery and the facial features are typical of sculpture from this site.</dc:description>
+                <dc:description xml:lang="nl">Maitreya, de boeddha van de toekomst, zal in de volgende wereldperiode op aarde verschijnen en daar als opvolger van de Boeddha regeren. Voorlopig is hij nog in zijn paradijs, in afwachting van zijn afdaling naar de aarde. Dit beeld bevond zich in Longmen, een complex van boeddhistische tempels, uitgehouwen in een rotswand. Kenmerkend daarvoor is de fijne stilering van de kledingplooien en de gelaatstrekken.</dc:description>
+                <dc:identifier>AK-MAK-71</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22174" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22175" />
+                <dc:title xml:lang="en">De bodhisattva Maitreya</dc:title>
+                <dc:title xml:lang="en">The bodhisattva Maitreya</dc:title>
+                <dc:title xml:lang="nl">De bodhisattva Maitreya</dc:title>
+                <dc:title xml:lang="nl">The bodhisattva Maitreya</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201048" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220297" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220511" />
+                <ns5:created xml:lang="en">500 - 525</ns5:created>
+                <ns5:created xml:lang="nl">500 - 525</ns5:created>
+                <ns5:extent xml:lang="en">height 46 cm x width 37.5 cm x depth 8 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 46 cm x breedte 37,5 cm x diepte 8 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260247" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261132" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26126" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30112489" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301156776" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301209248" />
+                <ns5:isReferencedBy>Menno Fitski, 'Twee bodhisattva's en een windstreekhoeder', Aziatische Kunst 38 (2008), nr. 3, p. 79-86.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220455" />
+                <ns5:provenance xml:lang="en">…; donated by the dealer C.T. Loo, Paris, to the Vereniging van Vrienden der Aziatische Kunst, 1938;{Note RMA.} from whom on loan to the museum, 1972</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/23043" />
+                <ns6:spn xml:lang="en">On loan from the Royal Asian Art Society in The Netherlands (gift of C.T. Loo, 1938)</ns6:spn>
+                <ns6:spn xml:lang="nl">Bruikleen van de Koninklijke Vereniging van Vrienden der Aziatische Kunst (schenking C.T. Loo, 1938)</ns6:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/yuEmA/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/yuEmA" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/yuEmA/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/AK-MAK-71--f3c9cfd442e41cb92003e271da436d7c">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/23043">
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/tgn/8627121" />
+            <ns8:prefLabel xml:lang="nl">Longmen</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260247">
+            <ns8:prefLabel xml:lang="en">friends asian art</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">vrienden aziatische kunst</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261132">
+            <ns8:prefLabel xml:lang="nl">China (collectie)</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26126">
+            <ns8:prefLabel xml:lang="en">sculptures</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">beeldhouwwerken</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2201048">
+            <ns8:altLabel xml:lang="nl">sculptuur</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">sculpture</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">beeldhouwwerk</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220297">
+            <ns8:prefLabel xml:lang="en">figure</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">beeld</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220455">
+            <ns8:prefLabel xml:lang="en">limestone</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">kalksteen</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220511">
+            <ns8:prefLabel xml:lang="nl">Maitreya</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22174">
+            <ns9:sameAs rdf:resource="https://iconclass.org/12H13" />
+            <ns8:altLabel>12H13</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">representations ~ gods, demi-gods, heroes, etc. (Hinduism, Buddhism, Jainism)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22175">
+            <ns9:sameAs rdf:resource="https://iconclass.org/12H63" />
+            <ns8:altLabel>12H63</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">statues, paintings, etc. ~ objects of worship (Hinduism, Buddhism, Jainism)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/yuEmA">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns8:altLabel xml:lang="nl">Anon</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">anonymous</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">anoniem</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

@@ -1,0 +1,176 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20026622</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:19:37Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>26121</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20026622#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20026622">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21098488" />
+                <dc:description xml:lang="en">Abraham van Beyeren (1620/21 - 1690). Still life, c. 1660. The Hague painter Van Beyeren has assembled a colourful assortment of objects and fruits. This type of luxurious still life was in fashion around 1650. Van Beyeren specialized in the genre, following in the footsteps of Jan Davidsz de Heem, who developed this type of still life. Purchased in 1958.</dc:description>
+                <dc:description xml:lang="nl">Abraham van Beyeren (1620/21 - 1690). Pronkstilleven met gouden beker, ca. 1660. De Haagse schilder Van Beyeren heeft op dit schilderij een bonte verzameling voorwerpen en vruchten bijeengebracht. Dit soort pronkstillevens raakten omstreeks 1650 in de mode. Van Beyeren was een specialist in dit genre. Hij trad daarmee in de voetsporen van de in Antwerpen woonachtige Jan Davidsz de Heem, die dit type stilleven ontwikkelde. Aankoop 1958.</dc:description>
+                <dc:identifier>SK-A-3944</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200315030" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20066837" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221528" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221554" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221555" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221681" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221937" />
+                <dc:title xml:lang="en">Still Life</dc:title>
+                <dc:title xml:lang="nl">Stilleven</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">after 1655</ns5:created>
+                <ns5:created xml:lang="nl">na 1655</ns5:created>
+                <ns5:extent xml:lang="en">outer size: depth 10.5 cm (support incl. frame)</ns5:extent>
+                <ns5:extent xml:lang="en">support: height 127 cm x width 106.5 cm x thickness 3 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">buitenmaat: diepte 10,5 cm (drager incl. SK-L-1002)</ns5:extent>
+                <ns5:extent xml:lang="nl">drager: hoogte 127 cm x breedte 106,5 cm x dikte 3 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26121" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301120564" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301133249" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3015253" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">…; ? collection Baroness Marie Elbertine van Welderen Rengers, née van Pallandt (1902-1986), 't Reelaer Castle, Heino, near Raalte;{Note RMA.}…; sale, A. de Labrouhe de Laborderie (Paris), Amsterdam (F. Muller), 23 May 1922, no. 1, fl. 6,800;{Copy RKD.}…; ? the dealer Daniel Katz, Dieren;{Note RMA.}…; ? the dealer Eugene Slatter, London;{Note RMA.}…; purchased from William R. Drown, London, by the museum, through the mediation of the dealer D.A. Hoogendijk, with the support of the Jubileumfonds, 1958</ns5:provenance>
+                <ns6:spn xml:lang="en">Purchased with the support of the Stichting Jubileumfonds Rijksmuseum</ns6:spn>
+                <ns6:spn xml:lang="nl">Aankoop met steun van de Stichting Jubileumfonds Rijksmuseum</ns6:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/rdVfD/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/rdVfD" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/rdVfD/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-3944--cd3703752d9543fee6016b51cbe38553">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26121">
+            <ns8:prefLabel xml:lang="en">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Dutch Paintings of the Seventeenth Century in the Rijksmuseum</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns8:prefLabel xml:lang="en">canvas</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">doek</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221528">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41A671" />
+            <ns8:altLabel>41A671</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">still life of plants, flowers and fruit</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221554">
+            <ns9:sameAs rdf:resource="https://iconclass.org/25F716%28CRAB%29" />
+            <ns8:altLabel>25F716(CRAB)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">crustaceans: crab</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221555">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41C38" />
+            <ns8:altLabel>41C38</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">laid table as still life</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221681">
+            <ns9:sameAs rdf:resource="https://iconclass.org/23U25" />
+            <ns8:altLabel>23U25</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">watch</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221937">
+            <ns9:sameAs rdf:resource="https://iconclass.org/25G21%28LEMON%29" />
+            <ns8:altLabel>25G21(LEMON)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">fruits: lemon</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/rdVfD">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21098488">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/24459171" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500029249" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q330848" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/7990" />
+            <ns10:dateOfBirth xml:lang="nl">1620</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1690-03</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301261">
+                <ns8:prefLabel xml:lang="en">The Hague</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Den Haag</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2302147">
+                <ns8:prefLabel xml:lang="en">Overschie</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Overschie</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Abraham van Beyeren</ns8:altLabel>
+            <ns8:altLabel xml:lang="en">Beyeren, Abraham van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Abraham Hendricksz. van Beyeren</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Abraham van Beyeren</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Beijeren, Abraham van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Beyeren, Abraham Hendricksz. van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Beyeren, Abraham van</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">Abraham van Beijeren</ns8:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

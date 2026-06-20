@@ -1,0 +1,253 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns11="http://rdvocab.info/ElementsGr2/" xmlns:ns12="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20030779</ns0:identifier>
+        <ns0:datestamp>2026-06-08T01:10:28Z</ns0:datestamp>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>260236</ns0:setSpec>
+        <ns0:setSpec>261169</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20030779#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20030779">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="nl">In het medaillon rechts twee putti met brandende toortsen en in het linker medaillon een klassiek geklede vrouw met liefdes- of huwelijkskransen.  Fijn gesneden montuur versierd met liefdessymboliek. Rechter buitenbeen: altaar met twee duiven, brandende toorts, liggend beest, staf, trofee met luit, trofee met brandende toorts en doedelzak. Linker buitenbeen idem. Handdeel montuur: twee harten in medaillon, trofee met doedelzak en pijlenkoker, strik waaraan een mand met bloemen en fruit, altaar met brandende harten, in het midden: altaar met liggend beest. Achterkant blad is onversierd.</dc:description>
+                <dc:identifier>BK-1978-315-A</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20069353" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21052512" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21052546" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21084872" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211251" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211252" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2211253" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221317" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221667" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221705" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/23029985" />
+                <dc:title xml:lang="nl">Vouwwaaier met blad van papier waarop in aquarel een huwelijksscène</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201188" />
+                <ns5:created xml:lang="en">c. 1765 - c. 1780</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1765 - ca. 1780</ns5:created>
+                <ns5:extent xml:lang="en">length 28.5 cm x span 52 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">geheel: lengte 28,5 cm x spanwijdte 52 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260236" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261169" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/262432" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/262438" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301148010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220102" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22020" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22021" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220462" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2205276" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2205674" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/2301" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2203175" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2204652" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2205856" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206584" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206689" />
+                <ns7:spn xml:lang="en">Gift of Jonkvrouw C.I. Six, 's-Graveland</ns7:spn>
+                <ns7:spn xml:lang="nl">Schenking van jkvr. C.I. Six, 's-Graveland</ns7:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/JSyrW/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/JSyrW" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/JSyrW/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-1978-315-A--e1fb3761e6e8be8d573c2649461fe523">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2301">
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/7016845" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q55" />
+            <ns10:sameAs rdf:resource="https://sws.geonames.org/2750405/" />
+            <ns9:prefLabel xml:lang="en">Netherlands</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Nederland</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260236">
+            <ns9:prefLabel xml:lang="en">fashion</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">mode</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns9:prefLabel xml:lang="en">biografic</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">biografisch</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261169">
+            <ns9:prefLabel xml:lang="en">accessories</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">accessoires</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220102">
+            <ns9:prefLabel xml:lang="en">ivory</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">ivoor</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2201188">
+            <ns9:prefLabel xml:lang="nl">vouwwaaier</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22020">
+            <ns9:prefLabel xml:lang="en">paper</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">papier (materiaal)</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22021">
+            <ns9:prefLabel xml:lang="en">wood (plant material)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">hout</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2203175">
+            <ns9:altLabel xml:lang="nl">geslepen</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">grinding</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">slijpen</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220462">
+            <ns9:altLabel xml:lang="en">watercolor (paint)</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">aquarelverf</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">watercolor (paint)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">waterverf</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2204652">
+            <ns9:altLabel xml:lang="nl">gesneden</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">uitgesneden</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">uitsnijden</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">cutting</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">snijden</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2205276">
+            <ns9:altLabel xml:lang="en">leaf (metal)</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">metaalfolie</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">leaf (metal)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">bladmetaal</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2205674">
+            <ns9:altLabel xml:lang="en">paste (glass)</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">strass</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">strasz</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">paste (glass)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">stras</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2205856">
+            <ns9:altLabel xml:lang="nl">geschept</ns9:altLabel>
+            <ns9:prefLabel xml:lang="nl">scheppen (papierbereiding)</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2206584">
+            <ns9:altLabel xml:lang="nl">geaquarelleerd</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">aquarelle</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">aquarelleren</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2206689">
+            <ns9:prefLabel xml:lang="nl">adhesie</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2211251">
+            <ns10:sameAs rdf:resource="https://iconclass.org/92B11221" />
+            <ns9:altLabel>92B11221</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">'Cornucopia', Horn of Plenty</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2211252">
+            <ns10:sameAs rdf:resource="https://iconclass.org/41B32" />
+            <ns9:altLabel>41B32</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">torch</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2211253">
+            <ns10:sameAs rdf:resource="https://iconclass.org/92D1913" />
+            <ns9:altLabel>92D1913</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">(story of) Hymen(aeus)</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221317">
+            <ns10:sameAs rdf:resource="https://iconclass.org/42D3" />
+            <ns9:altLabel>42D3</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">marriage, married couple, 'matrimonium'</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221667">
+            <ns10:sameAs rdf:resource="https://iconclass.org/48A9875" />
+            <ns9:altLabel>48A9875</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">ornament ~ festoon, garland</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221705">
+            <ns10:sameAs rdf:resource="https://iconclass.org/92D1916" />
+            <ns9:altLabel>92D1916</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">cupids: 'amores', 'amoretti', 'putti'</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/JSyrW">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21052512">
+            <ns11:dateOfBirth xml:lang="nl">1897-03-09</ns11:dateOfBirth>
+            <ns11:dateOfDeath xml:lang="nl">1986-11-02</ns11:dateOfDeath>
+            <ns11:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/7006952" />
+                <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q727" />
+                <ns10:sameAs rdf:resource="https://sws.geonames.org/2759794/" />
+                <ns9:prefLabel xml:lang="en">Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Amsterdam</ns9:prefLabel>
+                <ns12:lat>4.916667</ns12:lat>
+                <ns12:long>52.35</ns12:long>
+              </ns3:Place>
+            </ns11:placeOfBirth>
+            <ns11:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2303467">
+                <ns9:prefLabel xml:lang="nl">'s-Graveland</ns9:prefLabel>
+              </ns3:Place>
+            </ns11:placeOfDeath>
+            <ns9:altLabel xml:lang="nl">Six, jonkvrouw Catharina Isabella</ns9:altLabel>
+            <ns9:prefLabel xml:lang="nl">jonkvrouw Catharina Isabella Six</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21052546">
+            <ns9:altLabel xml:lang="nl">Six-Teding van Berkhout, C.</ns9:altLabel>
+            <ns9:prefLabel xml:lang="nl">C. Six-Teding van Berkhout</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns9:altLabel xml:lang="nl">Anon</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">anonymous</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">anoniem</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21084872">
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q108056772" />
+            <ns11:dateOfBirth xml:lang="nl">1859</ns11:dateOfBirth>
+            <ns11:dateOfDeath xml:lang="nl">1919</ns11:dateOfDeath>
+            <ns9:altLabel xml:lang="nl">Six, jonkheer Willem (1859-1919)</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Six, jonkheer Willem</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">jonkheer Willem Six</ns9:altLabel>
+            <ns9:prefLabel xml:lang="nl">jonkheer Willem Six (1859-1919)</ns9:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

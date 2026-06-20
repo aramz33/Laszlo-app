@@ -1,0 +1,161 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://rdfs.org/sioc/services#" xmlns:ns7="http://www.w3.org/2004/02/skos/core#" xmlns:ns8="http://www.w3.org/2002/07/owl#" xmlns:ns9="http://rdvocab.info/ElementsGr2/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20015860</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:16:53Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20015860#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20015860">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2106183" />
+                <dc:description xml:lang="en">Bentheim Castle still exists. It is located on the German–Dutch border region, but the high mountains Ruisdael depicted in this painting are not found there. Fantasy and reality are interwoven in this scene. The painter made a dozen paintings of this castle, each with a different mountain landscape. In 1861, Goethe, the famous German writer, rightly called Ruisdael a poet.</dc:description>
+                <dc:description xml:lang="nl">Kasteel Bentheim staat er nog steeds, in het DuitsNederlandse grensgebied, maar zulke hoge bergen als Ruisdael hier schildert zijn er niet te vinden. Fantasie en werkelijkheid lopen in het werk van de schilder in elkaar over. Hij maakte ruim een dozijn schilderijen van het kasteel, elk in een ander berglandschap. Terecht werd Ruisdael door de beroemde Duitse schrijver Goethe in 1816 een dichter genoemd.</dc:description>
+                <dc:identifier>SK-A-347</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200409238" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221353" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221354" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2301691" />
+                <dc:title xml:lang="en">Bentheim Castle</dc:title>
+                <dc:title xml:lang="en">Kasteel Bentheim</dc:title>
+                <dc:title xml:lang="nl">Bentheim Castle</dc:title>
+                <dc:title xml:lang="nl">Kasteel Bentheim</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">1650 - 1682</ns5:created>
+                <ns5:created xml:lang="nl">1650 - 1682</ns5:created>
+                <ns5:extent xml:lang="en">height 68 cm x width 54 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 68 cm x breedte 54 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301120564" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301144234" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301185785" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301185790" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/KWwKS/full/max/0/default.jpg">
+                <ns6:has_service rdf:resource="https://iiif.micr.io/KWwKS" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns7:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns7:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/KWwKS/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-347--9824cd76dc0155d058a0615a9549e9b7">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns7:prefLabel xml:lang="en">RijksXL</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">RijksXL</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns7:prefLabel xml:lang="en">Top 1000</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Top 1000</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns7:prefLabel xml:lang="nl">Entire Public Domain Set</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns7:prefLabel xml:lang="en">All published objects</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns7:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns7:prefLabel xml:lang="en">paintings</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderijen</ns7:prefLabel>
+          </rdf:Description>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns7:prefLabel xml:lang="en">canvas</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">doek</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns7:prefLabel xml:lang="en">painting</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">schilderij</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns7:prefLabel xml:lang="en">oil paint (paint)</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">olieverf</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221353">
+            <ns8:sameAs rdf:resource="https://iconclass.org/25H212" />
+            <ns7:altLabel>25H212</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">brook</ns7:prefLabel>
+          </ns7:Concept>
+          <ns7:Concept rdf:about="https://id.rijksmuseum.nl/221354">
+            <ns8:sameAs rdf:resource="https://iconclass.org/25I5" />
+            <ns7:altLabel>25I5</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">landscape with tower or castle</ns7:prefLabel>
+          </ns7:Concept>
+          <ns6:Service rdf:about="https://iiif.micr.io/KWwKS">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns6:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2106183">
+            <ns8:sameAs rdf:resource="http://viaf.org/viaf/89550506" />
+            <ns8:sameAs rdf:resource="http://vocab.getty.edu/ulan/500027077" />
+            <ns8:sameAs rdf:resource="http://www.wikidata.org/entity/Q213612" />
+            <ns8:sameAs rdf:resource="https://rkd.nl/artists/68835" />
+            <ns9:dateOfBirth xml:lang="nl">ca. 1628-06 - ca. 1629-06</ns9:dateOfBirth>
+            <ns9:dateOfDeath xml:lang="nl">1682-03 - 1682-03-14</ns9:dateOfDeath>
+            <ns9:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230134">
+                <ns7:prefLabel xml:lang="en">Haarlem</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Haarlem</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfBirth>
+            <ns9:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns7:prefLabel xml:lang="en">Amsterdam</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">Amsterdam</ns7:prefLabel>
+              </ns3:Place>
+            </ns9:placeOfDeath>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns7:prefLabel xml:lang="en">painter</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">schilder</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns7:prefLabel xml:lang="en">printmaker</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">prentmaker</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns9:professionOrOccupation>
+              <ns7:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns7:prefLabel xml:lang="en">draftsman (artist)</ns7:prefLabel>
+                <ns7:prefLabel xml:lang="nl">tekenaar</ns7:prefLabel>
+              </ns7:Concept>
+            </ns9:professionOrOccupation>
+            <ns7:altLabel xml:lang="en">Ruisdael, Jacob Isaacksz van</ns7:altLabel>
+            <ns7:altLabel xml:lang="nl">Ruisdael, Jacob Isaacksz van</ns7:altLabel>
+            <ns7:prefLabel xml:lang="en">Jacob Isaacksz van Ruisdael</ns7:prefLabel>
+            <ns7:prefLabel xml:lang="nl">Jacob Isaacksz van Ruisdael</ns7:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301691">
+            <ns7:prefLabel xml:lang="nl">Kasteel Bentheim</ns7:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

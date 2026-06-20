@@ -1,0 +1,196 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://id.loc.gov/vocabulary/relators/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200107952</ns0:identifier>
+        <ns0:datestamp>2026-06-08T00:16:45Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260213</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>261208</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200107952#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200107952">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/2103429" />
+                <dc:description xml:lang="en">Rembrandt is 55 years old in this self-portrait, and he still looks at himself candidly. Here he assumes the guise of a personage from the Bible, the Apostle Paul. The sword protruding from his cloak and the manuscript in his hands are the apostle’s customary attributes. By using his own face, Rembrandt encouraged the viewer to engage personally with the saint.</dc:description>
+                <dc:description xml:lang="nl">Hier is Rembrandt 55 jaar, en nog steeds beschouwt hij zichzelf met open blik. In dit schilderij neemt hij de gedaante aan van een Bijbels personage, de apostel Paulus. Het zwaard dat uit zijn mantel steekt en het manuscript in zijn handen zijn de gebruikelijke attributen van deze apostel. Door zijn eigen gezicht te gebruiken, moedigde hij de toeschouwer aan een persoonlijke band aan te gaan met de heilige.</dc:description>
+                <dc:identifier>SK-A-4050</dc:identifier>
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/200221570" />
+                <dc:relation rdf:resource="https://id.rijksmuseum.nl/20066677" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2103429" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221328" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221341" />
+                <dc:title xml:lang="en">Self-portrait as the Apostle Paul</dc:title>
+                <dc:title xml:lang="en">Zelfportret als de apostel Paulus</dc:title>
+                <dc:title xml:lang="nl">Self-portrait as the Apostle Paul</dc:title>
+                <dc:title xml:lang="nl">Zelfportret als de apostel Paulus</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2208" />
+                <ns5:created xml:lang="en">1661</ns5:created>
+                <ns5:created xml:lang="nl">1661</ns5:created>
+                <ns5:extent xml:lang="en">height 91 cm x width 77 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 91 cm x breedte 77 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260213" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/261208" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/262557" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301100494" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301120565" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301120592" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301146195" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301154394" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301154666" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3011738" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301211623" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301218758" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301241009" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301241048" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301262165" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301283002" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301283477" />
+                <ns5:isReferencedBy>G. Luijten, ''De veelheid en de eelheid' : een Rijksmuseum Schmidt-Degener', Nederlands Kunsthistorisch Jaarboek 35 (1984), p. 377, afb. 26.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>P.J.J. van Thiel, 'Zelfportret als de apostel Paulus', Openbaar Kunstbezit 13 (1969) nr. 2, p. 1a-b.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>The Rembrandt Database,  Object information, Rembrandt,  Self portrait as the apostle Paul,  dated 1661, Rijksmuseum, Amsterdam, inv. no. SK-A-4050, http://www.rembrandtdatabase.org/Rembrandt/painting/2947/self-portrait-as-the-apostle-paul, accessed 2016 February 01</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22010" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">? Estate inventory, Eberhard Jabach (1618-95), Paris, 17 July 1696, no. 123 ('Portrait de Rimbrands, ayant un linge blanc autour de sa test, 1/2 figure grande comme le naturel, de luy-mesme. 100 liv[res]’);{The number ‘123’ painted on the reverse of the stretcher in imitation of the original corresponds to the number in the 1696 posthumous inventory; for the inventory see Grouchy 1894, pp. 249−92, esp. p. 255.} …; ? collection Nicolas Vleughels (1668-1737), Rome; from his widow, Marie-Thérèse Gosset (1703-56), 100 scudi, to Cardinal Neri Maria Corsini (1685-1770), Rome, before 1750;{According to the Inventario dei quadri comprati coi proprii denari avventizii dall’Emo Sig.s Cardinal Neri Maria Cosini, no. 15: ‘Dalla Vedova Wleughel. Il proprio Ritratto di Reimbrant s[cudi] 100’. The painting is no. 164 in the 1750 Inventario di tutti i quadri of Palazzo Corsini: ‘Il Ritratto di Reimbrant di sua mano, comprato sc[udi] 100. Comprato da Madama Wleughles’.} …; purchased from the Corsini collection, by the London art dealer William Buchanan (1777-1864), summer 1807;{According to a label transferred from the original stretcher to the present one: ‘From the Corsini Palace of Rome / brought to England by William Buchanan Esq. in Summer 1807’.} from whom, 500 guineas, to Charles Kinnaird (1780-1826), 8th Lord Kinnaird, Rossie Priory near Dundee, before 2 January 1809;{Buchanan 1824, vol. 2, p. 179, no. 4. The painting was first recorded in the Kinnaird collection in the inscription to a reproductive mezzotint by Charles Turner (1773-1857): ‘Rembrandt. A Portrait of himself. Bought from the collection of the Corsini family at Rome by Mr Buchanan. 3’ by 2’6 1/8 Pubd. Jan. 2. 1809’.} from the Kinnaird collection, £ 47,500, to Isaäc de Bruijn (1872-1953) and his wife, Johanna Gertruida van der Leeuw (1877-1960), Spiez and Muri, near Bern, 28 May 1936; from whom on loan to the museum, 1956-60; by whom bequeathed to the museum, December 1960</ns5:provenance>
+                <ns6:spn xml:lang="en">De Bruijn-van der Leeuw Bequest, Muri, Switzerland</ns6:spn>
+                <ns6:spn xml:lang="nl">Legaat van de heer en mevrouw De Bruijn-van der Leeuw, Muri, Zwitserland</ns6:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/wqcDn/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/wqcDn" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/wqcDn/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/SK-A-4050--4faa97ed774e6e3f81b76cf3aed6226d">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns8:prefLabel xml:lang="en">RijksXL</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">RijksXL</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260213">
+            <ns8:prefLabel xml:lang="en">Top 100</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 100</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns8:prefLabel xml:lang="en">biografic</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">biografisch</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/261208">
+            <ns8:prefLabel xml:lang="en">paintings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderijen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22010">
+            <ns8:prefLabel xml:lang="en">canvas</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">doek</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2208">
+            <ns8:prefLabel xml:lang="en">painting</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">schilderij</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns8:prefLabel xml:lang="en">oil paint (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">olieverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221328">
+            <ns9:sameAs rdf:resource="https://iconclass.org/48C513" />
+            <ns8:altLabel>48C513</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">portrait, self-portrait of painter</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221341">
+            <ns9:sameAs rdf:resource="https://iconclass.org/11H%28PAUL%299" />
+            <ns8:altLabel>11H(PAUL)9</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">the apostle Paul of Tarsus; possible attributes: book, scroll, sword - portrait of male saint</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/wqcDn">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2103429">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/64013650" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500011051" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q5598" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/66219" />
+            <ns10:dateOfBirth xml:lang="nl">1606-07-15</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1669-10-08</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/230105">
+                <ns8:prefLabel xml:lang="en">Leiden</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Leiden</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/23029985">
+                <ns8:prefLabel xml:lang="en">Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Amsterdam</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202217">
+                <ns8:prefLabel xml:lang="en">painter</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">schilder</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202371">
+                <ns8:prefLabel xml:lang="en">draftsman (artist)</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">tekenaar</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Rijn, Rembrandt van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Rembrandt Harmensz. van Rijn</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Rembrandt van Rijn</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Rembrandt</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Rijn, Rembrandt Harmensz. van</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Rijn, Rembrandt van</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Rembrandt van Rijn</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Rembrandt van Rijn</ns8:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns8:prefLabel>Rijksmuseum</ns8:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

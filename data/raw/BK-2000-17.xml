@@ -1,0 +1,217 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns11="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200411986</ns0:identifier>
+        <ns0:datestamp>2026-06-08T21:38:31Z</ns0:datestamp>
+        <ns0:setSpec>260212</ns0:setSpec>
+        <ns0:setSpec>260241</ns0:setSpec>
+        <ns0:setSpec>260213</ns0:setSpec>
+        <ns0:setSpec>260215</ns0:setSpec>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26126</ns0:setSpec>
+        <ns0:setSpec>2618</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200411986#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200411986">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21082524" />
+                <dc:description xml:lang="en">To make this small bust – it is half life-size – the sculptor had to resort to all kinds of tricks with a mirror. Van der Schardt did not portray himself frontally, but with his head turned sideways, as if to avoid looking at the viewer. The nude upper torso alludes to sculpture from Classical antiquity.</dc:description>
+                <dc:description xml:lang="nl">Om dit kleine borstbeeld – het is de helft van de ware grootte – te maken, moest de beeldhouwer allerlei kunstgrepen met spiegels verrichten. Van der Schardt heeft zichzelf niet recht van voren weergegeven, maar wendt zijn blik af, alsof hij ons niet wil zien. Het naakte bovenlichaam verwijst naar de beeldhouwkunst van de antieke oudheid.</dc:description>
+                <dc:identifier>BK-2000-17</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/21082524" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221162" />
+                <dc:title xml:lang="en">Self-portrait</dc:title>
+                <dc:title xml:lang="en">Zelfportret</dc:title>
+                <dc:title xml:lang="nl">Self-portrait</dc:title>
+                <dc:title xml:lang="nl">Zelfportret</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/220525" />
+                <ns5:created xml:lang="en">c. 1573 - c. 1580</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1573 - ca. 1580</ns5:created>
+                <ns5:extent xml:lang="en">height 23 cm x width 28 cm x depth 14 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">hoogte 23 cm x breedte 28 cm x diepte 14 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260212" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260213" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260215" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260241" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26126" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2618" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/2621493" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3011738" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301192588" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301216311" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244089" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/301244300" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30130426" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30147067" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30155154" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30166008" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30166093" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30175399" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/30183075" />
+                <ns5:isReferencedBy>''Rijks' koopt zelfportret 16de-eeuwse kunstenaar', De Volkskrant, 2000.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>'Recent acquisitions at the Rijksmuseum, Amsterdam', The Burlington Magazine (November 2000), p. 730 met afb. II.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>A. Butterfield, Masterpieces of Renaissance sculpture : Salander-O'Reilly Galleries, New York, 2000, cat.nr. 9.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>A. Wallert, 'Questions and answers. The technical examination of polychrome terracotta sculptures by Johan Gregor van der Schardt', Art Matters, Netherlands Technical Studies in Art (2002), p. 32-45.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>D. Gallo, 'Small portraits for Great Men. The miniature Portrait Bust in the Sixteenth Century', The Rijksmuseum Bulletin 58 (2010) nr. 1, p. 60-62.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Documentatiemap Beeldhouwkunst &amp; Kunstnijverheid.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>F. Scholten, 'Zelfportret', Bulletin van de Vereniging Rembrandt 10, nr. 3 (2000), p. 12-14 met afb..</ns5:isReferencedBy>
+                <ns5:isReferencedBy>F. Scholten, Johan Gregor van der Schardt and the moment of self-portraiture in sculpture, in: Simiolus 33 (2007/2008), nr. 4, p. 195, afb. 1, 10</ns5:isReferencedBy>
+                <ns5:isReferencedBy>F. Scholten, Spiriti veramente divini: sculptors form the Low Countries in Italy, in: I. Alexander-Skipnes, Cultural exchange between the Low Countries and Italy (1400-1600), Turnhout 2007, p. 231.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Frankfurter Algemeine Zeitung, 8 november 2000.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Frits Scholten, 'Michelangelo's Mighty Models or the Legacy of Johan Gregor van der Schardt', in Stephan Koja en Claudia Kryza-Gersch (red.): Shadows of Time : Giambologna, Michelangelo and the Medici Chapel, Dresden 2018, p. 92-93, fig. 1, 3.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Hans Günter Hockerts, 'In Fahrt und auf Kurs : Die Neue Deutsche Biographie', Akademie Aktuell : Zeitschrift der Bayerischen Akademie der Wissenschaften (2005, nr. 2), p. 44, afb.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>J.A. Boerner, Verzeichnis des Anton Paul Heinlein'schen ausgeschechneten Kunst-cabinetts, welches vom 1832 an durch den Auctionator J.A. Boerner [...] versteigert wird, Neurenberg, 1832.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Jaarverslag : Rijksmuseum Amsterdam (2000), p. 71 afb.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Marcella van der Weg, 'Mondriaan Stichting steunt met beleid' Rijksmuseum Kunstkrant 28, nr. 1 (2002), p. 20-21 met afb.</ns5:isReferencedBy>
+                <ns5:isReferencedBy>Peter Hecht, 'Over liefde en bedrog : hoe de top drie gekozen werd', Bulletin van de Vereniging Rembrandt 19 (2009) nr. 1, p. 37-39, nr. 24.</ns5:isReferencedBy>
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220445" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/2209" />
+                <ns5:provenance xml:lang="en">…; collection Paul Praun (1548-1616), Nuremberg, first documented in his _&lt;em&gt;Praunsche Kabinett&lt;/em&gt;_ in 1616;{Nuremberg, Stadtarchiv, Familienarchiv von Praun, E 28 II, no. 224, inventory _&lt;em&gt;Praunsche Kabinett&lt;/em&gt;_ 1616, no. 362: _&lt;em&gt;Ein Kopf, Johan Gregori conterfect, eines schuchs hoch&lt;/em&gt;_, see K. Achilles-Syndram, _&lt;em&gt;Die Kunstsammlung des Paulus Praun: Die Inventare von 1616 und 1719&lt;/em&gt;_, Nuremberg 1994, p. 150, p. 147, no. 362. Not identifiable in the 1719 inventory of the _&lt;em&gt;Praunsche Kabinett&lt;/em&gt;_ (Nuremberg, Stadtarchiv, Familienarchiv von Praun, E 28 II, no. 1477); possibly identical to C.T. von Murr, _&lt;em&gt;Description du Cabinet de Monsieur Paul de Praun à Nuremberg&lt;/em&gt;_, Nuremberg 1797, no. 86 (disputed by Achilles-Syndram).} acquired (with the _&lt;em&gt;Praunsche Kabinett&lt;/em&gt;_) by the dealers G. Buttner and J. F. Frauenholz (1758-1822) and the collector Hans Albrecht von Derschau (1754-1824), Nuremberg, 1801;{P.J. Lebrooy, _&lt;em&gt;Michelangelo Models Formerly in the Paul von Praun Collection&lt;/em&gt;_, Vancouver 1972, pp. 31-32; R. Schoch, ‘“Die kostbarste unter allen nürnbergischen Kunstkammern”: Glanz und Ende des Praunschen Kabinett’, in K. Löcher &lt;em&gt;et al.&lt;/em&gt;, _&lt;em&gt;Kunst des Sammelns: Das Praunsche Kabinett, Meisterwerke von Dürer bis Carracci&lt;/em&gt;_, exh. cat. Nuremberg (Germanisches Nationalmuseum) 1994, pp. 25-34, esp. pp. 32-33; E. Luther, _&lt;em&gt;Johann Friedrich Frauenholz (1758-1822): Kunsthändler und Verleger in Nürnberg&lt;/em&gt;_, Nuremberg 1988, pp. 74-75; F. Scholten, ‘Dusting off Terracottas: A Critical Reception History of Johan Gregor van der Schardt’s Artistic Legacy’, _&lt;em&gt;Simiolus&lt;/em&gt;_ 41 (2019), no. 3, pp. 131-52, esp. p. 135.} acquired (with the _&lt;em&gt;Praunsche Kabinett&lt;/em&gt;_) by the dealers G. Buttner and J.F. Frauenholz (1758-1822) and the collector Hans Albrecht von Derschau (1754-1824), Nuremberg, 1801; acquired by Anton Paul Heinlein (1715-1803), Nuremberg, by 1803;{F. Scholten, ‘Dusting off Terracottas: A Critical Reception History of Johan Gregor van der Schardt’s Artistic Legacy’, _&lt;em&gt;Simiolus&lt;/em&gt;_ 41 (2019), no. 3, pp. 131-52, esp. p. 136 and note 39.} from his sale, Nuremberg (Johann Andreas Boerner), 9 April 1832, no. 296, acquired by _&lt;em&gt;Oberstleutnant&lt;/em&gt;_ Karl Emil von Gemming (1794-1880), Nuremberg;{P.J. Lebrooy (_&lt;em&gt;Michelangelo Models Formerly in the Paul von Praun Collection&lt;/em&gt;_, Vancouver 1972, p. 33) posited that Von Gemming acquired the entire collection of terracotta models of the _&lt;em&gt;Praunsche Kabinett&lt;/em&gt;_ directly from Buttner and Frauenholz in 1803. Von Gemming was a dealer (_&lt;em&gt;Antiquar&lt;/em&gt;_), numismatist, fossil collector and more. The fossil of a prehistoric bird (Rhamphorhynchus gemmingi) originating from Von Gemming’s collection is today preserved in the Teylers Museum, Haarlem.} ? from whom, acquired by the sculptor Ernst Julius Haehnel (1811-1891), Dresden, 1842;{Presumably Van der Schardt’s _&lt;em&gt;Self-Portrait&lt;/em&gt;_ was one of the 33 terracottas - all of which originated from the _&lt;em&gt;Praunsche Kabinett&lt;/em&gt;_ - Haehnel had purchased at the sale of the Karl Emil von Gemming collection, see P.J. Lebrooy, _&lt;em&gt;Michelangelo Models Formerly in the Paul von Praun Collection&lt;/em&gt;_, Vancouver 1972, p. 33.} ? his widow Elise Walter-Haehnel or their daughters Anna and Elisabeth Haehnel, Dresden, 1891;{P.J. Lebrooy, _&lt;em&gt;Michelangelo Models Formerly in the Paul von Praun Collection&lt;/em&gt;_, Vancouver 1972, pp. 34-35.} …; from the London art market, acquired by Michael Hall, New York, 1980; from whom, $1,400,000, to the museum, with the support of the Mondriaan Stichting, the SponsorBingo Loterij and the Vereniging Rembrandt, with additional funding from the Prins Bernhard Cultuurfonds, 2009{For the circuitous acquisition history, see F. Scholten, ‘Johan Gregor van der Schardt, Zelfportret: Een nipte verwerving’, in A. de Vries and F. Bijl de Vroe-Verloop (eds.), _&lt;em&gt;Vereniging Rembrandt, verrijkend &amp; verreikend&lt;/em&gt;_, The Hague 2009, pp. 15-18.}</ns5:provenance>
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230367" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206730" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206793" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2207006" />
+                <ns7:spn xml:lang="en">Purchased with the support of the Mondriaan Stichting, the SponsorBingo Loterij and the Vereniging Rembrandt, with additional funding from the Prins Bernhard Cultuurfonds</ns7:spn>
+                <ns7:spn xml:lang="nl">Aankoop met steun van de Mondriaan Stichting, de SponsorBingo Loterij en de Vereniging Rembrandt, mede dankzij het Prins Bernhard Cultuurfonds</ns7:spn>
+                <ns3:currentLocation rdf:resource="https://id.rijksmuseum.nl/2301886" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/QoNdD/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/QoNdD" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/QoNdD/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-2000-17--a02682bf512a1d9aeb7e00289f100ff0">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/230367">
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/7004334" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q2090" />
+            <ns9:prefLabel xml:lang="nl">Neurenberg</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260212">
+            <ns9:prefLabel xml:lang="en">RijksXL</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">RijksXL</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260213">
+            <ns9:prefLabel xml:lang="en">Top 100</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 100</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260215">
+            <ns9:prefLabel xml:lang="en">Vereniging Rembrandt</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Vereniging Rembrandt</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260241">
+            <ns9:prefLabel xml:lang="en">biografic</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">biografisch</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26126">
+            <ns9:prefLabel xml:lang="en">sculptures</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">beeldhouwwerken</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/2618">
+            <ns9:prefLabel xml:lang="en">European Sculpture in the Rijksmuseum</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">European Sculpture in the Rijksmuseum</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220445">
+            <ns9:prefLabel xml:lang="en">terracotta (clay material)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">terracotta</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/220525">
+            <ns9:altLabel xml:lang="nl">borstbeeld</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">portretbuste</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">bust</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">buste</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2206730">
+            <ns9:prefLabel xml:lang="en">painting technique</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">schildertechniek</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2206793">
+            <ns9:altLabel xml:lang="nl">geboetseerd</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">modeling</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">boetseren</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2207006">
+            <ns9:altLabel xml:lang="nl">gebakken</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">fired</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">bakken</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2209">
+            <ns9:prefLabel xml:lang="en">oil paint (paint)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">olieverf</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221162">
+            <ns10:sameAs rdf:resource="https://iconclass.org/48C23" />
+            <ns9:altLabel>48C23</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">portrait, self-portrait of sculptor</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/QoNdD">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21082524">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/27873203" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500013337" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q828366" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/203266" />
+            <ns11:dateOfBirth xml:lang="nl">1530</ns11:dateOfBirth>
+            <ns11:dateOfDeath xml:lang="nl">ca. 1581</ns11:dateOfDeath>
+            <ns11:placeOfBirth rdf:resource="https://id.rijksmuseum.nl/230203" />
+            <ns11:professionOrOccupation>
+              <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2205167">
+                <ns9:prefLabel xml:lang="en">sculptor</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">beeldhouwer</ns9:prefLabel>
+              </ns9:Concept>
+            </ns11:professionOrOccupation>
+            <ns9:altLabel xml:lang="en">Schardt, Johan Gregor van der</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Jan Gregor van der Schardt</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Johann Gregor van der Schardt</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Schardt, Jan Gregor van der</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Schardt, Johan Gregor van der</ns9:altLabel>
+            <ns9:altLabel xml:lang="nl">Schardt, Johann Gregor van der</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Johan Gregor van der Schardt</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Johan Gregor van der Schardt</ns9:prefLabel>
+          </ns3:Agent>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301886">
+            <ns9:prefLabel>Rijksmuseum</ns9:prefLabel>
+          </ns3:Place>
+          <ns3:Place rdf:about="https://id.rijksmuseum.nl/230203">
+            <ns9:prefLabel xml:lang="en">Nijmegen</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Nijmegen</ns9:prefLabel>
+          </ns3:Place>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

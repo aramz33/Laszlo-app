@@ -1,0 +1,137 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://www.w3.org/2002/07/owl#" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://id.loc.gov/vocabulary/relators/" xmlns:ns8="http://rdfs.org/sioc/services#" xmlns:ns9="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/20018695</ns0:identifier>
+        <ns0:datestamp>2026-06-08T19:13:29Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26129</ns0:setSpec>
+        <ns0:setSpec>26145</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/20018695#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/20018695">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/210640" />
+                <dc:description xml:lang="nl">Albestrook van naturelkleurige Brusselse kloskant. Symmetrisch patroon met boeketten, strikken en guirlandes op drochelgrond. Volwerk in linnenslag en netslag, met gekloste reliëfcontouren (ribben). Talrijke siergronden gemaakt met onder andere patrijsogen. Het patroon langs de de onderrand wordt gevormd door elkaar kruisende dubbellinten en een slinger van roosjes. De schulpen die door dit patroon worden gevormd zijn gevuld met siergrond. De bovenrand is afgewerkt met een gekloste rand.</dc:description>
+                <dc:identifier>BK-1975-359</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22114053" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221149" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221667" />
+                <dc:title xml:lang="nl">Albestrook van kloskant met boeketten en strikken</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2201905" />
+                <ns5:created xml:lang="en">c. 1765 - c. 1780</ns5:created>
+                <ns5:created xml:lang="nl">ca. 1765 - ca. 1780</ns5:created>
+                <ns5:extent xml:lang="en">length 270 cm x width 65 cm x 90 cm</ns5:extent>
+                <ns5:extent xml:lang="nl">lengte 270 cm x breedte 65 cm x rapportlengte 90 cm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26129" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26145" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3011263" />
+                <ns5:isReferencedBy rdf:resource="https://id.rijksmuseum.nl/3011485" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22038" />
+                <ns5:spatial rdf:resource="https://id.rijksmuseum.nl/230196" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/22039" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2206567" />
+                <ns7:spn xml:lang="en">Gift of the Vereniging Het Kantsalet</ns7:spn>
+                <ns7:spn xml:lang="nl">Schenking van de Vereniging Het Kantsalet</ns7:spn>
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/zXFuL/full/max/0/default.jpg">
+                <ns8:has_service rdf:resource="https://iiif.micr.io/zXFuL" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns9:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns9:prefLabel>
+                <ns9:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns9:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/zXFuL/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/BK-1975-359--71b90f5a74ed6b0b02d52920449d61a9">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/230196">
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/tgn/7007868" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q239" />
+            <ns9:prefLabel xml:lang="en">Brussels</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Brussel (stad)</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns9:prefLabel xml:lang="en">Top 1000</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Top 1000</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns9:prefLabel xml:lang="nl">Entire Public Domain Set</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns9:prefLabel xml:lang="en">All published objects</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26129">
+            <ns9:prefLabel xml:lang="en">lace</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">kant</ns9:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26145">
+            <ns9:prefLabel xml:lang="en">ecclesiastical textiles</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">kerkelijk textiel (collectie)</ns9:prefLabel>
+          </rdf:Description>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2201905">
+            <ns9:prefLabel xml:lang="nl">albestrook</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22038">
+            <ns9:prefLabel xml:lang="en">linen (material)</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">linnen</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22039">
+            <ns9:prefLabel xml:lang="en">bobbin lace</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">kloskant</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/2206567">
+            <ns9:altLabel xml:lang="nl">vieux Bruxelles</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">Brussels bobbin lace</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">Brusselse kloskant</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/22114053">
+            <ns10:sameAs rdf:resource="https://iconclass.org/48A98781" />
+            <ns9:altLabel>48A98781</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">abstract interlace, knotwork ~ ornament</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221149">
+            <ns10:sameAs rdf:resource="https://iconclass.org/48A98333" />
+            <ns9:altLabel>48A98333</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">bunch of flowers ~ ornament</ns9:prefLabel>
+          </ns9:Concept>
+          <ns9:Concept rdf:about="https://id.rijksmuseum.nl/221667">
+            <ns10:sameAs rdf:resource="https://iconclass.org/48A9875" />
+            <ns9:altLabel>48A9875</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">ornament ~ festoon, garland</ns9:prefLabel>
+          </ns9:Concept>
+          <ns8:Service rdf:about="https://iiif.micr.io/zXFuL">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns8:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/210640">
+            <ns10:sameAs rdf:resource="http://viaf.org/viaf/100627125" />
+            <ns10:sameAs rdf:resource="http://vocab.getty.edu/ulan/500397994" />
+            <ns10:sameAs rdf:resource="http://www.wikidata.org/entity/Q4233718" />
+            <ns10:sameAs rdf:resource="https://rkd.nl/artists/1984" />
+            <ns9:altLabel xml:lang="nl">Anon</ns9:altLabel>
+            <ns9:prefLabel xml:lang="en">anonymous</ns9:prefLabel>
+            <ns9:prefLabel xml:lang="nl">anoniem</ns9:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    

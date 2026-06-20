@@ -1,0 +1,166 @@
+<ns0:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.openarchives.org/OAI/2.0/" xmlns:ns10="http://rdvocab.info/ElementsGr2/" xmlns:ns2="http://www.openarchives.org/ore/terms/" xmlns:ns3="http://www.europeana.eu/schemas/edm/" xmlns:ns5="http://purl.org/dc/terms/" xmlns:ns6="http://www.europeanafashion.eu/edmfp/" xmlns:ns7="http://rdfs.org/sioc/services#" xmlns:ns8="http://www.w3.org/2004/02/skos/core#" xmlns:ns9="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <ns0:header>
+        <ns0:identifier>https://id.rijksmuseum.nl/200660421</ns0:identifier>
+        <ns0:datestamp>2026-06-09T08:13:04Z</ns0:datestamp>
+        <ns0:setSpec>260214</ns0:setSpec>
+        <ns0:setSpec>260239</ns0:setSpec>
+        <ns0:setSpec>26133</ns0:setSpec>
+        <ns0:setSpec>260251</ns0:setSpec>
+      </ns0:header>
+      <ns0:metadata>
+        <rdf:RDF>
+          <ns2:Aggregation rdf:about="https://id.rijksmuseum.nl/200660421#aggregation">
+            <ns3:aggregatedCHO>
+              <ns3:ProvidedCHO rdf:about="https://id.rijksmuseum.nl/200660421">
+                <dc:creator rdf:resource="https://id.rijksmuseum.nl/21028943" />
+                <dc:description xml:lang="nl">Staande en liggende boeken en een kaars bij een open raam. In het open raam staat een tulp in een pot. De prent maakt deel uit van een album.</dc:description>
+                <dc:identifier>RP-T-1950-266-A</dc:identifier>
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2212303" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/22134" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221373" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/2214935" />
+                <dc:subject rdf:resource="https://id.rijksmuseum.nl/221530" />
+                <dc:title xml:lang="nl">Ex libris van Ernst Heinrich Krelage</dc:title>
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/22010135" />
+                <dc:type rdf:resource="https://id.rijksmuseum.nl/2202321" />
+                <ns5:alternative xml:lang="nl">Tulpenboek</ns5:alternative>
+                <ns5:created xml:lang="en">1905 - 1950</ns5:created>
+                <ns5:created xml:lang="nl">1905 - 1950</ns5:created>
+                <ns5:extent xml:lang="en">height 105 x width 63 mm</ns5:extent>
+                <ns5:extent xml:lang="nl">prent: hoogte 105 x breedte 63 mm</ns5:extent>
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/200378197" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260214" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260239" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/260251" />
+                <ns5:isPartOf rdf:resource="https://id.rijksmuseum.nl/26133" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/22020" />
+                <ns5:medium rdf:resource="https://id.rijksmuseum.nl/220462" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2203040" />
+                <ns6:technique rdf:resource="https://id.rijksmuseum.nl/2203119" />
+                <ns3:type>IMAGE</ns3:type>
+              </ns3:ProvidedCHO>
+            </ns3:aggregatedCHO>
+            <ns3:object>
+              <ns3:WebResource rdf:about="https://iiif.micr.io/KrCzc/full/max/0/default.jpg">
+                <ns7:has_service rdf:resource="https://iiif.micr.io/KrCzc" />
+              </ns3:WebResource>
+            </ns3:object>
+            <ns3:provider rdf:resource="https://id.rijksmuseum.nl/2109266" />
+            <ns3:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/" />
+            <ns3:dataProvider>
+              <ns3:Agent rdf:about="https://id.rijksmuseum.nl/2109266">
+                <ns8:prefLabel xml:lang="en">Rijksmuseum Amsterdam</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Rijksmuseum Amsterdam</ns8:prefLabel>
+              </ns3:Agent>
+            </ns3:dataProvider>
+            <ns3:isShownBy rdf:resource="https://iiif.micr.io/KrCzc/full/max/0/default.jpg" />
+            <ns3:isShownAt>
+              <ns3:WebResource rdf:about="https://www.rijksmuseum.nl/nl/collectie/object/RP-T-1950-266-A--a17a3cfe355f87e0de3d8aa62c7de663">
+                <dc:format>text/html</dc:format>
+                <dc:language>nl</dc:language>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+              </ns3:WebResource>
+            </ns3:isShownAt>
+          </ns2:Aggregation>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260214">
+            <ns8:prefLabel xml:lang="en">Top 1000</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Top 1000</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260239">
+            <ns8:prefLabel xml:lang="nl">Entire Public Domain Set</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/260251">
+            <ns8:prefLabel xml:lang="en">All published objects</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Alle gepubliceerde objecten</ns8:prefLabel>
+          </rdf:Description>
+          <rdf:Description rdf:about="https://id.rijksmuseum.nl/26133">
+            <ns8:prefLabel xml:lang="en">drawings</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">tekeningen</ns8:prefLabel>
+          </rdf:Description>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22010135">
+            <ns8:prefLabel xml:lang="en">pastedown</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">dekblad</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22020">
+            <ns8:prefLabel xml:lang="en">paper</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">papier (materiaal)</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202321">
+            <ns8:prefLabel xml:lang="en">bookplate</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">ex libris</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2203040">
+            <ns8:prefLabel xml:lang="en">printing block</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">cliché</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2203119">
+            <ns8:altLabel xml:lang="nl">geplakt</ns8:altLabel>
+            <ns8:prefLabel xml:lang="nl">plakken</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/220462">
+            <ns8:altLabel xml:lang="en">watercolor (paint)</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">aquarelverf</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">watercolor (paint)</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">waterverf</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2212303">
+            <ns9:sameAs rdf:resource="https://iconclass.org/49M8" />
+            <ns8:altLabel>49M8</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">ex-libris</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/22134">
+            <ns9:sameAs rdf:resource="https://iconclass.org/49M32" />
+            <ns8:altLabel>49M32</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">book</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221373">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41B31" />
+            <ns8:altLabel>41B31</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">candle</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2214935">
+            <ns9:sameAs rdf:resource="https://iconclass.org/41A3311" />
+            <ns8:altLabel>41A3311</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">open window</ns8:prefLabel>
+          </ns8:Concept>
+          <ns8:Concept rdf:about="https://id.rijksmuseum.nl/221530">
+            <ns9:sameAs rdf:resource="https://iconclass.org/25G41%28TULIP%29" />
+            <ns8:altLabel>25G41(TULIP)</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">flowers: tulip</ns8:prefLabel>
+          </ns8:Concept>
+          <ns7:Service rdf:about="https://iiif.micr.io/KrCzc">
+            <ns5:conformsTo rdf:resource="http://iiif.io/api/image" />
+          </ns7:Service>
+          <ns3:Agent rdf:about="https://id.rijksmuseum.nl/21028943">
+            <ns9:sameAs rdf:resource="http://viaf.org/viaf/93197391" />
+            <ns9:sameAs rdf:resource="http://vocab.getty.edu/ulan/500122729" />
+            <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q589380" />
+            <ns9:sameAs rdf:resource="https://rkd.nl/artists/63350" />
+            <ns10:dateOfBirth xml:lang="nl">1895-04-19</ns10:dateOfBirth>
+            <ns10:dateOfDeath xml:lang="nl">1987-11-25</ns10:dateOfDeath>
+            <ns10:placeOfBirth>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301320">
+                <ns8:prefLabel xml:lang="en">Den Helder</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">Den Helder</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfBirth>
+            <ns10:placeOfDeath>
+              <ns3:Place rdf:about="https://id.rijksmuseum.nl/2301729">
+                <ns8:prefLabel xml:lang="nl">Overveen</ns8:prefLabel>
+              </ns3:Place>
+            </ns10:placeOfDeath>
+            <ns10:professionOrOccupation>
+              <ns8:Concept rdf:about="https://id.rijksmuseum.nl/2202348">
+                <ns8:prefLabel xml:lang="en">printmaker</ns8:prefLabel>
+                <ns8:prefLabel xml:lang="nl">prentmaker</ns8:prefLabel>
+              </ns8:Concept>
+            </ns10:professionOrOccupation>
+            <ns8:altLabel xml:lang="en">Pieck, Anton</ns8:altLabel>
+            <ns8:altLabel xml:lang="nl">Pieck, Anton</ns8:altLabel>
+            <ns8:prefLabel xml:lang="en">Anton Pieck</ns8:prefLabel>
+            <ns8:prefLabel xml:lang="nl">Anton Pieck</ns8:prefLabel>
+          </ns3:Agent>
+        </rdf:RDF>
+      </ns0:metadata>
+    </ns0:record>
+    
