@@ -3,11 +3,16 @@
 // ponytail: plain fetch, no SDK — Scaleway exposes the standard /chat/completions
 // shape, so one POST covers it. Swapping provider = changing SCW_* env vars only.
 
-const BASE = Deno.env.get("SCW_BASE_URL")!; // e.g. https://api.scaleway.ai/v1
-const KEY = Deno.env.get("SCW_API_KEY")!;
-// EU, strong French, small/fast. Override with SCW_MODEL if a run needs another.
-const MODEL = Deno.env.get("SCW_MODEL") ??
-  "mistral-small-3.2-24b-instruct-2506";
+// Read config lazily (inside the calls) so importing this module touches no env —
+// keeps the handler tests, which inject fakes, runnable without --allow-env.
+function cfg() {
+  return {
+    base: Deno.env.get("SCW_BASE_URL")!, // e.g. https://api.scaleway.ai/v1
+    key: Deno.env.get("SCW_API_KEY")!,
+    // EU, strong French, small/fast. Override with SCW_MODEL if a run needs another.
+    model: Deno.env.get("SCW_MODEL") ?? "mistral-small-3.2-24b-instruct-2506",
+  };
+}
 
 export type Msg = { role: "system" | "user" | "assistant"; content: string };
 
@@ -16,14 +21,15 @@ export async function complete(
   messages: Msg[],
   temperature = 0.5,
 ): Promise<string> {
-  const res = await fetch(`${BASE}/chat/completions`, {
+  const { base, key, model } = cfg();
+  const res = await fetch(`${base}/chat/completions`, {
     method: "POST",
     headers: {
-      "Authorization": `Bearer ${KEY}`,
+      "Authorization": `Bearer ${key}`,
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      model: MODEL,
+      model,
       messages,
       temperature,
       stream: false,
@@ -42,13 +48,14 @@ export async function* streamDeltas(
   messages: Msg[],
   temperature = 0.5,
 ): AsyncGenerator<string> {
-  const res = await fetch(`${BASE}/chat/completions`, {
+  const { base, key, model } = cfg();
+  const res = await fetch(`${base}/chat/completions`, {
     method: "POST",
     headers: {
-      "Authorization": `Bearer ${KEY}`,
+      "Authorization": `Bearer ${key}`,
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({ model: MODEL, messages, temperature, stream: true }),
+    body: JSON.stringify({ model, messages, temperature, stream: true }),
   });
   if (!res.ok || !res.body) {
     throw new Error(`LLM ${res.status}: ${await res.text()}`);

@@ -7,20 +7,20 @@
 
 import { decodeBase64 } from "jsr:@std/encoding@1/base64";
 
-const KEY = Deno.env.get("MISTRAL_API_KEY");
-const MODEL = Deno.env.get("MISTRAL_TTS_MODEL") ?? "voxtral-mini-tts-2603";
-const VOICE = Deno.env.get("MISTRAL_TTS_VOICE") ?? "en_paul_neutral";
-
 /** Synthesize `text` to MP3 bytes via Mistral. Throws if the key is missing or the call fails. */
 export async function mistralTts(text: string): Promise<Uint8Array> {
-  if (!KEY) throw new Error("MISTRAL_API_KEY not set");
+  // Read env lazily so importing this module needs no --allow-env (keeps tests flagless).
+  const key = Deno.env.get("MISTRAL_API_KEY");
+  const model = Deno.env.get("MISTRAL_TTS_MODEL") ?? "voxtral-mini-tts-2603";
+  const voice = Deno.env.get("MISTRAL_TTS_VOICE") ?? "en_paul_neutral";
+  if (!key) throw new Error("MISTRAL_API_KEY not set");
   const res = await fetch("https://api.mistral.ai/v1/audio/speech", {
     method: "POST",
     headers: {
-      "Authorization": `Bearer ${KEY}`,
+      "Authorization": `Bearer ${key}`,
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({ model: MODEL, input: text, voice: VOICE }),
+    body: JSON.stringify({ model, input: text, voice }),
   });
   if (!res.ok) {
     throw new Error(`mistral tts ${res.status}: ${await res.text()}`);

@@ -24,15 +24,25 @@ import { chunkText, googleTtsUrl, MAX_CHUNKS } from "./lib.ts";
 
 const STORAGE_BUCKET = "artworks"; // public bucket; TTS files live under tts/
 
-type Engine = "edge" | "mistral" | "google";
-
-const ENGINES: Record<
+export type Engine = "edge" | "mistral" | "google";
+export type EngineMap = Record<
   Engine,
   (text: string, lang: string, speed: number) => Promise<Uint8Array>
-> = {
-  edge: (t, l, s) => edgeTts(t, l, s),
-  mistral: (t) => mistralTts(t),
-  google: (t, l) => googleTts(t, l),
+>;
+
+/** External boundaries: the TTS engines and the Storage upload (fakes in tests). */
+export type SpeakDeps = {
+  engines: EngineMap;
+  uploadAudio: (bytes: Uint8Array) => Promise<string>;
+};
+
+export const realDeps: SpeakDeps = {
+  engines: {
+    edge: (t, l, s) => edgeTts(t, l, s),
+    mistral: (t) => mistralTts(t),
+    google: (t, l) => googleTts(t, l),
+  },
+  uploadAudio,
 };
 
 /**
@@ -41,17 +51,18 @@ const ENGINES: Record<
  * Returns the bytes plus which engine actually produced them.
  */
 async function synthesize(
+  engines: EngineMap,
   text: string,
   lang: string,
   speed: number,
   provider: string,
 ): Promise<{ bytes: Uint8Array; engine: Engine }> {
-  const chosen: Engine[] = provider in ENGINES ? [provider as Engine] : [];
+  const chosen: Engine[] = provider in engines ? [provider as Engine] : [];
   const order = [...new Set<Engine>([...chosen, "edge", "google"])];
   let lastError: unknown;
   for (const engine of order) {
     try {
-      return { bytes: await ENGINES[engine](text, lang, speed), engine };
+      return { bytes: await engines[engine](text, lang, speed), engine };
     } catch (e) {
       lastError = e;
     }
@@ -90,7 +101,16 @@ async function uploadAudio(bytes: Uint8Array): Promise<string> {
   return sb.storage.from(STORAGE_BUCKET).getPublicUrl(path).data.publicUrl;
 }
 
-Deno.serve(async (req) => {
+/** Default engine from env, guarded so the pure path needs no --allow-env (tests). */
+function envProvider(): string | undefined {
+  try {
+    return Deno.env.get("TTS_PROVIDER");
+  } catch {
+    return undefined;
+  }
+}
+
+export async function handle(req: Request, deps: SpeakDeps): Promise<Response> {
   const pre = preflight(req);
   if (pre) return pre;
   if (req.method !== "POST") return jsonResponse({ message: "POST only" }, 405);
@@ -106,16 +126,23 @@ Deno.serve(async (req) => {
   const lang: string = body.lang ?? "fr";
   const speed: number = typeof body.speed === "number" ? body.speed : 1;
   // Engine: per-request `provider`, else the TTS_PROVIDER env default, else "auto".
-  const provider: string = body.provider ?? Deno.env.get("TTS_PROVIDER") ??
-    "auto";
+  const provider: string = body.provider ?? envProvider() ?? "auto";
   if (!text) return jsonResponse({ message: "text is required" }, 400);
 
   try {
-    const { bytes, engine } = await synthesize(text, lang, speed, provider);
-    const audio_url = await uploadAudio(bytes);
+    const { bytes, engine } = await synthesize(
+      deps.engines,
+      text,
+      lang,
+      speed,
+      provider,
+    );
+    const audio_url = await deps.uploadAudio(bytes);
     // duration_s unknown without decoding the MP3 — left null (ponytail).
     return jsonResponse({ audio_url, format: "mp3", duration_s: null, engine });
   } catch (e) {
     return jsonResponse({ message: `speak failed: ${e}` }, 502);
   }
-});
+}
+
+if (import.meta.main) Deno.serve((req) => handle(req, realDeps));

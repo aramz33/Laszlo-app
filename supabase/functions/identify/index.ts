@@ -10,6 +10,9 @@
 //
 // Request : multipart/form-data { image: <file>, candidate_ids?: csv|repeated, lang_hint? }
 // Response: { artwork_id, confidence, candidates }
+//
+// `handle(req, deps)` holds parsing/validation/matching; the DB read and vision call
+// are injected via `deps` so tests cover every scenario offline.
 
 import { encodeBase64 } from "jsr:@std/encoding@1/base64";
 import { jsonResponse, preflight } from "../_shared/http.ts";
@@ -21,26 +24,55 @@ import {
   visionPrompt,
 } from "./lib.ts";
 
-const SCW_BASE_URL = Deno.env.get("SCW_BASE_URL")!;
-const SCW_API_KEY = Deno.env.get("SCW_API_KEY")!;
-// Pixtral (multimodal) per ADR 0014; override with SCW_VISION_MODEL (holo2 also available).
-const VISION_MODEL = Deno.env.get("SCW_VISION_MODEL") ?? "pixtral-12b-2409";
+export type IdentifyDeps = {
+  readCandidates: (ids: string[]) => Promise<CandidateRow[]>;
+  /** Ask the vision model which candidate the photo shows; returns its raw reply. */
+  vision: (dataUrl: string, prompt: string) => Promise<string>;
+};
 
-/** Read candidate artworks. If ids are given, scope to them; else the trackable set. */
-async function readCandidates(ids: string[]): Promise<CandidateRow[]> {
-  let query = anonClient().from("artwork").select(
-    "id, object_number, title_en, title_nl, year, artist(name)",
-  );
-  query = ids.length > 0
-    ? query.in("id", ids)
-    : query.not("ref_image_url", "is", null);
-  const { data } = await query;
-  // supabase-js infers the to-one `artist` join as an array; at runtime PostgREST
-  // returns a single object (verified e2e), so cast through unknown.
-  return (data ?? []) as unknown as CandidateRow[];
-}
+export const realDeps: IdentifyDeps = {
+  async readCandidates(ids) {
+    let query = anonClient().from("artwork")
+      .select("id, object_number, title_en, title_nl, year, artist(name)");
+    query = ids.length > 0
+      ? query.in("id", ids)
+      : query.not("ref_image_url", "is", null);
+    const { data } = await query;
+    // supabase-js infers the to-one `artist` join as an array; at runtime PostgREST
+    // returns a single object (verified e2e), so cast through unknown.
+    return (data ?? []) as unknown as CandidateRow[];
+  },
+  async vision(dataUrl, prompt) {
+    const base = Deno.env.get("SCW_BASE_URL")!;
+    const key = Deno.env.get("SCW_API_KEY")!;
+    const model = Deno.env.get("SCW_VISION_MODEL") ?? "pixtral-12b-2409";
+    const res = await fetch(`${base}/chat/completions`, {
+      method: "POST",
+      headers: {
+        "Authorization": `Bearer ${key}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        model,
+        temperature: 0,
+        messages: [{
+          role: "user",
+          content: [
+            { type: "text", text: prompt },
+            { type: "image_url", image_url: { url: dataUrl } },
+          ],
+        }],
+      }),
+    });
+    if (!res.ok) throw new Error(`vision ${res.status}: ${await res.text()}`);
+    return (await res.json()).choices?.[0]?.message?.content ?? "";
+  },
+};
 
-Deno.serve(async (req) => {
+export async function handle(
+  req: Request,
+  deps: IdentifyDeps,
+): Promise<Response> {
   const pre = preflight(req);
   if (pre) return pre;
   if (req.method !== "POST") return jsonResponse({ message: "POST only" }, 405);
@@ -66,44 +98,22 @@ Deno.serve(async (req) => {
     .map((s) => s.trim())
     .filter(Boolean);
 
-  const candidates = await readCandidates(ids);
+  const candidates = await deps.readCandidates(ids);
   if (candidates.length === 0) {
     return jsonResponse({ artwork_id: null, confidence: 0, candidates: null });
   }
 
-  // Encode the photo as a data URL for the vision model.
   const bytes = new Uint8Array(await image.arrayBuffer());
   const dataUrl = `data:${image.type || "image/jpeg"};base64,${
     encodeBase64(bytes)
   }`;
 
   try {
-    const res = await fetch(`${SCW_BASE_URL}/chat/completions`, {
-      method: "POST",
-      headers: {
-        "Authorization": `Bearer ${SCW_API_KEY}`,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        model: VISION_MODEL,
-        temperature: 0,
-        messages: [{
-          role: "user",
-          content: [
-            { type: "text", text: visionPrompt(candidates) },
-            { type: "image_url", image_url: { url: dataUrl } },
-          ],
-        }],
-      }),
-    });
-    if (!res.ok) {
-      return jsonResponse({
-        message: `vision ${res.status}: ${await res.text()}`,
-      }, 502);
-    }
-    const reply = (await res.json()).choices?.[0]?.message?.content ?? "";
+    const reply = await deps.vision(dataUrl, visionPrompt(candidates));
     return jsonResponse(resolveMatch(reply, candidates.map((c) => c.id)));
   } catch (e) {
     return jsonResponse({ message: `vision call failed: ${e}` }, 502);
   }
-});
+}
+
+if (import.meta.main) Deno.serve((req) => handle(req, realDeps));
