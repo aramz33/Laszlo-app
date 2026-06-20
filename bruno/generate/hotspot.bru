@@ -1,0 +1,40 @@
+meta {
+  name: hotspot
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{base_url}}/generate
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+  Authorization: Bearer {{anon_key}}
+}
+
+body:json {
+  {
+    "request_id": "bruno-hotspot",
+    "mode": "hotspot",
+    "artwork_id": "{{artwork_id}}",
+    "hotspot_ids": ["{{hotspot_id}}"],
+    "lang": "fr",
+    "profile": {
+      "niveau": "decouverte",
+      "interets": ["technique"]
+    }
+  }
+}
+
+assert {
+  res.status: eq 200
+  res.body.items[0].status: eq ready
+}
+
+docs {
+  Batch personalization at artwork entry. Expect items[0].status="ready",
+  grounded text, and a populated sources array.
+}

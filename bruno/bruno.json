@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Laszlo runtime",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

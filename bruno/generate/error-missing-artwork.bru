@@ -1,0 +1,31 @@
+meta {
+  name: error-missing-artwork
+  type: http
+  seq: 5
+}
+
+post {
+  url: {{base_url}}/generate
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+  Authorization: Bearer {{anon_key}}
+}
+
+body:json {
+  {
+    "mode": "ask",
+    "question": "this should fail"
+  }
+}
+
+assert {
+  res.status: eq 400
+}
+
+docs {
+  Negative test: a grounded mode without artwork_id must return HTTP 400.
+}

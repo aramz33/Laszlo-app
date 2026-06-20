@@ -1,0 +1,37 @@
+meta {
+  name: ask
+  type: http
+  seq: 3
+}
+
+post {
+  url: {{base_url}}/generate
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+  Authorization: Bearer {{anon_key}}
+}
+
+body:json {
+  {
+    "request_id": "bruno-ask",
+    "mode": "ask",
+    "artwork_id": "{{artwork_id}}",
+    "question": "Who is the captain and why this dramatic light?",
+    "lang": "fr",
+    "history": []
+  }
+}
+
+assert {
+  res.status: eq 200
+}
+
+docs {
+  Free-form Q&A. Response is an SSE stream: a run of {"type":"delta"} events then
+  one {"type":"done", text, sources}. Bruno shows the raw stream in the body.
+  Add a "point": {"x":0.4,"y":0.6} or "hotspot_id" to test those contexts.
+}

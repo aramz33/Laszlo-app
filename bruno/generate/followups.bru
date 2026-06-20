@@ -1,0 +1,36 @@
+meta {
+  name: followups
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{base_url}}/generate
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+  Authorization: Bearer {{anon_key}}
+}
+
+body:json {
+  {
+    "request_id": "bruno-followups",
+    "mode": "followups",
+    "artwork_id": "{{artwork_id}}",
+    "hotspot_id": "{{hotspot_id}}",
+    "lang": "fr"
+  }
+}
+
+assert {
+  res.status: eq 200
+  res.body.type: eq done
+}
+
+docs {
+  Three suggested follow-up questions for the current context. Expect a
+  "questions" array of length 3.
+}

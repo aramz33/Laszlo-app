@@ -1,0 +1,39 @@
+meta {
+  name: persona
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{base_url}}/generate
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+  Authorization: Bearer {{anon_key}}
+}
+
+body:json {
+  {
+    "request_id": "bruno-persona",
+    "mode": "persona",
+    "lang": "fr",
+    "onboarding": {
+      "allure": "court",
+      "niveau": "amateur",
+      "interets": ["technique"],
+      "free_text": "j'aime la lumière"
+    }
+  }
+}
+
+assert {
+  res.status: eq 200
+  res.body.type: eq done
+}
+
+docs {
+  Hidden onboarding call (S5): selections -> persona_summary. No grounding.
+}
