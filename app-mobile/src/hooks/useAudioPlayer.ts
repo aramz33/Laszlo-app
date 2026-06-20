@@ -1,31 +1,12 @@
 import { Audio } from "expo-av";
 import { useCallback, useEffect, useRef, useState } from "react";
 
-import { speak, type Lang, type SpeakResponse } from "../services/runtime";
+import { speak, type Lang } from "../services/runtime";
 
-export type AudioPlayerState = {
-  status: "idle" | "loading" | "playing" | "paused" | "error";
-  positionMs: number;
-  durationMs: number;
-};
+type Status = "idle" | "loading" | "playing" | "paused" | "error";
 
-type PlayArgs = {
-  text: string;
-  lang: Lang;
-  speed?: number;
-};
-
-/**
- * Manages TTS audio playback for a single hotspot or chat answer.
- * Call `play({ text, lang })` to synthesize via `/speak` and start playback.
- * `toggle()` pauses/resumes. `stop()` unloads the sound.
- */
 export function useAudioPlayer() {
-  const [state, setState] = useState<AudioPlayerState>({
-    status: "idle",
-    positionMs: 0,
-    durationMs: 0
-  });
+  const [status, setStatus] = useState<Status>("idle");
   const soundRef = useRef<Audio.Sound | null>(null);
   const mountedRef = useRef(true);
 
@@ -37,93 +18,49 @@ export function useAudioPlayer() {
     };
   }, []);
 
-  const unloadCurrent = useCallback(async () => {
-    if (soundRef.current) {
-      try {
-        await soundRef.current.unloadAsync();
-      } catch {
-        // ignore
-      }
-      soundRef.current = null;
-    }
+  const unload = useCallback(async () => {
+    if (!soundRef.current) return;
+    await soundRef.current.unloadAsync().catch(() => {});
+    soundRef.current = null;
   }, []);
 
   const play = useCallback(
-    async (args: PlayArgs) => {
-      await unloadCurrent();
-      setState({ status: "loading", positionMs: 0, durationMs: 0 });
-
-      let speakResult: SpeakResponse;
+    async (args: { text: string; lang: Lang; speed?: number }) => {
+      await unload();
+      setStatus("loading");
       try {
-        speakResult = await speak({
-          text: args.text,
-          lang: args.lang,
-          speed: args.speed
-        });
-      } catch {
-        if (mountedRef.current) {
-          setState({ status: "error", positionMs: 0, durationMs: 0 });
-        }
-        return;
-      }
-
-      if (!speakResult.audio_url || !mountedRef.current) {
-        if (mountedRef.current) {
-          setState({ status: "error", positionMs: 0, durationMs: 0 });
-        }
-        return;
-      }
-
-      try {
+        const { audio_url } = await speak(args);
+        if (!audio_url || !mountedRef.current) { setStatus("error"); return; }
         await Audio.setAudioModeAsync({ playsInSilentModeIOS: true });
         const { sound } = await Audio.Sound.createAsync(
-          { uri: speakResult.audio_url },
+          { uri: audio_url },
           { shouldPlay: true },
-          (status) => {
-            if (!mountedRef.current) return;
-            if (!status.isLoaded) return;
-            setState({
-              status: status.isPlaying
-                ? "playing"
-                : status.didJustFinish
-                  ? "idle"
-                  : "paused",
-              positionMs: status.positionMillis,
-              durationMs: status.durationMillis ?? 0
-            });
-            if (status.didJustFinish) {
+          (s) => {
+            if (!mountedRef.current || !s.isLoaded) return;
+            if (s.didJustFinish) {
               soundRef.current?.unloadAsync().catch(() => {});
               soundRef.current = null;
+              setStatus("idle");
+            } else {
+              setStatus(s.isPlaying ? "playing" : "paused");
             }
           }
         );
         soundRef.current = sound;
       } catch {
-        if (mountedRef.current) {
-          setState({ status: "error", positionMs: 0, durationMs: 0 });
-        }
+        if (mountedRef.current) setStatus("error");
       }
     },
-    [unloadCurrent]
+    [unload]
   );
 
   const toggle = useCallback(async () => {
-    if (!soundRef.current) return;
-    const status = await soundRef.current.getStatusAsync();
-    if (!status.isLoaded) return;
-    if (status.isPlaying) {
-      await soundRef.current.pauseAsync();
-    } else {
-      await soundRef.current.playAsync();
-    }
+    const s = soundRef.current;
+    if (!s) return;
+    const st = await s.getStatusAsync();
+    if (!st.isLoaded) return;
+    st.isPlaying ? await s.pauseAsync() : await s.playAsync();
   }, []);
 
-  const stop = useCallback(async () => {
-    await unloadCurrent();
-    if (mountedRef.current) {
-      setState({ status: "idle", positionMs: 0, durationMs: 0 });
-    }
-  }, [unloadCurrent]);
-
-  return { state, play, toggle, stop };
+  return { status, play, toggle };
 }

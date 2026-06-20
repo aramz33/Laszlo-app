@@ -14,6 +14,7 @@ import type { Artwork, Hotspot } from "../domain/artwork";
 import { useAudioPlayer } from "../hooks/useAudioPlayer";
 import { useHotspotTexts } from "../hooks/useHotspotTexts";
 import { resolveHotspotText, type Lang, type Profile } from "../services/runtime";
+import { hasSupabaseConfig } from "../services/supabase";
 import { colors, fonts, radii } from "../theme";
 
 type Props = {
@@ -35,22 +36,17 @@ function HotspotRow({
   isLoading: boolean;
   lang: Lang;
 }) {
-  const { state, play, toggle } = useAudioPlayer();
+  const { status, play, toggle } = useAudioPlayer();
 
   const handlePlay = () => {
-    if (state.status === "playing" || state.status === "paused") {
+    if (status === "playing" || status === "paused") {
       toggle();
     } else {
       play({ text, lang });
     }
   };
 
-  const playLabel =
-    state.status === "loading"
-      ? "…"
-      : state.status === "playing"
-        ? "⏸"
-        : "▶";
+  const playLabel = status === "loading" ? "…" : status === "playing" ? "⏸" : "▶";
 
   return (
     <View style={styles.hotspotRow}>
@@ -59,23 +55,25 @@ function HotspotRow({
           <Text style={styles.hotspotTitle}>{hotspot.title}</Text>
           <Text style={styles.hotspotAspect}>{hotspot.aspect}</Text>
         </View>
-        <Pressable
-          style={[
-            styles.playButton,
-            state.status === "playing" && styles.playButtonActive
-          ]}
-          onPress={handlePlay}
-          disabled={state.status === "loading"}
-        >
-          {state.status === "loading" ? (
-            <ActivityIndicator size="small" color={colors.accent} />
-          ) : (
-            <Text style={styles.playButtonText}>{playLabel}</Text>
-          )}
-        </Pressable>
+        {hasSupabaseConfig ? (
+          <Pressable
+            style={[
+              styles.playButton,
+              status === "playing" && styles.playButtonActive
+            ]}
+            onPress={handlePlay}
+            disabled={status === "loading"}
+          >
+            {status === "loading" ? (
+              <ActivityIndicator size="small" color={colors.accent} />
+            ) : (
+              <Text style={styles.playButtonText}>{playLabel}</Text>
+            )}
+          </Pressable>
+        ) : null}
       </View>
       <Text style={styles.hotspotText}>{text}</Text>
-      {state.status === "error" ? (
+      {status === "error" ? (
         <Text style={styles.errorBadge}>audio unavailable</Text>
       ) : null}
       {usingSeed && !isLoading ? (
