@@ -18,6 +18,8 @@ import {
   View
 } from "react-native";
 
+import { LanguagePill } from "./src/components/LanguagePill";
+import { LanguageProvider } from "./src/context/LanguageContext";
 import type { Artwork } from "./src/domain/artwork";
 import type { ArtworkIdentification } from "./src/domain/artworkIdentifier";
 import { ArtworkDetailScreen } from "./src/screens/ArtworkDetailScreen";
@@ -74,39 +76,46 @@ export default function App() {
   }
 
   return (
-    <SafeAreaView style={styles.root}>
-      <StatusBar style="light" />
-      {load.status === "loading" ? (
-        <View style={styles.center}>
-          <ActivityIndicator color={colors.accent} />
-          <Text style={styles.centerText}>Loading artworks…</Text>
-        </View>
-      ) : load.status === "error" ? (
-        <View style={styles.center}>
-          <Text style={styles.errorTitle}>Could not load artworks</Text>
-          <Text style={styles.centerText}>{load.message}</Text>
-          <Pressable style={styles.retryButton} onPress={loadArtworks}>
-            <Text style={styles.retryText}>Retry</Text>
-          </Pressable>
-        </View>
-      ) : selectedArtwork ? (
-        <ArtworkDetailScreen
-          artwork={selectedArtwork}
-          onBack={() => setSelectedArtwork(null)}
-        />
-      ) : (
-        <>
-          {!hasSupabaseConfig ? (
-            <View style={styles.sampleBanner}>
-              <Text style={styles.sampleBannerText}>
-                SAMPLE MODE — SET EXPO_PUBLIC_SUPABASE_ANON_KEY FOR LIVE DATA
-              </Text>
-            </View>
-          ) : null}
-          <ScannerScreen artworks={load.artworks} onIdentify={handleIdentify} />
-        </>
-      )}
-    </SafeAreaView>
+    <LanguageProvider>
+      <SafeAreaView style={styles.root}>
+        <StatusBar style="light" />
+        {load.status === "ready" ? (
+          <View style={styles.hud} pointerEvents="box-none">
+            <LanguagePill />
+          </View>
+        ) : null}
+        {load.status === "loading" ? (
+          <View style={styles.center}>
+            <ActivityIndicator color={colors.accent} />
+            <Text style={styles.centerText}>Loading artworks…</Text>
+          </View>
+        ) : load.status === "error" ? (
+          <View style={styles.center}>
+            <Text style={styles.errorTitle}>Could not load artworks</Text>
+            <Text style={styles.centerText}>{load.message}</Text>
+            <Pressable style={styles.retryButton} onPress={loadArtworks}>
+              <Text style={styles.retryText}>Retry</Text>
+            </Pressable>
+          </View>
+        ) : selectedArtwork ? (
+          <ArtworkDetailScreen
+            artwork={selectedArtwork}
+            onBack={() => setSelectedArtwork(null)}
+          />
+        ) : (
+          <>
+            {!hasSupabaseConfig ? (
+              <View style={styles.sampleBanner}>
+                <Text style={styles.sampleBannerText}>
+                  SAMPLE MODE — SET EXPO_PUBLIC_SUPABASE_ANON_KEY FOR LIVE DATA
+                </Text>
+              </View>
+            ) : null}
+            <ScannerScreen artworks={load.artworks} onIdentify={handleIdentify} />
+          </>
+        )}
+      </SafeAreaView>
+    </LanguageProvider>
   );
 }
 
@@ -114,6 +123,12 @@ const styles = StyleSheet.create({
   root: {
     flex: 1,
     backgroundColor: colors.bgBottom
+  },
+  hud: {
+    position: "absolute",
+    top: 10,
+    right: 16,
+    zIndex: 20
   },
   center: {
     flex: 1,
