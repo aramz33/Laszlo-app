@@ -10,6 +10,7 @@ import {
 
 import { useChat } from "../hooks/useChat";
 import type { Lang, Point, Profile, Steering } from "../services/runtime";
+import { colors, fonts, radii } from "../theme";
 
 type Props = {
   artworkId: string;
@@ -59,7 +60,7 @@ export function ChatPanel({
           {m.streaming ? (
             <ActivityIndicator
               size="small"
-              color="#8fc7ff"
+              color={colors.accent}
               style={styles.streamingDot}
             />
           ) : null}
@@ -86,7 +87,7 @@ export function ChatPanel({
           value={draft}
           onChangeText={setDraft}
           placeholder="Ask about this artwork…"
-          placeholderTextColor="#7d756a"
+          placeholderTextColor={colors.textFaint}
           editable={!busy}
           onSubmitEditing={() => send(draft)}
           returnKeyType="send"
@@ -108,34 +109,38 @@ const styles = StyleSheet.create({
     gap: 10
   },
   sectionTitle: {
-    color: "#f7f1e7",
-    fontSize: 18,
-    fontWeight: "800"
+    color: colors.text,
+    fontFamily: fonts.serifSemibold,
+    fontSize: 19
   },
   bubble: {
-    borderRadius: 10,
+    borderRadius: radii.md,
     padding: 12,
     maxWidth: "92%"
   },
   userBubble: {
     alignSelf: "flex-end",
-    backgroundColor: "#2f5d8c"
+    backgroundColor: colors.accentSoft,
+    borderColor: colors.accent,
+    borderWidth: 1
   },
   assistantBubble: {
     alignSelf: "flex-start",
-    backgroundColor: "rgba(255, 255, 255, 0.06)",
-    borderColor: "rgba(255, 255, 255, 0.12)",
+    backgroundColor: colors.glass,
+    borderColor: colors.hairline,
     borderWidth: 1
   },
   userText: {
-    color: "#f3f7ff",
-    fontSize: 14,
-    lineHeight: 20
+    color: colors.text,
+    fontFamily: fonts.serifRegular,
+    fontSize: 15,
+    lineHeight: 22
   },
   assistantText: {
-    color: "#e4ddd2",
-    fontSize: 14,
-    lineHeight: 20
+    color: colors.text,
+    fontFamily: fonts.serifRegular,
+    fontSize: 15,
+    lineHeight: 22
   },
   streamingDot: {
     marginTop: 6,
@@ -147,16 +152,17 @@ const styles = StyleSheet.create({
     gap: 8
   },
   chip: {
-    borderColor: "rgba(143, 199, 255, 0.4)",
-    borderRadius: 16,
+    borderColor: colors.hairlineStrong,
+    borderRadius: radii.pill,
     borderWidth: 1,
-    paddingHorizontal: 12,
+    paddingHorizontal: 13,
     paddingVertical: 8,
-    backgroundColor: "rgba(143, 199, 255, 0.08)"
+    backgroundColor: colors.glass
   },
   chipText: {
-    color: "#8fc7ff",
-    fontSize: 13
+    color: colors.text,
+    fontFamily: fonts.serifRegular,
+    fontSize: 14
   },
   inputRow: {
     flexDirection: "row",
@@ -165,26 +171,28 @@ const styles = StyleSheet.create({
   },
   input: {
     flex: 1,
-    borderColor: "rgba(255, 255, 255, 0.18)",
-    borderRadius: 8,
+    borderColor: colors.hairlineStrong,
+    borderRadius: radii.pill,
     borderWidth: 1,
-    paddingHorizontal: 12,
-    paddingVertical: 10,
-    color: "#f7f1e7",
-    fontSize: 14
-  },
-  sendButton: {
-    borderRadius: 8,
     paddingHorizontal: 16,
     paddingVertical: 11,
-    backgroundColor: "#2f8cff"
+    color: colors.text,
+    fontFamily: fonts.serifRegular,
+    fontSize: 15
+  },
+  sendButton: {
+    borderRadius: radii.pill,
+    paddingHorizontal: 18,
+    paddingVertical: 12,
+    backgroundColor: colors.accent
   },
   sendButtonDisabled: {
     opacity: 0.5
   },
   sendText: {
-    color: "#ffffff",
-    fontSize: 14,
-    fontWeight: "700"
+    color: colors.onAccent,
+    fontFamily: fonts.mono,
+    fontSize: 11,
+    letterSpacing: 1
   }
 });
