@@ -2,10 +2,11 @@
 
 Deux backends sélectionnables via --backend :
 
-  moondream  — Moondream-2b en local (recommandé, MIT, gratuit).
-               Modèle open-source conçu pour la tâche « point to X » :
-               retourne directement des coordonnées (x, y).
-               Télécharge ~1.7 GB au premier lancement.
+  moondream  — Moondream cloud API (gratuit, clé sans CB).
+               Conçu pour la tâche « point to X » : retourne des
+               coordonnées (x, y) directement.
+               Nécessite MOONDREAM_API_KEY dans .env
+               (free tier : https://moondream.ai/)
 
   pixtral    — Pixtral via Scaleway (crédits existants, fallback).
                Floats directs — moins fiable qu'un modèle dédié.
@@ -61,7 +62,9 @@ def _clamp(v: float) -> float:
 # Backend: Moondream (local, open-source, designed for point tasks)
 # ---------------------------------------------------------------------------
 
-# Moondream is loaded lazily and cached across hotspots — loading takes ~10 s.
+# Moondream client is loaded lazily and cached across hotspots.
+# The `moondream` PyPI package is a cloud-API wrapper — it needs MOONDREAM_API_KEY.
+# Get a free key (no credit card) at https://moondream.ai/
 _moondream_model = None
 
 
@@ -76,10 +79,25 @@ def _get_moondream():
                 "moondream not installed for this interpreter.\n"
                 f"Run:  {sys.executable} -m pip install moondream --break-system-packages"
             )
-        print("[moondream] loading model (first run downloads ~1.7 GB)…")
-        _moondream_model = md.vl(model="moondream-2b")
-        print("[moondream] model ready.")
+        api_key = _env("MOONDREAM_API_KEY")
+        if not api_key:
+            raise RuntimeError(
+                "MOONDREAM_API_KEY not set.\n"
+                "Get a free key (no credit card) at https://moondream.ai/\n"
+                "Then add it to your .env:  MOONDREAM_API_KEY=<key>"
+            )
+        _moondream_model = md.vl(api_key=api_key)
+        print("[moondream] client ready.")
     return _moondream_model
+
+
+def _env(key: str) -> str | None:
+    """Read env var; guarded so importing the module needs no --allow-env."""
+    try:
+        import os
+        return os.environ.get(key)
+    except Exception:
+        return None
 
 
 def _moondream_query(h: dict) -> str:

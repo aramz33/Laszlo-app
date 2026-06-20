@@ -37,7 +37,7 @@ Deux backends sélectionnables via `--backend` :
 
 | Backend | Modèle | Note |
 |---|---|---|
-| `moondream` *(défaut)* | Moondream-2b local (MIT, gratuit) | Conçu pour `point to X` — retourne des coordonnées nativement |
+| `moondream` *(défaut)* | Moondream cloud API (free tier, clé sans CB) | Conçu pour `point to X` — retourne des coordonnées nativement |
 | `pixtral` | Pixtral via Scaleway | Fallback — LLMs sont moyens pour les floats précis |
 
 ```bash
@@ -45,11 +45,10 @@ python3.11 -m pipeline.main place-hotspots                   # moondream (défau
 python3.11 -m pipeline.main place-hotspots --backend pixtral # floats Pixtral
 ```
 
-**Prérequis moondream** (à faire une fois) :
-```bash
-python3.11 -m pip install moondream --break-system-packages
-```
-Premier lancement : télécharge ~1.7 GB (modèle mis en cache ensuite).
+**Prérequis moondream** :
+1. Créer un compte gratuit sur [moondream.ai](https://moondream.ai/) (pas de CB)
+2. Copier la clé API et l'ajouter au `.env` racine : `MOONDREAM_API_KEY=<clé>`
+3. Installer le package : `python3.11 -m pip install moondream --break-system-packages`
 
 - Image réduite à ≤ 1024 px via IIIF avant envoi.
 - `narration_text` inclus dans le prompt pour donner du contexte visuel.
