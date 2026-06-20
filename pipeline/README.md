@@ -24,6 +24,7 @@ python -m pipeline.main refine                      --limit 30   # → data/refi
 python -m pipeline.main transform                   --limit 30   # graphe + notices + hotspots (dry-run)
 python -m pipeline.main load                        --limit 30   # → Supabase + Storage
 python -m pipeline.main all            --set 260214               # tout, Top 1000
+python -m pipeline.main update-hotspots                           # maj coords+texte hotspots phares en DB (depuis flagships.py, sans pipeline complet)
 ```
 
 `--limit` débugge sur un sous-ensemble. Sans `--limit`, le set complet (260214 = Top 1000,

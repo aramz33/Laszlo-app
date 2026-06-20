@@ -22,11 +22,32 @@ const headers = {
 };
 ```
 
-## `POST /generate` — text, 4 modes
+## `POST /generate` — text, 5 modes
 
 Shared optional fields: `request_id` (echoed back), `lang` (`fr|en|nl`),
 `profile` (`{ allure, niveau, interets[], free_text, persona_summary }`),
 `steering` (`{ tone, lens }`), `history` (capped 8), `history_summary`.
+
+### mode `overview` — whole-artwork intro (fire once, when the artwork opens)
+
+The "✦ L'œuvre" virtual hotspot shown by default on arrival. Single JSON call,
+fired alongside the hotspot batch.
+
+```ts
+const r = await fetch(`${BASE}/generate`, {
+  method: "POST",
+  headers,
+  body: JSON.stringify({
+    mode: "overview",
+    artwork_id,
+    lang: "fr",
+    profile,
+    steering,
+    history_summary, // optional: prior works seen this visit
+  }),
+});
+const { text, sources } = await r.json();
+```
 
 ### mode `persona` — onboarding → persona_summary (call once, store on device)
 
@@ -175,7 +196,7 @@ const r = await fetch(`${BASE}/speak`, {
   body: JSON.stringify({
     text,
     lang: "fr",
-    provider: "auto", // "edge" | "mistral" | "google" | "auto"
+    provider: "auto", // "elevenlabs" | "edge" | "mistral" | "google" | "auto"
     speed: 1, // edge honors it
   }),
 });
@@ -183,8 +204,10 @@ const { audio_url, format, engine } = await r.json();
 // play audio_url (expo-av). engine="google" often means edge was throttled (still fine).
 ```
 
-Notes: `edge` = best FR/NL but Microsoft throttles it (auto-falls back to
-google); `mistral` = English voices only; `google` = robotic but always works.
+Notes: `elevenlabs` = best quality, opt-in (needs key, costs credits); `edge` =
+strong FR/NL but Microsoft throttles it (auto-falls back to google); `mistral` =
+English voices only; `google` = robotic but always works. `auto` default chain is
+edge→google (set in index.ts; prepend elevenlabs there to make it the default).
 
 ## Suggested flow
 

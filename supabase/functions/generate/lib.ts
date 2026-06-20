@@ -3,10 +3,9 @@
 // These are deliberately split out from index.ts so tests can import them without
 // triggering Deno.serve (which would bind a port).
 //
-// ponytail: every `stub*` function is a deterministic placeholder standing in for the
-// real LLM call. When the OpenAI-compatible key lands in .env, replace the stub bodies
-// with the model call (streaming for `ask`). The output SHAPES below are the contract
-// (ADR 0014) and must not change — only how the text is produced changes.
+// ponytail: every `stub*` function is the deterministic fallback used when the real LLM
+// call (llm.ts, wired in index.ts) fails — so a demo never shows a blank. The output
+// SHAPES below are the contract (ADR 0014) and must not change.
 
 /** Provenance entry returned with every generated answer (anti-hallucination story). */
 export type Source = { source: string; lang: string; notice_id: string | null };
@@ -49,21 +48,9 @@ export function stubHotspotText(h: HotspotRow, lang: string): string {
 }
 
 /**
- * Free-form answer text. Stub echoes the question and how many notices grounded it.
- * Real version: a single grounded LLM call over the artwork's notices.
- */
-export function stubAskText(
-  question: string,
-  lang: string,
-  noticeCount: number,
-): string {
-  return `[stub ${lang}] Answer to "${question}", grounded on ${noticeCount} notice(s).`;
-}
-
-/**
  * Onboarding -> persona summary (the hidden S5 call). Stub concatenates the raw
- * selections. Real version: one LLM call turning the selections into a rich persona
- * fragment, stored on device and re-injected into every later call.
+ * selections; the real call turns them into a rich persona fragment, stored on device
+ * and re-injected into every later call.
  *
  * NOTE: the onboarding field names (`allure`, `niveau`, `interets`) are the frozen
  * wire-contract keys from ADR 0014 (shared with the app). Code/labels are English;

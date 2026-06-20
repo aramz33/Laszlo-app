@@ -11,7 +11,6 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DATA_RAW = PROJECT_ROOT / "data" / "raw"
 DATA_ENRICHED = PROJECT_ROOT / "data" / "enriched"
 DATA_REFINED = PROJECT_ROOT / "data" / "refined"
-DATA_IMAGES = PROJECT_ROOT / "data" / "images"
 
 RIJKS_OAI_BASE = os.environ.get("RIJKS_OAI_BASE", "https://data.rijksmuseum.nl/oai")
 RIJKS_SET = os.environ.get("RIJKS_SET", "260214")  # Rijks Top 1000 (inclut les phares)
@@ -31,17 +30,10 @@ SUPABASE_BUCKET = os.environ.get("SUPABASE_BUCKET", "artworks")
 CONTACT_EMAIL = os.environ.get("CONTACT_EMAIL", "contact@example.com")
 USER_AGENT = f"laszlo-megathon/0.1 ({CONTACT_EMAIL})"
 
-# Scaleway (shared with the edge functions via root .env — kept for future pipeline use)
-SCW_BASE_URL = os.environ.get("SCW_BASE_URL", "")
-SCW_API_KEY = os.environ.get("SCW_API_KEY", "")
-
-STORED_LANGS = ("en", "nl")
 ARKIT_REF_MAX_PX = 1600
 HTTP_TIMEOUT = 60
 
-FLAGSHIP_OBJECT_NUMBERS = ("SK-C-5", "SK-A-2344")
-
 
 def ensure_data_dirs() -> None:
-    for directory in (DATA_RAW, DATA_ENRICHED, DATA_REFINED, DATA_IMAGES):
+    for directory in (DATA_RAW, DATA_ENRICHED, DATA_REFINED):
         directory.mkdir(parents=True, exist_ok=True)

@@ -12,7 +12,7 @@ never facts. Full contract:
 **[ADR 0014](../../docs/adr/0014-runtime-generation-edge-function.md)**.
 
 ```
-app ──► /generate   text     4 modes: hotspot · ask · persona · followups
+app ──► /generate   text     5 modes: overview · hotspot · ask · persona · followups
 app ──► /transcribe audio    speech → text   (STT)
 app ──► /identify   image    photo → artwork_id, AR fallback   (vision)
 app ──► /speak      text     text → playable audio_url   (TTS)
@@ -49,7 +49,7 @@ those helpers. Per-function detail lives in each folder's `README.md`.
 | LLM (generate)    | Scaleway, OpenAI-compatible | `SCW_BASE_URL`, `SCW_API_KEY`, `SCW_MODEL` (`mistral-small-3.2-24b-instruct-2506`) |
 | STT (transcribe)  | Scaleway                    | `SCW_STT_MODEL` (`voxtral-small-24b-2507`)                                         |
 | Vision (identify) | Scaleway                    | `SCW_VISION_MODEL` (`pixtral-12b-2409`)                                            |
-| TTS (speak)       | ⚠ keyless stopgap (Google)  | `ELEVENLABS_API_KEY` to swap in the real one                                       |
+| TTS (speak)       | ElevenLabs · Edge · Mistral · Google | `ELEVENLABS_API_KEY` (opt-in, best quality); Edge/Google keyless; `TTS_PROVIDER` default |
 
 `SUPABASE_URL` / `SUPABASE_ANON_KEY` / `SUPABASE_SERVICE_ROLE_KEY` are
 auto-injected when deployed; export them locally.
