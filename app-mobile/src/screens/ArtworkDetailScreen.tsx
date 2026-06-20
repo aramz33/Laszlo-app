@@ -9,13 +9,10 @@ import {
 } from "react-native";
 
 import { ChatPanel } from "../components/ChatPanel";
+import { useLanguage } from "../context/LanguageContext";
 import type { Artwork } from "../domain/artwork";
 import { useHotspotTexts } from "../hooks/useHotspotTexts";
-import {
-  defaultLang,
-  resolveHotspotText,
-  type Profile
-} from "../services/runtime";
+import { resolveHotspotText, type Profile } from "../services/runtime";
 import { colors, fonts, radii } from "../theme";
 
 type Props = {
@@ -25,7 +22,7 @@ type Props = {
 };
 
 export function ArtworkDetailScreen({ artwork, onBack, profile }: Props) {
-  const lang = defaultLang();
+  const { lang } = useLanguage();
   const hotspotTexts = useHotspotTexts({ artwork, lang, profile });
 
   return (
