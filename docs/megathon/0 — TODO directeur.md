@@ -8,19 +8,58 @@ date: 2026-06-20
 > **File directeur principal — suivi.** Coche au fur et à mesure. Le contexte/raisonnement est dans [[1 — Stratégie & arène]] · [[2 — Tech & build]] · [[3 — Playbook & questions ouvertes]].
 > 🟡 = **tâche de décision** (à trancher, peut générer des sous-tâches).
 
+## Sprint immédiat — par owner
+
+> Rythme de travail : **sprints autonomes de 90 min**, puis convergence 10-15 min.
+> L'app avance sur mocks locaux conformes au contrat si le serveur n'est pas prêt.
+> **Convergence dure après 2 sprints max (3 h)** : app ↔ serveur/stub réel.
+
+### Adam / Codex — app, data, demo
+
+- [ ] **Sprint app 1** : ouvrir une œuvre depuis vraie DB ou mock compatible, afficher image + hotspots.
+- [ ] Implémenter les mocks locaux conformes au contrat :
+  - [ ] `/generate mode=hotspot` → JSON batch ;
+  - [ ] `/generate mode=ask` → simulation `delta/done` ;
+  - [ ] `/speak` → `audio_url` fixe ;
+  - [ ] `/transcribe` → transcript fixe.
+- [ ] Brancher les états hotspot : `idle` → `loading` → `ready` / `fallback` / `error`.
+- [ ] Appliquer le fallback hotspot **3 s** : lire `narration_text`, puis remplacer si le texte perso arrive.
+- [ ] Préparer le client `/generate mode=ask` : chat libre, question depuis hotspot, point libre.
+- [ ] Préparer le lecteur audio depuis `audio_url` (`/speak`) avec voix/vitesse/ton côté UI.
+- [ ] Préparer l'upload audio `/transcribe` en `multipart/form-data` (même si transcript mocké au début).
+- [ ] Garder QR/manual fallback prioritaire : même vue détail, même contrat runtime.
+- [ ] **Convergence 1** : l'app appelle au moins un endpoint serveur/stub réel après 90 min.
+- [ ] **Convergence dure** : après 3 h, app branchée sur stub HTTP ou vrai serveur pour `/generate`.
+
+### Siffrein — serveur, secrets, deploy
+
+- [ ] Valider le contrat `docs/megathon/4 — Notes discussion Siffrein.md`.
+- [ ] Créer les Edge Functions :
+  - [ ] `POST /functions/v1/generate` ;
+  - [ ] `POST /functions/v1/speak` ;
+  - [ ] `POST /functions/v1/transcribe`.
+- [ ] `/generate mode=hotspot` : JSON batch, `request_id`, `items[]`, `sources` structurées.
+- [ ] `/generate mode=ask` : SSE `delta/done/error`, `done.text` complet, `sources` structurées.
+- [ ] `/speak` : ElevenLabs côté serveur, request texte + voix abstraite, response `audio_url`.
+- [ ] `/transcribe` : Voxtral côté serveur, `multipart/form-data`, max 20 s / 10 MB.
+- [ ] Configurer env vars serveur : Supabase, LLM TBD, ElevenLabs, Voxtral.
+- [ ] Livrer soit vrais endpoints, soit stub HTTP conforme, soit fixtures `curl` pour la première convergence.
+- [ ] Garder LLM **TBD** jusqu'au premier test qualité/latence ; ne pas bloquer l'app dessus.
+
 ## Backend
 
 - [x] 🟡 ~~Figer le **schéma Supabase** (le contrat)~~ → exécuté, **vérifié en prod** (2026-06-20)
   - [x] Créer le projet Supabase + exécuter le SQL (artist / movement / museum / artwork / notice / hotspot)
   - [ ] Générer les types partagés (`/shared`) pour l'app mobile
 - [x] Exposer une **API de lecture** fine → **PostgREST auto** (`?select=*,notice(*),hotspot(*)`), lecture validée
-- [ ] 🟡 **Figer le contrat `f()` ensemble (Aramsis × Siffrein)** — dérivé du **panel flow** (chaque levier UI = un param d'entrée). À fixer : input/output exact, streaming, états de chargement hotspot, TTS côté serveur. Débloque les 2 lanes.
+- [ ] 🟡 **Valider le contrat `f()` avec Siffrein** — proposition côté Adam/Codex prête : `ask` SSE, `hotspot` JSON batch, `request_id`, `sources` structurées, `history` capé, `/speak`, `/transcribe`.
   - [x] Préparer le support de discussion : `docs/megathon/4 — Notes discussion Siffrein.md`
-- [ ] **Runtime `f()` = Edge Function Supabase**, streamé, tient la clé LLM (ADR 0014). **Scope live = génération texte** : hotspots personnalisés à l'entrée de la vue œuvre, chat libre, **point placé par l'utilisateur** (pointer un endroit de l'œuvre + question), **conversation depuis un hotspot ancré**.
-  - [ ] **Endpoints** : `POST /generate` (mode `hotspot` ou `ask`) ; `POST /transcribe` (voix→texte).
+  - [ ] Obtenir un oui/non clair de Siffrein sur le contrat.
+- [ ] **Runtime `f()` = Edge Function Supabase**, tient la clé LLM (ADR 0014). **Scope live = génération texte** : hotspots personnalisés en **batch** à l'entrée de la vue œuvre, chat libre streamé, **point placé par l'utilisateur**, **conversation depuis un hotspot ancré**.
+  - [ ] **Endpoints** : `POST /generate` (`hotspot` JSON batch, `ask` SSE) ; `POST /speak` (texte→audio) ; `POST /transcribe` (voix→texte).
   - [ ] 🟡 **Choisir le modèle LLM** — critères : **coût / time-to-first-token / qualité FR & multilingue / fidélité au grounding / résidence UE**. Pas fixé. **Mini-éval** : 3 notices phares × 3 candidats (modèle open via **Nebius** = cloud d'inférence open-weights EU, crédits kit · Mistral · Claude API en référence). **Fallback** = Claude API payante (M32).
 - [ ] **Edge function `POST /transcribe`** : audio → texte (Voxtral), clé STT serveur (M33)
-- [ ] **Surface TTS serveur** : texte généré → audio/stream/URL jouable, clé TTS côté serveur ; l'app garde seulement les contrôles lecture/voix/vitesse/ton
+- [ ] **Surface TTS serveur `POST /speak`** : texte généré → `audio_url` jouable via ElevenLabs côté serveur ; l'app garde seulement les contrôles lecture/voix/vitesse/ton.
 - [ ] 🟡 **Ajouter `location` au schéma** (musée + galerie, pour charger l'AR par salle) — **hardcode les phares** pour la démo (A3)
 - [ ] **Mollie serveur** *(dernier — après tout le reste)* : hosted checkout + webhook « activer offre musée / premium venue »
 - [ ] Brancher clé Mollie **test** (dev) puis **live** (démo activation package/pilot)
@@ -35,7 +74,7 @@ date: 2026-06-20
 - [x] Scaffold app mobile Expo React Native + ViroReact — `/app-mobile`
 - [x] **Panel flow (wireframe fonctionnel)** — livré dans `docs/Laszlo design Megathon.zip` ; inventaire des leviers UI = **base d'entrée du contrat `f()`**.
 - [ ] **Recâbler l'app sur Supabase** (l'impl actuelle est jetable : importe un `demoArtworks` fantôme + client Supabase inutilisé) : fetch `artwork?select=*,hotspot(*)&ref_image_url=not.is.null`, mapping → domaine, charger **par salle** (phares pour la démo)
-- [ ] **Hotspots personnalisés** : à l'entrée dans la vue œuvre, lancer en async **un `POST /generate mode=hotspot` par hotspot**, en parallèle, avec profil + langue ; le tap hotspot lit le texte généré prêt (fallback : `narration_text` brut si latence)
+- [ ] **Hotspots personnalisés** : à l'entrée dans la vue œuvre, lancer **un `POST /generate mode=hotspot` batch** avec les N hotspots, profil + langue ; le tap hotspot lit le texte généré prêt (fallback : `narration_text` brut après 3 s)
   - [x] 🟡 Trancher : texte hotspot **personnalisé à chaque ouverture d'œuvre** (pas fixe, pas batch profil golden)
 - [ ] **Génération `f()` live** (`/generate mode=ask` streamé) sur : **chat libre**, **point placé par l'utilisateur** (tap libre sur l'œuvre + question), **conversation depuis un hotspot ancré** (grounding = hotspot généré + notices)
 - [ ] **Vue AR** : détection œuvre ViroReact (tracking targets) → **point bleu ancré**
@@ -81,10 +120,7 @@ date: 2026-06-20
 ## Produit
 
 - [x] Audio hotspots généré **live** au runtime (M24) : texte stocké, pas d'`audio_url` pré-rempli par le pipeline
-- [ ] 🟡 Décider la **voix (cascade STT → LLM → TTS)** — 2 briques distinctes :
-  - [ ] **TTS** (parler au visiteur) : ElevenLabs (compte dispo) — latence, barge-in, voix de marque ; vs Vapi (orchestration, qualif track)
-  - [ ] **STT** (écouter le visiteur) : Voxtral (Mistral) vs ElevenLabs Scribe
-  - [ ] Trancher au plus tard SYNC 1
+- [x] 🟡 ~~Décider la **voix (STT → LLM → TTS)**~~ → **TTS = ElevenLabs**, **STT = Voxtral**, LLM **TBD** après premier test/stub. Barge-in reste hors happy path.
 - [x] **Barge-in = hors happy path** (M16) : archi capable, montré si stable, sinon pitch-only — wow démo = hotspots + Q&A
 - [x] Écrire le **happy path** de démo (le chemin exact de dimanche) — livré dans `docs/Laszlo design Megathon.zip` : build me → look → listen → ask → steer → switch → walk → connect
 - [x] ~~Définir les **4 chemins de connaissance** en démo (Défaut/Technique/Histoire/Symbolisme)~~ → remplacé par **lanes/persona** injectées dans `/generate` ; pas de boutons "4 chemins" dans l'UI.
