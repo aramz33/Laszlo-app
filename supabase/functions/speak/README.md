@@ -11,15 +11,17 @@ POST  { text, lang, voice?, speed?, tone? }
 ->    { audio_url, format, duration_s }
 ```
 
-## ⚠ Stopgap provider
+## Providers (keyless, no ElevenLabs key yet)
 
-ElevenLabs (the intended TTS, ADR 0014) needs a key we don't have yet. Until
-then `speak` uses the **keyless Google Translate TTS**: it chunks the text,
-fetches each MP3, concatenates them, uploads to the public `artworks/tts/`
-Storage path, and returns the URL.
+1. **Primary — Microsoft Edge neural TTS** (`edgetts.ts`): good quality, many
+   voices, no length limit, keyless (WebSocket + a time-based token). Honors
+   `speed`.
+2. **Fallback — Google Translate TTS** (`lib.ts`): robotic but rock-stable; used
+   only if Edge fails. Chunks text (~200 chars) and concatenates.
 
-Ceilings: robotic voice, ignores `voice`/`speed`/`tone`, rate-limited, no SSML.
-When `ELEVENLABS_API_KEY` is added, replace `synthesize()` in `index.ts` — the
+Both upload the MP3 to the public `artworks/tts/` Storage path and return its
+URL. `voice`/`tone` are currently ignored. When `ELEVENLABS_API_KEY` is added,
+add an ElevenLabs branch at the top of `synthesize()` in `index.ts` — the
 contract and the upload/return path do not change.
 
 Storage write uses `SUPABASE_SERVICE_ROLE_KEY` (auto-injected when deployed;

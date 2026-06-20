@@ -4,39 +4,46 @@
 // short playable URL (not base64) and keeps only its playback controls. The TTS key
 // stays server-side.
 //
-// ponytail: STOPGAP provider. ElevenLabs (the intended TTS, ADR 0014) needs a key we
-// don't have yet, so we use the KEYLESS Google Translate TTS: split the text into
-// short chunks, fetch each MP3, concatenate (MP3 frames play back fine concatenated),
-// upload to Storage, return the public URL. When ELEVENLABS_API_KEY lands, replace
-// `synthesize()` with the ElevenLabs call — the contract and the upload/return path
-// below do not change. Ceilings of the stopgap: robotic voice, ignores voice/speed/
-// tone, ~no SSML, rate-limited.
+// ponytail: KEYLESS providers (no ElevenLabs key yet). Primary = Microsoft Edge neural
+// voices (good quality, no length limit); fallback = Google Translate TTS (robotic but
+// rock-stable). When ELEVENLABS_API_KEY lands, add an ElevenLabs branch at the top of
+// `synthesize()` — the upload/return path and the contract below do not change.
+// Current ceiling: `voice`/`tone` are ignored; `speed` is honored by the Edge path only.
 //
 // Request : { text, lang, voice?, speed?, tone? }
 // Response: { audio_url, format, duration_s }
 
 import { jsonResponse, preflight } from "../_shared/http.ts";
 import { serviceClient } from "../_shared/supabase.ts";
+import { edgeTts } from "./edgetts.ts";
 import { chunkText, googleTtsUrl, MAX_CHUNKS } from "./lib.ts";
 
 const STORAGE_BUCKET = "artworks"; // public bucket; TTS files live under tts/
 
-/**
- * Text -> MP3 bytes. ponytail: keyless Google TTS, chunked + concatenated.
- * Swap this body for an ElevenLabs call when ELEVENLABS_API_KEY is available.
- */
-async function synthesize(text: string, lang: string): Promise<Uint8Array> {
-  const chunks = chunkText(text).slice(0, MAX_CHUNKS);
+/** Text -> MP3 bytes. Try Edge neural TTS first, fall back to Google on any failure. */
+async function synthesize(
+  text: string,
+  lang: string,
+  speed: number,
+): Promise<Uint8Array> {
+  try {
+    return await edgeTts(text, lang, speed);
+  } catch {
+    return await googleTts(text, lang);
+  }
+}
+
+/** Fallback: keyless Google TTS, chunked (~200 char cap) and concatenated. */
+async function googleTts(text: string, lang: string): Promise<Uint8Array> {
   const parts: Uint8Array[] = [];
-  for (const chunk of chunks) {
+  for (const chunk of chunkText(text).slice(0, MAX_CHUNKS)) {
     const res = await fetch(googleTtsUrl(chunk, lang), {
       headers: { "User-Agent": "Mozilla/5.0" },
     });
-    if (!res.ok) throw new Error(`TTS ${res.status} on chunk`);
+    if (!res.ok) throw new Error(`google TTS ${res.status}`);
     parts.push(new Uint8Array(await res.arrayBuffer()));
   }
-  const total = parts.reduce((n, p) => n + p.length, 0);
-  const out = new Uint8Array(total);
+  const out = new Uint8Array(parts.reduce((n, p) => n + p.length, 0));
   let offset = 0;
   for (const p of parts) {
     out.set(p, offset);
@@ -71,10 +78,11 @@ Deno.serve(async (req) => {
 
   const text: string = (body.text ?? "").trim();
   const lang: string = body.lang ?? "fr";
+  const speed: number = typeof body.speed === "number" ? body.speed : 1;
   if (!text) return jsonResponse({ message: "text is required" }, 400);
 
   try {
-    const audio_url = await uploadAudio(await synthesize(text, lang));
+    const audio_url = await uploadAudio(await synthesize(text, lang, speed));
     // duration_s unknown without decoding the MP3 — left null (ponytail).
     return jsonResponse({ audio_url, format: "mp3", duration_s: null });
   } catch (e) {
