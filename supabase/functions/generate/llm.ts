@@ -20,8 +20,10 @@ export type Msg = { role: "system" | "user" | "assistant"; content: string };
 export async function complete(
   messages: Msg[],
   temperature = 0.5,
+  modelOverride?: string,
 ): Promise<string> {
-  const { base, key, model } = cfg();
+  const { base, key, model: defaultModel } = cfg();
+  const model = modelOverride || defaultModel;
   const res = await fetch(`${base}/chat/completions`, {
     method: "POST",
     headers: {
@@ -47,8 +49,10 @@ export async function complete(
 export async function* streamDeltas(
   messages: Msg[],
   temperature = 0.5,
+  modelOverride?: string,
 ): AsyncGenerator<string> {
-  const { base, key, model } = cfg();
+  const { base, key, model: defaultModel } = cfg();
+  const model = modelOverride || defaultModel;
   const res = await fetch(`${base}/chat/completions`, {
     method: "POST",
     headers: {

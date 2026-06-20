@@ -43,7 +43,7 @@ date: 2026-06-20
 - [x] Configurer env vars serveur (Supabase, SCW, ElevenLabs, Mistral).
 
 **Reste lane Siffrein (par priorité) :**
-- [ ] **Coords hotspots phares** — placer à la main dans le playground → `python3.11 -m pipeline.main update-hotspots`
+- [x] **Coords hotspots phares** — placées à la main dans le playground → `update-hotspots` (vérifié 2026-06-21)
 - [ ] **Notices Wikipedia phares (D3)** — trimmer les dumps bruts → améliore grounding `mode=ask`
 - [ ] **Choix modèle LLM (M32)** — tester alternatives `SCW_MODEL` si qualité insuffisante
 - [ ] **Mollie** — edge function `mollie`, dernier
@@ -116,7 +116,7 @@ date: 2026-06-20
 ### Phares — reste (focus démo profonde)
 
 - [ ] **Notices Wikipedia phares `review → ok`** : aujourd'hui = **dump brut de l'article entier**, à trimmer en substrat propre (4 notices : SK-C-5 + SK-A-2344 × en/nl) — *jugement à froid*. **Bloque le grounding du chat (`generate mode=ask`)** : trop gros pour un petit modèle → **point à résoudre demain (D3)**
-- [ ] **Polir les hotspots phares** : coords `x,y` à placer à la main dans le playground (clic → `point: x,y`) → reporter dans `flagships.py` → `python3.11 -m pipeline.main update-hotspots`
+- [x] **Polir les hotspots phares** : coords `x,y` placées à la main dans le playground → `flagships.py` → `update-hotspots` (vérifié 2026-06-21)
 - [ ] *(option scale, hors démo)* enrichissement déterministe à **batcher en 1 seul run prod, avec Adam** : mouvement via créateur (P170→P135, **+184 œuvres** mesurées), parser dims NL, assouplir match Q-id
 
 ## Produit
