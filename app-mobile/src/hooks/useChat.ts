@@ -83,7 +83,7 @@ export function useChat({ artworkId, lang, profile, steering }: Args) {
         streaming: true
       };
 
-      const priorHistory: HistoryMessage[] = [...messages, userMsg].map((m) => ({
+      const priorHistory: HistoryMessage[] = messages.map((m) => ({
         role: m.role,
         content: m.content,
         artwork_id: artworkId
