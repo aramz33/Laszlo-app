@@ -60,9 +60,14 @@ Contraintes de sens :
 - `x` et `y` sont normalisés sur l'image de l'oeuvre, entre `0` et `1`.
 - `height_cm` et `width_cm` sont requis pour les reference images AR et le
   `physicalWidth` ViroReact.
-- `audio_url` = `null` par défaut : la narration hotspot est **générée live au runtime**
-  depuis `narration_text` (+ profil/voix). `audio_url` n'est qu'un **cache optionnel** si
-  la latence live l'exige (non rempli par le pipeline).
+- **Texte du hotspot ancré = préchargé**, pas généré live au tap : on affiche
+  `narration_text` (substrat révisé main pour les phares). La **génération LLM live**
+  (`f()`) est réservée au Q&A — questions libres, point placé par l'utilisateur,
+  conversation à partir d'un hotspot (cf. ADR 0014, révision 20/06). Si on adapte un
+  hotspot au profil, c'est **pré-généré en batch** (hotspot × profil), pas un appel au tap.
+- `audio_url` = `null` par défaut : l'**audio** du hotspot est **synthétisé live au runtime**
+  (TTS) depuis le texte (+ voix/vitesse). `audio_url` n'est qu'un **cache optionnel** si
+  la latence TTS l'exige (non rempli par le pipeline).
 - `image_iiif_id` vient de Micrio/Rijks ; `image_url` = hotlink IIIF (affichage) ;
   `ref_image_url` = rendition légère de tracking AR (Storage), générée pour les
   œuvres trackées.

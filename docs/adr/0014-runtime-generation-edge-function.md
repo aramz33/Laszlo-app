@@ -106,8 +106,9 @@ parole → [STT] → texte → RUNTIME f() → texte → [TTS] → parole
   `session` : l'historique = la conversation de l'utilisateur, pas des faits (les faits
   restent relus server-side). Token-cap aux N derniers tours si besoin. La **capture des
   intérêts dans le temps** (couche Profil/Mémoire) est hors scope ici.
-- `mode=hotspot` → réécrit `hotspot.narration_text` ancré sur les notices, adapté
-  au profil/langue. `mode=ask` → répond à `question` ancré sur les notices.
+- `mode=hotspot` → **révisé (20/06, voir section ci-dessous)** : les hotspots ancrés
+  sont désormais **préchargés**, plus réécrits au runtime live. `mode=ask` → répond à
+  `question` ancré sur les notices (+ contexte hotspot ou point placé par l'utilisateur).
 
 **Sortie** : `text/event-stream` (streamé pour que le TTS commence à parler avant
 la fin, et effet machine-à-écrire en texte-only).
@@ -116,6 +117,28 @@ la fin, et effet machine-à-écrire en texte-only).
 data: {"delta": "..."}                       // tokens streamés
 data: {"done": true, "sources": ["rijks","wikipedia"]}   // provenance = story anti-hallucination
 ```
+
+## Révision 2026-06-20 — hotspots préchargés, `f()` live = Q&A seulement (M34)
+
+Amende le point 2 du contrat ci-dessus.
+
+- **Les hotspots ancrés ne passent plus par `f()` live.** Au tap d'un hotspot prédéfini,
+  l'app affiche un **texte préchargé** (substrat révisé main pour les phares) ; l'audio reste
+  synthétisé live (TTS, M24). Motif : le tap hotspot est le cœur du wow → **zéro appel LLM
+  sur le chemin chaud** = zéro latence, zéro risque d'hallucination en démo.
+- **`f()` live (streamé) est réservé au Q&A** — ce qui ne peut pas être préchargé :
+  - **chat libre** (question texte/voix) ;
+  - **point placé par l'utilisateur** : tap sur un endroit arbitraire de l'œuvre (hors
+    hotspots prédéfinis) + question → `point {x,y}` ajouté à l'entrée ;
+  - **conversation à partir d'un hotspot ancré** : grounding = son texte préchargé + les
+    notices de l'œuvre.
+- **Contrat impacté** : l'entrée perd la branche « réécriture hotspot live » ; ajoute
+  `point: {x,y} | null` ; `hotspot_id` devient un **contexte de conversation** (mode ask).
+  Le **nom d'endpoint** (`/ask` vs `/generate`) et la forme finale sont **à figer à la
+  réunion contrat** (panel flow → contrat, cf. TODO directeur).
+- 🟡 **Ouvert** : l'adaptation au profil d'un hotspot ancré est-elle **fixe** (texte unique)
+  ou **pré-générée par profil** (batch hotspot × profils golden, stocké local) ? Les deux
+  gardent le chemin chaud sans appel live.
 
 ## Modèle LLM & STT (détail providers — swappables, ADR 0012)
 

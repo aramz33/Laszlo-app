@@ -14,11 +14,13 @@ date: 2026-06-20
   - [x] Créer le projet Supabase + exécuter le SQL (artist / movement / museum / artwork / notice / hotspot)
   - [ ] Générer les types partagés (`/shared`) pour l'app mobile
 - [x] Exposer une **API de lecture** fine → **PostgREST auto** (`?select=*,notice(*),hotspot(*)`), lecture validée
-- [ ] **Runtime `f()` = Edge Function Supabase** : `POST /generate` (notice+profil+langue → texte streamé), tient la clé LLM (ADR 0014)
-  - [ ] 🟡 **Valider le modèle sur Nebius** (crédits kit) → sinon clé Claude API payante (M32)
+- [ ] 🟡 **Figer le contrat `f()` ensemble (Aramsis × Siffrein)** — dérivé du **panel flow** (chaque levier UI = un param d'entrée). À fixer : endpoints, input/output, streaming, qui recharge le grounding (serveur), où vit le TTS. Débloque les 2 lanes.
+- [ ] **Runtime `f()` = Edge Function Supabase**, streamé, tient la clé LLM (ADR 0014). **Scope live = Q&A** : chat libre, **point placé par l'utilisateur** (pointer un endroit de l'œuvre + question), **conversation depuis un hotspot ancré** (grounding = son contenu préchargé). Les **hotspots ancrés ne passent PAS par `f()` live** → contenu préchargé (cf. Frontend).
+  - [ ] **Endpoints** : `POST /ask` (artwork/hotspot/point + question + profil + langue → texte streamé) ; `POST /transcribe` (voix→texte).
+  - [ ] 🟡 **Choisir le modèle LLM** — critères : **coût / time-to-first-token / qualité FR & multilingue / fidélité au grounding / résidence UE**. Pas fixé. **Mini-éval** : 3 notices phares × 3 candidats (modèle open via **Nebius** = cloud d'inférence open-weights EU, crédits kit · Mistral · Claude API en référence). **Fallback** = Claude API payante (M32).
 - [ ] **Edge function `POST /transcribe`** : audio → texte (Voxtral), clé STT serveur (M33)
 - [ ] 🟡 **Ajouter `location` au schéma** (musée + galerie, pour charger l'AR par salle) — **hardcode les phares** pour la démo (A3)
-- [ ] **Mollie serveur** : hosted checkout + webhook « activer offre musée / premium venue »
+- [ ] **Mollie serveur** *(dernier — après tout le reste)* : hosted checkout + webhook « activer offre musée / premium venue »
 - [ ] Brancher clé Mollie **test** (dev) puis **live** (démo activation package/pilot)
 - [x] Storage Supabase pour images HD + reference images AR (phares ; bucket public `artworks`)
 - [ ] Déploiement backend (proche utilisateur)
@@ -29,16 +31,21 @@ date: 2026-06-20
 - [ ] 🟡 Décider : PWA sur **Base44** (track Prompt to Paid) vs **Vercel** libre
 - [ ] Vérifier la **porte toolchain mobile** : Mac + Xcode + Android Studio/EAS + iPhone physique + Android physique
 - [x] Scaffold app mobile Expo React Native + ViroReact — `/app-mobile`
+- [ ] **Panel flow (wireframe fonctionnel)** — inventaire des leviers UI (boutons angle, contrôles voix/ton/vitesse, champ question, profil) = **spec d'entrée du contrat `f()`** ; à finir **avant** la réunion contrat *(en cours)*
 - [ ] **Recâbler l'app sur Supabase** (l'impl actuelle est jetable : importe un `demoArtworks` fantôme + client Supabase inutilisé) : fetch `artwork?select=*,hotspot(*)&ref_image_url=not.is.null`, mapping → domaine, charger **par salle** (phares pour la démo)
-- [ ] **Brancher la génération `f()`** sur tap hotspot (ADR 0014, `/generate` streamé). **Stopgap tant que `f()` pas prête** : afficher `narration_text` brut (= substrat, pas le texte final), à remplacer par le texte généré
+- [ ] **Hotspots ancrés = contenu préchargé** (pas d'appel `f()` live au tap) : afficher le texte du hotspot ; audio TTS live → fiabilité démo
+  - [ ] 🟡 Trancher : texte hotspot **fixe** vs **pré-généré par profil** (batch hotspot × profil golden, stocké local) — adapte le profil sans appel live
+- [ ] **Génération `f()` live** (`/ask` streamé) sur : **chat libre**, **point placé par l'utilisateur** (tap libre sur l'œuvre + question), **conversation depuis un hotspot ancré** (grounding = son contenu)
 - [ ] **Vue AR** : détection œuvre ViroReact (tracking targets) → **point bleu ancré**
 - [ ] Tap point → **vue détail 2D** de l'œuvre
 - [ ] **Hotspots** sur la vue détail (points pré-définis depuis la DB)
 - [ ] **Lecteur audio** des hotspots + contrôles **vitesse / ton / voix** (changeables à la volée) — *audio généré **live** au runtime (M24), pas de pré-rendu*
-- [ ] **Chat libre** : poser des questions + taper hors hotspots → réponse vocale/texte
+- [ ] **Champ question** (texte + voix) sous l'œuvre → déclenche `/ask` ; marche avec ou sans hotspot/point sélectionné
 - [ ] **Fallback identification par modèle de vision** : capture du flux → vision (Claude) identifie l'œuvre → positionnement en **overlay 2D** (M31)
 - [ ] **Fallback sélection manuelle / QR / overlay 2D** prêt (même backend + même vue détail)
-- [ ] **Onboarding profil** : 3 questions skippables **ludiques** → axes neutres (allure/niveau/intérêt), `AsyncStorage` (C1) — *wording = design*
+- [ ] **Onboarding profil** : 3 questions skippables **ludiques**, **flux conditionnel** (la suite dépend des réponses), multi-sélection possible → axes neutres (allure/niveau/intérêt) (C1) — *wording = design*
+  - [ ] **Mapping onboarding → input profil LLM** : transformer les sélections (pas les mots bruts) en un fragment riche et bien construit pour `f()` (côté serveur ; le client envoie les sélections) = partie du contrat `f()`
+  - [ ] **Profils démo (presets) à définir** : 2-3 profils golden réglés (contraste fort), sélectionnables — **fallback** si saisie live / connexion casse
 - [ ] **Picker langue** visible, init sur la locale (C2)
 - [ ] UI **activation Mollie** (package musée / pilot), plutôt qu'un paywall visiteur dans l'app
 - [ ] (designer) Identité « doux sur le regard » + transitions + **écran « scale »** (N œuvres)
@@ -72,8 +79,9 @@ date: 2026-06-20
 ## Produit
 
 - [x] Audio hotspots généré **live** au runtime (M24) : texte stocké, pas d'`audio_url` pré-rempli par le pipeline
-- [ ] 🟡 Décider : **voix / TTS** (compte ElevenLabs dispo)
-  - [ ] Recherche intensive : ElevenLabs vs Vapi (latence, barge-in, voix de marque, qualif track Vapi)
+- [ ] 🟡 Décider la **voix (cascade STT → LLM → TTS)** — 2 briques distinctes :
+  - [ ] **TTS** (parler au visiteur) : ElevenLabs (compte dispo) — latence, barge-in, voix de marque ; vs Vapi (orchestration, qualif track)
+  - [ ] **STT** (écouter le visiteur) : Voxtral (Mistral) vs ElevenLabs Scribe
   - [ ] Trancher au plus tard SYNC 1
 - [ ] **Barge-in = hors happy path** (M16) : archi capable, montré si stable, sinon pitch-only — wow démo = hotspots + Q&A
 - [ ] Écrire le **happy path** de démo (le chemin exact de dimanche) — SYNC 1

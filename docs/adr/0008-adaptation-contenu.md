@@ -46,6 +46,10 @@ On garde l'adaptation visible, mais légère :
   centrée sur l'oeuvre, sans distraire.
 - La couche éditoriale musée complète est hors scope ; le pitch mentionne le
   B2B/co-construction.
+- **Révision 20/06 (M34)** : les hotspots ancrés sont **préchargés** ; l'adaptation profil
+  sur un hotspot est donc soit fixe, soit **pré-générée en batch** (pas un appel live). Les
+  3 cadrans live ne s'appliquent qu'au **Q&A** et à la vue œuvre ouverte (cf. ADR 0014,
+  révision 20/06).
 
 ## Options considérées
 
