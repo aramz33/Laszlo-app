@@ -124,17 +124,18 @@ date: 2026-06-20
 
 ## Vue détail 2D (écran riche)
 
-- **Hotspots préchargés** (narration, TTS live) — *hors `f()` live*
+- **Hotspots personnalisés** : à l'entrée de la vue œuvre, l'app lance en parallèle un
+  `/generate mode=hotspot` par hotspot ; tap hotspot = texte déjà prêt + TTS live
 - **Lecteur audio** : vitesse / ton / voix changeables à la volée
-- **Chat libre** voix/texte → `/ask`
-- **Point placé par l'utilisateur** (pointer un endroit + question) → `/ask`
+- **Chat libre** voix/texte → `/generate mode=ask`
+- **Point placé par l'utilisateur** (pointer un endroit + question) → `/generate mode=ask`
 - **Sources / provenance** affichées
 - *Pas de boutons d'angle* — pilotage par la conversation
 
 ## Personnalisation (invisible, niveau prompt)
 
-- Couche **lanes / persona** injectée dans chaque `/ask` + **fragments de lane pré-écrits** dans le system prompt
-- **Adaptation intra-conversation** via l'historique (`/ask` stateless) — ex. « arrête le symbolisme »
+- Couche **lanes / persona** injectée dans chaque `/generate` + **fragments de lane pré-écrits** dans le system prompt
+- **Adaptation intra-conversation** via l'historique (`/generate` stateless) — ex. « arrête le symbolisme »
 - **Niveau** mocké = paramètre de prompt (pas de table glossaire)
 - **Multilingue** = génération en langue cible (2 langues en démo)
 
@@ -155,7 +156,7 @@ date: 2026-06-20
 
 ## Coulisses (backend)
 
-- `f()` Edge Function = `/ask` (streamé) + `/transcribe`
+- `f()` Edge Function = `/generate` (modes `hotspot` + `ask`, streamé) + `/transcribe`
 - Pipeline d'ingestion déjà livré (1025 œuvres en prod)
 - Modèle LLM (mini-éval Nebius / Mistral / Claude) + TTS (ElevenLabs / Vapi) à trancher
 
@@ -173,5 +174,5 @@ transcription/contraste · intégrations CMS/SSO · toute la section Vision/road
 - **S2** — Niveau gradué = **mocké au prompt** pour la démo (pas de table glossaire).
 - **S3** — Navigation spatiale = **AR world-tracked « fakée »** : offset hardcodé de l'œuvre 2 depuis l'ancre de l'œuvre 1 (i), fallback flèche 2D, derrière le go/no-go ViroReact.
 - **S4** — **Pas de « 4 chemins » en UI** : ce sont des **lanes**, une couche de préférences générée depuis l'onboarding et injectée aux prompts.
-- **S5** — Persona **généré par LLM** (1 appel caché) ; **évolue intra-conversation** via l'historique (`/ask` stateless) ; réécriture persistante = plus tard.
+- **S5** — Persona **généré par LLM** (1 appel caché) ; **évolue intra-conversation** via l'historique (`/generate` stateless) ; réécriture persistante = plus tard.
 - **S6** — Onboarding = **QCM multi-sélection + champ libre** ; profils qui se croisent.

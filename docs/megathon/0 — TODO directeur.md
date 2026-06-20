@@ -14,11 +14,13 @@ date: 2026-06-20
   - [x] Créer le projet Supabase + exécuter le SQL (artist / movement / museum / artwork / notice / hotspot)
   - [ ] Générer les types partagés (`/shared`) pour l'app mobile
 - [x] Exposer une **API de lecture** fine → **PostgREST auto** (`?select=*,notice(*),hotspot(*)`), lecture validée
-- [ ] 🟡 **Figer le contrat `f()` ensemble (Aramsis × Siffrein)** — dérivé du **panel flow** (chaque levier UI = un param d'entrée). À fixer : endpoints, input/output, streaming, qui recharge le grounding (serveur), où vit le TTS. Débloque les 2 lanes.
-- [ ] **Runtime `f()` = Edge Function Supabase**, streamé, tient la clé LLM (ADR 0014). **Scope live = Q&A** : chat libre, **point placé par l'utilisateur** (pointer un endroit de l'œuvre + question), **conversation depuis un hotspot ancré** (grounding = son contenu préchargé). Les **hotspots ancrés ne passent PAS par `f()` live** → contenu préchargé (cf. Frontend).
-  - [ ] **Endpoints** : `POST /ask` (artwork/hotspot/point + question + profil + langue → texte streamé) ; `POST /transcribe` (voix→texte).
+- [ ] 🟡 **Figer le contrat `f()` ensemble (Aramsis × Siffrein)** — dérivé du **panel flow** (chaque levier UI = un param d'entrée). À fixer : input/output exact, streaming, états de chargement hotspot, TTS côté serveur. Débloque les 2 lanes.
+  - [x] Préparer le support de discussion : `docs/megathon/4 — Notes discussion Siffrein.md`
+- [ ] **Runtime `f()` = Edge Function Supabase**, streamé, tient la clé LLM (ADR 0014). **Scope live = génération texte** : hotspots personnalisés à l'entrée de la vue œuvre, chat libre, **point placé par l'utilisateur** (pointer un endroit de l'œuvre + question), **conversation depuis un hotspot ancré**.
+  - [ ] **Endpoints** : `POST /generate` (mode `hotspot` ou `ask`) ; `POST /transcribe` (voix→texte).
   - [ ] 🟡 **Choisir le modèle LLM** — critères : **coût / time-to-first-token / qualité FR & multilingue / fidélité au grounding / résidence UE**. Pas fixé. **Mini-éval** : 3 notices phares × 3 candidats (modèle open via **Nebius** = cloud d'inférence open-weights EU, crédits kit · Mistral · Claude API en référence). **Fallback** = Claude API payante (M32).
 - [ ] **Edge function `POST /transcribe`** : audio → texte (Voxtral), clé STT serveur (M33)
+- [ ] **Surface TTS serveur** : texte généré → audio/stream/URL jouable, clé TTS côté serveur ; l'app garde seulement les contrôles lecture/voix/vitesse/ton
 - [ ] 🟡 **Ajouter `location` au schéma** (musée + galerie, pour charger l'AR par salle) — **hardcode les phares** pour la démo (A3)
 - [ ] **Mollie serveur** *(dernier — après tout le reste)* : hosted checkout + webhook « activer offre musée / premium venue »
 - [ ] Brancher clé Mollie **test** (dev) puis **live** (démo activation package/pilot)
@@ -31,16 +33,16 @@ date: 2026-06-20
 - [ ] 🟡 Décider : PWA sur **Base44** (track Prompt to Paid) vs **Vercel** libre
 - [ ] Vérifier la **porte toolchain mobile** : Mac + Xcode + Android Studio/EAS + iPhone physique + Android physique
 - [x] Scaffold app mobile Expo React Native + ViroReact — `/app-mobile`
-- [ ] **Panel flow (wireframe fonctionnel)** — inventaire des leviers UI (boutons angle, contrôles voix/ton/vitesse, champ question, profil) = **spec d'entrée du contrat `f()`** ; à finir **avant** la réunion contrat *(en cours)*
+- [x] **Panel flow (wireframe fonctionnel)** — livré dans `docs/Laszlo design Megathon.zip` ; inventaire des leviers UI = **base d'entrée du contrat `f()`**.
 - [ ] **Recâbler l'app sur Supabase** (l'impl actuelle est jetable : importe un `demoArtworks` fantôme + client Supabase inutilisé) : fetch `artwork?select=*,hotspot(*)&ref_image_url=not.is.null`, mapping → domaine, charger **par salle** (phares pour la démo)
-- [ ] **Hotspots ancrés = contenu préchargé** (pas d'appel `f()` live au tap) : afficher le texte du hotspot ; audio TTS live → fiabilité démo
-  - [ ] 🟡 Trancher : texte hotspot **fixe** vs **pré-généré par profil** (batch hotspot × profil golden, stocké local) — adapte le profil sans appel live
-- [ ] **Génération `f()` live** (`/ask` streamé) sur : **chat libre**, **point placé par l'utilisateur** (tap libre sur l'œuvre + question), **conversation depuis un hotspot ancré** (grounding = son contenu)
+- [ ] **Hotspots personnalisés** : à l'entrée dans la vue œuvre, lancer en async **un `POST /generate mode=hotspot` par hotspot**, en parallèle, avec profil + langue ; le tap hotspot lit le texte généré prêt (fallback : `narration_text` brut si latence)
+  - [x] 🟡 Trancher : texte hotspot **personnalisé à chaque ouverture d'œuvre** (pas fixe, pas batch profil golden)
+- [ ] **Génération `f()` live** (`/generate mode=ask` streamé) sur : **chat libre**, **point placé par l'utilisateur** (tap libre sur l'œuvre + question), **conversation depuis un hotspot ancré** (grounding = hotspot généré + notices)
 - [ ] **Vue AR** : détection œuvre ViroReact (tracking targets) → **point bleu ancré**
 - [ ] Tap point → **vue détail 2D** de l'œuvre
 - [ ] **Hotspots** sur la vue détail (points pré-définis depuis la DB)
-- [ ] **Lecteur audio** des hotspots + contrôles **vitesse / ton / voix** (changeables à la volée) — *audio généré **live** au runtime (M24), pas de pré-rendu*
-- [ ] **Champ question** (texte + voix) sous l'œuvre → déclenche `/ask` ; marche avec ou sans hotspot/point sélectionné
+- [ ] **Lecteur audio** des hotspots + contrôles **vitesse / ton / voix** (changeables à la volée) — *audio TTS généré **live** depuis le texte hotspot personnalisé, pas de pré-rendu*
+- [ ] **Champ question** (texte + voix) sous l'œuvre → déclenche `/generate mode=ask` ; marche avec ou sans hotspot/point sélectionné
 - [ ] **Fallback identification par modèle de vision** : capture du flux → vision (Claude) identifie l'œuvre → positionnement en **overlay 2D** (M31)
 - [ ] **Fallback sélection manuelle / QR / overlay 2D** prêt (même backend + même vue détail)
 - [ ] **Onboarding profil** : 3 questions skippables **ludiques**, **flux conditionnel** (la suite dépend des réponses), multi-sélection possible → axes neutres (allure/niveau/intérêt) (C1) — *wording = design*
@@ -72,7 +74,7 @@ date: 2026-06-20
 
 ### Phares — reste (focus démo profonde)
 
-- [ ] **Notices Wikipedia phares `review → ok`** : aujourd'hui = **dump brut de l'article entier**, à trimmer en substrat propre (4 notices : SK-C-5 + SK-A-2344 × en/nl) — *jugement à froid*. **Bloque le grounding du chat (`ask`)** : trop gros pour un petit modèle → **point à résoudre demain (D3)**
+- [ ] **Notices Wikipedia phares `review → ok`** : aujourd'hui = **dump brut de l'article entier**, à trimmer en substrat propre (4 notices : SK-C-5 + SK-A-2344 × en/nl) — *jugement à froid*. **Bloque le grounding du chat (`generate mode=ask`)** : trop gros pour un petit modèle → **point à résoudre demain (D3)**
 - [ ] **Polir les hotspots phares** : narration provisoire correcte, mais **coords `x,y` à vérifier sur l'image réelle** (besoin de voir l'œuvre) ; ajouter des hotspots si la démo l'exige
 - [ ] *(option scale, hors démo)* enrichissement déterministe à **batcher en 1 seul run prod, avec Adam** : mouvement via créateur (P170→P135, **+184 œuvres** mesurées), parser dims NL, assouplir match Q-id
 
@@ -83,9 +85,9 @@ date: 2026-06-20
   - [ ] **TTS** (parler au visiteur) : ElevenLabs (compte dispo) — latence, barge-in, voix de marque ; vs Vapi (orchestration, qualif track)
   - [ ] **STT** (écouter le visiteur) : Voxtral (Mistral) vs ElevenLabs Scribe
   - [ ] Trancher au plus tard SYNC 1
-- [ ] **Barge-in = hors happy path** (M16) : archi capable, montré si stable, sinon pitch-only — wow démo = hotspots + Q&A
-- [ ] Écrire le **happy path** de démo (le chemin exact de dimanche) — SYNC 1
-- [ ] Définir les **4 chemins de connaissance** en démo (Défaut/Technique/Histoire/Symbolisme)
+- [x] **Barge-in = hors happy path** (M16) : archi capable, montré si stable, sinon pitch-only — wow démo = hotspots + Q&A
+- [x] Écrire le **happy path** de démo (le chemin exact de dimanche) — livré dans `docs/Laszlo design Megathon.zip` : build me → look → listen → ask → steer → switch → walk → connect
+- [x] ~~Définir les **4 chemins de connaissance** en démo (Défaut/Technique/Histoire/Symbolisme)~~ → remplacé par **lanes/persona** injectées dans `/generate` ; pas de boutons "4 chemins" dans l'UI.
 - [ ] **Profil 3 questions** skippables (réutiliser, léger) — *persona auto = vision, hors démo*
 - [ ] Définir l'**offre Mollie de démo** : paid pilot / package exposition / abonnement musée
 - [ ] 🟡 Écrire la **feature list complète** freemium / premium / musée, puis en tirer une spec produit post-démo

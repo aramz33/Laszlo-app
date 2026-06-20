@@ -84,7 +84,8 @@ parole → [STT] → texte → RUNTIME f() → texte → [TTS] → parole
 {
   "artwork_id": "uuid",          // l'œuvre ouverte ; le runtime relit ses notices server-side
   "mode": "hotspot" | "ask",
-  "hotspot_id": "uuid | null",   // requis si mode = "hotspot"
+  "hotspot_id": "uuid | null",   // requis si mode = "hotspot" ; contexte possible si mode = "ask"
+  "point": { "x": 0.42, "y": 0.58 } | null, // optionnel si mode = "ask" depuis un point libre
   "question": "string | null",   // requis si mode = "ask" (déjà STT si venu de la voix)
   "history": [                   // continuité conversation, tenue par l'app (runtime stateless)
     { "role": "user" | "assistant", "content": "string" }
@@ -106,9 +107,12 @@ parole → [STT] → texte → RUNTIME f() → texte → [TTS] → parole
   `session` : l'historique = la conversation de l'utilisateur, pas des faits (les faits
   restent relus server-side). Token-cap aux N derniers tours si besoin. La **capture des
   intérêts dans le temps** (couche Profil/Mémoire) est hors scope ici.
-- `mode=hotspot` → **révisé (20/06, voir section ci-dessous)** : les hotspots ancrés
-  sont désormais **préchargés**, plus réécrits au runtime live. `mode=ask` → répond à
-  `question` ancré sur les notices (+ contexte hotspot ou point placé par l'utilisateur).
+- `mode=hotspot` génère le **texte personnalisé d'un hotspot** pour le profil courant.
+  L'app lance ces appels **à l'entrée de la vue œuvre**, un par hotspot, en parallèle.
+  Le tap hotspot ne déclenche pas de LLM : il lit le texte déjà généré, avec fallback
+  possible sur `narration_text` si la génération n'est pas prête.
+- `mode=ask` répond à `question` ancré sur les notices (+ contexte hotspot ou point
+  placé par l'utilisateur).
 
 **Sortie** : `text/event-stream` (streamé pour que le TTS commence à parler avant
 la fin, et effet machine-à-écrire en texte-only).
@@ -118,27 +122,25 @@ data: {"delta": "..."}                       // tokens streamés
 data: {"done": true, "sources": ["rijks","wikipedia"]}   // provenance = story anti-hallucination
 ```
 
-## Révision 2026-06-20 — hotspots préchargés, `f()` live = Q&A seulement (M34)
+## Révision 2026-06-20 — hotspots personnalisés à l'ouverture de l'œuvre
 
 Amende le point 2 du contrat ci-dessus.
 
-- **Les hotspots ancrés ne passent plus par `f()` live.** Au tap d'un hotspot prédéfini,
-  l'app affiche un **texte préchargé** (substrat révisé main pour les phares) ; l'audio reste
-  synthétisé live (TTS, M24). Motif : le tap hotspot est le cœur du wow → **zéro appel LLM
-  sur le chemin chaud** = zéro latence, zéro risque d'hallucination en démo.
-- **`f()` live (streamé) est réservé au Q&A** — ce qui ne peut pas être préchargé :
+- **Les hotspots ancrés repassent par `f()`**, mais **pas au moment du tap**. À l'entrée
+  dans la vue détail d'une œuvre, l'app lance en async les générations personnalisées :
+  **un `POST /generate mode=hotspot` par hotspot**, en parallèle, avec `artwork_id`,
+  `hotspot_id`, `lang`, `profile` et `history` court. Motif : le texte doit être unique
+  au profil visiteur, mais le tap doit rester instantané.
+- Au tap d'un hotspot, l'app affiche / vocalise le **texte personnalisé déjà prêt**.
+  Fallback démo accepté : afficher `hotspot.narration_text` brut si la génération tarde.
+- **`mode=ask` (streamé) couvre le Q&A** :
   - **chat libre** (question texte/voix) ;
   - **point placé par l'utilisateur** : tap sur un endroit arbitraire de l'œuvre (hors
     hotspots prédéfinis) + question → `point {x,y}` ajouté à l'entrée ;
-  - **conversation à partir d'un hotspot ancré** : grounding = son texte préchargé + les
-    notices de l'œuvre.
-- **Contrat impacté** : l'entrée perd la branche « réécriture hotspot live » ; ajoute
-  `point: {x,y} | null` ; `hotspot_id` devient un **contexte de conversation** (mode ask).
-  Le **nom d'endpoint** (`/ask` vs `/generate`) et la forme finale sont **à figer à la
-  réunion contrat** (panel flow → contrat, cf. TODO directeur).
-- 🟡 **Ouvert** : l'adaptation au profil d'un hotspot ancré est-elle **fixe** (texte unique)
-  ou **pré-générée par profil** (batch hotspot × profils golden, stocké local) ? Les deux
-  gardent le chemin chaud sans appel live.
+  - **conversation à partir d'un hotspot ancré** : grounding = son texte personnalisé +
+    les notices de l'œuvre.
+- **Nom d'endpoint figé** : `POST /functions/v1/generate` pour `mode=hotspot` et
+  `mode=ask`; `POST /functions/v1/transcribe` pour la voix→texte.
 
 ## Modèle LLM & STT (détail providers — swappables, ADR 0012)
 
@@ -147,15 +149,17 @@ Amende le point 2 du contrat ci-dessus.
   Claude.ai ≠ clé API** : il n'y a pas de Claude « gratuit via abonnement ». Le port LLM
   reste swappable, le contrat `/generate` ne bouge pas selon le modèle.
 - **Grounding par mode** : `hotspot` → notice `rijks` + `narration_text` écrit main (riche)
-  → un petit modèle suffit. `ask` (chat) → a besoin de **Wikipedia**, mais les notices
+  + profil courant → génération courte, parallélisée côté app. `ask` (chat) → a besoin de **Wikipedia**, mais les notices
   wikipedia sont aujourd'hui un **dump brut** (trop gros) → **à trimmer** (cf. TODO) ou
   passer sur un modèle plus fort.
 - **STT = Voxtral**, cloud, derrière une **2e edge function `POST /transcribe`**
   (audio → texte ; requête courte, pas de socket long → l'Edge Function gère). Garde la clé
   STT serveur. STT on-device écarté (plus faible ; et le modèle de génération ne prend pas
   l'audio). Le STT **transcrit seulement**, il n'est pas le cerveau.
-- **TTS** = déféré (M15). Principe : le **texte généré est l'artefact stable** ; changer
-  voix/vitesse à la volée = **re-synthétiser** ce même texte, l'audio est jetable.
+- **TTS** = clé côté serveur (même ownership que LLM/STT). Principe : le **texte généré
+  est l'artefact stable** ; changer voix/vitesse à la volée = **re-synthétiser** ce même
+  texte, l'audio est jetable. La forme exacte côté app reste à figer : stream audio,
+  URL courte jouable, ou endpoint serveur dédié.
 
 ## Topologie résultante
 

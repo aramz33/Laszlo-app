@@ -47,7 +47,8 @@ output = f(notice, glossaire@niveau, profil, langue, voix/TTS)
 {
   "artwork_id": "uuid",        // le runtime relit ses notices server-side
   "mode": "hotspot" | "ask",
-  "hotspot_id": "uuid | null", // requis si mode = hotspot
+  "hotspot_id": "uuid | null", // requis si mode = hotspot ; contexte possible si mode = ask
+  "point": { "x": 0.42, "y": 0.58 } | null,
   "question": "string | null", // requis si mode = ask (déjà STT si venu de la voix)
   "history": [ { "role": "user|assistant", "content": "..." } ], // tenu par l'app
   "lang": "fr",
@@ -57,6 +58,9 @@ output = f(notice, glossaire@niveau, profil, langue, voix/TTS)
 ```
 
 Le client envoie `artwork_id`, **jamais les notices** (grounding pas confié au client).
+Pour les hotspots, l'app lance **un `/generate mode=hotspot` par hotspot** à l'entrée
+dans la vue œuvre, en parallèle, avec le profil/langue courants. Le tap hotspot ne lance
+pas de LLM : il lit le texte personnalisé déjà prêt, ou `narration_text` en fallback.
 
 **Conversation** : l'`history` est **tenu par l'app** et renvoyé à chaque appel → runtime
 **stateless** (modèle des API chat, pas de table `session`). La capture des intérêts dans le
@@ -103,7 +107,12 @@ pour un set curé. Fallback : ViroReact → sélection manuelle/QR → overlay 2
 | **Barge-in** | hors happy path (M16), montré seulement si stable | — |
 | **Mollie clé test → live** | live actif, brancher test en dev d'abord | — |
 
-## Pour la lane app (Siffrein)
+## Répartition de propriété
+
+| Owner | Surface |
+|---|---|
+| **Siffrein** | Serveur : Edge Functions `/generate` et `/transcribe`, clés LLM/STT/TTS, déploiement, secrets cloud |
+| **Adam/Codex** | App : UI, design, AR point bleu ancré, vue détail, hotspots, lecteur audio, chat, états de chargement/fallback |
 
 Le **contrat `/generate`** débloque l'app et le runtime en parallèle (comme le schéma Supabase
 débloque app et pipeline). Sans `f()` codée :
@@ -111,4 +120,5 @@ débloque app et pipeline). Sans `f()` codée :
 - coder l'app contre ce contrat (stub `/generate` → `narration_text` brut en stopgap) ;
 - avancer lecture Supabase + AR + hotspots sans rien attendre.
 
-Couplage réel à Adam = branchement voix (TTS) + grounding chat.
+Couplage réel = forme exacte du payload `/generate`, surface TTS exposée côté serveur,
+et format des événements SSE.

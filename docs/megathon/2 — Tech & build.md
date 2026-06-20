@@ -20,7 +20,7 @@ L'archi est **hexagonale** : surface client jetable + cœur + **adaptateurs sort
 ## Décisions verrouillées (session 20/06)
 
 - **Reconnaissance = ViroReact image tracking** pour la démo produit. Les embeddings sortent du runtime (gardés comme story d'échelle pitch + chantier post-hackathon). Voir ci-dessous.
-- **Codebase = monorepo, 2 outils :** **pipeline + backend en IntelliJ (Adam)** · **app mobile Expo React Native dans `/app-mobile` (Siffrein)**. ViroReact impose des builds natifs, mais garde l'essentiel du produit en TypeScript.
+- **Codebase = monorepo, 2 lanes techniques :** **serveur/runtime cloud Supabase Edge Functions (Siffrein)** · **app mobile Expo React Native dans `/app-mobile` (Adam/Codex)**. ViroReact impose des builds natifs, mais garde l'essentiel du produit en TypeScript.
 - **Voix / TTS = OUVERT** — compte **ElevenLabs** dispo ; arbitrage ElevenLabs vs Vapi (track) à trancher **après recherche** (cf. [[3 — Playbook & questions ouvertes]]). Le pipeline reste **agnostique à la voix** : on stocke le *texte* des hotspots, la génération audio est une étape séparée.
 
 - **Barge-in = hors happy path** (M16). On garde une **archi voix full-duplex capable**, mais couper l'IA en cours de parole n'est **pas** dans le chemin de démo (jugé « pas un vrai waouh », notes 20/06) → montré si stable/gratuit, sinon **pitch-only**. Wow démo = **audio guide hotspots + Q&A**.
@@ -91,10 +91,12 @@ Si les anchors ViroReact ne sont pas stables **sur device**, on bascule en **sé
 ## Flux de l'app (UX AR + audio guide + chat)
 1. **Vue AR (entrée).** Caméra levée → **point bleu** sur l'œuvre détectée (ViroReact). Tap sur le point.
 2. **Gros plan de l'œuvre.** L'œuvre passe en **vue détail (2D)** dans l'app. Dessus, des **hotspots pré-définis** (petits points) = aspects préparés de l'œuvre (ex. Night Watch : le geste du capitaine, la fillette-mascotte, l'usage de la lumière…).
-3. **Audio guide (hotspots) = le wow démo.** Tap sur un hotspot → génère / lance l'audio
-   **live au runtime** depuis `narration_text`. Contrôles : **vitesse**, **ton**,
-   **voix** — changeables à la volée. `audio_url` n'est qu'un cache optionnel si la
-   latence live casse le wow.
+3. **Audio guide (hotspots) = le wow démo.** À l'entrée dans la vue détail, l'app lance
+   les générations hotspot personnalisées **en parallèle** (`/generate mode=hotspot`,
+   un appel par hotspot) depuis `narration_text` + profil + langue. Tap sur un hotspot →
+   lire / vocaliser le texte personnalisé déjà prêt. Fallback démo : `narration_text`
+   brut si la génération tarde. Contrôles : **vitesse**, **ton**, **voix** — changeables
+   à la volée. `audio_url` n'est qu'un cache optionnel si la latence TTS casse le wow.
 4. **Chat / questions libres.** Au-delà des hotspots : un **chatbot** permet de **poser des questions** et de **taper ailleurs que sur les points pré-définis** → réponse vocale/texte. **Barge-in = bonus** (M16) : montré si stable, sinon hors démo — le chat marche sans la coupure mid-phrase.
 5. **Vision pitch (non développée).** End-game = **phone-less** : l'expérience sur **lunettes**, qui parle directement à l'utilisateur. *Shoot for the stars* — c'est pour le **pitch**, pas pour le build. Cf. [[1 — Stratégie & arène]] §Vision.
 
@@ -103,7 +105,7 @@ Si les anchors ViroReact ne sont pas stables **sur device**, on bascule en **sé
 ## Stack week-end (à valider Siffrein)
 
 - **Pipeline + backend** : **IntelliJ** (lane Adam). Recommandé **Python** (harvest/parse XML/images/LLM/Supabase) — tourne dans IntelliJ IDEA Ultimate (plugin Python) ou PyCharm ; alternative JVM/Kotlin si préféré.
-- **Client démo** : **app mobile Expo React Native + ViroReact** dans `/app-mobile` (lane Siffrein). **PWA Next.js/Vercel** conservée pour activation Mollie / page package musée / secondaire (ou Base44 si on vise sa track).
+- **Client démo** : **app mobile Expo React Native + ViroReact** dans `/app-mobile` (lane Adam/Codex). **PWA Next.js/Vercel** conservée pour activation Mollie / page package musée / secondaire (ou Base44 si on vise sa track).
 - **Données** : **Rijksmuseum** — **OAI-PMH** (`https://data.rijksmuseum.nl/oai`, sans clé, format `edm`) + **IIIF** (`https://iiif.micr.io/{id}/...`). Set actuel : **`260214` Top 1000**.
 - **Base** : **Supabase** (Postgres). Schéma = le contrat (voir ci-dessous).
 - **Reconnaissance** : **ViroReact image tracking** (reference images générées depuis IIIF + dimensions EDM).
@@ -158,7 +160,9 @@ hotspot  (id, artwork_id, x, y,          -- coords normalisées sur l'image
           audio_url, duration_s, ord)    -- cache optionnel, pas rempli par le pipeline
 ```
 
-> `app/` (Siffrein) **lit** ce schéma ; `pipeline/` (Adam) **écrit**. Une **mock DB** au schéma dès la 1ère heure débloque Siffrein. Pas d'embeddings au runtime (colonne `embedding` optionnelle pour la story scale, hors chemin critique).
+> `/app-mobile` (Adam/Codex) **lit** ce schéma ; `/supabase/functions` (Siffrein)
+> relit le grounding côté serveur ; `/pipeline` écrit la DB. Pas d'embeddings au runtime
+> (colonne `embedding` optionnelle pour la story scale, hors chemin critique).
 
 ---
 
@@ -174,8 +178,8 @@ hotspot  (id, artwork_id, x, y,          -- coords normalisées sur l'image
 
 | Qui | Lane |
 |---|---|
-| **Adam** (CEO **+ dev**) | **Moteur de données** (IntelliJ) : ingestion Rijks → notices neutres par source → graphe Supabase + hotspots. **+** lead SYNC, business + activation Mollie + traction, **pitch**, networking jury/sponsors |
-| **Siffrein** (CTO) | **Expérience temps réel** (`/app-mobile`) : Expo React Native + ViroReact + voix + session/chat + **déploiement** (+ PWA repli) |
+| **Adam** (CEO **+ app avec Codex**) | **App mobile** : UI/design, AR point bleu ancré, vue détail, hotspots personnalisés, lecteur audio, chat, états de chargement/fallback. **+** lead SYNC, business + activation Mollie + traction, **pitch**, networking jury/sponsors |
+| **Siffrein** (CTO) | **Serveur/runtime cloud** : Edge Functions `/generate` et `/transcribe`, clés LLM/STT/TTS, déploiement, secrets cloud, streaming/SSE |
 | **Designer** (recrue) | **Composants UI** + UI/UX « doux sur le regard » + écrans démo + branding + visuel scène |
 
 > Charge rééquilibrée : Siffrein n'est plus seul. **Nouveau risque = Adam double-casquette** → **temps pitch protégé** (dim. matin code-free) + Codex/Devin en assist + SYNC courts.
@@ -183,9 +187,24 @@ hotspot  (id, artwork_id, x, y,          -- coords normalisées sur l'image
 ## Parallélisation — bosser à 2
 
 - **Contrat = schéma Supabase** ci-dessus. **Figé au SYNC 1.**
-- **Monorepo :** `/pipeline` (Adam, IntelliJ, écrit la DB) · `/app-mobile` (Siffrein, Expo React Native, lit la DB) · `/shared` (schéma/types) · `/ui` (designer).
+- **Monorepo :** `/pipeline` (données déjà livrées, écrit la DB) · `/app-mobile` (Adam/Codex, Expo React Native, lit la DB) · `/supabase/functions` (Siffrein, Edge Functions + secrets) · `/shared` (schéma/types) · `/ui` (designer).
 - Git : branches courtes, merges fréquents. **Règle d'or :** le schéma est la seule surface partagée.
-- Adam peuple une **mock DB** dès la 1ère heure → Siffrein build sans attendre le vrai pipeline.
+- Surface d'intégration minimale : **types partagés** + payload `/generate` + événements SSE + surface TTS. Personne ne modifie la lane de l'autre hors contrat.
+
+### Matrice de couverture démo
+
+| Surface nécessaire pour la démo | Owner | Done démo | Frontière anti-collision |
+|---|---|---|---|
+| Données / grounding Supabase | Adam/Codex | Phares lisibles, notices phares propres, hotspots avec coords vérifiées, types `/shared` générés | App et serveur envoient des IDs ; personne ne duplique les notices côté client |
+| Runtime texte `/generate` | Siffrein | `mode=hotspot` + `mode=ask`, streaming SSE, relit notices/hotspot côté serveur, clé LLM côté secret | L'app consomme uniquement le contrat HTTP ; pas de clé LLM dans `/app-mobile` |
+| Voix serveur `/transcribe` + TTS | Siffrein | Audio→texte, texte→audio/stream ou URL jouable, clés STT/TTS côté secret | L'app contrôle UX/lecture, mais ne touche pas aux secrets provider |
+| App data + session | Adam/Codex | Fetch Supabase, onboarding profil, langue, session history, appels hotspot en parallèle | Le serveur reste stateless ; l'app renvoie `history` capé |
+| App expérience | Adam/Codex | AR point bleu, fallback QR/manual/overlay, vue détail, hotspots, lecteur audio, chat, point libre | Siffrein ne bloque pas l'UI ; stubs possibles si `/generate` n'est pas prêt |
+| Démo commerciale / pitch / logistique | Adam CEO | offre Mollie, QR/posters, vidéo backup, script pitch, dry-run, liste de coupes | Hors lanes techniques ; ne bloque pas les contrats app/serveur |
+
+**Conclusion de découpe :** Siffrein possède tout ce qui tient un secret ou tourne côté cloud.
+Adam/Codex possède tout ce que le visiteur voit et manipule. Adam CEO garde le contenu,
+la démo commerciale, le pitch et les fallback physiques.
 
 ## Repères Megathon (fixes)
 
@@ -215,8 +234,8 @@ hotspot  (id, artwork_id, x, y,          -- coords normalisées sur l'image
 - **Happy path écrit** + **schéma Supabase figé** (le contrat). Tâches bloc A + « done » de la nuit.
 
 ### Phase 2 — Bloc A (nuit) · Ven 21:00 → ~01:30 — **PRIORITÉ 1 : voix-phare**
-- Adam : 1–2 **notices phares main** + **mock DB** au schéma → débloque Siffrein ; amorce ingestion Rijks.
-- Siffrein : **spike voix** (parler ↔ répondre ↔ barge-in) sur notices mock + base app mobile.
+- Adam/Codex : brancher l'**app** sur la vraie DB ou un stub compatible, vue détail + hotspots + chat.
+- Siffrein : **serveur runtime** `/generate` + `/transcribe`, secrets LLM/STT/TTS, streaming minimal.
 - Designer : shell vue détail (écran œuvre + hotspots + chat) + direction visuelle.
 - Cible : **on parle à 1 œuvre et ça répond.** (standalone)
 
@@ -226,16 +245,16 @@ hotspot  (id, artwork_id, x, y,          -- coords normalisées sur l'image
 - État happy path. Bloqueurs. Plan du matin. Go/no-go pipeline.
 
 ### Phase 3 — Bloc B (matin) · Sam 09:00–14:30 — **PRIORITÉ 2 : pipeline breadth**
-- Adam : **pipeline ingestion** Rijks (OAI-PMH + IIIF → graphe → notices auto ancrées). Workshop **Cala 12:30**.
-- Siffrein : **workshop Vapi 11:30**, puis brancher l'app sur la **vraie DB** + **reference images AR** + état premium venue.
+- Adam/Codex : **lecture Supabase app** + reference images AR + génération hotspot parallèle côté client.
+- Siffrein : **workshop Vapi 11:30**, puis stabiliser `/generate` + `/transcribe` + TTS/voix.
 - Designer : polir écran œuvre, transitions, écran « scale » (N œuvres ingérées).
 
 ### ⟐ SYNC 3 — Intégration midi (Sam ~14:30, 20 min)
 - **Premier bout-en-bout** : AR → œuvre → hotspot/voix → premium venue actif. **Go/no-go ViroReact → fallback sélection/QR/overlay 2D si anchors instables.** Geler le périmètre ?
 
 ### Phase 4 — Bloc C (aprem/soir) · Sam 15:00–~00:30 — **PRIORITÉ 3 : reco (bonus) + polish**
-- Adam : reconnaissance (ViroReact / sinon sélection-QR) + traction + **démo activation Mollie** (package/pilot venue).
-- Siffrein/designer : multilingue live (FR→EN), hotspots des phares, polish du wow.
+- Adam/Codex : reconnaissance (ViroReact / sinon sélection-QR), hotspots personnalisés, polish du wow + traction + **démo activation Mollie**.
+- Siffrein : multilingue runtime, streaming, voix/TTS et robustesse serveur.
 - Adam : draft pitch finale + slides.
 
 ### ⟐ SYNC 4 — Dry-run (Sam ~19:30, 30 min — pendant le foot)
@@ -249,7 +268,7 @@ hotspot  (id, artwork_id, x, y,          -- coords normalisées sur l'image
 ### ⟐ SYNC 5 — Feature freeze (Dim ~08:00, 15 min) — **Gel.** Polish + pitch only.
 
 ### Phase 6 — Finalisation · Dim 08:30–14:00
-- Siffrein/designer : polish, stabilité, déploiement.
+- Adam/Codex/designer : polish app et stabilité parcours ; Siffrein : déploiement serveur.
 - Adam : **répétition pitch** ×N (code-free protégé), **pitch workshop 12:30**, Q/R jury.
 
 ### ⟐ SYNC 6 — Go/no-go submission (Dim ~14:00, 15 min) — **soumettre avant 15:00**.
@@ -278,18 +297,17 @@ hotspot  (id, artwork_id, x, y,          -- coords normalisées sur l'image
 ### ✅ Déjà fait
 - [x] **Compte Mollie créé** (banque, identité, CB + Apple/Google Pay) → **live actif**.
 
-### 🧱 Build — Adam (pipeline, IntelliJ)
-- [ ] **Scaffold projet** (modules harvest / refine / transform / load + `.env`).
-- [ ] **Harvest** set 26021 (OAI-PMH `edm`) + parse + résoudre IIIF imageId.
-- [ ] **Refine** : extent→cm, labels créateur/mouvement, download HD + ref image AR.
-- [ ] **Transform** : graphe + **notices neutres par source** + **hotspots des phares**.
-- [ ] **Mock DB** au schéma → débloque Siffrein tout de suite.
-
-### 🎤 Build — Siffrein (app mobile Expo React Native)
-- [ ] **Spike voix** (parler / répondre / barge-in) sur mock DB.
+### 📱 Build — Adam/Codex (app mobile Expo React Native)
 - [ ] **App mobile ViroReact** : détection œuvre (tracking targets) → point ancré → vue détail → hotspots. Fallback sélection/QR/overlay 2D prêt.
+- [ ] **Hotspots personnalisés** : lancer les `/generate mode=hotspot` en parallèle à l'ouverture d'œuvre, gérer loading/fallback.
 - [ ] **Audio hotspots** (lecteur + contrôles vitesse/ton/voix) + **chat** libre.
-- [ ] Intégrer l'**état premium venue** déclenché par Mollie (clé test → live si besoin). **Déploiement**.
+- [ ] Intégrer l'**état premium venue** déclenché par Mollie côté UI.
+
+### ☁️ Build — Siffrein (serveur / secrets / déploiement)
+- [ ] **Edge Function `/generate`** : modes `hotspot` et `ask`, streaming SSE, relecture du grounding Supabase.
+- [ ] **Edge Function `/transcribe`** : voix → texte, clé STT côté serveur.
+- [ ] **TTS / voix** : clé provider côté serveur, surface consommable par l'app.
+- [ ] **Déploiement** + variables d'environnement + test bout-en-bout.
 
 ### 🎨 Build — Designer
 - [ ] Vue détail (œuvre + hotspots + chat) + composants.

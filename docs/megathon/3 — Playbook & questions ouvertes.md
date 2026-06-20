@@ -136,14 +136,14 @@ Pour chaque sujet ouvert :
 7. **Hotspots des phares** — qui les auteur, combien par œuvre, textes **ancrés** (Adam révise). Coords normalisées sur l'image.
 8. **Base44** — la PWA (repli) sur **Base44** (track « Prompt to Paid ») vs **Vercel** libre ?
 9. **Repo** — repartir vierge (penché) vs réutiliser `Laszlo-app/docs/` comme cache de décisions ?
-10. **Charge Siffrein / recrue n°2** — il porte app mobile + voix. Adam = curation/pipeline. Reconnaissance sacrifiable. **Recrue n°2 ML/full-stack** vendredi (en plus du designer) ?
+10. **Charge Siffrein / recrue n°2** — révisé : Siffrein porte serveur/runtime/secrets/deploy ; Adam/Codex porte app mobile. Recrue n°2 seulement si le runtime ou l'app bloque malgré cette coupe.
 11. **Barge-in** — acté **hors happy path** (M16, archi capable, montré si stable). Reste seulement à décider la profondeur **si** on le tente (couper la voix vs full-duplex).
 12. **Qui tient les devices** pour la boucle de test on-device (iPhone + Android physique) pendant que Codex écrit le TypeScript ?
 
 ### Risques & mitigations
 | Risque | Impact | Mitigation |
 |---|---|---|
-| **Surcharge Siffrein** (app mobile + voix) | retard happy path | Adam = curation/pipeline + release valve · reconnaissance coupable en 1er · recrue n°2 si besoin |
+| **Contrat app↔serveur flou** (`/generate`, SSE, TTS) | intégration tardive | figer payload + events + surface TTS avant build ; stubs app et serveur en parallèle |
 | **AR/CV en live** (lumière salle, reflets, anchors instables) | casse sur scène | **Go/no-go ViroReact → sélection/QR/overlay 2D** · **QR fallback** + **vidéo backup** · reco = bonus, pas dépendance |
 | **Porte toolchain mobile** (build natif / device manquant) | pas d'AR live | Vérifier Expo dev build/EAS, Xcode et Android tôt · sinon repli sélection/QR + overlay 2D |
 | **Voix non tranchée** (ElevenLabs vs Vapi) | latence à câbler + qualif track Vapi | recherche dès vendredi · garder le pipeline agnostique (texte des hotspots) · décision au plus tard SYNC 1 |
