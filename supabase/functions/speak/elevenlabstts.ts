@@ -17,6 +17,30 @@
 // Speed is not directly mapped (ElevenLabs voice_settings use stability/similarity_boost,
 // not a prosody rate).
 
+/**
+ * Pick the best voice for the requested language.
+ * Priority: ELEVENLABS_VOICE_ID_<LANG> → ELEVENLABS_VOICE_ID → built-in default.
+ * Built-in defaults are native-speaker voices for FR and NL; EN keeps Sarah.
+ */
+function voiceForLang(lang: string): string {
+  const langKey = `ELEVENLABS_VOICE_ID_${lang.toUpperCase()}`;
+  // Per-language override (e.g. ELEVENLABS_VOICE_ID_FR, ELEVENLABS_VOICE_ID_NL)
+  try {
+    const perLang = Deno.env.get(langKey);
+    if (perLang) return perLang;
+    // Global override
+    const global_ = Deno.env.get("ELEVENLABS_VOICE_ID");
+    if (global_) return global_;
+  } catch { /* no --allow-env in tests; fall through to defaults */ }
+  // Built-in defaults — native-speaker voices for each language.
+  const DEFAULTS: Record<string, string> = {
+    fr: "DGTOOUoGpoP6UZ9uSWfA", // Célian — warm documentary narrator (FR standard)
+    nl: "MqvxHuZP0MWXPlNUh65f", // Daniel van der Meer — calm native Dutch
+    en: "EXAVITQu4vr4xnSDxMaL", // Sarah — American English (confirmed great quality)
+  };
+  return DEFAULTS[lang] ?? DEFAULTS.en;
+}
+
 /** Synthesize `text` to MP3 bytes via ElevenLabs. Throws if the key is missing or the call fails. */
 export async function elevenLabsTts(
   text: string,
@@ -26,7 +50,7 @@ export async function elevenLabsTts(
   const key = Deno.env.get("ELEVENLABS_API_KEY");
   if (!key) throw new Error("ELEVENLABS_API_KEY not set");
 
-  const voiceId = Deno.env.get("ELEVENLABS_VOICE_ID") ?? "EXAVITQu4vr4xnSDxMaL";
+  const voiceId = voiceForLang(lang);
   const model = Deno.env.get("ELEVENLABS_MODEL") ?? "eleven_multilingual_v2";
 
   const res = await fetch(
