@@ -205,6 +205,10 @@ dite à l'utilisateur est **générée au runtime** = f(notice, glossaire@niveau
 préférences utilisateur, langue visiteur, voix/TTS). Un texte pré-mâché ne pourrait ni
 s'adapter ni apprendre — d'où la notice-substrat.
 
+`f()` vit dans une **Edge Function Supabase** (`POST /functions/v1/generate`),
+**mono-appel LLM**, **texte→texte** ; la voix (STT/TTS) est une brique séparée qui
+l'encadre. Contrat d'entrée/sortie + justification : **ADR 0014**.
+
 ## Navigation et AR
 
 Pour le Megathon, la couche spatiale n'est pas un graphe indoor complet.

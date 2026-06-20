@@ -1,5 +1,11 @@
 # Laszlo — documentation technique
 
+- [Laszlo — documentation technique](#laszlo-documentation-technique)
+  - [Ce que l'on construit maintenant](#ce-que-lon-construit-maintenant)
+  - [ADR](#adr)
+  - [Specs](#specs)
+  - [Décisions encore ouvertes](#décisions-encore-ouvertes)
+
 Guide de musée conversationnel, voice-first, construit en public au Megathon.
 Ce dossier est la **couche ingénierie versionnée** du projet : décisions,
 contrat de données, critères fournisseurs et harnais d'évaluation. Il vit avec
@@ -65,6 +71,7 @@ posture Megathon lorsque le build de 45h diffère de la cible long terme.
 | [0011](adr/0011-pipeline-notices.md) | Notices semi-auto, gate groundedness, revue humaine | Gate simple + revue manuelle des phares |
 | [0012](adr/0012-selection-fournisseurs-ia.md) | Fournisseurs swappables, choix gated par éval | Démo d'abord ; UE/coût redevient filtre après Megathon |
 | [0013](adr/0013-frontend-mobile-stack.md) | Frontend mobile produit | Expo React Native + ViroReact d'abord ; Swift/Unity/Vuforia restent des adaptateurs de repli ou de scale |
+| [0014](adr/0014-runtime-generation-edge-function.md) | Runtime de génération `f()` | Edge Function Supabase, mono-appel LLM, texte→texte ; voix = brique séparée ; FastAPI = bascule future, même contrat |
 
 ## Specs
 

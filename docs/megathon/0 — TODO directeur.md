@@ -10,13 +10,14 @@ date: 2026-06-20
 
 ## Backend
 
-- [x] 🟡 Figer le **schéma Supabase** (le contrat) au SYNC 1
+- [x] 🟡 ~~Figer le **schéma Supabase** (le contrat)~~ → exécuté, **vérifié en prod** (2026-06-20)
   - [x] Créer le projet Supabase + exécuter le SQL (artist / movement / museum / artwork / notice / hotspot)
   - [ ] Générer les types partagés (`/shared`) pour l'app mobile
-- [ ] Exposer une **API de lecture** fine (œuvre + notices + hotspots) pour l'app
+- [x] Exposer une **API de lecture** fine → **PostgREST auto** (`?select=*,notice(*),hotspot(*)`), lecture validée
+- [ ] **Runtime `f()` = Edge Function Supabase** : `POST /generate` (notice+profil+langue → texte streamé), tient la clé LLM (ADR 0014)
 - [ ] **Mollie serveur** : hosted checkout + webhook « débloquer premium »
 - [ ] Brancher clé Mollie **test** (dev) puis **live** (stand)
-- [x] Storage Supabase pour images HD + reference images AR
+- [x] Storage Supabase pour images HD + reference images AR (phares ; bucket public `artworks`)
 - [ ] Déploiement backend (proche utilisateur)
 
 ## Frontend
@@ -36,22 +37,29 @@ date: 2026-06-20
 
 ## Dataset (pipeline — IntelliJ)
 
-- [x] 🟡 Décider : **langage pipeline** — **Python** (acté, ADR 0001/0011)
-- [x] 🟡 **Session dataset** : set **`260214`** (Top 1000, ~1040 œuvres) + **2 phares** = **Night Watch** + **La Laitière** ; demo profonde sur les phares (M23)
-- [x] Scaffold projet IntelliJ (`/pipeline` : harvest / enrich / refine / transform / load + `.env`)
+> ✅ **Lane Connaissance livrée en prod** (Supabase `spbrkgoseabpsxzkkyzj`, **vérifié 2026-06-20**) :
+> 1025 œuvres · 373 artistes · 7 mouvements · 1769 notices · 8 hotspots.
+
+- [x] 🟡 ~~Décider langage pipeline~~ → **Python**
+- [x] 🟡 ~~Session dataset~~ → set **`260214` Top 1000** (~1040 œuvres) ; phares **SK-C-5** + **SK-A-2344**. (Sélection « classique/enfants/abstrait » abandonnée au profit du Top 1000 curé.)
+- [x] Scaffold projet (`/pipeline` : harvest / enrich / refine / transform / load + `.env`)
 - [x] **Harvest** OAI-PMH du set (`edm`, pagination `resumptionToken`)
-- [x] **Parser EDM** → titres/desc EN-NL, créateur, `extent`, sujets, rights
-- [x] **Résoudre l'image IIIF** (Linked Art `?_profile=la` → `iiif.micr.io/{id}`)
-- [x] **Refine** : `extent` → height_cm/width_cm ; labels créateur/mouvement ; filtre HD + CC0
-- [x] **Download HD** + générer **reference images AR** → Storage
-- [x] **Multilingue pivot-EN** : garder la source, pivot EN, générer la langue visiteur (EN+NL déjà fournis par Rijks)
-- [x] **Enrich multi-source sans LLM** : Wikidata (Q-ids, mouvement P135, tags P180/P136) + Wikipedia (narratif, gate = article existe) — M19
-- [ ] **Notices = substrat neutre** (sans LLM cette semaine, M19) ; **angles de médiation = runtime** (M18) ; **LLM + gate groundedness différés** post-megathon
-- [ ] **Réviser à la main** les notices des phares (statut `ok`)
-- [x] **Auteur les hotspots** des phares (coords + aspect + texte) — `hotspots/flagships.py`
-- [x] **Charger** dans Supabase (upsert)
-- [x] **Mock DB** 2–3 œuvres → *superseded : vraies données chargées, Siffrein débloqué*
-- [ ] ⛔ Ignorer le dataset « Challenge 2014 » (XML + descripteurs Matlab) — obsolète, inutile pour le set curé ViroReact
+- [x] **Parser EDM** → titres/desc EN-NL, créateur, `extent`, rights, imageId
+- [x] **Résoudre l'image IIIF** (directement `iiif.micr.io/{id}` via `isShownBy` — pas de détour Linked Art `?_profile=la`)
+- [x] **Refine** : `extent` → height/width cm (**57 %** de couverture) ; labels créateur ; filtre image + CC0
+- [x] **Reference images AR** → Storage (phares ; `ref/SK-C-5.jpg` public OK)
+- [x] **Multilingue pivot-EN** : EN+NL stockés ; autres langues générées au runtime
+- [x] ~~Notices 4 facettes (LLM) + gate~~ → **changé** : `notice` = substrat neutre **1 ligne/source** (rijks `ok`, wikipedia `review`), **sans LLM** ; facettes = **lentilles runtime** (non stockées). cf. `data-model.md`
+- [x] **Auteur les hotspots** des phares (8 : 4×SK-C-5 + 4×SK-A-2344, coords + aspect + texte)
+- [x] **Charger** dans Supabase (upsert idempotent) — vérifié
+- [x] ~~Mock DB 2-3 œuvres~~ → superseded : vraies données en prod
+- [ ] ⛔ Ignorer le dataset « Challenge 2014 » — obsolète (set curé)
+
+### Phares — reste (focus démo profonde)
+
+- [ ] **Notices Wikipedia phares `review → ok`** : aujourd'hui = **dump brut de l'article entier**, à trimmer en substrat propre (4 notices : SK-C-5 + SK-A-2344 × en/nl) — *jugement à froid*
+- [ ] **Polir les hotspots phares** : narration provisoire correcte, mais **coords `x,y` à vérifier sur l'image réelle** (besoin de voir l'œuvre) ; ajouter des hotspots si la démo l'exige
+- [ ] *(option scale, hors démo)* enrichissement déterministe à **batcher en 1 seul run prod, avec Adam** : mouvement via créateur (P170→P135, **+184 œuvres** mesurées), parser dims NL, assouplir match Q-id
 
 ## Produit
 
