@@ -180,8 +180,18 @@ Deno.serve(async (req) => {
   // consuming before generation finishes.
   if (mode === "ask") {
     const question: string = body.question ?? "";
+    // history_summary carries the older turns once the app caps `history` (8 msgs).
+    const summary: string | null = body.history_summary ?? null;
     const messages: Msg[] = [
       { role: "system", content: system },
+      ...(summary
+        ? [
+          {
+            role: "system",
+            content: `Earlier in this visit: ${summary}`,
+          } as Msg,
+        ]
+        : []),
       ...historyMessages(body.history),
       {
         role: "user",
