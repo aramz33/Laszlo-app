@@ -18,19 +18,23 @@ preuve qu'on cure du contenu **à l'échelle, ancré** = l'anti-wrapper), la dé
 CONNAISSANCE (partagée)        ← CONSTRUITE (cette session)
   graphe œuvres + notices (substrat neutre ancré) + tags
         │ alimente
-PERSONNALISATION (par user)    ← session suivante (designée + pitchée)
-  profil 3 axes (Allure / Niveau / Centre d'intérêt) + persona + cadrage musée
+GLOSSAIRE / VOCABULAIRE        ← session suivante (designée + pitchée)
+  termes transverses + définitions graduées selon le niveau de parole
+        │ alimente
+PROFIL UTILISATEUR             ← session suivante (designée + pitchée)
+  préférences neutres orthogonales d'onboarding
         │ alimente
 MÉMOIRE (apprend dans le temps) ← session suivante (slots + pitch)
         │ génère
-  SORTIE = phrase dite à l'utilisateur = f(notice, profil/persona, mémoire, langue)
+  SORTIE = phrase dite à l'utilisateur = f(notice, glossaire, profil, langue, voix)
 ```
 
 **Décision pivot à retenir :** la `notice` est un **substrat neutre ancré**, jamais le
-texte final. La personnalisation (longueur, niveau, angle) + la langue + le ton
-s'appliquent **au runtime** par le LLM. Un texte pré-mâché ne pourrait ni s'adapter ni
-apprendre — d'où ce choix. Les 4 « chemins » (Défaut/Technique/Histoire/Symbolisme) sont
-des **lentilles runtime + boutons UI**, pas des colonnes stockées (taxonomie non figée).
+texte final. Le glossaire (niveau de vocabulaire), les préférences utilisateur, la
+langue et le ton s'appliquent **au runtime** par le LLM + TTS. Un texte pré-mâché ne
+pourrait ni s'adapter ni apprendre — d'où ce choix. Les anciens noms de travail
+Défaut/Technique/Histoire/Symbolisme sont des **angles de médiation runtime + boutons
+UI**, pas des colonnes stockées (taxonomie non figée).
 
 ## 3. Ce qui a été fait (couche Connaissance)
 
@@ -85,8 +89,9 @@ hotspot  (artwork_id, x, y, title, aspect, narration_text, audio_url, duration_s
 - **Hotspots** : `x`,`y` normalisés [0,1] sur l'image de l'œuvre ; la narration est
   **générée live au runtime** depuis `narration_text` (`audio_url` = cache optionnel, pas
   un prérequis).
-- **Langues** : seules `en`+`nl` sont stockées ; FR (et autres) seront **générés au
-  runtime** depuis le grounding.
+- **Langues** : pour Rijks, `en`+`nl` sont stockées. Principe durable : garder la langue
+  de la source / du musée et un pivot EN si nécessaire. Le FR (et autres outputs) est
+  **généré au runtime** depuis le grounding.
 - **Phares** : Night Watch `SK-C-5`, La Laitière `SK-A-2344` (notices Wikipedia riches +
   hotspots authored).
 - Lecture côté app = clé **`anon`** (RLS lecture seule). La clé `service_role` reste
@@ -107,8 +112,8 @@ python -m pipeline.main all --set 260214    # tout le corpus
 **Reste sur la couche Connaissance (court terme) :**
 - [ ] Brancher Supabase réel + premier `load` complet (1040 œuvres) — *prérequis projet
       Supabase.*
-- [ ] **Faceting LLM** : générer les angles (technique/histoire/symbolisme) en lentilles
-      runtime à partir du substrat. (Choix clé LLM à régler — Codex MAX / OpenAI API.)
+- [ ] **Angles de médiation runtime** : boutons/instructions qui orientent la réponse à
+      partir du substrat, sans créer de colonne `notice.facet`.
 - [ ] **Voix runtime** : narration hotspot + réponses chat générées **live** (TTS,
       provider ouvert — ElevenLabs/Vapi). Pas de pré-remplissage d'`audio_url`.
 - [ ] Révision main des notices des 2 phares (`review` → `ok`).
@@ -120,7 +125,8 @@ python -m pipeline.main all --set 260214    # tout le corpus
 - [ ] Paywall Mollie + déploiement.
 
 **Sessions de design suivantes (à griller à froid) :**
-- [ ] Couche **Personnalisation** (profil 3 axes, persona, cadrage musée) — tables + runtime.
+- [ ] Couche **Glossaire / vocabulaire gradué** — table `term` + définitions par niveau.
+- [ ] Couche **Profil utilisateur** — préférences neutres orthogonales, pas personas nommés au départ.
 - [ ] Couche **Mémoire** (apprend de l'utilisateur) — slots schéma + pitch.
 
 ## 8. Où sont les décisions

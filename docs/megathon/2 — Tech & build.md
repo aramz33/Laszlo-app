@@ -7,7 +7,9 @@ date: 2026-06-20
 
 > **Doc ground-truth 2/3** — le « comment » technique : posture par décision, reconnaissance/AR, flux app, schéma de données, pipeline, timeline 45h, TODO.
 > Contexte : [[1 — Stratégie & arène]] · Animation + à trancher : [[3 — Playbook & questions ouvertes]].
-> Miroir du wiki technique (ADR `Laszlo-app/docs/adr/`, rien d'implémenté à ce jour). But : **ne pas re-débattre les décisions déjà prises**, fixer pour chacune une **posture week-end**.
+> Miroir du wiki technique (ADR `Laszlo-app/docs/adr/`). Certaines sections historiques
+> décrivent le plan initial ; la section **Mise à jour — session pipeline** et
+> `docs/data-model.md` font foi pour le contrat actuel.
 
 ## Le principe qui débloque tout
 
@@ -30,8 +32,8 @@ L'archi est **hexagonale** : surface client jetable + cœur + **adaptateurs sort
 | D1 Hexagonal, front mince + orchestrateur Python/FastAPI | Next.js PWA + FastAPI | **Simplifier** : backend = chemin le plus court vers le wow |
 | D2 Graphe d'entités + récup. hybride + pgvector | Postgres/pgvector, pas de chunk-RAG | **Construire (light)** : c'est le **clever-tech**. Pipeline ingère Rijks (EDM) → graphe Œuvre/Artiste/Mouvement → Supabase. La forme du graphe = preuve qu'on est laszlo, pas un chatbot |
 | D3 Voix cascade STT→LLM→TTS + barge-in | Pipeline maison full-duplex/AEC | **Remplacer par sponsor** : barge-in + streaming clés-en-main = le wow, en heures. **Provider à trancher (ElevenLabs/Vapi)** |
-| D4 Profil 3 questions skippables | Onboarding 3 taps | **Réutiliser** (léger) : perso visible en démo, petit gain gros effet |
-| D5/D12 Sourcing notices + gate groundedness | Semi-auto + revue humaine | **Construire (light)** : génération auto des notices **ancrées sur les métadonnées Rijks** + gate groundedness simple. Adam révise les 1–2 phares à la main |
+| D4 Profil 3 questions skippables | Onboarding 3 taps | **Réutiliser** (léger) : préférences neutres visibles en démo, pas personas nommés |
+| D5/D12 Sourcing notices + gate groundedness | Semi-auto + revue humaine | **Construit (light)** : notices neutres par source (`rijks`/`wikipedia`) + provenance. Angles de médiation runtime et gate LLM approfondie = après |
 | **D7 Identification œuvre** | QR/NFC POC → CV MVP | **Ré-ouvert → AR (ARKit) pur** : voir la décision ci-dessous. Overlay 2D + QR = filets |
 | D9 Multilingue pivot EN | DeepL + LLM multilingue | **Garder en démo live** : question en FR puis EN = effet « waouh » quasi gratuit (les métadonnées Rijks sont déjà EN+NL) |
 | D6/D13 Hybride on-device + UE residency + éval-gated | Self-host Mistral/Voxtral/Cartesia | **Ignorer ce week-end** : zéro self-host, zéro éval. Providers managés. Ré-aligner après |
@@ -88,7 +90,10 @@ Si les anchors ne sont pas stables **sur device le samedi midi (SYNC 3)**, on ba
 ## Flux de l'app (UX AR + audio guide + chat)
 1. **Vue AR (entrée).** Caméra levée → **points bleus** sur les œuvres détectées (ARKit). Tap sur un point.
 2. **Gros plan de l'œuvre.** L'œuvre passe en **vue détail (2D)** dans l'app. Dessus, des **hotspots pré-définis** (petits points) = aspects préparés de l'œuvre (ex. Night Watch : le geste du capitaine, la fillette-mascotte, l'usage de la lumière…).
-3. **Audio guide (hotspots) = le wow démo.** Tap sur un hotspot → lance l'**audio pré-généré** de cet aspect. Contrôles : **vitesse**, **ton**, **voix** — changeables à la volée (si on n'aime pas, on change). *(Provider TTS à trancher — ElevenLabs dispo, M15.)*
+3. **Audio guide (hotspots) = le wow démo.** Tap sur un hotspot → génère / lance l'audio
+   **live au runtime** depuis `narration_text`. Contrôles : **vitesse**, **ton**,
+   **voix** — changeables à la volée. `audio_url` n'est qu'un cache optionnel si la
+   latence live casse le wow.
 4. **Chat / questions libres.** Au-delà des hotspots : un **chatbot** permet de **poser des questions** et de **taper ailleurs que sur les points pré-définis** → réponse vocale/texte. **Barge-in = bonus** (M16) : montré si stable, sinon hors démo — le chat marche sans la coupure mid-phrase.
 5. **Vision pitch (non développée).** End-game = **phone-less** : l'expérience sur **lunettes**, qui parle directement à l'utilisateur. *Shoot for the stars* — c'est pour le **pitch**, pas pour le build. Cf. [[1 — Stratégie & arène]] §Vision.
 
@@ -98,7 +103,7 @@ Si les anchors ne sont pas stables **sur device le samedi midi (SYNC 3)**, on ba
 
 - **Pipeline + backend** : **IntelliJ** (lane Adam). Recommandé **Python** (harvest/parse XML/images/LLM/Supabase) — tourne dans IntelliJ IDEA Ultimate (plugin Python) ou PyCharm ; alternative JVM/Kotlin si préféré.
 - **Client démo** : **app native iOS (Swift + ARKit/RealityKit)** dans **Xcode** (lane Siffrein). **PWA Next.js/Vercel** conservée pour paywall/secondaire (ou Base44 si on vise sa track).
-- **Données** : **Rijksmuseum** — **OAI-PMH** (`https://data.rijksmuseum.nl/oai`, sans clé, format `edm`) + **IIIF** (`https://iiif.micr.io/{id}/...`). Set démo : **`26021` Dutch Paintings 17th c.**
+- **Données** : **Rijksmuseum** — **OAI-PMH** (`https://data.rijksmuseum.nl/oai`, sans clé, format `edm`) + **IIIF** (`https://iiif.micr.io/{id}/...`). Set actuel : **`260214` Top 1000**.
 - **Base** : **Supabase** (Postgres). Schéma = le contrat (voir ci-dessous).
 - **Reconnaissance** : **ARKit image tracking** (reference images générées depuis IIIF + dimensions EDM).
 - **Voix** : **OUVERT** (ElevenLabs / Vapi — à trancher après recherche).
@@ -129,23 +134,27 @@ Si les anchors ne sont pas stables **sur device le samedi midi (SYNC 3)**, on ba
 
 1. **Extraction (harvest).** `ListRecords` sur le set → parser l'EDM XML par objet : URI, `objectNumber`, titres (EN/NL), descriptions (EN/NL), créateur (URI), date, **extent**, sujets (URIs), rights. Récupérer l'**imageId IIIF** via la représentation Linked Art.
 2. **Raffinement (clean + enrich).** Dédupliquer titres (l'EDM en a plusieurs), choisir EN+NL canoniques ; parser `extent` → `height_cm`/`width_cm` ; résoudre les URIs créateur/sujets → labels (nom artiste, mouvement, thèmes) ; filtrer (HD + CC0 + description riche) ; **télécharger les images HD** (IIIF) + générer la **reference image ARKit**.
-3. **Transformation (graphe + facettes + hotspots).** Construire le graphe (Œuvre→Artiste→Mouvement→Musée→Salle) ; **générer les 4 notices par facette** (Défaut/Technique/Histoire/Symbolisme) via LLM **ancrées** sur la description+métadonnées (provenance citée + gate groundedness) ; **Adam révise les phares à la main** ; **auteur les hotspots** des phares (coords + aspect + texte) ; charger dans Supabase.
+3. **Transformation (graphe + notices neutres + hotspots).** Construire le graphe
+   (Œuvre→Artiste→Mouvement→Musée) ; produire les **notices par source**
+   (`rijks` → `ok`, `wikipedia` → `review`) sans LLM ; **auteur les hotspots** des
+   phares (coords + aspect + texte) ; charger dans Supabase. Les angles de médiation
+   sont des instructions runtime, pas des notices stockées.
 
 ### Schéma Supabase (le contrat — figé au SYNC 1)
 
 ```sql
 artist   (id, name, birth_year, death_year)
-movement (id, name)                      -- ex. Dutch Golden Age
+movement (id, name, wikidata_qid)
 museum   (id, name, city)
 artwork  (id, object_number, title_en, title_nl, year,
           height_cm, width_cm,           -- pour ARKit
           image_iiif_id, image_url, ref_image_url,
-          artist_id, movement_id, museum_id, rights)
-notice   (id, artwork_id, facet,         -- default|technique|histoire|symbolisme
-          lang, text, sources jsonb, groundedness ['ok'|'review'])
+          artist_id, movement_id, museum_id, rights, wikidata_qid, tags jsonb)
+notice   (id, artwork_id, lang, source, text, sources jsonb, groundedness)
+          -- pas de facet ; 1 ligne par (œuvre × langue stockée × source)
 hotspot  (id, artwork_id, x, y,          -- coords normalisées sur l'image
           title, aspect, narration_text,
-          audio_url, duration_s, ord)    -- audio_url rempli à l'étape TTS
+          audio_url, duration_s, ord)    -- cache optionnel, pas rempli par le pipeline
 ```
 
 > `app/` (Siffrein) **lit** ce schéma ; `pipeline/` (Adam) **écrit**. Une **mock DB** au schéma dès la 1ère heure débloque Siffrein. Pas d'embeddings au runtime (colonne `embedding` optionnelle pour la story scale, hors chemin critique).
@@ -154,7 +163,9 @@ hotspot  (id, artwork_id, x, y,          -- coords normalisées sur l'image
 
 ### Multilingue & notes
 
-- **Multilingue (pivot EN).** Scrape en langue d'origine → garde la source → **pivot EN** ; FR = source originale si dispo ; autres langues = LLM génère depuis le grounding EN. L'EDM Rijks fournit déjà **EN + NL**. **Cache de traductions** = optimisation parkée.
+- **Multilingue.** On garde la langue du musée / de la source scrapée et un pivot EN si
+  nécessaire. L'EDM Rijks fournit déjà **EN + NL**. Le FR n'est pas stocké par défaut :
+  l'output visiteur est généré au runtime par l'IA puis vocalisé par le TTS.
 - **Dataset legacy (piège).** Le « Rijksmuseum Challenge 2014 » (~100k XML + descripteurs visuels Matlab précalculés) est **obsolète** : on utilise l'**OAI-PMH + IIIF actuels** (800k, plus riches, dimensions incluses). Reco = ARKit pur → **pas besoin de descripteurs visuels précalculés**.
 - **Couche éditoriale musée** (voix institutionnelle, ex. Guernica au Reina Sofia) = **pitch only**, pas implémentée dans la démo.
 
@@ -162,7 +173,7 @@ hotspot  (id, artwork_id, x, y,          -- coords normalisées sur l'image
 
 | Qui | Lane |
 |---|---|
-| **Adam** (CEO **+ dev**) | **Moteur de données** (IntelliJ) : ingestion Rijks → notices 4 facettes ancrées → graphe Supabase + hotspots. **+** lead SYNC, business + paywall Mollie + traction, **pitch**, networking jury/sponsors |
+| **Adam** (CEO **+ dev**) | **Moteur de données** (IntelliJ) : ingestion Rijks → notices neutres par source → graphe Supabase + hotspots. **+** lead SYNC, business + paywall Mollie + traction, **pitch**, networking jury/sponsors |
 | **Siffrein** (CTO) | **Expérience temps réel** (Xcode) : app iOS ARKit + voix + session/chat + **déploiement** (+ PWA repli) |
 | **Designer** (recrue) | **Composants UI** + UI/UX « doux sur le regard » + écrans démo + branding + visuel scène |
 
@@ -270,7 +281,7 @@ hotspot  (id, artwork_id, x, y,          -- coords normalisées sur l'image
 - [ ] **Scaffold projet** (modules harvest / refine / transform / load + `.env`).
 - [ ] **Harvest** set 26021 (OAI-PMH `edm`) + parse + résoudre IIIF imageId.
 - [ ] **Refine** : extent→cm, labels créateur/mouvement, download HD + ref image ARKit.
-- [ ] **Transform** : graphe + **notices 4 facettes ancrées** + **hotspots des phares**.
+- [ ] **Transform** : graphe + **notices neutres par source** + **hotspots des phares**.
 - [ ] **Mock DB** au schéma → débloque Siffrein tout de suite.
 
 ### 🎤 Build — Siffrein (app iOS, Xcode)
@@ -336,10 +347,11 @@ hotspot  (id, artwork_id, x, y, title, aspect, narration_text, audio_url, durati
 - CLI : `python -m pipeline.main {harvest|enrich|refine|transform|load|all} --set 26121 --limit N`.
 
 ### Décisions clés (cf. journal M18–M22 dans [[1 — Stratégie & arène]])
-- **Notice = substrat neutre** ; facettes = lentilles runtime (≠ stockage).
+- **Notice = substrat neutre** ; angles de médiation = runtime (≠ stockage).
 - **Découverte** : description Rijks courte (phare = 544 car.) + ~50 % vides → enrichissement Wikipedia **nécessaire**, pas optionnel.
 - **Lecture app = PostgREST auto Supabase** (pas de FastAPI custom, pas de vue SQL).
-- Reste : faceting LLM, génération runtime, TTS (`audio_url`), perso/mémoire = sessions suivantes.
+- Reste : angles de médiation runtime, glossaire gradué, profil utilisateur neutre,
+  génération runtime, TTS live, mémoire = sessions suivantes.
 
 
 

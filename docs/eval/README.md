@@ -13,10 +13,10 @@ complet après le week-end.
 Jeu minimal :
 
 1. **Catalogue Rijks** : 2-3 oeuvres mockées au schéma Supabase, puis un lot réel
-   du set `26021`.
+   du set `260214`.
 2. **Phares** : Night Watch `SK-C-5` et La Laitière si disponibles et stables.
-3. **Notices** : 4 facettes par phare (`default`, `technique`, `histoire`,
-   `symbolisme`), sources citées, statut `ok` après revue Adam.
+3. **Notices** : substrat neutre par source, sources citées, statut `ok` après revue
+   Adam sur les phares. Les angles de médiation sont testés au runtime, pas stockés.
 4. **Hotspots** : coordonnées normalisées + texte narratif + audio optionnel.
 5. **Voix** : 5-10 questions FR/EN sur les phares, avec interruption manuelle
    pour tester le barge-in.
@@ -39,14 +39,14 @@ Critères de passage du happy path :
 
 Après Megathon, construire le jeu doré à partir d'un corpus musée réel :
 
-1. **Catalogue** : notices par facette, métadonnées, images HD, source refs,
+1. **Catalogue** : notices neutres, métadonnées, images HD, source refs,
    hotspots et éventuels codes physiques.
 2. **Photos in-the-wild** : clichés par oeuvre en conditions musée, plus oeuvres
    hors catalogue.
 3. **Audio** : énoncés visiteurs FR/EN/ES/DE/JP, accents variés, ambiance
    bruyante, lexique muséal.
 4. **Questions/réponses** : questions visiteurs par langue, mappées à la bonne
-   oeuvre/facette, avec réponse attendue ancrée + sources.
+   oeuvre et au bon angle de médiation runtime, avec réponse attendue ancrée + sources.
 5. **Paiement/usage** : événements consentis et agrégés, pour relier qualité
    produit et willingness-to-pay.
 
@@ -64,7 +64,7 @@ Métriques :
 
 - faithfulness / anti-hallucination sur Q/R ancrées ;
 - qualité multilingue ;
-- respect de la facette et du profil ;
+- respect de l'angle de médiation runtime et des préférences utilisateur ;
 - tool-calling correct vers `Retriever` hors chemin chaud ;
 - TTFT et tok/s ;
 - coût/tour ;

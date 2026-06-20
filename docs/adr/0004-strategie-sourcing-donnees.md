@@ -10,7 +10,10 @@ Besoin de tester la récupération **à grande échelle** dès le départ ET d'a
 
 - **Corpus primaire = Paris Musées Open Content** (CC0, ~150k œuvres HD, 14 musées Ville de Paris). Sert à la fois la largeur (milliers d'œuvres pour stresser la récupération) et la profondeur (le musée POC en sort).
 - **Musée POC pressenti = Petit Palais** (données CC0 déjà dispo) — à confirmer après les visites terrain.
-- **Notices par facette** (default/technique/histoire/symbolisme) : **génération LLM ancrée dans des sources citées** (Wikipedia, notice musée, SemArt, sources d'histoire de l'art) + provenance obligatoire + **revue humaine** sur les œuvres du POC.
+- **Notices neutres ancrées** : génération / consolidation LLM contrainte aux sources
+  citées (Wikipedia, notice musée, SemArt, sources d'histoire de l'art), provenance
+  obligatoire + **revue humaine** sur les œuvres du POC. Les angles de médiation sont
+  appliqués au runtime, pas stockés comme notices séparées.
 - **Joconde / POP** = filet pour tout musée français hors Ville de Paris.
 - Scope géographique = contrainte d'ingestion (champ `ville/région` sur `Musée`), pas un changement de modèle.
 
@@ -26,7 +29,7 @@ Besoin de tester la récupération **à grande échelle** dès le départ ET d'a
 |---|---|---|
 | Paris Musées | **Retenu** | corpus primaire CC0 Paris |
 | Joconde / POP | **Retenu (filet)** | musées FR hors Ville de Paris |
-| Kaggle SemArt / WikiArt | **Candidat** | amorçage des facettes (Form/Content/Context ≈ technique/symbolisme/histoire) |
+| Kaggle SemArt / WikiArt | **Candidat** | amorçage des angles de médiation / concepts (Form/Content/Context) |
 | The Met Open Access | **Différé** | barreau d'expansion hors Paris |
 | Jeu de Paume | **Rejeté** | œuvres sous droits (photo/contemporain) |
 
@@ -59,4 +62,5 @@ terrain de validation Megathon.
 ## Conséquences
 
 - (+) Corpus Paris-scoped cohérent avec la géoloc et le déploiement réel.
-- (−) Les notices par facette n'existent dans aucune source → pipeline de génération+revue à construire (ADR à venir).
+- (−) Les notices Laszlo neutres et le glossaire gradué n'existent dans aucune source →
+  pipeline de consolidation + revue à construire.

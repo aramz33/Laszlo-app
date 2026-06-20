@@ -36,8 +36,8 @@ Décision ouverte jusqu'au SYNC 1 :
   Voice.
 - **ElevenLabs** si la qualité TTS et le compte déjà disponible accélèrent la
   démo.
-- **Combinaison** possible : audio pré-généré ElevenLabs pour hotspots + Vapi
-  pour conversation live, si le risque de deux voix reste acceptable.
+- **Combinaison** possible : ElevenLabs pour TTS live des hotspots + Vapi pour
+  conversation live, si le risque d'intégration reste acceptable.
 
 Acceptations week-end :
 

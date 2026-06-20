@@ -27,8 +27,8 @@ Deux profils :
 - **Conversation chemin chaud** : TTFT streaming bas, qualité multilingue domaine
   art, coût/tour, grounding sur les notices chargées, barge-in/cancellation via
   l'orchestrateur, stabilité démo.
-- **Génération notices** : qualité, capacité batch, respect des sources,
-  instruction-following, coût, indifférent à la latence.
+- **Génération runtime** : qualité, respect des sources, adaptation au glossaire et aux
+  préférences utilisateur, instruction-following, coût, latence compatible conversation.
 
 Critères durables : latence/TTFT, qualité multilingue, coût $/1M, contexte,
 tool calling, grounding anti-hallucination, rate limits, résidence UE/RGPD,
@@ -46,13 +46,13 @@ moins l'interruption de la réponse.
 
 ## P3 — TTS
 
-Streaming ou pré-génération rapide, TTFB bas, annulation instantanée, voix
+Streaming live, TTFB bas, annulation instantanée, voix
 "Laszlo" cohérente entre langues, qualité/expressivité, voix custom, coût par
 caractère, licence commerciale.
 
-Megathon : les hotspots peuvent être pré-générés ; le chat libre doit répondre
-en vocal/texte avec la latence la plus faible possible. Une divergence de voix
-entre hotspots et chat est acceptable seulement si elle protège la démo.
+Megathon : les hotspots partent de `narration_text` et l'audio est généré live au
+runtime. `audio_url` reste un cache optionnel si la latence casse le wow. Le chat libre
+doit répondre en vocal/texte avec la latence la plus faible possible.
 
 ## P4 — Vision / CV
 

@@ -128,7 +128,7 @@ Pour chaque sujet ouvert :
 
 ### À trancher avec Siffrein (SYNC 0/1)
 1. **Front / client** — acté côté Adam : client démo **natif iOS (ARKit)**, PWA Vercel en repli paywall/secondaire (révise M5/M8). **À confirmer Siffrein** au SYNC 0.
-2. **Voix / TTS — DÉCISION OUVERTE, recherche requise.** Compte **ElevenLabs** dispo. Arbitrage : (a) ElevenLabs partout + Vapi pour le live → garde la track Vapi ; (b) tout-ElevenLabs (Conversational AI) → perd la track Vapi ; (c) ElevenLabs pré-généré + Vapi live → risque 2 voix. **Le downgrade barge-in (M16) simplifie : sans interruption, ElevenLabs seul peut suffire.** À trancher après recherche.
+2. **Voix / TTS — DÉCISION OUVERTE, recherche requise.** Compte **ElevenLabs** dispo. Arbitrage : (a) ElevenLabs TTS live + Vapi pour le live → garde la track Vapi ; (b) tout-ElevenLabs (Conversational AI) → perd la track Vapi ; (c) Vapi partout si le workflow est plus rapide. **Le downgrade barge-in (M16) simplifie : sans interruption, ElevenLabs seul peut suffire.** À trancher après recherche.
 3. **Reconnaissance** — acté : **ARKit pur** (embeddings = story d'échelle + post-hackathon, hors runtime). Filets = overlay 2D / QR. **À confirmer Siffrein.**
 4. **AR = priorité ou bonus ?** Dans M9 (voix-phare → breadth → reconnaissance), l'ancrage AR se place où ? *(reco : bonus coupable, voix-phare reste P1)*
 5. **Langage du pipeline** — Python *(reco : libs harvest/parse/LLM/Supabase ; tourne IntelliJ IDEA Ultimate ou PyCharm)* vs Kotlin/JVM (IntelliJ natif). À trancher (Adam).
@@ -150,10 +150,10 @@ Pour chaque sujet ouvert :
 | **Breaking change OAI-PMH** (nouvelle version EDM, 11/06/2026) | parser qui casse | parser **défensif** / consommer en graphe · tester le harvest **tôt** (dans le train) |
 | **Scope blowup** | rien de fini dimanche | priorité build = loi (voix→pipeline→reco) · feature freeze dim. matin |
 | **Intégration Mollie** plus longue que prévu | pas de signal paiement | paywall minimal (1 bouton, 1 montant) · acceptable de simuler si l'API bloque, mais viser le vrai |
-| **Latence voix** (chaîne STT→LLM→TTS) | wow émoussé | streaming · tester tôt · phrases d'accroche pré-générées |
+| **Latence voix** (chaîne STT→LLM→TTS) | wow émoussé | streaming · tester tôt · cache audio seulement si la génération live casse le wow |
 | **Connectivité venue** | démo qui rame | tester le wifi tôt · plan hotspot · cache local des notices phares |
 | **Énergie / sommeil** | pitch raté dimanche | 2 blocs sommeil planifiés, **dim. matin protégé** |
-| **Notices hallucinées** | crédibilité | génération **ancrée** sur métadonnées Rijks + gate groundedness + Adam révise les phares |
+| **Notices hallucinées** | crédibilité | notices neutres ancrées sur Rijks/Wikipedia/Wikidata + Adam révise les phares |
 
 ### Inconnues contenu
 

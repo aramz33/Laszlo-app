@@ -1,16 +1,19 @@
-# ADR 0011 — Pipeline de génération des notices
+# ADR 0011 — Pipeline de génération des notices neutres
 
 **Statut :** Accepté · 2026-06-15
 
 ## Contexte
 
-Aucune source ne fournit les 4 notices par facette citées. Il faut les fabriquer, à l'échelle, sans halluciner (le grounding est le produit).
+Aucune source ne fournit directement une base de connaissance Laszlo fiable. Il faut
+collecter / fabriquer des notices neutres ancrées, à l'échelle, sans halluciner (le
+grounding est le produit). Les angles de médiation sont appliqués au runtime, pas stockés
+comme des notices séparées.
 
 ## Décision durable — pipeline semi-automatisé
 
 1. **Ingestion métadonnées** — Paris Musées API + Wikidata QID + Joconde (titre, artiste, date, medium, image HD). [auto, hors Megathon]
-2. **Collecte des sources de grounding** par œuvre — Wikipedia EN/FR, notice musée publique, SemArt (si match), termes Getty AAT. [auto]
-3. **Génération des facettes** (default/technique/histoire/symbolisme) — LLM **contraint aux sources collectées**, pivot EN, chaque affirmation cite sa source.
+2. **Collecte des sources de grounding** par œuvre — Wikipedia, notice musée publique, SemArt (si match), termes Getty AAT. [auto]
+3. **Génération / consolidation de la notice neutre** — LLM **contraint aux sources collectées**, pivot EN si utile, chaque affirmation cite sa source.
 4. **Gate de groundedness** (NON négociable) — 2e LLM vérifie que chaque phrase est soutenue par une source citée ; sinon flag. Aucune notice n'entre en base sans passer la gate. [auto]
 5. **Revue humaine** — **musée POC uniquement** (~20-30 œuvres) ; statut `draft → reviewed`.
 6. **Embeddings** pgvector.
@@ -22,7 +25,7 @@ Aucune source ne fournit les 4 notices par facette citées. Il faut les fabrique
 
 Le pipeline actif est Rijksmuseum -> Supabase, **ETL médaillon léger (raw → refined →
 load), 100 % sans LLM** (révision 20/06). Le LLM n'intervient qu'au runtime (génération)
-et au **sync ultérieur** (faceting + gate groundedness LLM) — déférés.
+et au **sync ultérieur** (angles de médiation + gate groundedness LLM) — déférés.
 
 1. **Harvest** : OAI-PMH `ListRecords` sur le set **`260214`** (Top 1000, inclut les
    phares ; `26121`/`26021` écartés), `edm`, pagination `resumptionToken` →
@@ -33,14 +36,14 @@ et au **sync ultérieur** (faceting + gate groundedness LLM) — déférés.
 3. **Refine** : parse EDM, dimensions en cm (poids ignoré), créateur via Linked Art,
    imageId IIIF direct (`edm:isShownBy`), filtre image + CC0 → `data/refined/*.json`.
 4. **Transform** : graphe `artist/movement/museum` + **notices par source** (rijks `ok`,
-   wikipedia `review`) — **pas de facettes stockées** + hotspots des phares (main).
+   wikipedia `review`) — **pas d'angles stockés** + hotspots des phares (main).
 5. **Load** : upsert idempotent Supabase + reference images ARKit (rendition IIIF) en
    Storage **pour les œuvres trackées** seulement.
 6. **Manual review** : Adam enrichit/révise les notices des phares (`review` → `ok`).
 
 Statuts Megathon : `groundedness = ok|review`. Une notice phare doit être `ok` avant la
-démo. **Faceting LLM (default/technique/histoire/symbolisme) = lentille runtime + sync
-ultérieur**, pas une étape de ce pipeline.
+démo. **Angles de médiation runtime = boutons/instructions de génération**, pas une
+étape de ce pipeline et pas une colonne `notice.facet`.
 
 ## Options considérées
 

@@ -1,4 +1,4 @@
-# CLAUDE.md
+# AGENTS.md
 
 ## Avant d'agir
 
@@ -8,7 +8,7 @@ Lire d'abord :
 - `docs/data-model.md` pour le contrat Supabase et les couches produit.
 - `docs/megathon/2 — Tech & build.md` pour le contexte build, en respectant les corrections de la section "Mise a jour".
 
-## Megathon tracker
+## Tracker canonique
 
 `docs/megathon/0 — TODO directeur.md` est le tableau de bord canonique des chantiers Megathon.
 
@@ -16,8 +16,6 @@ Il sert a synchroniser :
 
 - Aramsis : pipeline, backend, donnees, Supabase, paiement.
 - Siffrein : app iOS, ARKit, UX, integration mobile.
-
-## Regle de mise a jour
 
 A chaque decision ou avancee actee :
 

@@ -9,7 +9,10 @@ L'app doit répondre sur les œuvres sans halluciner. Adam veut concevoir **pour
 ## Décision
 
 **Modèle canonique = graphe d'entités** (jamais chunké) :
-`Musée → Exposition → Salle → Œuvre`, plus `Artiste` et `Mouvement` transverses. Chaque `Œuvre` porte une **notice structurée par facette** : `default`, `technique`, `histoire`, `symbolisme` (= les 4 chemins de connaissance). C'est la source de vérité, identique à 30 ou 300 000 œuvres.
+`Musée → Exposition → Salle → Œuvre`, plus `Artiste` et `Mouvement` transverses. Chaque
+`Œuvre` porte des **notices neutres ancrées** par langue/source. Les angles de médiation
+sont appliqués au runtime par le LLM. C'est la source de vérité, identique à 30 ou
+300 000 œuvres.
 
 **Stockage = Postgres + `pgvector` (Supabase)** : graphe relationnel + index vectoriel dérivé dans une seule base.
 
@@ -36,8 +39,8 @@ nécessaire au happy path :
 - **Source** : Rijksmuseum OAI-PMH `edm`, set **`260214`** (Top 1000, inclut les phares ;
   `26121`/`26021` écartés), images IIIF.
 - **Notice = substrat neutre, non découpé en facettes** (révision 20/06) : 1 ligne par
-  (œuvre × `lang` × `source`). Les 4 « chemins » `default`/`technique`/`histoire`/
-  `symbolisme` sont des **lentilles runtime** + boutons UI, pas des lignes stockées.
+  (œuvre × `lang` × `source`). Les orientations de visite sont des **angles de médiation
+  runtime** + boutons UI, pas des lignes stockées.
 - **Chemin chaud** : injection directe de **toutes les lignes notice** + hotspots de
   l'oeuvre ouverte. Pas de recherche vectorielle obligatoire pour la démo.
 - **Phares** : 1-2 oeuvres révisées à la main, candidates Night Watch `SK-C-5`

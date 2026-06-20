@@ -23,7 +23,7 @@ python -m pipeline.main enrich                  --limit 30   # Wikidata + Wikipe
 python -m pipeline.main refine                  --limit 30   # → data/refined/*.json
 python -m pipeline.main transform               --limit 30   # graphe + notices + hotspots (dry-run)
 python -m pipeline.main load                    --limit 30   # → Supabase + Storage
-python -m pipeline.main all        --set 260214               # tout, sur les 747
+python -m pipeline.main all        --set 260214               # tout, Top 1000
 ```
 
 `--limit` débugge sur un sous-ensemble. Sans `--limit`, le set complet (260214 = Top 1000,
@@ -41,8 +41,8 @@ load                                        upsert Supabase + Storage (idempoten
 ```
 
 - **notice** = substrat neutre, 1 ligne par (œuvre × `lang` × `source`) ; `rijks` → `ok`,
-  `wikipedia` → `review`. Les facettes sont des lentilles **runtime**, pas du stockage.
+  `wikipedia` → `review`. Les angles de médiation sont **runtime**, pas du stockage.
 - **Lecture app** = PostgREST auto de Supabase :
   `GET /rest/v1/artwork?select=*,notice(*),hotspot(*)`.
-- **Hors scope** (sessions suivantes) : faceting LLM, génération runtime, TTS (`audio_url`),
-  embeddings, couches Personnalisation + Mémoire.
+- **Hors scope** (sessions suivantes) : angles de médiation runtime, glossaire gradué,
+  profil utilisateur neutre, TTS live (`audio_url` cache optionnel), embeddings, mémoire.

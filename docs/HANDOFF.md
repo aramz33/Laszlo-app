@@ -20,10 +20,12 @@ La **couche Connaissance est en prod sur Supabase** et lisible par l'app :
 
 ## Ce qu'il faut savoir pour ne pas se tromper
 
-- **`notice` = substrat neutre** (faits ancrés), pas le texte final. La perso (longueur/
-  niveau/angle) + la langue se font **au runtime** (LLM). Détail : `docs/data-model.md`.
-- **Facettes = lentilles runtime + boutons UI**, pas stockées (taxonomie non figée).
-- **Langues stockées = EN + NL** ; FR & autres = générées au runtime.
+- **`notice` = substrat neutre** (faits ancrés), pas le texte final. Le glossaire, les
+  préférences utilisateur, la langue et la voix se font **au runtime** (LLM + TTS).
+  Détail : `docs/data-model.md`.
+- **Angles de médiation = runtime + boutons UI**, pas stockés (taxonomie non figée).
+- **Langues stockées actuelles = EN + NL pour Rijks** ; principe durable = langue source
+  / musée + pivot EN si nécessaire. FR & autres outputs = générés au runtime.
 - **Hotspots = seulement les 2 phares** (8 au total), **écrits à la main** dans
   `pipeline/hotspots/flagships.py` (mes textes = provisoires, à réviser). Les 1023 autres
   œuvres ont des notices mais pas de hotspots (c'est voulu : « demo deep »).
@@ -45,12 +47,13 @@ La **couche Connaissance est en prod sur Supabase** et lisible par l'app :
 4. Paywall Mollie + déploiement.
 
 **Reste couche Connaissance (Adam, court terme) :**
-- Faceting LLM (angles en lentilles runtime) ; voix runtime (TTS live, pas de
-  pré-remplissage `audio_url`) ;
-  révision main des notices phares (`review` → `ok`) ; plus de hotspots si besoin démo.
+- Angles de médiation runtime ; voix runtime (TTS live, pas de pré-remplissage
+  `audio_url`) ; révision main des notices phares (`review` → `ok`) ; plus de hotspots
+  si besoin démo.
 
 **Sessions de design suivantes (à griller à froid, ensemble) :**
-- Couches **Personnalisation** (profil 3 axes, persona, cadrage musée) puis **Mémoire**.
+- Couche **Glossaire / vocabulaire gradué**, puis **Profil utilisateur** (préférences
+  neutres), puis **Mémoire**.
 
 ## Comment relancer / modifier le pipeline
 

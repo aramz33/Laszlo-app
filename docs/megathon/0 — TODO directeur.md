@@ -46,7 +46,7 @@ date: 2026-06-20
 - [x] **Download HD** + générer **reference images ARKit** → Storage
 - [x] **Multilingue pivot-EN** : garder la source, pivot EN, générer la langue visiteur (EN+NL déjà fournis par Rijks)
 - [x] **Enrich multi-source sans LLM** : Wikidata (Q-ids, mouvement P135, tags P180/P136) + Wikipedia (narratif, gate = article existe) — M19
-- [ ] **Notices = substrat neutre** (sans LLM cette semaine, M19) ; **4 facettes = lentilles runtime** (M18) ; **LLM + gate groundedness différés** post-megathon
+- [ ] **Notices = substrat neutre** (sans LLM cette semaine, M19) ; **angles de médiation = runtime** (M18) ; **LLM + gate groundedness différés** post-megathon
 - [ ] **Réviser à la main** les notices des phares (statut `ok`)
 - [x] **Auteur les hotspots** des phares (coords + aspect + texte) — `hotspots/flagships.py`
 - [x] **Charger** dans Supabase (upsert)

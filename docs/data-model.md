@@ -14,8 +14,8 @@ Megathon. Voir ADR [0002](adr/0002-modele-connaissance-recuperation.md),
   voix, du ton et du rendu audio.
 - **Pipeline agnostique à la voix** : on stocke le **texte** des hotspots/notices ;
   l'audio est **généré live au runtime** (pas de pré-rendu dans le pipeline).
-- **Pivot EN** + conservation des langues source disponibles ; sortie
-  multilingue générée au runtime.
+- **Langue source conservée** + pivot EN quand utile ; sortie multilingue générée au
+  runtime. On ne stocke pas le FR par défaut.
 
 ## Contrat Supabase Megathon
 
@@ -47,12 +47,14 @@ Contraintes de sens :
   Une ligne = **(œuvre × `lang` × `source`)** ; au runtime on injecte toutes les
   lignes de l'œuvre ouverte (chemin chaud, ADR 0002).
 - `source` vaut `rijks` ou `wikipedia`.
-- `lang` vaut `en` ou `nl` (seules langues **stockées**) ; FR et autres langues sont
-  **générées au runtime** depuis le grounding (pas de traduction figée).
+- `lang` vaut actuellement `en` ou `nl` pour Rijks. Principe durable : stocker la langue
+  du musée / de la source scrapée et une traduction EN si nécessaire pour le grounding.
+  Le FR et les autres langues de sortie sont **générés au runtime** depuis le grounding
+  (pas de traduction figée par défaut).
 - `groundedness` vaut `ok` (rijks) ou `review` (wikipedia jusqu'à révision des phares).
-- les 4 « facettes » (`default`/`technique`/`histoire`/`symbolisme`) ne sont **pas
-  stockées** : ce sont des **lentilles runtime** appliquées par le LLM sur la notice,
-  + des boutons UI. La taxonomie peut évoluer sans migration de schéma.
+- les anciens noms de travail `default`/`technique`/`histoire`/`symbolisme` ne sont **pas
+  stockés** : ce sont des **angles de médiation runtime** appliqués par le LLM sur la
+  notice, + des boutons UI. La taxonomie peut évoluer sans migration de schéma.
 - `wikidata_qid` (sur `artwork`/`artist`/`movement`) = pont vers les faits structurés ;
   `tags` (jsonb) = sujets/genre Wikidata (P180/P136).
 - `x` et `y` sont normalisés sur l'image de l'oeuvre, entre `0` et `1`.
@@ -100,6 +102,37 @@ Le pipeline extrait / produit :
 - **notices par source** (`rijks` → `ok`, `wikipedia` → `review`) avec provenance ;
 - hotspots des phares, révisés manuellement.
 
+## État actuel / prochaines couches / à ne pas faire
+
+### État actuel implémenté
+
+- Couche **Connaissance** construite : `artist`, `movement`, `museum`, `artwork`,
+  `notice`, `hotspot`.
+- `notice` = substrat neutre ancré, 1 ligne par `(œuvre × langue stockée × source)`.
+- Pour Rijks, les langues stockées actuelles sont `en` et `nl`.
+- L'app lit via PostgREST : `artwork?select=*,notice(*),hotspot(*)`.
+- L'output multilingue est généré au runtime par l'IA, puis vocalisé par le provider TTS.
+- L'audio n'est pas stocké dans `notice`.
+
+### Prochaines couches à construire
+
+- **Glossaire / vocabulaire gradué** : future table `term` / `terme`, avec définitions par
+  niveau de parole et sourcing structuré.
+- **Profil utilisateur** : préférences neutres et orthogonales d'onboarding, pas personas
+  nommés au départ.
+- **Angles de médiation runtime** : boutons/instructions qui orientent la génération sans
+  créer de colonne ou de table de notices par angle.
+- Lien éventuel `notice` ↔ `hotspot` : sujet à rediscuter plus tard, pas dans le contrat
+  actuel.
+
+### À ne pas faire
+
+- Ne pas ajouter `notice.facet`.
+- Ne pas créer de notices `default` / `technique` / `histoire` / `symbolisme`.
+- Ne pas stocker le FR par défaut.
+- Ne pas pré-rendre d'audio dans `notice`.
+- Ne pas confondre `hotspot.aspect` avec une facette de notice.
+
 Le parser doit rester défensif : la version OAI-PMH/EDM a changé en juin 2026.
 
 ## Graphe durable
@@ -123,7 +156,7 @@ Oeuvre
   id, salle_id, source_refs{rijks, europeana, paris_musees, joconde, wikidata_qid},
   titre{canonique + traductions}, artiste_id, mouvement_id,
   date, medium, dimensions, image_hd{url, licence}, ref_image_url,
-  notices[] (substrat neutre, 1 par source ; facettes = lentilles runtime),
+  notices[] (substrat neutre, 1 par source ; angles = médiation runtime),
   tags[], cadrage_musée[], langue_pivot = EN,
   position{salle_id, étage, x?, y?, orientation_face}
 
@@ -143,10 +176,11 @@ Terme
 
 ## Multilingue
 
-- **Pivot = EN** ; les titres/descriptions Rijks EN+NL sont conservés.
-- FR/EN sont les langues de démo prioritaires ; NL est un bonus local.
-- Le LLM génère la réponse dans la langue visiteur à partir du grounding, au
-  lieu de servir une notice traduite statique.
+- **Langue source conservée** ; pivot EN quand utile pour le grounding et les modèles.
+- Pour Rijks, les titres/descriptions EN+NL sont conservés parce que ce sont les langues
+  disponibles.
+- Le FR n'est pas stocké par défaut : le LLM génère la réponse dans la langue visiteur à
+  partir du grounding, puis le TTS produit l'audio.
 
 ## Adaptation du contenu
 
@@ -156,17 +190,18 @@ stockage ; Niveau = future table `term` ; Centre d'intérêt = lentille runtime)
 n'imposent **aucune migration** de la couche Connaissance. Démo = profil 3 questions
 skippable ; personas + mémoire = couches suivantes (designées + pitchées).
 
-| Profil | Cadran | Mécanisme |
+| Axe neutre | Cadran | Mécanisme |
 |---|---|---|
 | Allure | longueur | paramètre de génération (runtime) |
 | Niveau | registre / vocabulaire | glossaire gradué (table `term`, injection runtime) |
-| Centre d'intérêt | facette / chemin | **lentille runtime** sur la notice unique (4 chemins `default`/`technique`/`histoire`/`symbolisme` = boutons UI, taxonomie non figée) |
+| Centre d'intérêt | angle de médiation | instruction runtime sur la notice unique (boutons UI, taxonomie non figée) |
 
-**Architecture en 3 couches :** Connaissance (partagée, ce contrat) → Personnalisation
-(profil/persona/cadrage musée, par utilisateur) → Mémoire (apprend dans le temps). La
-sortie dite à l'utilisateur est **générée au runtime** = f(notice, glossaire@niveau,
-profil/persona, mémoire, cadrage musée). Un texte pré-mâché ne pourrait ni s'adapter ni
-apprendre — d'où la notice-substrat.
+**Architecture en 3 couches :** Connaissance (partagée, ce contrat) → Glossaire /
+vocabulaire gradué (termes, définitions par niveau) → Profil utilisateur (préférences
+neutres). La mémoire et le cadrage musée sont des couches produit ultérieures. La sortie
+dite à l'utilisateur est **générée au runtime** = f(notice, glossaire@niveau,
+préférences utilisateur, langue visiteur, voix/TTS). Un texte pré-mâché ne pourrait ni
+s'adapter ni apprendre — d'où la notice-substrat.
 
 ## Navigation et AR
 

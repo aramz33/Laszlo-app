@@ -16,9 +16,9 @@ réel, et un pipeline qui prouve que le contenu peut passer à l'échelle.
 
 Périmètre du build :
 
-- **Pipeline Rijksmuseum** : ingestion OAI-PMH `edm` du set `26021` Dutch
-  Paintings 17th c., résolution d'images IIIF, filtrage CC0 + HD, génération de
-  notices par facette, hotspots et chargement Supabase.
+- **Pipeline Rijksmuseum** : ingestion OAI-PMH `edm` du set `260214` Top 1000,
+  résolution d'images IIIF, filtrage CC0 + HD, notices neutres par source, hotspots et
+  chargement Supabase.
 - **Démo profonde** : 1-2 oeuvres phares, candidates principales : Night Watch
   `SK-C-5` et La Laitière.
 - **Client démo** : app native iOS en Swift + ARKit/RealityKit. ARKit image
@@ -59,7 +59,7 @@ posture Megathon lorsque le build de 45h diffère de la cible long terme.
 | [0005](adr/0005-repartition-ondevice-cloud.md) | Hybride on-device/cloud + cache local | Providers managés, cache local des notices phares |
 | [0006](adr/0006-identification-positionnement.md) | Identification derrière `ArtworkIdentifier` | ARKit image tracking pur ; overlay 2D/QR en fallback |
 | [0007](adr/0007-multilingue.md) | Pivot EN + sortie multilingue au runtime | Démo FR/EN prioritaire, NL bonus |
-| [0008](adr/0008-adaptation-contenu.md) | Profil 3 questions, facettes, glossaire, couche musée | Profil léger, 4 facettes visibles, style doux sur le regard |
+| [0008](adr/0008-adaptation-contenu.md) | Préférences utilisateur, angles de médiation, glossaire, couche musée | Profil léger neutre, angles runtime visibles, style doux sur le regard |
 | [0009](adr/0009-navigation-spatiale.md) | Navigation progressive et directions ancrées | Pas de navigation indoor ; seulement point AR ancré sur oeuvre |
 | [0010](adr/0010-donnee-utilisateur.md) | Events pseudonymes, profil, analytics agrégées | Compter conversions Mollie + interactions minimales |
 | [0011](adr/0011-pipeline-notices.md) | Notices semi-auto, gate groundedness, revue humaine | Gate simple + revue manuelle des phares |
@@ -76,9 +76,6 @@ posture Megathon lorsque le build de 45h diffère de la cible long terme.
 
 ## Décisions encore ouvertes
 
-- Confirmer avec Siffrein : client démo = **natif iOS ARKit**, PWA en repli
-  paywall/secondaire.
 - Choix voix/TTS : Vapi, ElevenLabs, ou combinaison des deux.
-- Tranche Rijks finale, nombre d'oeuvres ingérées et 1-2 phares définitives.
 - Base44 vs Vercel pour le repli PWA/paywall.
 - Recrue n°2 éventuelle si Siffrein porte trop de surface iOS + voix.

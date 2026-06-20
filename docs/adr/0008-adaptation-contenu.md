@@ -10,11 +10,11 @@ Les mêmes faits ancrés doivent s'adapter (1) à l'utilisateur (profil) et (2) 
 
 **1. Trois cadrans de personnalisation orthogonaux**, pilotés par les 3 questions de profil :
 
-| Profil | Cadran | Mécanisme |
+| Axe neutre | Cadran | Mécanisme |
 |---|---|---|
 | Allure | longueur | paramètre de génération |
 | Niveau | registre / vocabulaire | **glossaire gradué** |
-| Centre d'intérêt | facette / chemin | sélection de notice + persona |
+| Centre d'intérêt | angle de médiation | instruction runtime + préférences utilisateur |
 
 **2. Glossaire gradué** — entité `Terme` transverse :
 - `terme_EN`, `domaine`, `définitions{découverte, amateur, passionné}`, traductions, liens.
@@ -35,12 +35,13 @@ On garde l'adaptation visible, mais légère :
 - Profil 3 questions skippables si l'UI le permet.
 - **Révision 20/06 — les 3 cadrans s'appliquent TOUS au runtime** (la notice reste un
   substrat neutre, cf. ADR 0002). Le Centre d'intérêt n'est **plus** une sélection de
-  notice stockée mais une **lentille runtime** sur la notice unique. Conséquence : les
-  cadrans sont **additifs** (Allure = aucun stockage ; Niveau = future table `term` ;
-  Centre d'intérêt = lentille) → aucune migration du contrat figé.
-- Les 4 chemins doivent **apparaître dans la démo** (boutons UI → instruction runtime),
-  mais la **taxonomie n'est pas figée** (`default`/`technique`/`histoire`/`symbolisme`
-  à repenser « humain/social ») — modifiable sans toucher au schéma.
+  notice stockée mais un **angle de médiation runtime** sur la notice unique.
+  Conséquence : les cadrans sont **additifs** (Allure = aucun stockage ; Niveau =
+  future table `term` ; Centre d'intérêt = instruction runtime) → aucune migration du
+  contrat figé.
+- Les angles doivent **apparaître dans la démo** (boutons UI → instruction runtime),
+  mais la **taxonomie n'est pas figée** et doit être repensée en termes humains/sociaux
+  — modifiable sans toucher au schéma.
 - Le designer possède le rendu : identité "doux sur le regard", lisible,
   centrée sur l'oeuvre, sans distraire.
 - La couche éditoriale musée complète est hors scope ; le pitch mentionne le
