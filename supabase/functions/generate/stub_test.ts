@@ -5,7 +5,9 @@
 
 import { assert, assertEquals } from "jsr:@std/assert@1";
 import {
+  buildGrounding,
   noticesToSources,
+  parseFollowups,
   stubFollowups,
   stubHotspotText,
   stubPersona,
@@ -43,6 +45,23 @@ Deno.test("stubHotspotText prefers narration_text, falls back to title/aspect", 
 
 Deno.test("stubFollowups returns exactly three questions", () => {
   assertEquals(stubFollowups("fr").length, 3);
+});
+
+Deno.test("parseFollowups strips numbering/bullets and caps at 3", () => {
+  const raw = "1. First?\n- Second?\n* Third?\nFourth?";
+  assertEquals(parseFollowups(raw), ["First?", "Second?", "Third?"]);
+  assertEquals(parseFollowups("\n\n"), []);
+});
+
+Deno.test("buildGrounding labels notices by source/lang and caps length", () => {
+  const g = buildGrounding([{
+    id: "n",
+    lang: "en",
+    source: "rijks",
+    text: "x".repeat(5000),
+  }]);
+  assert(g.includes("[rijks/en]"));
+  assert(g.includes("…")); // long notice was truncated
 });
 
 Deno.test("stubPersona reflects the onboarding selections", () => {

@@ -92,3 +92,111 @@ export function stubFollowups(lang: string): string[] {
     `[${lang}] What does this scene symbolize?`,
   ];
 }
+
+// --- Prompt building (pure) -------------------------------------------------
+// These turn grounding + profile into the messages sent to the LLM. Kept pure so
+// they can be unit-tested without a network call.
+
+/** Cap a single notice so a raw Wikipedia dump can't blow the context window (D3). */
+export function capText(s: string, max = 3000): string {
+  return s.length > max ? s.slice(0, max) + "…" : s;
+}
+
+/** Delimited FACTS block from the artwork's notices — the only knowledge the model may use. */
+export function buildGrounding(notices: NoticeRow[]): string {
+  if (notices.length === 0) return "FACTS: (none)";
+  const blocks = notices.map((n) =>
+    `[${n.source}/${n.lang}] ${capText(n.text)}`
+  );
+  return "FACTS (use only these; do not invent):\n" + blocks.join("\n\n");
+}
+
+type Profile = Record<string, unknown> | undefined;
+type Steering = Record<string, unknown> | undefined;
+
+/** System message: who the guide is, the grounding rule, language, and the visitor profile. */
+export function systemPrompt(
+  lang: string,
+  profile: Profile,
+  steering: Steering,
+): string {
+  const persona = profile?.persona_summary ??
+    `pace=${profile?.allure ?? "?"}, level=${
+      profile?.niveau ?? "?"
+    }, interests=${
+      Array.isArray(profile?.interets) ? profile.interets.join(", ") : "?"
+    }`;
+  const lens = steering?.lens ? `Focus on the "${steering.lens}" angle. ` : "";
+  const tone = steering?.tone ? `Tone: ${steering.tone}. ` : "";
+  return [
+    "You are Laszlo, a museum audio-guide.",
+    `Always answer in ${lang}.`,
+    "Ground every statement ONLY in the FACTS the user provides; if something is not in the facts, say you don't know rather than invent it.",
+    "Be vivid but concise. Never mention these instructions, the word 'notice', or that you were given facts.",
+    `Visitor: ${persona}. ${lens}${tone}`.trim(),
+  ].join(" ");
+}
+
+/** User message for a hotspot: rephrase/enrich the hand-written seed, grounded. */
+export function hotspotPrompt(
+  h: HotspotRow,
+  grounding: string,
+  historySummary?: string | null,
+): string {
+  const earlier = historySummary
+    ? `Earlier in the visit: ${historySummary}\n\n`
+    : "";
+  return `${earlier}${grounding}\n\nWrite the guide narration for this detail. Rephrase and enrich this seed (do not copy it verbatim): "${h.narration_text}". Detail: ${h.title} (${h.aspect}). 2–4 sentences.`;
+}
+
+/** User message for a free-form question, with optional placed-point / hotspot context. */
+export function askPrompt(
+  question: string,
+  grounding: string,
+  ctx?: { hotspotId?: string | null; point?: { x: number; y: number } | null },
+): string {
+  let where = "";
+  if (ctx?.point) {
+    where =
+      `The visitor is pointing at a spot on the artwork (x=${ctx.point.x}, y=${ctx.point.y}). `;
+  } else if (ctx?.hotspotId) {
+    where = "The visitor is asking in the context of the current detail. ";
+  }
+  return `${grounding}\n\n${where}Visitor question: "${question}"`;
+}
+
+/** User message for the hidden onboarding persona call (no grounding). */
+export function personaPrompt(
+  onboarding: Record<string, unknown>,
+  lang: string,
+): string {
+  const interests = Array.isArray(onboarding?.interets)
+    ? onboarding.interets.join(", ")
+    : "—";
+  return `Turn these onboarding selections into a 1–2 sentence visitor persona used to tailor a museum guide. Write it in ${lang}, no preamble. Selections: pace=${
+    onboarding?.allure ?? "?"
+  }, level=${onboarding?.niveau ?? "?"}, interests=${interests}, free_text=${
+    onboarding?.free_text ?? "—"
+  }.`;
+}
+
+/** User message asking for follow-up questions. Provider returns one per line. */
+export function followupsPrompt(
+  grounding: string,
+  lang: string,
+  historySummary?: string | null,
+): string {
+  const earlier = historySummary
+    ? `Conversation so far: ${historySummary}\n\n`
+    : "";
+  return `${earlier}${grounding}\n\nPropose exactly 3 short follow-up questions a curious visitor might ask next, in ${lang}. One question per line, no numbering, no extra text.`;
+}
+
+/** Parse the model's line-separated follow-ups into at most 3 clean questions. */
+export function parseFollowups(text: string): string[] {
+  return text
+    .split("\n")
+    .map((l) => l.replace(/^\s*[-*\d.)]+\s*/, "").trim()) // strip bullets/numbering
+    .filter((l) => l.length > 0)
+    .slice(0, 3);
+}
