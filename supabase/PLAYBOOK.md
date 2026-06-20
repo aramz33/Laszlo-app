@@ -12,12 +12,12 @@ README. For _the contract_ see
 
 4 edge functions, all **live and deployed**, all tested.
 
-| Function     | Does                                                            | Provider                      | State                       |
-| ------------ | --------------------------------------------------------------- | ----------------------------- | --------------------------- |
-| `generate`   | text: `hotspot` (batch) · `ask` (SSE) · `persona` · `followups` | Scaleway LLM                  | ✅ real                     |
-| `transcribe` | speech → text                                                   | Scaleway Voxtral              | ✅ real                     |
-| `identify`   | photo → artwork_id (AR fallback)                                | Scaleway Pixtral              | ✅ real                     |
-| `speak`      | text → audio_url                                                | keyless: Edge neural → Google | ✅ works (ElevenLabs later) |
+| Function     | Does                                                            | Provider                            | State                          |
+| ------------ | --------------------------------------------------------------- | ----------------------------------- | ------------------------------ |
+| `generate`   | text: `hotspot` (batch) · `ask` (SSE) · `persona` · `followups` | Scaleway LLM                        | ✅ real                        |
+| `transcribe` | speech → text                                                   | Scaleway Voxtral                    | ✅ real                        |
+| `identify`   | photo → artwork_id (AR fallback)                                | Scaleway Pixtral                    | ✅ real                        |
+| `speak`      | text → audio_url                                                | selectable: edge / mistral / google | ✅ works (pick via `provider`) |
 
 Live base: `https://spbrkgoseabpsxzkkyzj.supabase.co/functions/v1/<name>` (needs
 header `Authorization: Bearer <publishable key>`).
@@ -40,6 +40,7 @@ export SUPABASE_ANON_KEY=$(grep -oE 'sb_publishable_[A-Za-z0-9_]+' .env | head -
 export SCW_BASE_URL=$(grep -E '^SCW_BASE_URL=' .env | cut -d= -f2-)
 export SCW_API_KEY=$(grep -E '^SCW_API_KEY=' .env | cut -d= -f2-)
 export SUPABASE_SERVICE_ROLE_KEY=$(grep -E '^SUPABASE_KEY=' .env | cut -d= -f2-)   # speak only
+export MISTRAL_API_KEY=$(grep -E '^MISTRAL_API_KEY=' .env | cut -d= -f2-)          # speak provider=mistral
 deno run --allow-net --allow-env supabase/functions/generate/index.ts
 ```
 
@@ -68,6 +69,7 @@ export PATH="$HOME/.local/share/supabase:$HOME/.deno/bin:$PATH"   # already in ~
 | `SUPABASE_URL`                       | all                          | project URL                                                    |
 | `SUPABASE_KEY`                       | local `speak`                | this is the **service_role** secret (Storage writes)           |
 | `SCW_BASE_URL`, `SCW_API_KEY`        | generate/transcribe/identify | Scaleway                                                       |
+| `MISTRAL_API_KEY`                    | `speak` provider=mistral     | Mistral voxtral-mini-tts (English voices only)                 |
 | `SUPABASE_ACCESS_TOKEN`              | deploy                       | `sbp_…` personal token — **never commit**                      |
 | publishable key (`sb_publishable_…`) | calling the API              | public; lives in a comment + `bruno/environments/Deployed.bru` |
 

@@ -11,18 +11,28 @@ POST  { text, lang, voice?, speed?, tone? }
 ->    { audio_url, format, duration_s }
 ```
 
-## Providers (keyless, no ElevenLabs key yet)
+## Engines — selectable
 
-1. **Primary — Microsoft Edge neural TTS** (`edgetts.ts`): good quality, many
-   voices, no length limit, keyless (WebSocket + a time-based token). Honors
-   `speed`.
-2. **Fallback — Google Translate TTS** (`lib.ts`): robotic but rock-stable; used
-   only if Edge fails. Chunks text (~200 chars) and concatenates.
+Pick per request with `provider`, or set a default with the `TTS_PROVIDER` env.
+The response includes `engine` = which one actually produced the audio. `"auto"`
+(default) = edge → google. An explicit choice still falls back to edge→google so
+a demo never blanks.
 
-Both upload the MP3 to the public `artworks/tts/` Storage path and return its
-URL. `voice`/`tone` are currently ignored. When `ELEVENLABS_API_KEY` is added,
-add an ElevenLabs branch at the top of `synthesize()` in `index.ts` — the
-contract and the upload/return path do not change.
+| `provider` | Engine                                     | Reliability | Notes                                                                                                                                    |
+| ---------- | ------------------------------------------ | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| `edge`     | Microsoft Edge neural (`edgetts.ts`)       | ⚠️ flaky    | best FR/NL quality, keyless, honors `speed`; Microsoft's keyless service **throttles/blocks unpredictably** → often falls back to google |
+| `mistral`  | Mistral voxtral-mini-tts (`mistraltts.ts`) | ✅ stable   | needs `MISTRAL_API_KEY`; **English voices only** for now                                                                                 |
+| `google`   | Google Translate TTS (`lib.ts`)            | ✅ stable   | robotic, all langs, the safety net                                                                                                       |
+| `auto`     | edge → google                              | —           | default                                                                                                                                  |
+
+All upload the MP3 to the public `artworks/tts/` path and return its URL.
+`voice`/`tone` are ignored for now. When `ELEVENLABS_API_KEY` lands, add an
+`elevenlabs` entry to the `ENGINES` map in `index.ts` — the contract and the
+upload/return path do not change.
+
+Env: `MISTRAL_API_KEY` (mistral), optional `TTS_PROVIDER`, `MISTRAL_TTS_VOICE`
+(default `en_paul_neutral`), `MISTRAL_TTS_MODEL` (default
+`voxtral-mini-tts-2603`).
 
 Storage write uses `SUPABASE_SERVICE_ROLE_KEY` (auto-injected when deployed;
 export it locally to test).
@@ -38,7 +48,7 @@ export SUPABASE_URL=$(grep -E '^SUPABASE_URL=' .env | cut -d= -f2-)
 export SUPABASE_SERVICE_ROLE_KEY=$(grep -E '^SUPABASE_KEY=' .env | cut -d= -f2-)
 deno run --allow-net --allow-env supabase/functions/speak/index.ts   # :8000
 
-curl -s localhost:8000 -d '{"text":"Bonjour depuis Laszlo.","lang":"fr"}'
+curl -s localhost:8000 -d '{"text":"Bonjour depuis Laszlo.","lang":"fr","provider":"auto"}'
 # -> { audio_url, format:"mp3", duration_s:null } ; open audio_url to hear it
 # empty text -> HTTP 400
 ```

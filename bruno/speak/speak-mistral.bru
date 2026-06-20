@@ -1,0 +1,34 @@
+meta {
+  name: speak-mistral
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{base_url}}/speak
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+  Authorization: Bearer {{anon_key}}
+}
+
+body:json {
+  {
+    "text": "Welcome to the Rijksmuseum, in front of Rembrandt's Night Watch.",
+    "lang": "en",
+    "provider": "mistral"
+  }
+}
+
+assert {
+  res.status: eq 200
+  res.body.engine: eq mistral
+}
+
+docs {
+  Mistral voxtral-mini-tts. Voices are English-only for now, so use English text.
+  Needs MISTRAL_API_KEY as a function secret.
+}

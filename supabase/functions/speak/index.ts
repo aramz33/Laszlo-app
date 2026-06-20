@@ -4,33 +4,59 @@
 // short playable URL (not base64) and keeps only its playback controls. The TTS key
 // stays server-side.
 //
-// ponytail: KEYLESS providers (no ElevenLabs key yet). Primary = Microsoft Edge neural
-// voices (good quality, no length limit); fallback = Google Translate TTS (robotic but
-// rock-stable). When ELEVENLABS_API_KEY lands, add an ElevenLabs branch at the top of
-// `synthesize()` — the upload/return path and the contract below do not change.
-// Current ceiling: `voice`/`tone` are ignored; `speed` is honored by the Edge path only.
+// Engines (no ElevenLabs key yet — all selectable):
+//   edge    — Microsoft Edge neural voices (keyless, native FR/NL/EN, default)
+//   mistral — Mistral voxtral-mini-tts (needs MISTRAL_API_KEY; English voices only)
+//   google  — Google Translate TTS (keyless, robotic; the safety net)
 //
-// Request : { text, lang, voice?, speed?, tone? }
-// Response: { audio_url, format, duration_s }
+// Pick one per request with `provider`, or set a default with the TTS_PROVIDER env.
+// "auto" (default) = edge then google. An explicit choice still falls back to edge→google
+// so a demo never blanks. When ELEVENLABS_API_KEY lands, add an `elevenlabs` engine here.
+//
+// Request : { text, lang, provider?, voice?, speed?, tone? }
+// Response: { audio_url, format, duration_s, engine }
 
 import { jsonResponse, preflight } from "../_shared/http.ts";
 import { serviceClient } from "../_shared/supabase.ts";
 import { edgeTts } from "./edgetts.ts";
+import { mistralTts } from "./mistraltts.ts";
 import { chunkText, googleTtsUrl, MAX_CHUNKS } from "./lib.ts";
 
 const STORAGE_BUCKET = "artworks"; // public bucket; TTS files live under tts/
 
-/** Text -> MP3 bytes. Try Edge neural TTS first, fall back to Google on any failure. */
+type Engine = "edge" | "mistral" | "google";
+
+const ENGINES: Record<
+  Engine,
+  (text: string, lang: string, speed: number) => Promise<Uint8Array>
+> = {
+  edge: (t, l, s) => edgeTts(t, l, s),
+  mistral: (t) => mistralTts(t),
+  google: (t, l) => googleTts(t, l),
+};
+
+/**
+ * Synthesize to MP3, choosing the engine. `provider` is the requested engine (or "auto");
+ * we always keep edge→google as a fallback chain so an engine outage never breaks the demo.
+ * Returns the bytes plus which engine actually produced them.
+ */
 async function synthesize(
   text: string,
   lang: string,
   speed: number,
-): Promise<Uint8Array> {
-  try {
-    return await edgeTts(text, lang, speed);
-  } catch {
-    return await googleTts(text, lang);
+  provider: string,
+): Promise<{ bytes: Uint8Array; engine: Engine }> {
+  const chosen: Engine[] = provider in ENGINES ? [provider as Engine] : [];
+  const order = [...new Set<Engine>([...chosen, "edge", "google"])];
+  let lastError: unknown;
+  for (const engine of order) {
+    try {
+      return { bytes: await ENGINES[engine](text, lang, speed), engine };
+    } catch (e) {
+      lastError = e;
+    }
   }
+  throw lastError;
 }
 
 /** Fallback: keyless Google TTS, chunked (~200 char cap) and concatenated. */
@@ -79,12 +105,16 @@ Deno.serve(async (req) => {
   const text: string = (body.text ?? "").trim();
   const lang: string = body.lang ?? "fr";
   const speed: number = typeof body.speed === "number" ? body.speed : 1;
+  // Engine: per-request `provider`, else the TTS_PROVIDER env default, else "auto".
+  const provider: string = body.provider ?? Deno.env.get("TTS_PROVIDER") ??
+    "auto";
   if (!text) return jsonResponse({ message: "text is required" }, 400);
 
   try {
-    const audio_url = await uploadAudio(await synthesize(text, lang, speed));
+    const { bytes, engine } = await synthesize(text, lang, speed, provider);
+    const audio_url = await uploadAudio(bytes);
     // duration_s unknown without decoding the MP3 — left null (ponytail).
-    return jsonResponse({ audio_url, format: "mp3", duration_s: null });
+    return jsonResponse({ audio_url, format: "mp3", duration_s: null, engine });
   } catch (e) {
     return jsonResponse({ message: `speak failed: ${e}` }, 502);
   }

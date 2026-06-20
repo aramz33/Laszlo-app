@@ -1,0 +1,35 @@
+meta {
+  name: speak-edge
+  type: http
+  seq: 3
+}
+
+post {
+  url: {{base_url}}/speak
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+  Authorization: Bearer {{anon_key}}
+}
+
+body:json {
+  {
+    "text": "Bonjour, je suis Laszlo, votre guide.",
+    "lang": "fr",
+    "provider": "edge"
+  }
+}
+
+assert {
+  res.status: eq 200
+}
+
+docs {
+  Microsoft Edge neural TTS (best FR/NL quality, keyless). ⚠ It uses Microsoft's
+  keyless read-aloud service which throttles/blocks unpredictably — when it's blocked,
+  the response falls back to google (check the `engine` field). No assert on engine
+  for that reason.
+}

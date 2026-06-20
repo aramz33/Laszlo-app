@@ -19,7 +19,7 @@ body:json {
   {
     "text": "Bonjour, je suis Laszlo. Observez la lumière sur le visage du capitaine.",
     "lang": "fr",
-    "voice": "default"
+    "provider": "auto"
   }
 }
 
@@ -29,7 +29,7 @@ assert {
 }
 
 docs {
-  Text -> playable audio_url. STOPGAP provider = keyless Google TTS (robotic, ignores
-  voice/speed/tone) until the ElevenLabs key lands. The returned audio_url points to an
-  MP3 in Supabase Storage; open it to hear the result.
+  Text -> playable audio_url. `provider` selects the engine: "auto" (edge→google),
+  "edge", "mistral", or "google". The response includes which `engine` actually produced
+  the audio. Open the returned audio_url to hear it. See bruno/speak/ for per-engine reqs.
 }
