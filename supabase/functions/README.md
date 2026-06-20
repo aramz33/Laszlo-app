@@ -1,5 +1,8 @@
 # Laszlo runtime — Supabase edge functions
 
+> 🧭 Operational first-read (run / test / deploy / what's next / FAQ):
+> **[../PLAYBOOK.md](../PLAYBOOK.md)**.
+
 The server side of Laszlo: four Deno/TypeScript edge functions. The app talks to
 them over HTTPS; all provider keys (LLM / STT / TTS / vision) stay here, never
 in the app. Grounding is always re-read server-side — the client sends ids,
