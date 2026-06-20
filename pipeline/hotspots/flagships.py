@@ -32,7 +32,7 @@ _SEED: dict[str, list[dict]] = {
             ),
         },
         {
-            "x": 0.58, "y": 0.50,
+            "x": 0.62, "y": 0.64,
             "title": "Le lieutenant en jaune",
             "aspect": "histoire",
             "narration_text": (
@@ -42,7 +42,7 @@ _SEED: dict[str, list[dict]] = {
             ),
         },
         {
-            "x": 0.20, "y": 0.30,
+            "x": 0.52, "y": 0.64,
             "title": "L'usage de la lumière",
             "aspect": "technique",
             "narration_text": (
@@ -65,7 +65,7 @@ _SEED: dict[str, list[dict]] = {
             ),
         },
         {
-            "x": 0.30, "y": 0.62,
+            "x": 0.24, "y": 0.73,
             "title": "Le pain et la nature morte",
             "aspect": "technique",
             "narration_text": (
@@ -85,7 +85,7 @@ _SEED: dict[str, list[dict]] = {
             ),
         },
         {
-            "x": 0.62, "y": 0.85,
+            "x": 0.82, "y": 0.89,
             "title": "Le chauffe-pieds",
             "aspect": "histoire",
             "narration_text": (
