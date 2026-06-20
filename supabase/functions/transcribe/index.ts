@@ -7,6 +7,7 @@
 // Request : multipart/form-data { audio: <file>, lang_hint?: "fr|en|nl" }
 // Response: { text, lang, duration_s }
 
+import { jsonResponse, preflight } from "../_shared/http.ts";
 import { MAX_AUDIO_BYTES, toTranscript } from "./lib.ts";
 
 const SCW_BASE_URL = Deno.env.get("SCW_BASE_URL")!;
@@ -14,21 +15,9 @@ const SCW_API_KEY = Deno.env.get("SCW_API_KEY")!;
 // Voxtral (Mistral, multilingual) per ADR 0014; override with SCW_STT_MODEL.
 const STT_MODEL = Deno.env.get("SCW_STT_MODEL") ?? "voxtral-small-24b-2507";
 
-const CORS = {
-  "Access-Control-Allow-Origin": "*",
-  "Access-Control-Allow-Headers":
-    "authorization, x-client-info, apikey, content-type",
-  "Access-Control-Allow-Methods": "POST, OPTIONS",
-};
-
-const jsonResponse = (body: unknown, status = 200): Response =>
-  new Response(JSON.stringify(body), {
-    status,
-    headers: { ...CORS, "Content-Type": "application/json" },
-  });
-
 Deno.serve(async (req) => {
-  if (req.method === "OPTIONS") return new Response("ok", { headers: CORS });
+  const pre = preflight(req);
+  if (pre) return pre;
   if (req.method !== "POST") return jsonResponse({ message: "POST only" }, 405);
 
   // Parse the multipart upload.

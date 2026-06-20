@@ -1,0 +1,40 @@
+meta {
+  name: ask-from-hotspot
+  type: http
+  seq: 8
+}
+
+post {
+  url: {{base_url}}/generate
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+  Authorization: Bearer {{anon_key}}
+}
+
+body:json {
+  {
+    "request_id": "bruno-ask-hs",
+    "mode": "ask",
+    "artwork_id": "{{artwork_id}}",
+    "hotspot_id": "{{hotspot_id}}",
+    "question": "Et pourquoi ce geste précisément ?",
+    "lang": "fr",
+    "history": [
+      { "role": "user", "content": "Qui est le capitaine ?", "artwork_id": "{{artwork_id}}" },
+      { "role": "assistant", "content": "Frans Banninck Cocq, vêtu de noir.", "artwork_id": "{{artwork_id}}" }
+    ]
+  }
+}
+
+assert {
+  res.status: eq 200
+}
+
+docs {
+  Value set: a follow-up in the context of a hotspot, carrying conversation history.
+  The answer should build on the prior turns (continuity).
+}

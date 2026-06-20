@@ -15,23 +15,11 @@
 // Request : { text, lang, voice?, speed?, tone? }
 // Response: { audio_url, format, duration_s }
 
-import { createClient } from "jsr:@supabase/supabase-js@2";
+import { jsonResponse, preflight } from "../_shared/http.ts";
+import { serviceClient } from "../_shared/supabase.ts";
 import { chunkText, googleTtsUrl, MAX_CHUNKS } from "./lib.ts";
 
-const CORS = {
-  "Access-Control-Allow-Origin": "*",
-  "Access-Control-Allow-Headers":
-    "authorization, x-client-info, apikey, content-type",
-  "Access-Control-Allow-Methods": "POST, OPTIONS",
-};
-
 const STORAGE_BUCKET = "artworks"; // public bucket; TTS files live under tts/
-
-const jsonResponse = (body: unknown, status = 200): Response =>
-  new Response(JSON.stringify(body), {
-    status,
-    headers: { ...CORS, "Content-Type": "application/json" },
-  });
 
 /**
  * Text -> MP3 bytes. ponytail: keyless Google TTS, chunked + concatenated.
@@ -59,11 +47,7 @@ async function synthesize(text: string, lang: string): Promise<Uint8Array> {
 
 /** Upload the audio to the public bucket and return its public URL. */
 async function uploadAudio(bytes: Uint8Array): Promise<string> {
-  // service_role: auto-injected when deployed; export it locally to test.
-  const sb = createClient(
-    Deno.env.get("SUPABASE_URL")!,
-    Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!,
-  );
+  const sb = serviceClient();
   const path = `tts/${crypto.randomUUID()}.mp3`;
   const { error } = await sb.storage.from(STORAGE_BUCKET).upload(path, bytes, {
     contentType: "audio/mpeg",
@@ -74,7 +58,8 @@ async function uploadAudio(bytes: Uint8Array): Promise<string> {
 }
 
 Deno.serve(async (req) => {
-  if (req.method === "OPTIONS") return new Response("ok", { headers: CORS });
+  const pre = preflight(req);
+  if (pre) return pre;
   if (req.method !== "POST") return jsonResponse({ message: "POST only" }, 405);
 
   let body: Record<string, any>;

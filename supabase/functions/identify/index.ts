@@ -11,8 +11,9 @@
 // Request : multipart/form-data { image: <file>, candidate_ids?: csv|repeated, lang_hint? }
 // Response: { artwork_id, confidence, candidates }
 
-import { createClient } from "jsr:@supabase/supabase-js@2";
 import { encodeBase64 } from "jsr:@std/encoding@1/base64";
+import { jsonResponse, preflight } from "../_shared/http.ts";
+import { anonClient } from "../_shared/supabase.ts";
 import {
   type CandidateRow,
   MAX_IMAGE_BYTES,
@@ -25,40 +26,23 @@ const SCW_API_KEY = Deno.env.get("SCW_API_KEY")!;
 // Pixtral (multimodal) per ADR 0014; override with SCW_VISION_MODEL (holo2 also available).
 const VISION_MODEL = Deno.env.get("SCW_VISION_MODEL") ?? "pixtral-12b-2409";
 
-const CORS = {
-  "Access-Control-Allow-Origin": "*",
-  "Access-Control-Allow-Headers":
-    "authorization, x-client-info, apikey, content-type",
-  "Access-Control-Allow-Methods": "POST, OPTIONS",
-};
-
-const jsonResponse = (body: unknown, status = 200): Response =>
-  new Response(JSON.stringify(body), {
-    status,
-    headers: { ...CORS, "Content-Type": "application/json" },
-  });
-
-function db() {
-  return createClient(
-    Deno.env.get("SUPABASE_URL")!,
-    Deno.env.get("SUPABASE_ANON_KEY")!,
-  );
-}
-
 /** Read candidate artworks. If ids are given, scope to them; else the trackable set. */
 async function readCandidates(ids: string[]): Promise<CandidateRow[]> {
-  let query = db().from("artwork").select(
+  let query = anonClient().from("artwork").select(
     "id, object_number, title_en, title_nl, year, artist(name)",
   );
   query = ids.length > 0
     ? query.in("id", ids)
     : query.not("ref_image_url", "is", null);
   const { data } = await query;
-  return (data ?? []) as CandidateRow[];
+  // supabase-js infers the to-one `artist` join as an array; at runtime PostgREST
+  // returns a single object (verified e2e), so cast through unknown.
+  return (data ?? []) as unknown as CandidateRow[];
 }
 
 Deno.serve(async (req) => {
-  if (req.method === "OPTIONS") return new Response("ok", { headers: CORS });
+  const pre = preflight(req);
+  if (pre) return pre;
   if (req.method !== "POST") return jsonResponse({ message: "POST only" }, 405);
 
   let form: FormData;

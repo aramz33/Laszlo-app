@@ -1,0 +1,39 @@
+meta {
+  name: persona-en
+  type: http
+  seq: 10
+}
+
+post {
+  url: {{base_url}}/generate
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+  Authorization: Bearer {{anon_key}}
+}
+
+body:json {
+  {
+    "request_id": "bruno-persona-en",
+    "mode": "persona",
+    "lang": "en",
+    "onboarding": {
+      "allure": "long",
+      "niveau": "passionne",
+      "interets": ["symbols", "stories"],
+      "free_text": "I love hidden meanings"
+    }
+  }
+}
+
+assert {
+  res.status: eq 200
+  res.body.type: eq done
+}
+
+docs {
+  Value set: English persona, "passionné" + symbols/stories interests.
+}

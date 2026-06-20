@@ -1,17 +1,19 @@
 # `transcribe` — speech → text
 
-Contract: [ADR 0014](../../../docs/adr/0014-runtime-generation-edge-function.md).
-Forwards an uploaded audio file to the STT provider (Scaleway, Voxtral by default) and
-returns plain text. STT key stays server-side. Blocking step before `generate mode=ask`
-for voice input.
+Contract:
+[ADR 0014](../../../docs/adr/0014-runtime-generation-edge-function.md). Forwards
+an uploaded audio file to the STT provider (Scaleway, Voxtral by default) and
+returns plain text. STT key stays server-side. Blocking step before
+`generate mode=ask` for voice input.
 
 ```
 POST  multipart/form-data { audio: <file>, lang_hint?: "fr|en|nl" }
 ->    { text, lang, duration_s }
 ```
 
-Env: `SCW_BASE_URL`, `SCW_API_KEY`, optional `SCW_STT_MODEL`
-(default `voxtral-small-24b-2507`; `whisper-large-v3` also available). Limits: 10 MB / 20 s.
+Env: `SCW_BASE_URL`, `SCW_API_KEY`, optional `SCW_STT_MODEL` (default
+`voxtral-small-24b-2507`; `whisper-large-v3` also available). Limits: 10 MB / 20
+s.
 
 ## Testing
 
@@ -34,8 +36,8 @@ deno run --allow-net --allow-env supabase/functions/transcribe/index.ts   # :800
 curl -s localhost:8000 -F audio=@/path/to/speech.wav -F lang_hint=fr
 ```
 
-A 440 Hz tone (or any non-speech) returns hallucinated text — use a real clip to judge
-quality. Healthy wiring = HTTP 200 with `{ text, lang, duration_s }`.
+A 440 Hz tone (or any non-speech) returns hallucinated text — use a real clip to
+judge quality. Healthy wiring = HTTP 200 with `{ text, lang, duration_s }`.
 
 **Deployed:**
 `https://spbrkgoseabpsxzkkyzj.supabase.co/functions/v1/transcribe`, add

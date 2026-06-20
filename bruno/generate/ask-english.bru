@@ -1,0 +1,36 @@
+meta {
+  name: ask-english
+  type: http
+  seq: 6
+}
+
+post {
+  url: {{base_url}}/generate
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+  Authorization: Bearer {{anon_key}}
+}
+
+body:json {
+  {
+    "request_id": "bruno-ask-en",
+    "mode": "ask",
+    "artwork_id": "{{artwork_id}}",
+    "question": "What is unusual about the composition?",
+    "lang": "en",
+    "profile": { "niveau": "passionne", "interets": ["technique", "stories"] }
+  }
+}
+
+assert {
+  res.status: eq 200
+}
+
+docs {
+  Value set: English output + a "passionné" profile. The streamed answer should be
+  in English and noticeably more detailed than a "découverte" profile.
+}

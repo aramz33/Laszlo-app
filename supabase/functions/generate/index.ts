@@ -13,7 +13,8 @@
 // The LLM is a real OpenAI-compatible call (Scaleway, see llm.ts). Each mode falls
 // back to a deterministic stub if the model call fails, so a demo never shows a blank.
 
-import { createClient } from "jsr:@supabase/supabase-js@2";
+import { CORS, jsonResponse, preflight } from "../_shared/http.ts";
+import { anonClient } from "../_shared/supabase.ts";
 import { complete, type Msg, streamDeltas } from "./llm.ts";
 import {
   askPrompt,
@@ -31,38 +32,9 @@ import {
   systemPrompt,
 } from "./lib.ts";
 
-// CORS: the app calls this function cross-origin, so we must answer the preflight
-// (OPTIONS) and echo permissive headers. Tighten the origin for production.
-const CORS = {
-  "Access-Control-Allow-Origin": "*",
-  "Access-Control-Allow-Headers":
-    "authorization, x-client-info, apikey, content-type",
-  "Access-Control-Allow-Methods": "POST, OPTIONS",
-};
-
-/** Build a JSON Response with CORS headers. */
-function jsonResponse(body: unknown, status = 200): Response {
-  return new Response(JSON.stringify(body), {
-    status,
-    headers: { ...CORS, "Content-Type": "application/json" },
-  });
-}
-
-/**
- * Supabase client scoped to this request. URL and anon key are injected automatically
- * into deployed edge functions; locally they come from the env. The anon key is enough
- * because `notice`/`hotspot` are public-read (same access the app has).
- */
-function db() {
-  return createClient(
-    Deno.env.get("SUPABASE_URL")!,
-    Deno.env.get("SUPABASE_ANON_KEY")!,
-  );
-}
-
 /** Read all grounding notices for an artwork (one indexed read, small payload). */
 async function readNotices(artworkId: string): Promise<NoticeRow[]> {
-  const { data } = await db()
+  const { data } = await anonClient()
     .from("notice")
     .select("id, lang, source, text")
     .eq("artwork_id", artworkId);
@@ -82,7 +54,8 @@ function historyMessages(history: unknown): Msg[] {
 
 Deno.serve(async (req) => {
   // CORS preflight.
-  if (req.method === "OPTIONS") return new Response("ok", { headers: CORS });
+  const pre = preflight(req);
+  if (pre) return pre;
   if (req.method !== "POST") return jsonResponse({ message: "POST only" }, 405);
 
   // Parse the request body. `any` here because the shape depends on `mode`.
@@ -137,7 +110,7 @@ Deno.serve(async (req) => {
   // --- hotspot: one batch request returns the text for every requested hotspot.
   if (mode === "hotspot") {
     const ids: string[] = body.hotspot_ids ?? [];
-    const { data } = await db()
+    const { data } = await anonClient()
       .from("hotspot")
       .select("id, title, aspect, narration_text")
       .in("id", ids);

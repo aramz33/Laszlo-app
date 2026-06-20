@@ -1,0 +1,36 @@
+meta {
+  name: ask-point
+  type: http
+  seq: 7
+}
+
+post {
+  url: {{base_url}}/generate
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+  Authorization: Bearer {{anon_key}}
+}
+
+body:json {
+  {
+    "request_id": "bruno-ask-point",
+    "mode": "ask",
+    "artwork_id": "{{artwork_id}}",
+    "point": { "x": 0.5, "y": 0.4 },
+    "question": "Qu'est-ce qu'on voit ici exactement ?",
+    "lang": "fr"
+  }
+}
+
+assert {
+  res.status: eq 200
+}
+
+docs {
+  Value set: free placed-point question (no hotspot). The model is told the visitor
+  is pointing at (x,y) on the canvas.
+}

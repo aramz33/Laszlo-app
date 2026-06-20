@@ -1,0 +1,43 @@
+meta {
+  name: hotspot-multi
+  type: http
+  seq: 9
+}
+
+post {
+  url: {{base_url}}/generate
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+  Authorization: Bearer {{anon_key}}
+}
+
+body:json {
+  {
+    "request_id": "bruno-hs-multi",
+    "mode": "hotspot",
+    "artwork_id": "{{artwork_id}}",
+    "hotspot_ids": [
+      "e2d7f12c-82f7-4d58-9a4a-63da0d1f68ee",
+      "208e85ce-954e-4a29-a4f0-490413ca25bd",
+      "e8cdef9a-249c-40b1-ba11-b2c8e4488ab8"
+    ],
+    "lang": "nl",
+    "profile": { "allure": "long", "niveau": "amateur", "interets": ["people"] },
+    "steering": { "lens": "people", "tone": "warm" }
+  }
+}
+
+assert {
+  res.status: eq 200
+  res.body.items[0].status: eq ready
+  res.body.items[2].status: eq ready
+}
+
+docs {
+  Value set: batch of 3 flagship hotspots, Dutch output, "people" lens + warm tone.
+  Exercises the parallel fan-out and steering.
+}
