@@ -107,7 +107,8 @@
 
   <h2>🖼️ Œuvre</h2>
   <select id="artwork" onchange="renderArtwork()"></select>
-  <button class="primary" style="margin-top:8px;width:100%" onclick="openArtwork()">Ouvrir → générer les hotspots</button>
+  <button style="margin-top:8px;width:100%" onclick="openArtwork()" title="Pré-génère tous les hotspots d'un coup. Optionnel : cliquer un point le génère aussi.">⚡ Tout générer (optionnel)</button>
+  <p class="help">Clique directement un point bleu sur l'image — il se génère au clic.</p>
 
   <h2>🆘 Fallbacks</h2>
   <label>Identify (photo → œuvre)</label>
@@ -137,7 +138,7 @@
   <div id="stage" style="margin:8px 0"></div>
 
   <h2>💬 Hotspot / réponse</h2>
-  <div class="card"><div id="hsTitle" class="muted">Ouvre une œuvre, puis clique un point.</div><pre id="hsText" style="margin-top:6px"></pre><div id="hsSrc" class="sources"></div>
+  <div class="card"><div id="hsTitle" class="muted">Clique un point bleu sur l'œuvre — il se génère au clic.</div><pre id="hsText" style="margin-top:6px"></pre><div id="hsSrc" class="sources"></div>
     <div class="row" style="margin-top:8px"><button onclick="speak(window._lastText)">🔊 Lire</button><button onclick="loadFollowups(window._lastHotspot)">Follow-ups</button></div>
   </div>
 
@@ -264,17 +265,26 @@ async function openArtwork() {
   $("stagemeta").textContent = `${a.object_number} · génération…`;
   try {
     const d = await gen({ mode: "hotspot", artwork_id: a.id, hotspot_ids: ids, lang: lang(), profile: profile(), steering: steering() }, "hotspot batch");
-    hotspotItems = {}; d.items.forEach(it => hotspotItems[it.hotspot_id] = it);
+    hotspotItems = {}; d.items.forEach((it, i) => hotspotItems[ids[i]] = it); // key by requested id (order preserved)
     $("stagemeta").textContent = `${a.object_number} · ${d.items.length} hotspots prêts — clique un point`;
     status("hotspots générés", "good");
   } catch (e) { status(e.message, "bad"); }
 }
-function openHotspot(id) {
+
+// Click a dot -> show its text. Generates on demand if not already cached (so you can
+// click a hotspot without pressing "Tout générer" first).
+async function openHotspot(id) {
   $("sw").querySelectorAll(".dot").forEach(d => d.classList.toggle("active", d.dataset.id === id));
   const h = (currentArtwork.hotspot || []).find(x => x.id === id) || {};
-  const it = hotspotItems[id];
   $("hsTitle").textContent = h.title || id;
-  if (!it) { $("hsText").textContent = "(ouvre l'œuvre d'abord pour générer)"; return; }
+  let it = hotspotItems[id];
+  if (!it) {
+    $("hsText").textContent = "génération…"; $("hsSrc").textContent = "";
+    try {
+      const d = await gen({ mode: "hotspot", artwork_id: currentArtwork.id, hotspot_ids: [id], lang: lang(), profile: profile(), steering: steering() }, "hotspot");
+      it = d.items[0]; hotspotItems[id] = it;
+    } catch (e) { $("hsText").textContent = "erreur : " + e.message; return; }
+  }
   $("hsText").textContent = it.text ?? it.message ?? "";
   $("hsSrc").textContent = "sources: " + (it.sources||[]).map(s=>`${s.source}/${s.lang}`).join(", ");
   window._lastText = it.text; window._lastHotspot = id;
