@@ -1,6 +1,6 @@
-# ADR 0014 — Runtime de génération : Edge Function Supabase, mono-appel, voix séparée
+# ADR 0014 — Runtime de génération : Edge Function Supabase, mono-appel, voix server-side
 
-**Statut :** Accepté · 2026-06-20
+**Statut :** Accepté · contrat figé 2026-06-20 (validé Siffrein × Adam)
 
 ## Contexte
 
@@ -56,110 +56,159 @@ retrieval, zéro tool-calling, zéro planification → **un prompt, un appel**.
 - Activement à éviter maintenant : la voix live est sensible à la latence ; chaque
   round-trip LLM ajoute 1-2 s. Un agent paierait complexité **et** wow.
 
-### 3. La **voix est une brique séparée** ; le runtime reste texte→texte
+### 3. La voix **encadre** le runtime texte→texte, mais **vit côté serveur**
 
-Le runtime ne sait pas que la voix existe. STT et TTS l'**encadrent** :
+Le runtime `generate` reste texte→texte. STT et TTS l'**encadrent** — et **tous deux sont
+côté serveur**, derrière leurs propres edge functions, parce que leurs clés ne peuvent pas
+plus vivre dans l'app que la clé LLM :
 
 ```text
-        ┌──── utilisateur texte-only entre/sort ici ────┐
-        ↓                                                ↑
-parole → [STT] → texte → RUNTIME f() → texte → [TTS] → parole
+parole → [/transcribe] → texte → /generate → texte → [/speak] → audio_url → lecture app
 ```
 
-- L'utilisateur « flemme de parler » saute les deux brackets — pas un cas spécial.
-- Le **chemin texte ship en premier**, sans aucun provider voix choisi. Le wow
-  (« je tape un hotspot → texte adapté généré live ») marche sans voix.
-- **La décision voix (M15 : Whisper / Voxtral / ElevenLabs) ne bloque plus rien**
-  et se prend en dernier. On n'est **pas** dans le modèle Vapi-pilote-tout (Vapi
-  veut être l'orchestrateur STT+LLM+TTS) : Vapi devient au mieux un transport TTS
-  optionnel, pas le cerveau. Révise la posture de l'ADR 0003 en ce sens.
+- **`/transcribe`** (STT, Voxtral) et **`/speak`** (TTS, ElevenLabs) tiennent leurs clés
+  serveur. L'app n'appelle **jamais** ElevenLabs/Voxtral en direct (révise la version
+  initiale « app parle au TTS directement » : elle exposait la clé).
+- L'utilisateur « flemme de parler » saute les deux brackets — pas un cas spécial. Le
+  **chemin texte ship en premier** ; l'app n'a que des **contrôles de lecture** (voix /
+  vitesse / ton), pas de provider.
+- On n'est **pas** dans le modèle Vapi-pilote-tout : Vapi serait au mieux un transport TTS
+  derrière `/speak`, pas le cerveau. Révise la posture de l'ADR 0003 en ce sens.
 
-## Contrat de l'Edge Function (surface app ↔ runtime)
+## Contrat de l'Edge Function (surface app ↔ runtime) — figé 2026-06-20
 
-`POST /functions/v1/generate` · auth = clé anon Supabase (header `Authorization`).
+**Trois endpoints**, auth = clé anon Supabase (header `Authorization`). Clés LLM/STT/TTS
+**toutes côté serveur**. Le client envoie des IDs + préférences, **jamais les notices** : le
+runtime relit le grounding (`notice`) server-side.
 
-**Entrée** (JSON) :
+- `POST /functions/v1/generate` — texte. 4 `mode` : `hotspot`, `ask`, `persona`, `followups`.
+- `POST /functions/v1/speak` — texte → audio jouable (`audio_url`). TTS server-side.
+- `POST /functions/v1/transcribe` — audio → texte. STT server-side.
+
+**Règles transverses :**
+
+- `request_id` généré par l'app, **réémis** par le serveur (corrèle batch ↔ réponses).
+- `history` **tenu par l'app** (runtime stateless), capé à **8 messages = 4 tours** ; au-delà,
+  l'app envoie un `history_summary`. Chaque message porte un `artwork_id` (mémoire œuvre-à-œuvre).
+- `sources` **structuré** : `{ source, lang, notice_id }`, pas une liste de strings.
+- `mode=ask` = **SSE streamé** (`delta`/`done`/`error`) ; `hotspot`/`persona`/`followups`
+  = **JSON final** (courts, pas de stream).
+- `profile` = cadrans neutres skippables + `persona_summary` (produit par `mode=persona`) ;
+  `steering` = re-steering live (`tone`, `lens` ∈ technique|people|stories|symbols).
+
+### `mode=hotspot` — batch, à l'entrée de la vue œuvre
+
+**Un seul appel** pour les N hotspots de l'œuvre, personnalisés profil/langue, conditionnés
+par `history` (→ influence **œuvre-à-œuvre** : La Ronde de nuit tient compte de La Laitière).
+Le tap ne déclenche **aucun** LLM : il lit le texte déjà prêt ; fallback `narration_text`
+après **3 s**. Les hotspots ne sont **pas** recalculés à l'intérieur d'une même œuvre.
 
 ```jsonc
+// Request
 {
-  "artwork_id": "uuid",          // l'œuvre ouverte ; le runtime relit ses notices server-side
-  "mode": "hotspot" | "ask",
-  "hotspot_id": "uuid | null",   // requis si mode = "hotspot" ; contexte possible si mode = "ask"
-  "point": { "x": 0.42, "y": 0.58 } | null, // optionnel si mode = "ask" depuis un point libre
-  "question": "string | null",   // requis si mode = "ask" (déjà STT si venu de la voix)
-  "history": [                   // continuité conversation, tenue par l'app (runtime stateless)
-    { "role": "user" | "assistant", "content": "string" }
-  ],
-  "lang": "fr",                  // langue de sortie visiteur
-  "profile": {                   // les 3 cadrans neutres, tous skippables
-    "allure": "court | moyen | long",
-    "niveau": "decouverte | amateur | passionne",
-    "interet": "string | null"   // angle de médiation runtime (texte libre, taxonomie non figée)
-  }
+  "request_id": "uuid", "artwork_id": "uuid", "mode": "hotspot",
+  "hotspot_ids": ["uuid"],
+  "lang": "fr | en | nl",
+  "profile": { "allure": "...", "niveau": "...", "interets": ["technique","people"],
+               "free_text": "string | null", "persona_summary": "string | null" },
+  "steering": { "tone": "string | null", "lens": "technique|people|stories|symbols|null" },
+  "history_summary": "string | null",
+  "history": [ { "role": "user|assistant", "content": "string", "artwork_id": "uuid | null" } ]
+}
+// Response
+{
+  "type": "done", "request_id": "uuid",
+  "items": [ { "hotspot_id": "uuid", "status": "ready | error", "text": "string | null",
+               "message": "string | null",
+               "sources": [ { "source": "rijks|wikipedia", "lang": "en|nl", "notice_id": "uuid|null" } ] } ]
 }
 ```
 
-- Le client envoie `artwork_id`, **pas** les notices : le grounding n'est jamais
-  fait confiance depuis le client, le runtime relit la `notice` server-side (1 read
-  indexé). Payload minuscule.
-- `history` est **tenu par l'app** et renvoyé à chaque appel → le runtime reste
-  **stateless** (modèle des API chat : le serveur ne mémorise rien). On évite une table
-  `session` : l'historique = la conversation de l'utilisateur, pas des faits (les faits
-  restent relus server-side). Token-cap aux N derniers tours si besoin. La **capture des
-  intérêts dans le temps** (couche Profil/Mémoire) est hors scope ici.
-- `mode=hotspot` génère le **texte personnalisé d'un hotspot** pour le profil courant.
-  L'app lance ces appels **à l'entrée de la vue œuvre**, un par hotspot, en parallèle.
-  Le tap hotspot ne déclenche pas de LLM : il lit le texte déjà généré, avec fallback
-  possible sur `narration_text` si la génération n'est pas prête.
-- `mode=ask` répond à `question` ancré sur les notices (+ contexte hotspot ou point
-  placé par l'utilisateur).
+### `mode=ask` — SSE, Q&A
 
-**Sortie** : `text/event-stream` (streamé pour que le TTS commence à parler avant
-la fin, et effet machine-à-écrire en texte-only).
+chat libre · point placé `{x,y}` · conversation depuis un hotspot (grounding = texte hotspot
+généré + notices).
 
 ```jsonc
-data: {"delta": "..."}                       // tokens streamés
-data: {"done": true, "sources": ["rijks","wikipedia"]}   // provenance = story anti-hallucination
+// Request : idem hotspot, sans hotspot_ids[], avec :
+{ "hotspot_id": "uuid | null", "point": { "x": 0.42, "y": 0.58 } | null, "question": "string", ... }
+// SSE
+data: {"type":"delta","request_id":"...","delta":"..."}
+data: {"type":"done","request_id":"...","text":"...","sources":[{"source":"rijks","lang":"en","notice_id":"..."}]}
+data: {"type":"error","request_id":"...","message":"..."}
 ```
 
-## Révision 2026-06-20 — hotspots personnalisés à l'ouverture de l'œuvre
+### `mode=persona` — le call caché d'onboarding (S5)
 
-Amende le point 2 du contrat ci-dessus.
+Sélections onboarding → `persona_summary` (1 appel LLM, stocké device, réinjecté dans
+`profile.persona_summary` à chaque appel suivant). C'est le « 15 s, Laszlo a construit mon profil ».
 
-- **Les hotspots ancrés repassent par `f()`**, mais **pas au moment du tap**. À l'entrée
-  dans la vue détail d'une œuvre, l'app lance en async les générations personnalisées :
-  **un `POST /generate mode=hotspot` par hotspot**, en parallèle, avec `artwork_id`,
-  `hotspot_id`, `lang`, `profile` et `history` court. Motif : le texte doit être unique
-  au profil visiteur, mais le tap doit rester instantané.
-- Au tap d'un hotspot, l'app affiche / vocalise le **texte personnalisé déjà prêt**.
-  Fallback démo accepté : afficher `hotspot.narration_text` brut si la génération tarde.
-- **`mode=ask` (streamé) couvre le Q&A** :
-  - **chat libre** (question texte/voix) ;
-  - **point placé par l'utilisateur** : tap sur un endroit arbitraire de l'œuvre (hors
-    hotspots prédéfinis) + question → `point {x,y}` ajouté à l'entrée ;
-  - **conversation à partir d'un hotspot ancré** : grounding = son texte personnalisé +
-    les notices de l'œuvre.
-- **Nom d'endpoint figé** : `POST /functions/v1/generate` pour `mode=hotspot` et
-  `mode=ask`; `POST /functions/v1/transcribe` pour la voix→texte.
+```jsonc
+// Request
+{ "request_id": "uuid", "mode": "persona", "lang": "fr|en|nl",
+  "onboarding": { "allure": "...", "niveau": "...", "interets": ["technique","people"], "free_text": "string|null" } }
+// Response
+{ "type": "done", "request_id": "uuid", "persona_summary": "string" }
+```
+
+### `mode=followups` — suggestions à la volée
+
+À **chaque ouverture de hotspot** + après un tour de chat → 3 questions de suivi, basées sur
+la session complète. Tap sur une suggestion → `mode=ask`.
+
+```jsonc
+// Request : artwork_id + hotspot_id|null (contexte) + profile/steering/history (idem ask)
+{ "request_id": "uuid", "artwork_id": "uuid", "mode": "followups", "hotspot_id": "uuid|null", ... }
+// Response
+{ "type": "done", "request_id": "uuid", "questions": ["...","...","..."] }
+```
+
+> Micro-optim possible : piggyback `questions` dans le `done` de `mode=ask` (économise un
+> round-trip côté chat). Gardé séparé pour l'instant — uniforme côté app.
+
+### `POST /speak` — TTS server-side
+
+`/generate` reste texte-only. `/speak` transforme le texte final en audio jouable. L'app ne
+gère qu'une **URL courte** + ses contrôles de lecture (pas de base64, pas de provider).
+
+```jsonc
+// Request
+{ "text": "string", "lang": "fr|en|nl", "voice": "default|warm|calm", "speed": 1, "tone": "calm|neutral|null" }
+// Response
+{ "audio_url": "https://...", "format": "mp3", "duration_s": 18.4 }
+```
+
+`voice` = intention stable, pas un `voice_id` provider brut (mapping ElevenLabs gardé serveur).
+⚠ Flux **séquentiel** (`generate` complet → `speak` complet → lecture) : latence acceptée en
+démo (textes courts) ; un flux HTTP jouable derrière la même `audio_url` reste possible plus tard.
+
+### `POST /transcribe` — STT server-side
+
+`multipart/form-data` (pas de base64). Max démo **20 s / 10 MB**. Bloquant avant `mode=ask`.
+
+```jsonc
+// Request : multipart { audio: file, lang_hint: "fr|en|nl|null" }
+// Response
+{ "text": "string", "lang": "fr|en|nl", "duration_s": 4.2 }
+```
+
+Flux voix complet : `audio → /transcribe → texte → /generate ask → texte → /speak → audio_url`.
 
 ## Modèle LLM & STT (détail providers — swappables, ADR 0012)
 
-- **Modèle de `f()`** = **modèle open hébergé sur Nebius** (crédits builder kit 100 $),
-  **bascule Claude API payant** si la qualité est insuffisante. ⚠ Un **abonnement
-  Claude.ai ≠ clé API** : il n'y a pas de Claude « gratuit via abonnement ». Le port LLM
-  reste swappable, le contrat `/generate` ne bouge pas selon le modèle.
+- **Modèle de `f()`** = **TBD**, derrière une interface **OpenAI-compatible** (`base_url`
+  + clé en `.env`, fournis par Siffrein). Le provider est un **swap de config**, le contrat
+  ne bouge pas. Candidat par défaut = modèle open hébergé (Nebius/crédits kit) ; Claude API
+  en référence/fallback. ⚠ Un **abonnement Claude.ai ≠ clé API**.
 - **Grounding par mode** : `hotspot` → notice `rijks` + `narration_text` écrit main (riche)
-  + profil courant → génération courte, parallélisée côté app. `ask` (chat) → a besoin de **Wikipedia**, mais les notices
-  wikipedia sont aujourd'hui un **dump brut** (trop gros) → **à trimmer** (cf. TODO) ou
-  passer sur un modèle plus fort.
-- **STT = Voxtral**, cloud, derrière une **2e edge function `POST /transcribe`**
-  (audio → texte ; requête courte, pas de socket long → l'Edge Function gère). Garde la clé
-  STT serveur. STT on-device écarté (plus faible ; et le modèle de génération ne prend pas
-  l'audio). Le STT **transcrit seulement**, il n'est pas le cerveau.
-- **TTS** = clé côté serveur (même ownership que LLM/STT). Principe : le **texte généré
-  est l'artefact stable** ; changer voix/vitesse à la volée = **re-synthétiser** ce même
-  texte, l'audio est jetable. La forme exacte côté app reste à figer : stream audio,
-  URL courte jouable, ou endpoint serveur dédié.
+  + profil → génération courte en **batch** (N hotspots en 1 appel). `ask`/`followups` →
+  ont besoin de **Wikipedia**, mais les notices wikipedia sont aujourd'hui un **dump brut**
+  (trop gros) → **à trimmer** (cf. TODO D3) ou modèle plus fort.
+- **STT = Voxtral**, cloud, derrière `POST /transcribe` (multipart, requête courte). Clé
+  STT serveur. On-device écarté. Le STT **transcrit seulement**.
+- **TTS = ElevenLabs**, derrière `POST /speak` (clé serveur). Principe : le **texte généré
+  est l'artefact stable** ; changer voix/vitesse = **re-synthétiser** ce texte, l'audio est
+  jetable. L'app reçoit une `audio_url` + ses contrôles de lecture.
 
 ## Topologie résultante
 

@@ -60,11 +60,12 @@ Contraintes de sens :
 - `x` et `y` sont normalisés sur l'image de l'oeuvre, entre `0` et `1`.
 - `height_cm` et `width_cm` sont requis pour les reference images AR et le
   `physicalWidth` ViroReact.
-- **Texte du hotspot ancré = seed/fallback stocké**, pas forcément le texte final dit
-  au visiteur. `narration_text` reste le substrat révisé main pour les phares ; à
-  l'entrée dans la vue œuvre, l'app lance des générations `f()` **en parallèle** pour
-  produire un texte hotspot personnalisé par profil/langue. Le tap hotspot lit ce texte
-  déjà prêt ; si la génération tarde, l'app peut afficher `narration_text` en fallback.
+- **Texte du hotspot ancré = seed/fallback stocké**, pas le texte final dit au visiteur.
+  `narration_text` reste le substrat révisé main pour les phares ; à l'entrée dans la vue
+  œuvre, l'app lance **un seul appel batch** `generate mode=hotspot` (les N hotspots de
+  l'œuvre) → textes personnalisés par profil/langue, conditionnés par l'historique de session
+  (influence œuvre-à-œuvre). Le tap lit le texte déjà prêt ; fallback `narration_text` à 3 s.
+  Cf. contrat **ADR 0014**.
 - `audio_url` = `null` par défaut : l'**audio** du hotspot est **synthétisé live au runtime**
   (TTS) depuis le texte (+ voix/vitesse). `audio_url` n'est qu'un **cache optionnel** si
   la latence TTS l'exige (non rempli par le pipeline).

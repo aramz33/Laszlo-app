@@ -17,11 +17,13 @@ sortants swappables (LLM / STT / TTS / Vision / Paiement). Les providers sont de
 ## Topologie (ADR 0014) — pas de microservices
 
 ```
-App RN  ──lecture──→  Supabase (PostgREST nu, clé anon)
+App RN  ──lecture──────→  Supabase (PostgREST nu, clé anon)
    │
-   ├──génération──→  Edge Function f()  ──→  Supabase (relit notices server-side) → LLM
-   │
-   └──voix──→  STT/TTS providers (en direct)
+   ├──/generate──────→  Edge Function  ──→  Supabase (relit notices) → LLM
+   ├──/speak (texte)─→  Edge Function  ──→  TTS (ElevenLabs)  → audio_url
+   └──/transcribe────→  Edge Function  ──→  STT (Voxtral)     → texte
+
+   (clés LLM/STT/TTS toutes server-side ; l'app ne parle à aucun provider en direct)
 
 Pipeline  ──batch offline──→  écrit Supabase puis meurt (pas un service)
 ```
@@ -34,46 +36,28 @@ Pipeline  ──batch offline──→  écrit Supabase puis meurt (pas un servi
 output = f(notice, glossaire@niveau, profil, langue, voix/TTS)
 ```
 
-- **Où** : Edge Function Supabase (`POST /functions/v1/generate`), Deno/TS. Pas de FastAPI
-  (coût réel = tokens + TTS, identique quel que soit l'hôte → on optimise robustesse + pièces mobiles).
-- **Forme** : **mono-appel LLM**, pas un agent. Œuvre connue (tapée) → on injecte toutes ses
-  notices d'un coup. Zéro retrieval, zéro tool-calling. Le multi-étapes = open-world (post-hackathon).
-- **Streamé** (`text/event-stream`) : le TTS parle avant la fin + effet machine à écrire en texte-only.
-- **2e edge function** `POST /transcribe` (Voxtral) : audio → texte.
+**Contrat figé 2026-06-20 — détail complet dans [ADR 0014](adr/0014-runtime-generation-edge-function.md).**
+Trois edge functions, clés LLM/STT/TTS **toutes serveur**, le client envoie des IDs jamais les notices :
 
-**Contrat `/generate`** (surface app ↔ runtime) :
+| Endpoint | Rôle |
+|---|---|
+| `POST /generate` | texte. 4 `mode` : `hotspot` (batch JSON) · `ask` (SSE) · `persona` (JSON) · `followups` (JSON) |
+| `POST /speak` | texte → `audio_url` (TTS ElevenLabs serveur) |
+| `POST /transcribe` | audio → texte (STT Voxtral serveur, multipart) |
 
-```jsonc
-{
-  "artwork_id": "uuid",        // le runtime relit ses notices server-side
-  "mode": "hotspot" | "ask",
-  "hotspot_id": "uuid | null", // requis si mode = hotspot ; contexte possible si mode = ask
-  "point": { "x": 0.42, "y": 0.58 } | null,
-  "question": "string | null", // requis si mode = ask (déjà STT si venu de la voix)
-  "history": [ { "role": "user|assistant", "content": "..." } ], // tenu par l'app
-  "lang": "fr",
-  "profile": { "allure": "court|moyen|long", "niveau": "decouverte|amateur|passionne", "interet": "string|null" }
-}
-// → SSE : data: {"delta":"..."} … data: {"done":true,"sources":["rijks","wikipedia"]}
-```
+- **`hotspot`** = batch des N hotspots à l'entrée de l'œuvre, perso profil/langue + `history`
+  (influence **œuvre-à-œuvre**). Tap = zéro LLM, lit le texte prêt, fallback `narration_text` à 3 s.
+- **`ask`** = Q&A streamé : chat libre · point `{x,y}` · conversation depuis hotspot.
+- **`persona`** = call caché d'onboarding → `persona_summary` (S5), réinjecté ensuite.
+- **`followups`** = 3 questions de suivi à chaque ouverture hotspot / chat.
+- Transverse : `request_id` réémis · `history` capé 8 msg + `history_summary` · `sources` structuré.
+- **Voix server-side** : l'app n'appelle jamais ElevenLabs/Voxtral en direct (clés exposées
+  sinon) ; elle garde seulement les contrôles de lecture. Chemin texte ship en premier.
 
-Le client envoie `artwork_id`, **jamais les notices** (grounding pas confié au client).
-Pour les hotspots, l'app lance **un `/generate mode=hotspot` par hotspot** à l'entrée
-dans la vue œuvre, en parallèle, avec le profil/langue courants. Le tap hotspot ne lance
-pas de LLM : il lit le texte personnalisé déjà prêt, ou `narration_text` en fallback.
-
-**Conversation** : l'`history` est **tenu par l'app** et renvoyé à chaque appel → runtime
-**stateless** (modèle des API chat, pas de table `session`). La capture des intérêts dans le
-temps = couche **Profil/Mémoire**, hors scope démo.
-
-**Sécurité (prompt injection)** : mono-appel **sans outils** = frontière volontaire. La fonction
-lit des notices publiques et appelle le LLM, rien d'autre → impact injection borné à la session
-de l'utilisateur (pas de fuite/escalade). `history` n'ajoute pas de surface vs `question`. Vrai
-vecteur = **notices scrapées** (Wikipedia) → injection indirecte (cf. TODO D3). Défense : grounding
-en `system` + notices délimitées + `sources` en sortie. Détail : ADR 0014.
-
-**La voix est une brique séparée** : le runtime reste texte→texte, STT/TTS l'encadrent.
-→ **le chemin texte ship en premier, sans décision voix.**
+**Sécurité (prompt injection)** : mono-appel **sans outils** = frontière volontaire. Impact
+injection borné à la session de l'utilisateur (pas de fuite/escalade). Vrai vecteur = **notices
+scrapées** (Wikipedia) → injection indirecte (cf. TODO D3). Défense : grounding en `system` +
+notices délimitées + `sources` en sortie. Détail : ADR 0014.
 
 ## Stack par couche
 
