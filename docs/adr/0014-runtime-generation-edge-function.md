@@ -84,6 +84,7 @@ runtime relit le grounding (`notice`) server-side.
 - `POST /functions/v1/generate` — texte. 4 `mode` : `hotspot`, `ask`, `persona`, `followups`.
 - `POST /functions/v1/speak` — texte → audio jouable (`audio_url`). TTS server-side.
 - `POST /functions/v1/transcribe` — audio → texte. STT server-side.
+- `POST /functions/v1/identify` — image → `artwork_id` (fallback vision si l'AR échoue). Clé vision server-side.
 
 **Règles transverses :**
 
@@ -193,6 +194,27 @@ démo (textes courts) ; un flux HTTP jouable derrière la même `audio_url` rest
 ```
 
 Flux voix complet : `audio → /transcribe → texte → /generate ask → texte → /speak → audio_url`.
+
+### `POST /identify` — fallback vision (l'AR a échoué)
+
+ViroReact fait reco + ancrage on-device sur le set curé. **S'il échoue**, l'app capture une
+frame et la POST ici ; un **modèle de vision** (Claude, clé serveur) identifie **laquelle** des
+œuvres candidates est en vue → l'app ouvre la même vue détail en overlay 2D.
+
+- **Pas d'embeddings** (hors runtime, post-hackathon) : on envoie l'image **+ la liste des
+  candidats** (œuvres déjà chargées pour la salle) → le modèle choisit. Mono-appel, set curé.
+- `multipart/form-data` (comme `/transcribe`). Échelle de fallback : ViroReact → `/identify`
+  → sélection manuelle / QR.
+
+```jsonc
+// Request : multipart { image: file, candidate_ids: ["uuid"] | null, lang_hint: "fr|en|nl|null" }
+// Response
+{
+  "artwork_id": "uuid | null",   // null = pas de match confiant → app bascule QR/manuel
+  "confidence": 0.0,
+  "candidates": [ { "artwork_id": "uuid", "confidence": 0.0 } ] | null
+}
+```
 
 ## Modèle LLM & STT (détail providers — swappables, ADR 0012)
 

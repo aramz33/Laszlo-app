@@ -37,13 +37,15 @@ date: 2026-06-20
 - [ ] Créer les Edge Functions :
   - [ ] `POST /functions/v1/generate` ;
   - [ ] `POST /functions/v1/speak` ;
-  - [ ] `POST /functions/v1/transcribe`.
+  - [ ] `POST /functions/v1/transcribe` ;
+  - [ ] `POST /functions/v1/identify` (fallback vision).
 - [ ] `/generate mode=hotspot` : JSON batch, `request_id`, `items[]`, `sources` structurées.
 - [ ] `/generate mode=ask` : SSE `delta/done/error`, `done.text` complet, `sources` structurées.
 - [ ] `/generate mode=persona` : onboarding → `persona_summary` (call caché S5), JSON.
 - [ ] `/generate mode=followups` : contexte + session → 3 questions, JSON.
 - [ ] `/speak` : ElevenLabs côté serveur, request texte + voix abstraite, response `audio_url`.
 - [ ] `/transcribe` : Voxtral côté serveur, `multipart/form-data`, max 20 s / 10 MB.
+- [ ] `/identify` : vision Claude côté serveur, `multipart` image + `candidate_ids` → `artwork_id` (fallback AR, M31).
 - [ ] Configurer env vars serveur : Supabase, LLM TBD, ElevenLabs, Voxtral.
 - [ ] Livrer soit vrais endpoints, soit stub HTTP conforme, soit fixtures `curl` pour la première convergence.
 - [ ] Garder LLM **TBD** jusqu'au premier test qualité/latence ; ne pas bloquer l'app dessus.
@@ -56,7 +58,7 @@ date: 2026-06-20
 - [x] Exposer une **API de lecture** fine → **PostgREST auto** (`?select=*,notice(*),hotspot(*)`), lecture validée
 - [x] 🟡 ~~Valider le contrat `f()` avec Siffrein~~ → **figé dans ADR 0014** (validé Siffrein × Adam, 2026-06-20). `docs/megathon/4` = log des décisions.
 - [ ] **Runtime `f()` = Edge Function Supabase**, tient la clé LLM (ADR 0014). **Scope live = génération texte** : hotspots batch à l'entrée de la vue œuvre, chat libre streamé, point placé, conversation depuis hotspot, persona (call caché), follow-ups.
-  - [ ] **Endpoints** : `POST /generate` (4 modes : `hotspot`/`ask`/`persona`/`followups`) ; `POST /speak` (texte→audio) ; `POST /transcribe` (voix→texte).
+  - [ ] **Endpoints** : `POST /generate` (4 modes : `hotspot`/`ask`/`persona`/`followups`) ; `POST /speak` (texte→audio) ; `POST /transcribe` (voix→texte) ; `POST /identify` (image→artwork_id, fallback vision).
   - [ ] 🟡 **Choisir le modèle LLM** — critères : **coût / time-to-first-token / qualité FR & multilingue / fidélité au grounding / résidence UE**. Pas fixé. **Mini-éval** : 3 notices phares × 3 candidats (modèle open via **Nebius** = cloud d'inférence open-weights EU, crédits kit · Mistral · Claude API en référence). **Fallback** = Claude API payante (M32).
 - [ ] **Edge function `POST /transcribe`** : audio → texte (Voxtral), clé STT serveur (M33)
 - [ ] **Surface TTS serveur `POST /speak`** : texte généré → `audio_url` jouable via ElevenLabs côté serveur ; l'app garde seulement les contrôles lecture/voix/vitesse/ton.

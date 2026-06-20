@@ -21,7 +21,8 @@ App RN  ──lecture──────→  Supabase (PostgREST nu, clé anon)
    │
    ├──/generate──────→  Edge Function  ──→  Supabase (relit notices) → LLM
    ├──/speak (texte)─→  Edge Function  ──→  TTS (ElevenLabs)  → audio_url
-   └──/transcribe────→  Edge Function  ──→  STT (Voxtral)     → texte
+   ├──/transcribe────→  Edge Function  ──→  STT (Voxtral)     → texte
+   └──/identify (img)→  Edge Function  ──→  Vision (Claude)   → artwork_id
 
    (clés LLM/STT/TTS toutes server-side ; l'app ne parle à aucun provider en direct)
 
@@ -44,6 +45,7 @@ Trois edge functions, clés LLM/STT/TTS **toutes serveur**, le client envoie des
 | `POST /generate` | texte. 4 `mode` : `hotspot` (batch JSON) · `ask` (SSE) · `persona` (JSON) · `followups` (JSON) |
 | `POST /speak` | texte → `audio_url` (TTS ElevenLabs serveur) |
 | `POST /transcribe` | audio → texte (STT Voxtral serveur, multipart) |
+| `POST /identify` | image → `artwork_id` (fallback vision Claude si l'AR échoue, multipart) |
 
 - **`hotspot`** = batch des N hotspots à l'entrée de l'œuvre, perso profil/langue + `history`
   (influence **œuvre-à-œuvre**). Tap = zéro LLM, lit le texte prêt, fallback `narration_text` à 3 s.
