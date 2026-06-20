@@ -157,14 +157,13 @@
         <span id="hsTitle" class="response-title muted">Sélectionne une œuvre…</span>
         <div class="response-actions">
           <button class="btn-ghost btn-sm" onclick="regenerateCurrent()" title="Régénérer (efface le cache)">↺</button>
-          <button class="btn-ghost btn-sm" onclick="copyText('hsText')" title="Copier le texte">⎘</button>
-          <button class="btn-ghost btn-sm" onclick="speak(window._lastText)">🔊</button>
-          <button class="btn-ghost btn-sm" onclick="loadFollowups(window._lastHotspot)">Follow-ups</button>
+          <button class="btn-ghost btn-sm" onclick="copyText('hsText')" title="Copier">⎘</button>
           <button class="btn-ghost btn-sm" onclick="openOverview()" title="Vue d'ensemble">✦</button>
         </div>
       </div>
       <pre id="hsText" class="response-text"></pre>
       <div id="hsSrc" class="sources"></div>
+      <button class="btn-speak" onclick="speak(window._lastText)">🔊 Lire à voix haute</button>
     </div>
 
     <div class="ask-row">
@@ -181,6 +180,7 @@
       </div>
       <pre id="answer" class="response-text"></pre>
       <div id="answerSrc" class="sources"></div>
+      <button class="btn-speak" onclick="speak(window._lastText)">🔊 Lire à voix haute</button>
     </div>
 
     <div id="followupsWrap" style="display:none">
@@ -194,6 +194,11 @@
 
   <!-- ═══ RIGHT — session + debug ═══ -->
   <aside class="col col-right">
+
+    <section>
+      <h2>Grounding <span class="muted" style="font-size:10px;text-transform:none;letter-spacing:0">— données brutes Supabase</span></h2>
+      <div id="grounding" class="muted small">Sélectionne une œuvre.</div>
+    </section>
 
     <section>
       <div class="section-header">

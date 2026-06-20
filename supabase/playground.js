@@ -90,7 +90,7 @@ async function gen(body, label) {
 
 async function loadArtworks() {
   try {
-    const url = `${base()}/rest/v1/artwork?select=id,object_number,title_en,title_nl,image_url,hotspot(id,title,x,y)&ref_image_url=not.is.null&order=object_number`;
+    const url = `${base()}/rest/v1/artwork?select=id,object_number,title_en,title_nl,image_url,hotspot(id,title,narration_text,x,y)&ref_image_url=not.is.null&order=object_number`;
     const r = await fetch(url, { headers: { apikey: $('key').value, Authorization: `Bearer ${$('key').value}` } });
     window._artworks = await r.json();
     $('artwork').innerHTML = window._artworks.map((a, i) =>
@@ -133,6 +133,7 @@ function renderArtwork() {
     ${dots}${ovDot}
   </div>`;
   $('sw').onclick = placePoint;
+  fetchNotices(a.id);  // load notices for grounding panel
 
   // Reset response panel
   $('hsTitle').textContent = '✦ Vue d\'ensemble';
@@ -194,6 +195,56 @@ function showHotspotResult(title, text, sources) {
   window._lastText = text;
 }
 
+// ─── Grounding (raw Supabase data) ───────────────────────────────────────────
+
+let currentNotices = [];
+
+async function fetchNotices(artworkId) {
+  try {
+    const url = `${base()}/rest/v1/notice?artwork_id=eq.${artworkId}&select=source,lang,text,groundedness&order=source`;
+    const r = await fetch(url, { headers: { apikey: $('key').value, Authorization: `Bearer ${$('key').value}` } });
+    currentNotices = await r.json();
+    renderGrounding(null);
+  } catch {
+    currentNotices = [];
+  }
+}
+
+// hotspotId = null → show overview grounding (no seed); uuid → show hotspot seed too
+function renderGrounding(hotspotId) {
+  const el = $('grounding');
+  if (!currentNotices.length && !hotspotId) {
+    el.innerHTML = '<span class="muted small">Aucune notice disponible.</span>';
+    return;
+  }
+
+  const noticeCards = currentNotices.map(n => {
+    const preview = n.text.length > 280 ? n.text.slice(0, 280) + '…' : n.text;
+    const badgeClass = n.groundedness === 'ok' ? 'ok' : 'review';
+    const badgeLabel = n.groundedness === 'ok' ? '✓ ok' : '⚠ review';
+    return `<div class="notice-card">
+      <div class="notice-meta">
+        <span class="notice-badge ${badgeClass}">${badgeLabel}</span>
+        <span class="muted">${n.source} / ${n.lang}</span>
+      </div>
+      <div class="notice-text">${preview}</div>
+    </div>`;
+  }).join('');
+
+  let seedCard = '';
+  if (hotspotId) {
+    const h = (currentArtwork?.hotspot || []).find(x => x.id === hotspotId);
+    if (h?.narration_text) {
+      seedCard = `<div class="seed-card">
+        <div class="seed-label">✦ Seed hotspot — "${h.title}"</div>
+        ${h.narration_text}
+      </div>`;
+    }
+  }
+
+  el.innerHTML = seedCard + noticeCards;
+}
+
 // ─── Actions ──────────────────────────────────────────────────────────────────
 
 async function openArtwork() {
@@ -233,6 +284,8 @@ async function openOverview() {
     const d = await gen({ mode: 'overview', artwork_id: a.id, lang: lang(), profile: profile(), steering: steering() }, 'overview');
     overviewItem = d;
     showHotspotResult('✦ Vue d\'ensemble', d.text, d.sources);
+    renderGrounding(null);
+    loadFollowups(null);  // auto follow-ups
   } catch (e) {
     $('hsText').textContent = 'Erreur : ' + e.message;
   }
@@ -260,6 +313,8 @@ async function openHotspot(id) {
     }
   }
   showHotspotResult(h.title || id, it.text ?? it.message ?? '', it.sources);
+  renderGrounding(id);
+  loadFollowups(id);  // auto follow-ups
 }
 
 // Regenerate the currently active item (clears cache first)
@@ -331,6 +386,7 @@ async function ask() {
     );
     renderHistory();
     window._lastText = full;
+    loadFollowups(window._lastHotspot);  // auto follow-ups after ask
   } catch (e) {
     status(e.message, 'bad');
   }
