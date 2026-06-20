@@ -5,6 +5,7 @@
     "scheme": "laszlo",
     "version": "0.1.0",
     "orientation": "portrait",
+    "newArchEnabled": true,
     "userInterfaceStyle": "automatic",
     "assetBundlePatterns": [
       "**/*"
@@ -33,7 +34,9 @@
             "microphoneUsagePermission": "Laszlo uses the microphone for voice questions."
           }
         }
-      ]
+      ],
+      "expo-audio",
+      "expo-font"
     ]
   }
 }

@@ -4,6 +4,7 @@ Usage :
     python -m pipeline.main harvest   --set 26121 --limit 30
     python -m pipeline.main enrich    --limit 30
     python -m pipeline.main refine    --limit 30
+    python -m pipeline.main artist-qids --limit 30
     python -m pipeline.main transform --limit 30
     python -m pipeline.main load      --limit 30
     python -m pipeline.main all       --set 26121
@@ -13,7 +14,7 @@ from __future__ import annotations
 
 import argparse
 
-from . import refine, transform
+from . import backfill_artists, refine, transform
 from .enrich import run as enrich_run
 from .rijks import oai
 
@@ -26,7 +27,7 @@ def _build_and_load(limit):
 def main() -> None:
     parser = argparse.ArgumentParser(prog="pipeline")
     parser.add_argument("command",
-                        choices=["harvest", "enrich", "refine", "transform", "load", "all"])
+                        choices=["harvest", "enrich", "refine", "artist-qids", "transform", "load", "all"])
     parser.add_argument("--set", dest="set_spec", default=None)
     parser.add_argument("--limit", type=int, default=None)
     args = parser.parse_args()
@@ -37,6 +38,8 @@ def main() -> None:
         enrich_run.run(limit=args.limit)
     elif args.command == "refine":
         refine.run(limit=args.limit)
+    elif args.command == "artist-qids":
+        backfill_artists.run(limit=args.limit)
     elif args.command == "transform":
         transform.build(limit=args.limit)
     elif args.command == "load":
@@ -45,6 +48,7 @@ def main() -> None:
         oai.harvest(set_spec=args.set_spec, limit=args.limit)
         enrich_run.run(limit=args.limit)
         refine.run(limit=args.limit)
+        backfill_artists.run(limit=args.limit)
         _build_and_load(args.limit)
 
 
