@@ -109,6 +109,23 @@ data: {"delta": "..."}                       // tokens streamés
 data: {"done": true, "sources": ["rijks","wikipedia"]}   // provenance = story anti-hallucination
 ```
 
+## Modèle LLM & STT (détail providers — swappables, ADR 0012)
+
+- **Modèle de `f()`** = **modèle open hébergé sur Nebius** (crédits builder kit 100 $),
+  **bascule Claude API payant** si la qualité est insuffisante. ⚠ Un **abonnement
+  Claude.ai ≠ clé API** : il n'y a pas de Claude « gratuit via abonnement ». Le port LLM
+  reste swappable, le contrat `/generate` ne bouge pas selon le modèle.
+- **Grounding par mode** : `hotspot` → notice `rijks` + `narration_text` écrit main (riche)
+  → un petit modèle suffit. `ask` (chat) → a besoin de **Wikipedia**, mais les notices
+  wikipedia sont aujourd'hui un **dump brut** (trop gros) → **à trimmer** (cf. TODO) ou
+  passer sur un modèle plus fort.
+- **STT = Voxtral**, cloud, derrière une **2e edge function `POST /transcribe`**
+  (audio → texte ; requête courte, pas de socket long → l'Edge Function gère). Garde la clé
+  STT serveur. STT on-device écarté (plus faible ; et le modèle de génération ne prend pas
+  l'audio). Le STT **transcrit seulement**, il n'est pas le cerveau.
+- **TTS** = déféré (M15). Principe : le **texte généré est l'artefact stable** ; changer
+  voix/vitesse à la volée = **re-synthétiser** ce même texte, l'audio est jetable.
+
 ## Topologie résultante
 
 **Chemin de requête (3) :** App RN → **Runtime (Edge Function)** → Supabase

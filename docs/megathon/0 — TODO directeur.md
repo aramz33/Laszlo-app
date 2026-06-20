@@ -15,6 +15,9 @@ date: 2026-06-20
   - [ ] Générer les types partagés (`/shared`) pour l'app mobile
 - [x] Exposer une **API de lecture** fine → **PostgREST auto** (`?select=*,notice(*),hotspot(*)`), lecture validée
 - [ ] **Runtime `f()` = Edge Function Supabase** : `POST /generate` (notice+profil+langue → texte streamé), tient la clé LLM (ADR 0014)
+  - [ ] 🟡 **Valider le modèle sur Nebius** (crédits kit) → sinon clé Claude API payante (M32)
+- [ ] **Edge function `POST /transcribe`** : audio → texte (Voxtral), clé STT serveur (M33)
+- [ ] 🟡 **Ajouter `location` au schéma** (musée + galerie, pour charger l'AR par salle) — **hardcode les phares** pour la démo (A3)
 - [ ] **Mollie serveur** : hosted checkout + webhook « débloquer premium »
 - [ ] Brancher clé Mollie **test** (dev) puis **live** (stand)
 - [x] Storage Supabase pour images HD + reference images AR (phares ; bucket public `artworks`)
@@ -26,12 +29,17 @@ date: 2026-06-20
 - [ ] 🟡 Décider : PWA sur **Base44** (track Prompt to Paid) vs **Vercel** libre
 - [ ] Vérifier la **porte toolchain mobile** : Mac + Xcode + Android Studio/EAS + iPhone physique + Android physique
 - [x] Scaffold app mobile Expo React Native + ViroReact — `/app-mobile`
+- [ ] **Recâbler l'app sur Supabase** (l'impl actuelle est jetable : importe un `demoArtworks` fantôme + client Supabase inutilisé) : fetch `artwork?select=*,hotspot(*)&ref_image_url=not.is.null`, mapping → domaine, charger **par salle** (phares pour la démo)
+- [ ] **Brancher la génération `f()`** sur tap hotspot (ADR 0014, `/generate` streamé). **Stopgap tant que `f()` pas prête** : afficher `narration_text` brut (= substrat, pas le texte final), à remplacer par le texte généré
 - [ ] **Vue AR** : détection œuvre ViroReact (tracking targets) → **point bleu ancré**
 - [ ] Tap point → **vue détail 2D** de l'œuvre
 - [ ] **Hotspots** sur la vue détail (points pré-définis depuis la DB)
 - [ ] **Lecteur audio** des hotspots + contrôles **vitesse / ton / voix** (changeables à la volée) — *audio généré **live** au runtime (M24), pas de pré-rendu*
 - [ ] **Chat libre** : poser des questions + taper hors hotspots → réponse vocale/texte
+- [ ] **Fallback identification par modèle de vision** : capture du flux → vision (Claude) identifie l'œuvre → positionnement en **overlay 2D** (M31)
 - [ ] **Fallback sélection manuelle / QR / overlay 2D** prêt (même backend + même vue détail)
+- [ ] **Onboarding profil** : 3 questions skippables **ludiques** → axes neutres (allure/niveau/intérêt), `AsyncStorage` (C1) — *wording = design*
+- [ ] **Picker langue** visible, init sur la locale (C2)
 - [ ] UI **paywall Mollie** dans l'app
 - [ ] (designer) Identité « doux sur le regard » + transitions + **écran « scale »** (N œuvres)
 
@@ -57,7 +65,7 @@ date: 2026-06-20
 
 ### Phares — reste (focus démo profonde)
 
-- [ ] **Notices Wikipedia phares `review → ok`** : aujourd'hui = **dump brut de l'article entier**, à trimmer en substrat propre (4 notices : SK-C-5 + SK-A-2344 × en/nl) — *jugement à froid*
+- [ ] **Notices Wikipedia phares `review → ok`** : aujourd'hui = **dump brut de l'article entier**, à trimmer en substrat propre (4 notices : SK-C-5 + SK-A-2344 × en/nl) — *jugement à froid*. **Bloque le grounding du chat (`ask`)** : trop gros pour un petit modèle → **point à résoudre demain (D3)**
 - [ ] **Polir les hotspots phares** : narration provisoire correcte, mais **coords `x,y` à vérifier sur l'image réelle** (besoin de voir l'œuvre) ; ajouter des hotspots si la démo l'exige
 - [ ] *(option scale, hors démo)* enrichissement déterministe à **batcher en 1 seul run prod, avec Adam** : mouvement via créateur (P170→P135, **+184 œuvres** mesurées), parser dims NL, assouplir match Q-id
 
