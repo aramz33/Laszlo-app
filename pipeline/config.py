@@ -31,6 +31,11 @@ SUPABASE_BUCKET = os.environ.get("SUPABASE_BUCKET", "artworks")
 CONTACT_EMAIL = os.environ.get("CONTACT_EMAIL", "contact@example.com")
 USER_AGENT = f"laszlo-megathon/0.1 ({CONTACT_EMAIL})"
 
+# Scaleway LLM / vision (shared with the edge functions via root .env)
+SCW_BASE_URL = os.environ.get("SCW_BASE_URL", "")
+SCW_API_KEY = os.environ.get("SCW_API_KEY", "")
+SCW_VISION_MODEL = os.environ.get("SCW_VISION_MODEL", "pixtral-12b-2409")
+
 STORED_LANGS = ("en", "nl")
 ARKIT_REF_MAX_PX = 1600
 HTTP_TIMEOUT = 60
