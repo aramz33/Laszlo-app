@@ -1,6 +1,9 @@
 // POST /functions/v1/generate — Laszlo text runtime (ADR 0014).
 //
-// One endpoint, four modes:
+// One endpoint, five modes:
+//   - overview  : JSON. Opening intro for the whole artwork shown when the visitor
+//                 enters the artwork view (the "✦ L'œuvre" virtual hotspot). Fired once
+//                 alongside the hotspot batch; displayed immediately on arrival.
 //   - hotspot   : batch JSON. Personalized text for the N hotspots of an artwork,
 //                 requested when the visitor opens the artwork (never on tap).
 //   - ask       : SSE stream. Free-form Q&A, placed-point question, or hotspot follow-up.
@@ -27,10 +30,12 @@ import {
   type HotspotRow,
   type NoticeRow,
   noticesToSources,
+  overviewPrompt,
   parseFollowups,
   personaPrompt,
   stubFollowups,
   stubHotspotText,
+  stubOverviewText,
   stubPersona,
   systemPrompt,
 } from "./lib.ts";
@@ -129,6 +134,22 @@ export async function handle(
   const sources = noticesToSources(notices);
   const grounding = buildGrounding(notices);
   const system = systemPrompt(lang, profile, steering);
+
+  // --- overview: single JSON call that introduces the whole artwork. Fired once when
+  //     the visitor enters the artwork view alongside the hotspot batch. The result is
+  //     the "✦ L'œuvre" virtual hotspot shown by default in the app.
+  if (mode === "overview") {
+    let text: string;
+    try {
+      text = await deps.complete([
+        { role: "system", content: system },
+        { role: "user", content: overviewPrompt(grounding, body.history_summary) },
+      ]);
+    } catch {
+      text = stubOverviewText(lang); // fallback: deterministic placeholder
+    }
+    return jsonResponse({ type: "done", request_id, text, sources });
+  }
 
   // --- hotspot: one batch request returns the text for every requested hotspot.
   if (mode === "hotspot") {

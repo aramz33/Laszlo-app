@@ -48,6 +48,13 @@
   .dot { position:absolute; width:22px; height:22px; margin:-11px 0 0 -11px; border-radius:50%; background:rgba(47,109,240,.85); border:2px solid #fff; cursor:pointer; box-shadow:0 0 0 4px rgba(47,109,240,.25); transition:transform .1s; }
   .dot:hover { transform:scale(1.25); }
   .dot.active { background:var(--warn); box-shadow:0 0 0 5px rgba(255,207,107,.3); }
+  /* Overview virtual hotspot — star shape, corner-anchored, always visible */
+  .dot-overview { position:absolute; left:10px; bottom:10px; margin:0; width:28px; height:28px;
+    border-radius:50%; background:rgba(127,91,255,.9); border:2px solid #fff; cursor:pointer;
+    box-shadow:0 0 0 4px rgba(127,91,255,.25); display:flex; align-items:center; justify-content:center;
+    font-size:14px; line-height:1; transition:transform .1s; color:#fff; font-weight:900; }
+  .dot-overview:hover { transform:scale(1.2); }
+  .dot-overview.active { background:var(--warn); box-shadow:0 0 0 5px rgba(255,207,107,.3); }
   .point { position:absolute; width:14px; height:14px; margin:-7px 0 0 -7px; border-radius:50%; background:var(--warn); border:2px solid #111; pointer-events:none; }
   .scenario { text-align:left; width:100%; margin-bottom:6px; display:block; }
   details { margin:6px 0; }
@@ -121,9 +128,10 @@
   <details>
     <summary>❓ Aide / comment ça marche</summary>
     <div class="help">
-      <b>Flux app</b> : onboarding→persona · ouvrir œuvre→hotspots (batch) · tap hotspot→texte+voix+follow-ups · question (texte/voix)→ask streamé · AR échoue→identify.<br><br>
-      <b>Modes /generate</b> : <code>hotspot</code> (batch JSON), <code>ask</code> (SSE), <code>persona</code>, <code>followups</code>.<br>
-      <b>Grounding</b> : le serveur relit les notices ; tu n'envoies que des IDs. Si l'IA invente un chiffre absent des notices = hallucination (cf. scénario appât).<br>
+      <b>Flux app</b> : onboarding→persona · ouvrir œuvre→<b>overview (✦)</b> + hotspots (batch, parallèle) · tap hotspot→texte+voix+follow-ups · re-tap ✦→retour vue d’ensemble · question (texte/voix)→ask streamé · AR échoue→identify.<br><br>
+      <b>Modes /generate</b> : <code>overview</code> (JSON, intro œuvre entière), <code>hotspot</code> (batch JSON), <code>ask</code> (SSE), <code>persona</code>, <code>followups</code>.<br>
+      <b>Hotspot ✦ virtuel</b> : n’est pas en DB, généré par <code>mode=overview</code>. Coin bas-gauche, violet, ouvert par défaut à chaque œuvre. Re-clic = retour à la présentation générale (sans re-générer).<br>
+      <b>Grounding</b> : le serveur relit les notices ; tu n’envoies que des IDs. Si l’IA invente un chiffre absent des notices = hallucination (cf. scénario appât).<br>
       <b>Astuce</b> : active “Debug” (à droite) pour voir le JSON brut + copier en curl.
     </div>
   </details>
@@ -138,8 +146,8 @@
   <div id="stage" style="margin:8px 0"></div>
 
   <h2>💬 Hotspot / réponse</h2>
-  <div class="card"><div id="hsTitle" class="muted">Clique un point bleu sur l'œuvre — il se génère au clic.</div><pre id="hsText" style="margin-top:6px"></pre><div id="hsSrc" class="sources"></div>
-    <div class="row" style="margin-top:8px"><button onclick="speak(window._lastText)">🔊 Lire</button><button onclick="loadFollowups(window._lastHotspot)">Follow-ups</button></div>
+  <div class="card"><div id="hsTitle" class="muted">L'œuvre s'ouvre sur la présentation générale (✦) — clique un point bleu pour un détail.</div><pre id="hsText" style="margin-top:6px"></pre><div id="hsSrc" class="sources"></div>
+    <div class="row" style="margin-top:8px"><button onclick="speak(window._lastText)">🔊 Lire</button><button onclick="loadFollowups(window._lastHotspot)">Follow-ups</button><button class="ghost" onclick="openOverview()" title="Revenir à la présentation générale">✦ Vue d'ensemble</button></div>
   </div>
 
   <h2>❔ Question</h2>
@@ -230,11 +238,20 @@ async function loadArtworks() {
 }
 function renderArtwork() {
   const a = window._artworks?.[$("artwork").value]; if (!a) return;
-  currentArtwork = a; point = null; $("pointlbl").textContent = "point: aucun";
+  currentArtwork = a; point = null; hotspotItems = {}; overviewItem = null;
+  $("pointlbl").textContent = "point: aucun";
   $("stagemeta").textContent = `${a.object_number} · ${(a.hotspot||[]).length} hotspots`;
+  // Virtual overview dot anchored to the bottom-left corner of the image (position:absolute
+  // on the stagewrap, left/bottom in px — not percentage — so it doesn't drift with image size).
+  const overviewDot = `<div class="dot-overview active" id="dot-ov" title="✦ Vue d'ensemble (présentation générale)" onclick="event.stopPropagation();openOverview()">✦</div>`;
   $("stage").innerHTML = `<div class="stagewrap" id="sw"><img src="${a.image_url}" onload="placeDots()" />` +
-    (a.hotspot||[]).map(h => `<div class="dot" data-id="${h.id}" style="left:${h.x*100}%;top:${h.y*100}%" title="${h.title}" onclick="event.stopPropagation();openHotspot('${h.id}')"></div>`).join("") + `</div>`;
+    (a.hotspot||[]).map(h => `<div class="dot" data-id="${h.id}" style="left:${h.x*100}%;top:${h.y*100}%" title="${h.title}" onclick="event.stopPropagation();openHotspot('${h.id}')"></div>`).join("") +
+    overviewDot + `</div>`;
   $("sw").onclick = placePoint;
+  // Reset hotspot panel to overview placeholder; auto-generate overview on render.
+  $("hsTitle").innerHTML = '✦ <em>Vue d\'ensemble</em>';
+  $("hsText").textContent = "génération…"; $("hsSrc").textContent = "";
+  openOverview();
 }
 function placeDots(){ /* dots are %-positioned; nothing to do, kept for onload hook */ }
 function placePoint(e) {
@@ -258,23 +275,55 @@ function buildPersona() {
     .catch(e => status(e.message, "bad"));
 }
 
-let hotspotItems = {};
+let hotspotItems = {}, overviewItem = null;
+
+// Open all hotspots in batch AND the overview in parallel, then show overview by default.
 async function openArtwork() {
   const a = currentArtwork; if (!a) return;
   const ids = (a.hotspot || []).map(h => h.id);
   $("stagemeta").textContent = `${a.object_number} · génération…`;
   try {
-    const d = await gen({ mode: "hotspot", artwork_id: a.id, hotspot_ids: ids, lang: lang(), profile: profile(), steering: steering() }, "hotspot batch");
-    hotspotItems = {}; d.items.forEach((it, i) => hotspotItems[ids[i]] = it); // key by requested id (order preserved)
+    // Fire hotspot batch and overview in parallel for speed.
+    const [d] = await Promise.all([
+      gen({ mode: "hotspot", artwork_id: a.id, hotspot_ids: ids, lang: lang(), profile: profile(), steering: steering() }, "hotspot batch"),
+      openOverview(), // shows result immediately as it resolves first (smaller payload)
+    ]);
+    hotspotItems = {}; d.items.forEach((it, i) => hotspotItems[ids[i]] = it);
     $("stagemeta").textContent = `${a.object_number} · ${d.items.length} hotspots prêts — clique un point`;
     status("hotspots générés", "good");
   } catch (e) { status(e.message, "bad"); }
+}
+
+// Generate (or re-display) the overview intro for the current artwork.
+async function openOverview() {
+  const a = currentArtwork; if (!a) return;
+  // Mark the overview dot active, deactivate real hotspot dots.
+  $("sw")?.querySelectorAll(".dot").forEach(d => d.classList.remove("active"));
+  $("sw")?.querySelector(".dot-overview")?.classList.add("active");
+  window._lastHotspot = null;
+  $("hsTitle").innerHTML = '✦ <em>Vue d\'ensemble</em>';
+  if (overviewItem) {
+    // Already cached — display immediately without another round-trip.
+    $("hsText").textContent = overviewItem.text;
+    $("hsSrc").textContent = "sources: " + (overviewItem.sources||[]).map(s=>`${s.source}/${s.lang}`).join(", ");
+    window._lastText = overviewItem.text;
+    return;
+  }
+  $("hsText").textContent = "génération…"; $("hsSrc").textContent = "";
+  try {
+    const d = await gen({ mode: "overview", artwork_id: a.id, lang: lang(), profile: profile(), steering: steering() }, "overview");
+    overviewItem = d;
+    $("hsText").textContent = d.text;
+    $("hsSrc").textContent = "sources: " + (d.sources||[]).map(s=>`${s.source}/${s.lang}`).join(", ");
+    window._lastText = d.text;
+  } catch (e) { $("hsText").textContent = "erreur : " + e.message; }
 }
 
 // Click a dot -> show its text. Generates on demand if not already cached (so you can
 // click a hotspot without pressing "Tout générer" first).
 async function openHotspot(id) {
   $("sw").querySelectorAll(".dot").forEach(d => d.classList.toggle("active", d.dataset.id === id));
+  $("sw")?.querySelector(".dot-overview")?.classList.remove("active"); // deactivate overview dot
   const h = (currentArtwork.hotspot || []).find(x => x.id === id) || {};
   $("hsTitle").textContent = h.title || id;
   let it = hotspotItems[id];
@@ -384,17 +433,19 @@ function selectObj(obj){ const i=(window._artworks||[]).findIndex(a=>a.object_nu
 const sleep = (ms)=>new Promise(r=>setTimeout(r,ms));
 
 const SCENARIOS = [
-  { name:"👀 Débutant pressé (FR)", help:"Profil court/découverte. Les hotspots doivent être COURTS et simples.",
+  { name:"✦ Vue d'ensemble (overview)", help:"Ouvre la Ronde de nuit et affiche la présentation générale (mode=overview). Doit apparaître dans le panneau ✦ avant même les hotspots.",
+    run: async()=>{ setLang("fr"); setProfile("moyen","amateur",["stories"]); selectObj("SK-C-5"); await openOverview(); } },
+  { name:"👀 Débutant pressé (FR)", help:"Profil court/découverte — overview + hotspots COURTS et simples.",
     run: async()=>{ setLang("fr"); setProfile("court","decouverte",["technique"]); selectObj("SK-C-5"); await openArtwork(); } },
-  { name:"🎓 Passionné (EN)", help:"long/passionne en anglais — hotspots riches, vocabulaire pointu. Compare avec le scénario débutant.",
+  { name:"🎓 Passionné (EN)", help:"long/passionne en anglais — overview et hotspots riches, vocabulaire pointu. Compare avec le scénario débutant.",
     run: async()=>{ setLang("en"); setProfile("long","passionne",["technique","stories"]); selectObj("SK-C-5"); await openArtwork(); } },
   { name:"🧠 Mémoire inter-œuvres", help:"Ouvre la Laitière, pose une question, puis ouvre la Ronde — la réponse suivante doit tenir compte de la 1ère.",
     run: async()=>{ setLang("fr"); selectObj("SK-A-2344"); await openArtwork(); $("question").value="Qu'est-ce qui rend cette scène intime ?"; await ask(); selectObj("SK-C-5"); await openArtwork(); status("Maintenant pose: 'et par rapport à la scène précédente ?'", "warn"); } },
   { name:"🕳️ Appât hallucination", help:"Demande le prix payé (absent des notices tronquées). Un bon guide doit dire qu'il n'a pas l'info, pas inventer.",
     run: async()=>{ setLang("fr"); selectObj("SK-C-5"); await openArtwork(); $("question").value="Combien Rembrandt a-t-il été payé pour ce tableau ?"; await ask(); } },
-  { name:"🔊 Test voix (1er hotspot)", help:"Génère puis lit le 1er hotspot avec le moteur TTS choisi.",
-    run: async()=>{ selectObj("SK-C-5"); await openArtwork(); const id=(currentArtwork.hotspot||[])[0]?.id; openHotspot(id); await speak(window._lastText); } },
-  { name:"⏱️ Bench latence", help:"Mesure hotspot batch + un ask. Regarde le panneau Latences (vert <1.5s, rouge >4s).",
+  { name:"🔊 Test voix (overview)", help:"Génère l'overview puis le lit avec le moteur TTS choisi.",
+    run: async()=>{ selectObj("SK-C-5"); await openArtwork(); await speak(window._lastText); } },
+  { name:"⏱️ Bench latence", help:"Mesure overview + hotspot batch + un ask. Regarde le panneau Latences (vert <1.5s, rouge >4s).",
     run: async()=>{ selectObj("SK-C-5"); await openArtwork(); $("question").value="Décris la lumière."; await ask(); } },
 ];
 $("scenarios").innerHTML = SCENARIOS.map((s,i)=>`<button class="scenario" title="${s.help}" onclick="runScenario(${i})">${s.name}</button>`).join("");

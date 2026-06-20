@@ -7,9 +7,11 @@ import { assert, assertEquals } from "jsr:@std/assert@1";
 import {
   buildGrounding,
   noticesToSources,
+  overviewPrompt,
   parseFollowups,
   stubFollowups,
   stubHotspotText,
+  stubOverviewText,
   stubPersona,
 } from "./lib.ts";
 
@@ -62,6 +64,22 @@ Deno.test("buildGrounding labels notices by source/lang and caps length", () => 
   }]);
   assert(g.includes("[rijks/en]"));
   assert(g.includes("…")); // long notice was truncated
+});
+
+Deno.test("stubOverviewText contains the lang tag", () => {
+  assert(stubOverviewText("fr").includes("overview"));
+  assert(stubOverviewText("fr").includes("fr"));
+});
+
+Deno.test("overviewPrompt embeds the grounding and the intro instruction", () => {
+  const p = overviewPrompt("FACTS: x");
+  assert(p.includes("FACTS: x"));
+  assert(p.includes("Introduce"));
+});
+
+Deno.test("overviewPrompt prepends history_summary when present", () => {
+  const p = overviewPrompt("FACTS: x", "earlier stuff");
+  assert(p.startsWith("Earlier"));
 });
 
 Deno.test("stubPersona reflects the onboarding selections", () => {

@@ -82,6 +82,14 @@ export function stubPersona(
 }
 
 /**
+ * Overview intro text. Stub returns a placeholder. Real version: a single grounded
+ * LLM call introducing the whole artwork (who, when, why it matters).
+ */
+export function stubOverviewText(lang: string): string {
+  return `[overview ${lang}] An introduction to this artwork.`;
+}
+
+/**
  * Suggested follow-up questions for the current context. Stub returns three fixed
  * questions. Real version: 3 questions derived from the full session history.
  */

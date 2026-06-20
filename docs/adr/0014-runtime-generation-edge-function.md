@@ -81,7 +81,7 @@ parole → [/transcribe] → texte → /generate → texte → [/speak] → audi
 **toutes côté serveur**. Le client envoie des IDs + préférences, **jamais les notices** : le
 runtime relit le grounding (`notice`) server-side.
 
-- `POST /functions/v1/generate` — texte. 4 `mode` : `hotspot`, `ask`, `persona`, `followups`.
+- `POST /functions/v1/generate` — texte. 5 `mode` : `overview`, `hotspot`, `ask`, `persona`, `followups`.
 - `POST /functions/v1/speak` — texte → audio jouable (`audio_url`). TTS server-side.
 - `POST /functions/v1/transcribe` — audio → texte. STT server-side.
 - `POST /functions/v1/identify` — image → `artwork_id` (fallback vision si l'AR échoue). Clé vision server-side.
@@ -96,6 +96,29 @@ runtime relit le grounding (`notice`) server-side.
   = **JSON final** (courts, pas de stream).
 - `profile` = cadrans neutres skippables + `persona_summary` (produit par `mode=persona`) ;
   `steering` = re-steering live (`tone`, `lens` ∈ technique|people|stories|symbols).
+
+### `mode=overview` — intro générale, à l'entrée de la vue œuvre
+
+Génère **une présentation de l'œuvre dans son ensemble** : qui, quand, pourquoi ça compte.
+Lancé **en parallèle** du batch `hotspot` à l'ouverture de la vue détail. Résultat affiché
+immédiatement dans le **hotspot virtuel « ✦ L'œuvre »** (coin bas-gauche de l'image, violet,
+non stocké en DB). Tap sur ✦ = retour à la présentation générale depuis n'importe quel hotspot.
+
+```jsonc
+// Request : idem hotspot sans hotspot_ids[], mode = "overview"
+{
+  "request_id": "uuid", "artwork_id": "uuid", "mode": "overview",
+  "lang": "fr|en|nl",
+  "profile": { ... },
+  "steering": { ... },
+  "history_summary": "string | null"
+}
+// Response
+{ "type": "done", "request_id": "uuid", "text": "string", "sources": [ ... ] }
+```
+
+**Différence avec `mode=ask`** : overview ne prend pas de `question` ni d'`history` — c'est
+un monologue d'ouverture, groundé sur toutes les notices, pas une réponse à une interaction.
 
 ### `mode=hotspot` — batch, à l'entrée de la vue œuvre
 

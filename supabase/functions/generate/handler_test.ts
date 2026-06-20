@@ -83,6 +83,29 @@ Deno.test("grounded mode without artwork_id -> 400", async () => {
   );
 });
 
+// --- overview ---------------------------------------------------------------
+
+Deno.test("overview returns the model intro with sources", async () => {
+  const res = await handle(
+    post({ mode: "overview", artwork_id: "a" }),
+    deps(),
+  );
+  const body = await res.json();
+  assertEquals(body.type, "done");
+  assertEquals(body.text, "LLM TEXT");
+  assertEquals(body.sources.length, 1);
+});
+
+Deno.test("overview falls back to a stub when the model fails", async () => {
+  const res = await handle(
+    post({ mode: "overview", artwork_id: "a", lang: "fr" }),
+    deps({ complete: failing }),
+  );
+  const body = await res.json();
+  assertEquals(body.type, "done");
+  assert(body.text.includes("overview"), body.text);
+});
+
 // --- persona ----------------------------------------------------------------
 
 Deno.test("persona returns the model summary", async () => {
