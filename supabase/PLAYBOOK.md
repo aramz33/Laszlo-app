@@ -44,14 +44,18 @@ export MISTRAL_API_KEY=$(grep -E '^MISTRAL_API_KEY=' .env | cut -d= -f2-)       
 deno run --allow-net --allow-env supabase/functions/generate/index.ts
 ```
 
-### Test layout (45 tests, all offline)
+### Test layout (83 tests, all offline)
 
 - `<fn>/stub_test.ts` — pure helpers in `lib.ts` (prompts, parsing, chunking,
-  mapping).
+  mapping). Covers: `systemPrompt` (lang/allure/niveau/steering/persona),
+  `hotspotPrompt`, `overviewPrompt`, `askPrompt` (with point / hotspot context),
+  `followupsPrompt`, `capText`, `buildGrounding`, `candidateLines` (null fields),
+  `visionPrompt`, `resolveMatch`, `toTranscript`, `chunkText`, `googleTtsUrl`, etc.
 - `<fn>/handler_test.ts` — behavior of the HTTP handler via `handle(req, deps)`:
   a `Request` in, a `Response` out, with the external boundaries (DB / LLM / STT
   / vision / TTS engines / upload) **injected as fakes**. Covers routing,
-  validation, every mode, fallbacks, error paths.
+  validation, every mode, fallbacks, partial failures (mixed hotspot batch, mid-
+  stream error → done with partial text), upload failure, response contract shape.
 - `bruno/` — real HTTP against the deployed functions (live providers).
 
 To test a new function the same way: extract

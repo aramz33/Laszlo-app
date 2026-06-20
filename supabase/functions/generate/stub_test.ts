@@ -5,7 +5,11 @@
 
 import { assert, assertEquals } from "jsr:@std/assert@1";
 import {
+  askPrompt,
   buildGrounding,
+  capText,
+  followupsPrompt,
+  hotspotPrompt,
   noticesToSources,
   overviewPrompt,
   parseFollowups,
@@ -13,6 +17,7 @@ import {
   stubHotspotText,
   stubOverviewText,
   stubPersona,
+  systemPrompt,
 } from "./lib.ts";
 
 Deno.test("noticesToSources maps rows to {source, lang, notice_id}", () => {
@@ -90,4 +95,107 @@ Deno.test("stubPersona reflects the onboarding selections", () => {
       "fr",
     ).includes("technique"),
   );
+});
+
+// --- capText ----------------------------------------------------------------
+
+Deno.test("capText truncates long text and appends an ellipsis", () => {
+  const long = "a".repeat(4000);
+  const out = capText(long);
+  assert(out.length < long.length);
+  assert(out.endsWith("…"));
+});
+
+Deno.test("capText leaves short text unchanged", () => {
+  assertEquals(capText("short"), "short");
+});
+
+// --- systemPrompt -----------------------------------------------------------
+
+Deno.test("systemPrompt instructs the model to answer in the requested language", () => {
+  const s = systemPrompt("nl", undefined, undefined);
+  assert(s.includes("nl"), "language instruction missing");
+});
+
+Deno.test("systemPrompt maps allure=court to the short length hint", () => {
+  const s = systemPrompt("fr", { allure: "court" }, undefined);
+  assert(s.includes("1–2"), "expected short-length hint");
+});
+
+Deno.test("systemPrompt maps allure=long to the rich length hint", () => {
+  const s = systemPrompt("fr", { allure: "long" }, undefined);
+  assert(s.includes("4–6"), "expected long-length hint");
+});
+
+Deno.test("systemPrompt maps niveau=decouverte to plain-words register", () => {
+  const s = systemPrompt("fr", { niveau: "decouverte" }, undefined);
+  assert(s.toLowerCase().includes("plain"), "expected plain-words register");
+});
+
+Deno.test("systemPrompt maps niveau=passionne to precise vocabulary register", () => {
+  const s = systemPrompt("fr", { niveau: "passionne" }, undefined);
+  assert(s.toLowerCase().includes("precise"), "expected precise register");
+});
+
+Deno.test("systemPrompt injects steering.lens when provided", () => {
+  const s = systemPrompt("fr", undefined, { lens: "symbols", tone: null });
+  assert(s.includes("symbols"), "expected lens in prompt");
+});
+
+Deno.test("systemPrompt injects steering.tone when provided", () => {
+  const s = systemPrompt("fr", undefined, { lens: null, tone: "warm" });
+  assert(s.includes("warm"), "expected tone in prompt");
+});
+
+Deno.test("systemPrompt injects persona_summary when present in profile", () => {
+  const s = systemPrompt("fr", { persona_summary: "curious beginner" }, undefined);
+  assert(s.includes("curious beginner"), "expected persona_summary");
+});
+
+// --- hotspotPrompt ----------------------------------------------------------
+
+Deno.test("hotspotPrompt embeds the grounding and the seed", () => {
+  const h = { id: "h", title: "Le geste", aspect: "technique", narration_text: "seed text" };
+  const p = hotspotPrompt(h, "FACTS: x");
+  assert(p.includes("FACTS: x"), "grounding missing");
+  assert(p.includes("seed text"), "seed missing");
+  assert(p.includes("Le geste"), "title missing");
+});
+
+Deno.test("hotspotPrompt prepends history_summary when present", () => {
+  const h = { id: "h", title: "T", aspect: "A", narration_text: "s" };
+  const p = hotspotPrompt(h, "FACTS: x", "earlier visit context");
+  assert(p.startsWith("Earlier"), "history_summary not prepended");
+});
+
+// --- askPrompt --------------------------------------------------------------
+
+Deno.test("askPrompt embeds the grounding and the question", () => {
+  const p = askPrompt("What technique?", "FACTS: y");
+  assert(p.includes("FACTS: y"));
+  assert(p.includes("What technique?"));
+});
+
+Deno.test("askPrompt adds point context when a coordinate is provided", () => {
+  const p = askPrompt("What is that?", "FACTS: y", { point: { x: 0.5, y: 0.3 } });
+  assert(p.includes("0.5") && p.includes("0.3"), "point coordinates missing");
+});
+
+Deno.test("askPrompt adds hotspot context when hotspot_id is provided", () => {
+  const p = askPrompt("Tell me more", "FACTS: y", { hotspotId: "h1" });
+  assert(p.toLowerCase().includes("context"), "hotspot context hint missing");
+});
+
+// --- followupsPrompt --------------------------------------------------------
+
+Deno.test("followupsPrompt embeds the grounding and the target language", () => {
+  const p = followupsPrompt("FACTS: z", "en");
+  assert(p.includes("FACTS: z"));
+  assert(p.includes("en"));
+  assert(p.includes("3"), "should ask for exactly 3 questions");
+});
+
+Deno.test("followupsPrompt prepends history_summary when present", () => {
+  const p = followupsPrompt("FACTS: z", "fr", "earlier summary");
+  assert(p.includes("earlier summary"));
 });

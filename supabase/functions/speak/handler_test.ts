@@ -27,6 +27,23 @@ const post = (payload: unknown) =>
     body: JSON.stringify(payload),
   });
 
+Deno.test("non-POST is rejected -> 405", async () => {
+  assertEquals(
+    (await handle(new Request("http://t/speak", { method: "GET" }), deps())).status,
+    405,
+  );
+});
+
+Deno.test("invalid JSON -> 400", async () => {
+  assertEquals(
+    (await handle(
+      new Request("http://t/speak", { method: "POST", body: "{not json" }),
+      deps(),
+    )).status,
+    400,
+  );
+});
+
 Deno.test("empty text -> 400", async () => {
   assertEquals((await handle(post({ lang: "fr" }), deps())).status, 400);
 });
@@ -70,4 +87,24 @@ Deno.test("all engines down -> 502", async () => {
 Deno.test("default (auto) prefers edge", async () => {
   const res = await handle(post({ text: "hi" }), deps());
   assertEquals((await res.json()).engine, "edge");
+});
+
+Deno.test("upload failure -> 502", async () => {
+  const res = await handle(
+    post({ text: "hi" }),
+    {
+      engines: engines(),
+      uploadAudio: () => Promise.reject(new Error("storage down")),
+    },
+  );
+  assertEquals(res.status, 502);
+});
+
+Deno.test("successful response has correct shape (audio_url, format, duration_s, engine)", async () => {
+  const res = await handle(post({ text: "hi", provider: "edge" }), deps());
+  const body = await res.json();
+  assertEquals(body.audio_url, "http://audio/x.mp3");
+  assertEquals(body.format, "mp3");
+  assertEquals(body.duration_s, null); // MP3 not decoded; ponytail
+  assertEquals(body.engine, "edge");
 });

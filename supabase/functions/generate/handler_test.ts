@@ -160,6 +160,38 @@ Deno.test("hotspot falls back to the seed text when the model fails", async () =
   assertEquals(items[0].text, "seed");
 });
 
+// --- hotspot (additional) ---------------------------------------------------
+
+Deno.test("hotspot with empty hotspot_ids returns an empty items array", async () => {
+  const res = await handle(
+    post({ mode: "hotspot", artwork_id: "a", hotspot_ids: [] }),
+    deps(),
+  );
+  const body = await res.json();
+  assertEquals(body.type, "done");
+  assertEquals(body.items, []);
+});
+
+Deno.test("hotspot partial failure: one ok, one seed fallback", async () => {
+  // First call succeeds; second throws → falls back to seed.
+  let calls = 0;
+  const res = await handle(
+    post({ mode: "hotspot", artwork_id: "a", hotspot_ids: ["h1", "h2"] }),
+    deps({
+      complete: () => {
+        if (++calls === 1) return Promise.resolve("LLM TEXT");
+        return Promise.reject(new Error("down"));
+      },
+    }),
+  );
+  const { items } = await res.json();
+  assertEquals(items.length, 2);
+  assertEquals(items[0].status, "ready");
+  assertEquals(items[0].text, "LLM TEXT");
+  assertEquals(items[1].status, "ready"); // demo never blanks
+  assertEquals(items[1].text, "seed"); // seed fallback
+});
+
 // --- followups --------------------------------------------------------------
 
 Deno.test("followups parses the model's lines", async () => {
@@ -175,6 +207,16 @@ Deno.test("followups falls back to stubs when the model fails", async () => {
   const res = await handle(
     post({ mode: "followups", artwork_id: "a" }),
     deps({ complete: failing }),
+  );
+  const { questions } = await res.json();
+  assertEquals(questions.length, 3);
+});
+
+Deno.test("followups falls back to stubs when model returns empty output", async () => {
+  // Model succeeds but returns blank text → parseFollowups → [] → stub kicks in.
+  const res = await handle(
+    post({ mode: "followups", artwork_id: "a" }),
+    deps({ complete: () => Promise.resolve("") }),
   );
   const { questions } = await res.json();
   assertEquals(questions.length, 3);
@@ -206,4 +248,48 @@ Deno.test("ask emits an error event when the stream fails before any token", asy
   );
   const body = await res.text();
   assert(body.includes('"type":"error"'), body);
+});
+
+Deno.test("ask emits done (not error) when stream fails after some tokens", async () => {
+  // After at least one token has been emitted, the partial text is closed as done.
+  const res = await handle(
+    post({ mode: "ask", artwork_id: "a", question: "why?" }),
+    deps({
+      streamDeltas: async function* () {
+        yield "partial";
+        throw new Error("mid-stream failure");
+      },
+    }),
+  );
+  const body = await res.text();
+  // Must have a done event carrying the partial text, not an error.
+  assert(body.includes('"type":"done"'), body);
+  assert(body.includes("partial"), body);
+  assert(!body.includes('"type":"error"'), "should not emit error after partial text");
+});
+
+Deno.test("ask threads history_summary as an earlier-context system message", async () => {
+  // Verify the summary actually reaches the LLM messages list.
+  let capturedMessages: unknown[] = [];
+  const res = await handle(
+    post({
+      mode: "ask",
+      artwork_id: "a",
+      question: "x",
+      history_summary: "visitor liked the light",
+    }),
+    deps({
+      streamDeltas: async function* (messages) {
+        capturedMessages = messages;
+        yield "ok";
+      },
+    }),
+  );
+  await res.text(); // drain
+  const systemMessages = (capturedMessages as Array<{ role: string; content: string }>)
+    .filter((m) => m.role === "system");
+  assert(
+    systemMessages.some((m) => m.content.includes("visitor liked the light")),
+    "history_summary not injected into messages",
+  );
 });

@@ -42,8 +42,23 @@ function upload(image: File | null, candidateIds?: string): Request {
 const jpg = () =>
   new File([new Uint8Array(64)], "p.jpg", { type: "image/jpeg" });
 
+Deno.test("non-POST is rejected -> 405", async () => {
+  const res = await handle(
+    new Request("http://t/identify", { method: "GET" }),
+    deps(),
+  );
+  assertEquals(res.status, 405);
+});
+
 Deno.test("missing image -> 400", async () => {
   assertEquals((await handle(upload(null), deps())).status, 400);
+});
+
+Deno.test("image too large -> 413", async () => {
+  const big = new File([new Uint8Array(11 * 1024 * 1024)], "big.jpg", {
+    type: "image/jpeg",
+  });
+  assertEquals((await handle(upload(big), deps())).status, 413);
 });
 
 Deno.test("no candidates -> null match (not an error)", async () => {

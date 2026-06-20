@@ -49,3 +49,11 @@ Deno.test("STT failure -> 502", async () => {
   });
   assertEquals(res.status, 502);
 });
+
+Deno.test("no lang_hint -> lang is null in transcript", async () => {
+  // When the caller omits lang_hint, the contract returns lang: null
+  // (STT does not detect language; we echo the hint or null).
+  const res = await handle(upload(wav() /* no langHint */), okStt);
+  assertEquals(res.status, 200);
+  assertEquals((await res.json()).lang, null);
+});
