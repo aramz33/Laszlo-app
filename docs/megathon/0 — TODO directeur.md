@@ -10,25 +10,25 @@ date: 2026-06-20
 
 ## Backend
 
-- [ ] 🟡 Figer le **schéma Supabase** (le contrat) au SYNC 1
-  - [ ] Créer le projet Supabase + exécuter le SQL (artist / movement / museum / artwork / notice / hotspot)
+- [x] 🟡 Figer le **schéma Supabase** (le contrat) au SYNC 1
+  - [x] Créer le projet Supabase + exécuter le SQL (artist / movement / museum / artwork / notice / hotspot)
   - [ ] Générer les types partagés (`/shared`) pour l'app iOS
 - [ ] Exposer une **API de lecture** fine (œuvre + notices + hotspots) pour l'app
 - [ ] **Mollie serveur** : hosted checkout + webhook « débloquer premium »
 - [ ] Brancher clé Mollie **test** (dev) puis **live** (stand)
-- [ ] Storage Supabase pour images HD + reference images ARKit
+- [x] Storage Supabase pour images HD + reference images ARKit
 - [ ] Déploiement backend (proche utilisateur)
 
 ## Frontend
 
-- [ ] 🟡 Confirmer avec Siffrein : client = **natif iOS (ARKit)**, PWA en repli paywall (SYNC 0)
+- [x] 🟡 Confirmer avec Siffrein : client = **natif iOS (ARKit)**, PWA en repli paywall (SYNC 0)
 - [ ] 🟡 Décider : PWA sur **Base44** (track Prompt to Paid) vs **Vercel** libre
 - [ ] Vérifier la **porte toolchain** : Mac + Xcode + iPhone physique + Apple ID (vendredi soir)
 - [ ] Scaffold app iOS (Xcode/Swift, ARKit/RealityKit) — `/app-ios`
 - [ ] **Vue AR** : détection œuvre (reference images) → **point bleu ancré** (world-locked)
 - [ ] Tap point → **vue détail 2D** de l'œuvre
 - [ ] **Hotspots** sur la vue détail (points pré-définis depuis la DB)
-- [ ] **Lecteur audio** des hotspots + contrôles **vitesse / ton / voix** (changeables à la volée)
+- [ ] **Lecteur audio** des hotspots + contrôles **vitesse / ton / voix** (changeables à la volée) — *audio généré **live** au runtime (M24), pas de pré-rendu*
 - [ ] **Chat libre** : poser des questions + taper hors hotspots → réponse vocale/texte
 - [ ] **Fallback overlay 2D** prêt (même backend + UI, rendu marqueur différent)
 - [ ] UI **paywall Mollie** dans l'app
@@ -36,24 +36,26 @@ date: 2026-06-20
 
 ## Dataset (pipeline — IntelliJ)
 
-- [ ] 🟡 Décider : **langage pipeline** — Python (reco) vs Kotlin/JVM
-- [ ] 🟡 **Session dataset** : figer la **sélection d'œuvres** (1 classique · 1 mal comprise · 1 pour enfants · abstrait = hors Rijks, lâcher ou élargir la source) + **set** (reco `26021` Dutch 17th c.) + nb d'œuvres + **2 phares**
-- [ ] Scaffold projet IntelliJ (`/pipeline` : harvest / refine / transform / load + `.env`)
-- [ ] **Harvest** OAI-PMH du set (`edm`, pagination `resumptionToken`)
-- [ ] **Parser EDM** → titres/desc EN-NL, créateur, `extent`, sujets, rights
-- [ ] **Résoudre l'image IIIF** (Linked Art `?_profile=la` → `iiif.micr.io/{id}`)
-- [ ] **Refine** : `extent` → height_cm/width_cm ; labels créateur/mouvement ; filtre HD + CC0
-- [ ] **Download HD** + générer **reference images ARKit** → Storage
-- [ ] **Multilingue pivot-EN** : garder la source, pivot EN, générer la langue visiteur (EN+NL déjà fournis par Rijks)
-- [ ] **Notices 4 facettes** ancrées (LLM) + **gate groundedness**
+- [x] 🟡 Décider : **langage pipeline** — **Python** (acté, ADR 0001/0011)
+- [x] 🟡 **Session dataset** : set **`260214`** (Top 1000, ~1040 œuvres) + **2 phares** = **Night Watch** + **La Laitière** ; demo profonde sur les phares (M23)
+- [x] Scaffold projet IntelliJ (`/pipeline` : harvest / enrich / refine / transform / load + `.env`)
+- [x] **Harvest** OAI-PMH du set (`edm`, pagination `resumptionToken`)
+- [x] **Parser EDM** → titres/desc EN-NL, créateur, `extent`, sujets, rights
+- [x] **Résoudre l'image IIIF** (Linked Art `?_profile=la` → `iiif.micr.io/{id}`)
+- [x] **Refine** : `extent` → height_cm/width_cm ; labels créateur/mouvement ; filtre HD + CC0
+- [x] **Download HD** + générer **reference images ARKit** → Storage
+- [x] **Multilingue pivot-EN** : garder la source, pivot EN, générer la langue visiteur (EN+NL déjà fournis par Rijks)
+- [x] **Enrich multi-source sans LLM** : Wikidata (Q-ids, mouvement P135, tags P180/P136) + Wikipedia (narratif, gate = article existe) — M19
+- [ ] **Notices = substrat neutre** (sans LLM cette semaine, M19) ; **4 facettes = lentilles runtime** (M18) ; **LLM + gate groundedness différés** post-megathon
 - [ ] **Réviser à la main** les notices des phares (statut `ok`)
-- [ ] **Auteur les hotspots** des phares (coords + aspect + texte)
-- [ ] **Charger** dans Supabase (upsert)
-- [ ] **Mock DB** 2–3 œuvres dès la 1ère heure → débloque Siffrein
+- [x] **Auteur les hotspots** des phares (coords + aspect + texte) — `hotspots/flagships.py`
+- [x] **Charger** dans Supabase (upsert)
+- [x] **Mock DB** 2–3 œuvres → *superseded : vraies données chargées, Siffrein débloqué*
 - [ ] ⛔ Ignorer le dataset « Challenge 2014 » (XML + descripteurs Matlab) — obsolète, inutile (ARKit pur)
 
 ## Produit
 
+- [x] Audio hotspots généré **live** au runtime (M24) : texte stocké, pas d'`audio_url` pré-rempli par le pipeline
 - [ ] 🟡 Décider : **voix / TTS** (compte ElevenLabs dispo)
   - [ ] Recherche intensive : ElevenLabs vs Vapi (latence, barge-in, voix de marque, qualif track Vapi)
   - [ ] Trancher au plus tard SYNC 1
