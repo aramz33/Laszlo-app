@@ -9,6 +9,13 @@ date: 2026-06-20
 > 2026-06-20. Liste **non étiquetée** (free / premium / musée) — l'étiquetage et la
 > spec produit sont l'étape suivante (cf. [[0 — TODO directeur]] ligne 75).
 > Le « pourquoi » des décisions business vit dans [[1 — Stratégie & arène]] (M28).
+>
+> **Étiquetage near-term = Modèle A (venue-gated)** : le plan du musée débloque les
+> features pour ses visiteurs ; pas de paywall visiteur direct. Le visitor-paid
+> (Modèle B) reste roadmap ~5 ans.
+>
+> **La coupe « ce qu'on construit pour le hackathon » est en bas de ce doc**
+> (section « Scope démo hackathon »).
 
 ## 1. Socle visiteur (devant une œuvre)
 
@@ -93,3 +100,78 @@ date: 2026-06-20
 - Mémoire longue / apprentissage dans le temps (couche 3 de M21)
 - Barge-in (archi capable, montré si stable — M16)
 - Couche éditoriale avancée (workflow rédactionnel musée)
+
+---
+
+# Scope démo hackathon
+
+> La **coupe « ce qu'on construit maintenant »** parmi le panel ci-dessus, actée
+> en session de scoping (2026-06-20). Orientée écrans, base du wireframe. Le reste
+> du catalogue = post-hackathon. Détail du chemin de démo : [[0 — TODO directeur]]
+> (happy path) et le contrat `f()`.
+
+## Onboarding (crée l'utilisateur de la démo)
+
+- 3 questions **QCM multi-sélection** (allure · niveau · intérêt) — profils qui se croisent
+- **Champ libre** langage naturel (« autre / dis-nous en plus »)
+- **Picker langue** (init locale), le tout **skippable**
+- → génère le **persona** (1 appel LLM caché, `AsyncStorage`) + identité anonyme device-based
+
+## Entrée dans l'œuvre
+
+- **Scanner AR** ViroReact → point ancré tappable
+- Filets : vision Claude (overlay 2D) · sélection manuelle · QR
+
+## Vue détail 2D (écran riche)
+
+- **Hotspots préchargés** (narration, TTS live) — *hors `f()` live*
+- **Lecteur audio** : vitesse / ton / voix changeables à la volée
+- **Chat libre** voix/texte → `/ask`
+- **Point placé par l'utilisateur** (pointer un endroit + question) → `/ask`
+- **Sources / provenance** affichées
+- *Pas de boutons d'angle* — pilotage par la conversation
+
+## Personnalisation (invisible, niveau prompt)
+
+- Couche **lanes / persona** injectée dans chaque `/ask` + **fragments de lane pré-écrits** dans le system prompt
+- **Adaptation intra-conversation** via l'historique (`/ask` stateless) — ex. « arrête le symbolisme »
+- **Niveau** mocké = paramètre de prompt (pas de table glossaire)
+- **Multilingue** = génération en langue cible (2 langues en démo)
+
+## Navigation spatiale (3 posters au mur)
+
+- Fin d'œuvre → **flèche AR ancrée** (offset hardcodé œuvre 2), `gallery_layout` des 3 phares
+- **Fallback flèche 2D** si la VIO décroche · **gate go/no-go ViroReact**
+- Arrivée → « Commencer cette œuvre » / « Scanner AR »
+
+## Liens & langue
+
+- **Follow-up inter-œuvres** (« compare à celle d'à côté », graphe, 2 phares reliés)
+- **Bascule de langue** à tout moment
+
+## Surface musée (pitch)
+
+- **Activation Mollie** (package venue) → webhook débloque premium venue + mini-CSV
+
+## Coulisses (backend)
+
+- `f()` Edge Function = `/ask` (streamé) + `/transcribe`
+- Pipeline d'ingestion déjà livré (1025 œuvres en prod)
+- Modèle LLM (mini-éval Nebius / Mistral / Claude) + TTS (ElevenLabs / Vapi) à trancher
+
+## Explicitement hors démo (plus tard)
+
+Réécriture persona persistante (couche Mémoire) · table glossaire réelle · compte
+visiteur · carnet/favoris · résumé post-visite · recommandations de parcours ·
+console musée (éditorial / hotspots editor / branding / analytics / expositions) ·
+transcription/contraste · intégrations CMS/SSO · toute la section Vision/roadmap
+(open-world embeddings · Europeana · lunettes · B2C visitor-paid · barge-in).
+
+## Décisions de scoping (référence)
+
+- **S1** — Étiquetage near-term = **Modèle A (venue-gated)** ; visitor-paid (B) en roadmap ~5 ans.
+- **S2** — Niveau gradué = **mocké au prompt** pour la démo (pas de table glossaire).
+- **S3** — Navigation spatiale = **AR world-tracked « fakée »** : offset hardcodé de l'œuvre 2 depuis l'ancre de l'œuvre 1 (i), fallback flèche 2D, derrière le go/no-go ViroReact.
+- **S4** — **Pas de « 4 chemins » en UI** : ce sont des **lanes**, une couche de préférences générée depuis l'onboarding et injectée aux prompts.
+- **S5** — Persona **généré par LLM** (1 appel caché) ; **évolue intra-conversation** via l'historique (`/ask` stateless) ; réécriture persistante = plus tard.
+- **S6** — Onboarding = **QCM multi-sélection + champ libre** ; profils qui se croisent.
