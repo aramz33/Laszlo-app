@@ -27,15 +27,16 @@ export function ScannerScreen({ artworks, onIdentify }: Props) {
   const matching = visionState === "matching";
 
   const onPhoto = async () => {
-    const match = await capture();
-    if (!match) {
-      setArEnabled(false); // no match / denied / cancelled → manual picker
-      return;
+    const result = await capture();
+    if (result.status === "matched") {
+      const artwork = artworks.find((a) => a.id === result.artworkId);
+      if (artwork) {
+        onIdentify({ artwork, source: "vision", confidence: result.confidence });
+        return;
+      }
     }
-    const artwork = artworks.find((a) => a.id === match.artworkId);
-    if (artwork) {
-      onIdentify({ artwork, source: "vision", confidence: match.confidence });
-    } else {
+    // Cancelling the camera keeps AR alive; real failures drop to the picker.
+    if (result.status !== "cancelled") {
       setArEnabled(false);
     }
   };
