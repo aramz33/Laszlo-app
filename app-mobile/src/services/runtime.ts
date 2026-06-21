@@ -495,9 +495,52 @@ export async function transcribe(
   return (await res.json()) as TranscribeResponse;
 }
 
-// ponytail: /identify (photo → artwork_id) is intentionally not wired. Its only
-// job is recovering when AR tracking misses, and the manual picker already does
-// that. Add a client + camera capture here if real photo-recognition is needed.
+export type IdentifyArgs = {
+  uri: string;
+  candidateIds?: string[];
+  mime?: string;
+  name?: string;
+};
+
+export type IdentifyResponse = {
+  artwork_id: string | null;
+  confidence: number;
+  candidates: string[] | null;
+};
+
+/**
+ * `POST /identify` — photo → artwork_id (multipart). AR fallback: when ViroReact
+ * can't recognize the painting, a camera frame + the room's candidate ids go to
+ * the server-side vision model, which picks the match. `artwork_id` null → fall
+ * back to the manual picker.
+ */
+export async function identify(args: IdentifyArgs): Promise<IdentifyResponse> {
+  if (!hasSupabaseConfig) {
+    return { artwork_id: null, confidence: 0, candidates: null };
+  }
+
+  const form = new FormData();
+  appendFile(form, "image", {
+    uri: args.uri,
+    name: args.name ?? "p.jpg",
+    type: args.mime ?? "image/jpeg"
+  });
+  if (args.candidateIds?.length) {
+    form.append("candidate_ids", args.candidateIds.join(","));
+  }
+
+  const res = await fetch(`${BASE}/identify`, {
+    method: "POST",
+    headers: { Authorization: `Bearer ${ANON_KEY ?? ""}` },
+    body: form
+  });
+
+  if (!res.ok) {
+    throw new Error(`identify failed: ${res.status}`);
+  }
+
+  return (await res.json()) as IdentifyResponse;
+}
 
 export const HOTSPOT_FALLBACK_MS = 3000;
 

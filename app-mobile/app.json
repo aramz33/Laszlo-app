@@ -34,7 +34,14 @@
           }
         }
       ],
-      "expo-font"
+      "expo-font",
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "Laszlo uses the camera to recognize an artwork from a photo.",
+          "photosPermission": "Laszlo uses your photos to recognize an artwork."
+        }
+      ]
     ]
   }
 }

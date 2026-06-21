@@ -27,11 +27,11 @@ date: 2026-06-20
 - [x] Client `/generate mode=ask` : chat libre + question depuis hotspot/point (`useChat`, SSE via XHR).
 - [x] Lecteur audio depuis `audio_url` (`/speak`) (`useAudioPlayer`, expo-av, play/pause).
 - [x] Upload audio `/transcribe` en `multipart/form-data` (bouton micro `ChatPanel` → `useVoiceInput`).
-- [x] Garder QR/manual fallback prioritaire : même vue détail, même contrat runtime (picker manuel conservé ; `/identify` non câblé — voir note ponytail).
+- [x] Garder QR/manual fallback prioritaire : même vue détail, même contrat runtime (picker manuel conservé comme repli no-match de `/identify`).
 - [x] **Playbook crédits IA épuisés** : procédure ajoutée dans [[3 — Playbook & questions ouvertes]] et référencée dans `AGENTS.md` + `CLAUDE.md`.
 - [x] **Convergence 1** : l'app appelle les endpoints réels (`generate`/`speak`/`transcribe`) sur le projet déployé.
 - [x] **Convergence dure** : app branchée sur le vrai serveur pour `/generate` (5 modes) + onboarding `persona` → `profile` injecté.
-- [ ] **`/identify` (repli AR photo)** : volontairement non câblé (ponytail — le picker manuel couvre le cas). Point de branchement noté dans `runtime.ts`.
+- [x] **`/identify` (repli AR photo)** : câblé (décision Adam). Bouton « Photo » `ScannerScreen` → `useVisionIdentify` (capture caméra `expo-image-picker`) → `identify()` avec les ids candidats de la salle → match vision ouvre la même vue détail (`source: "vision"`) ; no-match/refus → picker manuel. Smoke test curl : `artwork_id` correct (confidence 0.9).
 
 ### Siffrein — serveur, secrets, deploy ✅ (lane livrée)
 
@@ -85,7 +85,7 @@ date: 2026-06-20
 - [ ] **Hotspots** sur la vue détail (points pré-définis depuis la DB)
 - [ ] **Lecteur audio** des hotspots + contrôles **vitesse / ton / voix** (changeables à la volée) — *audio TTS généré **live** depuis le texte hotspot personnalisé, pas de pré-rendu*
 - [ ] **Champ question** (texte + voix) sous l'œuvre → déclenche `/generate mode=ask` ; marche avec ou sans hotspot/point sélectionné
-- [ ] **Fallback identification par modèle de vision** : capture du flux → vision (Claude) identifie l'œuvre → positionnement en **overlay 2D** (M31)
+- [x] **Fallback identification par modèle de vision** : capture photo → `/identify` (Pixtral) identifie l'œuvre → ouverture de la vue détail (M31)
 - [ ] **Fallback sélection manuelle / QR / overlay 2D** prêt (même backend + même vue détail)
 - [ ] **Onboarding profil** : 3 questions skippables **ludiques**, **flux conditionnel** (la suite dépend des réponses), multi-sélection possible → axes neutres (allure/niveau/intérêt) (C1) — *wording = design*
   - [ ] **Mapping onboarding → input profil LLM** : transformer les sélections (pas les mots bruts) en un fragment riche et bien construit pour `f()` (côté serveur ; le client envoie les sélections) = partie du contrat `f()`

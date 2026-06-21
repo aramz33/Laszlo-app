@@ -46,7 +46,7 @@ missing backend surfaces (`transcribe`, `identify`) and persona/profile injectio
 - [x] **Onboarding (3 questions + lang) → `mode=persona` → AsyncStorage → inject `profile` into every call.** `OnboardingScreen` builds the profile once on first launch (`profile.ts`); `App.tsx` loads it and passes `profile` to the detail screen, so hotspot/ask/followups/overview are all personalized.
 - [x] **Voice input `/transcribe`**: mic button in `ChatPanel` records (expo-av, `useVoiceInput`) → multipart upload → text → fed into `mode=ask`.
 - [x] **`mode=overview`** virtual "✦ the artwork" card (`useOverview`) shown by default on open, with its own TTS play button.
-- [~] **AR fallback `/identify`**: **intentionally not wired (ponytail).** The existing manual picker already recovers when AR tracking misses, so no `expo-image-picker` dep / capture screen was added. `ponytail:` note in `runtime.ts` marks the wire-in point if real photo-recognition is wanted later.
+- [x] **AR fallback `/identify`**: **wired** (Adam's call). `ScannerScreen` "Photo" button → `useVisionIdentify` (camera capture via `expo-image-picker`) → `identify()` with the room's candidate ids → vision match opens the same detail view (`source: "vision"`). No match / denied / cancelled falls back to the manual picker with a hint. Live curl smoke test returns the correct `artwork_id` (confidence 0.9).
 - [x] Typecheck (`cd app-mobile && npm run typecheck`) green.
 - [ ] PR opened against `main`; CI green.
 
@@ -70,9 +70,10 @@ missing backend surfaces (`transcribe`, `identify`) and persona/profile injectio
   re-creating the divergence that left `main` unconnected.
 - **Ponytail pass (2026-06-20):** code written lazy-senior-dev style — only what the
   task needs, no avoidable dependency, deletion over addition, safety never cut.
-  `/identify` capture UI + `expo-image-picker` dep were dropped because the manual
-  picker already covers the AR-miss case (rung 1/4). Unused `clearStoredProfile` and
-  a single-use `buildProfile` helper were removed/inlined. 5 of 6 backend surfaces
-  wired; `/identify` is the deliberate omission, flagged for Adam.
-- Net result: **app went from 0% → fully connected on 5 of Siffrein's 6 surfaces**
-  (`generate` ×5 modes + `speak` + `transcribe`).
+  Unused `clearStoredProfile` and a single-use `buildProfile` helper were removed/inlined.
+- **`/identify` decision (2026-06-20):** initially left out per ponytail (manual picker
+  covers the AR-miss case), then **wired on Adam's call** so all 6 surfaces are exercised.
+  `expo-image-picker` is the one added dependency; the manual picker stays as the
+  no-match fallback.
+- Net result: **app went from 0% → fully connected on all 6 of Siffrein's surfaces**
+  (`generate` ×5 modes + `speak` + `transcribe` + `identify`).

@@ -1,6 +1,6 @@
 import type { Artwork } from "./artwork";
 
-export type IdentificationSource = "viro" | "manual" | "qr";
+export type IdentificationSource = "viro" | "vision" | "manual" | "qr";
 
 export type ArtworkIdentification = {
   artwork: Artwork;
