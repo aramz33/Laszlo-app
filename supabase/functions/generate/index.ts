@@ -119,7 +119,9 @@ export async function handle(
       persona_summary = await deps.complete([
         {
           role: "system",
-          content: "You write concise museum-visitor personas.",
+          content:
+            "You turn a few onboarding signals into a vivid, useful portrait of one" +
+            " museum visitor — the kind of brief that helps a guide find the right voice.",
         },
         { role: "user", content: personaPrompt(onboarding, lang) },
       ], 0.3);

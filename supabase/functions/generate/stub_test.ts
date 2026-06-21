@@ -93,7 +93,7 @@ Deno.test("stubOverviewText contains the lang tag", () => {
 Deno.test("overviewPrompt embeds the grounding and the intro instruction", () => {
   const p = overviewPrompt("FACTS: x");
   assert(p.includes("FACTS: x"));
-  assert(p.includes("why it matters"));
+  assert(p.includes("strikes the eye"));
 });
 
 Deno.test("overviewPrompt prepends history_summary when present", () => {
@@ -174,12 +174,12 @@ Deno.test("systemPrompt instructs the model to answer in the requested language"
 
 Deno.test("systemPrompt maps depth=quick to the short length hint", () => {
   const s = systemPrompt("fr", { depth: "quick" }, undefined);
-  assert(s.includes("1–2"), "expected short-length hint");
+  assert(s.toLowerCase().includes("one or two sentences"), "expected short-length hint");
 });
 
 Deno.test("systemPrompt maps depth=deep to the rich length hint", () => {
   const s = systemPrompt("fr", { depth: "deep" }, undefined);
-  assert(s.includes("4–6"), "expected long-length hint");
+  assert(s.toLowerCase().includes("rich paragraph"), "expected long-length hint");
 });
 
 Deno.test("systemPrompt maps knowledge=newcomer to plain-words register", () => {
@@ -199,7 +199,7 @@ Deno.test("systemPrompt maps motivation=stories to the story/people angle", () =
 
 Deno.test("systemPrompt defaults are applied when no profile is given", () => {
   const s = systemPrompt("fr", undefined, undefined);
-  assert(s.includes("about 3 sentences"), "expected standard depth default");
+  assert(s.toLowerCase().includes("three or four sentences"), "expected standard depth default");
   assert(s.toLowerCase().includes("understand"), "expected understand motivation default");
 });
 
