@@ -11,16 +11,16 @@ date: 2026-06-19
 
 ## La thèse en une phrase
 
-On n'utilise pas le week-end pour brainstormer laszlo — on l'utilise comme **moteur de validation** : transformer la fondation papier solide en **démo voice-first jouable en live, avec un signal commercial réel**. Le R&D se prouve en shippant, pas en discutant.
+On n'utilise pas le week-end pour brainstormer laszlo — on l'utilise comme **moteur de validation** : transformer la fondation papier solide en **produit voice-first filmable en 90 s**, avec un lien produit crédible quand possible. Le R&D se prouve en shippant, pas en discutant.
 
 ## Win condition (priorisé)
 
-1. **Principal** — Valider la direction produit : une démo voice-first qu'on met dans les mains de vrais gens (visiteurs + jury + VCs) et qui nous fait *croire davantage* au projet.
+1. **Principal** — Valider la direction produit : une vidéo 90 s très claire + un produit installable/ouvrable si possible, suffisamment crédibles pour des visiteurs, jury et VCs.
 2. **Upside** — Gagner une track : **Vapi Voice** (cœur de cible) et/ou **headline Mollie·Visa Startup** (viabilité commerciale).
 3. Le tout doit **rentrer dans notre storyline** — on ne code rien qui ne serve pas le pitch.
 
 ## L'idée produit pour le week-end (coup d'œil)
-**Build broad, demo deep.** Un pipeline ingère une **tranche réelle du Rijksmuseum** (open data CC0) → prouve qu'on cure du contenu **à l'échelle** (la réponse à « comment tu remplis 1000 musées ? »). La **démo live va en profondeur sur 1–2 œuvres phares** (La Ronde de nuit, La Laitière) → c'est le wow voix. Reconnaissance **ancrée en AR via ViroReact** (ARKit iOS / ARCore Android) ; filets = sélection manuelle / QR / overlay 2D, cf. [[2 — Tech & build]].
+**Build broad, demo deep.** Un pipeline ingère une **tranche réelle du Rijksmuseum** (open data CC0) → prouve qu'on cure du contenu **à l'échelle** (la réponse à « comment tu remplis 1000 musées ? »). La **vidéo 90 s va en profondeur sur 1–2 œuvres phares** (La Ronde de nuit, La Laitière) → c'est le wow voix. Reconnaissance **ancrée en AR via ViroReact** (ARKit iOS / ARCore Android) ; filet principal = sélection manuelle, QR/overlay 2D si nécessaire, cf. [[2 — Tech & build]].
 
 ## La vision (en clair)
 
@@ -36,19 +36,19 @@ On n'utilise pas le week-end pour brainstormer laszlo — on l'utilise comme **m
 ## North star du week-end (storyline)
 > **« Tu te tiens devant une œuvre. Tu lui parles. Elle te répond — à voix haute, dans son registre. »**
 
-C'est la promesse à incarner en live. **Wow démo** = audio guide par hotspots + Q&A vocale. La coupure mid-phrase (barge-in) reste dans la vision et le pitch, mais **le build n'en dépend pas** (cf. [[2 — Tech & build]], M16) — montrée seulement si stable.
+C'est la promesse à incarner dans la vidéo 90 s et, si possible, dans le lien produit. **Wow démo** = audio guide par hotspots + Q&A vocale/texte. La coupure mid-phrase (barge-in) reste dans la vision et le pitch, mais **le build n'en dépend pas** (cf. [[2 — Tech & build]], M16).
 
 ## Le principe central : « build broad, demo deep »
 
 **« Build broad » = construire large, en coulisses.** On code un **pipeline** qui va chercher tout seul **beaucoup d'œuvres** dans l'open data du Rijksmuseum (dizaines → centaines) et les transforme automatiquement en fiches laszlo : structurées, par facettes, **ancrées sur des sources** (jamais inventées). Preuve que le *système* sait **remplir un musée entier sans écrire chaque fiche à la main**. Invisible pour le visiteur — c'est la machine.
 
-**« Demo deep » = montrer profond, sur scène.** Devant le jury, on choisit **1–2 œuvres célèbres** et on va **au fond** : vraie conversation vocale, on coupe l'IA en plein milieu (barge-in), on change de registre (technique → histoire → symbolisme), on bascule de langue. C'est le **wow**, et il n'existe que si on se concentre sur peu d'œuvres.
+**« Demo deep » = montrer profond, en 90 s.** Devant le jury, on choisit **1–2 œuvres célèbres** et on va **au fond** : hotspots audio, sous-titres, question libre, registre adapté au profil, bascule de langue si elle tient dans le montage. C'est le **wow**, et il n'existe que si on se concentre sur peu d'œuvres.
 
 **Comment les deux se relient :** c'est **un seul système**. Les œuvres phares qu'on démontre sortent **du même pipeline** que les centaines d'autres. On **raconte** la largeur (l'histoire du passage à l'échelle, pour les investisseurs) et on **joue** la profondeur (l'émotion, pour le wow). *Image : une cuisine capable de 200 plats (build broad), mais on sert 2 assiettes parfaites au jury (demo deep).*
 
 | | Sert quel axe du jury | Pourquoi |
 |---|---|---|
-| **Demo deep** (1–2 phares) | le **wow** / track Vapi · Product 25% | en ~3 min sur scène, la voix + barge-in ne se montrent qu'en profondeur |
+| **Demo deep** (1–2 phares) | le **wow** / Product 25% | en 90 s, la voix + le contexte œuvre ne se montrent qu'en profondeur |
 | **Build broad** (pipeline) | le **« unicorn »** / headline · Business+Edge | répond à « comment tu remplis 1000 musées ? » → contenu curé **à l'échelle** = notre **anti-wrapper** |
 
 ## Données : Rijksmuseum (+ Europeana en story)
@@ -169,7 +169,7 @@ Panel headline (11) — surtout **VCs + opérateurs** :
 
 ### 1. Cadrage — à quoi sert le week-end ?
 - **Décision :** le hackathon = **moteur de validation**, pas une retraite R&D. On shippe une démo réelle.
-- **Pourquoi :** l'arène récompense le **delta ven→dim (35%)** et une **démo live** devant des VCs. La seule chose qu'on ne peut pas obtenir dans notre vault, c'est un verdict du marché. On valide *en shippant*.
+- **Pourquoi :** l'arène récompense le **delta ven→dim (35%)** et une preuve produit claire devant des VCs. La seule chose qu'on ne peut pas obtenir dans notre vault, c'est un verdict du marché. On valide *en shippant* : vidéo 90 s + lien produit si possible.
 
 ### 2. Produit / démo — quel périmètre ?
 - **Décision :** **build broad, demo deep** (cf. ci-dessus).

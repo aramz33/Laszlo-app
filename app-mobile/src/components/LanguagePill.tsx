@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
     color: colors.text,
     fontFamily: fonts.mono,
     fontSize: 12,
-    letterSpacing: 1
+    letterSpacing: 0
   },
   chevron: {
     color: colors.accent,
@@ -98,7 +98,7 @@ const styles = StyleSheet.create({
     color: colors.accent,
     fontFamily: fonts.mono,
     fontSize: 11,
-    letterSpacing: 1,
+    letterSpacing: 0,
     width: 22
   },
   itemName: {
