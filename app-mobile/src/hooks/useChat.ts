@@ -1,25 +1,19 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 
 import {
-  HISTORY_CAP,
+  useChatSession,
+  type ChatMessage,
+} from "../context/ChatSessionContext";
+import {
   askStream,
   generateFollowups,
-  type HistoryMessage,
   type Lang,
   type Point,
   type Profile,
-  type Source,
   type Steering
 } from "../services/runtime";
 
-export type ChatMessage = {
-  id: string;
-  role: "user" | "assistant";
-  content: string;
-  streaming: boolean;
-  sources?: Source[];
-  error?: boolean;
-};
+export type { ChatMessage } from "../context/ChatSessionContext";
 
 type Args = {
   artworkId: string;
@@ -35,42 +29,8 @@ export type AskOptions = {
   point?: Point | null;
 };
 
-type ChatThread = {
-  messages: ChatMessage[];
-  followups: string[];
-};
-
 let counter = 0;
 const nextId = () => `m${++counter}`;
-const ARTWORK_THREAD_ID = "__artwork__";
-
-function threadIdOf(hotspotId?: string | null) {
-  return hotspotId ?? ARTWORK_THREAD_ID;
-}
-
-function emptyThread(): ChatThread {
-  return { messages: [], followups: [] };
-}
-
-function updateThread(
-  threads: Record<string, ChatThread>,
-  threadId: string,
-  update: (thread: ChatThread) => ChatThread
-) {
-  return {
-    ...threads,
-    [threadId]: update(threads[threadId] ?? emptyThread())
-  };
-}
-
-function summarizeOlderHistory(history: HistoryMessage[]) {
-  const older = history.slice(0, -HISTORY_CAP);
-  if (older.length === 0) return null;
-  return older
-    .slice(-6)
-    .map((m) => `${m.role}: ${m.content.slice(0, 180)}`)
-    .join("\n");
-}
 
 /**
  * Drives the chat surface for an artwork: one UI thread per hotspot, one shared
@@ -84,19 +44,39 @@ export function useChat({
   hotspotId,
   onAnswer
 }: Args) {
-  const currentThreadId = threadIdOf(hotspotId);
-  const [threads, setThreads] = useState<Record<string, ChatThread>>({});
+  const session = useChatSession();
+  const sessionRef = useRef(session);
   const [busy, setBusy] = useState(false);
-  const historyRef = useRef<HistoryMessage[]>([]);
   const abortRef = useRef<(() => void) | null>(null);
-  const currentThread = threads[currentThreadId] ?? emptyThread();
+  const pendingAssistantRef = useRef<{
+    artworkId: string;
+    hotspotId: string | null;
+    assistantId: string;
+  } | null>(null);
+  const currentThread = session.getThread({ artworkId, hotspotId });
 
   useEffect(() => {
-    setThreads({});
-    historyRef.current = [];
+    sessionRef.current = session;
+  }, [session]);
+
+  useEffect(() => {
     setBusy(false);
     return () => {
       abortRef.current?.();
+      abortRef.current = null;
+      const pending = pendingAssistantRef.current;
+      if (pending) {
+        sessionRef.current.updateThread(
+          { artworkId: pending.artworkId, hotspotId: pending.hotspotId },
+          (thread) => ({
+            ...thread,
+            messages: thread.messages.map((m) =>
+              m.id === pending.assistantId ? { ...m, streaming: false } : m
+            )
+          })
+        );
+        pendingAssistantRef.current = null;
+      }
     };
   }, [artworkId]);
 
@@ -104,32 +84,28 @@ export function useChat({
     (targetHotspotId?: string | null) => {
       const resolvedHotspotId =
         targetHotspotId === undefined ? (hotspotId ?? null) : targetHotspotId;
-      const targetThreadId = threadIdOf(resolvedHotspotId);
+      const target = { artworkId, hotspotId: resolvedHotspotId };
       generateFollowups({
         artworkId,
         hotspotId: resolvedHotspotId,
         lang,
         profile,
-        historySummary: summarizeOlderHistory(historyRef.current)
+        historySummary: session.getHistorySummary(target)
       })
         .then((nextFollowups) =>
-          setThreads((prev) =>
-            updateThread(prev, targetThreadId, (thread) => ({
-              ...thread,
-              followups: nextFollowups
-            }))
-          )
+          session.updateThread(target, (thread) => ({
+            ...thread,
+            followups: nextFollowups
+          }))
         )
         .catch(() =>
-          setThreads((prev) =>
-            updateThread(prev, targetThreadId, (thread) => ({
-              ...thread,
-              followups: []
-            }))
-          )
+          session.updateThread(target, (thread) => ({
+            ...thread,
+            followups: []
+          }))
         );
     },
-    [artworkId, hotspotId, lang, profile]
+    [artworkId, hotspotId, lang, profile, session]
   );
 
   const ask = useCallback(
@@ -138,7 +114,7 @@ export function useChat({
       if (!trimmed || busy) return;
 
       const targetHotspotId = options?.hotspotId ?? hotspotId ?? null;
-      const targetThreadId = threadIdOf(targetHotspotId);
+      const target = { artworkId, hotspotId: targetHotspotId };
       const userMsg: ChatMessage = {
         id: nextId(),
         role: "user",
@@ -153,26 +129,28 @@ export function useChat({
         streaming: true
       };
 
-      const priorHistory = historyRef.current;
+      const priorHistory = session.getThreadHistory(target);
+      const historySummary = session.getHistorySummary(target);
       let assistantText = "";
 
-      setThreads((prev) =>
-        updateThread(prev, targetThreadId, (thread) => ({
-          messages: [...thread.messages, userMsg, assistantMsg],
-          followups: []
-        }))
-      );
+      session.updateThread(target, (thread) => ({
+        messages: [...thread.messages, userMsg, assistantMsg],
+        followups: []
+      }));
       setBusy(true);
+      pendingAssistantRef.current = {
+        artworkId,
+        hotspotId: targetHotspotId,
+        assistantId
+      };
 
       const patch = (fn: (m: ChatMessage) => ChatMessage) =>
-        setThreads((prev) =>
-          updateThread(prev, targetThreadId, (thread) => ({
-            ...thread,
-            messages: thread.messages.map((m) =>
-              m.id === assistantId ? fn(m) : m
-            )
-          }))
-        );
+        session.updateThread(target, (thread) => ({
+          ...thread,
+          messages: thread.messages.map((m) =>
+            m.id === assistantId ? fn(m) : m
+          )
+        }));
 
       abortRef.current = askStream(
         {
@@ -184,7 +162,7 @@ export function useChat({
           profile,
           steering,
           history: priorHistory,
-          historySummary: summarizeOlderHistory(priorHistory)
+          historySummary
         },
         {
           onDelta: (delta) => {
@@ -199,15 +177,8 @@ export function useChat({
               streaming: false,
               sources
             }));
-            historyRef.current = [
-              ...historyRef.current,
-              { role: "user", content: trimmed, artwork_id: artworkId },
-              {
-                role: "assistant",
-                content: finalText,
-                artwork_id: artworkId
-              }
-            ];
+            session.appendExchange(target, trimmed, finalText);
+            pendingAssistantRef.current = null;
             if (finalText) onAnswer?.(finalText);
             setBusy(false);
             refreshFollowups(targetHotspotId);
@@ -219,6 +190,7 @@ export function useChat({
               streaming: false,
               error: true
             }));
+            pendingAssistantRef.current = null;
             setBusy(false);
           }
         }
@@ -232,6 +204,7 @@ export function useChat({
       onAnswer,
       profile,
       steering,
+      session,
       refreshFollowups
     ]
   );

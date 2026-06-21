@@ -21,6 +21,7 @@ type Args = {
   lang: Lang;
   profile?: Profile;
   steering?: Steering;
+  historySummary?: string | null;
 };
 
 /**
@@ -33,7 +34,8 @@ export function useHotspotTexts({
   artwork,
   lang,
   profile,
-  steering
+  steering,
+  historySummary
 }: Args): HotspotTextsState {
   const [state, setState] = useState<HotspotTextsState>({
     items: {},
@@ -57,7 +59,8 @@ export function useHotspotTexts({
       hotspotIds: hotspotIdsOf(artwork),
       lang,
       profile,
-      steering
+      steering,
+      historySummary
     })
       .then((res) => {
         if (cancelled) return;
@@ -81,7 +84,7 @@ export function useHotspotTexts({
         clearTimeout(fallbackTimer.current);
       }
     };
-  }, [artwork, lang, profile, steering]);
+  }, [artwork, lang, profile, steering, historySummary]);
 
   return state;
 }

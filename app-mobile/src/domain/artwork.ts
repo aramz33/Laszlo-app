@@ -11,6 +11,8 @@ export type Artwork = {
   id: string;
   objectNumber: string;
   title: string;
+  originalTitle: string;
+  englishTitle: string;
   subtitle: string;
   location: string;
   widthCm: number;

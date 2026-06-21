@@ -13,9 +13,10 @@ export type Lang = "fr" | "en" | "nl";
 export type Lens = "technique" | "people" | "stories" | "symbols";
 
 export type Profile = {
-  allure?: string;
-  niveau?: string;
-  interets?: string[];
+  motivation?: string;
+  knowledge?: string;
+  depth?: string;
+  time?: string;
   free_text?: string | null;
   persona_summary?: string | null;
 };
@@ -52,7 +53,7 @@ const BASE = `${SUPABASE_URL ?? ""}/functions/v1`;
 function jsonHeaders(): Record<string, string> {
   return {
     Authorization: `Bearer ${ANON_KEY ?? ""}`,
-    "Content-Type": "application/json"
+    "Content-Type": "application/json",
   };
 }
 
@@ -71,10 +72,11 @@ export type GenerateHotspotsArgs = {
   lang: Lang;
   profile?: Profile;
   steering?: Steering;
+  historySummary?: string | null;
 };
 
 export async function generateHotspots(
-  args: GenerateHotspotsArgs
+  args: GenerateHotspotsArgs,
 ): Promise<HotspotResponse> {
   const request_id = newRequestId();
 
@@ -92,8 +94,9 @@ export async function generateHotspots(
       hotspot_ids: args.hotspotIds,
       lang: args.lang,
       profile: args.profile,
-      steering: args.steering
-    })
+      steering: args.steering,
+      history_summary: args.historySummary ?? null,
+    }),
   });
 
   if (!res.ok) {
@@ -119,6 +122,7 @@ export async function generateOverview(args: {
   lang: Lang;
   profile?: Profile;
   steering?: Steering;
+  historySummary?: string | null;
 }): Promise<OverviewResponse> {
   const request_id = newRequestId();
 
@@ -135,8 +139,9 @@ export async function generateOverview(args: {
       artwork_id: args.artworkId,
       lang: args.lang,
       profile: args.profile,
-      steering: args.steering
-    })
+      steering: args.steering,
+      history_summary: args.historySummary ?? null,
+    }),
   });
 
   if (!res.ok) {
@@ -149,17 +154,21 @@ export async function generateOverview(args: {
 export type PersonaArgs = {
   lang: Lang;
   onboarding: {
-    allure?: string;
-    niveau?: string;
-    interets?: string[];
+    motivation?: string;
+    knowledge?: string;
+    time?: string;
     free_text?: string | null;
   };
 };
 
 export async function generatePersona(args: PersonaArgs): Promise<string> {
   if (!hasSupabaseConfig) {
-    const interets = args.onboarding.interets?.join(", ") || "art";
-    return `Visitor interested in ${interets}, ${args.onboarding.niveau ?? "amateur"} level, prefers ${args.onboarding.allure ?? "medium"} explanations.`;
+    const detail = args.onboarding.free_text?.trim();
+    const knowledge = args.onboarding.knowledge ?? "comfortable";
+    const motivation = args.onboarding.motivation ?? "understand";
+    return detail
+      ? `${detail} — a ${knowledge} visitor who came to ${motivation}.`
+      : `A ${knowledge} visitor who came to ${motivation}.`;
   }
 
   const res = await fetch(`${BASE}/generate`, {
@@ -169,8 +178,8 @@ export async function generatePersona(args: PersonaArgs): Promise<string> {
       request_id: newRequestId(),
       mode: "persona",
       lang: args.lang,
-      onboarding: args.onboarding
-    })
+      onboarding: args.onboarding,
+    }),
   });
 
   if (!res.ok) {
@@ -295,8 +304,8 @@ export function askStream(args: AskArgs, handlers: AskHandlers): () => void {
       profile: args.profile,
       steering: args.steering,
       history: args.history ? capHistory(args.history) : undefined,
-      history_summary: args.historySummary ?? null
-    })
+      history_summary: args.historySummary ?? null,
+    }),
   );
 
   return () => {
@@ -334,13 +343,13 @@ export type FollowupsArgs = {
 };
 
 export async function generateFollowups(
-  args: FollowupsArgs
+  args: FollowupsArgs,
 ): Promise<string[]> {
   if (!hasSupabaseConfig) {
     return [
       "What technique did the artist use here?",
       "Who are the people in this scene?",
-      "What does this detail symbolize?"
+      "What does this detail symbolize?",
     ];
   }
 
@@ -354,8 +363,8 @@ export async function generateFollowups(
       hotspot_id: args.hotspotId ?? null,
       lang: args.lang,
       profile: args.profile,
-      history_summary: args.historySummary ?? null
-    })
+      history_summary: args.historySummary ?? null,
+    }),
   });
 
   if (!res.ok) {
@@ -368,7 +377,7 @@ export async function generateFollowups(
 
 function mockHotspotResponse(
   request_id: string,
-  args: GenerateHotspotsArgs
+  args: GenerateHotspotsArgs,
 ): HotspotResponse {
   return {
     type: "done",
@@ -378,21 +387,24 @@ function mockHotspotResponse(
       status: "ready",
       text: null,
       message: "mock: Supabase not configured",
-      sources: []
-    }))
+      sources: [],
+    })),
   };
 }
 
-/** Resolve the best text for a hotspot: generated text if ready, else the
- * locally stored narration_text seed. */
+/** Resolve hotspot text without mixing a local seed with the wrong TTS language. */
 export function resolveHotspotText(
   hotspot: Hotspot,
-  item: HotspotItem | undefined
-): string {
-  if (item && item.status === "ready" && item.text) {
-    return item.text;
+  item: HotspotItem | undefined,
+  lang: Lang,
+  allowSeedFallback = false,
+): string | null {
+  const generated = item?.text?.trim();
+  if (item?.status === "ready" && generated) {
+    return generated;
   }
-  return hotspot.narrationText;
+  const seed = hotspot.narrationText.trim();
+  return allowSeedFallback && lang === "fr" && seed ? seed : null;
 }
 
 export type SpeakArgs = {
@@ -421,8 +433,8 @@ export async function speak(args: SpeakArgs): Promise<SpeakResponse> {
       text: args.text,
       lang: args.lang,
       provider: args.provider ?? "auto",
-      speed: args.speed ?? 1
-    })
+      speed: args.speed ?? 1,
+    }),
   });
 
   if (!res.ok) {
@@ -437,7 +449,7 @@ function mockSpeakResponse(): SpeakResponse {
     audio_url: "",
     format: "mp3",
     duration_s: null,
-    engine: "mock"
+    engine: "mock",
   };
 }
 
@@ -466,7 +478,7 @@ export type TranscribeResponse = {
 
 /** `POST /transcribe` — voice → text (multipart). Blocks before a voice `ask`. */
 export async function transcribe(
-  args: TranscribeArgs
+  args: TranscribeArgs,
 ): Promise<TranscribeResponse> {
   if (!hasSupabaseConfig) {
     return { text: "", lang: args.langHint ?? null, duration_s: null };
@@ -476,7 +488,7 @@ export async function transcribe(
   appendFile(form, "audio", {
     uri: args.uri,
     name: args.name ?? "a.m4a",
-    type: args.mime ?? "audio/m4a"
+    type: args.mime ?? "audio/m4a",
   });
   if (args.langHint) {
     form.append("lang_hint", args.langHint);
@@ -485,7 +497,7 @@ export async function transcribe(
   const res = await fetch(`${BASE}/transcribe`, {
     method: "POST",
     headers: { Authorization: `Bearer ${ANON_KEY ?? ""}` },
-    body: form
+    body: form,
   });
 
   if (!res.ok) {
@@ -523,7 +535,7 @@ export async function identify(args: IdentifyArgs): Promise<IdentifyResponse> {
   appendFile(form, "image", {
     uri: args.uri,
     name: args.name ?? "p.jpg",
-    type: args.mime ?? "image/jpeg"
+    type: args.mime ?? "image/jpeg",
   });
   if (args.candidateIds?.length) {
     form.append("candidate_ids", args.candidateIds.join(","));
@@ -532,7 +544,7 @@ export async function identify(args: IdentifyArgs): Promise<IdentifyResponse> {
   const res = await fetch(`${BASE}/identify`, {
     method: "POST",
     headers: { Authorization: `Bearer ${ANON_KEY ?? ""}` },
-    body: form
+    body: form,
   });
 
   if (!res.ok) {

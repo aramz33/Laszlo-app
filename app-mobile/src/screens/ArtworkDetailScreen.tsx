@@ -1,4 +1,4 @@
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import {
   Dimensions,
   Image,
@@ -13,6 +13,7 @@ import { AudioDock } from "../components/AudioDock";
 import { ChatPanel } from "../components/ChatPanel";
 import { HotspotGlow } from "../components/HotspotGlow";
 import { SubtitleOverlay } from "../components/SubtitleOverlay";
+import { useChatSession } from "../context/ChatSessionContext";
 import { useLanguage } from "../context/LanguageContext";
 import type { Artwork } from "../domain/artwork";
 import { useAudioPlayer } from "../hooks/useAudioPlayer";
@@ -51,8 +52,25 @@ function useFittedRect(artwork: Artwork) {
 
 export function ArtworkDetailScreen({ artwork, onBack, profile }: Props) {
   const { lang } = useLanguage();
-  const hotspotTexts = useHotspotTexts({ artwork, lang, profile });
-  const overview = useOverview({ artworkId: artwork.id, lang, profile });
+  const chatSession = useChatSession();
+  // Capture visit memory at artwork-open time; later chat turns should not
+  // re-run the hotspot/overview generation while the visitor is on this work.
+  const openingHistorySummary = useMemo(
+    () => chatSession.getSessionSummary(),
+    [artwork.id, lang, profile],
+  );
+  const hotspotTexts = useHotspotTexts({
+    artwork,
+    lang,
+    profile,
+    historySummary: openingHistorySummary,
+  });
+  const overview = useOverview({
+    artworkId: artwork.id,
+    lang,
+    profile,
+    historySummary: openingHistorySummary,
+  });
   const audio = useAudioPlayer();
   const rect = useFittedRect(artwork);
 
@@ -60,6 +78,7 @@ export function ArtworkDetailScreen({ artwork, onBack, profile }: Props) {
   const [chatOpen, setChatOpen] = useState(false);
   const [chatHotspotId, setChatHotspotId] = useState<string | null>(null);
   const [spokenText, setSpokenText] = useState("");
+  const [pendingSpeechId, setPendingSpeechId] = useState<string | null>(null);
   const activeHotspotId =
     activeId && activeId !== OVERVIEW_ID ? activeId : null;
 
@@ -83,17 +102,75 @@ export function ArtworkDetailScreen({ artwork, onBack, profile }: Props) {
 
   const activeHotspot = artwork.hotspots.find((h) => h.id === activeHotspotId);
   const chatHotspot = artwork.hotspots.find((h) => h.id === chatHotspotId);
+  const canUseSeedFallback =
+    hotspotTexts.status === "fallback" || hotspotTexts.status === "error";
 
-  const activate = (id: string, text: string) => {
-    if (activeId === id) {
+  const textForHotspot = useCallback(
+    (hotspot: Artwork["hotspots"][number]) =>
+      resolveHotspotText(
+        hotspot,
+        hotspotTexts.items[hotspot.id],
+        lang,
+        canUseSeedFallback,
+      ),
+    [canUseSeedFallback, hotspotTexts.items, lang],
+  );
+
+  useEffect(() => {
+    setActiveId(null);
+    setPendingSpeechId(null);
+    setSpokenText("");
+    audio.stop();
+  }, [audio.stop, lang]);
+
+  useEffect(() => {
+    if (!pendingSpeechId || activeId !== pendingSpeechId) return;
+    const hotspot = artwork.hotspots.find((h) => h.id === pendingSpeechId);
+    if (!hotspot) return;
+    const text = textForHotspot(hotspot);
+    if (!text) return;
+    setPendingSpeechId(null);
+    speakText(text);
+  }, [activeId, artwork.hotspots, pendingSpeechId, speakText, textForHotspot]);
+
+  const clearSpeech = () => {
+    setSpokenText("");
+    setPendingSpeechId(null);
+    audio.stop();
+  };
+
+  const activateHotspot = (hotspot: Artwork["hotspots"][number]) => {
+    if (activeId === hotspot.id) {
       setActiveId(null);
-      setSpokenText("");
-      audio.stop();
+      clearSpeech();
       return;
     }
-    setActiveId(id);
+    setActiveId(hotspot.id);
+    if (chatOpen) {
+      setChatHotspotId(hotspot.id);
+      chat.refreshFollowups(hotspot.id);
+    }
+    const text = textForHotspot(hotspot);
     if (text) {
+      setPendingSpeechId(null);
       speakText(text);
+    } else {
+      setPendingSpeechId(hotspot.id);
+      setSpokenText("");
+      audio.stop();
+    }
+  };
+
+  const activateOverview = () => {
+    if (activeId === OVERVIEW_ID) {
+      setActiveId(null);
+      clearSpeech();
+      return;
+    }
+    setActiveId(OVERVIEW_ID);
+    setPendingSpeechId(null);
+    if (overview.status === "ready") {
+      speakText(overview.text);
     } else {
       setSpokenText("");
       audio.stop();
@@ -135,12 +212,7 @@ export function ArtworkDetailScreen({ artwork, onBack, profile }: Props) {
               x={hotspot.x}
               y={hotspot.y}
               active={activeId === hotspot.id}
-              onPress={() =>
-                activate(
-                  hotspot.id,
-                  resolveHotspotText(hotspot, hotspotTexts.items[hotspot.id]),
-                )
-              }
+              onPress={() => activateHotspot(hotspot)}
             />
           ))}
         </View>
@@ -167,19 +239,17 @@ export function ArtworkDetailScreen({ artwork, onBack, profile }: Props) {
         </Pressable>
         <Pressable
           style={[styles.pill, activeId === OVERVIEW_ID && styles.pillActive]}
-          onPress={() =>
-            activate(
-              OVERVIEW_ID,
-              overview.status === "ready" ? overview.text : "",
-            )
-          }
+          onPress={activateOverview}
         >
           <Text style={styles.pillText}>✦ THE ARTWORK</Text>
         </Pressable>
       </View>
 
       <View style={styles.caption} pointerEvents="none">
-        <Text style={styles.title}>{artwork.title}</Text>
+        <Text style={styles.title}>{artwork.originalTitle}</Text>
+        {artwork.englishTitle ? (
+          <Text style={styles.englishTitle}>{artwork.englishTitle}</Text>
+        ) : null}
         <Text style={styles.subtitle}>{artwork.subtitle}</Text>
       </View>
 
@@ -286,6 +356,14 @@ const styles = StyleSheet.create({
     color: colors.textMuted,
     fontFamily: fonts.serifRegular,
     fontSize: 15,
+    textShadowColor: "rgba(0,0,0,0.8)",
+    textShadowRadius: 12,
+  },
+  englishTitle: {
+    color: colors.text,
+    fontFamily: fonts.serifRegular,
+    fontSize: 17,
+    marginTop: 2,
     textShadowColor: "rgba(0,0,0,0.8)",
     textShadowRadius: 12,
   },

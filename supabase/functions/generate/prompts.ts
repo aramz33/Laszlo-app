@@ -14,7 +14,7 @@
 // skill/command, not a profile axis and not a steering field. `kid` is likewise a parked
 // profile flag for future kid features (unused). steering currently carries only `tone`.
 
-import type {HotspotRow} from "./lib.ts";
+import type { HotspotRow } from "./lib.ts";
 
 export type Profile = Record<string, unknown> | undefined;
 export type Steering = Record<string, unknown> | undefined;
@@ -61,8 +61,7 @@ export const DEPTH: Record<string, string> = {
 
 // --- System prompt (the templated one) --------------------------------------
 
-const SYSTEM_TPL =
-  `You are Laszlo, standing beside one visitor in front of an artwork — the museum guide everyone wishes they had: deeply knowledgeable, warm, and alive to exactly what makes a work worth looking at. You always speak in {{lang}}.
+const SYSTEM_TPL = `You are Laszlo, standing beside one visitor in front of an artwork — the museum guide everyone wishes they had: deeply knowledgeable, warm, and alive to exactly what makes a work worth looking at. You always speak in {{lang}}.
 
 WHAT YOU KNOW
 Your only knowledge of this artwork is the FACTS the user gives you. Speak them as your own knowledge, naturally — the visitor must never sense a source behind you.
@@ -80,7 +79,7 @@ HOW YOU SPEAK
 THIS VISITOR
 - {{motivation}}
 - {{knowledge}}
-- {{depth}}{{persona}}{{steering}}`;
+- {{depth}}{{ownWords}}{{steering}}`;
 
 /** System message: guide identity, grounding rule, museum voice, and the visitor profile. */
 export function systemPrompt(
@@ -88,11 +87,15 @@ export function systemPrompt(
   profile: Profile,
   steering: Steering,
 ): string {
-  const motivation = MOTIVATION[String(profile?.motivation)] ?? MOTIVATION.understand;
-  const knowledge = KNOWLEDGE[String(profile?.knowledge)] ?? KNOWLEDGE.comfortable;
+  const motivation =
+    MOTIVATION[String(profile?.motivation)] ?? MOTIVATION.understand;
+  const knowledge =
+    KNOWLEDGE[String(profile?.knowledge)] ?? KNOWLEDGE.comfortable;
   const depth = DEPTH[String(profile?.depth)] ?? DEPTH.standard;
-  const persona = profile?.persona_summary
-    ? `\n\nVisitor profile (honor it): ${profile.persona_summary}.`
+  const freeText =
+    typeof profile?.free_text === "string" ? profile.free_text.trim() : "";
+  const ownWords = freeText
+    ? `\n- In their own words, they told you: "${freeText}". Let it shape what you choose to dwell on, without inventing anything beyond it.`
     : "";
   const steer = steering?.tone ? `Adopt this tone: ${steering.tone}.` : "";
   const steeringLine = steer ? `\n\n${steer}` : "";
@@ -101,7 +104,7 @@ export function systemPrompt(
     motivation,
     knowledge,
     depth,
-    persona,
+    ownWords,
     steering: steeringLine,
   }).trim();
 }
@@ -114,7 +117,9 @@ export function hotspotPrompt(
   grounding: string,
   historySummary?: string | null,
 ): string {
-  const earlier = historySummary ? `Earlier in the visit: ${historySummary}\n\n` : "";
+  const earlier = historySummary
+    ? `Earlier in the visit: ${historySummary}\n\n`
+    : "";
   return `${earlier}${grounding}\n\nDraw the visitor's eye to this detail and bring it alive. Use this seed as the kernel of truth but say it in your own voice (never copy it verbatim), staying within the FACTS: "${h.narration_text}". Detail: ${h.title} (${h.aspect}).`;
 }
 
@@ -123,7 +128,9 @@ export function overviewPrompt(
   grounding: string,
   historySummary?: string | null,
 ): string {
-  const earlier = historySummary ? `Earlier in the visit: ${historySummary}\n\n` : "";
+  const earlier = historySummary
+    ? `Earlier in the visit: ${historySummary}\n\n`
+    : "";
   return `${earlier}${grounding}\n\nOpen the visit to this work. Begin with what first strikes the eye, then let who made it, when, and why it lingers emerge naturally — never as a label ("X, oil on canvas, by…"). Stay strictly within the FACTS. Speak of the work as a whole; leave zoomed-in details for the hotspots.`;
 }
 
@@ -139,20 +146,25 @@ export function askPrompt(
       `The visitor is pointing at a spot on the work (around x=${ctx.point.x}, y=${ctx.point.y}, normalized). ` +
       "Answer about what is likely there; if the FACTS don't pin down that area, answer about the work and say what you can. ";
   } else if (ctx?.hotspotId) {
-    where = "They're asking in the context of the detail they're currently looking at. ";
+    where =
+      "They're asking in the context of the detail they're currently looking at. ";
   }
   return `${grounding}\n\n${where}The visitor asks: "${question}"\n\nAnswer them directly and conversationally, only from the FACTS above. If the answer isn't there, say briefly you don't know rather than inventing. Don't repeat the question back.`;
 }
 
-/** Hidden onboarding persona call (no grounding): selections → a reusable 1–2 sentence persona. */
+/** Onboarding persona call (no grounding): selections → ONE warm human-facing note shown
+ * to the visitor on the reveal card. NOT injected into any system prompt — it is read copy,
+ * addressed directly to the visitor. Grounded strictly in the signals — true over imaginative. */
 export function personaPrompt(
   onboarding: Record<string, unknown>,
   lang: string,
 ): string {
-  return `In ONE short sentence (20 words max), capture the CHARACTER of this museum visitor — what draws their curiosity and how they like a work to come to them. Vivid and human; it may be shown to the visitor, so make it friendly and easy to read. Do NOT mention tone, length, pace or "level" (handled separately), and do NOT restate the raw options. Vary the opening and lead with what's distinctive about them — do NOT begin with "Quelqu'un", "Someone", "Un visiteur" or "Une personne". Write in ${lang}.
-Signals: motivation=${onboarding?.motivation ?? "?"}, knowledge=${
-    onboarding?.knowledge ?? "?"
-  }, in their words: "${onboarding?.free_text ?? "—"}".`;
+  const motivation = String(onboarding?.motivation ?? "?");
+  const knowledge = String(onboarding?.knowledge ?? "?");
+  const time = String(onboarding?.time ?? "?");
+  const freeText = String(onboarding?.free_text ?? "").trim() || "—";
+  return `In ${lang}, write one or two sentences spoken directly TO this museum visitor (address them as "you"), shown to them the moment their guide is ready — a warm, perceptive note that makes them feel seen. Stay classy and true: ground it strictly in the signals below, never invent a profession, interest, or trait they did not give, and if they gave words of their own, build on them concretely. If the signals are thin, stay simple and honest rather than embellishing — never gush or flatter. Do not quote the raw option words and do not mention "level", "length" or "pace".
+Signals — why they came: ${motivation}; how much art they know: ${knowledge}; time for the visit: ${time}; in their own words: "${freeText}".`;
 }
 
 /** Follow-up questions. Provider returns one per line; parseFollowups (lib.ts) cleans them. */
@@ -161,6 +173,8 @@ export function followupsPrompt(
   lang: string,
   historySummary?: string | null,
 ): string {
-  const earlier = historySummary ? `Conversation so far: ${historySummary}\n\n` : "";
+  const earlier = historySummary
+    ? `Conversation so far: ${historySummary}\n\n`
+    : "";
   return `${earlier}${grounding}\n\nSuggest exactly 3 questions THIS visitor would be curious to ask next about this work — grounded in what's above and shaped by their profile. Make them short, specific to this artwork (never generic like "what technique was used?"), varied (not three of the same kind), and written in the visitor's own voice as they'd actually say them. One per line, no numbering, no quotes, in ${lang}.`;
 }

@@ -18,8 +18,10 @@ import {
   View,
 } from "react-native";
 
+import { ArtworkRevealOverlay } from "./src/components/ArtworkRevealOverlay";
 import { DemoNav } from "./src/components/DemoNav";
 import { LanguagePill } from "./src/components/LanguagePill";
+import { ChatSessionProvider } from "./src/context/ChatSessionContext";
 import { LanguageProvider } from "./src/context/LanguageContext";
 import type { Artwork } from "./src/domain/artwork";
 import type { ArtworkIdentification } from "./src/domain/artworkIdentifier";
@@ -28,7 +30,6 @@ import { OnboardingScreen } from "./src/screens/OnboardingScreen";
 import { ScannerScreen } from "./src/screens/ScannerScreen";
 import { fetchArtworks } from "./src/services/artworks";
 import {
-  clearStoredProfile,
   loadStoredProfile,
   saveStoredProfile,
   type StoredProfile,
@@ -58,6 +59,7 @@ export default function App() {
     status: "loading",
   });
   const [selectedArtwork, setSelectedArtwork] = useState<Artwork | null>(null);
+  const [chatSessionNonce, setChatSessionNonce] = useState(0);
   // Last known profile, kept so the demo can step back into onboarding and
   // forward again without losing (or re-typing) the visitor's answers.
   const [rememberedProfile, setRememberedProfile] =
@@ -95,6 +97,7 @@ export default function App() {
   const handleOnboardingComplete = useCallback((stored: StoredProfile) => {
     saveStoredProfile(stored);
     setRememberedProfile(stored);
+    setChatSessionNonce((prev) => prev + 1);
     setProfileState({ status: "ready", stored });
   }, []);
 
@@ -121,7 +124,7 @@ export default function App() {
       // recomputing — START in onboarding is what recomputes the persona.
       const stored: StoredProfile = rememberedProfile ?? {
         lang: "fr",
-        answers: { interets: [] },
+        answers: {},
         profile: {},
       };
       setProfileState({ status: "ready", stored });
@@ -129,13 +132,6 @@ export default function App() {
       setSelectedArtwork(artworks[0]);
     }
   }, [profileState.status, rememberedProfile, selectedArtwork, artworks]);
-
-  const resetProfile = useCallback(() => {
-    clearStoredProfile();
-    setRememberedProfile(null);
-    setSelectedArtwork(null);
-    setProfileState({ status: "onboarding" });
-  }, []);
 
   const canBack = stepIndex > 0;
   const canForward =
@@ -161,66 +157,67 @@ export default function App() {
 
   return (
     <LanguageProvider initialLang={initialLang}>
-      <SafeAreaView style={styles.root}>
-        <StatusBar style="light" />
-        {profileState.status === "onboarding" ? (
-          <OnboardingScreen
-            onComplete={handleOnboardingComplete}
-            initialAnswers={rememberedProfile?.answers}
-          />
-        ) : (
-          <>
-            {load.status === "ready" ? (
-              <View style={styles.hud} pointerEvents="box-none">
-                <LanguagePill />
-              </View>
-            ) : null}
-            {load.status === "loading" ? (
-              <View style={styles.center}>
-                <ActivityIndicator color={colors.accent} />
-                <Text style={styles.centerText}>Loading artworks…</Text>
-              </View>
-            ) : load.status === "error" ? (
-              <View style={styles.center}>
-                <Text style={styles.errorTitle}>Could not load artworks</Text>
-                <Text style={styles.centerText}>{load.message}</Text>
-                <Pressable style={styles.retryButton} onPress={loadArtworks}>
-                  <Text style={styles.retryText}>Retry</Text>
-                </Pressable>
-              </View>
-            ) : selectedArtwork ? (
-              <ArtworkDetailScreen
-                artwork={selectedArtwork}
-                onBack={() => setSelectedArtwork(null)}
-                profile={profile}
-              />
-            ) : (
-              <>
-                {!hasSupabaseConfig ? (
-                  <View style={styles.sampleBanner}>
-                    <Text style={styles.sampleBannerText}>
-                      SAMPLE MODE — SET EXPO_PUBLIC_SUPABASE_ANON_KEY FOR LIVE
-                      DATA
-                    </Text>
-                  </View>
-                ) : null}
-                <ScannerScreen
-                  artworks={load.artworks}
-                  onIdentify={handleIdentify}
+      <ChatSessionProvider key={chatSessionNonce}>
+        <SafeAreaView style={styles.root}>
+          <StatusBar style="light" />
+          {profileState.status === "onboarding" ? (
+            <OnboardingScreen
+              onComplete={handleOnboardingComplete}
+              initialAnswers={rememberedProfile?.answers}
+            />
+          ) : (
+            <>
+              {load.status === "ready" ? (
+                <View style={styles.hud} pointerEvents="box-none">
+                  <LanguagePill />
+                </View>
+              ) : null}
+              {load.status === "loading" ? (
+                <View style={styles.center}>
+                  <ActivityIndicator color={colors.accent} />
+                  <Text style={styles.centerText}>Loading artworks…</Text>
+                </View>
+              ) : load.status === "error" ? (
+                <View style={styles.center}>
+                  <Text style={styles.errorTitle}>Could not load artworks</Text>
+                  <Text style={styles.centerText}>{load.message}</Text>
+                  <Pressable style={styles.retryButton} onPress={loadArtworks}>
+                    <Text style={styles.retryText}>Retry</Text>
+                  </Pressable>
+                </View>
+              ) : selectedArtwork ? (
+                <ArtworkDetailScreen
+                  artwork={selectedArtwork}
+                  onBack={() => setSelectedArtwork(null)}
+                  profile={profile}
                 />
-              </>
-            )}
-          </>
-        )}
-        <DemoNav
-          stepIndex={stepIndex}
-          canBack={canBack}
-          canForward={canForward}
-          onBack={goBack}
-          onForward={goForward}
-          onResetProfile={resetProfile}
-        />
-      </SafeAreaView>
+              ) : (
+                <>
+                  {!hasSupabaseConfig ? (
+                    <View style={styles.sampleBanner}>
+                      <Text style={styles.sampleBannerText}>
+                        SAMPLE MODE — SET EXPO_PUBLIC_SUPABASE_ANON_KEY FOR LIVE
+                        DATA
+                      </Text>
+                    </View>
+                  ) : null}
+                  <ScannerScreen
+                    artworks={load.artworks}
+                    onIdentify={handleIdentify}
+                  />
+                </>
+              )}
+            </>
+          )}
+          <DemoNav
+            canBack={canBack}
+            canForward={canForward}
+            onBack={goBack}
+            onForward={goForward}
+          />
+          <ArtworkRevealOverlay artwork={selectedArtwork} onDone={() => {}} />
+        </SafeAreaView>
+      </ChatSessionProvider>
     </LanguageProvider>
   );
 }

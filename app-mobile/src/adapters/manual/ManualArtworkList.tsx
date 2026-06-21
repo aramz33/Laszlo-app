@@ -19,7 +19,10 @@ export function ManualArtworkList({ artworks, onIdentify }: Props) {
           onPress={() => onIdentify({ artwork, source: "manual" })}
         >
           <View>
-            <Text style={styles.title}>{artwork.title}</Text>
+            <Text style={styles.title}>{artwork.originalTitle}</Text>
+            {artwork.englishTitle ? (
+              <Text style={styles.englishTitle}>{artwork.englishTitle}</Text>
+            ) : null}
             <Text style={styles.meta}>{artwork.subtitle}</Text>
           </View>
         </Pressable>
@@ -50,5 +53,11 @@ const styles = StyleSheet.create({
     fontFamily: fonts.serifRegular,
     fontSize: 14,
     marginTop: 3
+  },
+  englishTitle: {
+    color: colors.text,
+    fontFamily: fonts.serifRegular,
+    fontSize: 14,
+    marginTop: 2
   }
 });

@@ -1,31 +1,20 @@
 import { Pressable, StyleSheet, Text, View } from "react-native";
 
-import { colors, fonts, radii } from "../theme";
-
-export const FLOW_STEPS = ["Onboarding", "Scanner", "Artwork"] as const;
+import { colors } from "../theme";
 
 type Props = {
-  stepIndex: number;
   canBack: boolean;
   canForward: boolean;
   onBack: () => void;
   onForward: () => void;
-  onResetProfile: () => void;
 };
 
 /**
  * Demo-only flow control: step continuously back and forward across
- * onboarding → scanner → artwork, plus a one-tap profile reset to replay
- * onboarding without reinstalling. Pinned at the bottom, non-blocking.
+ * onboarding → scanner → artwork. ◀ ▶ are the only controls. Pinned at the
+ * bottom corners, non-blocking.
  */
-export function DemoNav({
-  stepIndex,
-  canBack,
-  canForward,
-  onBack,
-  onForward,
-  onResetProfile,
-}: Props) {
+export function DemoNav({ canBack, canForward, onBack, onForward }: Props) {
   return (
     <View style={styles.wrap} pointerEvents="box-none">
       <Pressable
@@ -44,14 +33,6 @@ export function DemoNav({
         hitSlop={10}
       >
         <Text style={styles.arrowText}>◀</Text>
-      </Pressable>
-
-      <Pressable
-        style={[styles.reset, stepIndex === 2 && styles.resetArtwork]}
-        onPress={onResetProfile}
-        hitSlop={8}
-      >
-        <Text style={styles.resetText}>⟳ {FLOW_STEPS[stepIndex] ?? "—"}</Text>
       </Pressable>
     </View>
   );
@@ -96,19 +77,5 @@ const styles = StyleSheet.create({
   arrowText: {
     color: colors.accent,
     fontSize: 14,
-  },
-  reset: {
-    position: "absolute",
-    bottom: 44,
-    alignSelf: "center",
-  },
-  resetArtwork: {
-    bottom: 86,
-  },
-  resetText: {
-    color: colors.textFaint,
-    fontFamily: fonts.mono,
-    fontSize: 9,
-    letterSpacing: 1,
   },
 });

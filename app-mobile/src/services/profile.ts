@@ -11,14 +11,16 @@ import type { Lang, Profile } from "./runtime";
 
 const STORAGE_KEY = "laszlo.profile.v1";
 
-export type Allure = "court" | "moyen" | "long";
-export type Niveau = "debutant" | "amateur" | "expert";
-export type Interet = "technique" | "people" | "stories" | "symbols";
+export type Motivation = "contemplate" | "understand" | "stories";
+export type Knowledge = "newcomer" | "comfortable" | "expert";
+export type Depth = "quick" | "standard" | "deep";
+export type VisitTime = "short" | "medium" | "long";
 
 export type OnboardingAnswers = {
-  allure?: Allure;
-  niveau?: Niveau;
-  interets: Interet[];
+  motivation?: Motivation;
+  knowledge?: Knowledge;
+  depth?: Depth;
+  time?: VisitTime;
   free_text?: string;
 };
 

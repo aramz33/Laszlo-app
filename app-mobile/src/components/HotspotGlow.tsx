@@ -10,8 +10,7 @@ type Props = {
   onPress: () => void;
 };
 
-/** A small point of light over the artwork. Pulses gently; the active one glows
- * brighter and larger. Pure Animated core — no native gesture/SVG dependency. */
+/** Small, precise tap target; aura is visual only so nearby hotspots don't steal taps. */
 export function HotspotGlow({ x, y, active, onPress }: Props) {
   const pulse = useRef(new Animated.Value(0)).current;
 
@@ -22,52 +21,77 @@ export function HotspotGlow({ x, y, active, onPress }: Props) {
           toValue: 1,
           duration: 1100,
           easing: Easing.inOut(Easing.ease),
-          useNativeDriver: true
+          useNativeDriver: true,
         }),
         Animated.timing(pulse, {
           toValue: 0,
           duration: 1100,
           easing: Easing.inOut(Easing.ease),
-          useNativeDriver: true
-        })
-      ])
+          useNativeDriver: true,
+        }),
+      ]),
     );
     loop.start();
     return () => loop.stop();
   }, [pulse]);
 
-  const scale = pulse.interpolate({
+  const coreScale = pulse.interpolate({
     inputRange: [0, 1],
-    outputRange: active ? [1, 1.5] : [0.85, 1.15]
+    outputRange: [0.92, 1.06],
   });
-  const haloOpacity = pulse.interpolate({
+  const innerScale = pulse.interpolate({
     inputRange: [0, 1],
-    outputRange: active ? [0.45, 0.12] : [0.28, 0.06]
+    outputRange: [0.94, 1.16],
+  });
+  const outerScale = pulse.interpolate({
+    inputRange: [0, 1],
+    outputRange: [0.86, 1.32],
+  });
+  const innerOpacity = pulse.interpolate({
+    inputRange: [0, 1],
+    outputRange: active ? [0.65, 0.26] : [0.42, 0.14],
+  });
+  const outerOpacity = pulse.interpolate({
+    inputRange: [0, 1],
+    outputRange: active ? [0.42, 0.06] : [0.28, 0.04],
   });
 
   return (
     <Pressable
       onPress={onPress}
-      hitSlop={16}
+      accessibilityRole="button"
       style={[styles.hit, { left: `${x * 100}%`, top: `${y * 100}%` }]}
     >
       <Animated.View
+        pointerEvents="none"
         style={[
-          styles.halo,
-          active && styles.haloActive,
-          { opacity: haloOpacity, transform: [{ scale }] }
+          styles.auraOuter,
+          { opacity: outerOpacity, transform: [{ scale: outerScale }] },
         ]}
       />
       <Animated.View
-        style={[styles.core, active && styles.coreActive, { transform: [{ scale }] }]}
+        pointerEvents="none"
+        style={[
+          styles.auraInner,
+          { opacity: innerOpacity, transform: [{ scale: innerScale }] },
+        ]}
+      />
+      <Animated.View
+        pointerEvents="none"
+        style={[
+          styles.core,
+          active && styles.coreActive,
+          { transform: [{ scale: coreScale }] },
+        ]}
       />
     </Pressable>
   );
 }
 
-const HIT = 44;
-const CORE = 14;
-const HALO = 40;
+const HIT = 24;
+const CORE = 8;
+const AURA_INNER = 24;
+const AURA_OUTER = 42;
 
 const styles = StyleSheet.create({
   hit: {
@@ -77,34 +101,41 @@ const styles = StyleSheet.create({
     marginLeft: -HIT / 2,
     marginTop: -HIT / 2,
     alignItems: "center",
-    justifyContent: "center"
+    justifyContent: "center",
+    overflow: "visible",
   },
-  halo: {
+  auraOuter: {
     position: "absolute",
-    width: HALO,
-    height: HALO,
-    borderRadius: HALO / 2,
-    backgroundColor: colors.accent
+    width: AURA_OUTER,
+    height: AURA_OUTER,
+    borderRadius: AURA_OUTER / 2,
+    borderColor: colors.accent,
+    borderStyle: "dashed",
+    borderWidth: 1,
   },
-  haloActive: {
-    width: HALO * 1.3,
-    height: HALO * 1.3,
-    borderRadius: (HALO * 1.3) / 2
+  auraInner: {
+    position: "absolute",
+    width: AURA_INNER,
+    height: AURA_INNER,
+    borderRadius: AURA_INNER / 2,
+    borderColor: colors.text,
+    borderStyle: "dashed",
+    borderWidth: 1,
   },
   core: {
     width: CORE,
     height: CORE,
     borderRadius: CORE / 2,
     backgroundColor: colors.accent,
+    borderColor: colors.text,
+    borderWidth: 1,
     shadowColor: colors.accent,
     shadowOpacity: 0.9,
     shadowRadius: 12,
-    shadowOffset: { width: 0, height: 0 }
+    shadowOffset: { width: 0, height: 0 },
   },
   coreActive: {
-    width: CORE + 4,
-    height: CORE + 4,
-    borderRadius: (CORE + 4) / 2,
-    backgroundColor: colors.text
-  }
+    backgroundColor: colors.text,
+    borderColor: colors.accent,
+  },
 });
