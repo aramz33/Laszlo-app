@@ -1,47 +1,49 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
   ActivityIndicator,
   Pressable,
+  ScrollView,
   StyleSheet,
   Text,
   TextInput,
   View
 } from "react-native";
 
-import { useChat } from "../hooks/useChat";
+import type { AskOptions, ChatMessage } from "../hooks/useChat";
 import { useVoiceInput } from "../hooks/useVoiceInput";
-import type { Lang, Point, Profile, Steering } from "../services/runtime";
+import type { Lang, Point } from "../services/runtime";
 import { hasSupabaseConfig } from "../services/supabase";
 import { colors, fonts, radii } from "../theme";
 
 type Props = {
-  artworkId: string;
   lang: Lang;
-  profile?: Profile;
-  steering?: Steering;
-  hotspotId?: string | null;
+  messages: ChatMessage[];
+  followups: string[];
+  busy: boolean;
+  onAsk: (question: string, options?: AskOptions) => void;
   point?: Point | null;
 };
 
 export function ChatPanel({
-  artworkId,
   lang,
-  profile,
-  steering,
-  hotspotId,
+  messages,
+  followups,
+  busy,
+  onAsk,
   point
 }: Props) {
-  const { messages, followups, busy, ask } = useChat({
-    artworkId,
-    lang,
-    profile,
-    steering
-  });
   const voice = useVoiceInput(lang);
   const [draft, setDraft] = useState("");
+  const scrollRef = useRef<ScrollView>(null);
+
+  useEffect(() => {
+    scrollRef.current?.scrollToEnd({ animated: true });
+  }, [messages]);
 
   const send = (question: string) => {
-    ask(question, { hotspotId, point });
+    const trimmed = question.trim();
+    if (!trimmed) return;
+    onAsk(trimmed, { point });
     setDraft("");
   };
 
@@ -49,7 +51,7 @@ export function ChatPanel({
     if (voice.state === "recording") {
       const text = await voice.stop();
       if (text) {
-        send(text);
+        setDraft((prev) => (prev.trim() ? `${prev.trim()} ${text}` : text));
       }
     } else if (voice.state === "idle") {
       await voice.start();
@@ -65,42 +67,58 @@ export function ChatPanel({
 
   return (
     <View style={styles.root}>
-      <Text style={styles.sectionTitle}>Ask</Text>
+      <ScrollView
+        ref={scrollRef}
+        style={styles.messages}
+        contentContainerStyle={styles.messagesContent}
+        showsVerticalScrollIndicator={false}
+      >
+        {messages.map((m) => (
+          <View
+            key={m.id}
+            style={[
+              styles.bubble,
+              m.role === "user" ? styles.userBubble : styles.assistantBubble
+            ]}
+          >
+            {m.role === "assistant" ? (
+              (m.content || (m.streaming ? "…" : ""))
+                .split(/\n+/)
+                .filter(Boolean)
+                .map((paragraph, index) => (
+                  <Text
+                    key={`${m.id}-${index}`}
+                    style={[
+                      styles.assistantText,
+                      index > 0 && styles.paragraph
+                    ]}
+                  >
+                    {paragraph.trim()}
+                  </Text>
+                ))
+            ) : (
+              <Text style={styles.userText}>{m.content}</Text>
+            )}
+            {m.streaming ? (
+              <ActivityIndicator
+                size="small"
+                color={colors.accent}
+                style={styles.streamingDot}
+              />
+            ) : null}
+          </View>
+        ))}
 
-      {messages.map((m) => (
-        <View
-          key={m.id}
-          style={[
-            styles.bubble,
-            m.role === "user" ? styles.userBubble : styles.assistantBubble
-          ]}
-        >
-          <Text style={m.role === "user" ? styles.userText : styles.assistantText}>
-            {m.content || (m.streaming ? "…" : "")}
-          </Text>
-          {m.streaming ? (
-            <ActivityIndicator
-              size="small"
-              color={colors.accent}
-              style={styles.streamingDot}
-            />
-          ) : null}
-        </View>
-      ))}
-
-      {followups.length > 0 && !busy ? (
-        <View style={styles.followups}>
-          {followups.map((q) => (
-            <Pressable
-              key={q}
-              style={styles.chip}
-              onPress={() => send(q)}
-            >
-              <Text style={styles.chipText}>{q}</Text>
-            </Pressable>
-          ))}
-        </View>
-      ) : null}
+        {followups.length > 0 && !busy ? (
+          <View style={styles.followups}>
+            {followups.map((q) => (
+              <Pressable key={q} style={styles.chip} onPress={() => send(q)}>
+                <Text style={styles.chipText}>{q}</Text>
+              </Pressable>
+            ))}
+          </View>
+        ) : null}
+      </ScrollView>
 
       <View style={styles.inputRow}>
         <TextInput
@@ -143,12 +161,15 @@ export function ChatPanel({
 
 const styles = StyleSheet.create({
   root: {
+    flex: 1,
     gap: 10
   },
-  sectionTitle: {
-    color: colors.text,
-    fontFamily: fonts.serifSemibold,
-    fontSize: 19
+  messages: {
+    flex: 1
+  },
+  messagesContent: {
+    gap: 10,
+    paddingBottom: 8
   },
   bubble: {
     borderRadius: radii.md,
@@ -157,13 +178,13 @@ const styles = StyleSheet.create({
   },
   userBubble: {
     alignSelf: "flex-end",
-    backgroundColor: colors.accentSoft,
+    backgroundColor: "rgba(216, 176, 106, 0.2)",
     borderColor: colors.accent,
     borderWidth: 1
   },
   assistantBubble: {
     alignSelf: "flex-start",
-    backgroundColor: colors.glass,
+    backgroundColor: "rgba(8, 6, 4, 0.32)",
     borderColor: colors.hairline,
     borderWidth: 1
   },
@@ -178,6 +199,9 @@ const styles = StyleSheet.create({
     fontFamily: fonts.serifRegular,
     fontSize: 15,
     lineHeight: 22
+  },
+  paragraph: {
+    marginTop: 8
   },
   streamingDot: {
     marginTop: 6,
@@ -194,7 +218,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     paddingHorizontal: 13,
     paddingVertical: 8,
-    backgroundColor: colors.glass
+    backgroundColor: "rgba(8, 6, 4, 0.28)"
   },
   chipText: {
     color: colors.text,
@@ -215,7 +239,8 @@ const styles = StyleSheet.create({
     paddingVertical: 11,
     color: colors.text,
     fontFamily: fonts.serifRegular,
-    fontSize: 15
+    fontSize: 15,
+    backgroundColor: "rgba(8, 6, 4, 0.28)"
   },
   micButton: {
     width: 44,

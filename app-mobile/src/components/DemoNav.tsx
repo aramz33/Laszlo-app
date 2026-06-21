@@ -46,7 +46,11 @@ export function DemoNav({
         <Text style={styles.arrowText}>◀</Text>
       </Pressable>
 
-      <Pressable style={styles.reset} onPress={onResetProfile} hitSlop={8}>
+      <Pressable
+        style={[styles.reset, stepIndex === 2 && styles.resetArtwork]}
+        onPress={onResetProfile}
+        hitSlop={8}
+      >
         <Text style={styles.resetText}>⟳ {FLOW_STEPS[stepIndex] ?? "—"}</Text>
       </Pressable>
     </View>
@@ -97,6 +101,9 @@ const styles = StyleSheet.create({
     position: "absolute",
     bottom: 44,
     alignSelf: "center",
+  },
+  resetArtwork: {
+    bottom: 86,
   },
   resetText: {
     color: colors.textFaint,

@@ -1,8 +1,7 @@
-import { useMemo, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
 import {
   Dimensions,
   Image,
-  Modal,
   Pressable,
   ScrollView,
   StyleSheet,
@@ -17,6 +16,7 @@ import { SubtitleOverlay } from "../components/SubtitleOverlay";
 import { useLanguage } from "../context/LanguageContext";
 import type { Artwork } from "../domain/artwork";
 import { useAudioPlayer } from "../hooks/useAudioPlayer";
+import { useChat } from "../hooks/useChat";
 import { useHotspotTexts } from "../hooks/useHotspotTexts";
 import { useOverview } from "../hooks/useOverview";
 import { resolveHotspotText, type Profile } from "../services/runtime";
@@ -58,38 +58,63 @@ export function ArtworkDetailScreen({ artwork, onBack, profile }: Props) {
 
   const [activeId, setActiveId] = useState<string | null>(null);
   const [chatOpen, setChatOpen] = useState(false);
+  const [chatHotspotId, setChatHotspotId] = useState<string | null>(null);
+  const [spokenText, setSpokenText] = useState("");
+  const activeHotspotId =
+    activeId && activeId !== OVERVIEW_ID ? activeId : null;
 
-  const activeText = useMemo(() => {
-    if (activeId === OVERVIEW_ID) {
-      return overview.status === "ready" ? overview.text : "";
-    }
-    const hotspot = artwork.hotspots.find((h) => h.id === activeId);
-    if (!hotspot) return "";
-    return resolveHotspotText(hotspot, hotspotTexts.items[hotspot.id]);
-  }, [activeId, artwork.hotspots, hotspotTexts.items, overview]);
+  const speakText = useCallback(
+    (text: string) => {
+      const trimmed = text.trim();
+      if (!trimmed) return;
+      setSpokenText(trimmed);
+      audio.play({ text: trimmed, lang });
+    },
+    [audio.play, lang],
+  );
+
+  const chat = useChat({
+    artworkId: artwork.id,
+    lang,
+    profile,
+    hotspotId: chatHotspotId,
+    onAnswer: speakText,
+  });
+
+  const activeHotspot = artwork.hotspots.find((h) => h.id === activeHotspotId);
+  const chatHotspot = artwork.hotspots.find((h) => h.id === chatHotspotId);
 
   const activate = (id: string, text: string) => {
     if (activeId === id) {
       setActiveId(null);
+      setSpokenText("");
       audio.stop();
       return;
     }
     setActiveId(id);
     if (text) {
-      audio.play({ text, lang });
+      speakText(text);
     } else {
+      setSpokenText("");
       audio.stop();
     }
   };
 
   const handleBack = () => {
     audio.stop();
+    setSpokenText("");
     onBack();
   };
 
-  const subtitleVisible = activeId !== null && audio.status !== "idle";
-  const activeHotspotId =
-    activeId && activeId !== OVERVIEW_ID ? activeId : null;
+  const subtitleVisible = spokenText.trim().length > 0 && audio.status !== "idle";
+
+  const openChat = () => {
+    setChatHotspotId(activeHotspotId);
+    chat.refreshFollowups(activeHotspotId);
+    setChatOpen(true);
+  };
+
+  const closeChat = () => setChatOpen(false);
 
   return (
     <View style={styles.root}>
@@ -122,12 +147,12 @@ export function ArtworkDetailScreen({ artwork, onBack, profile }: Props) {
       </ScrollView>
 
       <SubtitleOverlay
-        text={activeText}
+        text={spokenText}
         progress={audio.progress}
         visible={subtitleVisible}
       />
 
-      {activeId !== null ? (
+      {audio.status !== "idle" ? (
         <AudioDock
           status={audio.status}
           rate={audio.rate}
@@ -158,33 +183,42 @@ export function ArtworkDetailScreen({ artwork, onBack, profile }: Props) {
         <Text style={styles.subtitle}>{artwork.subtitle}</Text>
       </View>
 
-      <Pressable style={styles.askButton} onPress={() => setChatOpen(true)}>
-        <Text style={styles.askText}>ASK ?</Text>
-      </Pressable>
-
-      <Modal
-        visible={chatOpen}
-        animationType="slide"
-        transparent
-        onRequestClose={() => setChatOpen(false)}
-      >
-        <View style={styles.modalBackdrop}>
-          <View style={styles.modalSheet}>
-            <Pressable
-              style={styles.modalClose}
-              onPress={() => setChatOpen(false)}
-            >
-              <Text style={styles.pillText}>CLOSE ✕</Text>
-            </Pressable>
-            <ChatPanel
-              artworkId={artwork.id}
-              lang={lang}
-              profile={profile}
-              hotspotId={activeHotspotId}
-            />
-          </View>
+      {!chatOpen ? (
+        <View style={styles.askDock} pointerEvents="box-none">
+          <Pressable style={styles.askButton} onPress={openChat}>
+            <Text style={styles.askText}>
+              {activeHotspot ? "ASK DETAIL" : "ASK ARTWORK"}
+            </Text>
+          </Pressable>
         </View>
-      </Modal>
+      ) : null}
+
+      {chatOpen ? (
+        <View style={styles.chatSheet}>
+          <View style={styles.chatHeader}>
+            <Text style={styles.chatTitle}>
+              {chatHotspot
+                ? `Ask this detail: ${chatHotspot.title}`
+                : "Ask the artwork"}
+            </Text>
+            <Pressable
+              style={styles.closeButton}
+              onPress={closeChat}
+            >
+              <Text style={styles.pillText}>CLOSE</Text>
+            </Pressable>
+          </View>
+          <ChatPanel
+            lang={lang}
+            messages={chat.messages}
+            followups={chat.followups}
+            busy={chat.busy}
+            onAsk={(question, options) =>
+              chat.ask(question, { ...options, hotspotId: chatHotspotId })
+            }
+          />
+        </View>
+      ) : null}
     </View>
   );
 }
@@ -236,7 +270,7 @@ const styles = StyleSheet.create({
   },
   caption: {
     position: "absolute",
-    bottom: 92,
+    bottom: 118,
     left: 18,
     right: 18,
     zIndex: 10,
@@ -255,15 +289,21 @@ const styles = StyleSheet.create({
     textShadowColor: "rgba(0,0,0,0.8)",
     textShadowRadius: 12,
   },
-  askButton: {
+  askDock: {
     position: "absolute",
-    top: "48%",
-    right: 14,
+    left: 72,
+    right: 72,
+    bottom: 34,
+    alignItems: "center",
+    zIndex: 25,
+  },
+  askButton: {
     borderRadius: radii.pill,
-    paddingHorizontal: 18,
+    paddingHorizontal: 16,
     paddingVertical: 13,
     backgroundColor: colors.accent,
-    zIndex: 25,
+    minWidth: 136,
+    alignItems: "center",
   },
   askText: {
     color: colors.onAccent,
@@ -271,22 +311,33 @@ const styles = StyleSheet.create({
     fontSize: 12,
     letterSpacing: 1,
   },
-  modalBackdrop: {
-    flex: 1,
-    backgroundColor: "rgba(0,0,0,0.5)",
-    justifyContent: "flex-end",
-  },
-  modalSheet: {
-    backgroundColor: colors.bgMid,
-    borderTopLeftRadius: radii.lg,
-    borderTopRightRadius: radii.lg,
-    padding: 18,
-    paddingBottom: 36,
+  chatSheet: {
+    position: "absolute",
+    left: 12,
+    right: 12,
+    bottom: 92,
+    height: "56%",
+    backgroundColor: "rgba(8, 6, 4, 0.34)",
+    borderColor: colors.hairline,
+    borderWidth: 1,
+    borderRadius: radii.lg,
+    padding: 14,
     gap: 12,
-    maxHeight: "80%",
+    zIndex: 24,
   },
-  modalClose: {
-    alignSelf: "flex-end",
+  chatHeader: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    gap: 10,
+  },
+  chatTitle: {
+    color: colors.text,
+    flex: 1,
+    fontFamily: fonts.serifSemibold,
+    fontSize: 20,
+  },
+  closeButton: {
     borderColor: colors.hairlineStrong,
     borderRadius: radii.pill,
     borderWidth: 1,
