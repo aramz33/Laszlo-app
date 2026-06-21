@@ -7,12 +7,14 @@ import { assert, assertEquals } from "jsr:@std/assert@1";
 import {
   askPrompt,
   buildGrounding,
-  capText,
+  fitToBudget,
   followupsPrompt,
   hotspotPrompt,
   noticesToSources,
   overviewPrompt,
   parseFollowups,
+  selectPivotNotices,
+  stripNoiseSections,
   stubFollowups,
   stubHotspotText,
   stubOverviewText,
@@ -60,7 +62,7 @@ Deno.test("parseFollowups strips numbering/bullets and caps at 3", () => {
   assertEquals(parseFollowups("\n\n"), []);
 });
 
-Deno.test("buildGrounding labels notices by source/lang and caps length", () => {
+Deno.test("buildGrounding labels notices by source/lang and passes short text in full", () => {
   const g = buildGrounding([{
     id: "n",
     lang: "en",
@@ -68,7 +70,16 @@ Deno.test("buildGrounding labels notices by source/lang and caps length", () => 
     text: "x".repeat(5000),
   }]);
   assert(g.includes("[rijks/en]"));
-  assert(g.includes("…")); // long notice was truncated
+  assert(!g.includes("…")); // 5k chars is under the 32k budget — no truncation
+});
+
+Deno.test("buildGrounding trims an over-budget notice at a section boundary", () => {
+  const huge = "lead.\n" +
+    Array.from({ length: 50 }, (_, i) => `== Section ${i} ==\n${"y".repeat(1000)}`)
+      .join("\n");
+  const g = buildGrounding([{ id: "n", lang: "en", source: "wikipedia", text: huge }]);
+  assert(g.length < huge.length, "over-budget notice should be trimmed");
+  assert(g.includes("…"), "trim marker missing");
 });
 
 Deno.test("stubOverviewText contains the lang tag", () => {
@@ -97,17 +108,55 @@ Deno.test("stubPersona reflects the onboarding selections", () => {
   );
 });
 
-// --- capText ----------------------------------------------------------------
+// --- grounding shaping (strip / fit / pivot) --------------------------------
 
-Deno.test("capText truncates long text and appends an ellipsis", () => {
-  const long = "a".repeat(4000);
-  const out = capText(long);
-  assert(out.length < long.length);
-  assert(out.endsWith("…"));
+Deno.test("stripNoiseSections drops boilerplate sections but keeps the lead and content", () => {
+  const text =
+    "Lead paragraph.\n== History ==\nReal content.\n== References ==\n[1] junk\n== External links ==\nhttp://x";
+  const out = stripNoiseSections(text);
+  assert(out.includes("Lead paragraph."), "lead dropped");
+  assert(out.includes("Real content."), "content section dropped");
+  assert(!out.includes("junk"), "references not stripped");
+  assert(!out.toLowerCase().includes("external links"), "external links not stripped");
 });
 
-Deno.test("capText leaves short text unchanged", () => {
-  assertEquals(capText("short"), "short");
+Deno.test("stripNoiseSections strips Dutch boilerplate headings too", () => {
+  const out = stripNoiseSections("Lead.\n== Zie ook ==\nx\n== Externe links ==\ny");
+  assertEquals(out, "Lead.");
+});
+
+Deno.test("fitToBudget returns short text unchanged", () => {
+  assertEquals(fitToBudget("short", 32000), "short");
+});
+
+Deno.test("fitToBudget keeps whole sections only (never mid-section) and marks the trim", () => {
+  const text = "lead\n" +
+    Array.from({ length: 10 }, (_, i) => `== S${i} ==\n${"z".repeat(100)}`).join("\n");
+  const out = fitToBudget(text, 250);
+  assert(out.length <= text.length);
+  assert(out.endsWith("…"), "trim marker missing");
+  // No partial section body: every 'z' run that appears is the full 100 chars.
+  for (const run of out.match(/z+/g) ?? []) assertEquals(run.length, 100);
+});
+
+Deno.test("selectPivotNotices prefers EN when an EN wikipedia notice exists", () => {
+  const notices = [
+    { id: "1", lang: "en", source: "rijks", text: "a" },
+    { id: "2", lang: "nl", source: "rijks", text: "b" },
+    { id: "3", lang: "en", source: "wikipedia", text: "c" },
+    { id: "4", lang: "nl", source: "wikipedia", text: "d" },
+  ];
+  const out = selectPivotNotices(notices);
+  assertEquals(out.map((n) => n.id), ["1", "3"]); // only EN, both sources
+});
+
+Deno.test("selectPivotNotices falls back to NL when no EN wikipedia exists", () => {
+  const notices = [
+    { id: "1", lang: "en", source: "rijks", text: "a" },
+    { id: "2", lang: "nl", source: "wikipedia", text: "d" },
+  ];
+  const out = selectPivotNotices(notices);
+  assertEquals(out.map((n) => n.id), ["2"]); // pivot to the language that has the article
 });
 
 // --- systemPrompt -----------------------------------------------------------

@@ -33,6 +33,7 @@ import {
   overviewPrompt,
   parseFollowups,
   personaPrompt,
+  selectPivotNotices,
   stubFollowups,
   stubHotspotText,
   stubOverviewText,
@@ -142,7 +143,9 @@ export async function handle(
   if (!artwork_id) {
     return jsonResponse({ message: "artwork_id is required" }, 400);
   }
-  const notices = await deps.readNotices(artwork_id);
+  // EN-pivot: ground (and cite) a single language so the model doesn't see redundant
+  // bilingual facts. Sources reflect exactly what grounded the answer.
+  const notices = selectPivotNotices(await deps.readNotices(artwork_id));
   const sources = noticesToSources(notices);
   const grounding = buildGrounding(notices);
   const system = systemPrompt(lang, profile, steering);

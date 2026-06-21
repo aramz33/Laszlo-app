@@ -47,6 +47,7 @@ date: 2026-06-20
 - [x] **Coords hotspots phares** — placées à la main dans le playground → `update-hotspots` (vérifié 2026-06-21)
 - [ ] **Notices Wikipedia phares (D3)** — trimmer les dumps bruts → améliore grounding `mode=ask`
 - [ ] **Choix modèle LLM (M32)** — tester alternatives `SCW_MODEL` si qualité insuffisante
+- [ ] ⚠ **SÉCU — retirer le model override par requête** (`body.model` dans `/generate`) avant tout usage prod/public : actuellement n'importe quel porteur de l'anon key peut choisir n'importe quel modèle Scaleway (abus coût). Dev/démo only. Cf. commentaire `ponytail:` dans `generate/index.ts`.
 - [ ] **Mollie** — edge function `mollie`, dernier
 
 ## Backend
