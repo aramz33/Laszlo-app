@@ -14,7 +14,7 @@
 // skill/command, not a profile axis and not a steering field. `kid` is likewise a parked
 // profile flag for future kid features (unused). steering currently carries only `tone`.
 
-import type { HotspotRow } from "./lib.ts";
+import type {HotspotRow} from "./lib.ts";
 
 export type Profile = Record<string, unknown> | undefined;
 export type Steering = Record<string, unknown> | undefined;
@@ -135,11 +135,13 @@ export function askPrompt(
 ): string {
   let where = "";
   if (ctx?.point) {
-    where = `The visitor is pointing at a spot on the artwork (x=${ctx.point.x}, y=${ctx.point.y}). `;
+    where =
+      `The visitor is pointing at a spot on the work (around x=${ctx.point.x}, y=${ctx.point.y}, normalized). ` +
+      "Answer about what is likely there; if the FACTS don't pin down that area, answer about the work and say what you can. ";
   } else if (ctx?.hotspotId) {
-    where = "The visitor is asking in the context of the current detail. ";
+    where = "They're asking in the context of the detail they're currently looking at. ";
   }
-  return `${grounding}\n\n${where}Visitor question: "${question}"`;
+  return `${grounding}\n\n${where}The visitor asks: "${question}"\n\nAnswer them directly and conversationally, only from the FACTS above. If the answer isn't there, say briefly you don't know rather than inventing. Don't repeat the question back.`;
 }
 
 /** Hidden onboarding persona call (no grounding): selections → a reusable 1–2 sentence persona. */
@@ -147,7 +149,7 @@ export function personaPrompt(
   onboarding: Record<string, unknown>,
   lang: string,
 ): string {
-  return `In ONE short sentence (20 words max), capture the CHARACTER of this museum visitor — what draws their curiosity and how they like a work to come to them. Vivid and human; it may be shown to the visitor, so make it flattering and easy to read. Do NOT mention tone, length, pace or "level" (handled separately), and do NOT restate the raw options. Vary the opening and lead with what's distinctive about them — do NOT begin with "Quelqu'un", "Someone", "Un visiteur" or "Une personne". Write in ${lang}.
+  return `In ONE short sentence (20 words max), capture the CHARACTER of this museum visitor — what draws their curiosity and how they like a work to come to them. Vivid and human; it may be shown to the visitor, so make it friendly and easy to read. Do NOT mention tone, length, pace or "level" (handled separately), and do NOT restate the raw options. Vary the opening and lead with what's distinctive about them — do NOT begin with "Quelqu'un", "Someone", "Un visiteur" or "Une personne". Write in ${lang}.
 Signals: motivation=${onboarding?.motivation ?? "?"}, knowledge=${
     onboarding?.knowledge ?? "?"
   }, in their words: "${onboarding?.free_text ?? "—"}".`;
@@ -160,5 +162,5 @@ export function followupsPrompt(
   historySummary?: string | null,
 ): string {
   const earlier = historySummary ? `Conversation so far: ${historySummary}\n\n` : "";
-  return `${earlier}${grounding}\n\nPropose exactly 3 short follow-up questions a curious visitor might ask next, in ${lang}. One question per line, no numbering, no extra text.`;
+  return `${earlier}${grounding}\n\nSuggest exactly 3 questions THIS visitor would be curious to ask next about this work — grounded in what's above and shaped by their profile. Make them short, specific to this artwork (never generic like "what technique was used?"), varied (not three of the same kind), and written in the visitor's own voice as they'd actually say them. One per line, no numbering, no quotes, in ${lang}.`;
 }
