@@ -80,6 +80,17 @@ export function useChat({
     };
   }, [artworkId]);
 
+  // Abort any in-flight stream when the active thread switches (hotspot change).
+  const prevThreadIdRef = useRef(currentThreadId);
+  useEffect(() => {
+    if (prevThreadIdRef.current !== currentThreadId) {
+      abortRef.current?.();
+      abortRef.current = null;
+      setBusy(false);
+      prevThreadIdRef.current = currentThreadId;
+    }
+  }, [currentThreadId]);
+
   const refreshFollowups = useCallback(
     (targetHotspotId?: string | null) => {
       const resolvedHotspotId =
