@@ -53,55 +53,52 @@ export function DemoNav({
   );
 }
 
+const EDGE_BUTTON = {
+  width: 40,
+  height: 40,
+  borderRadius: 20,
+  alignItems: "center",
+  justifyContent: "center",
+  backgroundColor: "rgba(8, 6, 4, 0.4)",
+  borderWidth: 1,
+  borderColor: colors.hairlineStrong,
+} as const;
+
 const styles = StyleSheet.create({
+  // No bottom bar: transparent edge buttons. ▶ next right-mid, ◀ prev bottom-left.
   wrap: {
     position: "absolute",
     left: 0,
     right: 0,
-    bottom: 24,
-    alignItems: "center",
+    top: 0,
+    bottom: 0,
     zIndex: 30,
   },
-  bar: {
-    flexDirection: "row",
-    alignItems: "center",
-    gap: 14,
-    paddingHorizontal: 10,
-    paddingVertical: 8,
-    borderRadius: radii.pill,
-    backgroundColor: "rgba(8, 6, 4, 0.78)",
-    borderWidth: 1,
-    borderColor: colors.hairline,
+  next: {
+    ...EDGE_BUTTON,
+    position: "absolute",
+    right: 14,
+    bottom: 36,
   },
-  arrow: {
-    width: 40,
-    height: 40,
-    borderRadius: 20,
-    alignItems: "center",
-    justifyContent: "center",
-    backgroundColor: colors.glass,
-    borderWidth: 1,
-    borderColor: colors.hairlineStrong,
+  prev: {
+    ...EDGE_BUTTON,
+    position: "absolute",
+    left: 14,
+    bottom: 36,
   },
   arrowDisabled: {
-    opacity: 0.3,
+    opacity: 0.25,
   },
   arrowText: {
     color: colors.accent,
     fontSize: 14,
   },
-  center: {
-    alignItems: "center",
-    minWidth: 92,
-    gap: 2,
-  },
-  step: {
-    color: colors.text,
-    fontFamily: fonts.mono,
-    fontSize: 12,
-    letterSpacing: 1,
-  },
   reset: {
+    position: "absolute",
+    bottom: 44,
+    alignSelf: "center",
+  },
+  resetText: {
     color: colors.textFaint,
     fontFamily: fonts.mono,
     fontSize: 9,

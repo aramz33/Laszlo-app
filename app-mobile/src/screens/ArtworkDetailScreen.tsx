@@ -7,7 +7,7 @@ import {
   ScrollView,
   StyleSheet,
   Text,
-  View
+  View,
 } from "react-native";
 
 import { AudioDock } from "../components/AudioDock";
@@ -113,7 +113,7 @@ export function ArtworkDetailScreen({ artwork, onBack, profile }: Props) {
               onPress={() =>
                 activate(
                   hotspot.id,
-                  resolveHotspotText(hotspot, hotspotTexts.items[hotspot.id])
+                  resolveHotspotText(hotspot, hotspotTexts.items[hotspot.id]),
                 )
               }
             />
@@ -145,7 +145,7 @@ export function ArtworkDetailScreen({ artwork, onBack, profile }: Props) {
           onPress={() =>
             activate(
               OVERVIEW_ID,
-              overview.status === "ready" ? overview.text : ""
+              overview.status === "ready" ? overview.text : "",
             )
           }
         >
@@ -192,20 +192,20 @@ export function ArtworkDetailScreen({ artwork, onBack, profile }: Props) {
 const styles = StyleSheet.create({
   root: {
     flex: 1,
-    backgroundColor: colors.bgBottom
+    backgroundColor: colors.bgBottom,
   },
   canvas: {
-    flex: 1
+    flex: 1,
   },
   canvasContent: {
     flexGrow: 1,
     alignItems: "center",
-    justifyContent: "center"
+    justifyContent: "center",
   },
   image: {
     width: "100%",
     height: "100%",
-    backgroundColor: colors.surface
+    backgroundColor: colors.surface,
   },
   topBar: {
     position: "absolute",
@@ -214,7 +214,7 @@ const styles = StyleSheet.create({
     right: 14,
     flexDirection: "row",
     justifyContent: "space-between",
-    zIndex: 25
+    zIndex: 25,
   },
   pill: {
     borderColor: colors.hairlineStrong,
@@ -222,59 +222,59 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     paddingHorizontal: 14,
     paddingVertical: 9,
-    backgroundColor: "rgba(8, 6, 4, 0.55)"
+    backgroundColor: "rgba(8, 6, 4, 0.55)",
   },
   pillActive: {
     borderColor: colors.accent,
-    backgroundColor: colors.accentSoft
+    backgroundColor: colors.accentSoft,
   },
   pillText: {
     color: colors.text,
     fontFamily: fonts.mono,
     fontSize: 11,
-    letterSpacing: 1
+    letterSpacing: 1,
   },
   caption: {
     position: "absolute",
     bottom: 92,
     left: 18,
     right: 18,
-    zIndex: 10
+    zIndex: 10,
   },
   title: {
     color: colors.text,
     fontFamily: fonts.serifSemibold,
     fontSize: 26,
     textShadowColor: "rgba(0,0,0,0.8)",
-    textShadowRadius: 12
+    textShadowRadius: 12,
   },
   subtitle: {
     color: colors.textMuted,
     fontFamily: fonts.serifRegular,
     fontSize: 15,
     textShadowColor: "rgba(0,0,0,0.8)",
-    textShadowRadius: 12
+    textShadowRadius: 12,
   },
   askButton: {
     position: "absolute",
-    bottom: 28,
-    right: 18,
+    top: "48%",
+    right: 14,
     borderRadius: radii.pill,
-    paddingHorizontal: 20,
+    paddingHorizontal: 18,
     paddingVertical: 13,
     backgroundColor: colors.accent,
-    zIndex: 25
+    zIndex: 25,
   },
   askText: {
     color: colors.onAccent,
     fontFamily: fonts.mono,
     fontSize: 12,
-    letterSpacing: 1
+    letterSpacing: 1,
   },
   modalBackdrop: {
     flex: 1,
     backgroundColor: "rgba(0,0,0,0.5)",
-    justifyContent: "flex-end"
+    justifyContent: "flex-end",
   },
   modalSheet: {
     backgroundColor: colors.bgMid,
@@ -283,7 +283,7 @@ const styles = StyleSheet.create({
     padding: 18,
     paddingBottom: 36,
     gap: 12,
-    maxHeight: "80%"
+    maxHeight: "80%",
   },
   modalClose: {
     alignSelf: "flex-end",
@@ -291,6 +291,6 @@ const styles = StyleSheet.create({
     borderRadius: radii.pill,
     borderWidth: 1,
     paddingHorizontal: 14,
-    paddingVertical: 8
-  }
+    paddingVertical: 8,
+  },
 });

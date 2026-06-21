@@ -24,20 +24,29 @@ export function useAudioPlayer() {
   // is discarded — only the last-tapped audio survives (no stacking).
   const seqRef = useRef(0);
 
+  const release = useCallback(() => {
+    const player = playerRef.current;
+    if (player) {
+      // pause before remove: remove() alone can leave the sound playing.
+      try {
+        player.pause();
+      } catch {
+        // player already gone
+      }
+      player.remove();
+    }
+    playerRef.current = null;
+    setProgress(ZERO_PROGRESS);
+  }, []);
+
   useEffect(() => {
     mountedRef.current = true;
     return () => {
       mountedRef.current = false;
-      playerRef.current?.remove();
-      playerRef.current = null;
+      seqRef.current++;
+      release();
     };
-  }, []);
-
-  const release = useCallback(() => {
-    playerRef.current?.remove();
-    playerRef.current = null;
-    setProgress(ZERO_PROGRESS);
-  }, []);
+  }, [release]);
 
   const play = useCallback(
     async (args: { text: string; lang: Lang; speed?: number }) => {
