@@ -1,52 +1,50 @@
-import { Audio } from "expo-av";
-import { useCallback, useRef, useState } from "react";
+import {
+  AudioModule,
+  RecordingPresets,
+  setAudioModeAsync,
+  useAudioRecorder
+} from "expo-audio";
+import { useCallback, useState } from "react";
 
 import { transcribe, type Lang } from "../services/runtime";
 
 export type VoiceState = "idle" | "recording" | "transcribing" | "error";
 
 /**
- * Records a short clip with expo-av, uploads it to `/transcribe`, and returns
+ * Records a short clip with expo-audio, uploads it to `/transcribe`, and returns
  * the recognized text. `start()` begins recording; `stop()` ends it and resolves
  * to the transcript (or null on failure / empty input).
  */
 export function useVoiceInput(lang: Lang) {
   const [state, setState] = useState<VoiceState>("idle");
-  const recordingRef = useRef<Audio.Recording | null>(null);
+  const recorder = useAudioRecorder(RecordingPresets.HIGH_QUALITY);
 
   const start = useCallback(async () => {
     try {
-      const perm = await Audio.requestPermissionsAsync();
+      const perm = await AudioModule.requestRecordingPermissionsAsync();
       if (!perm.granted) {
         setState("error");
         return;
       }
-      await Audio.setAudioModeAsync({
-        allowsRecordingIOS: true,
-        playsInSilentModeIOS: true
-      });
-      const { recording } = await Audio.Recording.createAsync(
-        Audio.RecordingOptionsPresets.HIGH_QUALITY
-      );
-      recordingRef.current = recording;
+      await setAudioModeAsync({ allowsRecording: true, playsInSilentMode: true });
+      await recorder.prepareToRecordAsync();
+      recorder.record();
       setState("recording");
     } catch {
       setState("error");
     }
-  }, []);
+  }, [recorder]);
 
   const stop = useCallback(async (): Promise<string | null> => {
-    const recording = recordingRef.current;
-    recordingRef.current = null;
-    if (!recording) {
+    if (!recorder.isRecording) {
       setState("idle");
       return null;
     }
     setState("transcribing");
     try {
-      await recording.stopAndUnloadAsync();
-      await Audio.setAudioModeAsync({ allowsRecordingIOS: false });
-      const uri = recording.getURI();
+      await recorder.stop();
+      await setAudioModeAsync({ allowsRecording: false });
+      const uri = recorder.uri;
       if (!uri) {
         setState("idle");
         return null;
@@ -58,7 +56,7 @@ export function useVoiceInput(lang: Lang) {
       setState("error");
       return null;
     }
-  }, [lang]);
+  }, [recorder, lang]);
 
   return { state, start, stop };
 }

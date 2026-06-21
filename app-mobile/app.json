@@ -6,6 +6,7 @@
     "version": "0.1.0",
     "orientation": "portrait",
     "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -41,7 +42,8 @@
           "cameraPermission": "Laszlo uses the camera to recognize an artwork from a photo.",
           "photosPermission": "Laszlo uses your photos to recognize an artwork."
         }
-      ]
+      ],
+      "expo-audio"
     ]
   }
 }

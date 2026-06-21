@@ -6,8 +6,9 @@ import {
   ViroARSceneNavigator,
   ViroARTrackingTargets,
   ViroAnimations,
-  ViroBox,
-  ViroMaterials
+  ViroMaterials,
+  ViroOmniLight,
+  ViroSphere
 } from "@reactvision/react-viro";
 
 import type { Artwork } from "../../domain/artwork";
@@ -27,31 +28,29 @@ type SceneProps = {
 
 const targetNameFor = (artwork: Artwork) => `artwork-${artwork.objectNumber}`;
 
+// Glow radius proportional to the artwork width so it stays a small point of
+// light whatever the AR tracking scale (an absolute size looked like a giant
+// cube on small reference images).
+const glowRadiusFor = (artwork: Artwork) => (artwork.widthCm / 100) * 0.05;
+
 ViroMaterials.createMaterials({
-  laszloMarker: {
+  laszloGlow: {
+    lightingModel: "Constant",
     diffuseColor: colors.accent
   }
 });
 
 ViroAnimations.registerAnimations({
-  markerPulse: [
+  glowPulse: [
     {
-      properties: {
-        scaleX: 1.25,
-        scaleY: 1.25,
-        scaleZ: 1.25,
-        opacity: 0.65
-      },
-      duration: 620
+      properties: { scaleX: 1.18, scaleY: 1.18, scaleZ: 1.18, opacity: 0.55 },
+      duration: 900,
+      easing: "EaseInEaseOut"
     },
     {
-      properties: {
-        scaleX: 1,
-        scaleY: 1,
-        scaleZ: 1,
-        opacity: 1
-      },
-      duration: 620
+      properties: { scaleX: 1, scaleY: 1, scaleZ: 1, opacity: 1 },
+      duration: 900,
+      easing: "EaseInEaseOut"
     }
   ]
 });
@@ -74,23 +73,33 @@ function ArtworkARScene({ sceneNavigator }: SceneProps) {
 
   return (
     <ViroARScene>
-      {artworks.map((artwork) => (
-        <ViroARImageMarker
-          key={artwork.objectNumber}
-          target={targetNameFor(artwork)}
-          pauseUpdates={false}
-        >
-          <ViroBox
-            position={[0, 0, 0.025]}
-            scale={[0.035, 0.035, 0.035]}
-            materials={["laszloMarker"]}
-            animation={{ name: "markerPulse", run: true, loop: true }}
-            onClick={() =>
-              onIdentify({ artwork, source: "viro", confidence: 1 })
-            }
-          />
-        </ViroARImageMarker>
-      ))}
+      {artworks.map((artwork) => {
+        const radius = glowRadiusFor(artwork);
+        return (
+          <ViroARImageMarker
+            key={artwork.objectNumber}
+            target={targetNameFor(artwork)}
+            pauseUpdates={false}
+          >
+            <ViroOmniLight
+              position={[0, 0, radius * 1.5]}
+              color={colors.accent}
+              intensity={900}
+              attenuationStartDistance={0}
+              attenuationEndDistance={radius * 12}
+            />
+            <ViroSphere
+              position={[0, 0, radius]}
+              radius={radius}
+              materials={["laszloGlow"]}
+              animation={{ name: "glowPulse", run: true, loop: true }}
+              onClick={() =>
+                onIdentify({ artwork, source: "viro", confidence: 1 })
+              }
+            />
+          </ViroARImageMarker>
+        );
+      })}
     </ViroARScene>
   );
 }
