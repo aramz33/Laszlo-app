@@ -268,6 +268,104 @@ Deno.test("ask emits done (not error) when stream fails after some tokens", asyn
   assert(!body.includes('"type":"error"'), "should not emit error after partial text");
 });
 
+// --- grounding actually reaches the model (anti-hallucination contract) ------
+
+Deno.test("grounding facts reach the LLM messages (not just the sources count)", async () => {
+  // If grounding were dropped, every other test would still pass (complete ignores
+  // its input) — so assert the notice text is actually in the prompt sent to the model.
+  let captured: Array<{ role: string; content: string }> = [];
+  await handle(
+    post({ mode: "overview", artwork_id: "a" }),
+    deps({
+      readNotices: () =>
+        Promise.resolve([{ id: "n1", lang: "en", source: "rijks", text: "MARKER_FACT_42" }]),
+      complete: (messages) => {
+        captured = messages as typeof captured;
+        return Promise.resolve("ok");
+      },
+    }),
+  );
+  assert(
+    captured.some((m) => m.content.includes("MARKER_FACT_42")),
+    "notice text never reached the model prompt",
+  );
+});
+
+Deno.test("EN-pivot: handler grounds and cites only the EN notices", async () => {
+  let captured: Array<{ role: string; content: string }> = [];
+  const res = await handle(
+    post({ mode: "overview", artwork_id: "a" }),
+    deps({
+      readNotices: () =>
+        Promise.resolve([
+          { id: "en-r", lang: "en", source: "rijks", text: "EN_RIJKS" },
+          { id: "nl-r", lang: "nl", source: "rijks", text: "NL_RIJKS" },
+          { id: "en-w", lang: "en", source: "wikipedia", text: "EN_WIKI" },
+          { id: "nl-w", lang: "nl", source: "wikipedia", text: "NL_WIKI_SHOULD_BE_DROPPED" },
+        ]),
+      complete: (messages) => {
+        captured = messages as typeof captured;
+        return Promise.resolve("ok");
+      },
+    }),
+  );
+  const body = await res.json();
+  // sources: only the two EN notices, never the NL ones.
+  assertEquals(body.sources.map((s: { notice_id: string }) => s.notice_id).sort(), [
+    "en-r",
+    "en-w",
+  ]);
+  // and the dropped NL content must not be in the prompt.
+  const prompt = captured.map((m) => m.content).join(" ");
+  assert(prompt.includes("EN_WIKI"), "EN grounding missing");
+  assert(!prompt.includes("NL_WIKI_SHOULD_BE_DROPPED"), "NL notice leaked into grounding");
+});
+
+// --- per-request model override (dev only) ----------------------------------
+
+Deno.test("body.model overrides the model passed to complete()", async () => {
+  let usedModel: string | undefined = "UNSET";
+  await handle(
+    post({ mode: "overview", artwork_id: "a", model: "gemma-test" }),
+    deps({
+      complete: (_m, _t, model) => {
+        usedModel = model;
+        return Promise.resolve("ok");
+      },
+    }),
+  );
+  assertEquals(usedModel, "gemma-test");
+});
+
+Deno.test("no body.model -> complete() gets undefined (server default applies)", async () => {
+  let usedModel: string | undefined = "UNSET";
+  await handle(
+    post({ mode: "overview", artwork_id: "a" }),
+    deps({
+      complete: (_m, _t, model) => {
+        usedModel = model;
+        return Promise.resolve("ok");
+      },
+    }),
+  );
+  assertEquals(usedModel, undefined);
+});
+
+Deno.test("body.model overrides the model passed to streamDeltas() on ask", async () => {
+  let usedModel: string | undefined = "UNSET";
+  const res = await handle(
+    post({ mode: "ask", artwork_id: "a", question: "x", model: "gemma-test" }),
+    deps({
+      streamDeltas: async function* (_m, _t, model) {
+        usedModel = model;
+        yield "ok";
+      },
+    }),
+  );
+  await res.text(); // drain the stream so the generator runs
+  assertEquals(usedModel, "gemma-test");
+});
+
 Deno.test("ask threads history_summary as an earlier-context system message", async () => {
   // Verify the summary actually reaches the LLM messages list.
   let capturedMessages: unknown[] = [];

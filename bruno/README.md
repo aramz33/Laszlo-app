@@ -1,10 +1,10 @@
 # Laszlo runtime — Bruno collection
 
 API tests for the Supabase edge functions ([Bruno](https://www.usebruno.com/),
-file-based, git-friendly). Covers the whole backend: `generate/` (the 4 modes
-plus varied value sets — languages, profiles, steering, placed point, history,
-multi-hotspot, error cases), `transcribe/`, `identify/`, `speak/`. Reuse the
-structure for new endpoints.
+file-based, git-friendly). Covers the whole backend: `generate/` (the 5 modes —
+overview, hotspot, ask, persona, followups — plus varied value sets: languages,
+profiles, steering, placed point, history, multi-hotspot, error cases),
+`transcribe/`, `identify/`, `speak/`. Reuse the structure for new endpoints.
 
 ## Use it
 

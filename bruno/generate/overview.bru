@@ -1,0 +1,43 @@
+meta {
+  name: overview
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{base_url}}/generate
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+  Authorization: Bearer {{anon_key}}
+}
+
+body:json {
+  {
+    "request_id": "bruno-overview",
+    "mode": "overview",
+    "artwork_id": "{{artwork_id}}",
+    "lang": "fr",
+    "profile": {
+      "allure": "moyen",
+      "niveau": "amateur",
+      "interets": ["stories"]
+    }
+  }
+}
+
+assert {
+  res.status: eq 200
+  res.body.type: eq done
+  res.body.text: isString
+  res.body.sources: isArray
+}
+
+docs {
+  The "✦ L'œuvre" whole-artwork intro, fired once on artwork open alongside the
+  hotspot batch. Single JSON call. Expect type="done", a non-empty text, and a
+  sources array reflecting the EN-pivot grounding (only the EN notices).
+}
