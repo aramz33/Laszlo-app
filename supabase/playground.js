@@ -18,8 +18,6 @@ const profile = () => {
   return p;
 };
 const steering = () => ({ tone: $('tone').value || null });
-// Dev-only: override the LLM model per request (empty = server default). Threaded into /generate only.
-const model = () => $('model').value.trim() || undefined;
 
 let personaSummary  = null;
 let currentArtwork  = null;
@@ -77,7 +75,6 @@ function copyText(id) {
 // ─── Core API ────────────────────────────────────────────────────────────────
 
 async function gen(body, label) {
-  if (model()) body.model = model();  // dev-only override
   const t = performance.now();
   const r = await fetch(fnUrl('generate'), { method: 'POST', headers: H(), body: JSON.stringify(body) });
   const ms = Math.round(performance.now() - t);
@@ -346,7 +343,6 @@ async function ask() {
   };
   if (point)                   body.point      = point;
   if (window._lastHotspot)     body.hotspot_id = window._lastHotspot;
-  if (model())                 body.model      = model();  // dev-only override
 
   $('answerCard').style.display = '';
   $('answer').textContent = '';

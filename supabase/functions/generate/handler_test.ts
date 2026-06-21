@@ -321,51 +321,6 @@ Deno.test("EN-pivot: handler grounds and cites only the EN notices", async () =>
   assert(!prompt.includes("NL_WIKI_SHOULD_BE_DROPPED"), "NL notice leaked into grounding");
 });
 
-// --- per-request model override (dev only) ----------------------------------
-
-Deno.test("body.model overrides the model passed to complete()", async () => {
-  let usedModel: string | undefined = "UNSET";
-  await handle(
-    post({ mode: "overview", artwork_id: "a", model: "gemma-test" }),
-    deps({
-      complete: (_m, _t, model) => {
-        usedModel = model;
-        return Promise.resolve("ok");
-      },
-    }),
-  );
-  assertEquals(usedModel, "gemma-test");
-});
-
-Deno.test("no body.model -> complete() gets undefined (server default applies)", async () => {
-  let usedModel: string | undefined = "UNSET";
-  await handle(
-    post({ mode: "overview", artwork_id: "a" }),
-    deps({
-      complete: (_m, _t, model) => {
-        usedModel = model;
-        return Promise.resolve("ok");
-      },
-    }),
-  );
-  assertEquals(usedModel, undefined);
-});
-
-Deno.test("body.model overrides the model passed to streamDeltas() on ask", async () => {
-  let usedModel: string | undefined = "UNSET";
-  const res = await handle(
-    post({ mode: "ask", artwork_id: "a", question: "x", model: "gemma-test" }),
-    deps({
-      streamDeltas: async function* (_m, _t, model) {
-        usedModel = model;
-        yield "ok";
-      },
-    }),
-  );
-  await res.text(); // drain the stream so the generator runs
-  assertEquals(usedModel, "gemma-test");
-});
-
 Deno.test("ask threads history_summary as an earlier-context system message", async () => {
   // Verify the summary actually reaches the LLM messages list.
   let capturedMessages: unknown[] = [];

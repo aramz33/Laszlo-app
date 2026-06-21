@@ -47,15 +47,10 @@ import {
 export type GenerateDeps = {
   readNotices: (artworkId: string) => Promise<NoticeRow[]>;
   readHotspots: (ids: string[]) => Promise<HotspotRow[]>;
-  complete: (
-    messages: Msg[],
-    temperature?: number,
-    model?: string,
-  ) => Promise<string>;
+  complete: (messages: Msg[], temperature?: number) => Promise<string>;
   streamDeltas: (
     messages: Msg[],
     temperature?: number,
-    model?: string,
   ) => AsyncIterable<string>;
 };
 
@@ -116,13 +111,6 @@ export async function handle(
     steering,
   } = body;
 
-  // ponytail: optional per-request model override, for the dev playground (compare
-  // models live). UNGUARDED — any caller with the anon key can pick any Scaleway model.
-  // Fine for the hackathon (our key, short window); add an env gate before untrusted use.
-  const model: string | undefined = typeof body.model === "string" && body.model
-    ? body.model
-    : undefined;
-
   // --- persona: no grounding; turn onboarding selections into a reusable summary.
   if (mode === "persona") {
     const onboarding = body.onboarding ?? {};
@@ -134,7 +122,7 @@ export async function handle(
           content: "You write concise museum-visitor personas.",
         },
         { role: "user", content: personaPrompt(onboarding, lang) },
-      ], 0.3, model);
+      ], 0.3);
     } catch {
       persona_summary = stubPersona(onboarding, lang); // fallback: raw selections
     }
@@ -161,7 +149,7 @@ export async function handle(
       text = await deps.complete([
         { role: "system", content: system },
         { role: "user", content: overviewPrompt(grounding, body.history_summary) },
-      ], undefined, model);
+      ]);
     } catch {
       text = stubOverviewText(lang); // fallback: deterministic placeholder
     }
@@ -192,7 +180,7 @@ export async function handle(
             role: "user",
             content: hotspotPrompt(h, grounding, body.history_summary),
           },
-        ], undefined, model);
+        ]);
         return {
           hotspot_id: id,
           status: "ready",
@@ -223,7 +211,7 @@ export async function handle(
           role: "user",
           content: followupsPrompt(grounding, lang, body.history_summary),
         },
-      ], 0.7, model);
+      ], 0.7);
       questions = parseFollowups(raw);
       if (questions.length === 0) questions = stubFollowups(lang);
     } catch {
@@ -263,7 +251,7 @@ export async function handle(
           controller.enqueue(encoder.encode(`data: ${JSON.stringify(e)}\n\n`));
         let full = "";
         try {
-          for await (const delta of deps.streamDeltas(messages, undefined, model)) {
+          for await (const delta of deps.streamDeltas(messages)) {
             full += delta;
             send({ type: "delta", request_id, delta });
           }
