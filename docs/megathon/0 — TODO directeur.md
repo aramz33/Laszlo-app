@@ -49,6 +49,7 @@ date: 2026-06-20
 - [ ] **Choix modèle LLM (M32)** — **décidé : `gpt-oss-120b`** (mesuré : overview ~2.2s, ask TTFT ~1.1s / total ~2s, via override). gemma écarté (trop lent, 8–22s). ⚠ **Reste à poser le secret prod** : `supabase secrets set SCW_MODEL=gpt-oss-120b` (le défaut prod actuel est encore le modèle lent, 8–15s).
 - [x] ✅ **SÉCU — model override retiré** (2026-06-21) : `body.model` supprimé de `/generate` (code + playground + tests). Le modèle est figé par le secret `SCW_MODEL` côté serveur uniquement.
 - [ ] *(hors démo, futur)* **Lens d'intérêt = « power feature »** : angle de médiation (technique/histoire/symbole/personnages) sous forme de skill/commande dans le chat, pas un axe de profil ni un bouton de steering. Plomberie `steering.lens` retirée en attendant (2026-06-21).
+- [ ] *(différé, pas tout de suite)* **Streamer `overview` (SSE)** — 1ʳᵉ chose affichée à l'ouverture d'une œuvre, aujourd'hui JSON bloquant (~2,2s) ; en SSE (même mécanique qu'`ask`) → premiers mots en ~1s. Backend trivial, **nécessite Adam côté conso SSE**.
 - [ ] **Mollie** — edge function `mollie`, dernier
 
 ## Backend
@@ -156,6 +157,7 @@ date: 2026-06-20
 - [ ] **1 chiffre-choc** (ex. N œuvres ingérées, coût/visiteur estimé, ou package venue activable via Mollie)
 - [ ] **1 slide** unique de secours
 - [ ] **Q/R jury** : coût IA/visiteur · moat vs ArtScan/Smartify · GTM musées · scaling pipeline
+  - **Pistes perf à citer** (pas implémentées, runtime déjà ~2s) : prompt caching du préfixe system+grounding quand le provider le supportera (Scaleway ne le fait pas encore) → batch hotspots & multi-tour quasi gratuits ; budgets de grounding par mode (hotspot/followups < `ask`) ; stream `overview`.
 - [ ] **Mentionner (sans implémenter)** : barge-in · couche éditoriale musée (ex. Guernica) · reco open-world par embeddings (scale)
 - [ ] **Build-in-Public** : poster la journey (X/LinkedIn) → track gratuite
 - [ ] **Pitch workshop** dimanche 12:30
