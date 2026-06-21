@@ -147,7 +147,7 @@ export function personaPrompt(
   onboarding: Record<string, unknown>,
   lang: string,
 ): string {
-  return `In ONE short sentence (20 words max), capture the CHARACTER of this museum visitor — what draws their curiosity and how they like a work to come to them. Vivid and human; it may be shown to the visitor, so make it flattering and easy to read. Do NOT mention tone, length, pace or "level" (handled separately), and do NOT restate the raw options. Write in ${lang}, as a description ("Quelqu'un qui…" / "Someone who…").
+  return `In ONE short sentence (20 words max), capture the CHARACTER of this museum visitor — what draws their curiosity and how they like a work to come to them. Vivid and human; it may be shown to the visitor, so make it flattering and easy to read. Do NOT mention tone, length, pace or "level" (handled separately), and do NOT restate the raw options. Vary the opening and lead with what's distinctive about them — do NOT begin with "Quelqu'un", "Someone", "Un visiteur" or "Une personne". Write in ${lang}.
 Signals: motivation=${onboarding?.motivation ?? "?"}, knowledge=${
     onboarding?.knowledge ?? "?"
   }, in their words: "${onboarding?.free_text ?? "—"}".`;
