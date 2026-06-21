@@ -264,7 +264,7 @@ const styles = StyleSheet.create({
     color: colors.text,
     fontFamily: fonts.mono,
     fontSize: 12,
-    letterSpacing: 1,
+    letterSpacing: 0,
   },
   sampleBanner: {
     backgroundColor: colors.accentSoft,
@@ -275,7 +275,7 @@ const styles = StyleSheet.create({
     color: colors.accent,
     fontFamily: fonts.mono,
     fontSize: 10,
-    letterSpacing: 1,
+    letterSpacing: 0,
     textAlign: "center",
   },
 });

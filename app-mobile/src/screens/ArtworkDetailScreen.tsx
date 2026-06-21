@@ -1,11 +1,11 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import {
-  Dimensions,
   Image,
   Pressable,
   ScrollView,
   StyleSheet,
   Text,
+  useWindowDimensions,
   View,
 } from "react-native";
 
@@ -34,8 +34,9 @@ const OVERVIEW_ID = "__overview__";
 /** Contain-fit the artwork into the screen so it occupies the majority of it
  * while keeping its real aspect ratio (hotspot x/y stay accurate). */
 function useFittedRect(artwork: Artwork) {
+  const { width: sw, height: sh } = useWindowDimensions();
+
   return useMemo(() => {
-    const { width: sw, height: sh } = Dimensions.get("window");
     const ar =
       artwork.widthCm > 0 && artwork.heightCm > 0
         ? artwork.widthCm / artwork.heightCm
@@ -47,7 +48,7 @@ function useFittedRect(artwork: Artwork) {
       w = h * ar;
     }
     return { w, h };
-  }, [artwork]);
+  }, [artwork, sw, sh]);
 }
 
 export function ArtworkDetailScreen({ artwork, onBack, profile }: Props) {
@@ -104,6 +105,13 @@ export function ArtworkDetailScreen({ artwork, onBack, profile }: Props) {
   const chatHotspot = artwork.hotspots.find((h) => h.id === chatHotspotId);
   const canUseSeedFallback =
     hotspotTexts.status === "fallback" || hotspotTexts.status === "error";
+  const contextLabel = activeHotspot?.title ?? "Whole artwork";
+  const generationLabel =
+    hotspotTexts.status === "ready"
+      ? "Hotspots ready"
+      : hotspotTexts.status === "loading"
+        ? "Preparing"
+        : "Seed fallback";
 
   const textForHotspot = useCallback(
     (hotspot: Artwork["hotspots"][number]) =>
@@ -204,7 +212,7 @@ export function ArtworkDetailScreen({ artwork, onBack, profile }: Props) {
         showsHorizontalScrollIndicator={false}
         showsVerticalScrollIndicator={false}
       >
-        <View style={{ width: rect.w, height: rect.h }}>
+        <View style={[styles.artworkFrame, { width: rect.w, height: rect.h }]}>
           <Image source={{ uri: artwork.imageUrl }} style={styles.image} />
           {artwork.hotspots.map((hotspot) => (
             <HotspotGlow
@@ -234,15 +242,43 @@ export function ArtworkDetailScreen({ artwork, onBack, profile }: Props) {
       ) : null}
 
       <View style={styles.topBar} pointerEvents="box-none">
-        <Pressable style={styles.pill} onPress={handleBack}>
-          <Text style={styles.pillText}>← BACK</Text>
+        <Pressable style={styles.backButton} onPress={handleBack}>
+          <Text style={styles.backText}>‹</Text>
         </Pressable>
-        <Pressable
-          style={[styles.pill, activeId === OVERVIEW_ID && styles.pillActive]}
+        <View style={styles.topContext} pointerEvents="none">
+          <Text style={styles.contextKicker}>{generationLabel}</Text>
+          <Text style={styles.contextTitle} numberOfLines={1}>
+            {contextLabel}
+          </Text>
+        </View>
+      </View>
+
+      <View style={styles.capabilityRail} pointerEvents="box-none">
+        <RailButton
+          label="✦"
+          detail={overview.status === "loading" ? "..." : "Intro"}
+          active={activeId === OVERVIEW_ID}
           onPress={activateOverview}
-        >
-          <Text style={styles.pillText}>✦ THE ARTWORK</Text>
-        </Pressable>
+        />
+        <RailButton
+          label="?"
+          detail="Ask"
+          active={chatOpen}
+          onPress={openChat}
+        />
+        <RailButton
+          label={
+            audio.status === "loading"
+              ? "…"
+              : audio.status === "playing"
+                ? "❚❚"
+                : "▶"
+          }
+          detail={audio.status === "idle" ? "Audio" : audio.status}
+          active={audio.status === "playing"}
+          disabled={audio.status === "idle" || audio.status === "loading"}
+          onPress={audio.toggle}
+        />
       </View>
 
       <View style={styles.caption} pointerEvents="none">
@@ -251,14 +287,27 @@ export function ArtworkDetailScreen({ artwork, onBack, profile }: Props) {
           <Text style={styles.englishTitle}>{artwork.englishTitle}</Text>
         ) : null}
         <Text style={styles.subtitle}>{artwork.subtitle}</Text>
+        {activeHotspot ? (
+          <Text style={styles.activeDetail} numberOfLines={1}>
+            Detail: {activeHotspot.title}
+          </Text>
+        ) : null}
       </View>
 
       {!chatOpen ? (
         <View style={styles.askDock} pointerEvents="box-none">
           <Pressable style={styles.askButton} onPress={openChat}>
-            <Text style={styles.askText}>
-              {activeHotspot ? "ASK DETAIL" : "ASK ARTWORK"}
-            </Text>
+            <Text style={styles.askMark}>?</Text>
+            <View style={styles.askCopy}>
+              <Text style={styles.askText}>
+                {activeHotspot ? "Ask this detail" : "Ask the artwork"}
+              </Text>
+              <Text style={styles.askContext} numberOfLines={1}>
+                {activeHotspot
+                  ? activeHotspot.title
+                  : "Type or dictate a question"}
+              </Text>
+            </View>
           </Pressable>
         </View>
       ) : null}
@@ -266,16 +315,19 @@ export function ArtworkDetailScreen({ artwork, onBack, profile }: Props) {
       {chatOpen ? (
         <View style={styles.chatSheet}>
           <View style={styles.chatHeader}>
-            <Text style={styles.chatTitle}>
-              {chatHotspot
-                ? `Ask this detail: ${chatHotspot.title}`
-                : "Ask the artwork"}
-            </Text>
+            <View style={styles.chatHeading}>
+              <Text style={styles.chatEyebrow}>
+                {chatHotspot ? "Hotspot thread" : "Artwork thread"}
+              </Text>
+              <Text style={styles.chatTitle} numberOfLines={1}>
+                {chatHotspot ? chatHotspot.title : artwork.originalTitle}
+              </Text>
+            </View>
             <Pressable
               style={styles.closeButton}
               onPress={closeChat}
             >
-              <Text style={styles.pillText}>CLOSE</Text>
+              <Text style={styles.closeText}>×</Text>
             </Pressable>
           </View>
           <ChatPanel
@@ -293,6 +345,39 @@ export function ArtworkDetailScreen({ artwork, onBack, profile }: Props) {
   );
 }
 
+function RailButton({
+  label,
+  detail,
+  active,
+  disabled,
+  onPress,
+}: {
+  label: string;
+  detail: string;
+  active?: boolean;
+  disabled?: boolean;
+  onPress: () => void;
+}) {
+  return (
+    <Pressable
+      style={[
+        styles.railButton,
+        active && styles.railButtonActive,
+        disabled && styles.railButtonDisabled,
+      ]}
+      onPress={onPress}
+      disabled={disabled}
+    >
+      <Text style={[styles.railLabel, active && styles.railLabelActive]}>
+        {label}
+      </Text>
+      <Text style={styles.railDetail} numberOfLines={1}>
+        {detail}
+      </Text>
+    </Pressable>
+  );
+}
+
 const styles = StyleSheet.create({
   root: {
     flex: 1,
@@ -306,6 +391,12 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
+  artworkFrame: {
+    shadowColor: "#000",
+    shadowOpacity: 0.48,
+    shadowRadius: 30,
+    shadowOffset: { width: 0, height: 12 },
+  },
   image: {
     width: "100%",
     height: "100%",
@@ -315,34 +406,98 @@ const styles = StyleSheet.create({
     position: "absolute",
     top: 52,
     left: 14,
-    right: 14,
+    right: 92,
     flexDirection: "row",
-    justifyContent: "space-between",
+    alignItems: "center",
+    gap: 10,
     zIndex: 25,
   },
-  pill: {
+  backButton: {
     borderColor: colors.hairlineStrong,
     borderRadius: radii.pill,
     borderWidth: 1,
-    paddingHorizontal: 14,
-    paddingVertical: 9,
+    width: 44,
+    height: 44,
+    alignItems: "center",
+    justifyContent: "center",
     backgroundColor: "rgba(8, 6, 4, 0.55)",
   },
-  pillActive: {
+  backText: {
+    color: colors.text,
+    fontFamily: fonts.serifRegular,
+    fontSize: 30,
+    lineHeight: 34,
+    marginTop: -3,
+  },
+  topContext: {
+    flex: 1,
+    minWidth: 0,
+    paddingHorizontal: 13,
+    paddingVertical: 8,
+    borderRadius: radii.md,
+    borderColor: colors.hairline,
+    borderWidth: 1,
+    backgroundColor: "rgba(8, 6, 4, 0.42)",
+  },
+  contextKicker: {
+    color: colors.accent,
+    fontFamily: fonts.mono,
+    fontSize: 9,
+    letterSpacing: 0,
+    textTransform: "uppercase",
+  },
+  contextTitle: {
+    color: colors.text,
+    fontFamily: fonts.serifRegular,
+    fontSize: 15,
+    marginTop: 1,
+  },
+  capabilityRail: {
+    position: "absolute",
+    top: 126,
+    right: 14,
+    gap: 8,
+    zIndex: 24,
+  },
+  railButton: {
+    width: 58,
+    minHeight: 48,
+    borderColor: colors.hairlineStrong,
+    borderRadius: radii.md,
+    borderWidth: 1,
+    alignItems: "center",
+    justifyContent: "center",
+    paddingVertical: 6,
+    backgroundColor: "rgba(8, 6, 4, 0.48)",
+  },
+  railButtonActive: {
     borderColor: colors.accent,
     backgroundColor: colors.accentSoft,
   },
-  pillText: {
+  railButtonDisabled: {
+    opacity: 0.55,
+  },
+  railLabel: {
+    color: colors.accent,
+    fontSize: 17,
+    lineHeight: 19,
+  },
+  railLabelActive: {
     color: colors.text,
+  },
+  railDetail: {
+    color: colors.textMuted,
     fontFamily: fonts.mono,
-    fontSize: 11,
-    letterSpacing: 1,
+    fontSize: 8,
+    letterSpacing: 0,
+    marginTop: 2,
+    maxWidth: 50,
   },
   caption: {
     position: "absolute",
-    bottom: 118,
+    bottom: 106,
     left: 18,
-    right: 18,
+    right: 84,
     zIndex: 10,
   },
   title: {
@@ -367,34 +522,78 @@ const styles = StyleSheet.create({
     textShadowColor: "rgba(0,0,0,0.8)",
     textShadowRadius: 12,
   },
+  activeDetail: {
+    alignSelf: "flex-start",
+    color: colors.accent,
+    fontFamily: fonts.mono,
+    fontSize: 10,
+    letterSpacing: 0,
+    marginTop: 8,
+    paddingHorizontal: 10,
+    paddingVertical: 5,
+    borderRadius: radii.pill,
+    borderColor: colors.hairlineStrong,
+    borderWidth: 1,
+    backgroundColor: "rgba(8, 6, 4, 0.5)",
+    maxWidth: "100%",
+  },
   askDock: {
     position: "absolute",
-    left: 72,
-    right: 72,
-    bottom: 34,
+    left: 64,
+    right: 64,
+    bottom: 28,
     alignItems: "center",
     zIndex: 25,
   },
   askButton: {
     borderRadius: radii.pill,
-    paddingHorizontal: 16,
-    paddingVertical: 13,
-    backgroundColor: colors.accent,
-    minWidth: 136,
+    borderColor: colors.hairlineStrong,
+    borderWidth: 1,
+    paddingHorizontal: 14,
+    paddingVertical: 9,
+    backgroundColor: "rgba(8, 6, 4, 0.62)",
+    minHeight: 52,
+    maxWidth: 330,
+    width: "100%",
+    flexDirection: "row",
     alignItems: "center",
+    gap: 10,
   },
-  askText: {
+  askMark: {
+    width: 30,
+    height: 30,
+    borderRadius: 15,
+    overflow: "hidden",
+    backgroundColor: colors.accent,
     color: colors.onAccent,
     fontFamily: fonts.mono,
-    fontSize: 12,
-    letterSpacing: 1,
+    fontSize: 14,
+    lineHeight: 30,
+    textAlign: "center",
+  },
+  askCopy: {
+    flex: 1,
+    minWidth: 0,
+  },
+  askText: {
+    color: colors.text,
+    fontFamily: fonts.mono,
+    fontSize: 10,
+    letterSpacing: 0,
+    textTransform: "uppercase",
+  },
+  askContext: {
+    color: colors.textMuted,
+    fontFamily: fonts.serifRegular,
+    fontSize: 14,
+    marginTop: 1,
   },
   chatSheet: {
     position: "absolute",
     left: 12,
     right: 12,
     bottom: 92,
-    height: "56%",
+    height: "52%",
     backgroundColor: "rgba(8, 6, 4, 0.34)",
     borderColor: colors.hairline,
     borderWidth: 1,
@@ -409,17 +608,36 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     gap: 10,
   },
+  chatHeading: {
+    flex: 1,
+    minWidth: 0,
+  },
+  chatEyebrow: {
+    color: colors.accent,
+    fontFamily: fonts.mono,
+    fontSize: 9,
+    letterSpacing: 0,
+    textTransform: "uppercase",
+  },
   chatTitle: {
     color: colors.text,
-    flex: 1,
     fontFamily: fonts.serifSemibold,
     fontSize: 20,
+    marginTop: 1,
   },
   closeButton: {
     borderColor: colors.hairlineStrong,
     borderRadius: radii.pill,
     borderWidth: 1,
-    paddingHorizontal: 14,
-    paddingVertical: 8,
+    width: 38,
+    height: 38,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  closeText: {
+    color: colors.text,
+    fontFamily: fonts.serifRegular,
+    fontSize: 24,
+    lineHeight: 27,
   },
 });

@@ -273,6 +273,6 @@ const styles = StyleSheet.create({
     color: colors.onAccent,
     fontFamily: fonts.mono,
     fontSize: 11,
-    letterSpacing: 1
+    letterSpacing: 0
   }
 });

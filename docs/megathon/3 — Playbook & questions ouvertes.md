@@ -146,7 +146,7 @@ YYYY-MM-DD HH:MM — blocage → action qui marche → preuve/commande → owner
 >
 > The idea: **you stand in front of a painting, you talk to it out loud, and it answers — in character, and tailored to how much you know about art. And you can cut it off mid-sentence, like a real conversation.**
 >
-> The hard thinking is already done — architecture, the knowledge model, the voice pipeline. This weekend we make it *talk*, put it in real hands, and take a first **real payment**. We're going for the **Vapi Voice** track and the **headline startup** track.
+> The hard thinking is already done — architecture, the knowledge model, the voice pipeline. This weekend we make it *talk*, capture it in a sharp 90-second product video, and ship a credible product link if the distribution path holds. We're going for the **Vapi Voice** track and the **headline startup** track.
 >
 > We need **one person**: a **front-end / design builder** who wants to own how this looks and feels — on a livestreamed main stage. No back-end or ML needed — we've got that covered.
 >
@@ -161,29 +161,29 @@ YYYY-MM-DD HH:MM — blocage → action qui marche → preuve/commande → owner
 
 ### B. Pitch finale — Dim 18:00 (squelette, à affiner samedi)
 
-> Jouer **les 2 axes du jury** : *momentum* (« vendredi on avait X, là on a Y ») + *malin* (tech & business). Polish ≠ critère, mais la **démo live** est le cœur.
+> Jouer **les 2 axes du jury** : *momentum* (« vendredi on avait X, là on a Y ») + *malin* (tech & business). Le cœur n'est plus une démo live improvisée : c'est une **vidéo 90 s** qui montre le produit sans risque de scène, plus un lien produit si possible.
 
 1. **Hook (problème)** — Le fossé : 40 questions devant l'œuvre, 3 phrases sur le cartel. L'audioguide est monotone, on décroche. *(chiffre marquant à insérer)*
-2. **Démo live (le wow)** — Parler à l'œuvre, à voix haute, barge-in, réponse en registre. **Le faire en vrai**, pas des slides. → bascule FR/EN si possible.
+2. **Vidéo 90 s (le wow)** — AR iPhone → œuvre reconnue → hotspots audio + sous-titres → question libre → réponse en registre → bascule FR/EN si possible. Montrer le produit, pas des slides.
 3. **Pourquoi nous / pourquoi maintenant** — Voix AI mûre ; **moat = KB curée par facettes + voix bidirectionnelle** (angle mort d'ArtScan ; terrain B2B de Smartify). **Et curé À L'ÉCHELLE** : pipeline d'ingestion ancré (Rijksmuseum CC0 → 60M d'œuvres Europeana) = la réponse à « comment tu remplis 1000 musées ». Archi portable.
-4. **Momentum** — « Vendredi : archi + modèle de connaissance sur papier. Dimanche : ça **parle aux visiteurs**, peut être **activé par un venue via Mollie**, et un **pipeline a ingéré N œuvres du Rijksmuseum tout seul**. »
+4. **Momentum** — « Vendredi : archi + modèle de connaissance sur papier. Dimanche : ça **parle aux visiteurs**, tourne sur mobile, et un **pipeline a ingéré N œuvres du Rijksmuseum tout seul**. »
 5. **Business / ask** — **B2B2C d'abord** : musées / expositions paient, visiteurs adoptent via le lieu. **B2C plus tard** (~5 ans) : les signaux d'usage agrégés et privacy-safe guideront le bon public, les langues, les intérêts et les comportements premium à cibler.
 
-**À préparer en parallèle (Adam) :** 1 chiffre-choc, slide unique de secours, vidéo backup de la démo, réponses Q/R jury (coût IA/visiteur, moat vs ArtScan/Smartify, go-to-market musées, comment le pipeline scale).
+**À préparer en parallèle (Adam) :** 1 chiffre-choc, slide unique de secours, vidéo 90 s, lien produit/APK si possible, réponses Q/R jury (coût IA/visiteur, moat vs ArtScan/Smartify, go-to-market musées, comment le pipeline scale).
 
 ---
 
 ## Questions ouvertes & risques
 
 ### À trancher avec Siffrein (SYNC 0/1)
-1. **Front / client** — acté : client démo **Expo React Native + ViroReact** dans `/app-mobile`, PWA Vercel/Base44 en repli activation Mollie/secondaire.
+1. **Front / client** — acté : client démo **Expo React Native + ViroReact** dans `/app-mobile`; livrable cible = vidéo 90 s + lien produit. APK/lien Android prioritaire ; iOS public/TestFlight plus lourd.
 2. **Voix / TTS — DÉCISION OUVERTE, recherche requise.** Compte **ElevenLabs** dispo. Arbitrage : (a) ElevenLabs TTS live + Vapi pour le live → garde la track Vapi ; (b) tout-ElevenLabs (Conversational AI) → perd la track Vapi ; (c) Vapi partout si le workflow est plus rapide. **Le downgrade barge-in (M16) simplifie : sans interruption, ElevenLabs seul peut suffire.** À trancher après recherche.
 3. **Reconnaissance** — acté : **ViroReact image tracking** (ARKit iOS / ARCore Android ; embeddings = story d'échelle + post-hackathon, hors runtime). Filets = sélection manuelle / QR / overlay 2D.
 4. **AR = priorité ou bonus ?** Dans M9 (voix-phare → breadth → reconnaissance), l'ancrage AR se place où ? *(reco : bonus coupable, voix-phare reste P1)*
 5. **Langage du pipeline** — Python *(reco : libs harvest/parse/LLM/Supabase ; tourne IntelliJ IDEA Ultimate ou PyCharm)* vs Kotlin/JVM (IntelliJ natif). À trancher (Adam).
 6. **Sélection des œuvres démo + tranche Rijks → SESSION DATASET.** Critères (notes 20/06) : 1 classique · 1 souvent mal comprise · 1 pour enfants · (1 abstraite *— hors collection Rijks* → soit on lâche, soit on élargit la source). + set (reco `26021` Dutch 17th c.) + nb d'œuvres + phares (Night Watch `SK-C-5`…).
 7. **Hotspots des phares** — qui les auteur, combien par œuvre, textes **ancrés** (Adam révise). Coords normalisées sur l'image.
-8. **Base44** — la PWA (repli) sur **Base44** (track « Prompt to Paid ») vs **Vercel** libre ?
+8. **Base44 / Claude Design / lien produit** — utiliser l'outil qui accélère le plus la vidéo, le polish visuel ou la page/lien de présentation ; ne pas bloquer le produit mobile sur une PWA Mollie.
 9. **Repo** — repartir vierge (penché) vs réutiliser `Laszlo-app/docs/` comme cache de décisions ?
 10. **Charge Siffrein / recrue n°2** — révisé : Siffrein porte serveur/runtime/secrets/deploy ; Adam/Codex porte app mobile. Recrue n°2 seulement si le runtime ou l'app bloque malgré cette coupe.
 11. **Barge-in** — acté **hors happy path** (M16, archi capable, montré si stable). Reste seulement à décider la profondeur **si** on le tente (couper la voix vs full-duplex).

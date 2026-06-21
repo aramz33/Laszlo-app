@@ -35,7 +35,7 @@ L'archi est **hexagonale** : surface client jetable + cœur + **adaptateurs sort
 | D4 Profil 3 questions skippables | Onboarding 3 taps | **Réutiliser** (léger) : préférences neutres visibles en démo, pas personas nommés |
 | D5/D12 Sourcing notices + gate groundedness | Semi-auto + revue humaine | **Construit (light)** : notices neutres par source (`rijks`/`wikipedia`) + provenance. Angles de médiation runtime et gate LLM approfondie = après |
 | **D7 Identification œuvre** | QR/NFC POC → CV MVP | **Ré-ouvert → ViroReact image tracking** : voir la décision ci-dessous. Sélection manuelle + QR + overlay 2D = filets |
-| D9 Multilingue pivot EN | DeepL + LLM multilingue | **Garder en démo live** : question en FR puis EN = effet « waouh » quasi gratuit (les métadonnées Rijks sont déjà EN+NL) |
+| D9 Multilingue pivot EN | DeepL + LLM multilingue | **Garder dans la vidéo 90 s si ça tient** : question en FR puis EN = effet « waouh » quasi gratuit (les métadonnées Rijks sont déjà EN+NL) |
 | D6/D13 Hybride on-device + UE residency + éval-gated | Self-host Mistral/Voxtral/Cartesia | **Ignorer ce week-end** : zéro self-host, zéro éval. Providers managés. Ré-aligner après |
 | Vision = embeddings (pas LLM) | SigLIP/DINO + pgvector | **Hors runtime ce week-end** : ViroReact fait la reco sur set curé. Embeddings = story d'échelle (pitch) + post-hackathon (reco open-world). |
 
@@ -97,7 +97,7 @@ Si les anchors ViroReact ne sont pas stables **sur device**, on bascule en **sé
    lire / vocaliser le texte personnalisé déjà prêt. Fallback démo : `narration_text`
    brut si la génération tarde. Contrôles : **vitesse**, **ton**, **voix** — changeables
    à la volée. `audio_url` n'est qu'un cache optionnel si la latence TTS casse le wow.
-4. **Chat / questions libres.** Au-delà des hotspots : un **chatbot** permet de **poser des questions** et de **taper ailleurs que sur les points pré-définis** → réponse vocale/texte. **Barge-in = bonus** (M16) : montré si stable, sinon hors démo — le chat marche sans la coupure mid-phrase.
+4. **Chat / questions libres.** Au-delà des hotspots : un **chatbot** permet de **poser des questions** → réponse vocale/texte. Le **point libre sur l'œuvre** reste le prochain sujet de design : il faut décider comment le modèle vision comprend réellement la zone pointée avant d'en faire une promesse de démo. **Barge-in = bonus** (M16) : pitch-only si instable — le chat marche sans la coupure mid-phrase.
 5. **Vision pitch (non développée).** End-game = **phone-less** : l'expérience sur **lunettes**, qui parle directement à l'utilisateur. *Shoot for the stars* — c'est pour le **pitch**, pas pour le build. Cf. [[1 — Stratégie & arène]] §Vision.
 
 **Lecture archi :** la reco (ViroReact) ne sert qu'à l'étape 1–2. Les hotspots (étape 3) = **coordonnées sur une image d'œuvre déjà connue** → zéro vision, juste UI + déclenchement audio. Le chat (étape 4) = la couche voix conversationnelle.
@@ -105,12 +105,12 @@ Si les anchors ViroReact ne sont pas stables **sur device**, on bascule en **sé
 ## Stack week-end (à valider Siffrein)
 
 - **Pipeline + backend** : **IntelliJ** (lane Adam). Recommandé **Python** (harvest/parse XML/images/LLM/Supabase) — tourne dans IntelliJ IDEA Ultimate (plugin Python) ou PyCharm ; alternative JVM/Kotlin si préféré.
-- **Client démo** : **app mobile Expo React Native + ViroReact** dans `/app-mobile` (lane Adam/Codex). **PWA Next.js/Vercel** conservée pour activation Mollie / page package musée / secondaire (ou Base44 si on vise sa track).
+- **Client démo** : **app mobile Expo React Native + ViroReact** dans `/app-mobile` (lane Adam/Codex). Livrable cible : **vidéo 90 s + lien produit**, avec APK/lien Android prioritaire ; PWA/Base44/Vercel seulement si cela accélère la page de présentation.
 - **Données** : **Rijksmuseum** — **OAI-PMH** (`https://data.rijksmuseum.nl/oai`, sans clé, format `edm`) + **IIIF** (`https://iiif.micr.io/{id}/...`). Set actuel : **`260214` Top 1000**.
 - **Base** : **Supabase** (Postgres). Schéma = le contrat (voir ci-dessous).
 - **Reconnaissance** : **ViroReact image tracking** (reference images générées depuis IIIF + dimensions EDM).
 - **Voix** : **OUVERT** (ElevenLabs / Vapi — à trancher après recherche).
-- **Paiement** : **Mollie** — activation B2B/B2B2C d'un paid pilot / package exposition / abonnement venue (qualif headline + preuve de sérieux commercial).
+- **Paiement** : **Mollie** — post-démo pour activation B2B/B2B2C d'un paid pilot / package exposition / abonnement venue ; **skippé pour la vidéo 90 s**.
 - **Builder kit** : Codex MAX, Devin MAX, Nebius 100$, Vapi 50$, Base44, HubSpot, Miro, Wispr Flow.
 
 ## Priorité de build (loi anti-débordement)
@@ -250,15 +250,15 @@ la démo commerciale, le pitch et les fallback physiques.
 - Designer : polir écran œuvre, transitions, écran « scale » (N œuvres ingérées).
 
 ### ⟐ SYNC 3 — Intégration midi (Sam ~14:30, 20 min)
-- **Premier bout-en-bout** : AR → œuvre → hotspot/voix → premium venue actif. **Go/no-go ViroReact → fallback sélection/QR/overlay 2D si anchors instables.** Geler le périmètre ?
+- **Premier bout-en-bout** : AR iPhone → œuvre → hotspot/voix → Ask → sous-titres → vidéo 90 s. **Fallback manuel prêt** si la prise AR rate. Geler le périmètre ?
 
 ### Phase 4 — Bloc C (aprem/soir) · Sam 15:00–~00:30 — **PRIORITÉ 3 : reco (bonus) + polish**
-- Adam/Codex : reconnaissance (ViroReact / sinon sélection-QR), hotspots personnalisés, polish du wow + traction + **démo activation Mollie**.
+- Adam/Codex : reconnaissance (ViroReact / sinon sélection manuelle), hotspots personnalisés, polish du wow, vidéo 90 s + lien produit/APK si possible.
 - Siffrein : multilingue runtime, streaming, voix/TTS et robustesse serveur.
 - Adam : draft pitch finale + slides.
 
 ### ⟐ SYNC 4 — Dry-run (Sam ~19:30, 30 min — pendant le foot)
-- Démo jouée en live, chrono. **Liste de coupes** (reco en 1er). Plan vidéo backup.
+- Vidéo 90 s jouée et chronométrée. **Liste de coupes** (reco en 1er). Lien produit/APK si possible.
 
 ### Phase 5 — Bloc D (nuit→matin) · Sam 23:00 → Dim ~02:00
 - Bug-fix happy path **uniquement**. **Vidéo backup** de la démo.
@@ -314,10 +314,10 @@ la démo commerciale, le pitch et les fallback physiques.
 - [ ] Identité « doux sur le regard », transitions. Écran « scale » (N œuvres).
 
 ### 💼 Business / pitch (Adam)
-- [ ] Packager l'offre **paid pilot / package exposition / abonnement venue**.
-- [ ] **Démo Mollie** : hosted checkout + webhook → premium venue actif + mini-CSV.
+- [ ] Packager l'offre **paid pilot / package exposition / abonnement venue** *(post-démo, pas bloquant vidéo)*.
+- [ ] **Mollie** : hosted checkout + webhook → premium venue actif + mini-CSV *(skippé pour la vidéo 90 s)*.
 - [ ] Plan **traction** (QR / signups). Draft **pitch finale** + slide de secours + **1 chiffre-choc**.
-- [ ] **Build-in-Public** (poster la journey). **Vidéo backup** (avant nuit sam.). **Répéter le pitch** (dim. matin).
+- [ ] **Build-in-Public** (poster la journey). **Vidéo 90 s** + lien produit/APK si possible. **Répéter le pitch** (dim. matin).
 
 ### 🏁 Dimanche
 - [ ] **SYNC 5** freeze (08:00) · polish/deploy · **SYNC 6** go/no-go → **soumettre avant 15:00** · ordre de passage.
