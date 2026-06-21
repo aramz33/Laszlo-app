@@ -147,12 +147,10 @@ export function personaPrompt(
   onboarding: Record<string, unknown>,
   lang: string,
 ): string {
-  return `From these onboarding signals, imagine ONE specific museum visitor and write a vivid portrait that briefs a guide on how to speak to them — their curiosity, what would delight them, the register and pace that fit. Weave in their own words if any. 2–3 sentences, concrete and evocative, written as a description ("Quelqu'un qui…" / "Someone who…"), NOT a restatement of the raw options. Write in ${lang}.
+  return `In ONE short sentence (20 words max), capture the CHARACTER of this museum visitor — what draws their curiosity and how they like a work to come to them. Vivid and human; it may be shown to the visitor, so make it flattering and easy to read. Do NOT mention tone, length, pace or "level" (handled separately), and do NOT restate the raw options. Write in ${lang}, as a description ("Quelqu'un qui…" / "Someone who…").
 Signals: motivation=${onboarding?.motivation ?? "?"}, knowledge=${
     onboarding?.knowledge ?? "?"
-  }, depth=${onboarding?.depth ?? "?"}, in their words: "${
-    onboarding?.free_text ?? "—"
-  }".`;
+  }, in their words: "${onboarding?.free_text ?? "—"}".`;
 }
 
 /** Follow-up questions. Provider returns one per line; parseFollowups (lib.ts) cleans them. */
