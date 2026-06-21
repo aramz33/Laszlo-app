@@ -55,7 +55,7 @@ séparées qui encadrent ce runtime. **Pas de microservices.** Journal **M28–M
 
 **Contrat `/generate`** (surface app ↔ runtime, détail = ADR 0014) :
 `POST /functions/v1/generate { artwork_id, mode: "hotspot"|"ask", hotspot_id|question,
-lang, profile{allure,niveau,interet} } → text/event-stream (delta… + {done, sources})`.
+lang, profile{motivation,knowledge,depth} } → text/event-stream (delta… + {done, sources})`.
 Le runtime **relit les notices server-side** (jamais de grounding venu du client).
 
 ## Décisions verrouillées (journal M28–M33 + couche app)

@@ -48,20 +48,17 @@
       <h2>Profil</h2>
       <div class="field-row">
         <div class="field">
-          <label title="court = 1-2 phrases · moyen = ~3 · long = 4-6">Allure</label>
-          <select id="allure"><option>court</option><option selected>moyen</option><option>long</option></select>
+          <label title="contemplate = sensoriel · understand = contexte/sens · stories = anecdotes/personnages">Motivation</label>
+          <select id="motivation"><option value="contemplate">contemplate</option><option value="understand" selected>understand</option><option value="stories">stories</option></select>
         </div>
         <div class="field">
-          <label title="decouverte = mots simples · amateur = équilibré · passionne = vocabulaire pointu">Niveau</label>
-          <select id="niveau"><option>decouverte</option><option selected>amateur</option><option>passionne</option></select>
+          <label title="newcomer = mots simples · comfortable = équilibré · expert = vocabulaire pointu">Connaissance</label>
+          <select id="knowledge"><option value="newcomer">newcomer</option><option value="comfortable" selected>comfortable</option><option value="expert">expert</option></select>
         </div>
-      </div>
-      <label>Intérêts</label>
-      <div class="chips" id="interets">
-        <label><input type="checkbox" class="interest" value="technique" checked>technique</label>
-        <label><input type="checkbox" class="interest" value="people">people</label>
-        <label><input type="checkbox" class="interest" value="stories">stories</label>
-        <label><input type="checkbox" class="interest" value="symbols">symbols</label>
+        <div class="field">
+          <label title="quick = 1-2 phrases · standard = ~3 · deep = 4-6">Profondeur</label>
+          <select id="depth"><option value="quick">quick</option><option value="standard" selected>standard</option><option value="deep">deep</option></select>
+        </div>
       </div>
       <label>Texte libre</label>
       <input id="freetext" placeholder="ex: j'aime comprendre comment c'est peint" />

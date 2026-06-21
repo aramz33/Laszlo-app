@@ -47,10 +47,10 @@ AID=5bc0dc80-bb3d-40d9-825e-9260e1dff6dc      # artwork_id
 HID=e2d7f12c-82f7-4d58-9a4a-63da0d1f68ee      # one hotspot id
 
 # persona  -> { persona_summary: "..." }  (no artwork needed)
-curl -s localhost:8000 -d '{"mode":"persona","lang":"fr","onboarding":{"allure":"court","niveau":"amateur","interets":["technique"]}}'
+curl -s localhost:8000 -d '{"mode":"persona","lang":"fr","onboarding":{"motivation":"understand","knowledge":"comfortable","depth":"quick"}}'
 
 # hotspot  -> items[0].status="ready", grounded text, 4 sources
-curl -s localhost:8000 -d "{\"mode\":\"hotspot\",\"artwork_id\":\"$AID\",\"hotspot_ids\":[\"$HID\"],\"lang\":\"fr\",\"profile\":{\"niveau\":\"decouverte\",\"interets\":[\"technique\"]}}" | python3 -m json.tool
+curl -s localhost:8000 -d "{\"mode\":\"hotspot\",\"artwork_id\":\"$AID\",\"hotspot_ids\":[\"$HID\"],\"lang\":\"fr\",\"profile\":{\"knowledge\":\"newcomer\",\"motivation\":\"understand\"}}" | python3 -m json.tool
 
 # ask      -> SSE: a run of {"type":"delta"} then one {"type":"done", text, sources}
 curl -sN localhost:8000 -d "{\"mode\":\"ask\",\"artwork_id\":\"$AID\",\"question\":\"Why is the light so dramatic?\",\"lang\":\"en\"}"

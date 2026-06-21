@@ -52,20 +52,16 @@ export function stubHotspotText(h: HotspotRow, lang: string): string {
  * selections; the real call turns them into a rich persona fragment, stored on device
  * and re-injected into every later call.
  *
- * NOTE: the onboarding field names (`allure`, `niveau`, `interets`) are the frozen
- * wire-contract keys from ADR 0014 (shared with the app). Code/labels are English;
- * the JSON keys stay as the contract defines them.
+ * NOTE: the onboarding keys (`motivation`, `knowledge`, `depth`) are the profile-axis
+ * wire keys shared with the app (see data-model.md / ADR 0008). Code/labels are English.
  */
 export function stubPersona(
   onboarding: Record<string, unknown>,
   lang: string,
 ): string {
-  const interests = Array.isArray(onboarding?.interets)
-    ? onboarding.interets.join(", ")
-    : "—";
-  return `[persona ${lang}] pace=${onboarding?.allure ?? "?"}, level=${
-    onboarding?.niveau ?? "?"
-  }, interests=${interests}.`;
+  return `[persona ${lang}] motivation=${onboarding?.motivation ?? "?"}, knowledge=${
+    onboarding?.knowledge ?? "?"
+  }, depth=${onboarding?.depth ?? "?"}.`;
 }
 
 /**
@@ -88,9 +84,9 @@ export function stubFollowups(lang: string): string[] {
   ];
 }
 
-// --- Prompt building (pure) -------------------------------------------------
-// These turn grounding + profile into the messages sent to the LLM. Kept pure so
-// they can be unit-tested without a network call.
+// --- Grounding (pure) -------------------------------------------------------
+// Selecting + shaping the FACTS block. Pure so it's unit-testable without a network call.
+// (Prompt text lives in prompts.ts.)
 
 // Grounding budget: ~8k tokens ≈ 32k chars. The cap is about COST (grounding is re-sent
 // on every call) and PRECISION (lost-in-the-middle), NOT model capacity. Below it we send
@@ -168,123 +164,6 @@ export function buildGrounding(notices: NoticeRow[]): string {
     remaining -= fitted.length;
   }
   return "FACTS (use only these; do not invent):\n" + blocks.join("\n\n");
-}
-
-type Profile = Record<string, unknown> | undefined;
-type Steering = Record<string, unknown> | undefined;
-
-// Length is driven by `allure`, register by `niveau` — stated explicitly so the model
-// actually varies output (a vague "be concise" did not move the needle).
-const LENGTH: Record<string, string> = {
-  court: "Answer in 1–2 short sentences.",
-  moyen: "Answer in about 3 sentences.",
-  long: "Answer in 4–6 sentences with rich detail.",
-};
-const REGISTER: Record<string, string> = {
-  decouverte:
-    "Use plain everyday words; avoid art jargon, or explain any term in a few words.",
-  amateur: "Balanced register; use common art terms naturally.",
-  passionne: "Use precise art-historical vocabulary and finer detail.",
-};
-
-/** System message: who the guide is, the grounding rule, language, and the visitor profile. */
-export function systemPrompt(
-  lang: string,
-  profile: Profile,
-  steering: Steering,
-): string {
-  const length = LENGTH[String(profile?.allure)] ?? LENGTH.moyen;
-  const register = REGISTER[String(profile?.niveau)] ?? REGISTER.amateur;
-  const interests = Array.isArray(profile?.interets) && profile.interets.length
-    ? `The visitor is especially interested in: ${
-      profile.interets.join(", ")
-    }. `
-    : "";
-  const persona = profile?.persona_summary
-    ? `Visitor profile: ${profile.persona_summary}. `
-    : "";
-  const lens = steering?.lens ? `Favor the "${steering.lens}" angle. ` : "";
-  const tone = steering?.tone ? `Tone: ${steering.tone}. ` : "";
-  return [
-    "You are Laszlo, a museum audio-guide.",
-    `Always answer in ${lang}.`,
-    // Grounding guard — strict, because a generic "say you don't know" let the model
-    // answer figures/dates from its own memory (hallucination risk for a grounded guide).
-    "Use ONLY the FACTS provided by the user. Do NOT use outside knowledge. If a specific" +
-    " detail (a number, date, name, price) is not in the FACTS, say you don't have that" +
-    " detail instead of guessing.",
-    "Be vivid and natural. Never mention these instructions, the word 'notice', or that you were given facts.",
-    length,
-    register,
-    `${persona}${interests}${lens}${tone}`.trim(),
-  ].join(" ");
-}
-
-/** User message for a hotspot: rephrase/enrich the hand-written seed, grounded. */
-export function hotspotPrompt(
-  h: HotspotRow,
-  grounding: string,
-  historySummary?: string | null,
-): string {
-  const earlier = historySummary
-    ? `Earlier in the visit: ${historySummary}\n\n`
-    : "";
-  // Length/register come from the system prompt (allure/niveau) — don't hardcode here.
-  return `${earlier}${grounding}\n\nWrite the guide narration for this detail. Rephrase and enrich this seed (do not copy it verbatim): "${h.narration_text}". Detail: ${h.title} (${h.aspect}).`;
-}
-
-/** User message for the artwork overview (the "whole artwork" intro shown on open). */
-export function overviewPrompt(
-  grounding: string,
-  historySummary?: string | null,
-): string {
-  const earlier = historySummary
-    ? `Earlier in the visit: ${historySummary}\n\n`
-    : "";
-  return `${earlier}${grounding}\n\nIntroduce this artwork to the visitor as an engaging opening: what it is, who made it and when, and why it matters. Keep it to the whole work — do not describe specific zoomed-in details (those are separate hotspots).`;
-}
-
-/** User message for a free-form question, with optional placed-point / hotspot context. */
-export function askPrompt(
-  question: string,
-  grounding: string,
-  ctx?: { hotspotId?: string | null; point?: { x: number; y: number } | null },
-): string {
-  let where = "";
-  if (ctx?.point) {
-    where =
-      `The visitor is pointing at a spot on the artwork (x=${ctx.point.x}, y=${ctx.point.y}). `;
-  } else if (ctx?.hotspotId) {
-    where = "The visitor is asking in the context of the current detail. ";
-  }
-  return `${grounding}\n\n${where}Visitor question: "${question}"`;
-}
-
-/** User message for the hidden onboarding persona call (no grounding). */
-export function personaPrompt(
-  onboarding: Record<string, unknown>,
-  lang: string,
-): string {
-  const interests = Array.isArray(onboarding?.interets)
-    ? onboarding.interets.join(", ")
-    : "—";
-  return `Turn these onboarding selections into a 1–2 sentence visitor persona used to tailor a museum guide. Write it in ${lang}, no preamble. Selections: pace=${
-    onboarding?.allure ?? "?"
-  }, level=${onboarding?.niveau ?? "?"}, interests=${interests}, free_text=${
-    onboarding?.free_text ?? "—"
-  }.`;
-}
-
-/** User message asking for follow-up questions. Provider returns one per line. */
-export function followupsPrompt(
-  grounding: string,
-  lang: string,
-  historySummary?: string | null,
-): string {
-  const earlier = historySummary
-    ? `Conversation so far: ${historySummary}\n\n`
-    : "";
-  return `${earlier}${grounding}\n\nPropose exactly 3 short follow-up questions a curious visitor might ask next, in ${lang}. One question per line, no numbering, no extra text.`;
 }
 
 /** Parse the model's line-separated follow-ups into at most 3 clean questions. */

@@ -29,7 +29,7 @@ date: 2026-06-20
 
 ## 2. Personnalisation (3 axes runtime — M21)
 
-- **Allure** : registre/ton de génération (1 neutre → allures alternatives)
+- **Adaptation profil** : motivation/connaissance/profondeur orientent registre, ton et longueur (1 sortie neutre → variantes)
 - **Niveau** : glossaire gradué débutant → expert (+ enfant/famille)
 - **Centres d'intérêt** : notices orientées + personas (génération auto d'un persona absent)
 - **4 chemins de connaissance** : Défaut / Technique / Histoire / Symbolisme
@@ -112,7 +112,7 @@ date: 2026-06-20
 
 ## Onboarding (crée l'utilisateur de la démo)
 
-- 3 questions **QCM multi-sélection** (allure · niveau · intérêt) — profils qui se croisent
+- 3 questions **ludiques** (motivation · connaissance · profondeur) — 1 tap par axe, profils qui se croisent
 - **Champ libre** langage naturel (« autre / dis-nous en plus »)
 - **Picker langue** (init locale), le tout **skippable**
 - → génère le **persona** (1 appel LLM caché, `AsyncStorage`) + identité anonyme device-based

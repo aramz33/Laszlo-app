@@ -133,8 +133,9 @@ après **3 s**. Les hotspots ne sont **pas** recalculés à l'intérieur d'une m
   "request_id": "uuid", "artwork_id": "uuid", "mode": "hotspot",
   "hotspot_ids": ["uuid"],
   "lang": "fr | en | nl",
-  "profile": { "allure": "...", "niveau": "...", "interets": ["technique","people"],
-               "free_text": "string | null", "persona_summary": "string | null" },
+  "profile": { "motivation": "contemplate|understand|stories", "knowledge": "newcomer|comfortable|expert",
+               "depth": "quick|standard|deep", "free_text": "string | null",
+               "persona_summary": "string | null", "kid": "bool (réservé, futur)" },
   "steering": { "tone": "string | null", "lens": "technique|people|stories|symbols|null" },
   "history_summary": "string | null",
   "history": [ { "role": "user|assistant", "content": "string", "artwork_id": "uuid | null" } ]
@@ -170,7 +171,7 @@ Sélections onboarding → `persona_summary` (1 appel LLM, stocké device, réin
 ```jsonc
 // Request
 { "request_id": "uuid", "mode": "persona", "lang": "fr|en|nl",
-  "onboarding": { "allure": "...", "niveau": "...", "interets": ["technique","people"], "free_text": "string|null" } }
+  "onboarding": { "motivation": "...", "knowledge": "...", "depth": "...", "free_text": "string|null" } }
 // Response
 { "type": "done", "request_id": "uuid", "persona_summary": "string" }
 ```

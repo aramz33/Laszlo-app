@@ -88,7 +88,7 @@ date: 2026-06-20
 - [ ] **Champ question** (texte + voix) sous l'œuvre → déclenche `/generate mode=ask` ; marche avec ou sans hotspot/point sélectionné
 - [x] **Fallback identification par modèle de vision** : capture photo → `/identify` (Pixtral) identifie l'œuvre → ouverture de la vue détail (M31)
 - [ ] **Fallback sélection manuelle / QR / overlay 2D** prêt (même backend + même vue détail)
-- [ ] **Onboarding profil** : 3 questions skippables **ludiques**, **flux conditionnel** (la suite dépend des réponses), multi-sélection possible → axes neutres (allure/niveau/intérêt) (C1) — *wording = design*
+- [ ] **Onboarding profil** : 3 questions skippables **ludiques**, **flux conditionnel** (la suite dépend des réponses), → axes neutres : **motivation · connaissance · profondeur** (1 tap chacun) (C1) — *wording = design*
   - [ ] **Mapping onboarding → input profil LLM** : transformer les sélections (pas les mots bruts) en un fragment riche et bien construit pour `f()` (côté serveur ; le client envoie les sélections) = partie du contrat `f()`
   - [ ] **Profils démo (presets) à définir** : 2-3 profils golden réglés (contraste fort), sélectionnables — **fallback** si saisie live / connexion casse
 - [ ] **Picker langue** visible, init sur la locale (C2)

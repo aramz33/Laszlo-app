@@ -25,7 +25,7 @@ const headers = {
 ## `POST /generate` — text, 5 modes
 
 Shared optional fields: `request_id` (echoed back), `lang` (`fr|en|nl`),
-`profile` (`{ allure, niveau, interets[], free_text, persona_summary }`),
+`profile` (`{ motivation, knowledge, depth, free_text, persona_summary, kid? }`),
 `steering` (`{ tone, lens }`), `history` (capped 8), `history_summary`.
 
 ### mode `overview` — whole-artwork intro (fire once, when the artwork opens)
@@ -59,9 +59,9 @@ const r = await fetch(`${BASE}/generate`, {
     mode: "persona",
     lang: "fr",
     onboarding: {
-      allure: "court",
-      niveau: "amateur",
-      interets: ["technique"],
+      motivation: "understand",
+      knowledge: "comfortable",
+      depth: "quick",
       free_text: "j'aime la lumière",
     },
   }),

@@ -110,7 +110,7 @@ Deno.test("overview falls back to a stub when the model fails", async () => {
 
 Deno.test("persona returns the model summary", async () => {
   const res = await handle(
-    post({ mode: "persona", onboarding: { allure: "court" } }),
+    post({ mode: "persona", onboarding: { motivation: "understand" } }),
     deps(),
   );
   const body = await res.json();
@@ -120,7 +120,7 @@ Deno.test("persona returns the model summary", async () => {
 
 Deno.test("persona falls back to a stub when the model fails", async () => {
   const res = await handle(
-    post({ mode: "persona", lang: "fr", onboarding: { allure: "court" } }),
+    post({ mode: "persona", lang: "fr", onboarding: { motivation: "understand" } }),
     deps({ complete: failing }),
   );
   const body = await res.json();

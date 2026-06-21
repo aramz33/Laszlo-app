@@ -250,7 +250,7 @@ Panel headline (11) — surtout **VCs + opérateurs** :
 | M18 | **Notice = substrat neutre ancré**, jamais le texte final. 1 ligne par (œuvre × lang × source). **Colonne `facet` supprimée** : les 4 chemins = **lentilles runtime** + boutons UI (taxonomie non figée, à repenser humain/social) | ✅ acté |
 | M19 | **Enrichissement multi-sources SANS LLM** : Rijks (métadonnées fiables) + **Wikidata** (Q-id, mouvement P135, tags P180/P136, sitelinks — pour les 747) + **Wikipedia** (narration, gate = article existant, repli Rijks). Notices par source (rijks `ok`, wikipedia `review`) | ✅ acté |
 | M20 | **Set Rijks = `26121`** (≠ `26021` = coquille), **747 œuvres**. IIIF imageId **direct** dans `edm:isShownBy` (pas de détour Linked Art pour l'image) | ✅ vérifié live |
-| M21 | **Architecture en 3 couches** : Connaissance (construite ce soir) → Personnalisation (profil 3 axes / persona / cadrage musée) → Mémoire (apprend dans le temps). Les **3 cadrans (Allure/Niveau/Centre d'intérêt) s'appliquent tous au runtime** ; perso+mémoire = designées + pitchées (sessions suivantes) | ✅ acté |
+| M21 | **Architecture en 3 couches** : Connaissance (construite ce soir) → Personnalisation (profil 3 axes / persona / cadrage musée) → Mémoire (apprend dans le temps). Les **3 axes de profil s'appliquent tous au runtime** (refonte 21/06 : motivation/connaissance/profondeur, cf. ADR 0008) ; perso+mémoire = designées + pitchées (sessions suivantes) | ✅ acté |
 | M22 | **ETL médaillon** (raw → enriched → refined → load), **Supabase direct** (pas de mock), client démo alors **natif iOS confirmé** (Adam = expert iOS), **pas de recrue n2**. LLM (faceting/génération) + TTS = déférés | ☑️ front remplacé par M25/M26 |
 
 

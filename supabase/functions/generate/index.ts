@@ -23,23 +23,25 @@ import { CORS, jsonResponse, preflight } from "../_shared/http.ts";
 import { anonClient } from "../_shared/supabase.ts";
 import { complete, type Msg, streamDeltas } from "./llm.ts";
 import {
-  askPrompt,
   buildGrounding,
-  followupsPrompt,
-  hotspotPrompt,
   type HotspotRow,
   type NoticeRow,
   noticesToSources,
-  overviewPrompt,
   parseFollowups,
-  personaPrompt,
   selectPivotNotices,
   stubFollowups,
   stubHotspotText,
   stubOverviewText,
   stubPersona,
-  systemPrompt,
 } from "./lib.ts";
+import {
+  askPrompt,
+  followupsPrompt,
+  hotspotPrompt,
+  overviewPrompt,
+  personaPrompt,
+  systemPrompt,
+} from "./prompts.ts";
 
 /** External boundaries the handler depends on (real impls below, fakes in tests). */
 export type GenerateDeps = {

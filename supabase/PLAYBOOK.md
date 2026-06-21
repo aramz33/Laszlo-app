@@ -47,7 +47,7 @@ deno run --allow-net --allow-env supabase/functions/generate/index.ts
 ### Test layout (83 tests, all offline)
 
 - `<fn>/stub_test.ts` — pure helpers in `lib.ts` (prompts, parsing, chunking,
-  mapping). Covers: `systemPrompt` (lang/allure/niveau/steering/persona),
+  mapping). Covers: `systemPrompt` (lang/motivation/knowledge/depth/steering/persona),
   `hotspotPrompt`, `overviewPrompt`, `askPrompt` (with point / hotspot context),
   `followupsPrompt`, `capText`, `buildGrounding`, `candidateLines` (null fields),
   `visionPrompt`, `resolveMatch`, `toTranscript`, `chunkText`, `googleTtsUrl`, etc.

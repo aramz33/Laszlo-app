@@ -192,17 +192,21 @@ Terme
 
 ## Adaptation du contenu
 
-Les 3 cadrans s'appliquent **tous au runtime** (la notice reste un substrat neutre ;
-aucun n'est pré-stocké). Ils sont **additifs** sur le contrat figé (Allure = aucun
-stockage ; Niveau = future table `term` ; Centre d'intérêt = lentille runtime), donc
-n'imposent **aucune migration** de la couche Connaissance. Démo = profil 3 questions
-skippable ; personas + mémoire = couches suivantes (designées + pitchées).
+Le profil visiteur = **3 axes orthogonaux**, un tap chacun à l'onboarding (ludique,
+rapide). Tous s'appliquent **au runtime** (la notice reste un substrat neutre ; rien
+n'est pré-stocké) et sont **additifs** sur le contrat figé → **aucune migration** de la
+couche Connaissance. Démo = 3 questions skippables ; persona + mémoire = couches
+suivantes. Cadrage et justification : **ADR 0008**.
 
-| Axe neutre | Cadran | Mécanisme |
+| Axe profil | Valeurs | Effet sur la sortie / mécanisme |
 |---|---|---|
-| Allure | longueur | paramètre de génération (runtime) |
-| Niveau | registre / vocabulaire | glossaire gradué (table `term`, injection runtime) |
-| Centre d'intérêt | angle de médiation | instruction runtime sur la notice unique (boutons UI, taxonomie non figée) |
+| **Motivation** (mode de lecture) | `contemplate` · `understand` · `stories` | sensoriel / explicatif / narratif — instruction runtime (system prompt) |
+| **Connaissance** | `newcomer` · `comfortable` · `expert` | registre / vocabulaire — instruction runtime (+ futur glossaire gradué, table `term`) |
+| **Profondeur** | `quick` · `standard` · `deep` | longueur — paramètre de génération runtime |
+
+Hors profil : l'**angle d'intérêt** (technique/histoire/symbole/personnages) n'est **pas**
+un axe de profil — il change d'œuvre à œuvre, donc c'est du **steering runtime**
+(`steering.lens`, boutons UI). Champ `kid` (bool) réservé à de futures features enfants.
 
 **Architecture en 3 couches :** Connaissance (partagée, ce contrat) → Glossaire /
 vocabulaire gradué (termes, définitions par niveau) → Profil utilisateur (préférences

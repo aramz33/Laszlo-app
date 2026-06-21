@@ -8,12 +8,11 @@ const fnUrl   = (n) => `${base()}/functions/v1/${n}`;
 const H       = () => ({ 'Authorization': `Bearer ${$('key').value}`, 'Content-Type': 'application/json' });
 const lang    = () => $('lang').value;
 const profile = () => {
-  const interets = [...document.querySelectorAll('.interest:checked')].map(c => c.value);
   const p = {
-    allure:    $('allure').value,
-    niveau:    $('niveau').value,
-    interets,
-    free_text: $('freetext').value || null,
+    motivation: $('motivation').value,
+    knowledge:  $('knowledge').value,
+    depth:      $('depth').value,
+    free_text:  $('freetext').value || null,
   };
   if ($('injectPersona').checked && personaSummary) p.persona_summary = personaSummary;
   return p;
@@ -493,10 +492,10 @@ async function transcribe() {
 
 function buildPersona() {
   const onboarding = {
-    allure:    $('allure').value,
-    niveau:    $('niveau').value,
-    interets:  [...document.querySelectorAll('.interest:checked')].map(c => c.value),
-    free_text: $('freetext').value || null,
+    motivation: $('motivation').value,
+    knowledge:  $('knowledge').value,
+    depth:      $('depth').value,
+    free_text:  $('freetext').value || null,
   };
   $('persona').textContent = '…';
   gen({ mode: 'persona', lang: lang(), onboarding }, 'persona')
@@ -529,10 +528,10 @@ function resetHistory() {
 
 // ─── Scenarios ────────────────────────────────────────────────────────────────
 
-function setProfile(allure, niveau, interets) {
-  $('allure').value = allure;
-  $('niveau').value = niveau;
-  document.querySelectorAll('.interest').forEach(c => c.checked = interets.includes(c.value));
+function setProfile(motivation, knowledge, depth) {
+  $('motivation').value = motivation;
+  $('knowledge').value = knowledge;
+  $('depth').value = depth;
 }
 function setLang(l) { $('lang').value = l; }
 function selectObj(obj) {
@@ -544,17 +543,17 @@ const SCENARIOS = [
   {
     name: '✦ Vue d\'ensemble',
     help: 'Ouvre la Ronde de nuit et génère la présentation générale (mode=overview).',
-    run: async () => { setLang('fr'); setProfile('moyen', 'amateur', ['stories']); selectObj('SK-C-5'); await openOverview(); },
+    run: async () => { setLang('fr'); setProfile('understand', 'comfortable', 'standard'); selectObj('SK-C-5'); await openOverview(); },
   },
   {
     name: '👀 Débutant FR',
-    help: 'Profil court/découverte — réponses courtes et simples.',
-    run: async () => { setLang('fr'); setProfile('court', 'decouverte', ['technique']); selectObj('SK-C-5'); await openArtwork(); },
+    help: 'Profil newcomer/quick — réponses courtes et simples.',
+    run: async () => { setLang('fr'); setProfile('understand', 'newcomer', 'quick'); selectObj('SK-C-5'); await openArtwork(); },
   },
   {
     name: '🎓 Passionné EN',
-    help: 'Profil long/passionne en anglais — vocabulaire pointu. Compare avec Débutant FR.',
-    run: async () => { setLang('en'); setProfile('long', 'passionne', ['technique', 'stories']); selectObj('SK-C-5'); await openArtwork(); },
+    help: 'Profil expert/deep en anglais — vocabulaire pointu. Compare avec Débutant FR.',
+    run: async () => { setLang('en'); setProfile('understand', 'expert', 'deep'); selectObj('SK-C-5'); await openArtwork(); },
   },
   {
     name: '🧠 Inter-œuvres',

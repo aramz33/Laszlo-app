@@ -8,13 +8,21 @@ Les mêmes faits ancrés doivent s'adapter (1) à l'utilisateur (profil) et (2) 
 
 ## Décision
 
-**1. Trois cadrans de personnalisation orthogonaux**, pilotés par les 3 questions de profil :
+**1. Trois axes de profil orthogonaux**, un tap chacun à l'onboarding :
 
-| Axe neutre | Cadran | Mécanisme |
+| Axe profil | Valeurs | Mécanisme |
 |---|---|---|
-| Allure | longueur | paramètre de génération |
-| Niveau | registre / vocabulaire | **glossaire gradué** |
-| Centre d'intérêt | angle de médiation | instruction runtime + préférences utilisateur |
+| **Motivation** (mode de lecture) | `contemplate` · `understand` · `stories` | instruction runtime (system prompt) |
+| **Connaissance** | `newcomer` · `comfortable` · `expert` | registre / vocabulaire — instruction runtime (+ futur **glossaire gradué**) |
+| **Profondeur** | `quick` · `standard` · `deep` | longueur — paramètre de génération |
+
+> **Révision 2026-06-21 (M??)** : refonte des axes. Les anciens cadrans `Allure / Niveau /
+> Centre d'intérêt` sont remplacés. **Motivation** (pourquoi le visiteur regarde — fondé sur
+> le modèle d'identités visiteur de Falk) devient l'axe à plus fort impact. L'**angle
+> d'intérêt** sort du profil → **steering runtime** (`steering.lens`), car il change d'œuvre
+> à œuvre. Le « avec enfants » est situationnel (le visiteur s'adapte, pas l'app) → retiré ;
+> un flag `kid` est réservé pour de futures features. Toujours **axes neutres, pas personas
+> nommés**, et toujours **additif** (aucune migration du contrat figé).
 
 **2. Glossaire gradué** — entité `Terme` transverse :
 - `terme_EN`, `domaine`, `définitions{découverte, amateur, passionné}`, traductions, liens.

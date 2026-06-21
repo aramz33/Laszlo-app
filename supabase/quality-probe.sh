@@ -24,15 +24,15 @@ gen(){ curl -s "$EP/generate" -H "Authorization: Bearer $ANON" -H 'Content-Type:
 hr(){ printf '\n\033[1m== %s ==\033[0m\n' "$1"; }
 
 hr "PERSONA (onboarding -> profile)"
-gen "{\"mode\":\"persona\",\"lang\":\"$LANG_\",\"onboarding\":{\"allure\":\"court\",\"niveau\":\"decouverte\",\"interets\":[\"technique\"]}}" \
+gen "{\"mode\":\"persona\",\"lang\":\"$LANG_\",\"onboarding\":{\"motivation\":\"understand\",\"knowledge\":\"newcomer\",\"depth\":\"quick\"}}" \
   | python3 -c "import sys,json;print(json.load(sys.stdin)['persona_summary'])"
 
 hr "HOTSPOT — court / découverte (expect: 1-2 short, simple)"
-gen "{\"mode\":\"hotspot\",\"artwork_id\":\"$AID\",\"hotspot_ids\":[\"$HID\"],\"lang\":\"$LANG_\",\"profile\":{\"allure\":\"court\",\"niveau\":\"decouverte\"}}" \
+gen "{\"mode\":\"hotspot\",\"artwork_id\":\"$AID\",\"hotspot_ids\":[\"$HID\"],\"lang\":\"$LANG_\",\"profile\":{\"depth\":\"quick\",\"knowledge\":\"newcomer\"}}" \
   | python3 -c "import sys,json;print(json.load(sys.stdin)['items'][0]['text'])"
 
 hr "HOTSPOT — long / passionné (expect: 4-6, richer, jargon ok)"
-gen "{\"mode\":\"hotspot\",\"artwork_id\":\"$AID\",\"hotspot_ids\":[\"$HID\"],\"lang\":\"$LANG_\",\"profile\":{\"allure\":\"long\",\"niveau\":\"passionne\"}}" \
+gen "{\"mode\":\"hotspot\",\"artwork_id\":\"$AID\",\"hotspot_ids\":[\"$HID\"],\"lang\":\"$LANG_\",\"profile\":{\"depth\":\"deep\",\"knowledge\":\"expert\"}}" \
   | python3 -c "import sys,json;print(json.load(sys.stdin)['items'][0]['text'])"
 
 for Q in "Pourquoi ce tableau s'appelle-t-il la Ronde de nuit ?" "Combien Rembrandt a-t-il ete paye pour ce tableau ?"; do

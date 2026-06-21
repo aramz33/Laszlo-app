@@ -5,13 +5,9 @@
 
 import { assert, assertEquals } from "jsr:@std/assert@1";
 import {
-  askPrompt,
   buildGrounding,
   fitToBudget,
-  followupsPrompt,
-  hotspotPrompt,
   noticesToSources,
-  overviewPrompt,
   parseFollowups,
   selectPivotNotices,
   stripNoiseSections,
@@ -19,8 +15,15 @@ import {
   stubHotspotText,
   stubOverviewText,
   stubPersona,
-  systemPrompt,
 } from "./lib.ts";
+import {
+  askPrompt,
+  followupsPrompt,
+  hotspotPrompt,
+  overviewPrompt,
+  render,
+  systemPrompt,
+} from "./prompts.ts";
 
 Deno.test("noticesToSources maps rows to {source, lang, notice_id}", () => {
   const out = noticesToSources([{
@@ -90,7 +93,7 @@ Deno.test("stubOverviewText contains the lang tag", () => {
 Deno.test("overviewPrompt embeds the grounding and the intro instruction", () => {
   const p = overviewPrompt("FACTS: x");
   assert(p.includes("FACTS: x"));
-  assert(p.includes("Introduce"));
+  assert(p.includes("why it matters"));
 });
 
 Deno.test("overviewPrompt prepends history_summary when present", () => {
@@ -98,14 +101,13 @@ Deno.test("overviewPrompt prepends history_summary when present", () => {
   assert(p.startsWith("Earlier"));
 });
 
-Deno.test("stubPersona reflects the onboarding selections", () => {
-  // Reads the frozen contract keys (allure/niveau/interets) but labels them in English.
-  assert(
-    stubPersona(
-      { allure: "court", niveau: "amateur", interets: ["technique"] },
-      "fr",
-    ).includes("technique"),
+Deno.test("stubPersona reflects the onboarding axes (motivation/knowledge/depth)", () => {
+  const out = stubPersona(
+    { motivation: "stories", knowledge: "newcomer", depth: "quick" },
+    "fr",
   );
+  assert(out.includes("stories"));
+  assert(out.includes("newcomer"));
 });
 
 // --- grounding shaping (strip / fit / pivot) --------------------------------
@@ -161,29 +163,44 @@ Deno.test("selectPivotNotices falls back to NL when no EN wikipedia exists", () 
 
 // --- systemPrompt -----------------------------------------------------------
 
+Deno.test("render fills {{placeholders}} and leaves missing keys empty", () => {
+  assertEquals(render("a {{x}} b {{y}}", { x: "1" }), "a 1 b ");
+});
+
 Deno.test("systemPrompt instructs the model to answer in the requested language", () => {
   const s = systemPrompt("nl", undefined, undefined);
   assert(s.includes("nl"), "language instruction missing");
 });
 
-Deno.test("systemPrompt maps allure=court to the short length hint", () => {
-  const s = systemPrompt("fr", { allure: "court" }, undefined);
+Deno.test("systemPrompt maps depth=quick to the short length hint", () => {
+  const s = systemPrompt("fr", { depth: "quick" }, undefined);
   assert(s.includes("1–2"), "expected short-length hint");
 });
 
-Deno.test("systemPrompt maps allure=long to the rich length hint", () => {
-  const s = systemPrompt("fr", { allure: "long" }, undefined);
+Deno.test("systemPrompt maps depth=deep to the rich length hint", () => {
+  const s = systemPrompt("fr", { depth: "deep" }, undefined);
   assert(s.includes("4–6"), "expected long-length hint");
 });
 
-Deno.test("systemPrompt maps niveau=decouverte to plain-words register", () => {
-  const s = systemPrompt("fr", { niveau: "decouverte" }, undefined);
+Deno.test("systemPrompt maps knowledge=newcomer to plain-words register", () => {
+  const s = systemPrompt("fr", { knowledge: "newcomer" }, undefined);
   assert(s.toLowerCase().includes("plain"), "expected plain-words register");
 });
 
-Deno.test("systemPrompt maps niveau=passionne to precise vocabulary register", () => {
-  const s = systemPrompt("fr", { niveau: "passionne" }, undefined);
+Deno.test("systemPrompt maps knowledge=expert to precise vocabulary register", () => {
+  const s = systemPrompt("fr", { knowledge: "expert" }, undefined);
   assert(s.toLowerCase().includes("precise"), "expected precise register");
+});
+
+Deno.test("systemPrompt maps motivation=stories to the story/people angle", () => {
+  const s = systemPrompt("fr", { motivation: "stories" }, undefined);
+  assert(s.toLowerCase().includes("stories"), "expected story/people angle");
+});
+
+Deno.test("systemPrompt defaults are applied when no profile is given", () => {
+  const s = systemPrompt("fr", undefined, undefined);
+  assert(s.includes("about 3 sentences"), "expected standard depth default");
+  assert(s.toLowerCase().includes("understand"), "expected understand motivation default");
 });
 
 Deno.test("systemPrompt injects steering.lens when provided", () => {

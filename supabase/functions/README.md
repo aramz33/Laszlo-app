@@ -34,7 +34,7 @@ app ──► /speak      text     text → playable audio_url   (TTS)
 ```
 _shared/http.ts       CORS, preflight(), jsonResponse()       — used by all 4
 _shared/supabase.ts   anonClient() (reads) · serviceClient() (writes)
-generate/  index.ts · lib.ts (prompts/parse, pure) · llm.ts (Scaleway chat) · stub_test.ts
+generate/  index.ts · prompts.ts (system+mode prompts, templated) · lib.ts (grounding/stubs, pure) · llm.ts (Scaleway chat) · stub_test.ts
 transcribe/ identify/ speak/   index.ts · lib.ts (pure) · stub_test.ts · README.md
 ```
 
