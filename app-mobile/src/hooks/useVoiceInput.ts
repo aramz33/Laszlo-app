@@ -2,9 +2,10 @@ import {
   AudioModule,
   RecordingPresets,
   setAudioModeAsync,
-  useAudioRecorder
+  useAudioRecorder,
+  useAudioRecorderState
 } from "expo-audio";
-import { useCallback, useState } from "react";
+import { useCallback, useRef, useState } from "react";
 
 import { transcribe, type Lang } from "../services/runtime";
 
@@ -18,6 +19,8 @@ export type VoiceState = "idle" | "recording" | "transcribing" | "error";
 export function useVoiceInput(lang: Lang) {
   const [state, setState] = useState<VoiceState>("idle");
   const recorder = useAudioRecorder(RecordingPresets.HIGH_QUALITY);
+  const recorderState = useAudioRecorderState(recorder, 200);
+  const startedAtRef = useRef(0);
 
   const start = useCallback(async () => {
     try {
@@ -28,6 +31,7 @@ export function useVoiceInput(lang: Lang) {
       }
       await setAudioModeAsync({ allowsRecording: true, playsInSilentMode: true });
       await recorder.prepareToRecordAsync();
+      startedAtRef.current = Date.now();
       recorder.record();
       setState("recording");
     } catch {
@@ -36,14 +40,20 @@ export function useVoiceInput(lang: Lang) {
   }, [recorder]);
 
   const stop = useCallback(async (): Promise<string | null> => {
-    if (!recorder.isRecording) {
+    if (state !== "recording" && !recorderState.isRecording) {
       setState("idle");
       return null;
     }
+    const durationMillis =
+      recorderState.durationMillis || Date.now() - startedAtRef.current;
     setState("transcribing");
     try {
       await recorder.stop();
       await setAudioModeAsync({ allowsRecording: false });
+      if (durationMillis < 2000) {
+        setState("idle");
+        return null;
+      }
       const uri = recorder.uri;
       if (!uri) {
         setState("idle");
@@ -56,7 +66,19 @@ export function useVoiceInput(lang: Lang) {
       setState("error");
       return null;
     }
-  }, [recorder, lang]);
+  }, [
+    recorder,
+    recorderState.durationMillis,
+    recorderState.isRecording,
+    state,
+    lang
+  ]);
 
-  return { state, start, stop };
+  return {
+    state,
+    start,
+    stop,
+    isRecording: recorderState.isRecording,
+    durationMillis: recorderState.durationMillis
+  };
 }

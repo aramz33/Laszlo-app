@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 
 import {
+  HISTORY_CAP,
   askStream,
   generateFollowups,
   type HistoryMessage,
@@ -25,30 +26,74 @@ type Args = {
   lang: Lang;
   profile?: Profile;
   steering?: Steering;
+  hotspotId?: string | null;
+  onAnswer?: (text: string) => void;
 };
 
-type AskOptions = {
+export type AskOptions = {
   hotspotId?: string | null;
   point?: Point | null;
 };
 
+type ChatThread = {
+  messages: ChatMessage[];
+  followups: string[];
+};
+
 let counter = 0;
 const nextId = () => `m${++counter}`;
+const ARTWORK_THREAD_ID = "__artwork__";
+
+function threadIdOf(hotspotId?: string | null) {
+  return hotspotId ?? ARTWORK_THREAD_ID;
+}
+
+function emptyThread(): ChatThread {
+  return { messages: [], followups: [] };
+}
+
+function updateThread(
+  threads: Record<string, ChatThread>,
+  threadId: string,
+  update: (thread: ChatThread) => ChatThread
+) {
+  return {
+    ...threads,
+    [threadId]: update(threads[threadId] ?? emptyThread())
+  };
+}
+
+function summarizeOlderHistory(history: HistoryMessage[]) {
+  const older = history.slice(0, -HISTORY_CAP);
+  if (older.length === 0) return null;
+  return older
+    .slice(-6)
+    .map((m) => `${m.role}: ${m.content.slice(0, 180)}`)
+    .join("\n");
+}
 
 /**
- * Drives the chat surface for an artwork: holds the message list, streams the
- * assistant answer via `mode=ask`, keeps a capped history for the runtime, and
- * fetches 3 follow-up suggestions after each turn (and on demand).
+ * Drives the chat surface for an artwork: one UI thread per hotspot, one shared
+ * visit history for the runtime.
  */
-export function useChat({ artworkId, lang, profile, steering }: Args) {
-  const [messages, setMessages] = useState<ChatMessage[]>([]);
-  const [followups, setFollowups] = useState<string[]>([]);
+export function useChat({
+  artworkId,
+  lang,
+  profile,
+  steering,
+  hotspotId,
+  onAnswer
+}: Args) {
+  const currentThreadId = threadIdOf(hotspotId);
+  const [threads, setThreads] = useState<Record<string, ChatThread>>({});
   const [busy, setBusy] = useState(false);
+  const historyRef = useRef<HistoryMessage[]>([]);
   const abortRef = useRef<(() => void) | null>(null);
+  const currentThread = threads[currentThreadId] ?? emptyThread();
 
   useEffect(() => {
-    setMessages([]);
-    setFollowups([]);
+    setThreads({});
+    historyRef.current = [];
     setBusy(false);
     return () => {
       abortRef.current?.();
@@ -56,12 +101,35 @@ export function useChat({ artworkId, lang, profile, steering }: Args) {
   }, [artworkId]);
 
   const refreshFollowups = useCallback(
-    (hotspotId?: string | null) => {
-      generateFollowups({ artworkId, hotspotId: hotspotId ?? null, lang, profile })
-        .then(setFollowups)
-        .catch(() => setFollowups([]));
+    (targetHotspotId?: string | null) => {
+      const resolvedHotspotId =
+        targetHotspotId === undefined ? (hotspotId ?? null) : targetHotspotId;
+      const targetThreadId = threadIdOf(resolvedHotspotId);
+      generateFollowups({
+        artworkId,
+        hotspotId: resolvedHotspotId,
+        lang,
+        profile,
+        historySummary: summarizeOlderHistory(historyRef.current)
+      })
+        .then((nextFollowups) =>
+          setThreads((prev) =>
+            updateThread(prev, targetThreadId, (thread) => ({
+              ...thread,
+              followups: nextFollowups
+            }))
+          )
+        )
+        .catch(() =>
+          setThreads((prev) =>
+            updateThread(prev, targetThreadId, (thread) => ({
+              ...thread,
+              followups: []
+            }))
+          )
+        );
     },
-    [artworkId, lang, profile]
+    [artworkId, hotspotId, lang, profile]
   );
 
   const ask = useCallback(
@@ -69,6 +137,8 @@ export function useChat({ artworkId, lang, profile, steering }: Args) {
       const trimmed = question.trim();
       if (!trimmed || busy) return;
 
+      const targetHotspotId = options?.hotspotId ?? hotspotId ?? null;
+      const targetThreadId = threadIdOf(targetHotspotId);
       const userMsg: ChatMessage = {
         id: nextId(),
         role: "user",
@@ -83,19 +153,25 @@ export function useChat({ artworkId, lang, profile, steering }: Args) {
         streaming: true
       };
 
-      const priorHistory: HistoryMessage[] = messages.map((m) => ({
-        role: m.role,
-        content: m.content,
-        artwork_id: artworkId
-      }));
+      const priorHistory = historyRef.current;
+      let assistantText = "";
 
-      setMessages((prev) => [...prev, userMsg, assistantMsg]);
-      setFollowups([]);
+      setThreads((prev) =>
+        updateThread(prev, targetThreadId, (thread) => ({
+          messages: [...thread.messages, userMsg, assistantMsg],
+          followups: []
+        }))
+      );
       setBusy(true);
 
       const patch = (fn: (m: ChatMessage) => ChatMessage) =>
-        setMessages((prev) =>
-          prev.map((m) => (m.id === assistantId ? fn(m) : m))
+        setThreads((prev) =>
+          updateThread(prev, targetThreadId, (thread) => ({
+            ...thread,
+            messages: thread.messages.map((m) =>
+              m.id === assistantId ? fn(m) : m
+            )
+          }))
         );
 
       abortRef.current = askStream(
@@ -103,24 +179,38 @@ export function useChat({ artworkId, lang, profile, steering }: Args) {
           artworkId,
           question: trimmed,
           lang,
-          hotspotId: options?.hotspotId ?? null,
+          hotspotId: targetHotspotId,
           point: options?.point ?? null,
           profile,
           steering,
-          history: priorHistory
+          history: priorHistory,
+          historySummary: summarizeOlderHistory(priorHistory)
         },
         {
-          onDelta: (delta) =>
-            patch((m) => ({ ...m, content: m.content + delta })),
+          onDelta: (delta) => {
+            assistantText += delta;
+            patch((m) => ({ ...m, content: m.content + delta }));
+          },
           onDone: (text, sources) => {
+            const finalText = text || assistantText;
             patch((m) => ({
               ...m,
-              content: text || m.content,
+              content: finalText || m.content,
               streaming: false,
               sources
             }));
+            historyRef.current = [
+              ...historyRef.current,
+              { role: "user", content: trimmed, artwork_id: artworkId },
+              {
+                role: "assistant",
+                content: finalText,
+                artwork_id: artworkId
+              }
+            ];
+            if (finalText) onAnswer?.(finalText);
             setBusy(false);
-            refreshFollowups(options?.hotspotId ?? null);
+            refreshFollowups(targetHotspotId);
           },
           onError: (message) => {
             patch((m) => ({
@@ -134,8 +224,23 @@ export function useChat({ artworkId, lang, profile, steering }: Args) {
         }
       );
     },
-    [artworkId, busy, lang, messages, profile, steering, refreshFollowups]
+    [
+      artworkId,
+      busy,
+      hotspotId,
+      lang,
+      onAnswer,
+      profile,
+      steering,
+      refreshFollowups
+    ]
   );
 
-  return { messages, followups, busy, ask, refreshFollowups };
+  return {
+    messages: currentThread.messages,
+    followups: currentThread.followups,
+    busy,
+    ask,
+    refreshFollowups
+  };
 }
