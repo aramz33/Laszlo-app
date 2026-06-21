@@ -46,7 +46,7 @@ date: 2026-06-20
 **Reste lane Siffrein (par priorité) :**
 - [x] **Coords hotspots phares** — placées à la main dans le playground → `update-hotspots` (vérifié 2026-06-21)
 - [x] **Notices Wikipedia phares (D3)** — résolu **au runtime** (pas d'édition des dumps en DB) : grounding EN-pivot + strip sections boilerplate + budget 8k tok au bord des sections, dans `generate/lib.ts`. Night Watch 16k→3.9k tok, Milkmaid →6.1k tok (vérifié sur prod 2026-06-21). Substrat `notice` reste complet/sourcé.
-- [ ] **Choix modèle LLM (M32)** — **décidé : gemma** (256k ctx, €0.25/€0.50 MT). Reste à appliquer : `supabase secrets set SCW_MODEL=<id-gemma-exact>` + redeploy `generate`.
+- [ ] **Choix modèle LLM (M32)** — gemma testé mais **trop lent** (overview ~22s e2e). **`gpt-oss-120b` testé = rapide** → candidat retenu. Appliqué via `SCW_MODEL` (secret, géré à la main).
 - [ ] ⚠ **SÉCU — retirer le model override par requête** (`body.model` dans `/generate`) avant tout usage prod/public : actuellement n'importe quel porteur de l'anon key peut choisir n'importe quel modèle Scaleway (abus coût). Dev/démo only. Cf. commentaire `ponytail:` dans `generate/index.ts`.
 - [ ] **Mollie** — edge function `mollie`, dernier
 
@@ -59,7 +59,7 @@ date: 2026-06-20
 - [x] 🟡 ~~Valider le contrat `f()` avec Siffrein~~ → **figé dans ADR 0014** (validé Siffrein × Adam, 2026-06-20). `docs/megathon/4` = log des décisions.
 - [x] **Runtime `f()` = Edge Function Supabase** ✅ — 5 modes : `overview`/`hotspot`/`ask`/`persona`/`followups` · 86 tests · déployé
   - [x] **Endpoints** : `POST /generate` · `/speak` (ElevenLabs opt-in + Edge/Google) · `/transcribe` (Voxtral) · `/identify` (Pixtral)
-  - [x] 🟡 **Choisir le modèle LLM** — **décidé : gemma** (256k ctx, €0.25/€0.50 MT). À appliquer via `SCW_MODEL` + redeploy. Ancien défaut code : `mistral-small-3.2-24b`.
+  - [x] 🟡 **Choisir le modèle LLM** — gemma trop lent (~22s), **`gpt-oss-120b` testé rapide** = candidat retenu. Appliqué via `SCW_MODEL`. Ancien défaut code : `mistral-small-3.2-24b`.
 - [x] **Edge function `POST /transcribe`** ✅ — Voxtral, multipart, max 10 MB
 - [x] **Surface TTS serveur `POST /speak`** ✅ — ElevenLabs (opt-in, voix par langue) · Edge · Google fallback
 - [ ] 🟡 **Ajouter `location` au schéma** (musée + galerie, pour charger l'AR par salle) — **hardcode les phares** pour la démo (A3)
