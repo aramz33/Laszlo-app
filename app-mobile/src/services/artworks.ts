@@ -47,6 +47,16 @@ const ARTWORK_SELECT =
   "museum(name,city)," +
   "hotspot(id,x,y,title,aspect,narration_text,audio_url,duration_s,ord)";
 
+const TITLE_FIXES: Record<string, { title_en: string; title_nl: string }> = {
+  "SK-A-2344": { title_en: "The Milkmaid", title_nl: "Het melkmeisje" },
+  "SK-C-5": { title_en: "The Night Watch", title_nl: "De Nachtwacht" },
+};
+
+function cleanTitle(value: string | null | undefined): string | null {
+  const title = value?.replace(/_/g, " ").replace(/\s+/g, " ").trim();
+  return title || null;
+}
+
 function buildSubtitle(row: ArtworkRow): string {
   const parts: string[] = [];
   if (row.artist?.name) {
@@ -80,6 +90,20 @@ function mapHotspot(row: HotspotRow): Hotspot {
   };
 }
 
+function buildTitles(row: ArtworkRow) {
+  const fix = TITLE_FIXES[row.object_number];
+  const englishTitle = cleanTitle(fix?.title_en ?? row.title_en);
+  const originalTitle =
+    cleanTitle(fix?.title_nl ?? row.title_nl) ??
+    englishTitle ??
+    row.object_number;
+  return {
+    title: originalTitle,
+    originalTitle,
+    englishTitle: englishTitle === originalTitle ? "" : englishTitle ?? "",
+  };
+}
+
 function mapArtwork(row: ArtworkRow): Artwork {
   const hotspots = (row.hotspot ?? [])
     .slice()
@@ -89,7 +113,7 @@ function mapArtwork(row: ArtworkRow): Artwork {
   return {
     id: row.id,
     objectNumber: row.object_number,
-    title: row.title_en ?? row.title_nl ?? row.object_number,
+    ...buildTitles(row),
     subtitle: buildSubtitle(row),
     location: buildLocation(row),
     widthCm: row.width_cm ?? 0,

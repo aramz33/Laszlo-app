@@ -38,13 +38,20 @@ export function noticesToSources(notices: NoticeRow[]): Source[] {
   }));
 }
 
-/**
- * Hotspot body text. Stub returns the hand-written `narration_text` seed when present,
- * else a minimal title/aspect placeholder. Real version: rewrite the seed for the
- * visitor profile/language, grounded on the notices.
- */
+/** Hotspot fallback. Keep the French seed only for French; other languages get
+ * a small localized sentence so TTS never reads French with a foreign voice. */
 export function stubHotspotText(h: HotspotRow, lang: string): string {
-  return h.narration_text?.trim() || `[${lang}] ${h.title} (${h.aspect})`;
+  const seed = h.narration_text?.trim();
+  if (lang === "fr" && seed) return seed;
+
+  const detail = h.title?.trim() || h.aspect?.trim() || "this detail";
+  const FALLBACK: Record<string, string> = {
+    en: `Look closely at ${detail}. The full narration is not available right now.`,
+    nl:
+      `Kijk goed naar ${detail}. De volledige toelichting is nu niet beschikbaar.`,
+    fr: `Regardez bien ${detail}. La narration complète n'est pas disponible pour l'instant.`,
+  };
+  return FALLBACK[lang] ?? FALLBACK.en;
 }
 
 /**
@@ -56,12 +63,15 @@ export function stubHotspotText(h: HotspotRow, lang: string): string {
  * wire keys shared with the app (see data-model.md / ADR 0008). Code/labels are English.
  */
 export function stubPersona(
-  onboarding: Record<string, unknown>,
+  _onboarding: Record<string, unknown>,
   lang: string,
 ): string {
-  return `[persona ${lang}] motivation=${onboarding?.motivation ?? "?"}, knowledge=${
-    onboarding?.knowledge ?? "?"
-  }, depth=${onboarding?.depth ?? "?"}.`;
+  const FALLBACK: Record<string, string> = {
+    fr: "Ravi de vous accompagner devant ces œuvres.",
+    en: "Glad to walk you through these works.",
+    nl: "Fijn om u langs deze werken te begeleiden.",
+  };
+  return FALLBACK[lang] ?? FALLBACK.en;
 }
 
 /**
@@ -113,14 +123,19 @@ export function splitSections(text: string): Section[] {
 export function stripNoiseSections(text: string): string {
   return splitSections(text)
     .filter((s) => s.heading === "" || !NOISE_HEADING.test(s.heading))
-    .map((s) => (s.heading ? `\n\n${s.heading}\n${s.body.trim()}` : s.body.trim()))
+    .map((s) =>
+      s.heading ? `\n\n${s.heading}\n${s.body.trim()}` : s.body.trim(),
+    )
     .join("")
     .trim();
 }
 
 /** Section-aware fit: keep the lead, then whole sections in order until the budget is hit.
  *  Never cuts mid-section (so never mid-sentence). Returns the text unchanged if it fits. */
-export function fitToBudget(text: string, maxChars = GROUNDING_BUDGET_CHARS): string {
+export function fitToBudget(
+  text: string,
+  maxChars = GROUNDING_BUDGET_CHARS,
+): string {
   if (text.length <= maxChars) return text;
   const secs = splitSections(text);
   let out = secs[0].body.trim(); // lead always included
@@ -142,8 +157,8 @@ export function selectPivotNotices(notices: NoticeRow[]): NoticeRow[] {
   const pivot = hasWiki("en")
     ? "en"
     : hasWiki("nl")
-    ? "nl"
-    : notices.find((n) => n.lang === "en")?.lang ?? notices[0].lang;
+      ? "nl"
+      : (notices.find((n) => n.lang === "en")?.lang ?? notices[0].lang);
   return notices.filter((n) => n.lang === pivot);
 }
 
@@ -152,8 +167,9 @@ export function selectPivotNotices(notices: NoticeRow[]): NoticeRow[] {
  *  then fits within the shared budget (rijks first — tiny & authoritative — then wikipedia). */
 export function buildGrounding(notices: NoticeRow[]): string {
   if (notices.length === 0) return "FACTS: (none)";
-  const ordered = [...notices].sort((a, b) =>
-    (a.source === "wikipedia" ? 1 : 0) - (b.source === "wikipedia" ? 1 : 0)
+  const ordered = [...notices].sort(
+    (a, b) =>
+      (a.source === "wikipedia" ? 1 : 0) - (b.source === "wikipedia" ? 1 : 0),
   );
   let remaining = GROUNDING_BUDGET_CHARS;
   const blocks: string[] = [];

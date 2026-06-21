@@ -77,23 +77,23 @@ date: 2026-06-20
 - [ ] Vérifier la **porte toolchain mobile** : Mac + Xcode + Android Studio/EAS + iPhone physique + Android physique
 - [x] Scaffold app mobile Expo React Native + ViroReact — `/app-mobile`
 - [x] **Panel flow (wireframe fonctionnel)** — leviers UI inventoriés → **contrat `f()` figé dans ADR 0014**.
-- [ ] **Recâbler l'app sur Supabase** (l'impl actuelle est jetable : importe un `demoArtworks` fantôme + client Supabase inutilisé) : fetch `artwork?select=*,hotspot(*)&ref_image_url=not.is.null`, mapping → domaine, charger **par salle** (phares pour la démo)
-- [ ] **Hotspots personnalisés** : à l'entrée dans la vue œuvre, lancer **un `POST /generate mode=hotspot` batch** avec les N hotspots, profil + langue ; le tap hotspot lit le texte généré prêt (fallback : `narration_text` brut après 3 s)
+- [x] **Recâbler l'app sur Supabase** (vérifié 2026-06-21) : `fetchArtworks` → `supabase.select(ARTWORK_SELECT)` (mapping → domaine), fallback `sampleArtworks` quand pas de config (playbook). `demoArtworks` n'est plus la source mais le repli offline.
+- [x] **Hotspots personnalisés** (vérifié 2026-06-21) : `useHotspotTexts` lance le batch `mode=hotspot` à l'entrée, tap = texte prêt, fallback `narration_text` à 3 s.
   - [x] 🟡 Trancher : texte hotspot **personnalisé à chaque ouverture d'œuvre** (pas fixe, pas batch profil golden)
-- [ ] **Génération `f()` live** (`/generate mode=ask` streamé) sur : **chat libre**, **point placé par l'utilisateur** (tap libre sur l'œuvre + question), **conversation depuis un hotspot ancré** (grounding = hotspot généré + notices)
-- [ ] **Follow-ups** (`/generate mode=followups`) : 3 questions suggérées à chaque ouverture de hotspot + après un tour de chat ; tap → `mode=ask`
-- [ ] **Call persona** (`/generate mode=persona`) à la fin de l'onboarding → `persona_summary` stocké (AsyncStorage), réinjecté dans chaque appel `f()`
+- [ ] **Génération `f()` live** (`/generate mode=ask` streamé) — **chat libre ✅** + **conversation depuis hotspot ancré ✅** avec fil par-hotspot persistant en session courante (`ChatSessionProvider`, `useChat`, `hotspotId`) ; **reste : point placé par l'utilisateur** (tap libre sur l'œuvre + question)
+- [x] **Follow-ups** (`/generate mode=followups`) (vérifié 2026-06-21) : `chat.refreshFollowups` à l'ouverture du chat, rendus dans `ChatPanel`, tap → `mode=ask`.
+- [x] **Call persona** (`/generate mode=persona`) (vérifié 2026-06-21) : `generatePersona` en fin d'onboarding → `persona_summary` stocké (`saveStoredProfile`, AsyncStorage), réinjecté via `profile`.
 - [ ] **Vue AR** : détection œuvre ViroReact (tracking targets) → **point bleu ancré**
 - [ ] Tap point → **vue détail 2D** de l'œuvre
-- [ ] **Hotspots** sur la vue détail (points pré-définis depuis la DB)
-- [ ] **Lecteur audio** des hotspots + contrôles **vitesse / ton / voix** (changeables à la volée) — *audio TTS généré **live** depuis le texte hotspot personnalisé, pas de pré-rendu*
-- [ ] **Champ question** (texte + voix) sous l'œuvre → déclenche `/generate mode=ask` ; marche avec ou sans hotspot/point sélectionné
+- [x] **Hotspots** sur la vue détail (points DB) (vérifié 2026-06-21) : `HotspotGlow` mappés depuis `artwork.hotspots`.
+- [ ] **Lecteur audio** des hotspots + contrôles **vitesse / ton / voix** — **TTS live + play/pause + vitesse ✅** (`AudioDock`, `useAudioPlayer`) ; **reste : ton / voix changeables à la volée**
+- [x] **Champ question** (texte + voix) sous l'œuvre → `/generate mode=ask` (vérifié 2026-06-21) : `ChatPanel` + micro `useVoiceInput`, marche avec ou sans hotspot sélectionné.
 - [x] **Fallback identification par modèle de vision** : capture photo → `/identify` (Pixtral) identifie l'œuvre → ouverture de la vue détail (M31)
-- [ ] **Fallback sélection manuelle / QR / overlay 2D** prêt (même backend + même vue détail)
-- [ ] **Onboarding profil** : 3 questions skippables **ludiques**, **flux conditionnel** (la suite dépend des réponses), → axes neutres : **motivation · connaissance · profondeur** (1 tap chacun) (C1) — *wording = design*
+- [ ] **Fallback sélection manuelle / QR / overlay 2D** prêt (même backend + même vue détail) — *picker manuel ✅ (lane Adam) ; QR / overlay 2D restent*
+- [ ] **Onboarding profil** : 3 questions skippables — **QCM 3 axes (motivation · connaissance · profondeur) + intérêts + champ libre + skip ✅** (`OnboardingScreen`) ; **reste : flux conditionnel** (la suite dépend des réponses) + wording = design
   - [ ] **Mapping onboarding → input profil LLM** : transformer les sélections (pas les mots bruts) en un fragment riche et bien construit pour `f()` (côté serveur ; le client envoie les sélections) = partie du contrat `f()`
   - [ ] **Profils démo (presets) à définir** : 2-3 profils golden réglés (contraste fort), sélectionnables — **fallback** si saisie live / connexion casse
-- [ ] **Picker langue** visible, init sur la locale (C2)
+- [x] **Picker langue** visible, init sur la locale (C2) (vérifié 2026-06-21) : chips langue dans l'onboarding + `LanguageContext`.
 - [ ] UI **activation Mollie** (package musée / pilot), plutôt qu'un paywall visiteur dans l'app
 - [ ] (designer) Identité « doux sur le regard » + transitions + **écran « scale »** (N œuvres)
 
@@ -165,3 +165,6 @@ date: 2026-06-20
 - [ ] **SYNC 6** : ordre de passage finale + qui dit quoi
 
 <!-- maj : 2026-06-20 — checkpoint Siffrein après session Devin -->
+<!-- maj : 2026-06-21 — checkpoint app vérifié (tsc 0 err) : Supabase, hotspots perso, followups, persona, picker langue, lecteur audio (vitesse), champ question vox/texte = faits ; restent point libre, ton/voix à la volée, flux conditionnel onboarding, vue AR. Bonus non tracké : sous-titres TTS (`SubtitleOverlay`) — accessibilité malentendants. -->
+
+> **Bloquant unique côté serveur** (rappel lane Siffrein) : poser `SCW_MODEL=gpt-oss-120b` en prod, sinon défaut lent (8–15 s).

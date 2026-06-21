@@ -7,7 +7,9 @@ export const demoArtworks: Artwork[] = [
   {
     id: "SK-C-5",
     objectNumber: "SK-C-5",
-    title: "The Night Watch",
+    title: "De Nachtwacht",
+    originalTitle: "De Nachtwacht",
+    englishTitle: "The Night Watch",
     subtitle: "Rembrandt van Rijn, 1642",
     location: "Night Watch Gallery",
     widthCm: 453.5,
@@ -39,7 +41,9 @@ export const demoArtworks: Artwork[] = [
   {
     id: "SK-A-2344",
     objectNumber: "SK-A-2344",
-    title: "The Milkmaid",
+    title: "Het melkmeisje",
+    originalTitle: "Het melkmeisje",
+    englishTitle: "The Milkmaid",
     subtitle: "Johannes Vermeer, c. 1660",
     location: "Gallery of Honour",
     widthCm: 41,

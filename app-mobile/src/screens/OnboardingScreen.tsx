@@ -5,6 +5,7 @@ import {
   ScrollView,
   StyleSheet,
   Text,
+  TextInput,
   View,
 } from "react-native";
 
@@ -15,11 +16,12 @@ import {
 } from "../context/LanguageContext";
 import { generatePersona, type Lang } from "../services/runtime";
 import type {
-  Allure,
-  Interet,
-  Niveau,
+  Depth,
+  Knowledge,
+  Motivation,
   OnboardingAnswers,
   StoredProfile,
+  VisitTime,
 } from "../services/profile";
 import { colors, fonts, radii } from "../theme";
 
@@ -30,43 +32,46 @@ type Props = {
 
 type Option<T> = { value: T; label: string };
 
-const ALLURE_OPTIONS: Option<Allure>[] = [
-  { value: "court", label: "Quick" },
-  { value: "moyen", label: "Balanced" },
-  { value: "long", label: "In depth" },
+const MOTIVATION_OPTIONS: Option<Motivation>[] = [
+  { value: "contemplate", label: "Just to take it in" },
+  { value: "understand", label: "To understand it" },
+  { value: "stories", label: "The stories behind it" },
 ];
 
-const NIVEAU_OPTIONS: Option<Niveau>[] = [
-  { value: "debutant", label: "New to it" },
-  { value: "amateur", label: "Curious" },
-  { value: "expert", label: "Connoisseur" },
+const KNOWLEDGE_OPTIONS: Option<Knowledge>[] = [
+  { value: "newcomer", label: "I'm new to this" },
+  { value: "comfortable", label: "I know the basics" },
+  { value: "expert", label: "I know my stuff" },
 ];
 
-const INTEREST_OPTIONS: Option<Interet>[] = [
-  { value: "technique", label: "Technique" },
-  { value: "people", label: "The people" },
-  { value: "stories", label: "Stories" },
-  { value: "symbols", label: "Symbols" },
+const DEPTH_OPTIONS: Option<Depth>[] = [
+  { value: "quick", label: "Just the highlight" },
+  { value: "standard", label: "A solid take" },
+  { value: "deep", label: "The deep dive" },
+];
+
+const TIME_OPTIONS: Option<VisitTime>[] = [
+  { value: "short", label: "Just passing through" },
+  { value: "medium", label: "An hour or so" },
+  { value: "long", label: "No rush at all" },
 ];
 
 export function OnboardingScreen({ onComplete, initialAnswers }: Props) {
   const { lang, setLang } = useLanguage();
-  const [allure, setAllure] = useState<Allure | undefined>(
-    initialAnswers?.allure,
+  const [motivation, setMotivation] = useState<Motivation | undefined>(
+    initialAnswers?.motivation,
   );
-  const [niveau, setNiveau] = useState<Niveau | undefined>(
-    initialAnswers?.niveau,
+  const [knowledge, setKnowledge] = useState<Knowledge | undefined>(
+    initialAnswers?.knowledge,
   );
-  const [interets, setInterets] = useState<Interet[]>(
-    initialAnswers?.interets ?? [],
-  );
+  const [depth, setDepth] = useState<Depth | undefined>(initialAnswers?.depth);
+  const [time, setTime] = useState<VisitTime | undefined>(initialAnswers?.time);
+  const [freeText, setFreeText] = useState(initialAnswers?.free_text ?? "");
   const [busy, setBusy] = useState(false);
-
-  const toggleInterest = (value: Interet) => {
-    setInterets((prev) =>
-      prev.includes(value) ? prev.filter((v) => v !== value) : [...prev, value],
-    );
-  };
+  const [reveal, setReveal] = useState<{
+    summary: string;
+    stored: StoredProfile;
+  } | null>(null);
 
   const finish = async (answers: OnboardingAnswers) => {
     if (busy) return;
@@ -76,9 +81,9 @@ export function OnboardingScreen({ onComplete, initialAnswers }: Props) {
       personaSummary = await generatePersona({
         lang,
         onboarding: {
-          allure: answers.allure,
-          niveau: answers.niveau,
-          interets: answers.interets,
+          motivation: answers.motivation,
+          knowledge: answers.knowledge,
+          time: answers.time,
           free_text: answers.free_text ?? null,
         },
       });
@@ -90,40 +95,60 @@ export function OnboardingScreen({ onComplete, initialAnswers }: Props) {
       lang,
       answers,
       profile: {
-        allure: answers.allure,
-        niveau: answers.niveau,
-        interets: answers.interets,
+        motivation: answers.motivation,
+        knowledge: answers.knowledge,
+        depth: answers.depth,
+        time: answers.time,
         free_text: answers.free_text ?? null,
         persona_summary: personaSummary,
       },
     };
     setBusy(false);
-    onComplete(stored);
+    if (personaSummary) {
+      setReveal({ summary: personaSummary, stored });
+    } else {
+      onComplete(stored);
+    }
   };
 
   const onStart = () => {
-    finish({ allure, niveau, interets });
-  };
-
-  const onSkip = () => {
-    onComplete({
-      lang,
-      answers: { interets: [] },
-      profile: {},
+    finish({
+      motivation,
+      knowledge,
+      depth,
+      time,
+      free_text: freeText.trim() || undefined,
     });
   };
+
+  if (reveal) {
+    return (
+      <ScrollView style={styles.root} contentContainerStyle={styles.content}>
+        <View style={styles.head}>
+          <Text style={styles.kicker}>LASZLO</Text>
+          <Text style={styles.title}>Here's how I read you</Text>
+        </View>
+        <View style={styles.revealCard}>
+          <Text style={styles.revealText}>“{reveal.summary}”</Text>
+        </View>
+        <Pressable
+          style={styles.primary}
+          onPress={() => onComplete(reveal.stored)}
+        >
+          <Text style={styles.primaryText}>LET'S GO →</Text>
+        </Pressable>
+      </ScrollView>
+    );
+  }
 
   return (
     <ScrollView style={styles.root} contentContainerStyle={styles.content}>
       <View style={styles.head}>
         <Text style={styles.kicker}>LASZLO</Text>
         <Text style={styles.title}>Tune your guide</Text>
-        <Text style={styles.lede}>
-          Three quick taps shape how the guide talks to you. Skip anytime.
-        </Text>
       </View>
 
-      <Question label="Language">
+      <Question label="Laszlo speaks…">
         <View style={styles.optionRow}>
           {DEMO_LANGS.map((value: Lang) => (
             <Chip
@@ -136,43 +161,71 @@ export function OnboardingScreen({ onComplete, initialAnswers }: Props) {
         </View>
       </Question>
 
-      <Question label="How much do you want to hear?">
+      <Question label="What are you here for?">
         <View style={styles.optionRow}>
-          {ALLURE_OPTIONS.map((o) => (
+          {MOTIVATION_OPTIONS.map((o) => (
             <Chip
               key={o.value}
               label={o.label}
-              active={allure === o.value}
-              onPress={() => setAllure(o.value)}
+              active={motivation === o.value}
+              onPress={() => setMotivation(o.value)}
             />
           ))}
         </View>
       </Question>
 
-      <Question label="How familiar are you with art?">
+      <Question label="Art and you?">
         <View style={styles.optionRow}>
-          {NIVEAU_OPTIONS.map((o) => (
+          {KNOWLEDGE_OPTIONS.map((o) => (
             <Chip
               key={o.value}
               label={o.label}
-              active={niveau === o.value}
-              onPress={() => setNiveau(o.value)}
+              active={knowledge === o.value}
+              onPress={() => setKnowledge(o.value)}
             />
           ))}
         </View>
       </Question>
 
-      <Question label="What pulls you in? (pick any)">
+      <Question label="From each work, you want…">
         <View style={styles.optionRow}>
-          {INTEREST_OPTIONS.map((o) => (
+          {DEPTH_OPTIONS.map((o) => (
             <Chip
               key={o.value}
               label={o.label}
-              active={interets.includes(o.value)}
-              onPress={() => toggleInterest(o.value)}
+              active={depth === o.value}
+              onPress={() => setDepth(o.value)}
             />
           ))}
         </View>
+      </Question>
+
+      <Question label="How much time do you have?">
+        <View style={styles.optionRow}>
+          {TIME_OPTIONS.map((o) => (
+            <Chip
+              key={o.value}
+              label={o.label}
+              active={time === o.value}
+              onPress={() => setTime(o.value)}
+            />
+          ))}
+        </View>
+      </Question>
+
+      <Question label="Tell Laszlo more (optional)">
+        <TextInput
+          style={styles.freeText}
+          value={freeText}
+          onChangeText={setFreeText}
+          placeholder="An architect who loves how light falls…"
+          placeholderTextColor={colors.textFaint}
+          multiline
+          maxLength={240}
+        />
+        <Text style={styles.freeHint}>
+          The more you share, the sharper I get.
+        </Text>
       </Question>
 
       <Pressable
@@ -185,10 +238,6 @@ export function OnboardingScreen({ onComplete, initialAnswers }: Props) {
         ) : (
           <Text style={styles.primaryText}>START</Text>
         )}
-      </Pressable>
-
-      <Pressable style={styles.skip} onPress={onSkip} disabled={busy}>
-        <Text style={styles.skipText}>Skip</Text>
       </Pressable>
     </ScrollView>
   );
@@ -254,12 +303,6 @@ const styles = StyleSheet.create({
     fontFamily: fonts.serifSemibold,
     fontSize: 32,
   },
-  lede: {
-    color: colors.textMuted,
-    fontFamily: fonts.serifRegular,
-    fontSize: 16,
-    lineHeight: 23,
-  },
   question: {
     gap: 10,
   },
@@ -309,14 +352,36 @@ const styles = StyleSheet.create({
     fontSize: 12,
     letterSpacing: 2,
   },
-  skip: {
-    alignItems: "center",
-    paddingVertical: 6,
+  freeText: {
+    minHeight: 64,
+    borderColor: colors.hairlineStrong,
+    borderRadius: radii.lg,
+    borderWidth: 1,
+    paddingHorizontal: 16,
+    paddingVertical: 12,
+    color: colors.text,
+    fontFamily: fonts.serifRegular,
+    fontSize: 15,
+    backgroundColor: "rgba(8, 6, 4, 0.28)",
+    textAlignVertical: "top",
   },
-  skipText: {
+  freeHint: {
     color: colors.textFaint,
-    fontFamily: fonts.mono,
-    fontSize: 11,
-    letterSpacing: 1,
+    fontFamily: fonts.serifRegular,
+    fontSize: 13,
+  },
+  revealCard: {
+    borderColor: colors.accent,
+    borderWidth: 1,
+    borderRadius: radii.lg,
+    paddingHorizontal: 22,
+    paddingVertical: 26,
+    backgroundColor: colors.accentSoft,
+  },
+  revealText: {
+    color: colors.text,
+    fontFamily: fonts.serifRegular,
+    fontSize: 20,
+    lineHeight: 29,
   },
 });

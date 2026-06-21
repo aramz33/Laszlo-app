@@ -13,7 +13,9 @@ export const sampleArtworks: Artwork[] = [
   {
     id: "sample-SK-C-5",
     objectNumber: "SK-C-5",
-    title: "The Night Watch",
+    title: "De Nachtwacht",
+    originalTitle: "De Nachtwacht",
+    englishTitle: "The Night Watch",
     subtitle: "Rembrandt van Rijn · 1642",
     location: "Rijksmuseum · Amsterdam",
     widthCm: 453.5,
@@ -63,7 +65,9 @@ export const sampleArtworks: Artwork[] = [
   {
     id: "sample-SK-A-2344",
     objectNumber: "SK-A-2344",
-    title: "The Milkmaid",
+    title: "Het melkmeisje",
+    originalTitle: "Het melkmeisje",
+    englishTitle: "The Milkmaid",
     subtitle: "Johannes Vermeer · c. 1660",
     location: "Rijksmuseum · Amsterdam",
     widthCm: 41,

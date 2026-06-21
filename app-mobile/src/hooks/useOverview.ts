@@ -14,18 +14,20 @@ type OverviewState =
 export function useOverview({
   artworkId,
   lang,
-  profile
+  profile,
+  historySummary
 }: {
   artworkId: string;
   lang: Lang;
   profile?: Profile;
+  historySummary?: string | null;
 }) {
   const [state, setState] = useState<OverviewState>({ status: "loading" });
 
   useEffect(() => {
     let active = true;
     setState({ status: "loading" });
-    generateOverview({ artworkId, lang, profile })
+    generateOverview({ artworkId, lang, profile, historySummary })
       .then((res) => {
         if (!active) return;
         setState(res.text ? { status: "ready", text: res.text } : { status: "empty" });
@@ -36,7 +38,7 @@ export function useOverview({
     return () => {
       active = false;
     };
-  }, [artworkId, lang, profile]);
+  }, [artworkId, lang, profile, historySummary]);
 
   return state;
 }

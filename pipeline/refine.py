@@ -42,6 +42,17 @@ def _load_enriched(stem: str) -> dict:
     return {"wikidata": None, "wikipedia": {}}
 
 
+def _wiki_display_title(value: Optional[str]) -> Optional[str]:
+    if not value:
+        return None
+    title = re.sub(r"\s*\([^)]*\)$", "", value.replace("_", " ")).strip()
+    return title or None
+
+
+def _title(rec: dict, wd: dict, lang: str) -> Optional[str]:
+    return _wiki_display_title(wd.get(f"{lang}wiki_title")) or rec.get(f"title_{lang}")
+
+
 def _refine_one(path, creator_session) -> Optional[dict]:
     rec = edm.parse_record(path)
     if not rec.get("iiif_id") or not _is_cc0(rec.get("rights")):
@@ -54,8 +65,8 @@ def _refine_one(path, creator_session) -> Optional[dict]:
     return {
         "object_number": rec["object_number"],
         "uri": rec["uri"],
-        "title_en": rec["title_en"],
-        "title_nl": rec["title_nl"],
+        "title_en": _title(rec, wd, "en"),
+        "title_nl": _title(rec, wd, "nl"),
         "year": rec["year"],
         "height_cm": _dimension(rec.get("extent"), "height"),
         "width_cm": _dimension(rec.get("extent"), "width"),

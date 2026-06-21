@@ -3,7 +3,7 @@ import {
   useContext,
   useMemo,
   useState,
-  type ReactNode
+  type ReactNode,
 } from "react";
 
 import type { Lang } from "../services/runtime";
@@ -13,18 +13,18 @@ import type { Lang } from "../services/runtime";
  * chosen language (notices are stored only in en/nl), so the picker is a real
  * feature: it drives the `lang` sent to every /generate + /speak call.
  */
-export const DEMO_LANGS: readonly Lang[] = ["fr", "en"] as const;
+export const DEMO_LANGS: readonly Lang[] = ["fr", "en", "nl"] as const;
 
 export const LANG_LABELS: Record<Lang, string> = {
   fr: "FR",
   en: "EN",
-  nl: "NL"
+  nl: "NL",
 };
 
 export const LANG_NAMES: Record<Lang, string> = {
-  fr: "Français",
+  fr: "French",
   en: "English",
-  nl: "Nederlands"
+  nl: "Dutch",
 };
 
 type LanguageContextValue = {
@@ -36,7 +36,7 @@ const LanguageContext = createContext<LanguageContextValue | null>(null);
 
 export function LanguageProvider({
   children,
-  initialLang = "fr"
+  initialLang = "fr",
 }: {
   children: ReactNode;
   initialLang?: Lang;
@@ -45,7 +45,7 @@ export function LanguageProvider({
 
   const value = useMemo<LanguageContextValue>(
     () => ({ lang, setLang }),
-    [lang]
+    [lang],
   );
 
   return (
