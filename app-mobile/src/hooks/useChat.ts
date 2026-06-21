@@ -81,12 +81,27 @@ export function useChat({
   }, [artworkId]);
 
   // Abort any in-flight stream when the active thread switches (hotspot change).
+  // Also marks the orphaned streaming message as done so it doesn't show a
+  // perpetual loading indicator if the user switches back.
   const prevThreadIdRef = useRef(currentThreadId);
   useEffect(() => {
     if (prevThreadIdRef.current !== currentThreadId) {
       abortRef.current?.();
       abortRef.current = null;
       setBusy(false);
+      const oldThread = prevThreadIdRef.current;
+      setThreads((prev) => {
+        const thread = prev[oldThread];
+        if (!thread) return prev;
+        const hasStreaming = thread.messages.some((m) => m.streaming);
+        if (!hasStreaming) return prev;
+        return updateThread(prev, oldThread, (t) => ({
+          ...t,
+          messages: t.messages.map((m) =>
+            m.streaming ? { ...m, streaming: false } : m
+          )
+        }));
+      });
       prevThreadIdRef.current = currentThreadId;
     }
   }, [currentThreadId]);
