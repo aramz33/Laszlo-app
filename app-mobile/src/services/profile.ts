@@ -45,3 +45,11 @@ export async function saveStoredProfile(value: StoredProfile): Promise<void> {
     // Non-fatal: the session still works, it just won't persist across launches.
   }
 }
+
+export async function clearStoredProfile(): Promise<void> {
+  try {
+    await AsyncStorage.removeItem(STORAGE_KEY);
+  } catch {
+    // Non-fatal: worst case the next launch still sees the old profile.
+  }
+}
