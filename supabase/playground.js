@@ -17,7 +17,7 @@ const profile = () => {
   if ($('injectPersona').checked && personaSummary) p.persona_summary = personaSummary;
   return p;
 };
-const steering = () => ({ lens: $('lens').value || null, tone: $('tone').value || null });
+const steering = () => ({ tone: $('tone').value || null });
 // Dev-only: override the LLM model per request (empty = server default). Threaded into /generate only.
 const model = () => $('model').value.trim() || undefined;
 

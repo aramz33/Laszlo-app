@@ -203,13 +203,8 @@ Deno.test("systemPrompt defaults are applied when no profile is given", () => {
   assert(s.toLowerCase().includes("understand"), "expected understand motivation default");
 });
 
-Deno.test("systemPrompt injects steering.lens when provided", () => {
-  const s = systemPrompt("fr", undefined, { lens: "symbols", tone: null });
-  assert(s.includes("symbols"), "expected lens in prompt");
-});
-
 Deno.test("systemPrompt injects steering.tone when provided", () => {
-  const s = systemPrompt("fr", undefined, { lens: null, tone: "warm" });
+  const s = systemPrompt("fr", undefined, { tone: "warm" });
   assert(s.includes("warm"), "expected tone in prompt");
 });
 

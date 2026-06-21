@@ -94,8 +94,8 @@ runtime relit le grounding (`notice`) server-side.
 - `sources` **structuré** : `{ source, lang, notice_id }`, pas une liste de strings.
 - `mode=ask` = **SSE streamé** (`delta`/`done`/`error`) ; `hotspot`/`persona`/`followups`
   = **JSON final** (courts, pas de stream).
-- `profile` = cadrans neutres skippables + `persona_summary` (produit par `mode=persona`) ;
-  `steering` = re-steering live (`tone`, `lens` ∈ technique|people|stories|symbols).
+- `profile` = 3 axes neutres skippables (`motivation`/`knowledge`/`depth`) + `persona_summary` (produit par `mode=persona`) ;
+  `steering` = re-steering live (`tone`). L'angle d'intérêt (lens) est **parqué** (futur power feature, hors démo).
 
 ### `mode=overview` — intro générale, à l'entrée de la vue œuvre
 
@@ -136,7 +136,7 @@ après **3 s**. Les hotspots ne sont **pas** recalculés à l'intérieur d'une m
   "profile": { "motivation": "contemplate|understand|stories", "knowledge": "newcomer|comfortable|expert",
                "depth": "quick|standard|deep", "free_text": "string | null",
                "persona_summary": "string | null", "kid": "bool (réservé, futur)" },
-  "steering": { "tone": "string | null", "lens": "technique|people|stories|symbols|null" },
+  "steering": { "tone": "string | null" },
   "history_summary": "string | null",
   "history": [ { "role": "user|assistant", "content": "string", "artwork_id": "uuid | null" } ]
 }

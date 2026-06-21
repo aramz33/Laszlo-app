@@ -26,7 +26,7 @@ const headers = {
 
 Shared optional fields: `request_id` (echoed back), `lang` (`fr|en|nl`),
 `profile` (`{ motivation, knowledge, depth, free_text, persona_summary, kid? }`),
-`steering` (`{ tone, lens }`), `history` (capped 8), `history_summary`.
+`steering` (`{ tone }`; interest lens parked — future power feature), `history` (capped 8), `history_summary`.
 
 ### mode `overview` — whole-artwork intro (fire once, when the artwork opens)
 

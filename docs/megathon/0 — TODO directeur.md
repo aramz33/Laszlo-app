@@ -48,6 +48,7 @@ date: 2026-06-20
 - [x] **Notices Wikipedia phares (D3)** — résolu **au runtime** (pas d'édition des dumps en DB) : grounding EN-pivot + strip sections boilerplate + budget 8k tok au bord des sections, dans `generate/lib.ts`. Night Watch 16k→3.9k tok, Milkmaid →6.1k tok (vérifié sur prod 2026-06-21). Substrat `notice` reste complet/sourcé.
 - [ ] **Choix modèle LLM (M32)** — **décidé : `gpt-oss-120b`** (mesuré : overview ~2.2s, ask TTFT ~1.1s / total ~2s, via override). gemma écarté (trop lent, 8–22s). ⚠ **Reste à poser le secret prod** : `supabase secrets set SCW_MODEL=gpt-oss-120b` (le défaut prod actuel est encore le modèle lent, 8–15s).
 - [ ] ⚠ **SÉCU — retirer le model override par requête** (`body.model` dans `/generate`) avant tout usage prod/public : actuellement n'importe quel porteur de l'anon key peut choisir n'importe quel modèle Scaleway (abus coût). Dev/démo only. Cf. commentaire `ponytail:` dans `generate/index.ts`.
+- [ ] *(hors démo, futur)* **Lens d'intérêt = « power feature »** : angle de médiation (technique/histoire/symbole/personnages) sous forme de skill/commande dans le chat, pas un axe de profil ni un bouton de steering. Plomberie `steering.lens` retirée en attendant (2026-06-21).
 - [ ] **Mollie** — edge function `mollie`, dernier
 
 ## Backend

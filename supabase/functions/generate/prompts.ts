@@ -10,8 +10,9 @@
 //   motivation — why they're looking   (contemplate | understand | stories)
 //   knowledge  — prior knowledge       (newcomer | comfortable | expert)
 //   depth      — length / attention    (quick | standard | deep)
-// The interest lens is NOT a profile axis — it shifts artwork-to-artwork, so it lives in
-// runtime steering.lens. `kid` is a parked profile flag for future kid features (unused).
+// Interest lens is PARKED (out of demo): a future "power feature" surfaced as a chat
+// skill/command, not a profile axis and not a steering field. `kid` is likewise a parked
+// profile flag for future kid features (unused). steering currently carries only `tone`.
 
 import type { HotspotRow } from "./lib.ts";
 
@@ -82,10 +83,7 @@ export function systemPrompt(
   const persona = profile?.persona_summary
     ? `\n\nVisitor profile (honor it): ${profile.persona_summary}.`
     : "";
-  const steer = [
-    steering?.lens ? `Favor the "${steering.lens}" angle.` : "",
-    steering?.tone ? `Adopt this tone: ${steering.tone}.` : "",
-  ].filter(Boolean).join(" ");
+  const steer = steering?.tone ? `Adopt this tone: ${steering.tone}.` : "";
   const steeringLine = steer ? `\n\n${steer}` : "";
   return render(SYSTEM_TPL, {
     lang,

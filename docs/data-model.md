@@ -205,8 +205,8 @@ suivantes. Cadrage et justification : **ADR 0008**.
 | **Profondeur** | `quick` · `standard` · `deep` | longueur — paramètre de génération runtime |
 
 Hors profil : l'**angle d'intérêt** (technique/histoire/symbole/personnages) n'est **pas**
-un axe de profil — il change d'œuvre à œuvre, donc c'est du **steering runtime**
-(`steering.lens`, boutons UI). Champ `kid` (bool) réservé à de futures features enfants.
+un axe de profil. **Parqué hors démo** → futur « power feature » (skill/commande dans le
+chat), pas un bouton de steering. Champ `kid` (bool) réservé à de futures features enfants.
 
 **Architecture en 3 couches :** Connaissance (partagée, ce contrat) → Glossaire /
 vocabulaire gradué (termes, définitions par niveau) → Profil utilisateur (préférences

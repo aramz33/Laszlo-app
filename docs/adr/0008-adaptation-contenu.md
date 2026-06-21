@@ -19,8 +19,9 @@ Les mêmes faits ancrés doivent s'adapter (1) à l'utilisateur (profil) et (2) 
 > **Révision 2026-06-21 (M??)** : refonte des axes. Les anciens cadrans `Allure / Niveau /
 > Centre d'intérêt` sont remplacés. **Motivation** (pourquoi le visiteur regarde — fondé sur
 > le modèle d'identités visiteur de Falk) devient l'axe à plus fort impact. L'**angle
-> d'intérêt** sort du profil → **steering runtime** (`steering.lens`), car il change d'œuvre
-> à œuvre. Le « avec enfants » est situationnel (le visiteur s'adapte, pas l'app) → retiré ;
+> d'intérêt** sort du profil et est **parqué hors démo** → futur « power feature » (skill /
+> commande dans le chat), pas un bouton de steering, car il change d'œuvre à œuvre. Le
+> « avec enfants » est situationnel (le visiteur s'adapte, pas l'app) → retiré ;
 > un flag `kid` est réservé pour de futures features. Toujours **axes neutres, pas personas
 > nommés**, et toujours **additif** (aucune migration du contrat figé).
 
